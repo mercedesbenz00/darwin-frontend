@@ -1,0 +1,18 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12.5 12.5L7.5 7.5" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round"
+    stroke-linejoin="round" />
+  <rect x="3.99969" y="4.00035" width="4.00059" height="4.00059" rx="2.0003" fill="black" fill-opacity="0.08"
+    stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M6.00006 2V3.60024" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M10.0008 6.0007L8.40056 6.0007" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M6.00006 8.40021V10.0004" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M3.60022 6.0007L1.99998 6.0007" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="6" cy="14" r="1" fill="var(--first-color)" />
+  <circle cx="14" cy="6" r="1" fill="var(--first-color)" />
+  <rect x="11.999" y="11.9999" width="4.00059" height="4.00059" rx="2.0003" fill="black" fill-opacity="0.08"
+    stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M13.9993 9.99951V11.5997" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M18.0001 14.0002L16.3998 14.0002" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M13.9993 16.3997V18" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M11.5995 14.0002L9.99925 14.0002" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" />
+</svg>

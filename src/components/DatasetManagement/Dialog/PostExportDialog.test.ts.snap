@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="post-export" height="500px">
+  <modal-header-v2-stub></modal-header-v2-stub>
+  <modal-content-v2-stub loading-options="[object Object]" loading="false">
+    <citation-info-stub dataset="[object Object]"></citation-info-stub>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="default" color="secondary" size="medium" flair="soft" tag="button">
+      Accept
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="secondary" size="medium" flair="soft" tag="button">
+      Upgrade
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;

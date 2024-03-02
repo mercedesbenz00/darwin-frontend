@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" auto-hide="" trigger="manual" popover-class="tooltip--white popover--tool_class_selection" offset="5" placement="bottom-start">
+  <div class="main">
+    <div class="tool-class" tooltip="{'content':'\\n        <span><span class=\\'tooltip__hotkey\\'>Q</span> to open.</span><br>\\n        <span>\\n          <span class=\\'tooltip__hotkey\\'>↑</span>\\n           and <span class=\\'tooltip__hotkey\\'>↑</span> to navigate.</span><br>\\n        <span><span class=\\'tooltip__hotkey\\'>Enter</span> to select.</span>\\n      ','classes':'tooltip--hotkey-in-text'}">
+      <div class="tool-class__selected"><span class="tool-class__selected__color-indicator" style="background-color: rgba(0, 0, 0, 0.1);"></span> <span class="tool-class__selected__label">Flask</span> <span class="tool-class__selected__arrow"></span></div>
+    </div>
+  </div>
+  <div class="popover">
+    <tool-class-selection-list-stub annotationclasses="[object Object]" editor="[object Object]"></tool-class-selection-list-stub>
+  </div>
+</div>
+`;

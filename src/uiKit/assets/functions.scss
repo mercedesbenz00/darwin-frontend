@@ -1,0 +1,21 @@
+/*
+  @Definition
+    @function map-deep-get($map, $keys...);
+    $map: a multilevel nested scss map
+    $keys: arglist used to traverse the map
+*/
+@function map-deep-get($map, $name, $keys...) {
+  $debug: $name;
+  @each $key in $keys {
+    $key: #{$key};
+    @if map-has-key($map, $key) {
+      $debug: "#{$debug}>#{$key}";
+      $map: map-get($map, #{$key});
+    } @else if ($key) {
+      @error "'#{$key}' (#{type-of($key)}) is not a valid key for path '#{$debug}'";
+    } @else {
+      @return $map;
+    }
+  }
+  @return $map;
+}

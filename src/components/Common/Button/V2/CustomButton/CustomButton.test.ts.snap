@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show correct default slot content should contain correct text 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none">
+    <div>SUBMIT</div>
+  </h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's informative 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--informative size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's negative 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--negative size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's positive 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--positive size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's primary 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--primary size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's secondary 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's stage-annotation 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--stage-annotation size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's stage-model 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--stage-model size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's stage-review 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--stage-review size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's transparent 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--transparent size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors if it's disabled should match classes if color it's warning 1`] = `
+<button disabled="disabled" class="custom-button variant--default color--warning size--medium flair--soft tag--button custom-button--disabled custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's informative 1`] = `
+<button class="custom-button variant--default color--informative size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's negative 1`] = `
+<button class="custom-button variant--default color--negative size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's positive 1`] = `
+<button class="custom-button variant--default color--positive size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's primary 1`] = `
+<button class="custom-button variant--default color--primary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's secondary 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's stage-annotation 1`] = `
+<button class="custom-button variant--default color--stage-annotation size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's stage-model 1`] = `
+<button class="custom-button variant--default color--stage-model size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's stage-review 1`] = `
+<button class="custom-button variant--default color--stage-review size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's transparent 1`] = `
+<button class="custom-button variant--default color--transparent size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the colors should match classes if color it's warning 1`] = `
+<button class="custom-button variant--default color--warning size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the flairs should match classes if flair it's rounded 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--rounded tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the flairs should match classes if flair it's soft 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the flairs should match classes if flair it's super-soft 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--super-soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the sizes should match classes if size it's large 1`] = `
+<button class="custom-button variant--default color--secondary size--large flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the sizes should match classes if size it's medium 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the sizes should match classes if size it's small 1`] = `
+<button class="custom-button variant--default color--secondary size--small flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the sizes should match classes if size it's very-small 1`] = `
+<button class="custom-button variant--default color--secondary size--very-small flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the tags should match classes if tag it's a 1`] = `
+<a class="custom-button variant--default color--secondary size--medium flair--soft tag--a custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</a>
+`;
+
+exports[`test all the tags should match classes if tag it's button 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the tags should match classes if tag it's div 1`] = `
+<div class="custom-button variant--default color--secondary size--medium flair--soft tag--div custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</div>
+`;
+
+exports[`test all the tags should match classes if tag it's router-link 1`] = `
+<router-link-stub class="custom-button variant--default color--secondary size--medium flair--soft tag--router-link custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</router-link-stub>
+`;
+
+exports[`test all the variants should match classes if variant it's default 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test all the variants should match classes if variant it's outline 1`] = `
+<button class="custom-button variant--outline color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test the icon positions when both prefix and suffix slot it's used should match classes 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--both" style="width: auto;"><span class="custom-button__slot"><svg></svg></span>
+  <h2 class="custom-button__label custom-button__label--both"></h2> <span class="custom-button__slot"><svg></svg></span>
+</button>
+`;
+
+exports[`test the icon positions when no slot it's used should match classes 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--none" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test the icon positions when prefix slot it's used should match classes 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--left" style="width: auto;"><span class="custom-button__slot"><svg></svg></span>
+  <h2 class="custom-button__label custom-button__label--left"></h2>
+  <!---->
+</button>
+`;
+
+exports[`test the icon positions when suffix slot it's used should match classes 1`] = `
+<button class="custom-button variant--default color--secondary size--medium flair--soft tag--button custom-button--icon--right" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--right"></h2> <span class="custom-button__slot"><svg></svg></span>
+</button>
+`;

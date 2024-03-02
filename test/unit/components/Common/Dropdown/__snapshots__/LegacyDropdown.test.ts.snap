@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic behavior matches snapshot 1`] = `
+<div class="dropdown dropdown--dark">
+  <!---->
+  <div class="dropdown__select">
+    <select2-stub placeholder="" options="[object Object],[object Object]" settings="[object Object]" value="1"></select2-stub>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`prop-based validation error matches snapshot 1`] = `
+<div class="dropdown dropdown--error dropdown--dark">
+  <!---->
+  <div class="dropdown__select">
+    <select2-stub placeholder="" options="[object Object],[object Object]" settings="[object Object]" value="1"></select2-stub>
+  </div>
+  <div class="dropdown__error">
+    Foo Error
+  </div>
+</div>
+`;
+
+exports[`setError-based validation error matches snapshot 1`] = `
+<div class="dropdown dropdown--error dropdown--dark">
+  <!---->
+  <div class="dropdown__select">
+    <select2-stub placeholder="" options="[object Object],[object Object]" settings="[object Object]" value="1"></select2-stub>
+  </div>
+  <div class="dropdown__error">
+    Foo Error
+  </div>
+</div>
+`;

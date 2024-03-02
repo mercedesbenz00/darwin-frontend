@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on initial load matches snapshot 1`] = `
+<div class="sampling">
+  <div class="sampling__placeholder">
+    This dataset contains no completed items
+  </div>
+</div>
+`;
+
+exports[`on last page matches snapshot 1`] = `
+<div class="sampling">
+  <h4 class="sampling__header">
+    Item Samples
+  </h4>
+  <div class="sampling__content"><button disabled="disabled" class="sampling__navigation sampling__navigation--prev">
+      ◀
+    </button>
+    <div class="sampling__container">
+      <recycle-scroller-stub items="[object Object],[object Object]" keyfield="id" direction="horizontal" itemsize="160" sizefield="size" typefield="type" buffer="2000" prerender="0" emitupdate="true" class="sampling__container__scroller"></recycle-scroller-stub>
+    </div> <button class="sampling__navigation sampling__navigation--next" tooltip="Load more">
+      ▶
+    </button>
+  </div>
+</div>
+`;
+
+exports[`when loaded matches snapshot 1`] = `
+<div class="sampling">
+  <h4 class="sampling__header">
+    Item Samples
+  </h4>
+  <div class="sampling__content"><button disabled="disabled" class="sampling__navigation sampling__navigation--prev">
+      ◀
+    </button>
+    <div class="sampling__container">
+      <div class="vue-recycle-scroller sampling__container__scroller" buffer="2000" emit-update="true" item-size="160" direction="horizontal" key-field="id">
+        <div class="vue-recycle-scroller__item-wrapper">
+          <div class="vue-recycle-scroller__item-view">
+            <div class="sampling__card-container">
+              <item-sample-stub data="[object Object]"></item-sample-stub>
+              <!---->
+            </div>
+          </div>
+          <div class="vue-recycle-scroller__item-view">
+            <div class="sampling__card-container">
+              <item-sample-stub data="[object Object]"></item-sample-stub>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <button class="sampling__navigation sampling__navigation--next" tooltip="undefined">
+      ▶
+    </button>
+  </div>
+</div>
+`;
+
+exports[`when no items matches snapshot 1`] = `
+<div class="sampling">
+  <div class="sampling__placeholder">
+    This dataset contains no completed items
+  </div>
+</div>
+`;

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assignability by type when annotate template matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <div class="v-popover-stub dropdown" popover-class="stage-item-popover" placement="auto-start" trigger="click">
+    <div class="main">
+      <assignment-dropdown-trigger-stub class="dropdown__trigger"></assignment-dropdown-trigger-stub>
+    </div>
+    <div class="popover">
+      <assignment-dropdown-stub status="annotate" class="dropdown__content"></assignment-dropdown-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`assignability by type when code template matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`assignability by type when complete template matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`assignability by type when model template matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`assignability by type when review template matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <div class="v-popover-stub dropdown" popover-class="stage-item-popover" placement="auto-start" trigger="click">
+    <div class="main">
+      <assignment-dropdown-trigger-stub class="dropdown__trigger"></assignment-dropdown-trigger-stub>
+    </div>
+    <div class="popover">
+      <assignment-dropdown-stub status="review" class="dropdown__content"></assignment-dropdown-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when able to assign matches snapshot for annotate item 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <div class="v-popover-stub dropdown" popover-class="stage-item-popover" placement="auto-start" trigger="click">
+    <div class="main">
+      <assignment-dropdown-trigger-stub class="dropdown__trigger"></assignment-dropdown-trigger-stub>
+    </div>
+    <div class="popover">
+      <assignment-dropdown-stub status="annotate" class="dropdown__content"></assignment-dropdown-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when able to assign matches snapshot for complete item 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when able to assign matches snapshot for review item 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <div class="v-popover-stub dropdown" popover-class="stage-item-popover" placement="auto-start" trigger="click">
+    <div class="main">
+      <assignment-dropdown-trigger-stub class="dropdown__trigger"></assignment-dropdown-trigger-stub>
+    </div>
+    <div class="popover">
+      <assignment-dropdown-stub status="review" class="dropdown__content"></assignment-dropdown-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when unable to assign matches snapshot for annotate item 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when unable to assign matches snapshot for complete item 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when unable to assign matches snapshot for review item 1`] = `
+<div class="stage-item">
+  <div class="v-popover-stub" placement="bottom" trigger="hover" delay="[object Object]" popover-class="stage-item-popover">
+    <div class="main">Main UI</div>
+    <div class="popover">Hover UI</div>
+  </div>
+  <!---->
+</div>
+`;

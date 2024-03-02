@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when disabled 1`] = `
+<gallery-context-menu-item-stub label="" disabled="true">
+  <check-box-stub name="showNotifications" disabled="true" label="Context Menu Item" type="rect" size="default" class="gallery-context-menu-check-item__checkbox"></check-box-stub>
+</gallery-context-menu-item-stub>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<gallery-context-menu-item-stub label="" value="true">
+  <check-box-stub name="showNotifications" value="true" label="Context Menu Item" type="rect" size="default" class="gallery-context-menu-check-item__checkbox"></check-box-stub>
+</gallery-context-menu-item-stub>
+`;
+
+exports[`matches snapshot without icon 1`] = `
+<gallery-context-menu-item-stub label="">
+  <check-box-stub name="showNotifications" label="Context Menu Item" type="rect" size="default" class="gallery-context-menu-check-item__checkbox"></check-box-stub>
+</gallery-context-menu-item-stub>
+`;
+
+exports[`renders tooltip properly 1`] = `
+<gallery-context-menu-item-stub label="" tooltip="Tooltip">
+  <check-box-stub name="showNotifications" label="Context Menu Item" type="rect" size="default" class="gallery-context-menu-check-item__checkbox"></check-box-stub>
+</gallery-context-menu-item-stub>
+`;

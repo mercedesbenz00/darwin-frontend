@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot with image 1`] = `
+<div class="instruction-class">
+  <div class="instruction-class__image"><img></div>
+  <div class="instruction-class__name">
+    Flask
+  </div>
+  <div class="instruction-class__type">
+    <div class="instruction-class__type__types">
+      <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)" class="instruction-class__type__type"></type-icon-stub>
+    </div>
+    <div class="instruction-class__type__pencil"><img src="/static/imgs/pencil-gray-icon.svg"></div>
+  </div>
+</div>
+`;

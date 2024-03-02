@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches shapshot when member info available 1`] = `<avatar-stub name="V7" id="1" size="35" class="key-team"></avatar-stub>`;
+
+exports[`matches snapshot when member info not available 1`] = ``;

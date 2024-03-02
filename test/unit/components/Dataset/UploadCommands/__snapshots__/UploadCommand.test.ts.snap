@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="upload-command"><label class="upload-command__label">Test Command</label>
+  <div class="upload-command__command">
+    $&nbsp;upload test command
+  </div>
+</div>
+`;

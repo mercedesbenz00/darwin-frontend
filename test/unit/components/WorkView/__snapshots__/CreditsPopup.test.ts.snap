@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="modal-stub" classes="credits-popup" name="credits-popup" width="30%" height="auto" min-width="200" max-width="500" transition="pop-out">
+  <div class="confirmation-dialog-layout-stub">
+    <div class="title-slot-given">
+      Your Team is out of Annotation Credits
+    </div>
+    <div class="description-slot-given">
+      You can add more by editing your plan and continue annotating.
+    </div>
+    <div class="footer-slot-given">
+      <secondary-button-stub>
+        Close
+      </secondary-button-stub>
+      <primary-button-stub>
+        Manage Plan
+      </primary-button-stub>
+    </div>
+  </div>
+</div>
+`;

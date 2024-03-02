@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<h3></h3>`;
+
+exports[`matches snapshot with slots 1`] = `<h3>default-slot</h3>`;

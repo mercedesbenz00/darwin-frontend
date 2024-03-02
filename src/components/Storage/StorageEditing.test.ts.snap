@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snaphsot 1`] = `
+<modal-stub name="edit-storage" delay="0" overlaytransition="overlay-fade" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="35%" height="auto" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="modal__header">
+    <p class="modal__header__title">
+      Storage
+    </p>
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    <storage-provider-select-stub required="" label="Storage Provider" value="aws" class="storage__field"></storage-provider-select-stub>
+    <aws-storage-form-stub value="[object Object]"></aws-storage-form-stub>
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgba(0, 0, 0, 0.1);">
+
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+
+      <label>Loading...</label>
+    </div>
+  </div>
+</modal-stub>
+`;

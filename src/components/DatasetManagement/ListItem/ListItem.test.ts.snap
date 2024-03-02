@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="list-item">
+  <div class="list-item__checkbox">
+    <check-box-stub name="item-selected" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="list-item__content">
+    <div class="list-item__thumbnail"><img class="list-item__thumbnail__img">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <div class="list-item__file_name">
+      <dataset-item-name-stub name="0001"></dataset-item-name-stub>
+    </div>
+    <div class="list-item__status"></div>
+    <div class="list-item__created_at">
+      01/01/00
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when folder 1`] = `
+<div class="list-item">
+  <div class="list-item__checkbox">
+    <!---->
+  </div>
+  <div class="list-item__content">
+    <div class="list-item__thumbnail">
+      <folder-icon-stub class="list-item__thumbnail__folder"></folder-icon-stub>
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <div class="list-item__file_name">
+      <dataset-item-name-stub name="folder"></dataset-item-name-stub>
+    </div>
+    <div class="list-item__status"></div>
+    <div class="list-item__created_at">
+      01/01/00
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when given thumbnail 1`] = `
+<div class="list-item">
+  <div class="list-item__checkbox">
+    <check-box-stub name="item-selected" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="list-item__content">
+    <div class="list-item__thumbnail"><img class="list-item__thumbnail__img">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <div class="list-item__file_name">
+      <dataset-item-name-stub name="0001"></dataset-item-name-stub>
+    </div>
+    <div class="list-item__status"></div>
+    <div class="list-item__created_at">
+      01/01/00
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="list-item list-item--selected">
+  <div class="list-item__checkbox">
+    <check-box-stub name="item-selected" value="true" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="list-item__content">
+    <div class="list-item__thumbnail"><img class="list-item__thumbnail__img">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+    <div class="list-item__file_name">
+      <dataset-item-name-stub name="0001"></dataset-item-name-stub>
+    </div>
+    <div class="list-item__status"></div>
+    <div class="list-item__created_at">
+      01/01/00
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when video 1`] = `
+<div class="list-item">
+  <div class="list-item__checkbox">
+    <check-box-stub name="item-selected" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="list-item__content">
+    <div class="list-item__thumbnail"><img class="list-item__thumbnail__img">
+      <video-overlay-icon-stub class="list-item__thumbnail__video_overlay"></video-overlay-icon-stub>
+      <!---->
+      <!---->
+    </div>
+    <div class="list-item__file_name">
+      <dataset-item-name-stub name="0001"></dataset-item-name-stub>
+    </div>
+    <div class="list-item__status"></div>
+    <div class="list-item__created_at">
+      01/01/00
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when video-frames 1`] = `
+<div class="list-item">
+  <div class="list-item__checkbox">
+    <check-box-stub name="item-selected" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="list-item__content">
+    <div class="list-item__thumbnail"><img class="list-item__thumbnail__img">
+      <!---->
+      <frames-overlay-icon-stub class="list-item__thumbnail__video_overlay"></frames-overlay-icon-stub>
+      <!---->
+    </div>
+    <div class="list-item__file_name">
+      <dataset-item-name-stub name="0001"></dataset-item-name-stub>
+    </div>
+    <div class="list-item__status"></div>
+    <div class="list-item__created_at">
+      01/01/00
+    </div>
+  </div>
+</div>
+`;

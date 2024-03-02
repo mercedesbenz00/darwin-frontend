@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <chevron-pagination-stub page="0" pagecount="2345" prev="Previous task <span class='tooltip__hotkey'><</span>" next="Next task <span class='tooltip__hotkey'>></span>" dynamicwidth="true" class="pagination"></chevron-pagination-stub>
+</div>
+`;
+
+exports[`matches snapshot when feature enabled is true 1`] = `
+<div>
+  <chevron-pagination-stub page="0" pagecount="2345" prev="Previous task <span class='tooltip__hotkey'><</span>" next="Next task <span class='tooltip__hotkey'>></span>" dynamicwidth="true" class="pagination"></chevron-pagination-stub>
+</div>
+`;

@@ -1,0 +1,27 @@
+<svg width="113" height="82" viewBox="0 0 113 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 58.8475L57.6509 75.0001L105 56.8477" stroke="#AAB1C0" stroke-dasharray="4 4"/>
+<path d="M8.5 25L56.6491 8.5L105 25" stroke="#AAB1C0" stroke-dasharray="4 4"/>
+<path d="M9 25L56.4 41.5L105 25" stroke="#AAB1C0" stroke-dasharray="4 4"/>
+<path d="M9 57.5L57.0503 40.5L104.5 57.5" stroke="#AAB1C0" stroke-dasharray="4 4"/>
+<circle cx="8" cy="25" r="7.5" fill="white"/>
+<circle cx="8" cy="25" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="8" cy="25" r="7.5" stroke="#7A18DC"/>
+<circle cx="105" cy="25" r="7.5" fill="white"/>
+<circle cx="105" cy="25" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="105" cy="25" r="7.5" stroke="#7A18DC"/>
+<circle cx="57" cy="8" r="7.5" fill="white"/>
+<circle cx="57" cy="8" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="57" cy="8" r="7.5" stroke="#7A18DC"/>
+<circle cx="8" cy="57" r="7.5" fill="white"/>
+<circle cx="8" cy="57" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="8" cy="57" r="7.5" stroke="#7A18DC"/>
+<circle cx="105" cy="57" r="7.5" fill="white"/>
+<circle cx="105" cy="57" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="105" cy="57" r="7.5" stroke="#7A18DC"/>
+<circle cx="57" cy="41" r="7.5" fill="white"/>
+<circle cx="57" cy="41" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="57" cy="41" r="7.5" stroke="#7A18DC"/>
+<circle cx="57" cy="74" r="7.5" fill="white"/>
+<circle cx="57" cy="74" r="7.5" fill="#7A18DC" fill-opacity="0.05"/>
+<circle cx="57" cy="74" r="7.5" stroke="#7A18DC"/>
+</svg>

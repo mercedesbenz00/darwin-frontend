@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileUploadDialog with V1 matches snapshot 1`] = `
+<div>
+  <modal-header-v2-stub class="file-upload"></modal-header-v2-stub>
+  <modal-content-v2-stub class="file-upload__content" loading="false">
+    <div class="file-upload__content-wrapper">
+      <dropzone-stub></dropzone-stub>
+      <!---->
+      <div class="file-upload__list"></div>
+    </div>
+    <upload-commands-stub></upload-commands-stub>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="file-upload__footer">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Cancel
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" disabled="true" class="submit-upload">
+      Upload 0 files
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</div>
+`;
+
+exports[`FileUploadDialog with V2 and no popup mode matches snapshot 1`] = `
+<div>
+  <modal-header-v2-stub hideclose="true" class="file-upload"></modal-header-v2-stub>
+  <modal-content-v2-stub class="file-upload__content" loading="false">
+    <div class="file-upload__content-wrapper">
+      <dropzone-stub></dropzone-stub>
+      <div class="file-upload__header header">
+        <div class="total-files">
+          1 file
+        </div>
+        <div class="header__tools">
+          <folder-tool-stub></folder-tool-stub>
+          <tags-tool-stub></tags-tool-stub>
+        </div>
+      </div>
+      <div class="file-upload__list">
+        <file-item-stub value="[object Object]" class="file-upload__file-item"></file-item-stub>
+      </div>
+    </div>
+    <upload-commands-stub></upload-commands-stub>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="file-upload__footer">
+    <!---->
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="submit-upload">
+      Continue
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</div>
+`;
+
+exports[`FileUploadDialog with V2 and popup mode matches snapshot 1`] = `
+<div>
+  <modal-header-v2-stub class="file-upload"></modal-header-v2-stub>
+  <modal-content-v2-stub class="file-upload__content" loading="false">
+    <div class="file-upload__content-wrapper">
+      <dropzone-stub></dropzone-stub>
+      <div class="file-upload__header header">
+        <div class="total-files">
+          1 file
+        </div>
+        <div class="header__tools">
+          <folder-tool-stub></folder-tool-stub>
+          <tags-tool-stub></tags-tool-stub>
+        </div>
+      </div>
+      <div class="file-upload__list">
+        <file-item-stub value="[object Object]" class="file-upload__file-item"></file-item-stub>
+      </div>
+    </div>
+    <upload-commands-stub></upload-commands-stub>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="file-upload__footer">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Cancel
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="submit-upload">
+      Upload 1 file
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</div>
+`;

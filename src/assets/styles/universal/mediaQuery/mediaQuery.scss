@@ -1,0 +1,42 @@
+@import "../../../../../node_modules/sass-mq/mq";
+
+$mqBreakpointsKeys: map-keys($mq-breakpoints); // sass-lint:disable-line variable-name-format
+@for $i from 1 through length($mqBreakpointsKeys) {
+  $breakpoint: nth($mqBreakpointsKeys, $i);
+  $capBreakpoint: capitalize($breakpoint);
+
+  @include respondFrom($breakpoint) {
+    %hideFrom#{$capBreakpoint} {
+      display: none !important; // sass-lint:disable-line no-important
+    }
+  }
+
+  @include respondTo($breakpoint) {
+    %hideTo#{$capBreakpoint} {
+      display: none !important; // sass-lint:disable-line no-important
+    }
+  }
+
+  .hide-from-#{$breakpoint} {
+    @extend %hideFrom#{$capBreakpoint};
+  }
+
+  .hide-to-#{$breakpoint} {
+    @extend %hideTo#{$capBreakpoint};
+  }
+
+  .hide-on-#{$breakpoint} {
+    @if $i < length($mqBreakpointsKeys) {
+      $nextBreakpoint: nth($mqBreakpointsKeys, $i + 1);
+      @include respondFromTo($breakpoint, $nextBreakpoint) {
+        display: none !important; // sass-lint:disable-line no-important
+      }
+    }
+    @else {
+      @include respondFrom($breakpoint) {
+        display: none !important; // sass-lint:disable-line no-important
+      }
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div class="dataset-create__step-items dataset-create__step-items-v2">
+  <dataset-create-step-item-stub index="0" isv2="true" step="[object Object]"></dataset-create-step-item-stub>
+  <dataset-create-step-item-stub index="1" isv2="true" step="[object Object]"></dataset-create-step-item-stub>
+  <dataset-create-step-item-stub index="2" isv2="true" step="[object Object]"></dataset-create-step-item-stub>
+  <dataset-create-step-item-stub index="3" isv2="true" step="[object Object]"></dataset-create-step-item-stub>
+</div>
+`;

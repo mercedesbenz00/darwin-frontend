@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="overlay">
+  <div class="overlay-wrapper" style="--max-team-amount: 5; --el-height: 61px;">
+    <team-item-stub team="[object Object]" class="overlay__team overlay__team--current"></team-item-stub>
+    <team-item-stub team="[object Object]" class="overlay__team overlay__team--other"></team-item-stub>
+    <team-item-stub team="[object Object]" class="overlay__team overlay__team--other"></team-item-stub>
+    <team-item-stub team="[object Object]" class="overlay__team overlay__team--other-client"></team-item-stub>
+    <team-item-stub team="[object Object]" class="overlay__team overlay__team--other-client"></team-item-stub>
+  </div>
+  <div class="overlay__actions">
+    <settings-item-stub class="overlay__settings"></settings-item-stub>
+    <feature-guard-stub feature="WORKER_MODE_TOGGLE">
+      <worker-mode-item-stub class="overlay__worker-mode"></worker-mode-item-stub>
+    </feature-guard-stub>
+    <div class="overlay__logout">
+      <power-icon-stub class="overlay__logout__icon"></power-icon-stub>
+      <div class="overlay__logout__text">
+        Log Out
+      </div>
+    </div>
+  </div>
+</div>
+`;

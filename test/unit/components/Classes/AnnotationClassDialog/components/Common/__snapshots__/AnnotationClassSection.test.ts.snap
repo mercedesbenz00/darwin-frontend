@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when optional 1`] = `
+<div class="annotation-section">
+  <div class="annotation-section__labels"><label class="annotation-section__label">
+      Name&nbsp;<i>(optional)</i></label> </div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with error 1`] = `
+<div class="annotation-section">
+  <div class="annotation-section__labels"><label class="annotation-section__label">
+      Name&nbsp;
+      <!---->
+    </label> </div>
+  <div class="annotation-section__error">
+    Error
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with title 1`] = `
+<div class="annotation-section">
+  <div class="annotation-section__labels"><label class="annotation-section__label">
+      Name&nbsp;
+      <!---->
+    </label> </div>
+  <!---->
+</div>
+`;

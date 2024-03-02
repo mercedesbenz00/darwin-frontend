@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="layout">
+  <div class="layout__view layout__view-single--active">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with grid layout 1`] = `
+<div class="layout layout--grid layout--grid--2">
+  <div class="layout__view layout__view--active">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layout__view">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layout__view">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layout__view">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with horizontal layout 1`] = `
+<div class="layout layout--horizontal">
+  <div class="layout__view layout__view--active">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layout__view">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with vertical layout 1`] = `
+<div class="layout layout--vertical">
+  <div class="layout__view layout__view--active">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layout__view">
+    <div loading-options="[object Object]" class="layout__main-area" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <annotation-overlays-stub view="[object Object]"></annotation-overlays-stub>
+      <measure-overlays-stub view="[object Object]"></measure-overlays-stub>
+      <mobile-buttons-overlay-stub editor="[object Object]"></mobile-buttons-overlay-stub>
+      <view-component-stub view="[object Object]"></view-component-stub>
+      <comment-icons-stub view="[object Object]"></comment-icons-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0.1); transition-delay: 0.5s;">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

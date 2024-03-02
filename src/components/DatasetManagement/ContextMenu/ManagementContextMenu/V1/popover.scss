@@ -1,0 +1,16 @@
+@mixin assign-popover($width) {
+  width: $width;
+  border-radius: 3px 3px 0 0;
+  background: $colorWhite;
+  top: 5px !important;
+  box-shadow: 0px -15px 30px rgba(145, 169, 192, 0.3);
+
+  .popover-inner {
+    background: white;
+    padding: 0;
+  }
+
+  .popover-arrow {
+    display: none;
+  }
+}

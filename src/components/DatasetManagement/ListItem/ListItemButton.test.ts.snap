@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`emits click 1`] = `<div class="list-item-button"></div>`;
+
+exports[`matches snapshot when given an url 1`] = `<div class="list-item-button" url="/datasets"></div>`;
+
+exports[`matches snapshot when given an url and disabled 1`] = `<div class="list-item-button list-item-button--disabled" url="/datasets"></div>`;
+
+exports[`matches snapshot when used as action button 1`] = `<div class="list-item-button"></div>`;
+
+exports[`matches snapshot when used as action button and disabled 1`] = `<div class="list-item-button list-item-button--disabled"></div>`;

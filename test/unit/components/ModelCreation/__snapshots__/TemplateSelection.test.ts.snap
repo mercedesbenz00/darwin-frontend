@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot (only one template) 1`] = ``;
+
+exports[`matches snapshot 1`] = `
+<div class="template-selection"><label class="template-selection__label">Architecture</label>
+  <dropdown-stub options="[object Object],[object Object]" theme="dark"></dropdown-stub>
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card mode matches snapshot 1`] = `
+<div class="classes-content">
+  <div class="gallery" fixed-column-count="4" card-proportion="0.9" view-mode="0" loaded="true" preferred-list-item-height="65">
+    <class-card-stub annotationclass="[object Object]"></class-card-stub>
+    <class-card-stub annotationclass="[object Object]"></class-card-stub>
+    <class-list-item-stub annotationclass="[object Object]"></class-list-item-stub>
+    <class-list-item-stub annotationclass="[object Object]"></class-list-item-stub>
+  </div>
+  <delete-classes-confirmation-dialog-stub selectedclasses=""></delete-classes-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`classes is empty matches snapshot 1`] = `
+<div class="classes-content">
+  <div class="gallery" fixed-column-count="4" card-proportion="0.9" view-mode="0" loaded="true" preferred-list-item-height="65"> </div>
+  <delete-classes-confirmation-dialog-stub selectedclasses=""></delete-classes-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`list mode matches snapshot 1`] = `
+<div class="classes-content">
+  <div class="gallery" fixed-column-count="4" card-proportion="0.9" view-mode="1" loaded="true" preferred-list-item-height="65">
+    <class-card-stub annotationclass="[object Object]"></class-card-stub>
+    <class-card-stub annotationclass="[object Object]"></class-card-stub>
+    <class-list-item-stub annotationclass="[object Object]"></class-list-item-stub>
+    <class-list-item-stub annotationclass="[object Object]"></class-list-item-stub>
+  </div>
+  <delete-classes-confirmation-dialog-stub selectedclasses=""></delete-classes-confirmation-dialog-stub>
+</div>
+`;

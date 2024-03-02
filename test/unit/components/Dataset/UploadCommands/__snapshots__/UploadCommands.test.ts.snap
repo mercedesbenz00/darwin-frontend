@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="upload-commands">
+  <div class="upload-commands__title">
+    Command Line Upload
+  </div>
+  <div class="upload-commands__tips">
+    Recommended for batches of over 2,000 images
+  </div>
+  <div class="upload-commands__main">
+    <upload-command-stub data="[object Object]" class="upload-commands__command"></upload-command-stub> <a href="https://v7labs.github.io/darwin-py" target="_blank" class="upload-commands__docs">
+      Docs
+    </a>
+  </div>
+  <div class="upload-commands__extras">
+    <upload-command-stub data="[object Object]" class="upload-commands__command upload-commands__command--extra"></upload-command-stub>
+    <upload-command-stub data="[object Object]" class="upload-commands__command upload-commands__command--extra"></upload-command-stub>
+  </div>
+</div>
+`;

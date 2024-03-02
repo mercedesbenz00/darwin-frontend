@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when not on review blind stage matches snapshot 1`] = ``;
+
+exports[`when on blind review stage matches snapshot 1`] = `
+<div class="results" style="left: 10px; top: 10px;">
+  <div class="results__header">
+    <test-round-icon-stub></test-round-icon-stub>
+    <header-4-stub class="results__header__title">
+      Automated test results
+    </header-4-stub>
+    <div class="results__header__move-handler">
+      <move-handler-icon-stub></move-handler-icon-stub>
+    </div>
+  </div>
+  <div class="results__authors">
+    <paragraph-10-stub class="results__authors__header">
+      Select an author to compare
+    </paragraph-10-stub>
+    <rounded-toggle-button-stub selected="true" class="results__authors__author"> <span>Everyone</span></rounded-toggle-button-stub>
+    <rounded-toggle-button-stub class="results__authors__author"> <span>Jack Smith</span></rounded-toggle-button-stub>
+    <rounded-toggle-button-stub class="results__authors__author"> <span>Sam Doe</span></rounded-toggle-button-stub>
+  </div>
+</div>
+`;

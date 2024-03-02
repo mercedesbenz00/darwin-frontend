@@ -1,0 +1,49 @@
+@mixin inputFieldDefaultV2($fontBreakpoint: "md") {
+  @include row--distributed--center;
+  flex: 1 1 auto;
+  height: 100%;
+  max-height: 100%;
+  @include typography(md-1, headlines);
+  border: 1px solid $colorInteractiveSecondaryHover;
+  color: $colorContentDefault;
+  background-color: transparent;
+  padding: 0 36px 0 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+
+  &__label {
+    @include row--center;
+    @include ellipsis(1, md);
+    text-transform: lowercase;
+  }
+
+  &:focus,
+  &:active {
+    border: none;
+    outline: none !important;
+  }
+
+  &:disabled,
+  &--disabled {
+    opacity: 0.5;
+  }
+
+  &:hover {
+    background-color: $colorOverlayHover;
+  }
+
+  &::placeholder {
+    @include typography($fontBreakpoint, default);
+    color: $colorAliceNight;
+  }
+
+  &--open,
+  &:active,
+  &:focus {
+    outline: none;
+    border: 1px solid $colorInteractivePrimaryDefault;
+    caret-color: $colorInteractivePrimaryDefault;
+    color: $colorContentEmphasis;
+  }
+}

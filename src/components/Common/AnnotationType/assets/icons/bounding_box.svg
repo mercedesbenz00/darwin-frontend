@@ -1,0 +1,7 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5.75" y="5.75" width="10.5" height="10.5" rx="2.25" fill="var(--second-color)" stroke="var(--first-color)"
+    stroke-width="1.5" />
+  <path
+    d="M3 13V11C3 8.19974 3 6.79961 3.54497 5.73005C4.02433 4.78924 4.78924 4.02433 5.73005 3.54497C6.79961 3 8.19974 3 11 3H13"
+    stroke="var(--first-color)" stroke-width="1.5" />
+</svg>

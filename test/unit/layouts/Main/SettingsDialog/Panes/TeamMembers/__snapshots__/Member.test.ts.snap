@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`admin when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="admin" name="membership-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`admin when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`admin when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`admin when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="admin" name="membership-role" options="[object Object],[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`admin when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`annotator when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="annotator" name="membership-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`annotator when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Worker
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`annotator when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="annotator" name="membership-role" options="[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`annotator when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="annotator" name="membership-role" options="[object Object],[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`annotator when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Worker
+    </div>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`member when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="member" name="membership-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`member when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      User
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`member when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="member" name="membership-role" options="[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`member when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="member" name="membership-role" options="[object Object],[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`member when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      User
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`owner when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Owner
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`owner when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Owner
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`owner when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Owner
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`owner when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Owner
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`owner when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Owner
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`workforce_manager when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="workforce_manager" name="membership-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`workforce_manager when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Workforce Manager
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`workforce_manager when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="workforce_manager" name="membership-role" options="[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`workforce_manager when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="membership-role" value="workforce_manager" name="membership-role" options="[object Object],[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`workforce_manager when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Workforce Manager
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;

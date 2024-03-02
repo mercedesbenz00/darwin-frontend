@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when editable 1`] = `
+<div class="dataset-title">
+  <!---->
+  <content-editable-stub value="SFH" placeholder="" tag="span" disablemultiline="true" class="dataset-title__span--editable"></content-editable-stub>
+</div>
+`;
+
+exports[`matches snapshot when private 1`] = `
+<div class="dataset-title">
+  <!----> <span class="dataset-title__span">
+    SFH
+  </span>
+</div>
+`;
+
+exports[`matches snapshot when public 1`] = `
+<div class="dataset-title"><img src="/static/imgs/open-dataset-icon.svg" class="dataset-title__icon"> <span class="dataset-title__span">
+    SFH
+  </span></div>
+`;

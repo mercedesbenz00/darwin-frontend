@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="vue-draggable-resizable-stub video-comment-thread-indicator__draggable" parent="" axis="x" grid="4,21" min-width="16" draggable="false" y="21" h="20">
+  <div class="video-comment-thread-indicator">
+    <comment-indicator-icon-stub class="video-comment-thread-indicator__icon"></comment-indicator-icon-stub> <label class="video-comment-thread-indicator__label">3</label>
+  </div>
+</div>
+`;

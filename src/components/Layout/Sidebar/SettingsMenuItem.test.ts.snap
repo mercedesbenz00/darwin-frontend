@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div to="/?settings=profile">
+  <router-link-stub to="/?settings=profile" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="settings" tooltip="Settings"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Settings
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;
+
+exports[`when settings is open matches snapshot 1`] = `
+<div to="/?settings=profile">
+  <router-link-stub to="/?settings=profile" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="settings" tooltip="Settings" active="true"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Settings
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;

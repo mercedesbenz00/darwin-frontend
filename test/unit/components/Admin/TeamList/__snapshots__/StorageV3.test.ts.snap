@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="storage">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main">
+      <div class="storage__info">
+        800
+      </div>
+    </div>
+    <div class="popover">
+      <div class="storage__tooltip-row"><label>Billed this period</label> <span>1,100</span></div>
+      <div class="storage__tooltip-row"><label>Used this period</label> <span>300</span></div>
+      <div class="storage__tooltip-row"><label>Billed next period</label> <span>1,000</span></div>
+    </div>
+  </div>
+</div>
+`;

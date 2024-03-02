@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotator-type-tag annotator-type-tag--annotate">
+  <svg-overlay-stub url="icon.svg" color="rgb(122,122,122)" width="32" height="32"></svg-overlay-stub> <span>ANNOTATOR</span>
+</div>
+`;

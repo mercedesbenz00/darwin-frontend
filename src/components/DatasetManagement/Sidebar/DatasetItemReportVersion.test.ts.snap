@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-report">
+  <div class="dataset-report__header">
+    <div class="dataset-report__header__title">
+      <h1>13/09/2021 08:31</h1>
+    </div>
+    <div class="dataset-report__header__actions">
+      <circle-spinner-stub width="50" height="50" class="dataset-report__spinner"></circle-spinner-stub> <button class="dataset-report__icon-button dataset-report__header__trash-button has-tooltip" data-original-title="null">
+        <trash-icon-stub></trash-icon-stub>
+      </button>
+    </div>
+  </div>
+  <div class="dataset-report__body">
+    <p class="loading-dots">
+      Generating
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="filter">
+  <h3 class="filter__title">
+    Active workflow
+  </h3>
+  <div class="filter__content">
+    <div class="filter__options">
+      <div class="filter__option" tooltip="New">
+        <status-button-stub type="dataset" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option" tooltip="Annotate">
+        <status-button-stub type="annotate" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option" tooltip="Review">
+        <status-button-stub type="review" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option" tooltip="Complete">
+        <status-button-stub type="complete" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option filter__option--other" tooltip="Discard">
+        <status-button-stub type="discard" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with selection active 1`] = `
+<div class="filter">
+  <h3 class="filter__title">
+    Active workflow
+  </h3>
+  <div class="filter__content">
+    <div class="filter__options">
+      <div class="filter__option" tooltip="New">
+        <status-button-stub type="dataset" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option" tooltip="Annotate">
+        <status-button-stub type="annotate" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option filter__option--positive" tooltip="Review">
+        <status-button-stub type="review" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option" tooltip="Complete">
+        <status-button-stub type="complete" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+      <div class="filter__option filter__option--other filter__option--negative" tooltip="Discard">
+        <status-button-stub type="discard" variant="inverted" size="xs" class="filter__option__icon"></status-button-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+import { drawPoint } from '@/engine/graphics'
+import { LinearInterpolationParams } from '@/engine/interpolate'
+import { Annotation, View, MainAnnotationTypeRenderer, CompoundPath } from '@/engine/models'
+import { ImageManipulationFilter } from '@/engineCommon/imageManipulation'
+import { EditableImagePoint, EditablePoint, ImagePoint, IPoint } from '@/engineCommon/point'
+
+import { Keypoint } from './types'
+
+export class KeypointRenderer extends MainAnnotationTypeRenderer {
+  readonly supportsInterpolate: boolean = true
+  readonly enableInterpolateByDefault: boolean = true
+  render (
+    view: View,
+    annotation: Annotation,
+    _: boolean,
+    filter: ImageManipulationFilter | null): void {
+    const color = annotation.color
+    const point = new EditablePoint<'Image'>(annotation.data as IPoint)
+    drawPoint(view, point, color, filter, annotation.isHighlighted, annotation.isSelected)
+  }
+
+  getPath (annotation: Annotation): CompoundPath {
+    const point = new EditablePoint<'Image'>(annotation.data as IPoint)
+    return { path: [point], additionalPaths: [] }
+  }
+
+  moveVertex (annotation: Annotation, vertex: EditableImagePoint, offset: ImagePoint): void {
+    annotation.data = vertex.add(offset) as Keypoint
+    vertex.add_(offset)
+  }
+
+  getAllVertices (annotation: Annotation): [EditablePoint<'Image'>] {
+    const point = new EditablePoint<'Image'>(annotation.data as IPoint)
+    return [point]
+  }
+
+  translate (annotation: Annotation, offset: ImagePoint): void {
+    const point = new EditablePoint<'Image'>(annotation.data as IPoint)
+    annotation.data = point.add(offset) as Keypoint
+  }
+
+  interpolate (
+    prevData: Keypoint,
+    nextData: Keypoint,
+    params: LinearInterpolationParams
+  ): Keypoint {
+    const { algorithm, interpolationFactor } = params
+
+    if (!algorithm || algorithm.startsWith('linear')) {
+      return {
+        x: prevData.x + (nextData.x - prevData.x) * interpolationFactor,
+        y: prevData.y + (nextData.y - prevData.y) * interpolationFactor
+      }
+    }
+
+    throw new Error(`Interpolate: keypoints don't support '${algorithm}' interpolation algorithm`)
+  }
+}

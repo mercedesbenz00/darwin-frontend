@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`keydown events updates the ui 1`] = `
+<div class="login-tfa-form">
+  <h1 class="login-tfa-form__title">
+    Confirm that it’s you
+  </h1>
+  <div class="login-tfa-form__description">
+    Head over to the <a href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank" class="login-tfa-form__ga-link">Authenticator app</a> and enter<br>
+    your 2-factor authentication code.
+  </div>
+  <div class="login-tfa-form__numbers">
+    <login-tfa-number-cell-stub class="login-tfa-form__number" value="1"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number" value="2"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number" value="3"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number" value="4"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number" value="6"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number" value="7"></login-tfa-number-cell-stub>
+  </div>
+  <div class="login-tfa-form__error">
+    <!---->
+  </div>
+  <div class="login-tfa-form__actions"></div> <a href="https://support.google.com/accounts/answer/185834?hl=en" target="_blank" class="login-tfa-form__help">Get Help</a>
+</div>
+`;
+
+exports[`when errored matches snapshot 1`] = `
+<div class="login-tfa-form">
+  <h1 class="login-tfa-form__title">
+    Confirm that it’s you
+  </h1>
+  <div class="login-tfa-form__description">
+    Head over to the <a href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank" class="login-tfa-form__ga-link">Authenticator app</a> and enter<br>
+    your 2-factor authentication code.
+  </div>
+  <div class="login-tfa-form__numbers">
+    <login-tfa-number-cell-stub active="true" class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+  </div>
+  <div class="login-tfa-form__error">
+    <!---->
+  </div>
+  <div class="login-tfa-form__actions"></div> <a href="https://support.google.com/accounts/answer/185834?hl=en" target="_blank" class="login-tfa-form__help">Get Help</a>
+</div>
+`;
+
+exports[`when initial state matches snapshot 1`] = `
+<div class="login-tfa-form">
+  <h1 class="login-tfa-form__title">
+    Confirm that it’s you
+  </h1>
+  <div class="login-tfa-form__description">
+    Head over to the <a href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank" class="login-tfa-form__ga-link">Authenticator app</a> and enter<br>
+    your 2-factor authentication code.
+  </div>
+  <div class="login-tfa-form__numbers">
+    <login-tfa-number-cell-stub active="true" class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+    <login-tfa-number-cell-stub class="login-tfa-form__number"></login-tfa-number-cell-stub>
+  </div>
+  <div class="login-tfa-form__error">
+    <!---->
+  </div>
+  <div class="login-tfa-form__actions"></div> <a href="https://support.google.com/accounts/answer/185834?hl=en" target="_blank" class="login-tfa-form__help">Get Help</a>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when running matches snapshot 1`] = `<model-button-stub color="positive" text="Running" hovertext="Update" class="update-button update-button--Running"></model-button-stub>`;
+
+exports[`when starting matches snapshot 1`] = `<model-button-stub color="warning" text="Starting" hovertext="Update" class="update-button update-button--Starting"></model-button-stub>`;
+
+exports[`when stopped matches snapshot 1`] = `<model-button-stub color="secondary" text="Start" hovertext="Start" class="update-button update-button--Start"></model-button-stub>`;
+
+exports[`when stopping matches snapshot 1`] = `<model-button-stub color="warning" text="Stopping" hovertext="Update" class="update-button update-button--Stopping"></model-button-stub>`;

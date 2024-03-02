@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<droparea-stub acceptedfiletypes="application/pdf,image/*,video/*,.avi,.bmp,.dcm,.gz,.hevc,.jpeg,.jpg,.mkv,.mov,.mp4,.ndpi,.nii.gz,.nii,.pdf,.png,.rvg,.svs,.tif,.tiff,.webp" multiple="true" openfilepickeronclick="true"></droparea-stub>`;
+
+exports[`matches snapshot with multiple sets added 1`] = `<droparea-stub acceptedfiletypes="application/pdf,image/*,video/*,.avi,.bmp,.dcm,.gz,.hevc,.jpeg,.jpg,.mkv,.mov,.mp4,.ndpi,.nii.gz,.nii,.pdf,.png,.rvg,.svs,.tif,.tiff,.webp" multiple="true" openfilepickeronclick="true"></droparea-stub>`;

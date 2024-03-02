@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<ul class="feature-list">
+  <li class="feature-list__feature">
+    <div class="feature-list__feature__label">
+      <bullet-on-icon-stub class="feature-list__feature__bullet"></bullet-on-icon-stub> <span>Feature 1</span>
+    </div>
+    <div class="feature-list__feature__or">
+      OR
+    </div>
+  </li>
+  <li class="feature-list__feature">
+    <div class="feature-list__feature__label">
+      <bullet-off-icon-stub class="feature-list__feature__bullet"></bullet-off-icon-stub> <span>Feature 2</span>
+    </div>
+    <!---->
+  </li>
+  <li class="feature-list__feature">
+    <div class="feature-list__feature__label">
+      <bullet-on-icon-stub class="feature-list__feature__bullet"></bullet-on-icon-stub> <span>Feature 2</span>
+    </div>
+    <!---->
+  </li>
+</ul>
+`;

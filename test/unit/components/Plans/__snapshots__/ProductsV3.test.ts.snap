@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="products">
+  <annotation-credits-stub></annotation-credits-stub>
+  <credit-summary-stub></credit-summary-stub>
+  <storage-summary-stub></storage-summary-stub>
+</div>
+`;
+
+exports[`when client team matches snapshot 1`] = `
+<div class="products">
+  <client-pane-stub></client-pane-stub>
+  <credit-summary-stub></credit-summary-stub>
+  <storage-summary-stub></storage-summary-stub>
+</div>
+`;

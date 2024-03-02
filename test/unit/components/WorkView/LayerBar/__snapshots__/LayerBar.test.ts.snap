@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when editable 1`] = `
+<div class="layerbar-container">
+  <div class="layerbar">
+    <div class="layerbar__header">
+      <div class="layerbar__header__title"><span class="layerbar__header__text">Annotations</span></div>
+      <div class="layerbar__header__tools">
+        <div class="header"></div>
+      </div>
+    </div>
+    <div class="layerbar__layers">
+      <div class="default"></div>
+    </div>
+    <div class="layerbar_empty"><img src="./assets/empty.png" alt="" role="presentation" class="layerbar_empty_image"> <strong class="layerbar_empty_header">No layers set</strong>
+      <div class="empty"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when empty 1`] = `
+<div class="layerbar-container">
+  <div class="layerbar">
+    <div class="layerbar__header">
+      <div class="layerbar__header__title"><span class="layerbar__header__text">Annotations</span></div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when empty with slots 1`] = `
+<div class="layerbar-container">
+  <div class="layerbar">
+    <div class="layerbar__header">
+      <div class="layerbar__header__title"><span class="layerbar__header__text">Annotations</span></div>
+      <div class="layerbar__header__tools">
+        <div class="header"></div>
+      </div>
+    </div>
+    <div class="layerbar__layers">
+      <div class="default"></div>
+    </div>
+    <div class="layerbar_empty"><img src="./assets/empty.png" alt="" role="presentation" class="layerbar_empty_image"> <strong class="layerbar_empty_header">No layers set</strong>
+      <div class="empty"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with annotations 1`] = `
+<div class="layerbar-container">
+  <div class="layerbar">
+    <div class="layerbar__header">
+      <div class="layerbar__header__title"><span class="layerbar__header__text">Annotations</span></div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with annotations with slots 1`] = `
+<div class="layerbar-container">
+  <div class="layerbar">
+    <div class="layerbar__header">
+      <div class="layerbar__header__title"><span class="layerbar__header__text">Annotations</span></div>
+      <div class="layerbar__header__tools">
+        <div class="header"></div>
+      </div>
+    </div>
+    <div class="layerbar__layers">
+      <div class="default"></div>
+    </div>
+    <div class="layerbar_empty"><img src="./assets/empty.png" alt="" role="presentation" class="layerbar_empty_image"> <strong class="layerbar_empty_header">No layers set</strong>
+      <div class="empty"></div>
+    </div>
+  </div>
+</div>
+`;

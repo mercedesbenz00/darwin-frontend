@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with custom props 1`] = `
+<div class="search-field">
+  <search-icon-stub class="search-field__icon"></search-icon-stub> <input type="text" autofocus="autofocus" placeholder="Search Test..." class="search-field__input">
+</div>
+`;
+
+exports[`matches snapshot with default props 1`] = `
+<div class="search-field">
+  <search-icon-stub class="search-field__icon"></search-icon-stub> <input type="text" autofocus="autofocus" placeholder="Search..." class="search-field__input">
+</div>
+`;

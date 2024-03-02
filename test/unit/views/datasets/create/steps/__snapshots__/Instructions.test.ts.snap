@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-create__box dataset-create__box--instructions">
+  <div class="dataset-instructions__row dataset-instructions__row--title">
+    <div class="dataset-instructions__row-left">
+      <div class="dataset-instructions__title">
+        Dataset Instructions
+      </div>
+    </div>
+    <div class="dataset-instructions__row-right">
+      <div class="dataset-instructions__title">
+        Dataset Classes
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="dataset-instructions__row dataset-instructions__row--description">
+    <div class="dataset-instructions__row-left">
+      <div class="dataset-instructions__description">
+        Please add all relevant instructions that the dataset’s annotators
+        will need to know to label images accurately.
+      </div>
+    </div>
+    <div class="dataset-instructions__row-right">
+      <div class="dataset-instructions__description">
+        Define what needs to be labelled here, and include any description of
+        each class to assist the annotators. You may add more classes later.
+      </div>
+    </div>
+  </div>
+  <div class="dataset-instructions__row dataset-instructions__row--content">
+    <div class="dataset-instructions__row-left">
+      <!---->
+    </div>
+    <div class="dataset-instructions__row-right">
+      <div class="dataset-instructions__classes">
+        <instruction-no-classes-stub class="dataset-instructions__classes-empty"></instruction-no-classes-stub>
+      </div>
+    </div>
+  </div>
+  <div class="dataset-instructions__row dataset-instructions__row--footer">
+    <div class="dataset-instructions__buttons">
+      <secondary-button-stub class="dataset-instructions__skip">
+        Skip
+      </secondary-button-stub>
+      <positive-button-stub class="dataset-instructions__continue">
+        Save &amp; Continue
+      </positive-button-stub>
+    </div>
+  </div>
+  <annotation-class-dialog-stub annotationclasses="" dataset="[object Object]"></annotation-class-dialog-stub>
+</div>
+`;
+
+exports[`matches snapshot: froala loaded 1`] = `
+<div class="dataset-create__box dataset-create__box--instructions">
+  <div class="dataset-instructions__row dataset-instructions__row--title">
+    <div class="dataset-instructions__row-left">
+      <div class="dataset-instructions__title">
+        Dataset Instructions
+      </div>
+    </div>
+    <div class="dataset-instructions__row-right">
+      <div class="dataset-instructions__title">
+        Dataset Classes
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="dataset-instructions__row dataset-instructions__row--description">
+    <div class="dataset-instructions__row-left">
+      <div class="dataset-instructions__description">
+        Please add all relevant instructions that the dataset’s annotators
+        will need to know to label images accurately.
+      </div>
+    </div>
+    <div class="dataset-instructions__row-right">
+      <div class="dataset-instructions__description">
+        Define what needs to be labelled here, and include any description of
+        each class to assist the annotators. You may add more classes later.
+      </div>
+    </div>
+  </div>
+  <div class="dataset-instructions__row dataset-instructions__row--content">
+    <div class="dataset-instructions__row-left">
+      <div class="dataset-instructions__editor">
+        <froala-stub config="[object Object]" value="" tag="textarea" style="height: 100%;"></froala-stub>
+      </div>
+    </div>
+    <div class="dataset-instructions__row-right">
+      <div class="dataset-instructions__classes">
+        <instruction-no-classes-stub class="dataset-instructions__classes-empty"></instruction-no-classes-stub>
+      </div>
+    </div>
+  </div>
+  <div class="dataset-instructions__row dataset-instructions__row--footer">
+    <div class="dataset-instructions__buttons">
+      <secondary-button-stub class="dataset-instructions__skip">
+        Skip
+      </secondary-button-stub>
+      <positive-button-stub class="dataset-instructions__continue">
+        Save &amp; Continue
+      </positive-button-stub>
+    </div>
+  </div>
+  <annotation-class-dialog-stub annotationclasses="" dataset="[object Object]"></annotation-class-dialog-stub>
+</div>
+`;

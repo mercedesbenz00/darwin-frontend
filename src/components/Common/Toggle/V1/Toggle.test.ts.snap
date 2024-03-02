@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when a label is provided matches snapshot 1`] = `
+<label class="toggle"><input type="checkbox" class="toggle__input">
+  <div class="toggle__slider"></div>
+  <div>Test</div>
+</label>
+`;
+
+exports[`when no label is provided matches snapshot 1`] = `
+<label class="toggle"><input type="checkbox" class="toggle__input">
+  <div class="toggle__slider"></div>
+  <!---->
+</label>
+`;

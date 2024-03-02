@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when time is 0 1`] = `
+<div class="work-tracker">
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when timer paused 1`] = `
+<div class="work-tracker">
+  <work-timer-stub timeinseconds="10" status="paused" class="work-tracker__work-timer" tooltip="{'content':'\\n        <p>\\n          Total amount of time you spent working on this image in the current and previous sessions.\\n        </p>\\n        <p>\\n          If no actions are performed in this session, the time will reset to the previous amount.\\n        </p>\\n        <p>Click to pause timer. Any action will unpause it.</p>\\n      ','classes':'tooltip--work-tracker','placement':'bottom','delay':{'show':300,'hide':300}}"></work-timer-stub>
+</div>
+`;
+
+exports[`matches snapshot when timer started 1`] = `
+<div class="work-tracker">
+  <work-timer-stub timeinseconds="10" status="started" class="work-tracker__work-timer" tooltip="{'content':'\\n        <p>\\n          Total amount of time you spent working on this image in the current and previous sessions.\\n        </p>\\n        <p>\\n          If no actions are performed in this session, the time will reset to the previous amount.\\n        </p>\\n        <p>Click to pause timer. Any action will unpause it.</p>\\n      ','classes':'tooltip--work-tracker','placement':'bottom','delay':{'show':300,'hide':300}}"></work-timer-stub>
+</div>
+`;
+
+exports[`matches snapshot when timer stopped 1`] = `
+<div class="work-tracker">
+  <work-timer-stub timeinseconds="10" status="stopped" class="work-tracker__work-timer" tooltip="{'content':'\\n        <p>\\n          Total amount of time you spent working on this image in the current and previous sessions.\\n        </p>\\n        <p>\\n          If no actions are performed in this session, the time will reset to the previous amount.\\n        </p>\\n        <p>Click to pause timer. Any action will unpause it.</p>\\n      ','classes':'tooltip--work-tracker','placement':'bottom','delay':{'show':300,'hide':300}}"></work-timer-stub>
+</div>
+`;

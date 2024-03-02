@@ -1,0 +1,6 @@
+@import "./shadows.scss";
+
+:export {
+  shadowSM: #{$effectShadowsSM};
+  borderLightBottom: #{$borderLightBottom};
+}

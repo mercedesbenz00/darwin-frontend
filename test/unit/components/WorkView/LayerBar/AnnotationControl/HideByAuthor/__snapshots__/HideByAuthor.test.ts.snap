@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with no actors matches snapshot 1`] = `<div class="hide-by-author"><label class="hide-by-author__title">Hide all by author:</label> <label class="hide-by-author__empty">No authors present</label></div>`;
+
+exports[`with some actors matches snapshot 1`] = `
+<div class="hide-by-author"><label class="hide-by-author__title">Hide all by author:</label>
+  <hide-by-author-item-stub actor="[object Object]" count="2" class="hide-by-author__item"></hide-by-author-item-stub>
+  <hide-by-author-item-stub actor="[object Object]" count="5" class="hide-by-author__item"></hide-by-author-item-stub>
+</div>
+`;
+
+exports[`with some actors matches snapshot with one item is selected 1`] = `
+<div class="hide-by-author"><label class="hide-by-author__title">Hide all by author:</label>
+  <hide-by-author-item-stub actor="[object Object]" count="2" selected="true" class="hide-by-author__item"></hide-by-author-item-stub>
+  <hide-by-author-item-stub actor="[object Object]" count="5" class="hide-by-author__item"></hide-by-author-item-stub>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" delay="100" placement="top" trigger="hover">
+  <div class="main">
+    <team-member-avatar-stub member="[object Object]" size="20" class="actor-item__avatar"></team-member-avatar-stub>
+  </div>
+  <div class="popover">
+    Test Actor
+  </div>
+</div>
+`;

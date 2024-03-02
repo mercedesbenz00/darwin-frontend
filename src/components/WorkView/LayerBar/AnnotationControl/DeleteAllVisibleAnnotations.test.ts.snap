@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complete stage matches snapshot 1`] = `
+<div class="annotation-control-delete annotation-control-delete--disabled" tooltip="{'content':'Cannot remove annotations in complete stage'}">
+  <trash-icon-stub></trash-icon-stub> <label>Delete all visible annotations</label>
+</div>
+`;
+
+exports[`not complete stage matches snapshot 1`] = `
+<div class="annotation-control-delete" tooltip="undefined">
+  <trash-icon-stub></trash-icon-stub> <label>Delete all visible annotations</label>
+</div>
+`;

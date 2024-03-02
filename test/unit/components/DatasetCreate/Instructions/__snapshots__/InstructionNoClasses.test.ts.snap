@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div class="instruction-no-classes">
+  <div class="instruction-no-classes__img-container"><img src="/static/imgs/classes.png" class="instruction-no-classes__img"></div>
+  <primary-button-stub class="instruction-no-classes__button">
+    <circle-plus-icon-stub></circle-plus-icon-stub> <label>CREATE NEW CLASS</label>
+  </primary-button-stub>
+</div>
+`;

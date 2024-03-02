@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<badge-stub label="Flask" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor="" tooltip="undefined"></badge-stub>`;
+
+exports[`matches snapshot showing tooltip 1`] = `<badge-stub label="Flask" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor="" tooltip="{'content':'Flask','placement':'bottom','classes':'tooltip--card-tag'}"></badge-stub>`;

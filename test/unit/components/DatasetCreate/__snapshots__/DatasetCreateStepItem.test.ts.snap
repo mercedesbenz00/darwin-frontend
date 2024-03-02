@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot when step doesn't have to 1`] = `<div class="dataset-create__step-item"><span class="dataset-create__step-item-index">2</span> <span class="dataset-create__step-item-description">Step 2</span></div>`;
+
+exports[`matches the snapshot when step has to 1`] = `<router-link-stub active-class="dataset-create__step-item--active" to="/create/1/annotator" class="dataset-create__step-item"><span class="dataset-create__step-item-index">2</span> <span class="dataset-create__step-item-description">Step 1</span></router-link-stub>`;

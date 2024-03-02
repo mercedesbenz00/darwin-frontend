@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<li class="tool-class-selection-create-item">
+  New Object Object Class
+</li>
+`;

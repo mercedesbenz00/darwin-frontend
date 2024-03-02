@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="simple-labeled"><span class="simple-labeled__label">
+    Remaining:
+  </span> <span class="simple-labeled__value">
+    50
+  </span></div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<form class="register-team-form">
+  <avatar-upload-stub name="" companyurl="v7labs.com" canupload="true" class="register-team__avatar"></avatar-upload-stub>
+  <div class="register-team__name">
+    <input-field-stub value="" name="teamName" placeholder="Team Name" required="required" type="text" autofocus="true" theme="light"></input-field-stub>
+  </div>
+  <div class="register-team__buttons">
+    <primary-button-stub size="medium" type="submit">
+      CONTINUE
+    </primary-button-stub>
+  </div>
+</form>
+`;

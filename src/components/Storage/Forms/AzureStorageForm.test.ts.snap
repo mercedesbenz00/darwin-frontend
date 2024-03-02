@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snaphsot 1`] = `
+<form>
+  <div class="storage__field-label-container">
+    <div><span class="storage__field-label">Name</span> <span class="field-required">*</span></div>
+    <info-stub title="Name (Required)">
+      New name for the setting.
+    </info-stub>
+  </div>
+  <input-field-stub value="" id="storageName" required="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__field-label-container">
+    <div><span class="storage__field-label">Bucket</span> <span class="field-required">*</span></div>
+    <info-stub title="Bucket (Required)">
+      Name of the storage bucket / storage account name.
+    </info-stub>
+  </div>
+  <input-field-stub value="" id="storageBucket" required="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__field-label-container">
+    <div><span class="storage__field-label">Prefix</span> <span class="field-required">*</span></div>
+    <info-stub title="Prefix (Required)">
+      Prefix for all Darwin-created files (like thumbnails).
+      It cannot start nor end with "/" and has to include at least name of existing container.
+      Examples: "v7labs_container", "mycontainer/darwin".
+    </info-stub>
+  </div>
+  <input-field-stub value="" id="storagePrefix" required="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__field-label-container">
+    <div><span class="storage__field-label">Tenant Id</span> <span class="field-required">*</span></div>
+    <info-stub title="Tenant Id (Required)">
+      Azure Tenant's ID that holds the storage account.
+    </info-stub>
+  </div>
+  <input-field-stub value="" id="tenantId" required="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__inline">
+    <check-box-stub id="storage-readonly" label="Read only" type="rect" size="small" class="storage__field"></check-box-stub>
+    <check-box-stub id="storage-default" label="Default" type="rect" size="small" class="storage__field"></check-box-stub>
+  </div>
+  <div class="storage__footer">
+    <secondary-button-stub type="button">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+</form>
+`;

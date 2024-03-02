@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when invalid matches snapshot 1`] = `
+<alice-blue-panel-stub class="model-summary">
+  <h4 class="model-summary__header">
+    Summary
+  </h4>
+  <training-info-stub></training-info-stub>
+  <training-time-stub></training-time-stub>
+  <training-cost-stub></training-cost-stub>
+  <div class="model-summary__help">
+    <div>After that, 0.03 credits/minute when the model is active.</div>
+    <div>You can turn models on and off anytime.</div>
+    <div>Training commences as soon as servers become available.</div>
+  </div>
+  <primary-button-stub class="model-summary__submit">
+    Start training
+  </primary-button-stub>
+  <quote-dialog-stub></quote-dialog-stub>
+</alice-blue-panel-stub>
+`;
+
+exports[`when valid matches snapshot 1`] = `
+<alice-blue-panel-stub class="model-summary">
+  <h4 class="model-summary__header">
+    Summary
+  </h4>
+  <training-info-stub></training-info-stub>
+  <training-time-stub></training-time-stub>
+  <training-cost-stub></training-cost-stub>
+  <div class="model-summary__help">
+    <div>After that, 0.03 credits/minute when the model is active.</div>
+    <div>You can turn models on and off anytime.</div>
+    <div>Training commences as soon as servers become available.</div>
+  </div>
+  <primary-button-stub class="model-summary__submit">
+    Start training
+  </primary-button-stub>
+  <quote-dialog-stub></quote-dialog-stub>
+</alice-blue-panel-stub>
+`;

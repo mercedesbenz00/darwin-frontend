@@ -1,0 +1,18 @@
+@mixin scrollbar {
+  $thumbColor: $colorAliceShadow;
+
+  // firefox
+  scrollbar-color: $thumbColor transparent;
+  scrollbar-width: thin;
+
+  // chrome, opera, safari
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: $thumbColor;
+  }
+}

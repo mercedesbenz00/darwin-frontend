@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with invitation matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="login">
+      <teaser-stub title="Log In" image="login.png" textalign="center"></teaser-stub>
+      <form class="login__form">
+        <div class="login__form__title">
+          Welcome back!
+        </div>
+        <!---->
+        <div class="login__form__input">
+          <input-field-stub value="" label="Email" name="email" autocomplete="email" required="required" type="email" autofocus="true" theme="light"></input-field-stub>
+        </div>
+        <div class="login__form__input">
+          <input-field-stub value="" label="Password" name="password" autocomplete="current-password" required="required" type="password" theme="light">
+            <div class="login__form__input--forgot__password">
+              Forgot Password?
+            </div>
+          </input-field-stub>
+        </div>
+        <div class="login__form__actions">
+          <div class="login__form__remember">
+            <check-box-stub name="remember" id="remember" label="Remember me" type="rect" size="small"></check-box-stub>
+          </div>
+          <div class="login__form__buttons">
+            <primary-button-stub size="medium" type="submit">
+              Log In
+            </primary-button-stub>
+            <separator-stub class="separator">
+              OR
+            </separator-stub>
+            <div class="login__form__sso">
+              <google-auth-button-stub token=""></google-auth-button-stub>
+              <secondary-button-stub size="medium" tag="router-link" to="[object Object]" class="login__form__sso-button">
+                Use Single<br>Sign On (SSO)
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</background-stub>
+`;
+
+exports[`without invitation matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="login">
+      <teaser-stub title="Log In" image="login.png" textalign="center"></teaser-stub>
+      <form class="login__form">
+        <div class="login__form__title">
+          Welcome back!
+        </div>
+        <!---->
+        <div class="login__form__input">
+          <input-field-stub value="" label="Email" name="email" autocomplete="email" required="required" type="email" autofocus="true" theme="light"></input-field-stub>
+        </div>
+        <div class="login__form__input">
+          <input-field-stub value="" label="Password" name="password" autocomplete="current-password" required="required" type="password" theme="light">
+            <div class="login__form__input--forgot__password">
+              Forgot Password?
+            </div>
+          </input-field-stub>
+        </div>
+        <div class="login__form__actions">
+          <div class="login__form__remember">
+            <check-box-stub name="remember" id="remember" label="Remember me" type="rect" size="small"></check-box-stub>
+          </div>
+          <div class="login__form__buttons">
+            <primary-button-stub size="medium" type="submit">
+              Log In
+            </primary-button-stub>
+            <separator-stub class="separator">
+              OR
+            </separator-stub>
+            <div class="login__form__sso">
+              <google-auth-button-stub token=""></google-auth-button-stub>
+              <secondary-button-stub size="medium" tag="router-link" to="[object Object]" class="login__form__sso-button">
+                Use Single<br>Sign On (SSO)
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</background-stub>
+`;

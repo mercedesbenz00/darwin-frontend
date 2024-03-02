@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`no url should match snapshot 1`] = `
+<div class="status-cell__container">
+  <status-button-stub type="annotate" variant="inverted" size="xs">
+    <avatar-stub name="Louis Raetz" id="" size="20"></avatar-stub>
+  </status-button-stub>
+  <p class="status-cell__label">Test label</p>
+</div>
+`;

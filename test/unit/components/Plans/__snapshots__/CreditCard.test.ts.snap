@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  class="credit-card"
+>
+  <h3
+    class="credit-card__header"
+  >
+    
+    Payment Card
+  
+  </h3>
+   
+  <div
+    class="credit-card__content"
+  >
+    <div
+      class="credit-card__data"
+    >
+      
+      No card on file
+    
+    </div>
+     
+    <positive-button-stub
+      class="credit-card__button"
+      size="medium"
+    >
+      
+      Add card
+    
+    </positive-button-stub>
+  </div>
+   
+  <div
+    class="credit-card__notice"
+  >
+    
+    Make sure the billing details match those on the card.
+  
+  </div>
+</div>
+`;

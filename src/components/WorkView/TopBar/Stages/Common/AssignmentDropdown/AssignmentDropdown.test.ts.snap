@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="assignment">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="rounded" tag="button" class="assignment__trigger has-tooltip" data-original-title="null">
+    <icon-duotone-trigger-stub></icon-duotone-trigger-stub>
+  </icon-button-stub>
+  <!---->
+</div>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when classes loaded matches snapshot 1`] = `
+<div class="classes">
+  <div class="classes__header">
+    <h4 class="classes__header__title">
+      Class distribution
+    </h4>
+    <gray-rounded-tabs-stub currenttab="instances" tabs="instances,files" class="classes__tabs"></gray-rounded-tabs-stub>
+    <div class="classes__score"></div>
+  </div>
+  <class-distribution-annotation-types-stub distribution="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="classes__types"></class-distribution-annotation-types-stub>
+  <div role="button" class="classes__select-all">
+    Select All
+  </div>
+  <class-distribution-table-stub distributions="[object Object],[object Object],[object Object]" dimension="countByInstances" class="classes__table"></class-distribution-table-stub>
+  <p class="classes__help">
+    Click to select classes. Eligible classes are automatically selected
+  </p>
+</div>
+`;
+
+exports[`when classes loaded matches snapshot on images tab 1`] = `
+<div class="classes">
+  <div class="classes__header">
+    <h4 class="classes__header__title">
+      Class distribution
+    </h4>
+    <gray-rounded-tabs-stub currenttab="images" tabs="instances,files" class="classes__tabs"></gray-rounded-tabs-stub>
+    <div class="classes__score"></div>
+  </div>
+  <class-distribution-annotation-types-stub distribution="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="classes__types"></class-distribution-annotation-types-stub>
+  <div role="button" class="classes__select-all">
+    Select All
+  </div>
+  <class-distribution-table-stub distributions="[object Object],[object Object],[object Object]" dimension="countByInstances" class="classes__table"></class-distribution-table-stub>
+  <p class="classes__help">
+    Click to select classes. Eligible classes are automatically selected
+  </p>
+</div>
+`;
+
+exports[`when no classes matches snapshot 1`] = `
+<div class="classes">
+  <div class="classes__header">
+    <h4 class="classes__header__title">
+      Class distribution
+    </h4>
+    <gray-rounded-tabs-stub currenttab="instances" tabs="instances,files" class="classes__tabs"></gray-rounded-tabs-stub>
+    <div class="classes__score"></div>
+  </div>
+  <class-distribution-annotation-types-stub distribution="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="classes__types"></class-distribution-annotation-types-stub>
+  <div role="button" class="classes__select-all">
+    Select All
+  </div>
+  <class-distribution-table-stub distributions="" dimension="countByInstances" class="classes__table"></class-distribution-table-stub>
+  <p class="classes__help">
+    Click to select classes. Eligible classes are automatically selected
+  </p>
+</div>
+`;

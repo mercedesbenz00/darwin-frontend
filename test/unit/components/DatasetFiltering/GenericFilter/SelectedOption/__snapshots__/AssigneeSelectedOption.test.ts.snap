@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="assignee-selected-option">
+  <responsive-team-member-avatar-stub member="[object Object]" class="assignee-selected-option__avatar"></responsive-team-member-avatar-stub> <span class="assignee-selected-option__name">Test Annotator2</span>
+</div>
+`;

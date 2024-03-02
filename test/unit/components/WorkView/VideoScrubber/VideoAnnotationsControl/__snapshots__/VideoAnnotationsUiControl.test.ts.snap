@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="video-annotations-ui-control">
+  <narrow-icon-stub></narrow-icon-stub>
+  <vue-slider-stub value="4" direction="ltr" height="3" dotsize="20" min="4" max="20" interval="1" clickable="true" duration="0.5" datavalue="value" datalabel="label" tooltip="none" tooltipplacement="top" usekeyboard="true" enablecross="true" order="true" process="true" railstyle="[object Object]" processstyle="[object Object]" dotstyle="[object Object]" tooltipstyle="[object Object]" eventtype="auto" show="true" speed="1" class="video-annotations-ui-control__slider"></vue-slider-stub>
+  <wide-icon-stub></wide-icon-stub>
+</div>
+`;

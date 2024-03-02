@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotation-control-menu">
+  <delete-all-visible-annotations-stub class="annotation-control__delete"></delete-all-visible-annotations-stub>
+  <hide-by-class-stub class="annotation-control__classes"></hide-by-class-stub>
+  <hide-by-author-stub class="annotation-control__authors"></hide-by-author-stub>
+</div>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<div class="annotation-control-menu">
+  <!---->
+  <hide-by-class-stub class="annotation-control__classes"></hide-by-class-stub>
+  <hide-by-author-stub class="annotation-control__authors"></hide-by-author-stub>
+</div>
+`;

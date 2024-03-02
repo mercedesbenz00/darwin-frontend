@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with normal props matches snapshot 1`] = `
+<modal-v2-stub size="medium" clicktoclose="true" name="test-dialog" width="388" transition="pop-out" height="auto" min-width="200" max-width="388" classes="confirm">
+  <modal-content-v2-stub>
+    <div class="confirm__title">
+      Test
+    </div>
+    <div class="confirm__description">
+      Test content
+    </div>
+    <div class="confirm__footer">
+      <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button" class="btn-positive">
+        Cancel
+      </custom-button-stub>
+      <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="btn-negative">
+        OK
+      </custom-button-stub>
+    </div>
+  </modal-content-v2-stub>
+</modal-v2-stub>
+`;

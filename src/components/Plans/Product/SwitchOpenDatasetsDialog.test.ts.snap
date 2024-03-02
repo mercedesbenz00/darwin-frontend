@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="switch-open-dataset-modal" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="switch-open-dataset-modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="500" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="dialog-layout">
+    <div class="dialog-layout__title">
+      Switch to Open Datasets?
+    </div>
+    <div class="dialog-layout__description">
+      As part of the Education plan,
+      your datasets and annotations will be made open-source
+      for the wider academic community, under a Creative Commons 4.0 license
+    </div>
+    <div class="dialog-layout__footer">
+      <secondary-button-stub>
+        Manage Plans
+      </secondary-button-stub>
+      <primary-button-stub>
+        Confirm
+      </primary-button-stub>
+    </div>
+  </div>
+</modal-stub>
+`;

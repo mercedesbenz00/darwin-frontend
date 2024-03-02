@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when toggled off matches snapshot 1`] = `
+<div class="v-popover-stub" delay="100" placement="bottom" popover-class="toggle-button-popover" trigger="hover">
+  <div class="main"><button class="toggle-button">Default Slot</button> </div>
+  <div class="popover"></div>
+</div>
+`;
+
+exports[`when toggled on matches snapshot 1`] = `
+<div class="v-popover-stub" delay="100" placement="bottom" popover-class="toggle-button-popover" trigger="hover">
+  <div class="main"><button class="toggle-button">Default Slot</button> </div>
+  <div class="popover"></div>
+</div>
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when parentType is "dataset" 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <bread-crumbs-stub></bread-crumbs-stub>
+      <div class="dataset-details__header-main">
+        <div class="dataset-details__title-wrapper">
+          <icon-button-stub to="/dataset" class="dataset-details__title__up" tooltip="{'placement':'bottom','content':'Back to Dataset','delay':500}">
+            <up-one-level-icon-stub></up-one-level-icon-stub>
+          </icon-button-stub>
+          <dataset-title-stub dataset="[object Object]" class="dataset-details__title"></dataset-title-stub>
+        </div>
+        <div class="dataset-details__header__tabs">
+          <tabs-stub dataset="[object Object]"></tabs-stub>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="dataset-details__content"></div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when parentType is "folder" 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <bread-crumbs-stub></bread-crumbs-stub>
+      <div class="dataset-details__header-main">
+        <div class="dataset-details__title-wrapper">
+          <icon-button-stub to="/folder" class="dataset-details__title__up" tooltip="{'placement':'bottom','content':'Back to Dataset','delay':500}">
+            <up-one-level-icon-stub></up-one-level-icon-stub>
+          </icon-button-stub>
+          <dataset-title-stub dataset="[object Object]" class="dataset-details__title"></dataset-title-stub>
+        </div>
+        <div class="dataset-details__header__tabs">
+          <tabs-stub dataset="[object Object]"></tabs-stub>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="dataset-details__content"></div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when title editable 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <bread-crumbs-stub></bread-crumbs-stub>
+      <div class="dataset-details__header-main">
+        <div class="dataset-details__title-wrapper">
+          <!---->
+          <dataset-title-stub dataset="[object Object]" editable="true" class="dataset-details__title"></dataset-title-stub>
+        </div>
+        <div class="dataset-details__header__tabs">
+          <tabs-stub dataset="[object Object]"></tabs-stub>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="dataset-details__content"></div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when title not editable 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <bread-crumbs-stub></bread-crumbs-stub>
+      <div class="dataset-details__header-main">
+        <div class="dataset-details__title-wrapper">
+          <!---->
+          <dataset-title-stub dataset="[object Object]" class="dataset-details__title"></dataset-title-stub>
+        </div>
+        <div class="dataset-details__header__tabs">
+          <tabs-stub dataset="[object Object]"></tabs-stub>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="dataset-details__content"></div>
+  </div>
+  <!---->
+</div>
+`;

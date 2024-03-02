@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<product-explanation-stub>
+  <header-4-stub>How is storage calculated?</header-4-stub>
+  <paragraph-12-stub><strong>Managed files</strong> include single images, extracted video
+    frames, medical image slices, or single document pages that are annotated
+    or in a workflow. Empty stored files are not counted in this limit. For
+    example if you only label 5 images in a 100 image dataset, you are
+    managing 5 files.
+  </paragraph-12-stub>
+  <paragraph-12-stub>
+    1 file is assumed to be up to 25 million pixels, or up to 6 video frames.
+    Files in higher resolution amount to +1 for each 25 megapixels. Video
+    frames at 5fps or faster count as 1/6th of a file. Deleting files
+    permanently will free up storage.
+  </paragraph-12-stub>
+  <paragraph-12-stub>
+    You may edit your Annotation plan to increase your team’s managed
+    allowance.
+  </paragraph-12-stub>
+</product-explanation-stub>
+`;

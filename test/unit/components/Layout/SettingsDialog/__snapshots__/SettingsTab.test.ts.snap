@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when provided a template slot 1`] = `
+<div class="settings-tab">
+  <div class="settings-tab__icon">
+    <div class="default"></div>
+  </div>
+  <div class="settings-tab__title">
+    Bar
+  </div>
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when can update_dataset 1`] = `<tabs-stub tabs="[object Object],[object Object],[object Object],[object Object]"></tabs-stub>`;
+
+exports[`matches snapshot when cannot update_dataset 1`] = `<tabs-stub tabs="[object Object],[object Object],[object Object],[object Object]"></tabs-stub>`;

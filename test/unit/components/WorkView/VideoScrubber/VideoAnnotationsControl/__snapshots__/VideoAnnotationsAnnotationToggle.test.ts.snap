@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<button class="video-annotations-annotation-toggle" tooltip="{'content':'Hide Annotation','placement':'top','delay':1000}">
+  <eye-opened-icon-stub></eye-opened-icon-stub>
+</button>
+`;
+
+exports[`matches snapshot when not visible 1`] = `
+<button class="video-annotations-annotation-toggle" tooltip="{'content':'Show Annotation','placement':'top','delay':1000}">
+  <eye-closed-icon-stub></eye-closed-icon-stub>
+</button>
+`;

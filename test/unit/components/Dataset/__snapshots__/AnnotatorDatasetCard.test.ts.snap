@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotator-dataset-card">
+  <div class="annotator-dataset-card__upside">
+    <div class="annotator-dataset-card__upside__rows"><img src="/static/imgs/no_work.svg" class="annotator-dataset-card__upside__rows__placeholder"></div>
+    <!---->
+  </div>
+  <div class="annotator-dataset-card__downside">
+    <div class="annotator-dataset-card__name">
+      Dataset
+    </div>
+  </div>
+  <div class="annotator-dataset-card__buttons">
+    <div>
+      <primary-button-stub disabled="true" class="button__assigned">
+        0 ASSIGNED TO YOU
+      </primary-button-stub>
+    </div>
+    <div tooltip="{'content':'You can add work once you complete what is assigned to you','show':false,'trigger':'manual'}">
+      <primary-button-stub class="button__request-work" tooltip="Add more work by assigning it to yourself">
+        +10
+      </primary-button-stub>
+    </div>
+  </div>
+  <div class="annotator-dataset-card__instruction-button">
+    <positive-button-stub>
+      Instructions
+    </positive-button-stub>
+  </div>
+  <modal-stub name="instructions-1" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+    <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong>Dataset</strong>
+      <p>Annotation instructions</p>
+    </div>
+    <div class="instructions-scroll-container">
+      <instructions-stub annotationclasses="[object Object],[object Object]" dataset="[object Object]" inmodal="true"></instructions-stub>
+    </div>
+  </modal-stub>
+</div>
+`;

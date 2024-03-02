@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when accepting all images 1`] = `
+<label class="droparea">
+  <div class="droparea__content"><img src="/static/imgs/upload-icon.svg" class="droparea__content__image">
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title">
+        Drag &amp; drop or click to browse
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;
+
+exports[`matches snapshot when accepting all videos 1`] = `
+<label class="droparea">
+  <div class="droparea__content"><img src="/static/imgs/upload-icon.svg" class="droparea__content__image">
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title">
+        Drag &amp; drop or click to browse
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;
+
+exports[`matches snapshot when accepting specific types 1`] = `
+<label class="droparea">
+  <div class="droparea__content"><img src="/static/imgs/upload-icon.svg" class="droparea__content__image">
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title">
+        Drag &amp; drop or click to browse
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;
+
+exports[`matches snapshot when clicks are prevented 1`] = `
+<div class="droparea">
+  <div class="droparea__content"><img src="/static/imgs/upload-icon.svg" class="droparea__content__image">
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title">
+        Drag &amp; drop or click to browse
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</div>
+`;
+
+exports[`matches snapshot when supplied a slot 1`] = `
+<label class="droparea">
+  <div class="droparea__content">
+    <div class="default-slot"></div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;

@@ -1,0 +1,8 @@
+export const AccountLimitReached = require('./account_limit_reached.svg?inline')
+export const TaskApproved = require('./task_approved.svg?inline')
+export const TaskAssigned = require('./task_assigned.svg?inline')
+export const TaskReadyForReview = require('./task_ready_for_review.svg?inline')
+export const TaskRejected = require('./task_rejected.svg?inline')
+export const WorkAssigned = require('./work_assigned.svg?inline')
+export const WorkRejected = require('./work_rejected.svg?inline')
+export const WorkflowImageComment = require('./workflow_image_comment.svg?inline')

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<work-tracker-stub topic="workview:annotate:stage:100"></work-tracker-stub>`;
+
+exports[`matches snapshot when there's no topic 1`] = `<work-tracker-stub></work-tracker-stub>`;

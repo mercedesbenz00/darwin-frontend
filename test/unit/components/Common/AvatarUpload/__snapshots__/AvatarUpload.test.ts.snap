@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for user who has avatar and can upload: yes avatar, yes upload 1`] = `
+<div
+  class="avatar avatar--has-image avatar--uploadable"
+  loading="false"
+  loading-options="[object Object]"
+>
+  <img
+    class="avatar__img"
+  />
+   
+  <div
+    class="avatar__button"
+  >
+    <upload-button-stub />
+  </div>
+   
+  <input
+    accept="image/*"
+    class="avatar__input"
+    type="file"
+  />
+</div>
+`;
+
+exports[`matches snapshot for user who has avatar and cannot upload: yes avatar no upload 1`] = `
+<div
+  class="avatar avatar--has-image"
+  loading="false"
+  loading-options="[object Object]"
+>
+  <img
+    class="avatar__img"
+  />
+   
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot for user who has no avatar and can upload: no avatar, yes upload 1`] = `
+<div
+  class="avatar avatar--uploadable"
+  loading="false"
+  loading-options="[object Object]"
+>
+  <div
+    class="clearbit-logo avatar__img"
+  >
+    <img />
+     
+  </div>
+   
+  <div
+    class="avatar__button"
+  >
+    <upload-button-stub />
+  </div>
+   
+  <input
+    accept="image/*"
+    class="avatar__input"
+    type="file"
+  />
+</div>
+`;
+
+exports[`matches snapshot for user who has no avatar and cannot upload: no avatar no upload 1`] = `
+<div
+  class="avatar"
+  loading="false"
+  loading-options="[object Object]"
+>
+  <div
+    class="clearbit-logo avatar__img"
+  >
+    <img />
+     
+    <div
+      class="avatar__initials"
+    >
+      
+      JD
+    
+    </div>
+  </div>
+   
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when disabled 1`] = `
+<div
+  class="avatar avatar--has-image avatar--uploadable"
+  loading="false"
+  loading-options="[object Object]"
+>
+  <img
+    class="avatar__img"
+  />
+   
+  <div
+    class="avatar__button"
+  >
+    <upload-button-stub />
+  </div>
+   
+  <input
+    accept="image/*"
+    class="avatar__input"
+    disabled="disabled"
+    type="file"
+  />
+</div>
+`;
+
+exports[`matches snapshot when uploading 1`] = `
+<div
+  class="avatar avatar--has-image avatar--uploadable"
+  loading="true"
+  loading-options="[object Object]"
+>
+  <img
+    class="avatar__img"
+  />
+   
+  <div
+    class="avatar__button"
+  >
+    <upload-button-stub />
+  </div>
+   
+  <input
+    accept="image/*"
+    class="avatar__input"
+    type="file"
+  />
+</div>
+`;
+
+exports[`matches snapshot with company url 1`] = `
+<div
+  class="avatar"
+  loading="false"
+  loading-options="[object Object]"
+>
+  <div
+    class="clearbit-logo avatar__img"
+  >
+    <img
+      src="v7labs.com"
+    />
+     
+    <div
+      class="avatar__initials"
+    >
+      
+      JD
+    
+    </div>
+  </div>
+   
+  <!---->
+</div>
+`;

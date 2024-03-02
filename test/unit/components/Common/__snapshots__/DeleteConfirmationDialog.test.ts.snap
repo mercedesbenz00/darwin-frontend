@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading matches snapshot 1`] = `
+<modal-stub name="confirm-delete" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirm-delete" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div loading-options="[object Object]" class="modal__container" loading="false">
+    <div class="confirmation-dialog-layout-stub">
+      <div class="title-slot-given">
+        Test
+      </div>
+      <div class="description-slot-given">
+        Test content
+      </div>
+      <div class="footer-slot-given">
+        <secondary-button-stub class="modal__footer-left">
+          Cancel
+        </secondary-button-stub>
+        <negative-button-stub disabled="true" class="modal__footer-right">
+          DELETE
+        </negative-button-stub>
+      </div>
+    </div>
+  </div>
+</modal-stub>
+`;
+
+exports[`with normal props matches snapshot 1`] = `
+<modal-stub name="test-dialog" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirm-delete" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div loading-options="[object Object]" class="modal__container" loading="false">
+    <div class="confirmation-dialog-layout-stub">
+      <div class="title-slot-given">
+        Test
+      </div>
+      <div class="description-slot-given">
+        Test content
+      </div>
+      <div class="footer-slot-given">
+        <secondary-button-stub class="modal__footer-left">
+          Cancel
+        </secondary-button-stub>
+        <negative-button-stub class="modal__footer-right">
+          DELETE
+        </negative-button-stub>
+      </div>
+    </div>
+  </div>
+</modal-stub>
+`;

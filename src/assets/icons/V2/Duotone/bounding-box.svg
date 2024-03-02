@@ -1,0 +1,4 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" style="--first-color: #000; --fill-opacity: 0.08; --second-color: #777">
+  <rect x="5.75" y="5.75" width="10.5" height="10.5" rx="2.25" fill="var(--first-color)" fill-opacity="var(--fill-opacity)" stroke="var(--second-color)"  stroke-width="1.5"/>
+  <path d="M3 13v-2c0-2.8 0-4.2.545-5.27A5 5 0 0 1 5.73 3.545C6.8 3 8.2 3 11 3h2" stroke="var(--second-color)" stroke-width="1.5"/>
+</svg>

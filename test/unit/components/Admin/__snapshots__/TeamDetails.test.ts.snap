@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="team">
+  <h1 class="team__title">
+    V7 team information
+  </h1>
+  <div class="team__actions">
+    <positive-button-stub>
+      Add me to this team
+    </positive-button-stub>
+    <primary-button-stub>
+      Enable AI Stages
+    </primary-button-stub>
+    <primary-button-stub>
+      Enable Code Stages
+    </primary-button-stub>
+    <primary-button-stub>
+      Enable Blind Stages
+    </primary-button-stub>
+    <primary-button-stub>
+      Enable Video Stream
+    </primary-button-stub>
+    <primary-button-stub>
+      Enable Model Tool
+    </primary-button-stub>
+  </div>
+  <div class="section">
+    <div class="section__title"></div>
+    <div class="section__body">
+      <div class="field"><label class="field__label">
+          Owner
+        </label>
+        <div class="field__value"></div>
+      </div>
+      <div class="field"><label class="field__label">
+          Creation Date
+        </label>
+        <div class="field__value">
+          May 1st, 2010 12:05:55
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section__title">
+      Note
+    </div>
+    <div class="section__body">
+      <div class="field"><label class="field__label"></label>
+        <div class="field__value">
+          Asked for extra credits
+        </div>
+      </div>
+    </div>
+  </div>
+  <stripe-stub team="[object Object]"></stripe-stub>
+  <credits-v3-stub team="[object Object]"></credits-v3-stub>
+  <storage-v3-stub team="[object Object]"></storage-v3-stub>
+  <partner-status-stub team="[object Object]"></partner-status-stub>
+  <div class="section">
+    <div class="section__title">
+      10 users
+    </div>
+    <div class="section__body">
+      User list in development
+    </div>
+  </div>
+  <div class="section">
+    <div class="section__title">
+      5 datasets
+    </div>
+    <div class="section__body">
+      Dataset list in development
+    </div>
+  </div>
+</div>
+`;

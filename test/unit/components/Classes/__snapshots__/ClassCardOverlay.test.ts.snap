@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="class-card-overlay">
+  <div class="class-card-overlay__checkbox">
+    <check-box-stub name="class-card" id="class-card--1" chkvalue="-1" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="class-card-overlay__buttons">
+    <!---->
+    <div class="class-card-overlay__button">
+      Edit
+    </div>
+  </div>
+  <class-card-menu-stub class="class-card-overlay__more"><img src="/static/imgs/more-white-icon.svg" class="class-card-overlay__icon"></class-card-menu-stub>
+  <div class="class-card-overlay__background"></div>
+</div>
+`;
+
+exports[`when selected matches snapshot 1`] = `
+<div class="class-card-overlay">
+  <div class="class-card-overlay__checkbox">
+    <check-box-stub name="class-card" value="true" id="class-card--1" chkvalue="-1" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="class-card-overlay__buttons">
+    <!---->
+    <div class="class-card-overlay__button">
+      Edit
+    </div>
+  </div>
+  <class-card-menu-stub class="class-card-overlay__more"><img src="/static/imgs/more-white-icon.svg" class="class-card-overlay__icon"></class-card-menu-stub>
+  <div class="class-card-overlay__background"></div>
+</div>
+`;
+
+exports[`with dataset when dataset annotation class matches snapshot 1`] = `
+<div class="class-card-overlay">
+  <div class="class-card-overlay__checkbox">
+    <check-box-stub name="class-card" id="class-card--1" chkvalue="-1" type="rect" size="small"></check-box-stub>
+  </div>
+  <div class="class-card-overlay__buttons">
+    <div class="class-card-overlay__button">
+      Remove
+    </div>
+    <div class="class-card-overlay__button">
+      Edit
+    </div>
+  </div>
+  <class-card-menu-stub dataset="[object Object]" class="class-card-overlay__more"><img src="/static/imgs/more-white-icon.svg" class="class-card-overlay__icon"></class-card-menu-stub>
+  <div class="class-card-overlay__background"></div>
+</div>
+`;
+
+exports[`with dataset when non-dataset annotation class matches snapshot 1`] = `
+<div class="class-card-overlay">
+  <!---->
+  <div class="class-card-overlay__buttons">
+    <div class="class-card-overlay__button">
+      Add
+    </div>
+    <div class="class-card-overlay__button">
+      Edit
+    </div>
+  </div>
+  <class-card-menu-stub isnondataset="true" dataset="[object Object]" class="class-card-overlay__more"><img src="/static/imgs/more-white-icon.svg" class="class-card-overlay__icon"></class-card-menu-stub>
+  <div class="class-card-overlay__background"></div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div class="v-popover-stub" popover-class="tooltip--feather tooltip--center-text annotator-rating__popover" trigger="hover" placement="right" offset="10" boundaries-element="[object HTMLBodyElement]">
+  <div class="main"></div>
+  <div class="popover">
+    <h2 class="annotator-rating__popover__title">
+      Performance in this Dataset
+    </h2>
+    <div class="annotator-rating__popover__data">
+      <div>Rating</div>
+      <div class="annotator-rating__popover__data__score">
+        5%
+      </div>
+    </div>
+    <div class="annotator-rating__popover__data">
+      <div>Merged instances</div>
+      <div class="annotator-rating__popover__data__merges">
+        11
+      </div>
+    </div>
+    <div class="annotator-rating__popover__data">
+      <div>Rejected instances</div>
+      <div class="annotator-rating__popover__data__rejections">
+        1
+      </div>
+    </div>
+    <h2 class="annotator-rating__popover__title">
+      Team Performance
+    </h2>
+    <div class="annotator-rating__popover__data">
+      <div>Rating</div>
+      <div class="annotator-rating__popover__data__score">
+        10%
+      </div>
+    </div>
+    <div class="annotator-rating__popover__data">
+      <div>Merged instances</div>
+      <div class="annotator-rating__popover__data__merges">
+        20
+      </div>
+    </div>
+    <div class="annotator-rating__popover__data">
+      <div>Rejected instances</div>
+      <div class="annotator-rating__popover__data__rejections">
+        1
+      </div>
+    </div>
+  </div>
+</div>
+`;

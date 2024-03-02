@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when disabled matches snapshot 1`] = `
+<div class="v-popover-stub" placement="top" trigger="click" popover-class="folder-popover" disabled="disabled" offset="1">
+  <div class="main"></div>
+  <div class="popover"></div>
+</div>
+`;
+
+exports[`when loading matches snapshot 1`] = `
+<div class="v-popover-stub" placement="top" trigger="click" popover-class="folder-popover" disabled="disabled" offset="1">
+  <div class="main"></div>
+  <div class="popover">
+    <div class="folder-popover_content">
+      <div class="folder-popover__folders">
+        <div class="folder-popover__folders__root">
+          Move to
+          <strong>Test</strong>
+        </div>
+        <folder-tree-stub folders="[object Object]"></folder-tree-stub>
+      </div>
+      <div class="inputfield folder-popover__input inputfield--dark">
+        <!---->
+        <div class="inputfield__wrapper"><input placeholder="/enter folder/ or path" type="text" class="inputfield__input">
+          <!---->
+          <div class="inputfield__modifier"><button disabled="disabled" class="folder-popover__create">
+              <folder-icon-stub class="folder-popover__icon"></folder-icon-stub>
+            </button></div>
+          <div class="inputfield__advisor"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`with default props matches snapshot 1`] = `
+<div class="v-popover-stub" placement="top" trigger="click" popover-class="folder-popover" offset="1">
+  <div class="main"></div>
+  <div class="popover">
+    <div class="folder-popover_content">
+      <div class="folder-popover__folders">
+        <div class="folder-popover__folders__root">
+          Move to
+          <strong>Test</strong>
+        </div>
+        <folder-tree-stub folders="[object Object]"></folder-tree-stub>
+      </div>
+      <div class="inputfield folder-popover__input inputfield--dark">
+        <!---->
+        <div class="inputfield__wrapper"><input placeholder="/enter folder/ or path" type="text" class="inputfield__input">
+          <!---->
+          <div class="inputfield__modifier"><button disabled="disabled" class="folder-popover__create">
+              <folder-icon-stub class="folder-popover__icon"></folder-icon-stub>
+            </button></div>
+          <div class="inputfield__advisor"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

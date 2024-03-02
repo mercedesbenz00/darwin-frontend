@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<button class="toggle">
+  <!----> A message
+</button>
+`;
+
+exports[`when given icon slot matches snapshot 1`] = `
+<button class="toggle">
+  <div class="toggle__icon">Foo</div> A message
+</button>
+`;

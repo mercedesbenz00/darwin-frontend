@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="typeform-modal" delay="0" adaptive="true" overlaytransition="overlay-fade" classes="typeform-modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="500" height="700" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="typeform-modal__content"></div>
+</modal-stub>
+`;

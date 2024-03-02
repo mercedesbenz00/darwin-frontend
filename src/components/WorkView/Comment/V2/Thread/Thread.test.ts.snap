@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thread component should match snapshot 1`] = `
+<section class="thread" style="left: 200px; top: 10px;">
+  <chat-stub></chat-stub>
+  <reasonsbox-stub></reasonsbox-stub>
+  <inputform-stub></inputform-stub>
+  <threadfooter-stub authorid="1"></threadfooter-stub>
+</section>
+`;

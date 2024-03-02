@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div class="sul-input__wrapper">
+    <input-field-stub value="" tag="div" placeholder="Search Users" type="text" items=""></input-field-stub>
+  </div>
+  <div class="sul-scrollable__wrapper">
+    <div class="sul-content__wrapper">
+      <anyone-list-element-stub></anyone-list-element-stub>
+    </div>
+    <div class="sul-content__wrapper">
+      <user-list-element-stub member="[object Object]" selected="true"></user-list-element-stub>
+      <user-list-element-stub member="[object Object]" selected="true"></user-list-element-stub>
+    </div>
+    <!---->
+  </div>
+</div>
+`;

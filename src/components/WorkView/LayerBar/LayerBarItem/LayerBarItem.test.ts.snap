@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when different class 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when given slot 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when highlighted 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active layerbar-item--highlighted">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when invisible 1`] = `
+<li id="layer__none" class="layerbar-item">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" readonly="true" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active layerbar-item--selected">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when unknown class 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when visible 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;
+
+exports[`with confidence score 1`] = `
+<li id="layer__none" class="layerbar-item layerbar-item--active">
+  <div class="layerbar-item__container">
+    <div role="button" class="layerbar-item__content">
+      <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)" class="layerbar-item__class-icon"></type-icon-stub>
+      <div class="layerbar-item__label" tooltip="{'content':'Bottle'}">
+        Bottle
+      </div>
+      <div class="layerbar-item__slidable-container">
+        <!---->
+        <visibility-toggle-stub annotation="[object Object]"></visibility-toggle-stub>
+        <trash-button-stub></trash-button-stub>
+      </div>
+      <confidence-score-stub classcolor="rgba(5,5,5,0.5)" inferencedata="[object Object]" name="Bottle" class="layerbar-item__confidence-score"></confidence-score-stub>
+    </div>
+    <!---->
+    <sub-annotations-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" class="layerbar-item__sub-annotations"></sub-annotations-stub>
+  </div>
+</li>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the sidebar 1`] = `
+<div class="manipulation-sidebar">
+  <div class="manipulation-sidebar__header"><button class="manipulation-sidebar__button manipulation-sidebar__button--open"><img src="./assets/icon.svg"></button> <strong class="manipulation-sidebar__title">Image Manipulation</strong> <button class="manipulation-sidebar__button manipulation-sidebar__button--close"></button></div>
+  <div class="manipulation-sidebar__content">Image Manipulation sidebar content slot</div>
+</div>
+`;

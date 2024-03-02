@@ -1,0 +1,63 @@
+$sizes: (
+  mini: (
+    height: 24px,
+    padding: 1px,
+    padding-slot: 2px,
+    margin: 1px,
+    icon: 16px,
+    slot-icon: 10px,
+    slot-shortcut: 10px,
+    typography: md,
+  ),
+  very-small: (
+    height: 24px,
+    padding: 12px,
+    padding-slot: 18px,
+    margin: 1px,
+    icon: 16px,
+    slot-icon: 10px,
+    slot-shortcut: 10px,
+    typography: md,
+  ),  
+  small: (
+    height: 32px,
+    padding: 16px,
+    padding-slot: 34px,
+    margin: 8px,
+    icon: 28px,
+    slot-icon: 20px,
+    slot-shortcut: 16px,
+    typography: md-1,
+  ),
+  medium: (
+    height: 36px,
+    padding: 20px,
+    padding-slot: 36px,
+    margin: 8px,
+    icon: 34px,
+    slot-icon: 20px,
+    slot-shortcut: 24px,
+    typography: lg,
+  ),
+  large: (
+    height: 40px,
+    padding: 22px,
+    padding-slot: 36px,
+    margin: 8px,
+    icon: 44px,
+    slot-icon: 20px,
+    slot-shortcut: 24px,
+    typography: lg-1,
+  ),
+);
+
+.size {
+  @each $key in map-keys($sizes) {
+    $size: map-get($sizes, $key);
+    $height: map-get($size, 'height');
+
+    &--#{$key} {
+      height: $height;
+    }
+  }
+}

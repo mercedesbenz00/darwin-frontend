@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snaphsot 1`] = `
+<form>
+  <div class="storage__field-label-container">
+    <div><span class="storage__field-label">Name</span> <span class="field-required">*</span></div>
+    <info-stub title="Name (Required)">
+      New name for the setting.
+    </info-stub>
+  </div>
+  <input-field-stub value="" id="storageName" required="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__field-label-container">
+    <div><span class="storage__field-label">Bucket</span> <span class="field-required">*</span></div>
+    <info-stub title="Bucket (Required)">
+      Name of the storage bucket / storage account name.
+    </info-stub>
+  </div>
+  <input-field-stub value="" id="storageBucket" required="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__field-label-container"><span class="storage__field-label">Prefix</span>
+    <info-stub title="Prefix (Optional)">
+      Prefix for all Darwin-created files (like thumbnails).
+      It cannot start nor end with "/". Examples: "v7labs", "mycontainer/darwin".
+    </info-stub>
+  </div>
+  <input-field-stub value="" type="text" theme="dark" class="storage__field"></input-field-stub>
+  <div class="storage__inline">
+    <check-box-stub id="storage-readonly" label="Read only" type="rect" size="small" class="storage__field"></check-box-stub>
+    <check-box-stub id="storage-default" label="Default" type="rect" size="small" class="storage__field"></check-box-stub>
+  </div>
+  <div class="storage__footer">
+    <secondary-button-stub type="button">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+</form>
+`;

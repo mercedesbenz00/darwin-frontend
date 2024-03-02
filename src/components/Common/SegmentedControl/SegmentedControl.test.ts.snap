@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with tabs should match snapshot 1`] = `
+<div class="segmented-control segmented-control--small" style="grid-template-columns: repeat(4, 1fr);">
+  <div class="segmented-control__block segmented-control__block--small" style="left: 3px; --blockWidth: 0px; transform: translateX(0px);"></div>
+  <tab-stub id="1" label="Test" active="true" variant="small"></tab-stub>
+  <tab-stub id="2" label="Test" variant="small"></tab-stub>
+  <tab-stub id="3" label="Test" variant="small"></tab-stub>
+  <tab-stub id="4" label="Test" variant="small"></tab-stub>
+</div>
+`;

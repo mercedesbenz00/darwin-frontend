@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when slot provided 1`] = `
+<div class="data">
+  <div class="data__header">
+    <div class="data__header__title">
+      <h3>Time spent annotating</h3>
+      <div class="data__header__title__note">
+        Metrics are updated every hour. Times are in GMT+0.
+      </div>
+    </div>
+    <div class="data__header__chart-toggles">
+      <div>Default slot</div>
+    </div>
+  </div>
+  <line-chart-stub chartdata="[object Object]" chartid="gradient-line" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></line-chart-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with blank data 1`] = `
+<div class="data">
+  <div class="data__header">
+    <div class="data__header__title">
+      <h3>Time spent annotating</h3>
+      <div class="data__header__title__note">
+        Metrics are updated every hour. Times are in GMT+0.
+      </div>
+    </div>
+    <div class="data__header__chart-toggles"></div>
+  </div>
+  <line-chart-stub chartdata="[object Object]" chartid="gradient-line" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></line-chart-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with data 1`] = `
+<div class="data">
+  <div class="data__header">
+    <div class="data__header__title">
+      <h3>Time spent annotating</h3>
+      <div class="data__header__title__note">
+        Metrics are updated every hour. Times are in GMT+0.
+      </div>
+    </div>
+    <div class="data__header__chart-toggles"></div>
+  </div>
+  <line-chart-stub chartdata="[object Object]" chartid="gradient-line" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></line-chart-stub>
+  <!---->
+</div>
+`;

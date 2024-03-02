@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when parentType is "dataset" 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <div class="dataset-details__header__left">
+        <icon-button-stub variant="default" color="secondary" size="small" flair="rounded" tag="router-link" to="/dataset" class="dataset-details__back" tooltip="{'placement':'bottom','content':'Back to Dataset','delay':500}">
+          <icon-mono-arrow-left-stub></icon-mono-arrow-left-stub>
+        </icon-button-stub>
+        <bread-crumbs-stub class="dataset-details__crumbs"></bread-crumbs-stub>
+      </div>
+      <div class="dataset-details__header__right">
+        <v2-download-dataset-report-button-stub buttontype="secondary-light-button"></v2-download-dataset-report-button-stub>
+        <v2-export-button-stub buttontype="secondary-light-button"></v2-export-button-stub>
+        <v2-data-tab-upload-stub></v2-data-tab-upload-stub>
+      </div>
+    </div>
+    <div class="dataset-details__content">
+      <div class="dataset-details__content__tabs">
+        <v2datasetdetailtabs-stub dataset="[object Object]"></v2datasetdetailtabs-stub>
+      </div>
+      <div class="dataset-details__content__body">
+        <div class="dataset-details__content__body__main">
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when parentType is "folder" 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <div class="dataset-details__header__left">
+        <icon-button-stub variant="default" color="secondary" size="small" flair="rounded" tag="router-link" to="/folder" class="dataset-details__back" tooltip="{'placement':'bottom','content':'Back to Dataset','delay':500}">
+          <icon-mono-arrow-left-stub></icon-mono-arrow-left-stub>
+        </icon-button-stub>
+        <bread-crumbs-stub class="dataset-details__crumbs"></bread-crumbs-stub>
+      </div>
+      <div class="dataset-details__header__right">
+        <v2-download-dataset-report-button-stub buttontype="secondary-light-button"></v2-download-dataset-report-button-stub>
+        <v2-export-button-stub buttontype="secondary-light-button"></v2-export-button-stub>
+        <v2-data-tab-upload-stub></v2-data-tab-upload-stub>
+      </div>
+    </div>
+    <div class="dataset-details__content">
+      <div class="dataset-details__content__tabs">
+        <v2datasetdetailtabs-stub dataset="[object Object]"></v2datasetdetailtabs-stub>
+      </div>
+      <div class="dataset-details__content__body">
+        <div class="dataset-details__content__body__main">
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when title editable 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <div class="dataset-details__header__left">
+        <!---->
+        <bread-crumbs-stub class="dataset-details__crumbs"></bread-crumbs-stub>
+      </div>
+      <div class="dataset-details__header__right">
+        <v2-download-dataset-report-button-stub buttontype="secondary-light-button"></v2-download-dataset-report-button-stub>
+        <v2-export-button-stub buttontype="secondary-light-button"></v2-export-button-stub>
+        <v2-data-tab-upload-stub></v2-data-tab-upload-stub>
+      </div>
+    </div>
+    <div class="dataset-details__content">
+      <div class="dataset-details__content__tabs">
+        <v2datasetdetailtabs-stub dataset="[object Object]"></v2datasetdetailtabs-stub>
+      </div>
+      <div class="dataset-details__content__body">
+        <div class="dataset-details__content__body__main">
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when title not editable 1`] = `
+<div class="dataset-details">
+  <div class="dataset-details__main">
+    <div class="dataset-details__header">
+      <div class="dataset-details__header__left">
+        <!---->
+        <bread-crumbs-stub class="dataset-details__crumbs"></bread-crumbs-stub>
+      </div>
+      <div class="dataset-details__header__right">
+        <v2-download-dataset-report-button-stub buttontype="secondary-light-button"></v2-download-dataset-report-button-stub>
+        <v2-export-button-stub buttontype="secondary-light-button"></v2-export-button-stub>
+        <v2-data-tab-upload-stub></v2-data-tab-upload-stub>
+      </div>
+    </div>
+    <div class="dataset-details__content">
+      <div class="dataset-details__content__tabs">
+        <v2datasetdetailtabs-stub dataset="[object Object]"></v2datasetdetailtabs-stub>
+      </div>
+      <div class="dataset-details__content__body">
+        <div class="dataset-details__content__body__main">
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;

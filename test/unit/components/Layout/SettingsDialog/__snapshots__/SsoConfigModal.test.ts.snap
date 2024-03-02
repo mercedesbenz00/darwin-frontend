@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="ssoConfig" delay="0" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="35%" height="600" pivotx="0.5" pivoty="0.5" class="sso__modal">
+  <div class="modal__header">
+    <h3>Configure SSO</h3>
+  </div>
+  <div class="modal__content modal__content_sso" loading="false">
+    <form class="sso-form">
+      <p class="sso-form__info">
+        Please, enter a valid
+        <span tooltip="{'content':'Security Assertion Markup Language (SAML) is an open standard that allows identity providers (IdP) to pass authorization credentials to service providers (SP)'}">SAML</span>
+        SSO configuration. Refer to our <a href="https://docs.v7labs.com/docs/single-sign-on-sso-configuration" target="_blank">documentation</a> on what to insert below.
+      </p>
+      <text-area-stub required="true" value="" id="ssoConfig" name="ssoConfig" theme="transparent" type="text" class="sso-form__textarea"></text-area-stub>
+      <div class="sso-form__actions">
+        <secondary-button-stub type="button">
+          Cancel
+        </secondary-button-stub>
+        <primary-button-stub type="submit">
+          Confirm
+        </primary-button-stub>
+      </div>
+    </form>
+  </div>
+</modal-stub>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with dataset 1.0 computes breadcrumbs with special characters correctly 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <!---->
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-data__gallery dataset-management-data__gallery--v1"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`with dataset 1.0 matches the snapshot in dataset folder route 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <billing-box-stub class="dataset-management-data__overlay"></billing-box-stub>
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-data__gallery dataset-management-data__gallery--v1"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`with dataset 1.0 matches the snapshot in dataset route 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <billing-box-stub class="dataset-management-data__overlay"></billing-box-stub>
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-data__gallery dataset-management-data__gallery--v1"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`with dataset 1.0 matches the snapshot when dataset is public 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <!---->
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-data__gallery dataset-management-data__gallery--v1"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`with dataset 1.0 matches the snapshot when dataset is public 2`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <!---->
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-data__gallery dataset-management-data__gallery--v1"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`with dataset 2.0 matches snapshot 1`] = `
+<v2-dataset-detail-layout-stub dataset="[object Object]" parenttype="dataset" parentlocation="[object Object]">
+  <!---->
+  <dataset-management-header-stub dataset="[object Object]"></dataset-management-header-stub>
+  <droparea-stub acceptedfiletypes="application/pdf,image/*,video/*,.avi,.bmp,.dcm,.gz,.hevc,.jpeg,.jpg,.mkv,.mov,.mp4,.ndpi,.nii.gz,.nii,.pdf,.png,.rvg,.svs,.tif,.tiff,.webp" multiple="true" class="dataset-management-data__gallery">
+    <v2datasetitemgallery-stub dataset="[object Object]" datasetitems=""></v2datasetitemgallery-stub>
+  </droparea-stub>
+  <fileuploaddialogwrapper-stub></fileuploaddialogwrapper-stub>
+  <v2-management-context-menu-stub dataset="[object Object]" datasetitems="" class="dataset-management-data__menu"></v2-management-context-menu-stub>
+  <v2-workflow-sidebar-stub dataset="[object Object]" datasetitems=""></v2-workflow-sidebar-stub>
+</v2-dataset-detail-layout-stub>
+`;

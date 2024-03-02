@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="section credits-v3">
+  <div class="section__title">
+    Credits (V3)
+  </div>
+  <div class="section__body">
+    <div class="field"><label class="field__label">
+        Billed this period
+      </label>
+      <div class="field__value">
+        200
+      </div>
+    </div>
+    <div class="field"><label class="field__label">
+        Billed next period
+      </label>
+      <div class="field__value">
+        100
+      </div>
+    </div>
+    <div class="field"><label class="field__label">
+        Bonus
+      </label>
+      <div class="field__value">
+        40
+      </div>
+    </div>
+    <div class="field"><label class="field__label">
+        Used
+      </label>
+      <div class="field__value">
+        50
+      </div>
+    </div>
+    <div class="field"><label class="field__label">
+        Remaining this period
+      </label>
+      <div class="field__value">
+        190
+      </div>
+    </div>
+    <div class="field"><label class="field__label">
+        Seconds per automation action
+      </label>
+      <div class="field__value">
+        <seconds-per-automation-action-stub team="[object Object]" class="credits-v3__field__value"></seconds-per-automation-action-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

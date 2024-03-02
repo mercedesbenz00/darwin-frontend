@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`annotate stage assigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <team-member-avatar-stub member="[object Object]" class="stage-item__content__status-button__avatar"></team-member-avatar-stub>
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="annotate" assignee="[object Object]"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`annotate stage in tutorial mode matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`annotate stage past matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`annotate stage pre-assigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <team-member-avatar-stub member="[object Object]" class="stage-item__content__status-button__avatar"></team-member-avatar-stub>
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="annotate" assignee="[object Object]"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`annotate stage unassigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="annotate"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`annotate stage uninstantiated matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`annotate stage when user can assign matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="annotate"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`annotate stage when user cannot assign matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--annotate">
+    <status-button-stub type="annotate" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`complete stage unassigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--complete">
+    <status-button-stub type="complete" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`complete stage uninstantiated matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--complete">
+    <status-button-stub type="complete" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`complete stage when stage is active matches snapshot 1`] = `
+<div class="stage-item stage-item--selected stage-item--active stage-item--complete">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--active stage-item__content--complete">
+    <status-button-stub type="complete" variant="default" size="xs" active="true" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`complete stage when stage is selected matches snapshot 1`] = `
+<div class="stage-item stage-item--selected stage-item--active stage-item--complete">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--active stage-item__content--complete">
+    <status-button-stub type="complete" variant="default" size="xs" active="true" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`complete stage when user can assign matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--complete">
+    <status-button-stub type="complete" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`dataset stage in tutorial mode matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--dataset">
+    <status-button-stub type="dataset" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`dataset stage past matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--dataset">
+    <status-button-stub type="dataset" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`dataset stage unassigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--dataset">
+    <status-button-stub type="dataset" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`dataset stage uninstantiated matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--dataset">
+    <status-button-stub type="dataset" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`review stage assigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <team-member-avatar-stub member="[object Object]" class="stage-item__content__status-button__avatar"></team-member-avatar-stub>
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="review" assignee="[object Object]"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`review stage in tutorial mode matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`review stage past matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`review stage pre-assigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <team-member-avatar-stub member="[object Object]" class="stage-item__content__status-button__avatar"></team-member-avatar-stub>
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="review" assignee="[object Object]"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`review stage unassigned matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="review"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`review stage uninstantiated matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`review stage uninstantiated matches snapshot when shows time summary 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`review stage uninstantiated matches snapshot when shows time summary: hover 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <v2-time-summary-stub open="true" stagedata="[object Object]"></v2-time-summary-stub>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`review stage when user can assign matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <assignment-dropdown-stub status="review"></assignment-dropdown-stub>
+  </div>
+</div>
+`;
+
+exports[`review stage when user cannot assign matches snapshot 1`] = `
+<div class="stage-item">
+  <div class="stage-item__content stage-item__content--variant--default stage-item__content--review">
+    <status-button-stub type="review" variant="default" size="xs" class="stage-item__content__status-button">
+      <!---->
+    </status-button-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot intercom is hidden 1`] = `
+<div id="feedback-trigger" href="https://v7-community.circle.so/" target="_blank" class="feedback-trigger-wrapper">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="super-soft" tag="button" class="feedback__button clickable" tooltip="{'content':'Support / Feedback','placement':'right','offset':15}">
+    <feedback-icon-stub></feedback-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot intercom is visible 1`] = `
+<div id="feedback-trigger" href="https://v7-community.circle.so/" target="_blank" class="feedback-trigger-wrapper">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="super-soft" tag="button" disabled="true" class="feedback__button" tooltip="undefined">
+    <feedback-icon-stub></feedback-icon-stub>
+  </icon-button-stub>
+</div>
+`;

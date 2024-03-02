@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div to="[object Object]" target="_blank">
+  <router-link-stub to="[object Object]" target="_blank" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="academy" tooltip="Academy"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Academy
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;

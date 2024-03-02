@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<type-icon-with-label-stub label="50" type="polygon" tag="button" class="toggle"></type-icon-with-label-stub>`;
+
+exports[`when disabled matches snapshot 1`] = `<type-icon-with-label-stub label="50" type="polygon" tag="button" disabled="true" class="toggle"></type-icon-with-label-stub>`;
+
+exports[`when given tooltip matches snapshot 1`] = `<type-icon-with-label-stub label="50" type="polygon" tag="button" class="toggle">Custom tooltip</type-icon-with-label-stub>`;
+
+exports[`when selected matches snapshot 1`] = `<type-icon-with-label-stub label="50" type="polygon" tag="button" class="toggle toggle--active"></type-icon-with-label-stub>`;

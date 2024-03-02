@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="folder-popover" dataset="[object Object]" loading="true" folders="[object Object]">
+  <file-set-action-button-stub>
+    <folder-icon-stub class="folder-icon"></folder-icon-stub>
+  </file-set-action-button-stub>
+</div>
+`;

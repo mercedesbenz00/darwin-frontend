@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="key">
+  <div class="key__value">
+    Your access key:
+    <span class="key__value__span">foo.fake-key</span>
+  </div>
+  <copy-to-clipboard-stub title="Copy to clipboard" value="foo.fake-key" class="key__copy-button"></copy-to-clipboard-stub>
+  <p class="key__notice">
+    Please write down your key as it cannot be retrieved in the future.
+  </p>
+</div>
+`;

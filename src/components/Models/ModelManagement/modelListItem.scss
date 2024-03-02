@@ -1,0 +1,68 @@
+@mixin modelListItem {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 1fr 150px 20px;
+
+  width: 100%;
+  min-width: 600px;
+  padding: 10px;
+  margin: 0;
+
+  align-items: center;
+
+  &__column:hover {
+    cursor: pointer;
+  }
+
+  &__name {
+    @include row;
+    @include typography(md-1, inter, 600);
+    gap: 5px;
+    letter-spacing: 0.5px;
+    color: $color90Black;
+  }
+
+  &__type {
+    @include row;
+    @include typography(md-1, inter, 600);
+    gap: 5px;
+    letter-spacing: 0.5px;
+    color: $color90Black;
+    line-height: 23px;
+
+    svg {
+      margin: auto 5px auto 0;
+    }
+  }
+
+  &__dataset {
+    @include row;
+    @include typography(md-1, inter, 600);
+    gap: 5px;
+    letter-spacing: 0.5px;
+    color: $color90Black;
+  }
+
+  &__date {
+    @include row;
+    @include typography(md-1, inter, 600);
+    gap: 5px;
+    letter-spacing: 0.5px;
+    color: $color90Black;
+  }
+
+  &__status {
+    @include row;
+    @include typography(md-1, inter, 600);
+    gap: 5px;
+    letter-spacing: 0.5px;
+    color: $color90Black;
+  }
+
+  &__more {
+    margin: auto;
+
+    svg {
+      padding-top: 3px;
+    }
+  }
+}

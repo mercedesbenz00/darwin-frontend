@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in workflows 2.0 matches snapshot 1`] = `
+<div class="dataset-details" dataset="[object Object]" parent-type="dataset" parent-location="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <billing-box-stub class="dataset-management-video__overlay"></billing-box-stub>
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-video__gallery"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`matches the snapshot in dataset route 1`] = `
+<div class="dataset-details" dataset="[object Object]" parent-type="dataset" parent-location="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <billing-box-stub class="dataset-management-video__overlay"></billing-box-stub>
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-video__gallery"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;
+
+exports[`matches the snapshot when dataset is public 1`] = `
+<div class="dataset-details" dataset="[object Object]" parent-type="dataset" parent-location="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <!---->
+  <dataset-item-gallery-stub dataset="[object Object]" class="dataset-management-video__gallery"></dataset-item-gallery-stub>
+  <management-context-menu-stub dataset="[object Object]"></management-context-menu-stub>
+  <workflow-sidebar-stub dataset="[object Object]"></workflow-sidebar-stub>
+</div>
+`;

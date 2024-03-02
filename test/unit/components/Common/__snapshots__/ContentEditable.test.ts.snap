@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<h1 contenteditable="true" placeholder="" class="content-editable">New Model</h1>`;
+
+exports[`matches snapshot when disabled 1`] = `<h1 contenteditable="false" placeholder="" class="content-editable">New Model</h1>`;
+
+exports[`matches snapshot with placeholder 1`] = `<h1 contenteditable="true" placeholder="Placeholder" class="content-editable">New Model</h1>`;

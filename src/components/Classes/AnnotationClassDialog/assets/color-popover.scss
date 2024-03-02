@@ -1,0 +1,12 @@
+.popover--colors {
+  top: -70px !important;
+  box-shadow: none;
+
+  .tooltip-inner {
+    border-radius: $border-radius-default;
+    max-width: none;
+    overflow: hidden;
+    padding: 1px;
+    box-shadow: 0 5px 20px 0 rgba(145,169,192,.3), 0 10px 10px -5px rgba(145,169,192,.3);
+  }
+}

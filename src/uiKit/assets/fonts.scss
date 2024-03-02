@@ -1,0 +1,41 @@
+// fonts
+
+@mixin fontUI700 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+}
+
+@mixin fontRegularBody100 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+}
+
+@mixin fontRegularBody200 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+@mixin fontRegularBody300 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+@mixin fontRegularBody500 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}

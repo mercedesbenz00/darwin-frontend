@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" trigger="manual" popover-class="action-popover">
+  <div class="main">
+    <three-dot-button-stub size="small" class="trigger"></three-dot-button-stub>
+  </div>
+  <div class="popover">
+    <div loading-options="[object Object]" class="action-container" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+      <div class="action-container__header">
+        <h3>Workflow Stats</h3> <button class="action-container__header__close">
+          <x-icon-stub></x-icon-stub>
+        </button>
+      </div>
+      <action-history-stub></action-history-stub>
+      <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0.1);">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<div class="v-popover-stub" trigger="manual" popover-class="action-popover">
+  <div class="main">
+    <three-dot-button-stub size="small" class="trigger"></three-dot-button-stub>
+  </div>
+  <div class="popover">
+    <div loading-options="[object Object]" class="action-container" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+      <div class="action-container__header">
+        <h3>Workflow Stats</h3> <button class="action-container__header__close">
+          <x-icon-stub></x-icon-stub>
+        </button>
+      </div>
+      <action-history-stub></action-history-stub>
+      <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0.1);">
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

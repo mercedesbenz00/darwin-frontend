@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when data valid matches snapshot 1`] = `
+<alice-blue-panel-stub class="datasets">
+  <div class="datasets__sidebar sidebar">
+    <h3 class="sidebar__header">
+      Choose a Dataset
+    </h3>
+    <search-field-stub value="" placeholder="Search..." class="sidebar__search"></search-field-stub>
+    <div class="sidebar__datasets"></div>
+  </div>
+  <div class="datasets__main sampling-distribution">
+    <item-sampling-stub class="sampling-distribution__samples"></item-sampling-stub>
+    <class-selection-stub loading-options="[object Object]" class="sampling-distribution__distribution" loading="false"></class-selection-stub>
+    <!---->
+  </div>
+  <div class="datasets__footer footer">
+    <primary-button-stub>
+      Continue
+    </primary-button-stub>
+  </div>
+  <dataset-data-loader-stub></dataset-data-loader-stub>
+</alice-blue-panel-stub>
+`;
+
+exports[`when no sample items matches snapshot 1`] = `
+<alice-blue-panel-stub class="datasets">
+  <div class="datasets__sidebar sidebar">
+    <h3 class="sidebar__header">
+      Choose a Dataset
+    </h3>
+    <search-field-stub value="" placeholder="Search..." class="sidebar__search"></search-field-stub>
+    <div class="sidebar__datasets"></div>
+  </div>
+  <div class="datasets__main sampling-distribution">
+    <item-sampling-stub class="sampling-distribution__samples"></item-sampling-stub>
+    <class-selection-stub loading-options="[object Object]" class="sampling-distribution__distribution" loading="false"></class-selection-stub>
+    <div class="datasets__errors">
+      <error-tip-stub>
+        The dataset contains no applicable items to train on.
+      </error-tip-stub>
+    </div>
+  </div>
+  <div class="datasets__footer footer">
+    <primary-button-stub disabled="true">
+      Continue
+    </primary-button-stub>
+  </div>
+  <dataset-data-loader-stub></dataset-data-loader-stub>
+</alice-blue-panel-stub>
+`;
+
+exports[`when no selected classes matches snapshot 1`] = `
+<alice-blue-panel-stub class="datasets">
+  <div class="datasets__sidebar sidebar">
+    <h3 class="sidebar__header">
+      Choose a Dataset
+    </h3>
+    <search-field-stub value="" placeholder="Search..." class="sidebar__search"></search-field-stub>
+    <div class="sidebar__datasets"></div>
+  </div>
+  <div class="datasets__main sampling-distribution">
+    <item-sampling-stub class="sampling-distribution__samples"></item-sampling-stub>
+    <class-selection-stub loading-options="[object Object]" class="sampling-distribution__distribution" loading="false"></class-selection-stub>
+    <div class="datasets__errors">
+      <error-tip-stub>
+        You must select one or more classes to train on.
+      </error-tip-stub>
+    </div>
+  </div>
+  <div class="datasets__footer footer">
+    <primary-button-stub disabled="true">
+      Continue
+    </primary-button-stub>
+  </div>
+  <dataset-data-loader-stub></dataset-data-loader-stub>
+</alice-blue-panel-stub>
+`;
+
+exports[`when no selected dataset matches snapshot 1`] = `
+<alice-blue-panel-stub class="datasets">
+  <div class="datasets__sidebar sidebar">
+    <h3 class="sidebar__header">
+      Choose a Dataset
+    </h3>
+    <search-field-stub value="" placeholder="Search..." class="sidebar__search"></search-field-stub>
+    <div class="sidebar__datasets"></div>
+  </div>
+  <div class="datasets__main sampling-distribution">
+    <!---->
+    <!---->
+    <!---->
+  </div>
+  <div class="datasets__footer footer">
+    <primary-button-stub disabled="true">
+      Continue
+    </primary-button-stub>
+  </div>
+  <!---->
+</alice-blue-panel-stub>
+`;

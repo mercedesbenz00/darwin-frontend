@@ -1,0 +1,17 @@
+[
+  {
+      "id": "evaluation",
+      "name": "Evaluation Models",
+      "description": "A quick, small neural network that gives a glimpse of your dataset’s viability. These models train on a small number of images and have an unrefined performance for the purpose of feasibility testing."
+  },
+  {
+      "id": "standard",
+      "name": "Standard Models",
+      "description": "These train on your full dataset for a large number of epochs. Use these during product development or to deploy in low to medium risk applications."
+  },
+  {
+      "id": "production",
+      "name": "Production Models",
+      "description": "One or more V7 deep learning engineers will be personally appointed to the training of this model. Select this option for high risk, custom, or unordinary applications where additional expertise is required."
+  }
+]

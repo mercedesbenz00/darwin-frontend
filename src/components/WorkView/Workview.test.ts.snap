@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in normal mode, as member matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <tracker-offline-dialog-stub></tracker-offline-dialog-stub>
+      <plan-expired-dialog-stub></plan-expired-dialog-stub>
+      <out-of-storage-dialog-stub></out-of-storage-dialog-stub>
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <!---->
+  <color-maps-stub></color-maps-stub>
+</div>
+`;
+
+exports[`in normal mode, as owner matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <tracker-offline-dialog-stub></tracker-offline-dialog-stub>
+      <plan-expired-dialog-stub></plan-expired-dialog-stub>
+      <out-of-storage-dialog-stub></out-of-storage-dialog-stub>
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <credits-popup-stub></credits-popup-stub>
+  <color-maps-stub></color-maps-stub>
+</div>
+`;
+
+exports[`in tutorial matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <!---->
+      <!---->
+      <!---->
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <credits-popup-stub></credits-popup-stub>
+  <color-maps-stub></color-maps-stub>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <tracker-offline-dialog-stub></tracker-offline-dialog-stub>
+      <plan-expired-dialog-stub></plan-expired-dialog-stub>
+      <out-of-storage-dialog-stub></out-of-storage-dialog-stub>
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <credits-popup-stub></credits-popup-stub>
+  <color-maps-stub></color-maps-stub>
+</div>
+`;
+
+exports[`public dataset when not logged in matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <tracker-offline-dialog-stub></tracker-offline-dialog-stub>
+      <!---->
+      <!---->
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <credits-popup-stub></credits-popup-stub>
+  <color-maps-stub></color-maps-stub>
+</div>
+`;
+
+exports[`public dataset when the dataset is public and current team is not the owner of the dataset matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <tracker-offline-dialog-stub></tracker-offline-dialog-stub>
+      <!---->
+      <!---->
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <credits-popup-stub></credits-popup-stub>
+  <color-maps-stub></color-maps-stub>
+</div>
+`;
+
+exports[`when isSockerCheckDisabled is true matches snapshot 1`] = `
+<div class="workview">
+  <div class="workview__top"></div>
+  <div class="workview__center">
+    <div class="workview__center__left"></div>
+    <div id="main-view" class="workview__center__main">
+      <div id="workview-canvas" class="workview__center__main__layout">
+        <layout-component-stub editor="[object Object]"></layout-component-stub>
+        <comment-thread-stub view="[object Object]"></comment-thread-stub>
+        <test-stage-results-stub></test-stage-results-stub>
+        <resize-observer-stub></resize-observer-stub>
+      </div>
+      <div class="workview__center__main__bottom">
+        <div class="workview__center__main__bottom__bars"></div>
+        <bottom-drawer-stub name="image carousel" resizable="true" initialheight="80" minheight="56" maxheight="150" class="workview__center__main__bottom__images"></bottom-drawer-stub>
+      </div>
+      <instructions-sidebar-stub class="workview__center__main__instructions hide-to-sm">
+        <instructions-stub annotationclasses="" dataset="[object Object]"></instructions-stub>
+      </instructions-sidebar-stub>
+      <hotkey-info-sidebar-stub class="workview__center__main__hotkey hide-to-sm">
+        <hotkey-info-stub hotkeys=""></hotkey-info-stub>
+      </hotkey-info-sidebar-stub>
+      <image-manipulation-sidebar-stub class="workview__center__main__image hide-to-sm">
+        <image-manipulation-stub editor="[object Object]"></image-manipulation-stub>
+      </image-manipulation-sidebar-stub>
+      <!---->
+      <modal-stub name="modalInstructions" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="800" width="600" height="80%" pivotx="0.5" pivoty="0.5" class="modal__instructions">
+        <div class="modal__header"><button aria-label="close" class="modal__close-button"></button> <strong class="modal__dataset-name">Foo</strong>
+          <p>Here are your instructions for the upcoming task…</p>
+        </div>
+        <div class="instructions-scroll-container">
+          <instructions-stub annotationclasses="" dataset="[object Object]" inmodal="true"></instructions-stub>
+        </div>
+      </modal-stub>
+    </div>
+    <div class="workview__center__right"></div>
+  </div>
+  <cursor-loader-stub editor="[object Object]"></cursor-loader-stub>
+  <dataset-attribute-loader-stub></dataset-attribute-loader-stub>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <workview-class-dialog-stub editor="[object Object]"></workview-class-dialog-stub>
+  <credits-popup-stub></credits-popup-stub>
+  <color-maps-stub></color-maps-stub>
+</div>
+`;

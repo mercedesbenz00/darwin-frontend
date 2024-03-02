@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot on main layout 1`] = `
+<div id="app" class="darwin-theme">
+  <router-view-stub></router-view-stub>
+  <class-loader-stub></class-loader-stub>
+  <initial-auth-loader-stub></initial-auth-loader-stub>
+  <intercom-loader-stub></intercom-loader-stub>
+  <portal-target-stub name="modal" multiple=""></portal-target-stub>
+</div>
+`;
+
+exports[`renders ClassLoader component, to load team-wide classes 1`] = `
+<div id="app" class="darwin-theme">
+  <router-view-stub></router-view-stub>
+  <class-loader-stub></class-loader-stub>
+  <initial-auth-loader-stub></initial-auth-loader-stub>
+  <intercom-loader-stub></intercom-loader-stub>
+  <portal-target-stub name="modal" multiple=""></portal-target-stub>
+</div>
+`;

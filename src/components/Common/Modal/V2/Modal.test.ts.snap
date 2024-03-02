@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with slots 1`] = `
+<modal-stub name="test-dialog" delay="0" overlaytransition="overlay-fade" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="480" height="300" pivotx="0.5" pivoty="0.5" translate="pop-out" class="modal modal--small">
+  <div class="modal-container-v2">Default slot</div>
+</modal-stub>
+`;
+
+exports[`matches snapshot without slots 1`] = `
+<modal-stub name="test-dialog" delay="0" overlaytransition="overlay-fade" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="480" height="300" pivotx="0.5" pivoty="0.5" translate="pop-out" class="modal modal--small">
+  <div class="modal-container-v2"></div>
+</modal-stub>
+`;

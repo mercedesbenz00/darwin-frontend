@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <secondary-button-stub size="medium" class="reports-button">
+    Download Report (CSV)
+  </secondary-button-stub>
+  <portal-stub name="1" order="0" slotprops="[object Object]" tag="DIV" to="modal">
+    <modal-stub name="download-report" delay="0" scrollable="true" overlaytransition="overlay-fade" classes="reports-modal" minwidth="350" minheight="500" maxwidth="600" maxheight="900" width="60%" height="85%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+      <div class="modal__content">
+        <p class="modal__content__title">
+          Dataset Reports
+        </p>
+        <div class="modal__content__section modal__content__available-versions" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+          <div class="button__generate">
+            <primary-button-stub>
+              + GENERATE A NEW REPORT
+            </primary-button-stub>
+          </div>
+          <div class="reports__no-entries">
+            You haven't created any reports yet.
+          </div>
+          <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgba(0, 0, 0, 0.1);">
+
+            <div class="mul5">
+              <div class="mul5circle1"></div>
+              <div class="mul5circle2"></div>
+              <div class="mul5circle3"></div>
+            </div>
+
+            <label>Loading...</label>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <secondary-button-stub>
+          Close
+        </secondary-button-stub>
+      </div>
+    </modal-stub>
+  </portal-stub>
+</div>
+`;

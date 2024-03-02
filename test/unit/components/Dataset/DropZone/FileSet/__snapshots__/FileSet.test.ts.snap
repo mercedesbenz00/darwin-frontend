@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="file-set">
+  <file-set-delete-button-stub></file-set-delete-button-stub>
+  <file-set-thumbnails-stub thumbnails=""></file-set-thumbnails-stub>
+  <div class="file-set-info" set="[object Object]">
+    <file-set-tag-button-stub dataset="[object Object]" tags=""></file-set-tag-button-stub>
+    <file-set-folder-button-stub dataset="[object Object]"></file-set-folder-button-stub>
+  </div>
+  <file-set-current-folder-stub set="[object Object]"></file-set-current-folder-stub>
+  <file-set-current-tags-stub tags="" dataset="[object Object]"></file-set-current-tags-stub>
+</div>
+`;
+
+exports[`matches snapshot when folder is hidden 1`] = `
+<div class="file-set">
+  <file-set-delete-button-stub></file-set-delete-button-stub>
+  <file-set-thumbnails-stub thumbnails=""></file-set-thumbnails-stub>
+  <div class="file-set-info" set="[object Object]">
+    <file-set-tag-button-stub dataset="[object Object]" tags=""></file-set-tag-button-stub>
+    <!---->
+  </div>
+  <!---->
+  <file-set-current-tags-stub tags="" dataset="[object Object]"></file-set-current-tags-stub>
+</div>
+`;
+
+exports[`matches snapshot when tags are hidden 1`] = `
+<div class="file-set">
+  <file-set-delete-button-stub></file-set-delete-button-stub>
+  <file-set-thumbnails-stub thumbnails=""></file-set-thumbnails-stub>
+  <div class="file-set-info" set="[object Object]">
+    <!---->
+    <file-set-folder-button-stub dataset="[object Object]"></file-set-folder-button-stub>
+  </div>
+  <file-set-current-folder-stub set="[object Object]"></file-set-current-folder-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with thumbnails 1`] = `
+<div class="file-set">
+  <file-set-delete-button-stub></file-set-delete-button-stub>
+  <file-set-thumbnails-stub thumbnails="video-thumbnail,image-thumbnail"></file-set-thumbnails-stub>
+  <div class="file-set-info" set="[object Object]">
+    <file-set-tag-button-stub dataset="[object Object]" tags=""></file-set-tag-button-stub>
+    <file-set-folder-button-stub dataset="[object Object]"></file-set-folder-button-stub>
+  </div>
+  <file-set-current-folder-stub set="[object Object]"></file-set-current-folder-stub>
+  <file-set-current-tags-stub tags="" dataset="[object Object]"></file-set-current-tags-stub>
+</div>
+`;

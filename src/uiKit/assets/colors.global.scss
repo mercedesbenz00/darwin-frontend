@@ -1,0 +1,153 @@
+// colors module
+@import "./colors.scss";
+
+// This is needed for retrocompatibility
+// but it is reccommended to directly use the new
+// 'get-color(name, key...)' function
+
+//// Rainbow
+////
+////// Rainbow 1
+$colorRainbow1Saturated: get-color(rainbow, 1, saturated);
+$colorRainbow1Normal: get-color(rainbow, 1, normal);
+$colorRainbow1Desaturated: get-color(rainbow, 1, desaturated);
+//////// Rainbow 2
+$colorRainbow2Saturated: get-color(rainbow, 2, saturated);
+$colorRainbow2Normal: get-color(rainbow, 2, normal);
+$colorRainbow2Desaturated: get-color(rainbow, 2, desaturated);
+//////// Rainbow 3
+$colorRainbow3Saturated: get-color(rainbow, 3, saturated);
+$colorRainbow3Normal: get-color(rainbow, 3, normal);
+$colorRainbow3Desaturated: get-color(rainbow, 3, desaturated);
+//////// Rainbow 4
+$colorRainbow4Saturated: get-color(rainbow, 4, saturated);
+$colorRainbow4ormal: get-color(rainbow, 4, normal);
+$colorRainbow4Desaturated: get-color(rainbow, 4, desaturated);
+//////// Rainbow 5
+$colorRainbow5Saturated: get-color(rainbow, 5, saturated);
+$colorRainbow5Normal: get-color(rainbow, 5, normal);
+$colorRainbow5Desaturated: get-color(rainbow, 5, desaturated);
+//////// Rainbow 6
+$colorRainbow6Saturated: get-color(rainbow, 6, saturated);
+$colorRainbow6Normal: get-color(rainbow, 6, normal);
+$colorRainbow6Desaturated: get-color(rainbow, 6, desaturated);
+//////// Rainbow 7
+$colorRainbow7Saturated: get-color(rainbow, 7, saturated);
+$colorRainbow7Normal: get-color(rainbow, 7, normal);
+$colorRainbow7Desaturated: get-color(rainbow, 7, desaturated);
+//////// Rainbow 8
+$colorRainbow8Saturated: get-color(rainbow, 8, saturated);
+$colorRainbow8Normal: get-color(rainbow, 8, normal);
+$colorRainbow8Desaturated: get-color(rainbow, 8, desaturated);
+//////// Rainbow 9
+$colorRainbow9Saturated: get-color(rainbow, 9, saturated);
+$colorRainbow9Normal: get-color(rainbow, 9, normal);
+$colorRainbow9Desaturated: get-color(rainbow, 9, desaturated);
+//////// Rainbow 10
+$colorRainbow10Saturated: get-color(rainbow, 10, saturated);
+$colorRainbow10Normal: get-color(rainbow, 10, normal);
+$colorRainbow10Desaturated: get-color(rainbow, 10, desaturated);
+//////// Rainbow 11
+$colorRainbow11Saturated: get-color(rainbow, 11, saturated);
+$colorRainbow11Normal: get-color(rainbow, 11, normal);
+$colorRainbow11Desaturated: get-color(rainbow, 11, desaturated);
+//////// Rainbow 12
+$colorRainbow12Saturated: get-color(rainbow, 12, saturated);
+$colorRainbow12Normal: get-color(rainbow, 12, normal);
+$colorRainbow12Desaturated: get-color(rainbow, 12, desaturated);
+//////// Rainbow 13
+$colorRainbow13Saturated: get-color(rainbow, 13, saturated);
+$colorRainbow13Normal: get-color(rainbow, 13, normal);
+$colorRainbow13Desaturated: get-color(rainbow, 13, desaturated);
+//////// Rainbow 14
+$colorRainbow14Saturated: get-color(rainbow, 14, saturated);
+$colorRainbow14Normal: get-color(rainbow, 14, normal);
+$colorRainbow14Desaturated: get-color(rainbow, 14, desaturated);
+//////// Rainbow 15
+$colorRainbow15Saturated: get-color(rainbow, 15, saturated);
+$colorRainbow15Normal: get-color(rainbow, 15, normal);
+$colorRainbow15Desaturated: get-color(rainbow, 15, desaturated);
+//////// Rainbow 16
+$colorRainbow16Saturated: get-color(rainbow, 16, saturated);
+$colorRainbow16Normal: get-color(rainbow, 6, normal);
+$colorRainbow16Desaturated: get-color(rainbow, 16, desaturated);
+//////// Rainbow 17
+$colorRainbow17Saturated: get-color(rainbow, 17, saturated);
+$colorRainbow17Normal: get-color(rainbow, 17, normal);
+$colorRainbow17Desaturated: get-color(rainbow, 17, desaturated);
+//////// Rainbow 18
+$colorRainbow18Saturated: get-color(rainbow, 18, saturated);
+$colorRainbow18Normal: get-color(rainbow, 18, normal);
+$colorRainbow18Desaturated: get-color(rainbow, 8, desaturated);
+//////// Rainbow 19
+$colorRainbow19Saturated: get-color(rainbow, 19, saturated);
+$colorRainbow19Normal: get-color(rainbow, 19, normal);
+$colorRainbow19Desaturated: get-color(rainbow, 19, desaturated);
+//////// Rainbow 20
+$colorRainbow20Saturated: get-color(rainbow, 20, saturated);
+$colorRainbow20Normal: get-color(rainbow, 20, normal);
+$colorRainbow20Desaturated: get-color(rainbow, 20, desaturated);
+//////// Rainbow 21
+$colorRainbow21Saturated: get-color(rainbow, 21, saturated);
+$colorRainbow21Normal: get-color(rainbow, 21, normal);
+$colorRainbow21Desaturated: get-color(rainbow, 21, desaturated);
+//////// Rainbow 22
+$colorRainbow22Saturated: get-color(rainbow, 22, saturated);
+$colorRainbow22Normal: get-color(rainbow, 22, normal);
+$colorRainbow22Desaturated: get-color(rainbow, 22, desaturated);
+
+//// Content
+////
+$colorContentDefault: get-color(content, default);
+$colorContentDisabled: get-color(content, disabled);
+
+//// Interactive
+////
+//////// Interactive negative
+$colorInteractiveNegativeDefault: get-color(interactive, negative, default);
+$colorInteractiveNegativeDisabled: get-color(interactive, negative, disabled);
+$colorInteractiveNegativeHover: get-color(interactive, negative, hover);
+$colorInteractiveNegativePressed: get-color(interactive, negative, pressed);
+//////// Interactive outline
+$colorInteractiveOutlineDisabled: get-color(interactive, outline, disabled);
+//////// Interactive primary
+$colorInteractivePrimaryDefault: get-color(interactive, primary, default);
+$colorInteractivePrimaryDisabled: get-color(interactive, primary, disabled);
+$colorInteractivePrimaryHover: get-color(interactive, primary, hover);
+$colorInteractivePrimaryPressed: get-color(interactive, primary, pressed);
+//////// Interactive secondary
+$colorInteractiveSecondaryDefault: get-color(interactive, secondary, default);
+$colorInteractiveSecondaryDisabled: get-color(interactive, secondary, disabled);
+$colorInteractiveSecondaryHover: get-color(interactive, secondary, hover);
+$colorInteractiveSecondaryPressed: get-color(interactive, secondary, pressed);
+
+//// Neutrals
+///
+$colorNeutrals100: get-color(neutrals, 100);
+$colorNeutralsWhite: get-color(neutrals, white);
+
+//// Overlay
+///
+$colorOverlayHover: get-color(overlay, hover);
+
+//// Stroke
+///
+$colorStrokeBlue: get-color(stroke, blue);
+$colorStrokeDefault: get-color(stroke, default);
+$colorStrokeElevate: get-color(stroke, elevate);
+$colorStrokeEmphasis: get-color(stroke, emphasis);
+$colorStrokeHalo: get-color(stroke, halo);
+$colorStrokeNegative: get-color(stroke, negative);
+$colorStrokePositive: get-color(stroke, positive);
+$colorStrokeRaise: get-color(stroke, raise);
+$colorStrokeStrong: get-color(stroke, strong);
+$colorStrokeWarning: get-color(stroke, warning);
+
+//// Surface
+///
+$colorSurfaceDarken: get-color(surface, darken);
+$colorSurfaceDefault: get-color(surface, default);
+$colorSurfaceElevate: get-color(surface, elevate);
+
+// TEMP: Used for droparea colors, due to unfinished figma designs
+$colorAnnotationsBlueSurface: #476bd7;

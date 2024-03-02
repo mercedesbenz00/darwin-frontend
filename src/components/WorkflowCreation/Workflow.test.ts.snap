@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<main id="layout-container" class="layout-container">
+  <!---->
+  <!---->
+  <sidebar-stub></sidebar-stub>
+</main>
+`;

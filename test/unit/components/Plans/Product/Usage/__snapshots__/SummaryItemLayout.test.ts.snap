@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when full slots given matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <h4>Random Team</h4> Usage Limiter Goes Here
+  </div> Usage Bar Goes Here <div class="summary-item-layout__footer">Bonus: 20 Remaining: 50</div>
+</div>
+`;
+
+exports[`when full slots given renders slots 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <h4>Random Team</h4> Usage Limiter Goes Here
+  </div> Usage Bar Goes Here <div class="summary-item-layout__footer">Bonus: 20 Remaining: 50</div>
+</div>
+`;
+
+exports[`when partial slots given matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <!---->
+  </div> Usage Bar Goes Here <div class="summary-item-layout__footer">Bonus: 20 Remaining: 50</div>
+</div>
+`;
+
+exports[`when partial slots given renders slots 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <!---->
+  </div> Usage Bar Goes Here <div class="summary-item-layout__footer">Bonus: 20 Remaining: 50</div>
+</div>
+`;

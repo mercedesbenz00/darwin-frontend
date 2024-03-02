@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="thumbnails__row thumbnails__row--small">
+  <div class="thumbnails__row__img"><img></div>
+  <div class="thumbnails__row__img"><img></div>
+  <!---->
+</div>
+`;
+
+exports[`when correct props are used matches snapshot 1`] = `
+<div class="thumbnails__row thumbnails__row--small">
+  <div class="thumbnails__row__img"><img></div>
+  <!---->
+</div>
+`;
+
+exports[`when passed array of string matches snapshot 1`] = `
+<div class="thumbnails__row thumbnails__row--small">
+  <div class="thumbnails__row__img"><img></div>
+  <div class="thumbnails__row__img"><img></div>
+  <!---->
+</div>
+`;
+
+exports[`when passed empty array of string matches snapshot 1`] = `
+<div class="thumbnails__row thumbnails__row--small"> <span class="thumbnails__row--empty">
+    No data inside
+  </span></div>
+`;

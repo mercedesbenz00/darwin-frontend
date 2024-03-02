@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correctly renders V2ModelSelectionDropdown when not passing a selected value 1`] = `
+<div
+  class="model__dropdown"
+>
+  <div
+    class="select-field"
+    tabindex="0"
+  >
+    <div
+      class="select-field__input"
+    >
+      <span
+        class="select-field__input__label"
+      >
+        <div
+          class="model__dropdown__selected"
+        >
+          <!---->
+           
+          <span
+            class="model__dropdown__selected__label"
+          >
+            
+          Model Name
+        
+          </span>
+        </div>
+      </span>
+       
+      <span
+        class="select-field__input__icon"
+      >
+        <!---->
+      </span>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`correctly renders V2ModelSelectionDropdown when passing a selected value 1`] = `
+<div
+  class="model__dropdown"
+>
+  <div
+    class="select-field"
+    tabindex="0"
+  >
+    <div
+      class="select-field__input"
+    >
+      <span
+        class="select-field__input__label"
+      >
+        <div
+          class="model__dropdown__selected"
+        >
+          <!---->
+           
+          <span
+            class="model__dropdown__selected__label"
+          >
+            
+          Model 1
+        
+          </span>
+        </div>
+      </span>
+       
+      <span
+        class="select-field__input__icon"
+      >
+        <!---->
+      </span>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;

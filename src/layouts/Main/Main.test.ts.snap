@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on workflows 2.0 matches snapshot 1`] = `
+<div class="main">
+  <side-bar-stub></side-bar-stub>
+  <div class="content">
+    <membership-loader-stub></membership-loader-stub>
+    <workflow-loader-stub></workflow-loader-stub>
+    <plan-expired-dialog-stub></plan-expired-dialog-stub>
+    <out-of-storage-dialog-stub></out-of-storage-dialog-stub>
+  </div>
+  <settings-dialog-stub></settings-dialog-stub>
+</div>
+`;
+
+exports[`when authenticated matches snapshot 1`] = `
+<div class="main">
+  <side-bar-stub></side-bar-stub>
+  <div class="content">
+    <membership-loader-stub></membership-loader-stub>
+    <!---->
+    <plan-expired-dialog-stub></plan-expired-dialog-stub>
+    <out-of-storage-dialog-stub></out-of-storage-dialog-stub>
+  </div>
+  <settings-dialog-stub></settings-dialog-stub>
+</div>
+`;
+
+exports[`when not-authenticated matches snapshot 1`] = `
+<div class="main">
+  <side-bar-stub></side-bar-stub>
+  <div class="content">
+    <membership-loader-stub></membership-loader-stub>
+    <!---->
+    <!---->
+    <!---->
+  </div>
+  <!---->
+</div>
+`;

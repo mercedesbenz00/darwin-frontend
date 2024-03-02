@@ -1,0 +1,29 @@
+{
+  "beautify.language": {
+    "html": ["html-eex"]
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "prettier.printWidth": 100,
+  "prettier.requireConfig": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": ["vue"],
+  "files.insertFinalNewline": true,
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "files.trimTrailingWhitespace": true
+}

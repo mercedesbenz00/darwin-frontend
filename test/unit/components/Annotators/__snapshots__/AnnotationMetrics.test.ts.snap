@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="metrics">
+  <div class="metrics__header">
+    <h2 class="metrics__header__left metrics__header__title">
+      SFH
+    </h2>
+    <div class="metrics__header__right">
+      <tab-selector-stub value="month" options="[object Object],[object Object],[object Object],[object Object]"></tab-selector-stub>
+      <loading-wrapper-stub backgroundcolor="transparent" size="small" theme="grey" class="metrics__header__download">
+        <download-button-stub></download-button-stub>
+      </loading-wrapper-stub>
+    </div>
+  </div>
+  <div class="metrics__stats metrics__stats--top">
+    <progress-donut-chart-stub dataset="[object Object]" subtext="Overall Progress" class="metrics__stats__donut-chart"></progress-donut-chart-stub>
+    <div class="metrics__stats__bar-chart">
+      <lazy-render-stub>
+        <annotation-bar-chart-stub byuserreport="" totalreport="" datarange="month" dataset="[object Object]"></annotation-bar-chart-stub>
+      </lazy-render-stub>
+    </div>
+  </div>
+  <lazy-render-stub>
+    <data-loader-stub dataset="[object Object]" datarange="month" from="2020-01-01T00:00:00.000000"></data-loader-stub>
+  </lazy-render-stub>
+  <annotator-stats-stub byuserreport="" totalreport="" datarange="month" dataset="[object Object]" datagranularity="day" class="metrics__stats"></annotator-stats-stub>
+</div>
+`;
+
+exports[`matches snapshot when loaded 1`] = `
+<div class="metrics">
+  <div class="metrics__header">
+    <h2 class="metrics__header__left metrics__header__title">
+      SFH
+    </h2>
+    <div class="metrics__header__right">
+      <tab-selector-stub value="month" options="[object Object],[object Object],[object Object],[object Object]"></tab-selector-stub>
+      <loading-wrapper-stub backgroundcolor="transparent" size="small" theme="grey" class="metrics__header__download">
+        <download-button-stub></download-button-stub>
+      </loading-wrapper-stub>
+    </div>
+  </div>
+  <div class="metrics__stats metrics__stats--top">
+    <progress-donut-chart-stub dataset="[object Object]" subtext="Overall Progress" class="metrics__stats__donut-chart"></progress-donut-chart-stub>
+    <div class="metrics__stats__bar-chart">
+      <lazy-render-stub>
+        <annotation-bar-chart-stub byuserreport="[object Object],[object Object]" totalreport="[object Object],[object Object]" datarange="month" dataset="[object Object]"></annotation-bar-chart-stub>
+      </lazy-render-stub>
+    </div>
+  </div>
+  <lazy-render-stub>
+    <data-loader-stub dataset="[object Object]" datarange="month" from="2019-12-01T00:00:00.000000"></data-loader-stub>
+  </lazy-render-stub>
+  <annotator-stats-stub byuserreport="[object Object],[object Object]" totalreport="[object Object],[object Object]" datarange="month" dataset="[object Object]" datagranularity="day" class="metrics__stats"></annotator-stats-stub>
+</div>
+`;

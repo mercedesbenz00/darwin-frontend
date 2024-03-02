@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dropdown" append-to-body="" dropdown-class-name="export-format-dropdown">
+  <ul class="vs__dropdown-menu">
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+    <li>
+      <export-format-option-stub option="[object Object]"></export-format-option-stub>
+    </li>
+  </ul>
+  <export-format-option-stub option="[object Object]"></export-format-option-stub>
+  <div class="selected-option-container"></div>
+  <div class="selected-option-container"></div>
+  <div class="selected-option-container"></div>
+</div>
+`;

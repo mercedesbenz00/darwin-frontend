@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with the hotkeylist 1`] = `
+<div class="hotkeys">
+  <div class="hotkeys_category">
+    <div class="hotkeys_category__header">
+      General
+    </div>
+    <div class="hotkeys__list-container">
+      <ul class="hotkeys__list">
+        <li class="hotkeys__list-item"><span class="hotkeys__list-item__description">CMD combination</span>
+          <hotkey-display-stub keys="CMD,C"></hotkey-display-stub>
+        </li>
+        <li class="hotkeys__list-item"><span class="hotkeys__list-item__description">Multiple hotkeys</span>
+          <div class="hotkeys__list-item__list">
+            <div class="hotkeys__list-item__subhotkeys">
+              <!---->
+              <hotkey-display-stub keys="+"></hotkey-display-stub>
+            </div>
+            <div class="hotkeys__list-item__subhotkeys"><span class="hotkeys__list-item__subhotkey__or">or</span>
+              <hotkey-display-stub keys="SHIFT,Scroll"></hotkey-display-stub>
+            </div>
+          </div>
+        </li>
+        <li class="hotkeys__list-item"><span class="hotkeys__list-item__description">Single hotkey</span>
+          <hotkey-display-stub keys="Backspace"></hotkey-display-stub>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

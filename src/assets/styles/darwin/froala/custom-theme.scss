@@ -1,0 +1,69 @@
+.clearfix::after {
+  clear: both;
+  display: block;
+  content: "";
+  height: 0;
+}
+
+.hide-by-clipping {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.custom-theme.fr-box {
+  font-family: $fontFamilyDefault;
+
+  &.fr-basic .fr-wrapper {
+    flex: 1;
+    min-height: 200px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    background: $colorAliceLight;
+  }
+  &.fr-basic .fr-element {
+    height: 100%;
+  }
+  .fr-toolbar .fr-btn-grp {
+    margin: 5px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .fr-toolbar.fr-top {
+    border-radius: 5px 5px 0 0;
+    border: none;
+    background: $colorAliceShade;
+  }
+
+  .fr-newline {
+    opacity: 0;
+  }
+
+  .fr-more-toolbar {
+    background: $colorAliceShade;
+  }
+
+  .fr-command.fr-btn:hover {
+    background: $colorAliceShadow;
+  }
+
+  .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active) {
+    background: $colorAliceShadow;
+  }
+
+  .fr-second-toolbar {
+    display: none;
+  }
+}

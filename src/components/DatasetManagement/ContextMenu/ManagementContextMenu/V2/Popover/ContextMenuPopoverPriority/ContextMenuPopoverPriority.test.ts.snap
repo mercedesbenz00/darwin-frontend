@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<popover-stub inputvalue="0" placeholder="Custom Priority" large-number="">
+  <list-header-stub size="medium" variant="transparent " label="Set priority" disabled=""></list-header-stub>
+  <div class="popover-priority__content">
+    <div class="priority__wrapper">
+      <icon-toggle-stub active="true" class="priority__button">
+        0
+      </icon-toggle-stub>
+      <icon-toggle-stub class="priority__button">
+        1
+      </icon-toggle-stub>
+      <icon-toggle-stub class="priority__button">
+        2
+      </icon-toggle-stub>
+      <icon-toggle-stub class="priority__button">
+        3
+      </icon-toggle-stub>
+      <icon-toggle-stub class="priority__button">
+        4
+      </icon-toggle-stub>
+      <icon-toggle-stub class="priority__button">
+        5
+      </icon-toggle-stub>
+    </div>
+    <div class="priority-badge__wrapper">
+      <badge-stub label="Low" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor=""></badge-stub>
+      <badge-stub label="High" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor=""></badge-stub>
+    </div>
+  </div>
+</popover-stub>
+`;

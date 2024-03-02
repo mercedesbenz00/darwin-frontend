@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when running matches snapshot 1`] = `
+<div class="session">
+  <online-icon-stub class="session__status" tooltip="Online"></online-icon-stub>
+  <div class="session__label">
+    a model
+  </div>
+</div>
+`;
+
+exports[`when starting matches snapshot 1`] = `
+<div class="session">
+  <offline-icon-stub class="session__status" tooltip="Offline"></offline-icon-stub>
+  <div class="session__label">
+    a model
+  </div>
+</div>
+`;
+
+exports[`when stopped matches snapshot 1`] = `
+<div class="session">
+  <offline-icon-stub class="session__status" tooltip="Offline"></offline-icon-stub>
+  <div class="session__label">
+    a model
+  </div>
+</div>
+`;
+
+exports[`when stopping matches snapshot 1`] = `
+<div class="session">
+  <offline-icon-stub class="session__status" tooltip="Offline"></offline-icon-stub>
+  <div class="session__label">
+    a model
+  </div>
+</div>
+`;

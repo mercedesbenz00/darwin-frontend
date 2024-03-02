@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when counts matches snapshot 1`] = `
+<alice-blue-panel-stub class="summary">
+  <div class="summary__header">
+    <h2 class="summary__header__title">
+      Here's what will happen
+    </h2>
+    <div class="tune-parameters-placeholder"></div>
+  </div>
+  <div class="summary__sets">
+    <div class="summary__sets__set set">
+      <div class="set__count">
+        800
+      </div>
+      <div class="set__title">
+        Training Set
+      </div>
+      <div class="set__help"><strong>80%</strong> of the images will be used in the training set.
+      </div>
+    </div>
+    <div class="summary__sets__set set">
+      <div class="set__count">
+        100
+      </div>
+      <div class="set__title">
+        Validation Set
+      </div>
+      <div class="set__help"><strong>10%</strong> of the images will be used in the validation set
+        to periodically test the model performance.
+      </div>
+    </div>
+    <div class="summary__sets__set set">
+      <div class="set__count">
+        100
+      </div>
+      <div class="set__title">
+        Test Set
+      </div>
+      <div class="set__help"><strong>10%</strong> of the images will be stored away and only tested
+        once training is complete, to present a realistic accuracy score.
+      </div>
+    </div>
+  </div>
+</alice-blue-panel-stub>
+`;

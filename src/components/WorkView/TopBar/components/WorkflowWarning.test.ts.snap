@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when error joining 1`] = `
+<div class="work-tracker">
+  <warning-icon-stub class="work-tracker__warning" tooltip="{'content':'\\n        <p>There was an issue connecting to work tracking. Yout time will not be tracked.</p>\\n        <p>Try refreshing your browser, or switching to a different browser.</p>\\n        <p>If the problem persists, contact support.</p>\\n      ','classes':'tooltip--work-tracker','placement':'bottom','delay':{'show':300,'hide':300}}"></warning-icon-stub>
+</div>
+`;

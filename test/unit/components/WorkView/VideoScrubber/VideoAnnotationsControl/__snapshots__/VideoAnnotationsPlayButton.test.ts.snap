@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot when paused 1`] = `
+<button class="video-annotations-play-button">
+  <play-icon-stub></play-icon-stub>
+</button>
+`;
+
+exports[`matches the snapshot when playing 1`] = `
+<button class="video-annotations-play-button">
+  <pause-icon-stub></pause-icon-stub>
+</button>
+`;

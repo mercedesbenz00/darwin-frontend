@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<popover-stub show="true" inputvalue="" placeholder="Search stages">
+  <div class="popover-stage">
+    <list-element-v2-stub text="New"></list-element-v2-stub>
+    <list-element-v2-stub text="Annotate"></list-element-v2-stub>
+    <list-element-v2-stub text="Review"></list-element-v2-stub>
+    <list-element-v2-stub text="Complete"></list-element-v2-stub>
+    <list-element-v2-stub text="Discard annotations"></list-element-v2-stub>
+  </div>
+</popover-stub>
+`;

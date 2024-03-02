@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="model-management">
+  <deploy-settings-stub class="model-management__deployer"></deploy-settings-stub>
+  <update-settings-stub class="model-management__updater"></update-settings-stub>
+  <model-list-header-stub></model-list-header-stub>
+  <div class="gallery model-management__gallery" calculate-card-proportion="function () { [native code] }" preferred-list-item-height="65" empty-message="No models have been trained on your data yet" view-mode="1" name="Your Models">
+    <model-list-item-stub model="[object Object]"></model-list-item-stub>
+    <model-list-item-stub model="[object Object]"></model-list-item-stub>
+    <model-list-item-stub model="[object Object]"></model-list-item-stub>
+    <model-list-item-stub model="[object Object]"></model-list-item-stub>
+  </div>
+  <!---->
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`when deploying matches snapshot 1`] = `
+<div class="model-management">
+  <deploy-settings-stub class="model-management__deployer"></deploy-settings-stub>
+  <update-settings-stub class="model-management__updater"></update-settings-stub>
+  <model-list-header-stub></model-list-header-stub>
+  <div class="gallery model-management__gallery" calculate-card-proportion="function () { [native code] }" preferred-list-item-height="65" empty-message="No models have been trained on your data yet" view-mode="1" name="Your Models"> </div>
+  <!---->
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`when updating matches snapshot 1`] = `
+<div class="model-management">
+  <deploy-settings-stub class="model-management__deployer"></deploy-settings-stub>
+  <update-settings-stub class="model-management__updater"></update-settings-stub>
+  <model-list-header-stub></model-list-header-stub>
+  <div class="gallery model-management__gallery" calculate-card-proportion="function () { [native code] }" preferred-list-item-height="65" empty-message="No models have been trained on your data yet" view-mode="1" name="Your Models"> </div>
+  <!---->
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;

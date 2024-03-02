@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="copy">
+  <p class="copy__description">
+    In case this image contains duplicates to the previous images,
+    you can copy the layers from the previous image.
+  </p>
+  <secondary-button-stub disabled="true">
+    Copy instances
+  </secondary-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when busy 1`] = `
+<div class="copy">
+  <p class="copy__description">
+    In case this image contains duplicates to the previous images,
+    you can copy the layers from the previous image.
+  </p>
+  <circle-spinner-stub dark="true" width="40" height="40" class="copy__spinner"></circle-spinner-stub>
+</div>
+`;
+
+exports[`with predecessor and selected item having workflows matches snapshot 1`] = `
+<div class="copy">
+  <p class="copy__description">
+    In case this image contains duplicates to the previous images,
+    you can copy the layers from the previous image.
+  </p>
+  <secondary-button-stub>
+    Copy instances
+  </secondary-button-stub>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when team is client on own page matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <!---->
+  </div>
+  <storage-bar-stub billinginfo="[object Object]"></storage-bar-stub>
+  <div class="summary-item-layout__footer">
+    <storage-extra-amount-stub info="[object Object]"></storage-extra-amount-stub>
+    <storage-remaining-amount-stub info="[object Object]"></storage-remaining-amount-stub>
+  </div>
+</div>
+`;
+
+exports[`when team is client on partner page, who is being limited matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <header-4-stub>
+      Client
+    </header-4-stub>
+    <usage-limiter-stub limit="100" parentlimit="150"></usage-limiter-stub>
+  </div>
+  <storage-bar-stub billinginfo="[object Object]"></storage-bar-stub>
+  <div class="summary-item-layout__footer">
+    <storage-extra-amount-stub info="[object Object]"></storage-extra-amount-stub>
+    <storage-remaining-amount-stub info="[object Object]"></storage-remaining-amount-stub>
+  </div>
+</div>
+`;
+
+exports[`when team is partner with clients matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <header-4-stub>
+      A partner
+    </header-4-stub>
+  </div>
+  <storage-bar-stub billinginfo="[object Object]"></storage-bar-stub>
+  <div class="summary-item-layout__footer">
+    <storage-extra-amount-stub info="[object Object]"></storage-extra-amount-stub>
+    <storage-remaining-amount-stub info="[object Object]"></storage-remaining-amount-stub>
+  </div>
+</div>
+`;
+
+exports[`when team is regular matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <!---->
+  </div>
+  <storage-bar-stub billinginfo="[object Object]"></storage-bar-stub>
+  <div class="summary-item-layout__footer">
+    <storage-extra-amount-stub info="[object Object]"></storage-extra-amount-stub>
+    <storage-remaining-amount-stub info="[object Object]"></storage-remaining-amount-stub>
+  </div>
+</div>
+`;

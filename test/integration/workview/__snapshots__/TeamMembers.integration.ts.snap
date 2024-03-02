@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when client team matches snapshot 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    Team Members
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body">
+    <!---->
+    <div class="members__body">
+      <!---->
+      <div class="members__memberships members__list">
+        <h3>Team</h3>
+        <div>
+          <div class="member members__member">
+            <div class="avatar member__avatar avatar--initials">
+              <div class="avatar__icon avatar__initials" style="background: rgb(191, 79, 64); width: 35px; height: 35px; font-size: 14px;">
+                JC
+              </div>
+              <!---->
+            </div>
+            <div class="member__name-section">
+              <div class="member__name">
+                Joan Coleson
+              </div>
+              <!---->
+            </div>
+            <div class="member__role">
+              <div class="role-dropdown">
+                <!---->
+                <div class="role-dropdown__select">
+                  <div><select placeholder="" class="form-control"></select></div>
+                </div>
+              </div>
+            </div>
+            <div class="member__trash">
+              <!---->
+            </div>
+          </div>
+          <div class="member members__member">
+            <div class="avatar member__avatar avatar--initials">
+              <div class="avatar__icon avatar__initials" style="background: rgb(168, 64, 191); width: 35px; height: 35px; font-size: 14px;">
+                M
+              </div>
+              <!---->
+            </div>
+            <div class="member__name-section">
+              <div class="member__name">
+                Mike
+              </div>
+              <!---->
+            </div>
+            <div class="member__role">
+              <div class="role-dropdown">
+                <!---->
+                <div class="role-dropdown__select">
+                  <div><select placeholder="" class="form-control"></select></div>
+                </div>
+              </div>
+            </div>
+            <div class="member__trash">
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="partner-members">
+        <h3>
+          Members of Foo
+        </h3>
+        <div class="member">
+          <div class="avatar member__avatar avatar--initials">
+            <div class="avatar__icon avatar__initials" style="background: rgb(172, 153, 83); width: 35px; height: 35px; font-size: 14px;">
+              J
+            </div>
+            <!---->
+          </div>
+          <div class="member__name-section">
+            <div class="member__name">
+              Jack
+            </div>
+            <!---->
+          </div>
+          <div class="member__role">
+            <div class="member__role--fixed">
+              Admin
+            </div>
+          </div>
+          <div class="member__trash"></div>
+        </div>
+        <div class="member">
+          <div class="avatar member__avatar avatar--initials">
+            <div class="avatar__icon avatar__initials" style="background: rgb(45, 106, 134); width: 35px; height: 35px; font-size: 14px;">
+              M
+            </div>
+            <!---->
+          </div>
+          <div class="member__name-section">
+            <div class="member__name">
+              Michaels
+            </div>
+            <!---->
+          </div>
+          <div class="member__role">
+            <div class="member__role--fixed">
+              User
+            </div>
+          </div>
+          <div class="member__trash"></div>
+        </div>
+        <div class="member">
+          <div class="avatar member__avatar avatar--initials">
+            <div class="avatar__icon avatar__initials" style="background: rgb(134, 45, 129); width: 35px; height: 35px; font-size: 14px;">
+              JS
+            </div>
+            <!---->
+          </div>
+          <div class="member__name-section">
+            <div class="member__name">
+              Joe Smith
+            </div>
+            <!---->
+          </div>
+          <div class="member__role">
+            <div class="member__role--fixed">
+              Worker
+            </div>
+          </div>
+          <div class="member__trash"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__footer"><button type="button" class="secondary-button settings-pane__cancel common-button common-button--default">
+      Close
+    </button> </div>
+  <transition-stub name="overlay-fade">
+    <!---->
+  </transition-stub>
+  <transition-stub name="overlay-fade">
+    <!---->
+  </transition-stub>
+  <transition-stub name="overlay-fade">
+    <!---->
+  </transition-stub>
+</div>
+`;

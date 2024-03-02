@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="box" style="transform: translateY(0px);">
+  <div>Test</div>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when sticky author: focused 1`] = `
+<div class="reply-box">
+  <comment-profile-stub author="[object Object]" comment="[object Object]" class="reply-box__profile"></comment-profile-stub>
+  <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="reply-box-textarea" focus="true"></comment-edit-box-stub>
+  <div class="reply-box__actions">
+    <secondary-button-stub size="small">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true" size="small">
+      Post
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when sticky author: unfocused 1`] = `
+<div class="reply-box">
+  <comment-profile-stub author="[object Object]" comment="[object Object]" class="reply-box__profile"></comment-profile-stub>
+  <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="reply-box-textarea"></comment-edit-box-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot: focused 1`] = `
+<div class="reply-box">
+  <comment-profile-stub author="[object Object]" comment="[object Object]" class="reply-box__profile"></comment-profile-stub>
+  <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="reply-box-textarea" focus="true"></comment-edit-box-stub>
+  <div class="reply-box__actions">
+    <secondary-button-stub size="small">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true" size="small">
+      Post
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot: unfocused 1`] = `
+<div class="reply-box">
+  <!---->
+  <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="reply-box-textarea"></comment-edit-box-stub>
+  <!---->
+</div>
+`;

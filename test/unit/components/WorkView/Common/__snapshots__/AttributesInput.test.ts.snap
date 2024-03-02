@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when not have access to create tags matches snapshot 1`] = `
+<div class="workview-attributes" click-outside="bound onBlur">
+  <div class="vue-tags-input-stub" tags="" avoid-adding-duplicates="" placeholder="Add Attribute" value=""><input class="ti-new-tag-input">
+    <div class="vue-tags-input-stub__tag-actions"></div>
+  </div> <span class="workview-attributes__tip">Select a attribute or create one</span>
+  <ul class="workview-attributes__tags">
+    <li id="attribute-tag-1" class="workview-attributes__tag workview-attributes__tag--highlighted">
+      <div class="workview-attributes__tag-chip" style="background: rgba(0, 0, 0, 0);">
+        attribute 1
+      </div>
+    </li>
+    <li id="attribute-tag-2" class="workview-attributes__tag">
+      <div class="workview-attributes__tag-chip" style="background: rgba(0, 0, 0, 0);">
+        attribute 2
+      </div>
+    </li>
+  </ul>
+  <!---->
+</div>
+`;
+
+exports[`with no selected attributes matches snapshot 1`] = `
+<div class="workview-attributes" click-outside="bound onBlur">
+  <div class="vue-tags-input-stub" tags="" avoid-adding-duplicates="" placeholder="Add Attribute" value=""><input class="ti-new-tag-input">
+    <div class="vue-tags-input-stub__tag-actions"></div>
+  </div> <span class="workview-attributes__tip">Select a attribute or create one</span>
+  <ul class="workview-attributes__tags">
+    <li id="attribute-tag-1" class="workview-attributes__tag workview-attributes__tag--highlighted">
+      <div class="workview-attributes__tag-chip" style="background: rgba(0, 0, 0, 0);">
+        attribute 1
+      </div>
+    </li>
+    <li id="attribute-tag-2" class="workview-attributes__tag">
+      <div class="workview-attributes__tag-chip" style="background: rgba(0, 0, 0, 0);">
+        attribute 2
+      </div>
+    </li>
+  </ul> <button disabled="disabled" class="workview-attributes__create">
+    Create <span> Attribute</span></button>
+</div>
+`;
+
+exports[`with some selected attributes matches snapshot 1`] = `
+<div class="workview-attributes" click-outside="bound onBlur">
+  <div class="vue-tags-input-stub" tags="[object Object]" avoid-adding-duplicates="" placeholder="Add Attribute" value=""><input class="ti-new-tag-input">
+    <div class="vue-tags-input-stub__tag-actions"></div>
+  </div> <span class="workview-attributes__tip">Select a attribute or create one</span>
+  <ul class="workview-attributes__tags">
+    <li id="attribute-tag-2" class="workview-attributes__tag workview-attributes__tag--highlighted">
+      <div class="workview-attributes__tag-chip" style="background: rgba(0, 0, 0, 0);">
+        attribute 2
+      </div>
+    </li>
+  </ul> <button disabled="disabled" class="workview-attributes__create">
+    Create <span> Attribute</span></button>
+</div>
+`;

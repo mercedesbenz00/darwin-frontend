@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when path is defined 1`] = `
+<div class="file-set-current-folder">
+  <folder-icon-stub class="folder-icon"></folder-icon-stub>
+  <div class="file-set-current-path">
+    /root
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when path is not defined 1`] = ``;

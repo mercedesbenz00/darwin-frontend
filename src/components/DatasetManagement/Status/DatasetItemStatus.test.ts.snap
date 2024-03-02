@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for dataset item of status 'annotate' 1`] = `
+<div>
+  Being annotated
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'archived' 1`] = `
+<div>
+  Archived
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'complete' 1`] = `
+<div>
+  Complete
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'error' 1`] = `
+<div>
+  Error
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'new' 1`] = `
+<div>
+  New
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'processing' 1`] = `
+<div>
+  Processing
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'review' 1`] = `
+<div>
+  In Review
+</div>
+`;
+
+exports[`matches snapshot for dataset item of status 'uploading' 1`] = `
+<div>
+  Uploading
+</div>
+`;

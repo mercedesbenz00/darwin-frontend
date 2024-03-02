@@ -1,0 +1,8 @@
+@import "./typography.global.scss";
+
+:export  {
+  default: #{$fontFamilyDefault};
+  headlines: #{$fontFamilyHeadlines};
+  source: #{$fontFamilySource};
+  inter: #{$fontFamilyInter};
+}

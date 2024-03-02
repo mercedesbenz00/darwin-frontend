@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <custom-button-stub variant="default" color="primary" size="small" flair="rounded" tag="router-link" to="[object Object]">
+      Open
+    </custom-button-stub>
+  </div>
+  <div class="details">
+    <div class="folder-card__info">
+      <p>0 items</p>
+    </div>
+    <p class="folder-card__title">
+
+    </p>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot in open dataset 1`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <custom-button-stub variant="default" color="primary" size="small" flair="rounded" tag="router-link" to="[object Object]">
+      Open
+    </custom-button-stub>
+  </div>
+  <div class="details">
+    <div class="folder-card__info">
+      <p>0 items</p>
+    </div>
+    <p class="folder-card__title">
+      folder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when folder has children 1`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="foo.png">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <custom-button-stub variant="default" color="primary" size="small" flair="rounded" tag="router-link" to="[object Object]">
+      Open
+    </custom-button-stub>
+  </div>
+  <div class="details">
+    <div class="folder-card__info">
+      <p>2 items</p>
+    </div>
+    <p class="folder-card__title">
+      folder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when path is specified 1`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <custom-button-stub variant="default" color="primary" size="small" flair="rounded" tag="router-link" to="[object Object]">
+      Open
+    </custom-button-stub>
+  </div>
+  <div class="details">
+    <div class="folder-card__info">
+      <p>0 items</p>
+    </div>
+    <p class="folder-card__title">
+      folder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when path is specified 2`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="foo.png">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <custom-button-stub variant="default" color="primary" size="small" flair="rounded" tag="router-link" to="[object Object]">
+      Open
+    </custom-button-stub>
+  </div>
+  <div class="details">
+    <div class="folder-card__info">
+      <p>0 items</p>
+    </div>
+    <p class="folder-card__title">
+      folder
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotators-workflow-card">
+  <div class="annotators-workflow-card__upside">
+    <thumbnails-stub data="" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="annotators-workflow-card__details">
+    <div class="annotators-workflow-card__details__row">
+      <header-3-stub class="annotators-workflow-card__details__name" tooltip="{'content':'foo','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        foo
+      </header-3-stub>
+    </div>
+  </div>
+  <div class="annotators-workflow-card__actions">
+    <!---->
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="soft" tag="button" class="annotators-workflow-card__action" style="width: 100%;"><span class="annotators-workflow-card__actions__content">&nbsp;+&nbsp; <span class="label">
+          Request More
+        </span></span></custom-button-stub>
+  </div>
+  <!---->
+</div>
+`;

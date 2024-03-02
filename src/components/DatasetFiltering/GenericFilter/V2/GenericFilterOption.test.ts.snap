@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assignee option not first option when not selected matches snapshot 1`] = `<generic-filter-option-content-stub option="[object Object]" status="negative"></generic-filter-option-content-stub>`;
+
+exports[`assignee option not first option when selected matches snapshot 1`] = `<generic-filter-option-content-stub option="[object Object]" status="positive"></generic-filter-option-content-stub>`;
+
+exports[`assignee option the first option when not selected matches snapshot 1`] = `
+<div class="generic-filter-header">
+  <div class="generic-filter-header__title">
+    Annotators
+  </div>
+  <generic-filter-option-content-stub option="[object Object]" status="negative"></generic-filter-option-content-stub>
+</div>
+`;
+
+exports[`assignee option the first option when positive matches snapshot 1`] = `
+<div class="generic-filter-header">
+  <div class="generic-filter-header__title">
+    Annotators
+  </div>
+  <generic-filter-option-content-stub option="[object Object]" status="positive"></generic-filter-option-content-stub>
+</div>
+`;
+
+exports[`filenames option not first option when not selected matches snapshot 1`] = `<generic-filter-option-content-stub option="[object Object]" status="negative"></generic-filter-option-content-stub>`;
+
+exports[`filenames option not first option when selected matches snapshot 1`] = `<generic-filter-option-content-stub option="[object Object]" status="positive"></generic-filter-option-content-stub>`;
+
+exports[`filenames option the first option when not selected matches snapshot 1`] = `
+<div class="generic-filter-header">
+  <div class="generic-filter-header__title">
+    Files
+  </div>
+  <generic-filter-option-content-stub option="[object Object]" status="negative"></generic-filter-option-content-stub>
+</div>
+`;
+
+exports[`filenames option the first option when selected matches snapshot 1`] = `
+<div class="generic-filter-header">
+  <div class="generic-filter-header__title">
+    Files
+  </div>
+  <generic-filter-option-content-stub option="[object Object]" status="positive"></generic-filter-option-content-stub>
+</div>
+`;
+
+exports[`paths option not first option when not selected matches snapshot 1`] = `<generic-filter-option-content-stub option="[object Object]" status="negative"></generic-filter-option-content-stub>`;
+
+exports[`paths option not first option when selected matches snapshot 1`] = `<generic-filter-option-content-stub option="[object Object]" status="positive"></generic-filter-option-content-stub>`;
+
+exports[`paths option the first option when not selected matches snapshot 1`] = `
+<div class="generic-filter-header">
+  <div class="generic-filter-header__title">
+    Folders
+  </div>
+  <generic-filter-option-content-stub option="[object Object]" status="negative"></generic-filter-option-content-stub>
+</div>
+`;
+
+exports[`paths option the first option when selected matches snapshot 1`] = `
+<div class="generic-filter-header">
+  <div class="generic-filter-header__title">
+    Folders
+  </div>
+  <generic-filter-option-content-stub option="[object Object]" status="positive"></generic-filter-option-content-stub>
+</div>
+`;

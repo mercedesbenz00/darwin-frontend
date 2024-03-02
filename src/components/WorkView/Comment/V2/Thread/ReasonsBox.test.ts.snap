@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReasonsBox component should match snapshot 1`] = `
+<div>
+  <h4 class="title">
+    Reason
+  </h4>
+  <ul class="reasons">
+    <reasonitem-stub></reasonitem-stub>
+    <reasonitem-stub></reasonitem-stub>
+  </ul>
+</div>
+`;

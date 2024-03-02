@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<gallery-context-menu-item-stub label="ARCHIVE 5" color="pink" class="archive-context-menu-item">
+  <trash-icon-old-stub class="archive-context-menu-item__icon"></trash-icon-old-stub>
+</gallery-context-menu-item-stub>
+`;

@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="layerbar-container">
+  <div class="layerbar">
+    <div class="layerbar__header">
+      <div class="layerbar__header__title"><span class="layerbar__header__text">Annotations</span></div>
+      <div class="layerbar__header__tools">
+        <div class="v-popover top-bar__toggle-sub-annotations top-bar__toggle-sub-annotations--on">
+          <div class="trigger" style="display: inline-block;"><button class="toggle-button">
+              <!---->
+            </button> </div>
+        </div>
+        <div class="v-popover top-bar__toggle-annotations top-bar__toggle-annotations--on">
+          <div class="trigger" style="display: inline-block;"><button class="toggle-button">
+              <!---->
+            </button> </div>
+        </div>
+        <div class="v-popover top-bar__toggle-measures">
+          <div class="trigger" style="display: inline-block;"><button class="toggle-button">
+              <!---->
+            </button> </div>
+        </div>
+        <div class="annotation-control">
+          <div class="v-popover">
+            <div class="trigger" style="display: inline-block;"><button class="annotation-control__trigger"><svg width="4" height="12" viewBox="0 0 4 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="2" cy="1.5" r="1.5" transform="rotate(90 2 1.5)"></circle>
+                  <circle cx="2" cy="6" r="1.5" transform="rotate(90 2 6)"></circle>
+                  <circle cx="2" cy="10.5" r="1.5" transform="rotate(90 2 10.5)"></circle>
+                </svg></button></div>
+          </div>
+          <transition-stub name="overlay-fade">
+            <!---->
+          </transition-stub>
+        </div>
+      </div>
+    </div>
+    <div class="layerbar__layers">
+      <ul class="expansion-panels wrapper">
+        <li class="expansion-panel">
+          <!---->
+          <transition-stub name="expansion-panel">
+            <div class="expansion-panel__content">
+              <div class="wrapper workflow-layer-bar__layers">
+                <div class="" style="overflow: hidden; height: 90px;">
+                  <div style="transform: translateY(0px);">
+                    <div data-id="third">
+        <li id="layer__third" class="layerbar-item layerbar-item--active">
+          <div class="layerbar-item__container">
+            <div role="button" class="layerbar-item__content">
+              <!---->
+              <div class="layerbar-item__label has-tooltip" data-original-title="null">
+                Bar
+              </div>
+              <div class="layerbar-item__slidable-container">
+                <!----> <button class="visibility-icon visibility-icon--visible">
+                  <!---->
+                </button> <button class="trash-button">
+                  <!---->
+                </button>
+              </div>
+              <!---->
+            </div>
+            <!---->
+            <!---->
+          </div>
+        </li>
+    </div>
+    <div data-id="first">
+      <li id="layer__first" class="layerbar-item layerbar-item--active">
+        <div class="layerbar-item__container">
+          <div role="button" class="layerbar-item__content">
+            <!---->
+            <div class="layerbar-item__label has-tooltip" data-original-title="null">
+              Foo
+            </div>
+            <div class="layerbar-item__slidable-container">
+              <!----> <button class="visibility-icon visibility-icon--visible">
+                <!---->
+              </button> <button class="trash-button">
+                <!---->
+              </button>
+            </div>
+            <div class="confidence-score layerbar-item__confidence-score has-tooltip" style="color: rgb(186, 59, 59);" data-original-title="null">
+              50%
+            </div>
+          </div>
+          <!---->
+          <!---->
+        </div>
+      </li>
+    </div>
+    <div data-id="second">
+      <li id="layer__second" class="layerbar-item layerbar-item--active">
+        <div class="layerbar-item__container">
+          <div role="button" class="layerbar-item__content">
+            <!---->
+            <div class="layerbar-item__label has-tooltip" data-original-title="null">
+              Bar
+            </div>
+            <div class="layerbar-item__slidable-container">
+              <!----> <button class="visibility-icon visibility-icon--visible">
+                <!---->
+              </button> <button class="trash-button">
+                <!---->
+              </button>
+            </div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+      </li>
+    </div>
+    <div data-v-8859cc6c="" tabindex="-1" class="resize-observer"><object aria-hidden="true" tabindex="-1" type="text/html" data="about:blank"></object></div>
+  </div>
+</div>
+<div data-v-8859cc6c="" tabindex="-1" class="resize-observer"><object aria-hidden="true" tabindex="-1" type="text/html" data="about:blank"></object></div>
+</div>
+</div>
+</transition-stub>
+</li>
+</ul>
+</div>
+<!---->
+</div>
+</div>
+`;

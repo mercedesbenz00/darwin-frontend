@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<annotation-class-section-stub title="Description" optional="true">
+  <div class="annotation-input__textarea">
+    <text-area-stub value="Test Description" id="classDescription" name="classDescription" theme="dark" type="text"></text-area-stub>
+  </div>
+</annotation-class-section-stub>
+`;

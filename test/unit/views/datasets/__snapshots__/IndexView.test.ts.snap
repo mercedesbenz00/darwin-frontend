@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when annotator matches snapshot 1`] = `<index-annotators-stub></index-annotators-stub>`;
+
+exports[`when member or higher matches snapshot 1`] = `<index-others-stub></index-others-stub>`;

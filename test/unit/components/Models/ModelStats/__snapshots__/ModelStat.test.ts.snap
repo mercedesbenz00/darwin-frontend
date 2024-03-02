@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when score is defined, the grid has 3 columns matches snapshot 1`] = `
+<div class="model-stat">
+  <h1 class="model-stat__title">
+    stat
+  </h1>
+  <div class="model-stat__content model-stat__three_cols">
+    <div class="model-stat__content__score">
+      89%
+    </div>
+    <div class="model-stat__content__hero"></div>
+    <div class="model-stat__content__description"></div>
+  </div>
+</div>
+`;
+
+exports[`when score is undefined, the grid has 2 columns matches snapshot 1`] = `
+<div class="model-stat">
+  <h1 class="model-stat__title">
+    stat
+  </h1>
+  <div class="model-stat__content model-stat__two_cols">
+    <div class="model-stat__content__hero"></div>
+    <div class="model-stat__content__description"></div>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div id="table-root_123" class="table-header__container">
+  <div class="column-head__container" style="width: 100px;" id="table-header-column_123_0"><button class="column-head__wrapper">
+      <div class="column-head__content">
+        <h1 class="column-head__label">
+          Test Column 1
+        </h1>
+        <sort-icon-stub mode="desc"></sort-icon-stub>
+      </div>
+    </button>
+    <div class="column-resize-area">
+      <div class="column-resizer"></div>
+    </div>
+  </div>
+  <div class="column-head__container" style="width: 100px;" id="table-header-column_123_1"><button class="column-head__wrapper">
+      <div class="column-head__content">
+        <h1 class="column-head__label">
+          Test Column 2
+        </h1>
+        <sort-icon-stub mode="desc"></sort-icon-stub>
+      </div>
+    </button>
+    <div class="column-resize-area">
+      <div class="column-resizer"></div>
+    </div>
+  </div>
+  <row-menu-stub tableid="123" row="-1"></row-menu-stub>
+</div>
+`;

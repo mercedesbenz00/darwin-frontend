@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when partner team matches snapshot 1`] = `
+<div class="team-name">
+  <div class="team-name__top">
+    <router-link-stub to="teams/7">
+
+    </router-link-stub>
+    <partner-pill-stub class="team-name__top__pill"></partner-pill-stub>
+  </div>
+  <div class="team-name__bottom">
+    ()
+  </div>
+</div>
+`;
+
+exports[`when regular team matches snapshot 1`] = `
+<div class="team-name">
+  <div class="team-name__top">
+    <router-link-stub to="teams/7">
+
+    </router-link-stub>
+    <!---->
+  </div>
+  <div class="team-name__bottom">
+    ()
+  </div>
+</div>
+`;

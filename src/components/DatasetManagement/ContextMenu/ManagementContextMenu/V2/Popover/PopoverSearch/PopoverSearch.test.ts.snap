@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div class="popover-search" value="">
+  <input-field-v2-stub value="" tag="div" type="text" items=""></input-field-v2-stub>
+</div>
+`;

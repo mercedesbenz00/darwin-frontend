@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stages">
+  <animating-draggable-stub handle="[data-movable]" list="[object Object],[object Object]" class="stages__draggable">
+    <div class="stages__stage">
+      <annotate-stage-stub deletable="true" movable="true" hassampling="true" stage="[object Object]" actors=""></annotate-stage-stub>
+      <!---->
+      <!---->
+      <stage-spacer-stub>
+        <chevron-right-icon-stub></chevron-right-icon-stub>
+      </stage-spacer-stub>
+    </div>
+    <div class="stages__stage">
+      <!---->
+      <!---->
+      <review-stage-stub deletable="true" movable="true" stage="[object Object]" actors=""></review-stage-stub>
+      <stage-spacer-stub>
+        <chevron-right-icon-stub></chevron-right-icon-stub>
+      </stage-spacer-stub>
+    </div>
+  </animating-draggable-stub>
+  <new-stage-stub template="[object Object]"></new-stage-stub>
+  <workflow-stage-complete-stub></workflow-stage-complete-stub>
+</div>
+`;

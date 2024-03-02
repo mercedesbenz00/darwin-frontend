@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-overview">
+  <div class="dataset-overview__header">
+    <div class="dataset-overview__header-left">
+      <h1 class="dataset-overview__title">
+        Datasets
+      </h1>
+      <search-field-stub value="" placeholder="Search..." class="dataset-overview__search"></search-field-stub>
+    </div>
+    <div class="dataset-overview__sort">
+      <sort-dropdown-stub value="inserted_at" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" size="normal" direction="asc"></sort-dropdown-stub>
+    </div>
+    <primary-button-stub tag="router-link" size="medium" to="/datasets/create">
+      + New Dataset
+    </primary-button-stub>
+  </div>
+  <div class="dataset-section">
+    <dataset-overlay-box-stub class="dataset-section__overlay"></dataset-overlay-box-stub>
+    <div class="dataset-section__content">
+      <dataset-card-stub data="[object Object]" menualign="normal" class="dataset-section__card" style="width: calc(25.00% - 34px); margin: 20px 17px;"></dataset-card-stub>
+      <dataset-card-stub data="[object Object]" menualign="normal" class="dataset-section__card" style="width: calc(25.00% - 34px); margin: 20px 17px;"></dataset-card-stub>
+      <!---->
+      <create-dataset-card-stub class="dataset-section__card" style="width: calc(25.00% - 34px); margin: 20px 17px;"></create-dataset-card-stub>
+    </div>
+  </div>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this dataset?" detail="This will delete any classes and unpublished datasets associated to this dataset, and all users in your Team will immediately lose access to it." buttontext="DELETE DATASET" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`matches snapshot when team owner 1`] = `
+<div class="dataset-overview">
+  <div class="dataset-overview__header">
+    <div class="dataset-overview__header-left">
+      <h1 class="dataset-overview__title">
+        Datasets
+      </h1>
+      <search-field-stub value="" placeholder="Search..." class="dataset-overview__search"></search-field-stub>
+    </div>
+    <div class="dataset-overview__sort">
+      <sort-dropdown-stub value="inserted_at" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" size="normal" direction="asc"></sort-dropdown-stub>
+    </div>
+    <primary-button-stub tag="router-link" size="medium" to="/datasets/create">
+      + New Dataset
+    </primary-button-stub>
+  </div>
+  <div class="dataset-section">
+    <dataset-overlay-box-stub class="dataset-section__overlay"></dataset-overlay-box-stub>
+    <div class="dataset-section__content">
+      <dataset-card-stub data="[object Object]" menualign="normal" class="dataset-section__card" style="width: calc(25.00% - 34px); margin: 20px 17px;"></dataset-card-stub>
+      <dataset-card-stub data="[object Object]" menualign="normal" class="dataset-section__card" style="width: calc(25.00% - 34px); margin: 20px 17px;"></dataset-card-stub>
+      <!---->
+      <create-dataset-card-stub class="dataset-section__card" style="width: calc(25.00% - 34px); margin: 20px 17px;"></create-dataset-card-stub>
+    </div>
+  </div>
+  <dataset-channel-subscriber-stub></dataset-channel-subscriber-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this dataset?" detail="This will delete any classes and unpublished datasets associated to this dataset, and all users in your Team will immediately lose access to it." buttontext="DELETE DATASET" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;

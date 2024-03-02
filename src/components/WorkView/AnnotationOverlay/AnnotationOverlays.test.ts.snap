@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when subannotations are invisible 1`] = ``;
+
+exports[`matches snapshot when subannotations are visible 1`] = `
+<div>
+  <annotation-overlay-stub x="3.6666666666666665" y="2.3333333333333335" label="attributes" annotation="[object Object]" subannotationtypes="[object Object]" overlays="" editable="true" view="[object Object]"></annotation-overlay-stub>
+</div>
+`;

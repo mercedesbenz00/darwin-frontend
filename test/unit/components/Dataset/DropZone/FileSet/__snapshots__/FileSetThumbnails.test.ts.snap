@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="file-set-thumbnails">
+  <div class="file-set-thumbnail"><img src="1.jpg"></div>
+  <div class="file-set-thumbnail"><img src="2.jpg"></div>
+</div>
+`;
+
+exports[`matches snapshot with no thumbnails 1`] = `<div class="file-set-thumbnails"></div>`;

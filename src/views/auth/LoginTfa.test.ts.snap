@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="login-tfa">
+      <div class="login-tfa-form">
+        <secondary-button-stub class="login-tfa__back">
+          Back
+        </secondary-button-stub>
+        <primary-button-stub class="login-tfa__confirm">
+          CONFIRM
+        </primary-button-stub>
+      </div>
+    </div>
+  </div>
+</background-stub>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="quick-add"><label class="quick-add__label">Quick Add</label>
+  <div class="quick-add__control">
+    <div class="quick-add__clicker">
+      <quick-add-icon-stub></quick-add-icon-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when disabled 1`] = `
+<div class="quick-add"><label class="quick-add__label">Quick Add</label>
+  <div class="quick-add__control quick-add__control--disabled">
+    <div class="quick-add__clicker">
+      <quick-add-icon-stub></quick-add-icon-stub>
+    </div>
+  </div>
+</div>
+`;

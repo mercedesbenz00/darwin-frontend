@@ -1,0 +1,60 @@
+.toasted-container {
+  align-items: center;
+  max-width: calc(100vw - 100px);
+
+  .toasted {
+    @include row--center;
+    width: fit-content;
+    background: $colorAliceBlue;
+    @include typography(md-1, default, bold);
+    /* !important is to keep it not to be overwritten in production build */
+    border-radius: 5px !important;
+    color: $color90Black !important;
+    padding: 10px 30px !important;
+    word-break: break-word !important;
+    cursor: pointer;
+
+    &.error,
+    &.bubble.error {
+      border: 1px solid $colorPink;
+    }
+
+    &.info,
+    &.bubble.info {
+      border: 1px solid $colorAliceNight;
+    }
+
+    &.error,
+    &.bubble.error,
+    &.info,
+    &.bubble.info {
+      background: $colorAliceBlue;
+      box-shadow: 0px 10px 10px rgba(145, 169, 192, 0.3);
+    }
+  }
+}
+
+.toast-scene__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  pointer-events: none;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  padding: 12px;
+
+  z-index: var(--z-toast-container);
+}
+
+.toast-pos-center {
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}

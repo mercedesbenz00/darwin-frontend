@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when deploying matches snapshot 1`] = `
+<div class="update-settings">
+  <h2 class="update-settings__header">
+    Update Object Detection Model
+  </h2>
+  <p class="update-settings__description">
+    Pick a number of servers to update your model.
+    Once updated, you'll be able to use it in model stages or as an API.
+  </p>
+  <div class="update-settings__section">
+    <instance-count-stub autostart="true" autostop="true" minimum="0" maximum="0"></instance-count-stub>
+  </div>
+  <deployment-cost-stub instancecount="0" device="cpu" class="update-settings__cost"></deployment-cost-stub>
+  <div class="update-settings__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <primary-button-stub>
+      UPDATE
+    </primary-button-stub>
+  </div>
+  <div class="update-settings__stop-button">
+    <negative-button-stub>
+      STOP DEPLOYMENT
+    </negative-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when no running session selected matches snapshot 1`] = ``;
+
+exports[`when stopped matches snapshot 1`] = `
+<div class="update-settings">
+  <h2 class="update-settings__header">
+    Start Object Detection Model
+  </h2>
+  <p class="update-settings__description">
+    Pick a number of servers to start your model.
+    Once started, you'll be able to use it in model stages or as an API.
+  </p>
+  <div class="update-settings__section">
+    <instance-count-stub autostart="true" autostop="true" minimum="0" maximum="0"></instance-count-stub>
+  </div>
+  <deployment-cost-stub instancecount="0" device="cpu" class="update-settings__cost"></deployment-cost-stub>
+  <div class="update-settings__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <primary-button-stub>
+      START
+    </primary-button-stub>
+  </div>
+  <!---->
+</div>
+`;

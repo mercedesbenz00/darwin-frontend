@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreadFooter component should match snapshot 1`] = `
+<footer class="footer">
+  <div class="footer__content">
+    <!---->
+    <p tooltip="{'content':''}"><span class="mute">Created by</span>
+    </p>
+  </div>
+  <darwinbutton-stub kind="outline" size="sm" class="resolve-btn" tooltip="{'content':'Resolve'}">
+    <iconmonocentroid-stub></iconmonocentroid-stub>
+  </darwinbutton-stub>
+</footer>
+`;

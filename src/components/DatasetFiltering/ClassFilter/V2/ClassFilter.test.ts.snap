@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="class-filter">
+  <div class="class-filter__container">
+    <input-field-stub value="" tag="div" placeholder="Type to tag or filter by class" type="text" items="" class="class-filter__input-v2"></input-field-stub>
+    <div class="class-filter__list">
+      <div disabled-action-tooltip="" status="none">Polygon</div>
+      <div disabled-action-tooltip="" status="none">Tag</div>
+    </div>
+  </div>
+  <div class="class-filter__submit">
+    <custom-button-stub variant="default" color="transparent" size="small" flair="rounded" tag="button" disabled="true" class="class-filter__create-tag">
+      Create a tag
+      <!---->
+    </custom-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot after sorted by label desc 1`] = `
+<div class="class-filter">
+  <div class="class-filter__container">
+    <input-field-stub value="" tag="div" placeholder="Type to tag or filter by class" type="text" items="" class="class-filter__input-v2"></input-field-stub>
+    <div class="class-filter__list">
+      <div disabled-action-tooltip="" status="none">Polygon</div>
+      <div disabled-action-tooltip="" status="none">Tag</div>
+    </div>
+  </div>
+  <div class="class-filter__submit">
+    <custom-button-stub variant="default" color="transparent" size="small" flair="rounded" tag="button" disabled="true" class="class-filter__create-tag">
+      Create a tag
+      <!---->
+    </custom-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when images are being selected 1`] = `
+<div class="class-filter">
+  <div class="class-filter__container">
+    <input-field-stub value="" tag="div" placeholder="Type to tag or filter by class" type="text" items="" class="class-filter__input-v2"></input-field-stub>
+    <div class="class-filter__list">
+      <div action-disabled="true" disabled-action-tooltip="" status="none">Polygon</div>
+      <div action-disabled="true" disabled-action-tooltip="" status="none">Tag</div>
+    </div>
+  </div>
+  <div class="class-filter__submit">
+    <custom-button-stub variant="default" color="transparent" size="small" flair="rounded" tag="button" disabled="true" class="class-filter__create-tag">
+      Create a tag
+      <!---->
+    </custom-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when listing only 1`] = `
+<div class="class-filter">
+  <div class="class-filter__container class-filter__container--list-only">
+    <input-field-stub value="" tag="div" placeholder="Filter by class" type="text" items="" class="class-filter__input-v2"></input-field-stub>
+    <div class="class-filter__list">
+      <div disabled-action-tooltip="" action-hide="true" status="none">Polygon</div>
+      <div disabled-action-tooltip="" action-hide="true" status="none">Tag</div>
+    </div>
+  </div>
+  <!---->
+</div>
+`;

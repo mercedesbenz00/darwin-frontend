@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`for AutoAnnotation matches snapshot 1`] = `<auto-annotate-icon-stub class="model-icon" tooltip="{'placement':'bottom','content':'auto annotate','classes':'tooltip--model-icon','delay':{'show':300,'hide':300}}"></auto-annotate-icon-stub>`;
+
+exports[`for Classification matches snapshot 1`] = `<classification-icon-stub class="model-icon" tooltip="{'placement':'bottom','content':'classification','classes':'tooltip--model-icon','delay':{'show':300,'hide':300}}"></classification-icon-stub>`;
+
+exports[`for InstanceSegmentation matches snapshot 1`] = `<instance-segmentation-icon-stub class="model-icon" tooltip="{'placement':'bottom','content':'instance segmentation','classes':'tooltip--model-icon','delay':{'show':300,'hide':300}}"></instance-segmentation-icon-stub>`;
+
+exports[`for ObjectDetection matches snapshot 1`] = `<object-detection-icon-stub class="model-icon" tooltip="{'placement':'bottom','content':'object detection','classes':'tooltip--model-icon','delay':{'show':300,'hide':300}}"></object-detection-icon-stub>`;

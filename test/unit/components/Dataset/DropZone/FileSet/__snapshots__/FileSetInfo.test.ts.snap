@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="file-set-info">
+  <div class="file-set__progress">
+    <vue-circle-stub progress="0" size="40" startangle="-1.57" thickness="5" percentfontsize="10px" animation="[object Object]" animationstartvalue="0" linecap="round" fill="[object Object]" emptyfill="rgba(204, 244, 240, 1)" insertmode="append"></vue-circle-stub>
+  </div>
+  <div class="file-set__texts">
+    <div class="file-set__name-container"><label class="file-set__name">Set 1</label></div>
+    <div class="file-set__others"><span class="file-set__count">
+        2 Files
+      </span>
+      <div class="file-set__actions">
+        <div>actions slot</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with one file 1`] = `
+<div class="file-set-info">
+  <div class="file-set__progress">
+    <vue-circle-stub progress="30" size="40" startangle="-1.57" thickness="5" percentfontsize="10px" animation="[object Object]" animationstartvalue="0" linecap="round" fill="[object Object]" emptyfill="rgba(204, 244, 240, 1)" insertmode="append"></vue-circle-stub>
+  </div>
+  <div class="file-set__texts">
+    <div class="file-set__name-container"><label class="file-set__name">1.jpg</label></div>
+    <div class="file-set__others"><span class="file-set__count">
+        1 File
+      </span>
+      <div class="file-set__actions">
+        <div>actions slot</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="tags-popover" dataset="[object Object]" tags="tag1,tag2">
+  <file-set-action-button-stub>
+    <tag-icon-stub></tag-icon-stub>
+  </file-set-action-button-stub>
+</div>
+`;

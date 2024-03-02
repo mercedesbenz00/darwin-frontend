@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="top-bar__logo">
+  <icon-button-stub variant="default" color="secondary" size="small" flair="soft" tag="router-link" exact="" to="[object Object]" class="top-bar__logo__button">
+    <logo-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--logo"></logo-icon-stub>
+    <back-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--hover"></back-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot in tutorial 1`] = `
+<div class="top-bar__logo">
+  <icon-button-stub variant="default" color="secondary" size="small" flair="soft" tag="router-link" exact="" to="[object Object]" class="top-bar__logo__button">
+    <logo-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--logo"></logo-icon-stub>
+    <back-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--hover"></back-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot on open datasets 1`] = `
+<div class="top-bar__logo">
+  <icon-button-stub variant="default" color="secondary" size="small" flair="soft" tag="router-link" exact="" to="[object Object]" class="top-bar__logo__button">
+    <logo-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--logo"></logo-icon-stub>
+    <back-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--hover"></back-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot on workview 1`] = `
+<div class="top-bar__logo">
+  <icon-button-stub variant="default" color="secondary" size="small" flair="soft" tag="router-link" exact="" to="[object Object]" class="top-bar__logo__button">
+    <logo-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--logo"></logo-icon-stub>
+    <back-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--hover"></back-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when annotator 1`] = `
+<div class="top-bar__logo">
+  <icon-button-stub variant="default" color="secondary" size="small" flair="soft" tag="router-link" exact="" to="[object Object]" class="top-bar__logo__button">
+    <logo-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--logo"></logo-icon-stub>
+    <back-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--hover"></back-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot with team logo available 1`] = `
+<div class="top-bar__logo">
+  <icon-button-stub variant="default" color="secondary" size="small" flair="soft" tag="router-link" exact="" to="[object Object]" class="top-bar__logo__button"><img src="v7_thumb.png" class="top-bar__logo__button__img top-bar__logo__button__img--normal">
+    <back-icon-stub class="top-bar__logo__button__img top-bar__logo__button__img--hover"></back-icon-stub>
+  </icon-button-stub>
+</div>
+`;

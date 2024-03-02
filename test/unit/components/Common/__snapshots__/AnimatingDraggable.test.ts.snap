@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<draggable-stub clone="[Function]" element="div" animation="200" ghostclass="draggable-ghost">
+  <transition-group-stub name="flip-list" type="transition"></transition-group-stub>
+</draggable-stub>
+`;
+
+exports[`matches snapshot when started dragging: after drag end 1`] = `
+<draggable-stub clone="[Function]" element="div" animation="200" ghostclass="draggable-ghost">
+  <transition-group-stub type="transition"></transition-group-stub>
+</draggable-stub>
+`;
+
+exports[`matches snapshot when started dragging: before drag start 1`] = `
+<draggable-stub clone="[Function]" element="div" animation="200" ghostclass="draggable-ghost">
+  <transition-group-stub type="transition"></transition-group-stub>
+</draggable-stub>
+`;

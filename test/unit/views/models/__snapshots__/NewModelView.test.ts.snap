@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="new-model">
+  <bread-crumbs-stub></bread-crumbs-stub>
+  <div class="header">
+    <h1 class="header__title">
+      New Model
+    </h1>
+    <start-training-button-stub></start-training-button-stub>
+  </div>
+  <new-model-validator-stub></new-model-validator-stub>
+  <div class="wizard-stub new-model__wizard" step="0">
+    <div>
+      <model-type-setup-stub></model-type-setup-stub>
+    </div>
+    <div>
+      <model-dataset-setup-stub></model-dataset-setup-stub>
+    </div>
+    <div>
+      <div class="new-model__wizard__summary">
+        <model-training-summary-stub></model-training-summary-stub>
+        <model-summary-stub></model-summary-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

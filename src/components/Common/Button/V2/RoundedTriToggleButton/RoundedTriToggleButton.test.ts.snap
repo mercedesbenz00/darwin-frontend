@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<button class="tri-toggle tri-toggle--none">A message</button>`;
+
+exports[`matches snapshot when negative 1`] = `<button class="tri-toggle tri-toggle--negative">A message</button>`;
+
+exports[`matches snapshot when positive 1`] = `<button class="tri-toggle tri-toggle--positive">A message</button>`;

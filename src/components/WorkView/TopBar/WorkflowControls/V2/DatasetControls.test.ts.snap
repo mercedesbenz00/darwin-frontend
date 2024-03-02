@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotate-controls">
+  <continue-button-stub type="send-to-annotate"></continue-button-stub>
+</div>
+`;

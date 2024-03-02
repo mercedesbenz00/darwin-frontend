@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading matches snapshot 1`] = `
+<div class="annotators-workflow-title">
+  <div class="annotators-workflow-title__header">
+    <h1 class="annotators-workflow-title__header__title">
+      Loading Workflows...
+    </h1>
+  </div>
+  <div class="annotators-workflow-title__filter">
+    <div class="annotators-workflow-title__search"></div>
+    <div class="annotators-workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when not loading and count is 0 matches snapshot 1`] = `
+<div class="annotators-workflow-title">
+  <div class="annotators-workflow-title__header">
+    <h1 class="annotators-workflow-title__header__title">
+      You have no assigned Workflows
+    </h1>
+  </div>
+  <div class="annotators-workflow-title__filter">
+    <div class="annotators-workflow-title__search"></div>
+    <div class="annotators-workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when not loading and count is 1 matches snapshot 1`] = `
+<div class="annotators-workflow-title">
+  <div class="annotators-workflow-title__header">
+    <h1 class="annotators-workflow-title__header__title">
+      You have 1 assigned Workflow
+    </h1>
+  </div>
+  <div class="annotators-workflow-title__filter">
+    <div class="annotators-workflow-title__search"></div>
+    <div class="annotators-workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when not loading and count is greater than 1 matches snapshot 1`] = `
+<div class="annotators-workflow-title">
+  <div class="annotators-workflow-title__header">
+    <h1 class="annotators-workflow-title__header__title">
+      You have 2 assigned Workflows
+    </h1>
+  </div>
+  <div class="annotators-workflow-title__filter">
+    <div class="annotators-workflow-title__search"></div>
+    <div class="annotators-workflow-title__sort"></div>
+  </div>
+</div>
+`;

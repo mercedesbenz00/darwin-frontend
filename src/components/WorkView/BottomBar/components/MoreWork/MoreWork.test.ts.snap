@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading more work matches snapshot 1`] = `
+<div class="more-work" tooltip="{'content':'Finish your currently assigned work to request more','placement':'top','delay':{'show':300,'hide':300}}">
+  <custom-button-stub variant="default" color="secondary" size="large" flair="soft" tag="button" disabled="true" fullwidth="true" class="more-work__button more-work__button--loading"><span>Fetching Images...</span></custom-button-stub>
+</div>
+`;
+
+exports[`when there is no count information loaded yet matches snapshot 1`] = `
+<div class="more-work" tooltip="{'content':'Finish your currently assigned work to request more','placement':'top','delay':{'show':300,'hide':300}}">
+  <custom-button-stub variant="default" color="secondary" size="large" flair="soft" tag="button" disabled="true" fullwidth="true" class="more-work__button"><span>More Work</span></custom-button-stub>
+</div>
+`;
+
+exports[`when there is no work matches snapshot 1`] = `
+<div class="more-work" tooltip="{'content':'Request more work ','placement':'top','delay':{'show':300,'hide':300}}">
+  <custom-button-stub variant="default" color="secondary" size="large" flair="soft" tag="button" fullwidth="true" class="more-work__button"><span>More Work</span></custom-button-stub>
+</div>
+`;
+
+exports[`when there is work matches snapshot 1`] = `
+<div class="more-work" tooltip="{'content':'Finish your currently assigned work to request more','placement':'top','delay':{'show':300,'hide':300}}">
+  <custom-button-stub variant="default" color="secondary" size="large" flair="soft" tag="button" disabled="true" fullwidth="true" class="more-work__button"><span>More Work</span></custom-button-stub>
+</div>
+`;

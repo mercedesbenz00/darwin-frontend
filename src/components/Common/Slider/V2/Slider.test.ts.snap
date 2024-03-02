@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`variant=DEFAULT should match snapshot 1`] = `
+<div class="slider"><input id="slider" type="range" step="25" min="0" max="100">
+  <div class="slider-step slider-step--default" style="--step: 0; --stepWidth: 0px;"></div>
+  <div class="slider-step slider-step--default" style="--step: 1; --stepWidth: 0px;"></div>
+  <div class="slider-step slider-step--default" style="--step: 2; --stepWidth: 0px;"></div>
+  <div class="slider-step slider-step--default" style="--step: 3; --stepWidth: 0px;"></div>
+</div>
+`;
+
+exports[`variant=STEPS should match snapshot 1`] = `
+<div class="slider"><input id="slider" type="range" step="25" min="0" max="100">
+  <div class="slider-step slider-step--steps" style="--step: 0; --stepWidth: 0px;"></div>
+  <div class="slider-step slider-step--steps" style="--step: 1; --stepWidth: 0px;"></div>
+  <div class="slider-step slider-step--steps" style="--step: 2; --stepWidth: 0px;"></div>
+  <div class="slider-step slider-step--steps" style="--step: 3; --stepWidth: 0px;"></div>
+</div>
+`;

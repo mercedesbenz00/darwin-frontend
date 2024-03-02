@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when the modal is shown matches snaphsot 1`] = `
+<modal-v2-stub size="large" name="export" min-width="350" max-width="800" min-height="500" max-height="768" height="85%" scrollable="true">
+  <modal-header-v2-stub hideclose="true"></modal-header-v2-stub>
+  <modal-content-v2-stub>
+    <citation-info-stub dataset="[object Object]"></citation-info-stub>
+    <div class="modal__content__available-versions"><label class="modal__content__label">Available Versions</label> <span class="version-count">0</span>
+      <icon-button-stub variant="default" color="secondary" size="small" flair="rounded" tag="button" class="version-new__button"><span class="plus-icon">+</span></icon-button-stub>
+      <v2-dataset-export-version-list-stub availableexports="" dataset="[object Object]" class="version-list"></v2-dataset-export-version-list-stub>
+    </div>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Close
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button">
+      + Create Export
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;

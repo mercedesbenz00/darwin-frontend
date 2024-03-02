@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<sidebar-menu-item-layout-stub enabled="true" tag="router-link" to="[object Object]">
+  <v2-sidebar-menu-item-icon-stub enabled="true" name="workflows" tooltip="Workflows"></v2-sidebar-menu-item-icon-stub>
+  Workflows
+</sidebar-menu-item-layout-stub>
+`;
+
+exports[`matches snapshot on active route 1`] = `
+<sidebar-menu-item-layout-stub enabled="true" tag="router-link" to="[object Object]">
+  <v2-sidebar-menu-item-icon-stub enabled="true" name="workflows" tooltip="Workflows" active="true"></v2-sidebar-menu-item-icon-stub>
+  Workflows
+</sidebar-menu-item-layout-stub>
+`;

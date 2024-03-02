@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div class="sort-icon__wrapper">
+  <icon-mono-sort-stub style="transform: rotate(0deg);"></icon-mono-sort-stub>
+</div>
+`;

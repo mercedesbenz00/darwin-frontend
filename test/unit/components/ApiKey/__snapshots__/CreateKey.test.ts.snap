@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="create-key">
+  <h1 class="create-key__header">
+    Create new access key
+  </h1>
+  <div class="create-key__content">
+    <input-field-stub value="" placeholder="Key name" type="text" theme="light"></input-field-stub>
+  </div>
+  <div class="create-key__permissions">
+    <div class="create-key__permissions__list-wrapper">
+      <div class="create-key__permissions__list">
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+      </div>
+    </div>
+    <!---->
+  </div>
+  <!---->
+  <div class="create-key__footer">
+    <secondary-button-stub>
+      Close
+    </secondary-button-stub>
+    <positive-button-stub>
+      Create
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when key created 1`] = `
+<div class="create-key">
+  <h1 class="create-key__header">
+    Create new access key
+  </h1>
+  <div class="create-key__content">
+    <input-field-stub value="" placeholder="Key name" type="text" disabled="true" theme="light"></input-field-stub>
+  </div>
+  <div class="create-key__permissions">
+    <div class="create-key__permissions__list-wrapper">
+      <div class="create-key__permissions__list">
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+        <permission-group-selector-stub group="[object Object]" class="create-key__permissions__list__group"></permission-group-selector-stub>
+      </div>
+    </div>
+    <!---->
+  </div>
+  <created-key-stub value="fake-created-key.random" class="created-key__info"></created-key-stub>
+  <div class="create-key__footer">
+    <secondary-button-stub>
+      Close
+    </secondary-button-stub>
+    <positive-button-stub disabled="">
+      Created
+    </positive-button-stub>
+  </div>
+</div>
+`;

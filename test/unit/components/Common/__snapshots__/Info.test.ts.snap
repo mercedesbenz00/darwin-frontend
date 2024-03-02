@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when there is content only 1`] = `
+<div class="v-popover-stub" trigger="hover" placement="right">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="info__hint">
+      <!---->
+      <div class="info__hint__content">content</div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when there is icon, title, content with overlay color 1`] = `
+<div class="v-popover-stub" trigger="hover" placement="right">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="info__hint">
+      <div class="info__hint__title">
+        <!---->
+        <svg-overlay-stub url="icon" color="#000000" class="info__hint__icon"></svg-overlay-stub> <label class="info__hint__text">title</label>
+      </div>
+      <div class="info__hint__content">content</div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when there is icon, title, content without overlay color 1`] = `
+<div class="v-popover-stub" trigger="hover" placement="right">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="info__hint">
+      <div class="info__hint__title"><img src="icon" class="info__hint__icon">
+        <!----> <label class="info__hint__text">title</label>
+      </div>
+      <div class="info__hint__content">content</div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when there is title and content 1`] = `
+<div class="v-popover-stub" trigger="hover" placement="right">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="info__hint">
+      <div class="info__hint__title">
+        <!---->
+        <!----> <label class="info__hint__text">title</label>
+      </div>
+      <div class="info__hint__content">content</div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when given slot + popover class matches snapshot 1`] = `
+<div class="v-popover-stub" trigger="hover" placement="right" popover-class="custom-class">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="info__hint">
+      <!---->
+      <div class="info__hint__content">Popover content</div>
+    </div>
+  </div>
+</div>
+`;

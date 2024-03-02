@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for item with a workflow 1`] = `
+<div class="stages-container">
+  <div class="stages">
+    <div class="stages__selection-indicator" style="left: -4px;"></div>
+    <div class="stages__current-indicator">
+      <current-icon-stub></current-icon-stub>
+    </div>
+    <div class="stages__list">
+      <div class="stage stage--current">
+        <div class="stage__instance-container">
+          <stage-instance-with-assignment-stub instance="[object Object]" class="stage__instance"></stage-instance-with-assignment-stub>
+        </div>
+        <!---->
+      </div>
+      <div class="stage__next">
+        <next-icon-stub></next-icon-stub>
+      </div>
+      <div class="stage stage--future">
+        <div class="stage__instance-container">
+          <stage-instance-with-assignment-stub instance="[object Object]" class="stage__instance"></stage-instance-with-assignment-stub>
+        </div>
+        <!---->
+      </div>
+      <div class="stage__next">
+        <next-icon-stub></next-icon-stub>
+      </div>
+      <div class="stage stage--future">
+        <div class="stage__instance-container">
+          <stage-instance-with-assignment-stub instance="[object Object]" class="stage__instance"></stage-instance-with-assignment-stub>
+        </div>
+        <!---->
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for item without a workflow 1`] = `
+<div class="stages-container">
+  <div class="stages">
+    <div class="stages__selection-indicator" style="left: -4px;"></div>
+    <div class="stages__current-indicator">
+      <current-icon-stub></current-icon-stub>
+    </div>
+    <div class="stages__list">
+      <div class="stage stage--current">
+        <stage-template-with-assignment-stub template="[object Object]" class="stage__template"></stage-template-with-assignment-stub>
+      </div>
+      <div class="stage__next">
+        <next-icon-stub></next-icon-stub>
+      </div>
+      <div class="stage stage--future">
+        <stage-template-with-assignment-stub template="[object Object]" class="stage__template"></stage-template-with-assignment-stub>
+      </div>
+      <div class="stage__next">
+        <next-icon-stub></next-icon-stub>
+      </div>
+      <div class="stage stage--future">
+        <stage-template-with-assignment-stub template="[object Object]" class="stage__template"></stage-template-with-assignment-stub>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when no item 1`] = `
+<div class="stages-container">
+  <div class="stages">
+    <div class="stages__selection-indicator" style="left: -4px;"></div>
+    <div class="stages__current-indicator">
+      <current-icon-stub></current-icon-stub>
+    </div>
+    <div class="stages__list"></div>
+  </div>
+</div>
+`;

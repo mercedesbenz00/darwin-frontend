@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Minimal Toast UI should match snapshot 1`] = `
+<toast-template-stub variant="success">
+  <div class="minimal-toast__container">
+    <div class="minimal-toast-icon__wrapper">
+      <success-toast-icon-stub variant="inverted"></success-toast-icon-stub>
+    </div>
+    <h3 class="minimal-toast-status__label minimal-toast-status__label--success">
+      Test Title
+    </h3>
+  </div>
+</toast-template-stub>
+`;

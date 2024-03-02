@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in workflows 2.0 matches snapshot 1`] = `
+<div tabindex="0" class="workflow-filter"><button disabled="disabled" class="custom-button workflow-filter__button variant--default color--secondary size--large flair--soft tag--button custom-button--disabled custom-button--icon--none has-tooltip" style="width: auto;" data-original-title="null">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--none">
+      <div class="workflow-filter__button__col1">
+        <!----> <span class="workflow-filter__button__label">All</span>
+      </div>
+      <div class="workflow-filter__button__col2">
+        <!---->
+        <!---->
+      </div>
+    </h2>
+    <!---->
+  </button>
+  <div class="menu__container popup-menu popup-menu-workflow-filters popup-menu--open" style="max-height: calc(100vh - 110px); bottom: 48px;">
+    <div class="menu__wrapper">
+      <div class="popup-menu__header">
+        <div class="folder-structure workflow-filter__folder-structure">
+          <div class="folder-structure__breadcrumbs">
+            <div class="breadcrumbs">
+              <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+                sfh
+              </router-link-stub>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div class="sort-dropdown workflow-filter__sort">
+          <div class="sort-dropdown__input">
+            <div tabindex="0" class="select-field">
+              <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Priority</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button has-tooltip" style="width: auto;" data-original-title="null"><span class="icon-button__slot"><!----></span></button></span></div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-menu__content">
+        <div class="class-filter workflow-filter__classes" list-only="">
+          <div class="class-filter__container class-filter__container--list-only">
+            <div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper class-filter__input-v2">
+              <div id="InputFieldScrollable" class="inputfield__container">
+                <!----> <input placeholder="Filter by class" type="text" tag="div" items="" class="inputfield">
+                <!---->
+                <!---->
+              </div>
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <div class="class-filter__list"></div>
+          </div>
+          <!---->
+        </div>
+        <div class="workflow-filter__generic-wrapper">
+          <div dir="auto" class="v-select dropdown generic-filter workflow-filter__generic workflow-filter__generic vs--multiple vs--searchable dropdown--light" multiple="multiple" placeholder="Search or filter" filterable="true" dataset="[object Object]">
+            <div id="vs16__combobox" role="combobox" aria-expanded="false" aria-owns="vs16__listbox" aria-label="Search for option" class="vs__dropdown-toggle">
+              <div class="vs__selected-options">
+                <div class="input-wrapper">
+                  <!----> <input placeholder="Search or filter" aria-autocomplete="list" aria-labelledby="vs16__combobox" aria-controls="vs16__listbox" type="search" autocomplete="off" class="vs__search">
+                </div>
+              </div>
+              <div class="vs__actions"><button type="button" title="Clear Selected" aria-label="Clear Selected" class="vs__clear" style="display: none;">
+                  <!---->
+                </button> <span role="presentation" class="dropdown__arrow vs__open-indicator"></span>
+                <div class="vs__spinner" style="display: none;">Loading...</div>
+              </div>
+            </div>
+            <transition-stub name="vs__fade">
+              <ul id="vs16__listbox" role="listbox" style="display: none; visibility: hidden;"></ul>
+            </transition-stub>
+          </div>
+        </div>
+        <div class="workflow-filter__statuses-wrapper">
+          <div class="workflow-filter__statuses">
+            <div class="filter workflow-filter__stage">
+              <h3 class="filter__title">
+                Active workflow
+              </h3>
+              <div class="filter__options">
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--dataset">
+                    <!---->
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--annotate">
+                    <!---->
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--review">
+                    <!---->
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--complete">
+                    <!---->
+                  </button></div>
+                <div class="filter__option filter__option--other has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--discard">
+                    <!---->
+                  </button></div>
+              </div>
+            </div>
+            <!---->
+            <div class="status-filter workflow-filter__statuses workflow-filter__status">
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/all.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  All
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/new.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  New
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/annotate.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Annotate
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/review.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Review
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/completed.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Complete
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/webhook.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Webhook
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/comment.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Commented
+                </div>
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when annotator matches snapshot 1`] = `
+<div tabindex="0" class="workflow-filter"><button disabled="disabled" class="custom-button workflow-filter__button variant--default color--secondary size--large flair--soft tag--button custom-button--disabled custom-button--icon--none has-tooltip" style="width: auto;" data-original-title="null">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--none">
+      <div class="workflow-filter__button__col1">
+        <!----> <span class="workflow-filter__button__label">All</span>
+      </div>
+      <div class="workflow-filter__button__col2">
+        <!---->
+        <!---->
+      </div>
+    </h2>
+    <!---->
+  </button>
+  <div class="menu__container popup-menu popup-menu-workflow-filters popup-menu--open" style="max-height: calc(100vh - 110px); bottom: 48px;">
+    <div class="menu__wrapper">
+      <div class="popup-menu__header">
+        <div class="folder-structure workflow-filter__folder-structure">
+          <div class="folder-structure__breadcrumbs">
+            <div class="breadcrumbs">
+              <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+                sfh
+              </router-link-stub>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div class="sort-dropdown workflow-filter__sort">
+          <div class="sort-dropdown__input">
+            <div tabindex="0" class="select-field">
+              <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Priority</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button has-tooltip" style="width: auto;" data-original-title="null"><span class="icon-button__slot"><!----></span></button></span></div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-menu__content">
+        <div class="class-filter workflow-filter__classes" list-only="">
+          <div class="class-filter__container class-filter__container--list-only">
+            <div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper class-filter__input-v2">
+              <div id="InputFieldScrollable" class="inputfield__container">
+                <!----> <input placeholder="Filter by class" type="text" tag="div" items="" class="inputfield">
+                <!---->
+                <!---->
+              </div>
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <div class="class-filter__list"></div>
+          </div>
+          <!---->
+        </div>
+        <div class="workflow-filter__generic-wrapper">
+          <!---->
+        </div>
+        <div class="workflow-filter__statuses-wrapper">
+          <div class="workflow-filter__statuses">
+            <!---->
+            <!---->
+            <div class="status-filter workflow-filter__statuses workflow-filter__status">
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/all.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  All
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/new.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  New
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/annotate.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Annotate
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/review.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Review
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/completed.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Complete
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/webhook.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Webhook
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/comment.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Commented
+                </div>
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when popup menu is closed matches snapshot: expanded 1`] = `
+<div tabindex="0" class="workflow-filter"><button disabled="disabled" class="custom-button workflow-filter__button variant--default color--secondary size--large flair--soft tag--button custom-button--disabled custom-button--icon--none has-tooltip" style="width: auto;" data-original-title="null">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--none">
+      <div class="workflow-filter__button__col1">
+        <!----> <span class="workflow-filter__button__label">All</span>
+      </div>
+      <div class="workflow-filter__button__col2">
+        <!---->
+        <!---->
+      </div>
+    </h2>
+    <!---->
+  </button>
+  <!---->
+</div>
+`;
+
+exports[`when popup menu is open matches snapshot: expanded 1`] = `
+<div tabindex="0" class="workflow-filter"><button disabled="disabled" class="custom-button workflow-filter__button variant--default color--secondary size--large flair--soft tag--button custom-button--disabled custom-button--icon--none has-tooltip" style="width: auto;" data-original-title="null">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--none">
+      <div class="workflow-filter__button__col1">
+        <!----> <span class="workflow-filter__button__label">All</span>
+      </div>
+      <div class="workflow-filter__button__col2">
+        <!---->
+        <!---->
+      </div>
+    </h2>
+    <!---->
+  </button>
+  <div class="menu__container popup-menu popup-menu-workflow-filters popup-menu--open" style="max-height: calc(100vh - 110px); bottom: 48px;">
+    <div class="menu__wrapper">
+      <div class="popup-menu__header">
+        <div class="folder-structure workflow-filter__folder-structure">
+          <div class="folder-structure__breadcrumbs">
+            <div class="breadcrumbs">
+              <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+                sfh
+              </router-link-stub>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div class="sort-dropdown workflow-filter__sort">
+          <div class="sort-dropdown__input">
+            <div tabindex="0" class="select-field">
+              <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Priority</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button has-tooltip" style="width: auto;" data-original-title="null"><span class="icon-button__slot"><!----></span></button></span></div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-menu__content">
+        <div class="class-filter workflow-filter__classes" list-only="">
+          <div class="class-filter__container class-filter__container--list-only">
+            <div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper class-filter__input-v2">
+              <div id="InputFieldScrollable" class="inputfield__container">
+                <!----> <input placeholder="Filter by class" type="text" tag="div" items="" class="inputfield">
+                <!---->
+                <!---->
+              </div>
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <div class="class-filter__list"></div>
+          </div>
+          <!---->
+        </div>
+        <div class="workflow-filter__generic-wrapper">
+          <div dir="auto" class="v-select dropdown generic-filter workflow-filter__generic workflow-filter__generic vs--multiple vs--searchable dropdown--light" multiple="multiple" placeholder="Search or filter" filterable="true" dataset="[object Object]">
+            <div id="vs1__combobox" role="combobox" aria-expanded="false" aria-owns="vs1__listbox" aria-label="Search for option" class="vs__dropdown-toggle">
+              <div class="vs__selected-options">
+                <div class="input-wrapper">
+                  <!----> <input placeholder="Search or filter" aria-autocomplete="list" aria-labelledby="vs1__combobox" aria-controls="vs1__listbox" type="search" autocomplete="off" class="vs__search">
+                </div>
+              </div>
+              <div class="vs__actions"><button type="button" title="Clear Selected" aria-label="Clear Selected" class="vs__clear" style="display: none;">
+                  <!---->
+                </button> <span role="presentation" class="dropdown__arrow vs__open-indicator"></span>
+                <div class="vs__spinner" style="display: none;">Loading...</div>
+              </div>
+            </div>
+            <transition-stub name="vs__fade">
+              <ul id="vs1__listbox" role="listbox" style="display: none; visibility: hidden;"></ul>
+            </transition-stub>
+          </div>
+        </div>
+        <div class="workflow-filter__statuses-wrapper">
+          <div class="workflow-filter__statuses">
+            <!---->
+            <div class="filter workflow-filter__templates workflow-filter__stage-template">
+              <h3 class="filter__title">
+                Active workflow
+              </h3>
+              <div class="filter__options">
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--size--xs status-button--variant--default status-button--annotate">
+                    <div class="status-button__icon__wrapper">
+                      <!---->
+                    </div>
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--size--xs status-button--variant--default status-button--review">
+                    <div class="status-button__icon__wrapper">
+                      <!---->
+                    </div>
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--size--xs status-button--variant--default status-button--complete">
+                    <div class="status-button__icon__wrapper">
+                      <!---->
+                    </div>
+                  </button></div>
+              </div>
+            </div>
+            <div class="status-filter workflow-filter__statuses workflow-filter__status">
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/all.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  All
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/new.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  New
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/annotate.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Annotate
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/review.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Review
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/completed.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Complete
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/webhook.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Webhook
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/comment.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Commented
+                </div>
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when workforce manager matches snapshot 1`] = `
+<div tabindex="0" class="workflow-filter"><button disabled="disabled" class="custom-button workflow-filter__button variant--default color--secondary size--large flair--soft tag--button custom-button--disabled custom-button--icon--none has-tooltip" style="width: auto;" data-original-title="null">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--none">
+      <div class="workflow-filter__button__col1">
+        <!----> <span class="workflow-filter__button__label">All</span>
+      </div>
+      <div class="workflow-filter__button__col2">
+        <!---->
+        <!---->
+      </div>
+    </h2>
+    <!---->
+  </button>
+  <div class="menu__container popup-menu popup-menu-workflow-filters popup-menu--open" style="max-height: calc(100vh - 110px); bottom: 48px;">
+    <div class="menu__wrapper">
+      <div class="popup-menu__header">
+        <div class="folder-structure workflow-filter__folder-structure">
+          <div class="folder-structure__breadcrumbs">
+            <div class="breadcrumbs">
+              <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+                sfh
+              </router-link-stub>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div class="sort-dropdown workflow-filter__sort">
+          <div class="sort-dropdown__input">
+            <div tabindex="0" class="select-field">
+              <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Priority</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button has-tooltip" style="width: auto;" data-original-title="null"><span class="icon-button__slot"><!----></span></button></span></div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popup-menu__content">
+        <div class="class-filter workflow-filter__classes" list-only="">
+          <div class="class-filter__container class-filter__container--list-only">
+            <div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper class-filter__input-v2">
+              <div id="InputFieldScrollable" class="inputfield__container">
+                <!----> <input placeholder="Filter by class" type="text" tag="div" items="" class="inputfield">
+                <!---->
+                <!---->
+              </div>
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <div class="class-filter__list"></div>
+          </div>
+          <!---->
+        </div>
+        <div class="workflow-filter__generic-wrapper">
+          <div dir="auto" class="v-select dropdown generic-filter workflow-filter__generic workflow-filter__generic vs--multiple vs--searchable dropdown--light" multiple="multiple" placeholder="Search or filter" filterable="true" dataset="[object Object]">
+            <div id="vs2__combobox" role="combobox" aria-expanded="false" aria-owns="vs2__listbox" aria-label="Search for option" class="vs__dropdown-toggle">
+              <div class="vs__selected-options">
+                <div class="input-wrapper">
+                  <!----> <input placeholder="Search or filter" aria-autocomplete="list" aria-labelledby="vs2__combobox" aria-controls="vs2__listbox" type="search" autocomplete="off" class="vs__search">
+                </div>
+              </div>
+              <div class="vs__actions"><button type="button" title="Clear Selected" aria-label="Clear Selected" class="vs__clear" style="display: none;">
+                  <!---->
+                </button> <span role="presentation" class="dropdown__arrow vs__open-indicator"></span>
+                <div class="vs__spinner" style="display: none;">Loading...</div>
+              </div>
+            </div>
+            <transition-stub name="vs__fade">
+              <ul id="vs2__listbox" role="listbox" style="display: none; visibility: hidden;"></ul>
+            </transition-stub>
+          </div>
+        </div>
+        <div class="workflow-filter__statuses-wrapper">
+          <div class="workflow-filter__statuses">
+            <!---->
+            <div class="filter workflow-filter__templates workflow-filter__stage-template">
+              <h3 class="filter__title">
+                Active workflow
+              </h3>
+              <div class="filter__options">
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--size--xs status-button--variant--default status-button--annotate">
+                    <div class="status-button__icon__wrapper">
+                      <!---->
+                    </div>
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--size--xs status-button--variant--default status-button--review">
+                    <div class="status-button__icon__wrapper">
+                      <!---->
+                    </div>
+                  </button></div>
+                <div class="filter__option has-tooltip" data-original-title="null"><button class="status-button filter__option__icon status-button--size--xs status-button--variant--default status-button--complete">
+                    <div class="status-button__icon__wrapper">
+                      <!---->
+                    </div>
+                  </button></div>
+              </div>
+            </div>
+            <div class="status-filter workflow-filter__statuses workflow-filter__status">
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/all.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  All
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/new.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  New
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/annotate.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Annotate
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/review.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Review
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/completed.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Complete
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/webhook.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Webhook
+                </div>
+                <div class="filter-item__count">
+                  0
+                </div>
+              </div>
+              <div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+                <div class="filter-item__icon"><img src="/static/imgs/image-status-v2/comment.svg" class="status-filter-item__icon">
+                  <!---->
+                </div>
+                <div class="filter-item__label">
+                  Commented
+                </div>
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

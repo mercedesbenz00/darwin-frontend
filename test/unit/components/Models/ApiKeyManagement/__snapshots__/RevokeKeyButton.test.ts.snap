@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when running session matches snapshot 1`] = `
+<div>
+  <negative-button-stub size="small">
+    Revoke
+  </negative-button-stub>
+  <modal-stub name="confirm-revoke-1" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirm-revoke" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="30%" height="275" pivotx="0.5" pivoty="0.5">
+    <div class="modal__header">
+      <p class="modal__header__title">
+        Are you sure you wish to revoke this key?
+      </p>
+      <p class="modal__header__text">
+        You can attach this key to the model again, or manage it from your settings page.
+      </p>
+      <div class="modal__header__close">
+        ✕
+      </div>
+    </div>
+    <div class="modal__footer">
+      <secondary-button-stub class="modal__footer-left">
+        Cancel
+      </secondary-button-stub>
+      <positive-button-stub class="modal__footer-right">
+        Revoke Key
+      </positive-button-stub>
+    </div>
+  </modal-stub>
+</div>
+`;
+
+exports[`when trained model matches snapshot 1`] = `
+<div>
+  <negative-button-stub size="small">
+    Revoke
+  </negative-button-stub>
+  <modal-stub name="confirm-revoke-1" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirm-revoke" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="30%" height="275" pivotx="0.5" pivoty="0.5">
+    <div class="modal__header">
+      <p class="modal__header__title">
+        Are you sure you wish to revoke this key?
+      </p>
+      <p class="modal__header__text">
+        You can attach this key to the model again, or manage it from your settings page.
+      </p>
+      <div class="modal__header__close">
+        ✕
+      </div>
+    </div>
+    <div class="modal__footer">
+      <secondary-button-stub class="modal__footer-left">
+        Cancel
+      </secondary-button-stub>
+      <positive-button-stub class="modal__footer-right">
+        Revoke Key
+      </positive-button-stub>
+    </div>
+  </modal-stub>
+</div>
+`;

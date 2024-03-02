@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="double-slider">
+  <slider-stub value="foo" options="[object Object]" class="double-slider__top"></slider-stub>
+  <slider-stub value="foo" options="[object Object]" class="double-slider__bottom"></slider-stub>
+</div>
+`;

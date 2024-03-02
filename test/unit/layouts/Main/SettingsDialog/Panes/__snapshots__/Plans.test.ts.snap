@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`switches tabs: billing-tab 1`] = `
+<div class="settings-pane plans-settings-pane" title="Plans">
+  <div class="settings-pane__body">
+    <div class="plans__tabs">
+      <positive-button-stub class="plans__tabs__tab">
+        Plan Usage
+      </positive-button-stub>
+      <positive-button-stub class="plans__tabs__tab plans__tabs__tab--active">
+        Billing
+      </positive-button-stub>
+    </div>
+    <div class="plans__body">
+      <!---->
+      <div>
+        <billing-address-stub class="plans__body__content"></billing-address-stub>
+        <credit-card-stub class="plans__body__content"></credit-card-stub>
+        <invoice-billing-stub class="plans__body__content"></invoice-billing-stub>
+        <invoices-stub class="plans__body__content plans__body__content--invoices"></invoices-stub>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+</div>
+`;
+
+exports[`switches tabs: usage-tab 1`] = `
+<div class="settings-pane plans-settings-pane" title="Plans">
+  <div class="settings-pane__body">
+    <div class="plans__tabs">
+      <positive-button-stub class="plans__tabs__tab plans__tabs__tab--active">
+        Plan Usage
+      </positive-button-stub>
+      <positive-button-stub class="plans__tabs__tab">
+        Billing
+      </positive-button-stub>
+    </div>
+    <div class="plans__body">
+      <div>
+        <products-v3-stub class="plans__body__content"></products-v3-stub>
+        <payment-issues-stub class="plans__body__content"></payment-issues-stub>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+</div>
+`;
+
+exports[`switches tabs: usage-tab-by-default 1`] = `
+<div class="settings-pane plans-settings-pane" title="Plans">
+  <div class="settings-pane__body">
+    <div class="plans__tabs">
+      <positive-button-stub class="plans__tabs__tab plans__tabs__tab--active">
+        Plan Usage
+      </positive-button-stub>
+      <positive-button-stub class="plans__tabs__tab">
+        Billing
+      </positive-button-stub>
+    </div>
+    <div class="plans__body">
+      <div>
+        <products-v3-stub class="plans__body__content"></products-v3-stub>
+        <payment-issues-stub class="plans__body__content"></payment-issues-stub>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+</div>
+`;
+
+exports[`when user can manage billing matches snapshot 1`] = `
+<div class="settings-pane plans-settings-pane" title="Plans">
+  <div class="settings-pane__body">
+    <div class="plans__tabs">
+      <positive-button-stub class="plans__tabs__tab plans__tabs__tab--active">
+        Plan Usage
+      </positive-button-stub>
+      <positive-button-stub class="plans__tabs__tab">
+        Billing
+      </positive-button-stub>
+    </div>
+    <div class="plans__body">
+      <div>
+        <products-v3-stub class="plans__body__content"></products-v3-stub>
+        <payment-issues-stub class="plans__body__content"></payment-issues-stub>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+</div>
+`;
+
+exports[`when user can only view billing matches snapshot 1`] = `
+<div class="settings-pane plans-settings-pane" title="Plans">
+  <div class="settings-pane__body">
+    <div class="plans__tabs">
+      <positive-button-stub class="plans__tabs__tab plans__tabs__tab--active">
+        Plan Usage
+      </positive-button-stub>
+      <!---->
+    </div>
+    <div class="plans__body">
+      <div>
+        <no-access-to-customer-stub></no-access-to-customer-stub>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+</div>
+`;

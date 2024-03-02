@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when deletable matches snapshot 1`] = `
+<stage-template-stub class="ai">
+  <model-round-icon-stub class="ai__header__icon"></model-round-icon-stub>
+  <stage-title-stub value="AI Model"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <delete-button-stub></delete-button-stub>
+  <dropdown-stub dropdownclassname="dropdown__list" theme="dark" options="[object Object],[object Object]" placeholder="Select a model" class="ai__body__session-dropdown"></dropdown-stub>
+  <!---->
+</stage-template-stub>
+`;
+
+exports[`when first stage matches snapshot 1`] = `
+<stage-template-stub class="ai ai--first">
+  <model-round-icon-stub class="ai__header__icon"></model-round-icon-stub>
+  <stage-title-stub value="AI Model"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <dropdown-stub dropdownclassname="dropdown__list" theme="dark" options="[object Object],[object Object]" placeholder="Select a model" class="ai__body__session-dropdown"></dropdown-stub>
+  <!---->
+  <auto-instantiate-stub></auto-instantiate-stub>
+</stage-template-stub>
+`;
+
+exports[`when not deletable matches snapshot 1`] = `
+<stage-template-stub class="ai">
+  <model-round-icon-stub class="ai__header__icon"></model-round-icon-stub>
+  <stage-title-stub value="AI Model"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <dropdown-stub dropdownclassname="dropdown__list" theme="dark" options="[object Object],[object Object]" placeholder="Select a model" class="ai__body__session-dropdown"></dropdown-stub>
+  <!---->
+</stage-template-stub>
+`;
+
+exports[`when running session selected matches snapshot 1`] = `
+<stage-template-stub class="ai">
+  <model-round-icon-stub class="ai__header__icon"></model-round-icon-stub>
+  <stage-title-stub value="AI Model"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <dropdown-stub dropdownclassname="dropdown__list" theme="dark" options="[object Object],[object Object]" value="[object Object]" placeholder="Select a model" class="ai__body__session-dropdown"></dropdown-stub>
+  <div class="ai__body__classes">
+    <training-class-item-stub trainingclass="[object Object]" stagetemplate="[object Object]"></training-class-item-stub>
+    <training-class-item-stub trainingclass="[object Object]" stagetemplate="[object Object]"></training-class-item-stub>
+  </div>
+  <div class="ai__body__class-mapping">
+    <div class="ai__body__class-mapping__unmapped">
+      <warning-icon-stub class="ai__body__class-mapping__unmapped__icon"></warning-icon-stub> <span>2 classes are mapped to nothing!</span>
+    </div>
+    <positive-button-stub class="ai__body__class-mapping__map-classes">
+      Map Classes
+    </positive-button-stub>
+  </div>
+  <modal-stub name="mappingDialog-3" delay="0" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="500" height="auto" pivotx="0.5" pivoty="0.5">
+    <class-mapping-stub annotationclasses="" runningsession="[object Object]" stage="[object Object]" stagemapping=""></class-mapping-stub>
+  </modal-stub>
+</stage-template-stub>
+`;

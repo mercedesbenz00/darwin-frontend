@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when no summary, assigned stage 1`] = `
+<div class="summary">
+  <div class="summary-item">
+    <status-button-stub type="annotate" class="summary-item__avatar">
+      <team-member-avatar-stub member="[object Object]"></team-member-avatar-stub>
+    </status-button-stub>
+    <div class="summary-item__name">
+      John Smith
+    </div>
+    <annotation-time-stub timeinseconds="5" class="summary-item__time"></annotation-time-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when no summary, unassigned stage 1`] = `
+<div class="summary">
+  No time tracked yet.
+</div>
+`;
+
+exports[`matches snapshot when no time tracked on assigned stage 1`] = `
+<div class="summary">
+  <div class="summary-item">
+    <status-button-stub type="annotate" class="summary-item__avatar">
+      <team-member-avatar-stub member="[object Object]"></team-member-avatar-stub>
+    </status-button-stub>
+    <div class="summary-item__name">
+      John Smith
+    </div>
+    <annotation-time-stub timeinseconds="0" class="summary-item__time"></annotation-time-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when no time tracked on unassigned stage 1`] = `
+<div class="summary">
+  No time tracked yet.
+</div>
+`;
+
+exports[`matches snapshot when summary available, unassigned stage 1`] = `
+<div class="summary">
+  <div class="summary-item">
+    <status-button-stub type="annotate" class="summary-item__avatar">
+      <team-member-avatar-stub member="[object Object]"></team-member-avatar-stub>
+    </status-button-stub>
+    <div class="summary-item__name">
+      John Smith
+    </div>
+    <annotation-time-stub timeinseconds="5" class="summary-item__time"></annotation-time-stub>
+  </div>
+</div>
+`;

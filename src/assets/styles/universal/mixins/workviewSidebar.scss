@@ -1,0 +1,117 @@
+@mixin workview-sidebar(
+  $selector,
+  $width: 300px,
+  $header-top: 0px,
+  $header-height: 40px,
+  $duration: .1s
+) {
+  transition: box-shadow $duration ease,
+            right $duration ease;
+
+  box-shadow: 0px 0px 0px 0px $colorGriteDark;
+  position: absolute;
+  right: $header-height - $width;
+  top: $header-top;
+  width: $width;
+  height: $header-height;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: $colorGriteDark;
+  @include col;
+  overflow: hidden;
+
+  &__header {
+    height: $header-height;
+    background: transparent;
+    transition: padding $duration $duration ease,
+                box-shadow $duration $duration linear;
+    padding: 10px 20px 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 0 0px rgba($colorGrayLiter, 0);
+  }
+
+  &__title {
+    @include typography(md, headlines, 500);
+    color: $colorSecondaryLight;
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 10px;
+    margin-top: -2px;
+  }
+
+  &__content {
+    height: calc(100% - #{$header-height});
+    transition: opacity $duration linear,
+                visibility 0s $duration linear;
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  &__button {
+    @include circle(22px);
+    @include typography(md-1, headlines, 600);
+    background-color: $colorPrimaryDark;
+    padding: 1px 0 0;
+    color: $colorWhite;
+    margin-top: -2px;
+  }
+
+  &__button--close {
+    pointer-events: none;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      background-color: $colorWhite;
+      border-radius: $border-radius-default;
+      height: 2px;
+      width: 13px;
+      left: 50%;
+      top: 46%;
+      transform-origin: left;
+    }
+
+    &::before {
+      transform: rotate(45deg) translate(-50%);
+    }
+    &::after {
+      transform: rotate(-45deg) translate(-50%);
+    }
+  }
+
+  &--open {
+    transition: box-shadow $duration ease,
+                right $duration ease,
+                height $duration ease;
+    right: 0;
+    height: calc(100% - 100px);
+    min-height: 220px;
+
+    #{$selector}__header {
+      transition: padding $duration ease,
+                  box-shadow $duration linear;
+      padding-left: 20px;
+      box-shadow: 0px 1px 0 0px rgba($colorGrayLiter, 1);
+    }
+
+    #{$selector}__button--open {
+      pointer-events: none;
+    }
+
+    #{$selector}__button--close {
+      pointer-events: all;
+    }
+
+    #{$selector}__content {
+      transition: opacity $duration $duration linear,
+                  visibility 0s #{2 * $duration} linear;
+      pointer-events: inherit;
+      opacity: 1;
+    }
+  }
+}

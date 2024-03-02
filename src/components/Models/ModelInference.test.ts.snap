@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="inference">
+  <droparea-stub acceptedfiletypes=".png,.jpg,.jpeg,.bmp">
+    <div class="inference__placeholders">
+      <div class="inference__placeholder__item inference__placeholder__item__camera">
+        <cameraicon-stub></cameraicon-stub> <label>Upload an image</label>
+      </div>
+      <div class="inference__placeholder__item inference__placeholder__item__stream">
+        <streamicon-stub></streamicon-stub> <label>Stream from webcam</label>
+      </div>
+    </div>
+  </droparea-stub>
+</div>
+`;
+
+exports[`matches snapshot when image infered 1`] = `
+<div class="inference inference--with-image">
+  <droparea-stub acceptedfiletypes=".png,.jpg,.jpeg,.bmp">
+    <inferencedata-stub inferenceresults="[object Object],[object Object]" classes="" imagedata="data:image/png;base64,ZmFrZWNvbnRlbnQ=" mode="image" loading-options="[object Object]" class="inference__data"></inferencedata-stub>
+  </droparea-stub>
+</div>
+`;

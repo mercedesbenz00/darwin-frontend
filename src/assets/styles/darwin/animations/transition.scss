@@ -1,0 +1,51 @@
+/**
+ * Acts as an app-wide "transition library" where various transitions used by the app's components are defined.
+ *
+ * When using a transition defined here, we should make sure to keep the component as decoupled from it as possible.
+ */
+
+// <transition name="toggle" />
+
+.toggle-enter-to,
+.toggle-leave {
+  max-height: 1000px;
+}
+
+.toggle-enter-active,
+.toggle-leave-active {
+  transition: max-height .2s ease;
+}
+
+.toggle-enter,
+.toggle-leave-to {
+  max-height: 0px;
+}
+
+// <transition name="expand">
+// animate main container as slide-up
+.expand-enter-to,
+.expand-leave {
+  transform: translateY(0)
+}
+
+.expand-enter-active,
+.expand-leave-active {
+  transition: transform .1s ease;
+}
+
+.expand-enter,
+.expand-leave-to {
+  transform: translateY(100%)
+}
+
+// <transition name="fade">
+.fade-enter-active {
+  transition: opacity .5s;
+}
+.fade-leave-active {
+  transition: opacity 0s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}

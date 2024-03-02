@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<router-link-stub to="/datasets/1/dataset-management" class="dataset-card">
+  <div class="dataset-card__upside">
+    <div class="dataset-card__upside__row dataset-card__upside__row--top">
+      <div class="dataset-card__img"><img data-src="Image 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <div class="dataset-card__upside__row">
+      <div class="dataset-card__img"><img data-src="Image 4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 5" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <transition-stub name="fade">
+      <div class="dataset-card__overlay">
+        <div class="dataset-card__overlay__more"><img src="/static/imgs/more-white-icon.svg" class="dataset-card__overlay__more__img"></div>
+      </div>
+    </transition-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="dataset-card__downside">
+    <div class="dataset-card__name">
+      Smart Fume Hood Segmentation and Direction
+    </div>
+    <div class="dataset-card__stats">
+      <div><strong>17</strong> Files
+      </div>
+      <div><strong>6</strong> Classes
+      </div>
+      <div><strong>0%</strong> Complete
+      </div>
+    </div>
+  </div>
+  <div class="dataset-card__progress__bar">
+    <div class="dataset-card__progress__bar__filled" style="width: 0%;"></div>
+  </div>
+</router-link-stub>
+`;
+
+exports[`matches snapshot when menu disabled 1`] = `
+<router-link-stub to="/datasets/1/dataset-management" class="dataset-card">
+  <div class="dataset-card__upside">
+    <div class="dataset-card__upside__row dataset-card__upside__row--top">
+      <div class="dataset-card__img"><img data-src="Image 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <div class="dataset-card__upside__row">
+      <div class="dataset-card__img"><img data-src="Image 4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 5" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <!---->
+    <!---->
+    <!---->
+  </div>
+  <div class="dataset-card__downside">
+    <div class="dataset-card__name">
+      Smart Fume Hood Segmentation and Direction
+    </div>
+    <div class="dataset-card__stats">
+      <div><strong>17</strong> Files
+      </div>
+      <div><strong>6</strong> Classes
+      </div>
+      <div><strong>0%</strong> Complete
+      </div>
+    </div>
+  </div>
+  <div class="dataset-card__progress__bar">
+    <div class="dataset-card__progress__bar__filled" style="width: 0%;"></div>
+  </div>
+</router-link-stub>
+`;
+
+exports[`matches snapshot when progress > 0% 1`] = `
+<router-link-stub to="/datasets/1/dataset-management?not_statuses=archived" class="dataset-card">
+  <div class="dataset-card__upside">
+    <div class="dataset-card__upside__row dataset-card__upside__row--top">
+      <div class="dataset-card__img"><img data-src="Image 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <div class="dataset-card__upside__row">
+      <div class="dataset-card__img"><img data-src="Image 4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 5" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <transition-stub name="fade">
+      <div class="dataset-card__overlay">
+        <div class="dataset-card__overlay__more"><img src="/static/imgs/more-white-icon.svg" class="dataset-card__overlay__more__img"></div>
+      </div>
+    </transition-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="dataset-card__downside">
+    <div class="dataset-card__name">
+      Smart Fume Hood Segmentation and Direction
+    </div>
+    <div class="dataset-card__stats">
+      <div><strong>17</strong> Files
+      </div>
+      <div><strong>6</strong> Classes
+      </div>
+      <div><strong>50%</strong> Complete
+      </div>
+    </div>
+  </div>
+  <div class="dataset-card__progress__bar">
+    <div class="dataset-card__progress__bar__filled" style="width: 50%;"></div>
+  </div>
+</router-link-stub>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div to="/datasets/1/dataset-management" class="dataset-card dataset-card--selected">
+  <div class="dataset-card__upside">
+    <div class="dataset-card__upside__row dataset-card__upside__row--top">
+      <div class="dataset-card__img"><img data-src="Image 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 2" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <div class="dataset-card__upside__row">
+      <div class="dataset-card__img"><img data-src="Image 4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 5" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+      <div class="dataset-card__img"><img data-src="Image 6" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"></div>
+    </div>
+    <transition-stub name="fade">
+      <div class="dataset-card__overlay">
+        <div class="dataset-card__overlay__more"><img src="/static/imgs/more-white-icon.svg" class="dataset-card__overlay__more__img"></div>
+      </div>
+    </transition-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="dataset-card__downside">
+    <div class="dataset-card__name">
+      Smart Fume Hood Segmentation and Direction
+    </div>
+    <div class="dataset-card__stats">
+      <div><strong>17</strong> Files
+      </div>
+      <div><strong>6</strong> Classes
+      </div>
+      <div><strong>0%</strong> Complete
+      </div>
+    </div>
+  </div>
+  <div class="dataset-card__progress__bar">
+    <div class="dataset-card__progress__bar__filled" style="width: 0%;"></div>
+  </div>
+</div>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttributeStack UI should match snapshot 1`] = `
+<div class="attribute-stack">
+  <h3 class="attribute-stack__label attribute-stack__label--primary">342</h3>
+  <h3 class="attribute-stack__label attribute-stack__label--secondary">Files</h3>
+</div>
+`;

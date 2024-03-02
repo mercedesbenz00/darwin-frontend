@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot in card mode 1`] = `
+<div class="gallery">
+  <div loading-options="[object Object]" class="gallery__content gallery__content--card-mode" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    <!---->
+    <div class="scroller-stub gallery__content__scroll-container gallery__content__scroll-container--card" key-field="id" buffer="2500" item-size="116">
+      <div>
+        <div class="gallery__content__scroll-container__row">
+          <div class="gallery-card gallery-card--active" style="width: 150px; height: 100px; margin: 8px 10px;"></div>
+          <div class="gallery-card gallery-card--active" style="width: 150px; height: 100px; margin: 8px 10px;"></div>
+          <div class="gallery__content__padding-card" style="width: 150px; margin: 8px 10px;"></div>
+          <div class="gallery__content__padding-card" style="width: 150px; margin: 8px 10px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgb(255, 255, 255);">
+
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+
+      <label>fetching data</label>
+    </div>
+  </div>
+  <resize-observer-stub></resize-observer-stub>
+</div>
+`;
+
+exports[`matches snapshot in list mode 1`] = `
+<div class="gallery">
+  <div loading-options="[object Object]" class="gallery__content gallery__content--list-mode" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    <div class="gallery__content__list-item-header"></div>
+    <div class="scroller-stub gallery__content__scroll-container gallery__content__scroll-container--list" key-field="id" buffer="2500" item-size="40">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgb(255, 255, 255);">
+
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+
+      <label>fetching data</label>
+    </div>
+  </div>
+  <resize-observer-stub></resize-observer-stub>
+</div>
+`;
+
+exports[`matches snapshot when no data 1`] = `
+<div class="gallery">
+  <div loading-options="[object Object]" class="gallery__content gallery__content--card-mode" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    <!---->
+    <div class="gallery__content__no-data">
+      No data
+    </div>
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgb(255, 255, 255);">
+
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+
+      <label>fetching data</label>
+    </div>
+  </div>
+  <resize-observer-stub></resize-observer-stub>
+</div>
+`;

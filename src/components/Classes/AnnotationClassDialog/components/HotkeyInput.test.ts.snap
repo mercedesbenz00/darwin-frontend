@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when disabled 1`] = `
+<div class="hotkey-input"><label class="hotkey-input__label">Hotkey</label>
+  <div class="hotkey-input__control hotkey-input__control--disabled">
+    <div class="hotkey-input__clicker" tooltip="{'content':'You can only add hotkey in the dataset'}">
+      <more-horizontal-icon-stub></more-horizontal-icon-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with hotkey 1`] = `
+<div class="hotkey-input"><label class="hotkey-input__label">Hotkey</label>
+  <div class="hotkey-input__control">
+    <div class="hotkey-input__clicker" tooltip="{'content':'Press a key between 1 and 9 to select this class'}"><span>1</span></div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with no hotkey 1`] = `
+<div class="hotkey-input"><label class="hotkey-input__label">Hotkey</label>
+  <div class="hotkey-input__control">
+    <div class="hotkey-input__clicker" tooltip="{'content':'Press a key between 1 and 9 to select this class'}">
+      <more-horizontal-icon-stub></more-horizontal-icon-stub>
+    </div>
+  </div>
+</div>
+`;

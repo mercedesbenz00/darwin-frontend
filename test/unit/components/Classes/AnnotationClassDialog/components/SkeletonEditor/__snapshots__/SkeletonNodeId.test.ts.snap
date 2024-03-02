@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="skeleton-node-id">
+  <div class="skeleton-node-id__header"><span class="skeleton-node-id__header__item" style="background: rgb(3, 230, 12);"></span><span class="skeleton-node-id__header__item" style="background: rgb(82, 36, 215);"></span><span class="skeleton-node-id__header__item" style="background: rgb(14, 53, 245);"></span></div>
+  <div class="skeleton-node-id__label">
+    Node Id
+  </div>
+</div>
+`;

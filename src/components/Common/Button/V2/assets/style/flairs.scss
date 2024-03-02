@@ -1,0 +1,13 @@
+$flairs: (
+  super-soft: 4px,
+  soft: 8px,
+  rounded: 100px,
+);
+
+.flair {
+  @each $flair in map-keys($flairs) {
+    &--#{$flair} {
+      border-radius: map-get($flairs, $flair);
+    }
+  }
+}

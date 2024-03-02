@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  class="invoice-billing"
+>
+  <div
+    class="invoice-billing__header"
+  >
+    
+    Invoice Billing
+  
+  </div>
+   
+  <div
+    class="invoice-billing__content"
+  >
+    
+    Invoice billing is inactive
+  
+  </div>
+</div>
+`;

@@ -1,0 +1,46 @@
+@mixin workflow-list-item {
+  width: 100%;
+  height: 35px;
+  @include row;
+  align-items: center;
+  padding-left: 10px;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  :deep &__checkbox {
+    width: 16px;
+    margin-right: 10px;
+  }
+
+  :deep &__thumbnail,
+  :deep &__file_size {
+    width: 60px;
+    min-width: 60px;
+  }
+
+  :deep &__file_name {
+    flex: 1;
+    margin-left: 10px;
+    @include ellipsis(2, md);
+  }
+
+  :deep &__status,
+  :deep &__inserted_at,
+  :deep &__created_at,
+  :deep &__image_dimension {
+    width: 100px;
+  }
+
+  :deep &__modified_at {
+    width: 105px;
+  }
+
+  :deep &__labels {
+    width: fit-content;
+    width: 130px;
+    max-width: 130px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders profile without an issue 1`] = `
+<div class="comment-profile">
+  <avatar-stub name="Test Me" size="25" url="url" class="comment-profile__avatar"></avatar-stub>
+  <div class="comment-profile__name">
+    Test Me
+  </div>
+</div>
+`;

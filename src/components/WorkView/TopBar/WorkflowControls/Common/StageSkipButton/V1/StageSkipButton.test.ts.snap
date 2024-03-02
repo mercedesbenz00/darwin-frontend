@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stage-skip">
+  <discard-button-stub class="stage-skip__skip-button"></discard-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when skipped 1`] = `
+<div class="stage-skip">
+  <discard-button-stub skippedreason="Motion Blur" class="stage-skip__skip-button"></discard-button-stub>
+</div>
+`;

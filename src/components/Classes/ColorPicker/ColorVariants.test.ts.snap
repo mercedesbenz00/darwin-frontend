@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="color-variants">
+  <div class="color-variants__color" style="background: rgb(255, 0, 0);"></div>
+</div>
+`;

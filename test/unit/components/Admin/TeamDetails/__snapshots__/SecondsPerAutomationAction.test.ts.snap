@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot: editing 1`] = `
+<div class="seconds-per seconds-per--editing">
+  <input-field-stub value="22" type="text" theme="dark"></input-field-stub>
+  <negative-button-stub size="small">
+    Cancel
+  </negative-button-stub>
+  <positive-button-stub size="small">
+    Save
+  </positive-button-stub>
+</div>
+`;
+
+exports[`matches snapshot: normal 1`] = `
+<div class="seconds-per">
+  <div class="seconds-per__value">
+    22
+  </div>
+  <secondary-button-stub size="small">
+    Change
+  </secondary-button-stub>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="credits">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main">
+      <div class="credits__info">
+        190
+      </div>
+    </div>
+    <div class="popover">
+      <div class="credits__tooltip-row"><label>Billed this period</label> <span>200</span></div>
+      <div class="credits__tooltip-row"><label>Remaining this period</label> <span>190</span></div>
+      <div class="credits__tooltip-row"><label>Billed next period</label> <span>100</span></div>
+      <div class="credits__tooltip-row">
+        This team has no hours assigned.
+      </div>
+    </div>
+  </div>
+  <add-credits-stub team="[object Object]"></add-credits-stub>
+</div>
+`;

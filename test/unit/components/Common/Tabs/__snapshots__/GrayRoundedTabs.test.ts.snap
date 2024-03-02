@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when instances is selected matches snapshot: tab is "bar" 1`] = `
+<div class="tabs">
+  <div class="tabs__tab">
+    foo
+  </div>
+  <div class="tabs__tab tabs__tab--active">
+    bar
+  </div>
+  <div class="tabs__tab">
+    baz
+  </div>
+</div>
+`;
+
+exports[`when instances is selected matches snapshot: tab is "foo" 1`] = `
+<div class="tabs">
+  <div class="tabs__tab tabs__tab--active">
+    foo
+  </div>
+  <div class="tabs__tab">
+    bar
+  </div>
+  <div class="tabs__tab">
+    baz
+  </div>
+</div>
+`;

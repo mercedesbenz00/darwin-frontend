@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<annotation-class-section-stub title="Annotation Type">
+  <div class="annotation-types">
+    <annotation-type-item-stub typename="polygon" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="bounding_box" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="tag" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="skeleton" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="line" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="keypoint" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="ellipse" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="cuboid" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="link" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+  </div>
+</annotation-class-section-stub>
+`;
+
+exports[`matches snapshot when one is selected 1`] = `
+<annotation-class-section-stub title="Annotation Type">
+  <div class="annotation-types">
+    <annotation-type-item-stub typename="polygon" disabledtooltip="Cannot edit main annotation type" selected="true" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="bounding_box" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="tag" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="skeleton" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="line" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="keypoint" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="ellipse" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="cuboid" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="link" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+  </div>
+</annotation-class-section-stub>
+`;
+
+exports[`matches snapshot when there is error 1`] = `
+<annotation-class-section-stub title="Annotation Type" error="Error">
+  <div class="annotation-types">
+    <annotation-type-item-stub typename="polygon" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="bounding_box" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="tag" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="skeleton" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="line" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="keypoint" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="ellipse" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="cuboid" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="link" disabledtooltip="Cannot edit main annotation type" class="annotation-type-item"></annotation-type-item-stub>
+  </div>
+</annotation-class-section-stub>
+`;

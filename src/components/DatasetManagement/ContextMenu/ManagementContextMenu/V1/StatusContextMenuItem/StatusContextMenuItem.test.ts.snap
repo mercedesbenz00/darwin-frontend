@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div class="v-popover-stub" placement="top" trigger="click" popover-class="status-change__popover" offset="1">
+    <div class="main">
+      <gallery-context-menu-item-stub label="STATUS" class="status-change">
+        <status-change-icon-stub class="status-change__icon"></status-change-icon-stub>
+      </gallery-context-menu-item-stub>
+    </div>
+    <div class="popover">
+      <div class="status-selection"><button class="status-selection__item item">
+          <completed-icon-stub class="item__icon item__icon--complete"></completed-icon-stub>
+          <div class="item__label">
+            Mark as Complete
+          </div>
+        </button> <button class="status-selection__item item">
+          <chevron-right-icon-stub class="item__icon item__icon--annotate"></chevron-right-icon-stub>
+          <div class="item__label">
+            Advance 1 Stage
+          </div>
+        </button> <button class="status-selection__item item" tooltip="Set status to new while keeping annotations">
+          <div class="item__icon item__icon item__icon--new"></div>
+          <div class="item__label">
+            Reset to New
+          </div>
+        </button> <button class="status-selection__item item" tooltip="Set status to new and discard all annotations">
+          <trash-icon-stub class="item__icon item__icon--archived"></trash-icon-stub>
+          <div class="item__label">
+            Clear and Reset to New
+          </div>
+        </button></div>
+    </div>
+  </div>
+  <delete-confirmation-dialog-stub title="Are you sure you wish to reset?" detail="This will discard all annotations on the selected items." buttontext="RESET TO NEW" name="reset-items-to-new-modal"></delete-confirmation-dialog-stub>
+</div>
+`;

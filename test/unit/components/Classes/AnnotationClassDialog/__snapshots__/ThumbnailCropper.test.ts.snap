@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot on init and when loaded 1`] = `
+<div class="thumbnail-cropper">
+  <vue-croppie-stub max-zoom="2.5" min-zoom="0" viewport="[object Object]" class="thumbnail-cropper__cropper"></vue-croppie-stub>
+  <div class="thumbnail-cropper__cropper-loading">
+    <circle-spinner-stub width="50" height="50"></circle-spinner-stub>
+  </div>
+  <div class="thumbnail-cropper__controls">
+    <slider-stub value="100" options="[object Object]"></slider-stub> <label>Zoom</label>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot on init and when loaded 2`] = `
+<div class="thumbnail-cropper">
+  <vue-croppie-stub max-zoom="2.5" min-zoom="0" viewport="[object Object]" class="thumbnail-cropper__cropper"></vue-croppie-stub>
+  <!---->
+  <div class="thumbnail-cropper__controls">
+    <slider-stub value="100" options="[object Object]"></slider-stub> <label>Zoom</label>
+  </div>
+</div>
+`;

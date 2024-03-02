@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when dicom 1`] = `
+<div class="card" filetype=".dcm">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub url="foo.dcm" type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when external 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub url="foo.png" type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!----> <span class="card__external">External</span>
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!----> <span class="card__external">E</span>
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when folder 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="folder"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div> <img src="../../assets/folder.png" class="card-thumbnail__folder_overlay">
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when given slots 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <div class="card__overlay__top-left">topLeft</div>
+      <div class="card__overlay__top-right">topRight</div> center <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status">status</div>
+  <div class="card__details">details</div>
+</div>
+`;
+
+exports[`matches snapshot when given thumbnail 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub url="foo.png" type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when has priority 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags"><span class="card__overlay__priority card__overlay__priority-1">1</span>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when pdf 1`] = `
+<div class="card" filetype=".pdf">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub url="foo.pdf" type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="card card--selected">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="image"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when video 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="video"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;
+
+exports[`matches snapshot when video-frames 1`] = `
+<div class="card">
+  <div class="card__thumbnail">
+    <card-thumbnail-stub type="video-frames"></card-thumbnail-stub>
+    <div class="card__overlay">
+      <!---->
+      <!---->
+      <!---->
+      <div class="card__overlay__tags">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <div class="card__tags">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="card__status"></div>
+  <div class="card__details"></div>
+</div>
+`;

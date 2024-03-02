@@ -1,0 +1,6 @@
+export * from './addSubAnnotation'
+export * from './matchAnnotation'
+export * from './mergeSubAnnotations'
+export * from './removeSubAnnotation'
+export * from './updateImageAnnotation'
+export * from './updateVideoAnnotation'

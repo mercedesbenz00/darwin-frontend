@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in workflows 2.0 matches snapshot 1`] = `
+<sidebar-stub hidenotch="true">
+  <div class="data-sidebar__content">
+    <generic-filter-stub dataset="[object Object]" positiveassignees="" negativeassignees="" positivefilenames="" negativefilenames="" positivepaths="" negativepaths="" class="data-sidebar__generic"></generic-filter-stub>
+    <stage-filter-stub includedids="" excludedids="" dataset="[object Object]" workflow="[object Object]"></stage-filter-stub>
+    <status-filter-stub options="complete,new,annotate,review" hiddenoptions="processing,uploading,error,archived" counts="[object Object]" positiveoptions="" negativeoptions="" dataset="[object Object]" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" disabled="true" disabledactiontooltip="No items are selected" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot 1`] = `
+<sidebar-stub hidenotch="true">
+  <div class="data-sidebar__content">
+    <generic-filter-stub dataset="[object Object]" positiveassignees="" negativeassignees="" positivefilenames="" negativefilenames="" positivepaths="" negativepaths="" class="data-sidebar__generic"></generic-filter-stub>
+    <!---->
+    <status-filter-stub options="complete,new,annotate,review" hiddenoptions="processing,uploading,error,archived" counts="[object Object]" positiveoptions="" negativeoptions="" dataset="[object Object]" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" disabled="true" disabledactiontooltip="No items are selected" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot when dataset item filter is set 1`] = `
+<sidebar-stub hidenotch="true">
+  <div class="data-sidebar__content">
+    <generic-filter-stub dataset="[object Object]" positiveassignees="" negativeassignees="" positivefilenames="" negativefilenames="" positivepaths="" negativepaths="" class="data-sidebar__generic"></generic-filter-stub>
+    <!---->
+    <status-filter-stub options="complete,new,annotate,review" hiddenoptions="processing,uploading,error,archived" counts="[object Object]" positiveoptions="" negativeoptions="" dataset="[object Object]" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" disabled="true" disabledactiontooltip="No items are selected" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;

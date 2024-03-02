@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for annotationTime 1`] = `
+<div class="selector">
+  <div class="selector__info"></div>
+  <div class="selector__options"><button class="selector__options__option selector__options__option--active"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;
+
+exports[`matches snapshot for annotationsCreated 1`] = `
+<div class="selector">
+  <div class="selector__info"></div>
+  <div class="selector__options"><button class="selector__options__option"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option selector__options__option--active"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;
+
+exports[`matches snapshot for avgTimePerAnnotation 1`] = `
+<div class="selector">
+  <div class="selector__info"></div>
+  <div class="selector__options"><button class="selector__options__option"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option selector__options__option--active"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;
+
+exports[`matches snapshot for imagesAnnotated 1`] = `
+<div class="selector">
+  <div class="selector__info"></div>
+  <div class="selector__options"><button class="selector__options__option"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option selector__options__option--active"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;
+
+exports[`matches snapshot for reviewPassRate 1`] = `
+<div class="selector">
+  <div class="selector__info"></div>
+  <div class="selector__options"><button class="selector__options__option"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option selector__options__option--active"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;
+
+exports[`matches snapshot when hidden 1`] = `
+<div class="selector">
+  <div class="selector__info"></div>
+  <div class="selector__options"><button class="selector__options__option"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;
+
+exports[`matches snapshot when slot provided 1`] = `
+<div class="selector">
+  <div class="selector__info">
+    <div>Default slot</div>
+  </div>
+  <div class="selector__options"><button class="selector__options__option"><img src="/static/imgs/clock.svg"> <span>0m</span></button><button class="selector__options__option"><img src="/static/imgs/annotation.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/gauge.svg"> <span>N/A</span></button><button class="selector__options__option"><img src="/static/imgs/image.svg"> <span>0</span></button><button class="selector__options__option"><img src="/static/imgs/check_circle.svg"> <span>N/A</span></button></div>
+</div>
+`;

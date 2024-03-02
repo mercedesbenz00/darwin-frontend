@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when crashed matches snapshot 1`] = `<model-button-stub color="negative" text="Error" class="training-button training-button-error" tooltip="{'content':'This training session crashed. Please contact us.'}"></model-button-stub>`;
+
+exports[`when gust stopped (treated as crashed) matches snapshot 1`] = `<model-button-stub color="negative" text="Error" class="training-button training-button-error" tooltip="{'content':'This training session crashed. Please contact us.'}"></model-button-stub>`;
+
+exports[`when scheduled matches snapshot 1`] = `<model-button-stub color="warning" text="Scheduled" class="training-button" tooltip="{'content':''}"></model-button-stub>`;
+
+exports[`when training matches snapshot 1`] = `<model-button-stub color="warning" text="Training" class="training-button" tooltip="{'content':''}"></model-button-stub>`;

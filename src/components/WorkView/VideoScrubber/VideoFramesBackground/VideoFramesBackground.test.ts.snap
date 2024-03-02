@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<canvas width="5" height="100" class="video-frames-background"></canvas>`;
+
+exports[`matches snapshot when currentLoadedVideo is not defined 1`] = ``;

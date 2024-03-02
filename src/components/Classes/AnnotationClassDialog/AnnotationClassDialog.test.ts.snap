@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="annotation-class" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="annotation-class-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="35%" height="80%" pivotx="0.5" pivoty="0.5">
+  <div class="modal__header">
+    <p class="modal__header__title">
+      Create a new Annotation Class
+    </p>
+    <p class="modal__header__text">
+      Classes are unique to this team. Add them quickly via the quick-add
+      button or customize them below by adding sub-annotation, descriptions,
+      or thumbnails.
+    </p>
+  </div>
+  <div class="modal__content modal__content-annotation">
+    <annotation-class-section-stub title="Class Name and Color">
+      <div class="annotation-class__name">
+        <class-color-stub color="auto"></class-color-stub>
+        <input-field-stub type="text" theme="dark"></input-field-stub>
+        <hotkey-input-stub disabled="true"></hotkey-input-stub>
+        <quick-add-stub disabled="true"></quick-add-stub>
+      </div>
+    </annotation-class-section-stub>
+    <annotation-type-select-stub></annotation-type-select-stub>
+    <!---->
+    <!---->
+    <!---->
+    <description-stub></description-stub>
+    <class-thumbnails-stub classname="" classcolor="rgba(255,73,73,1.0)" team="[object Object]" images="[object Object],[object Object],[object Object],[object Object],[object Object]" class="annotation-class__thumbnails"></class-thumbnails-stub>
+  </div>
+  <div class="modal__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true">
+      ADD CLASS
+    </positive-button-stub>
+  </div>
+</modal-stub>
+`;
+
+exports[`matches snapshot when the save button is disabled because no annotation type selected 1`] = `
+<modal-stub name="annotation-class" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="annotation-class-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="35%" height="80%" pivotx="0.5" pivoty="0.5">
+  <div class="modal__header">
+    <p class="modal__header__title">
+      Create a new Annotation Class
+    </p>
+    <p class="modal__header__text">
+      Classes are unique to this team. Add them quickly via the quick-add
+      button or customize them below by adding sub-annotation, descriptions,
+      or thumbnails.
+    </p>
+  </div>
+  <div class="modal__content modal__content-annotation">
+    <annotation-class-section-stub title="Class Name and Color">
+      <div class="annotation-class__name">
+        <class-color-stub color="auto"></class-color-stub>
+        <input-field-stub type="text" theme="dark" value="Test"></input-field-stub>
+        <hotkey-input-stub disabled="true"></hotkey-input-stub>
+        <quick-add-stub></quick-add-stub>
+      </div>
+    </annotation-class-section-stub>
+    <annotation-type-select-stub></annotation-type-select-stub>
+    <!---->
+    <!---->
+    <!---->
+    <description-stub></description-stub>
+    <class-thumbnails-stub classname="Test" classcolor="rgba(255,73,73,1.0)" team="[object Object]" images="[object Object],[object Object],[object Object],[object Object],[object Object]" class="annotation-class__thumbnails"></class-thumbnails-stub>
+  </div>
+  <div class="modal__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub>
+      ADD CLASS
+    </positive-button-stub>
+  </div>
+</modal-stub>
+`;
+
+exports[`renders skeleton section if skeleton type 1`] = `
+<modal-stub name="annotation-class" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="annotation-class-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="35%" height="80%" pivotx="0.5" pivoty="0.5">
+  <div class="modal__header">
+    <p class="modal__header__title">
+      Create a new Annotation Class
+    </p>
+    <p class="modal__header__text">
+      Classes are unique to this team. Add them quickly via the quick-add
+      button or customize them below by adding sub-annotation, descriptions,
+      or thumbnails.
+    </p>
+  </div>
+  <div class="modal__content modal__content-annotation">
+    <annotation-class-section-stub title="Class Name and Color">
+      <div class="annotation-class__name">
+        <class-color-stub color="auto"></class-color-stub>
+        <input-field-stub type="text" theme="dark"></input-field-stub>
+        <hotkey-input-stub disabled="true"></hotkey-input-stub>
+        <quick-add-stub disabled="true"></quick-add-stub>
+      </div>
+    </annotation-class-section-stub>
+    <annotation-type-select-stub selectedannotationtype="skeleton"></annotation-type-select-stub>
+    <annotation-sub-type-select-stub mainannotationtype="skeleton" originalsubtypeselections="[object Object]" typeselections="[object Object]"></annotation-sub-type-select-stub>
+    <!---->
+    <skeleton-editor-stub skeleton="[object Object]" strokecolor="auto"></skeleton-editor-stub>
+    <description-stub></description-stub>
+    <class-thumbnails-stub classname="" classcolor="rgba(255,73,73,1.0)" team="[object Object]" images="[object Object],[object Object],[object Object],[object Object],[object Object]" class="annotation-class__thumbnails"></class-thumbnails-stub>
+  </div>
+  <div class="modal__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true">
+      ADD CLASS
+    </positive-button-stub>
+  </div>
+</modal-stub>
+`;

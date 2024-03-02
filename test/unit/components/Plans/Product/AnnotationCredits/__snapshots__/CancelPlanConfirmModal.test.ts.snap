@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="cancel-plan-confirm-modal" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="cancel-plan-confirm" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="confirmation-dialog-layout-stub">
+    <div class="title-slot-given">
+      Cancel your plan?
+    </div>
+    <div class="description-slot-given">
+      <div class="cancel-plan__content">
+        <div class="cancel-plan__description">
+          When your billing period elapses, all datasets, user statistics,
+          annotations, models, and settings will be permanently deleted.<br>
+          Type "<strong>cancel my plan</strong>" to confirm.
+        </div>
+        <input-field-stub value="" type="text" autofocus="true" theme="dark"></input-field-stub>
+      </div>
+    </div>
+    <div class="footer-slot-given">
+      <secondary-button-stub type="button" class="modal__footer-left">
+        Back
+      </secondary-button-stub>
+      <negative-button-stub disabled="true" type="button" class="modal__footer-right">
+        CONFIRM
+      </negative-button-stub>
+    </div>
+  </div>
+</modal-stub>
+`;

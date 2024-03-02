@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagApplierCreate should match snapshot 1`] = `
+<div class="tag-applier__create">
+  <custom-button-stub variant="default" color="transparent" size="small" flair="rounded" tag="button" class="tag-applier__create__button">
+    Create
+    <badge-stub label="" overridetooltip="" size="medium" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor="" nocapitalize="true" class="tag-applier__create__button__badge"></badge-stub>
+  </custom-button-stub>
+</div>
+`;

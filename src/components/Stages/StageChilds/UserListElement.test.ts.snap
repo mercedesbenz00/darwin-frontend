@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User List Element should match snapshot 1`] = `
+<assignable-list-item-stub amount="0">
+  <team-member-avatar-stub member="[object Object]"></team-member-avatar-stub>
+  Louis Raetz
+</assignable-list-item-stub>
+`;

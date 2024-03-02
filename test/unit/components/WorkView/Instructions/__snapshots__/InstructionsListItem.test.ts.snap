@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when expanded 1`] = `
+<li class="annotation-class annotation-class--read-only">
+  <div class="annotation-class__container"><button disabled="disabled" class="annotation-class__button annotation-class__button--initials" style="background: rgba(4, 4, 4, 0.5);">
+      F
+    </button>
+    <div class="annotation-class__info">
+      <div class="annotation-class__label"><span class="annotation-class__color-indicator" style="background-color: rgba(4, 4, 4, 0.5);"></span> <span class="annotation-class__label__text">Flask</span>
+        <hotkey-display-stub></hotkey-display-stub>
+      </div>
+      <!---->
+      <div class="annotation-class__description annotation-class__description--expanded">
+
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when hotkey is set 1`] = `
+<li class="annotation-class annotation-class--read-only">
+  <div class="annotation-class__container"><button disabled="disabled" class="annotation-class__button annotation-class__button--initials" style="background: rgba(4, 4, 4, 0.5);">
+      F
+    </button>
+    <div class="annotation-class__info">
+      <div class="annotation-class__label"><span class="annotation-class__color-indicator" style="background-color: rgba(4, 4, 4, 0.5);"></span> <span class="annotation-class__label__text">Flask</span>
+        <hotkey-display-stub hotkey="1"></hotkey-display-stub>
+      </div>
+      <!---->
+      <div class="annotation-class__description">
+
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when not expanded 1`] = `
+<li class="annotation-class annotation-class--read-only">
+  <div class="annotation-class__container"><button disabled="disabled" class="annotation-class__button annotation-class__button--initials" style="background: rgba(4, 4, 4, 0.5);">
+      F
+    </button>
+    <div class="annotation-class__info">
+      <div class="annotation-class__label"><span class="annotation-class__color-indicator" style="background-color: rgba(4, 4, 4, 0.5);"></span> <span class="annotation-class__label__text">Flask</span>
+        <hotkey-display-stub></hotkey-display-stub>
+      </div>
+      <!---->
+      <div class="annotation-class__description">
+
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when not selectable 1`] = `
+<li class="annotation-class annotation-class--read-only">
+  <div class="annotation-class__container"><button disabled="disabled" class="annotation-class__button annotation-class__button--initials" style="background: rgba(4, 4, 4, 0.5);">
+      F
+    </button>
+    <div class="annotation-class__info">
+      <div class="annotation-class__label"><span class="annotation-class__color-indicator" style="background-color: rgba(4, 4, 4, 0.5);"></span> <span class="annotation-class__label__text">Flask</span>
+        <hotkey-display-stub></hotkey-display-stub>
+      </div>
+      <!---->
+      <div class="annotation-class__description">
+
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when selectable 1`] = `
+<li class="annotation-class">
+  <div class="annotation-class__container"><button class="annotation-class__button annotation-class__button--initials" style="background: rgba(4, 4, 4, 0.5);">
+      F
+    </button>
+    <div class="annotation-class__info">
+      <div class="annotation-class__label"><span class="annotation-class__color-indicator" style="background-color: rgba(4, 4, 4, 0.5);"></span> <span class="annotation-class__label__text">Flask</span>
+        <hotkey-display-stub></hotkey-display-stub>
+      </div>
+      <!---->
+      <div class="annotation-class__description">
+
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when tag 1`] = `
+<li class="annotation-class">
+  <div class="annotation-class__container"><button disabled="disabled" class="annotation-class__button annotation-class__button--initials" style="background: rgba(7, 7, 7, 0.5);">
+      T
+    </button>
+    <div class="annotation-class__info">
+      <div class="annotation-class__label"><span class="annotation-class__color-indicator" style="background-color: rgba(7, 7, 7, 0.5);"></span> <span class="annotation-class__label__text">Tag</span>
+        <hotkey-display-stub></hotkey-display-stub>
+      </div>
+      <!---->
+      <div class="annotation-class__description">
+
+      </div>
+    </div>
+  </div>
+</li>
+`;

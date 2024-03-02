@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="tabs">
+  <router-link-stub to="/tab1" active-class="tabs__tab--active" exact-active-class="" class="tabs__tab">
+    Tab1
+    <div class="tabs__tab--shown">
+      Tab1
+    </div>
+  </router-link-stub>
+  <div active-class="tabs__tab--active" exact-active-class="" class="tabs__tab tabs__tab--coming">
+    Tab2
+    <div class="tabs__tab--shown">
+      Tab2
+    </div>
+  </div>
+  <router-link-stub to="/tab3" active-class="" exact-active-class="tabs__tab--active" class="tabs__tab">
+    Tab3
+    <div class="tabs__tab--shown">
+      Tab3
+    </div>
+  </router-link-stub>
+</div>
+`;

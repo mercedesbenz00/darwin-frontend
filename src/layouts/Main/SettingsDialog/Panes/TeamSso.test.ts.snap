@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="sso__setting">
+  <div class="setting__body">
+    <div class="team__body__section team__body__sso team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="ssoAuthEnforced" label="Enforce SSO" disabled="true" tooltip="{'content':'You need to set up the SSO config first.'}"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <div class="team__body__section team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="twoFactorAuthEnforced" label="Enforce Two Factor Authentication" disabled="true"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <h4 class="setting__header">
+      SSO
+    </h4> <small class="setting__tips">Let colleagues join your team using Single Sign-On</small>
+    <div class="role__body">
+      <div class="members__new__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object],[object Object]" label="Default Role" placeholder="Role" disabled="true"></role-dropdown-stub> <small class="setting__tips">A user who signs up using SSO automatically joins your team with this role</small>
+      </div>
+    </div>
+    <div class="saml__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          SAML
+        </h5>
+      </div>
+      <div id="saml__configure" class="setting__sub-cell cell-field">
+        <secondary-button-stub type="button" disabled="true" class="full-width">
+          Configure SSO
+        </secondary-button-stub>
+      </div>
+    </div>
+    <div class="google__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          Google Auth 2.0
+        </h5>
+      </div>
+      <div class="setting__sub-cell cell-field">
+        <input-field-stub value="" label="Business Domain" id="businessDomain" placeholder="i.e. @v7labs.com" type="text" disabled="true" theme="light"></input-field-stub>
+        <div class=""><small class="setting__tips">
+            Users with this domain will automatically be added to
+            your team when signing in with Google Auth 2.0 for the first time.
+          </small></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when 2fa enforcement is allowed matches snapshot 1`] = `
+<div class="sso__setting">
+  <div class="setting__body">
+    <div class="team__body__section team__body__sso team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="ssoAuthEnforced" label="Enforce SSO" disabled="true" tooltip="{'content':'You need to set up the SSO config first.'}"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <!---->
+      </div>
+    </div>
+    <div class="team__body__section">
+      <radio-stub value="true" name="sso_or_2fa" id="twoFactorAuthEnforced" label="Enforce Two Factor Authentication" selected="true"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <!---->
+      </div>
+    </div>
+    <h4 class="setting__header">
+      SSO
+    </h4> <small class="setting__tips">Let colleagues join your team using Single Sign-On</small>
+    <div class="role__body">
+      <div class="members__new__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object],[object Object]" label="Default Role" placeholder="Role" disabled="true"></role-dropdown-stub> <small class="setting__tips">A user who signs up using SSO automatically joins your team with this role</small>
+      </div>
+    </div>
+    <div class="saml__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          SAML
+        </h5>
+      </div>
+      <div id="saml__configure" class="setting__sub-cell cell-field">
+        <secondary-button-stub type="button" disabled="true" class="full-width">
+          Configure SSO
+        </secondary-button-stub>
+      </div>
+    </div>
+    <div class="google__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          Google Auth 2.0
+        </h5>
+      </div>
+      <div class="setting__sub-cell cell-field">
+        <input-field-stub value="" label="Business Domain" id="businessDomain" placeholder="i.e. @v7labs.com" type="text" disabled="true" theme="light"></input-field-stub>
+        <div class=""><small class="setting__tips">
+            Users with this domain will automatically be added to
+            your team when signing in with Google Auth 2.0 for the first time.
+          </small></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when 2fa enforcement is not allowed matches snapshot 1`] = `
+<div class="sso__setting">
+  <div class="setting__body">
+    <div class="team__body__section team__body__sso team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="ssoAuthEnforced" label="Enforce SSO" disabled="true" tooltip="{'content':'You need to set up the SSO config first.'}"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <div class="team__body__section team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="twoFactorAuthEnforced" label="Enforce Two Factor Authentication" disabled="true"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <h4 class="setting__header">
+      SSO
+    </h4> <small class="setting__tips">Let colleagues join your team using Single Sign-On</small>
+    <div class="role__body">
+      <div class="members__new__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object],[object Object]" label="Default Role" placeholder="Role" disabled="true"></role-dropdown-stub> <small class="setting__tips">A user who signs up using SSO automatically joins your team with this role</small>
+      </div>
+    </div>
+    <div class="saml__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          SAML
+        </h5>
+      </div>
+      <div id="saml__configure" class="setting__sub-cell cell-field">
+        <secondary-button-stub type="button" disabled="true" class="full-width">
+          Configure SSO
+        </secondary-button-stub>
+      </div>
+    </div>
+    <div class="google__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          Google Auth 2.0
+        </h5>
+      </div>
+      <div class="setting__sub-cell cell-field">
+        <input-field-stub value="" label="Business Domain" id="businessDomain" placeholder="i.e. @v7labs.com" type="text" disabled="true" theme="light"></input-field-stub>
+        <div class=""><small class="setting__tips">
+            Users with this domain will automatically be added to
+            your team when signing in with Google Auth 2.0 for the first time.
+          </small></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when SSO enforcement is allowed matches snapshot 1`] = `
+<div class="sso__setting">
+  <div class="setting__body">
+    <div class="team__body__section team__body__sso">
+      <radio-stub value="true" name="sso_or_2fa" id="ssoAuthEnforced" label="Enforce SSO" selected="true" disabled="true" tooltip="{'content':'You need to set up the SSO config first.'}"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <div class="team__body__section team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="twoFactorAuthEnforced" label="Enforce Two Factor Authentication" disabled="true"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <h4 class="setting__header">
+      SSO
+    </h4> <small class="setting__tips">Let colleagues join your team using Single Sign-On</small>
+    <div class="role__body">
+      <div class="members__new__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object],[object Object]" label="Default Role" placeholder="Role" disabled="true"></role-dropdown-stub> <small class="setting__tips">A user who signs up using SSO automatically joins your team with this role</small>
+      </div>
+    </div>
+    <div class="saml__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          SAML
+        </h5>
+      </div>
+      <div id="saml__configure" class="setting__sub-cell cell-field">
+        <secondary-button-stub type="button" class="full-width">
+          Configure SSO
+        </secondary-button-stub>
+      </div>
+    </div>
+    <div class="google__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          Google Auth 2.0
+        </h5>
+      </div>
+      <div class="setting__sub-cell cell-field">
+        <input-field-stub value="" label="Business Domain" id="businessDomain" placeholder="i.e. @v7labs.com" type="text" theme="light"></input-field-stub>
+        <div class=""><small class="setting__tips">
+            Users with this domain will automatically be added to
+            your team when signing in with Google Auth 2.0 for the first time.
+          </small></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when SSO enforcement is not allowed matches snapshot 1`] = `
+<div class="sso__setting">
+  <div class="setting__body">
+    <div class="team__body__section team__body__sso team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="ssoAuthEnforced" label="Enforce SSO" disabled="true" tooltip="{'content':'You need to set up the SSO config first.'}"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <div class="team__body__section team-body__enforce--disabled">
+      <radio-stub value="true" name="sso_or_2fa" id="twoFactorAuthEnforced" label="Enforce Two Factor Authentication" disabled="true"></radio-stub>
+      <div class="team__body__icon-wrapper">
+        <div class="team__body__enforce-upgrade-icon">
+          <upgrade-tfa-icon-stub tooltip="{'content':'Upgrade to Enterprise to unlock this feature'}"></upgrade-tfa-icon-stub>
+        </div>
+      </div>
+    </div>
+    <h4 class="setting__header">
+      SSO
+    </h4> <small class="setting__tips">Let colleagues join your team using Single Sign-On</small>
+    <div class="role__body">
+      <div class="members__new__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object],[object Object]" label="Default Role" placeholder="Role" disabled="true"></role-dropdown-stub> <small class="setting__tips">A user who signs up using SSO automatically joins your team with this role</small>
+      </div>
+    </div>
+    <div class="saml__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          SAML
+        </h5>
+      </div>
+      <div id="saml__configure" class="setting__sub-cell cell-field">
+        <secondary-button-stub type="button" disabled="true" class="full-width">
+          Configure SSO
+        </secondary-button-stub>
+      </div>
+    </div>
+    <div class="google__body">
+      <div class="setting__sub-cell">
+        <h5 class="setting__sub-header">
+          Google Auth 2.0
+        </h5>
+      </div>
+      <div class="setting__sub-cell cell-field">
+        <input-field-stub value="" label="Business Domain" id="businessDomain" placeholder="i.e. @v7labs.com" type="text" disabled="true" theme="light"></input-field-stub>
+        <div class=""><small class="setting__tips">
+            Users with this domain will automatically be added to
+            your team when signing in with Google Auth 2.0 for the first time.
+          </small></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

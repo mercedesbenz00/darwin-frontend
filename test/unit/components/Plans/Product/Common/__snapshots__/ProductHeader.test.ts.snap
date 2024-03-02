@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="product-header">
+  <div class="product-header__title">
+    Base Plan -
+    <strong class="product-header__title__name">team</strong>
+  </div>
+  <div class="product-header__date">
+    Renews 05/05/30
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when given renew date 1`] = `
+<div class="product-header">
+  <div class="product-header__title">
+    Base Plan -
+    <strong class="product-header__title__name">team</strong>
+  </div>
+  <div class="product-header__date">
+    Renews 05/05/30
+  </div>
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when mapped matches snapshot 1`] = `<type-icon-with-label-stub label="Box22" type="bounding_box" tag="div" class="training-class"></type-icon-with-label-stub>`;
+
+exports[`when unmapped matches snapshot 1`] = `<type-icon-with-label-stub label="Box11" type="bounding_box" tag="div" class="training-class training-class--unmapped"></type-icon-with-label-stub>`;

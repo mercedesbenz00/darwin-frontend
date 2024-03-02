@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-card__container dataset-card__container--unselectable">
+  <div class="dataset-connected__container">
+    <thumbnails-stub data="Image 1,Image 2,Image 3,Image 4,Image 5,Image 6" max="3" variant="big"></thumbnails-stub>
+    <p class="dataset-connected__label">
+      Smart Fume Hood Segmentation and Direction
+    </p>
+    <div class="dataset-connected__attribute-wrapper">
+      <attribute-stack-stub></attribute-stack-stub>
+      <attribute-stack-stub></attribute-stack-stub>
+      <attribute-stack-stub></attribute-stack-stub>
+    </div>
+    <div class="dataset-connected__progress-wrapper">
+      <progress-bar-stub value="0" variant="active"></progress-bar-stub>
+      <p class="dataset-connected__progress-label">
+        0%
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when progress > 0% 1`] = `
+<div class="dataset-card__container dataset-card__container--unselectable">
+  <div class="dataset-connected__container">
+    <thumbnails-stub data="Image 1,Image 2,Image 3,Image 4,Image 5,Image 6" max="3" variant="big"></thumbnails-stub>
+    <p class="dataset-connected__label">
+      Smart Fume Hood Segmentation and Direction
+    </p>
+    <div class="dataset-connected__attribute-wrapper">
+      <attribute-stack-stub></attribute-stack-stub>
+      <attribute-stack-stub></attribute-stack-stub>
+      <attribute-stack-stub></attribute-stack-stub>
+    </div>
+    <div class="dataset-connected__progress-wrapper">
+      <progress-bar-stub value="0.5" variant="active"></progress-bar-stub>
+      <p class="dataset-connected__progress-label">
+        50%
+      </p>
+    </div>
+  </div>
+</div>
+`;

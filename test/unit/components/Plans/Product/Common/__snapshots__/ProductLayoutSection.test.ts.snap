@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="product-section">
+  <div class="product-section__text">
+    100
+  </div>
+  <div class="product-section__subtext">
+    Credits Monthly
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+export { default as NoWorkflowControls } from './NoWorkflowControls.vue'
+export { default as AnnotateControls } from './AnnotateControls.vue'
+export { default as BackToThePresent } from './BackToThePresent.vue'
+export { default as CompleteControls } from './CompleteControls.vue'
+export { default as ConsensusControls } from './ConsensusControls.vue'
+export { default as DatasetControls } from './DatasetControls.vue'
+export { default as DiscardControls } from './DiscardControls.vue'
+export { default as ReviewControls } from './ReviewControls.vue'
+
+export { default as V2WorkflowControls } from './WorkflowControls.vue'

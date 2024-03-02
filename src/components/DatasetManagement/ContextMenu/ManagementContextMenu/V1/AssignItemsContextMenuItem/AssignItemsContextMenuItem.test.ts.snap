@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" placement="top" trigger="click" popover-class="assign-items__popover" disabled="disabled" offset="1">
+  <div class="main">
+    <gallery-context-menu-item-stub label="Assign" disabled="true" tooltip="Select some items before assigning." class="assign-items-context-menu-item">
+      <assign-items-icon-stub></assign-items-icon-stub>
+    </gallery-context-menu-item-stub>
+  </div>
+  <div class="popover">
+    <member-selection-stub class="assign-items__popover_content"></member-selection-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when assigning 1`] = `
+<div class="v-popover-stub" placement="top" trigger="click" popover-class="assign-items__popover" disabled="disabled" offset="1">
+  <div class="main">
+    <gallery-context-menu-item-stub label="Assign" disabled="true" tooltip="Select some items before assigning." class="assign-items-context-menu-item">
+      <assign-items-icon-stub></assign-items-icon-stub>
+    </gallery-context-menu-item-stub>
+  </div>
+  <div class="popover">
+    <member-selection-stub class="assign-items__popover_content"></member-selection-stub>
+  </div>
+</div>
+`;

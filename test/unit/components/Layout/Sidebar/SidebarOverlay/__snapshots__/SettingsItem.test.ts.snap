@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`as someone who can manage billing matches snapshot 1`] = `
+<router-link-stub to="/datasets?settings=plans" class="settings-item">
+  <icon-duotone-settings-stub class="settings-item__icon"></icon-duotone-settings-stub>
+  <div class="settings-item__text">
+    Settings &amp; Billing
+  </div>
+</router-link-stub>
+`;
+
+exports[`as someone who cannot manage billing matches snapshot 1`] = `
+<router-link-stub to="/datasets?settings=plans" class="settings-item">
+  <icon-duotone-settings-stub class="settings-item__icon"></icon-duotone-settings-stub>
+  <div class="settings-item__text">
+    Settings
+  </div>
+</router-link-stub>
+`;

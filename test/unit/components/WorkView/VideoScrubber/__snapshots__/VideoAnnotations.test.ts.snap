@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with comments matches the snapshot 1`] = `
+<bottom-drawer-stub name="video annotation frames" resizable="true" initialheight="140" minheight="56" maxheight="400" class="video-annotations__bottom-drawer">
+  <div class="video-annotations__control-section">
+    <video-annotations-video-control-stub editor="[object Object]" class="video-annotations__video-control"></video-annotations-video-control-stub>
+    <video-annotations-duration-control-stub class="video-annotations__duration-control"></video-annotations-duration-control-stub>
+    <video-annotations-ui-control-stub class="video-annotations__ui-control"></video-annotations-ui-control-stub>
+  </div>
+  <div class="video-annotations">
+    <div class="video-annotations__workbox">
+      <div class="video-annotations__workbox__content" style="width: 13px; height: 42px;">
+        <div class="video-annotations__items" style="width: 8px;">
+          <video-frames-background-stub editor="[object Object]" height="42" class="video-annotations__items__background" style="width: 8px;"></video-frames-background-stub>
+          <video-comment-thread-indicator-stub frameindex="0" count="1" editor="[object Object]" yindex="0"></video-comment-thread-indicator-stub>
+          <video-comment-thread-indicator-stub frameindex="4" count="1" editor="[object Object]" yindex="0"></video-comment-thread-indicator-stub>
+        </div>
+        <video-annotations-scrubber-stub editor="[object Object]" currentframeindex="0" scrollerselector=".video-annotations__workbox"></video-annotations-scrubber-stub>
+      </div>
+    </div>
+  </div>
+  <video-annotations-annotation-control-stub editor="[object Object]" class="video-annotations__annotation-control"></video-annotations-annotation-control-stub>
+  <context-menu-stub editor="[object Object]" x="0" y="0" offsetx="0"></context-menu-stub>
+</bottom-drawer-stub>
+`;
+
+exports[`without comments matches the snapshot 1`] = `
+<bottom-drawer-stub name="video annotation frames" resizable="true" initialheight="140" minheight="56" maxheight="400" class="video-annotations__bottom-drawer">
+  <div class="video-annotations__control-section">
+    <video-annotations-video-control-stub editor="[object Object]" class="video-annotations__video-control"></video-annotations-video-control-stub>
+    <video-annotations-duration-control-stub class="video-annotations__duration-control"></video-annotations-duration-control-stub>
+    <video-annotations-ui-control-stub class="video-annotations__ui-control"></video-annotations-ui-control-stub>
+  </div>
+  <div class="video-annotations">
+    <div class="video-annotations__workbox">
+      <div class="video-annotations__workbox__content" style="width: 13px; height: 21px;">
+        <div class="video-annotations__items" style="width: 8px;">
+          <video-frames-background-stub editor="[object Object]" height="21" class="video-annotations__items__background" style="width: 8px;"></video-frames-background-stub>
+        </div>
+        <video-annotations-scrubber-stub editor="[object Object]" currentframeindex="0" scrollerselector=".video-annotations__workbox"></video-annotations-scrubber-stub>
+      </div>
+    </div>
+  </div>
+  <video-annotations-annotation-control-stub editor="[object Object]" class="video-annotations__annotation-control"></video-annotations-annotation-control-stub>
+  <context-menu-stub editor="[object Object]" x="0" y="0" offsetx="0"></context-menu-stub>
+</bottom-drawer-stub>
+`;

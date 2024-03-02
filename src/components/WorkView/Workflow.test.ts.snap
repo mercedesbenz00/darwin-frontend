@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag Applier behavior disables TagApplier in completed stage 1`] = `
+<div class="workview-stub workview" editor="[object Object]" hotkeys="">
+  <div class="top">
+    <workflow-top-bar-stub editor="[object Object]"></workflow-top-bar-stub>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="workview__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="workview__center__right-container">
+      <workflow-layer-bar-stub editor="[object Object]" class="workview__center__layerbar"></workflow-layer-bar-stub>
+      <tag-applier-stub editor="[object Object]" disabled="true" parentheight="0" class="workview__center__tag-applier"></tag-applier-stub>
+      <resize-observer-stub emitonmount="true"></resize-observer-stub>
+    </div>
+  </div>
+  <div class="sticky-bars"></div>
+  <div class="main">
+    <stage-overlay-stub class="workview__overlay"></stage-overlay-stub>
+    <tool-option-overlay-stub class="workview__tool-option-overlay"></tool-option-overlay-stub>
+  </div>
+  <div class="default">
+    <class-selection-stub editor="[object Object]"></class-selection-stub>
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub></item-count-loader-stub>
+    <items-loader-stub></items-loader-stub>
+    <default-workflow-loader-stub></default-workflow-loader-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+    <!---->
+    <stage-selector-stub></stage-selector-stub>
+    <comment-loader-stub></comment-loader-stub>
+    <trained-models-loader-stub></trained-models-loader-stub>
+    <models-loader-stub></models-loader-stub>
+    <workflow-instructions-trigger-stub></workflow-instructions-trigger-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div class="workview-stub workview" editor="[object Object]" hotkeys="[object Object],[object Object]">
+  <div class="top">
+    <workflow-top-bar-stub editor="[object Object]"></workflow-top-bar-stub>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="workview__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="workview__center__right-container">
+      <workflow-layer-bar-stub editor="[object Object]" class="workview__center__layerbar"></workflow-layer-bar-stub>
+      <!---->
+      <resize-observer-stub emitonmount="true"></resize-observer-stub>
+    </div>
+  </div>
+  <div class="sticky-bars"></div>
+  <div class="main">
+    <stage-overlay-stub class="workview__overlay"></stage-overlay-stub>
+    <tool-option-overlay-stub class="workview__tool-option-overlay"></tool-option-overlay-stub>
+  </div>
+  <div class="default">
+    <class-selection-stub editor="[object Object]"></class-selection-stub>
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub></item-count-loader-stub>
+    <items-loader-stub></items-loader-stub>
+    <default-workflow-loader-stub></default-workflow-loader-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+    <!---->
+    <stage-selector-stub></stage-selector-stub>
+    <comment-loader-stub></comment-loader-stub>
+    <trained-models-loader-stub></trained-models-loader-stub>
+    <models-loader-stub></models-loader-stub>
+    <workflow-instructions-trigger-stub></workflow-instructions-trigger-stub>
+  </div>
+</div>
+`;
+
+exports[`never render video annotations control when dicom video has 1 frame 1`] = `
+<div class="workview-stub workview" editor="[object Object]" hotkeys="[object Object],[object Object]">
+  <div class="top">
+    <workflow-top-bar-stub editor="[object Object]"></workflow-top-bar-stub>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="workview__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="workview__center__right-container">
+      <workflow-layer-bar-stub editor="[object Object]" class="workview__center__layerbar"></workflow-layer-bar-stub>
+      <!---->
+      <resize-observer-stub emitonmount="true"></resize-observer-stub>
+    </div>
+  </div>
+  <div class="sticky-bars"></div>
+  <div class="main">
+    <stage-overlay-stub class="workview__overlay"></stage-overlay-stub>
+    <tool-option-overlay-stub class="workview__tool-option-overlay"></tool-option-overlay-stub>
+  </div>
+  <div class="default">
+    <class-selection-stub editor="[object Object]"></class-selection-stub>
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub></item-count-loader-stub>
+    <items-loader-stub></items-loader-stub>
+    <default-workflow-loader-stub></default-workflow-loader-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+    <!---->
+    <stage-selector-stub></stage-selector-stub>
+    <comment-loader-stub></comment-loader-stub>
+    <trained-models-loader-stub></trained-models-loader-stub>
+    <models-loader-stub></models-loader-stub>
+    <workflow-instructions-trigger-stub></workflow-instructions-trigger-stub>
+  </div>
+</div>
+`;
+
+exports[`never render video annotations control when pdf video has 1 frame 1`] = `
+<div class="workview-stub workview" editor="[object Object]" hotkeys="[object Object],[object Object]">
+  <div class="top">
+    <workflow-top-bar-stub editor="[object Object]"></workflow-top-bar-stub>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="workview__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="workview__center__right-container">
+      <workflow-layer-bar-stub editor="[object Object]" class="workview__center__layerbar"></workflow-layer-bar-stub>
+      <!---->
+      <resize-observer-stub emitonmount="true"></resize-observer-stub>
+    </div>
+  </div>
+  <div class="sticky-bars"></div>
+  <div class="main">
+    <stage-overlay-stub class="workview__overlay"></stage-overlay-stub>
+    <tool-option-overlay-stub class="workview__tool-option-overlay"></tool-option-overlay-stub>
+  </div>
+  <div class="default">
+    <class-selection-stub editor="[object Object]"></class-selection-stub>
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub></item-count-loader-stub>
+    <items-loader-stub></items-loader-stub>
+    <default-workflow-loader-stub></default-workflow-loader-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+    <!---->
+    <stage-selector-stub></stage-selector-stub>
+    <comment-loader-stub></comment-loader-stub>
+    <trained-models-loader-stub></trained-models-loader-stub>
+    <models-loader-stub></models-loader-stub>
+    <workflow-instructions-trigger-stub></workflow-instructions-trigger-stub>
+  </div>
+</div>
+`;
+
+exports[`renders video annotations control 1`] = `
+<div class="workview-stub workview" editor="[object Object]" hotkeys="[object Object],[object Object]">
+  <div class="top">
+    <workflow-top-bar-stub editor="[object Object]"></workflow-top-bar-stub>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="workview__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="workview__center__right-container">
+      <workflow-layer-bar-stub editor="[object Object]" class="workview__center__layerbar"></workflow-layer-bar-stub>
+      <!---->
+      <resize-observer-stub emitonmount="true"></resize-observer-stub>
+    </div>
+  </div>
+  <div class="sticky-bars">
+    <video-annotations-stub editor="[object Object]"></video-annotations-stub>
+  </div>
+  <div class="main">
+    <stage-overlay-stub class="workview__overlay"></stage-overlay-stub>
+    <tool-option-overlay-stub class="workview__tool-option-overlay"></tool-option-overlay-stub>
+  </div>
+  <div class="default">
+    <class-selection-stub editor="[object Object]"></class-selection-stub>
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub></item-count-loader-stub>
+    <items-loader-stub></items-loader-stub>
+    <default-workflow-loader-stub></default-workflow-loader-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+    <!---->
+    <stage-selector-stub></stage-selector-stub>
+    <comment-loader-stub></comment-loader-stub>
+    <trained-models-loader-stub></trained-models-loader-stub>
+    <models-loader-stub></models-loader-stub>
+    <workflow-instructions-trigger-stub></workflow-instructions-trigger-stub>
+  </div>
+</div>
+`;

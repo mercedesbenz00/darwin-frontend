@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<info-stub>
+  If active, your (partner) team will be billed for the invited team's usage of
+  neural network model training and inference. Ensure you have included these costs in
+  your relationship, or have the means to bill for them. If un-checked, te team will not
+  be able to use neural networks until they enter their billing details.
+</info-stub>
+`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" placement="bottom-start" popover-class="class-card-menu__popover" trigger="manual" offset="5">
+  <div class="main">
+    <div class="class-card-menu__trigger"></div>
+  </div>
+  <div class="popover">
+    <popup-menu-stub class="class-card-popup-menu">
+      <!---->
+      <popup-menu-item-stub theme="standard">
+        Edit
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="crimson" tooltip="undefined">
+        Delete
+      </popup-menu-item-stub>
+    </popup-menu-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when delete disabled 1`] = `
+<div class="v-popover-stub" placement="bottom-start" popover-class="class-card-menu__popover" trigger="manual" offset="5">
+  <div class="main">
+    <div class="class-card-menu__trigger"></div>
+  </div>
+  <div class="popover">
+    <popup-menu-stub class="class-card-popup-menu">
+      <!---->
+      <popup-menu-item-stub theme="standard">
+        Edit
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="crimson" tooltip="{'content':'You do not have permissions for this action','placement':'bottom'}">
+        Delete
+      </popup-menu-item-stub>
+    </popup-menu-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with slots 1`] = `
+<div class="v-popover-stub" placement="bottom-start" popover-class="class-card-menu__popover" trigger="manual" offset="5">
+  <div class="main">
+    <div class="class-card-menu__trigger">default-slot</div>
+  </div>
+  <div class="popover">
+    <popup-menu-stub class="class-card-popup-menu">
+      <!---->
+      <popup-menu-item-stub theme="standard">
+        Edit
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="crimson" tooltip="undefined">
+        Delete
+      </popup-menu-item-stub>
+    </popup-menu-stub>
+  </div>
+</div>
+`;
+
+exports[`with dataset, isNonDataset is false matches snapshot 1`] = `
+<div class="v-popover-stub" placement="bottom-start" popover-class="class-card-menu__popover" trigger="manual" offset="5">
+  <div class="main">
+    <div class="class-card-menu__trigger"></div>
+  </div>
+  <div class="popover">
+    <popup-menu-stub class="class-card-popup-menu">
+      <popup-menu-item-stub theme="standard">
+        Remove from Dataset
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="standard">
+        Edit
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="crimson" tooltip="undefined">
+        Delete
+      </popup-menu-item-stub>
+    </popup-menu-stub>
+  </div>
+</div>
+`;
+
+exports[`without dataset, isNonDataset is true matches snapshot 1`] = `
+<div class="v-popover-stub" placement="bottom-start" popover-class="class-card-menu__popover" trigger="manual" offset="5">
+  <div class="main">
+    <div class="class-card-menu__trigger"></div>
+  </div>
+  <div class="popover">
+    <popup-menu-stub class="class-card-popup-menu">
+      <popup-menu-item-stub theme="standard">
+        Add To Dataset
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="standard">
+        Edit
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="crimson" tooltip="undefined">
+        Delete
+      </popup-menu-item-stub>
+    </popup-menu-stub>
+  </div>
+</div>
+`;

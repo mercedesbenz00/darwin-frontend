@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when nothing selected 1`] = ``;
+
+exports[`matches snapshot with selection 1`] = `
+<gallery-context-menu-stub>
+  <gallery-context-menu-item-stub label="2 Selected" class="readonly-context-menu__selected"></gallery-context-menu-item-stub>
+</gallery-context-menu-stub>
+`;

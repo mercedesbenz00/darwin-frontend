@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when empty 1`] = `
+<div class="layer-bar-stub">
+  <div class="header-slot-given">
+    <sub-annotation-toggle-stub></sub-annotation-toggle-stub>
+    <annotation-toggle-stub></annotation-toggle-stub>
+    <measure-toggle-stub></measure-toggle-stub>
+    <annotation-control-stub readonly="true"></annotation-control-stub>
+  </div>
+  <!---->
+  <div class="empty-slot-given">
+    <copy-stage-annotations-stub></copy-stage-annotations-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with annotations 1`] = `
+<div class="layer-bar-stub">
+  <div class="header-slot-given">
+    <sub-annotation-toggle-stub></sub-annotation-toggle-stub>
+    <annotation-toggle-stub></annotation-toggle-stub>
+    <measure-toggle-stub></measure-toggle-stub>
+    <annotation-control-stub readonly="true"></annotation-control-stub>
+  </div>
+  <div class="default-slot-given">
+    <div class="workflow-layer-bar__layers">
+      <layer-bar-item-stub editor="[object Object]" annotation="[object Object]" annotations="[object Object],[object Object]" annotationclass="[object Object]" readonly="true"></layer-bar-item-stub>
+      <layer-bar-item-stub editor="[object Object]" annotation="[object Object]" annotations="[object Object],[object Object]" annotationclass="[object Object]" readonly="true"></layer-bar-item-stub>
+    </div>
+  </div>
+  <!---->
+</div>
+`;

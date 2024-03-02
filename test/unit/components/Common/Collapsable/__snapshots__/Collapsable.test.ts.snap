@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="collapsable">
+  <div class="collapsable__header">
+    <h3 class="collapsable__title">title-slot</h3>
+    <collapsable-icon-stub class="collapsable__icon"></collapsable-icon-stub>
+  </div>
+  <div class="collapsable__content">content</div>
+</div>
+`;
+
+exports[`matches snapshot when collapsed 1`] = `
+<div class="collapsable collapsable--collapsed">
+  <div class="collapsable__header">
+    <h3 class="collapsable__title">title-slot</h3>
+    <collapsable-icon-stub class="collapsable__icon"></collapsable-icon-stub>
+  </div>
+  <div class="collapsable__content">content</div>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when polygon annotation is selected 1`] = `
+<transition-stub name="fade">
+  <div class="video-annotations-annotation-control">
+    <div class="annotation-control__non-tag">
+      <div class="annotation-control__interpolate"><label>Interpolate</label>
+        <switch-button-stub></switch-button-stub>
+      </div>
+      <video-annotations-keyframe-button-stub editor="[object Object]"></video-annotations-keyframe-button-stub>
+    </div>
+    <video-annotations-annotation-toggle-stub editor="[object Object]"></video-annotations-annotation-toggle-stub> <button class="annotation-control__trash">
+      <trash-icon-old-stub></trash-icon-old-stub>
+    </button>
+  </div>
+</transition-stub>
+`;
+
+exports[`matches snapshot when tag annotation is selected 1`] = `
+<transition-stub name="fade">
+  <div class="video-annotations-annotation-control">
+    <div class="annotation-control__non-tag annotation-control__non-tag--disabled">
+      <div class="annotation-control__interpolate"><label>Interpolate</label>
+        <switch-button-stub></switch-button-stub>
+      </div>
+      <video-annotations-keyframe-button-stub editor="[object Object]"></video-annotations-keyframe-button-stub>
+    </div>
+    <video-annotations-annotation-toggle-stub editor="[object Object]"></video-annotations-annotation-toggle-stub> <button class="annotation-control__trash">
+      <trash-icon-old-stub></trash-icon-old-stub>
+    </button>
+  </div>
+</transition-stub>
+`;

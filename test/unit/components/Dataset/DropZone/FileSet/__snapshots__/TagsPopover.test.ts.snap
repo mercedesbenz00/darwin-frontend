@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" placement="top" trigger="click" popover-class="tags-popover" offset="1">
+  <div class="main">
+    <div class="default-slot"></div>
+  </div>
+  <div class="popover">
+    <div class="tags-popover_content">
+      <tag-applier-header-stub></tag-applier-header-stub>
+      <tag-applier-list-stub currenttags="[object Object],[object Object]" datasettags="[object Object],[object Object],[object Object]" tag="" cancreatetags="true"></tag-applier-list-stub>
+      <tag-applier-input-stub currenttags="[object Object],[object Object]" tag=""></tag-applier-input-stub>
+    </div>
+  </div>
+</div>
+`;

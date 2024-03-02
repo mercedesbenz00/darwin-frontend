@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with slots 1`] = `
+<div class="top-bar">
+  <div class="top-bar__left-container">
+    <top-bar-logo-stub class="top-bar__logo"></top-bar-logo-stub> Left slot content
+  </div>
+  <div class="top-bar__right-container">
+    <div class="top-bar__center">Center slot content</div>
+    <div class="top-bar__right">Right slot content</div>
+  </div>
+</div>
+`;

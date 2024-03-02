@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage Sidebar Template UI should match snapshot 1`] = `
+<div id="completestage-sidebar-root" class="stage-container disabled"><button disabled="disabled" class="stage-wrapper">
+    <div role="presentation"></div>
+    Complete
+  </button></div>
+`;

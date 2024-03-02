@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with training session matches snapshot 1`] = `
+<div class="trained-model">
+  <metric-loader-stub trainingsession="[object Object]"></metric-loader-stub>
+  <bread-crumbs-stub class="trained-model__navigation"></bread-crumbs-stub>
+  <div class="trained-model__header">
+    <h1>Object Detection Model</h1>
+    <deploy-button-stub trainedmodel="[object Object]"></deploy-button-stub>
+  </div>
+  <div class="trained-model__section">
+    <p>This model has not been started</p>
+  </div>
+  <model-stats-stub trainedmodel="[object Object]"></model-stats-stub>
+  <!---->
+  <!---->
+  <div class="trained-model__charts">
+    <loss-chart-stub trainingsession="[object Object]"></loss-chart-stub>
+  </div>
+  <div class="trained-model__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <deploy-settings-stub class="trained-model__deployer"></deploy-settings-stub>
+</div>
+`;
+
+exports[`without training session matches snapshot 1`] = `
+<div class="trained-model">
+  <!---->
+  <bread-crumbs-stub class="trained-model__navigation"></bread-crumbs-stub>
+  <div class="trained-model__header">
+    <h1>Object Detection Model</h1>
+    <deploy-button-stub trainedmodel="[object Object]"></deploy-button-stub>
+  </div>
+  <div class="trained-model__section">
+    <p>This model has not been started</p>
+  </div>
+  <model-stats-stub trainedmodel="[object Object]"></model-stats-stub>
+  <!---->
+  <!---->
+  <!---->
+  <div class="trained-model__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <deploy-settings-stub class="trained-model__deployer"></deploy-settings-stub>
+</div>
+`;

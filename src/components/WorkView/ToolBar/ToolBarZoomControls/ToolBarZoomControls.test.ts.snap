@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot in FIXED mode 1`] = `
+<div class="zoom-controls">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" class="zoom-controls__button zoom-controls__button__fit zoom-controls__button__fit--thin" tooltip="{'content':'Click to fit image to screen','placement':'right','delay':{'show':300,'hide':0}}"><span class="zoom-controls__button__fit__scale">
+      300%
+    </span></icon-button-stub>
+  <icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" class="zoom-controls__button zoom-controls__button__toggle" tooltip="{'content':'Fixed zoom when switching images','placement':'right','delay':{'show':300,'hide':0}}">
+    <zoom-fixed-icon-stub></zoom-fixed-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot in RESET mode 1`] = `
+<div class="zoom-controls">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" class="zoom-controls__button zoom-controls__button__fit zoom-controls__button__fit--thin" tooltip="{'content':'Click to fit image to screen','placement':'right','delay':{'show':300,'hide':0}}"><span class="zoom-controls__button__fit__scale">
+      300%
+    </span></icon-button-stub>
+  <icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" class="zoom-controls__button zoom-controls__button__toggle" tooltip="{'content':'Reset zoom when switching images','placement':'right','delay':{'show':300,'hide':0}}">
+    <zoom-reset-icon-stub></zoom-reset-icon-stub>
+  </icon-button-stub>
+</div>
+`;

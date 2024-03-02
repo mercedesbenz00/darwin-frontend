@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when disabled 1`] = `
+<div role="button" class="gallery-context-menu__item gallery-context-menu__item--disabled">
+  <!---->
+  <div class="gallery-context-menu__item__label">
+    Context Menu Item
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with color 1`] = `
+<div role="button" class="gallery-context-menu__item gallery-context-menu__item--pink">
+  <!---->
+  <div class="gallery-context-menu__item__label">
+    Context Menu Item
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with empty label 1`] = `
+<div role="button" class="gallery-context-menu__item">
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with icon 1`] = `
+<div role="button" class="gallery-context-menu__item">
+  <div class="gallery-context-menu__item__icon">
+    <!----> <img src="foo.svg">
+  </div>
+  <div class="gallery-context-menu__item__label">
+    Context Menu Item
+  </div>
+</div>
+`;
+
+exports[`matches snapshot without icon 1`] = `
+<div role="button" class="gallery-context-menu__item">
+  <!---->
+  <div class="gallery-context-menu__item__label">
+    Context Menu Item
+  </div>
+</div>
+`;

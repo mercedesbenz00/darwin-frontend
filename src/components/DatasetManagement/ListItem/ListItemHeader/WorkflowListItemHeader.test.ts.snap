@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="list-item-header">
+  <list-item-header-item-stub id="checkbox" title="" sortdirection="asc" class="list-item-header__checkbox"></list-item-header-item-stub>
+  <list-item-header-item-stub id="thumbnail" title="" sortdirection="asc" class="list-item-header__thumbnail"></list-item-header-item-stub>
+  <list-item-header-item-stub id="file_name" title="Image Name" sortdirection="asc" class="list-item-header__file_name"></list-item-header-item-stub>
+  <list-item-header-item-stub id="status" title="Status" sortdirection="asc" class="list-item-header__status"></list-item-header-item-stub>
+  <list-item-header-item-stub id="inserted_at" title="Date Added" sortdirection="desc" active="true" sortable="true" class="list-item-header__inserted_at"></list-item-header-item-stub>
+  <list-item-header-item-stub id="modified_at" title="Date Modified" sortdirection="asc" sortable="true" class="list-item-header__modified_at"></list-item-header-item-stub>
+  <list-item-header-item-stub id="labels" title="Tags" sortdirection="asc" class="list-item-header__labels"></list-item-header-item-stub>
+  <list-item-header-item-stub id="image_dimension" title="Pixels" sortdirection="asc" sortable="true" class="list-item-header__image_dimension"></list-item-header-item-stub>
+  <list-item-header-item-stub id="file_size" title="Size" sortdirection="asc" sortable="true" class="list-item-header__file_size"></list-item-header-item-stub>
+</div>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="video-annotations-duration-control">
+  <duration-icon-stub class="video-annotations-duration-control__icon" tooltip="{'content':'Default annotation duration in frames'}"></duration-icon-stub>
+  <small-numeric-input-stub value="30" min="1" class="video-annotations-duration-control__input" input-auto-blur="true"></small-numeric-input-stub>
+</div>
+`;

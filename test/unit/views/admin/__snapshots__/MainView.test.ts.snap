@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="admin">
+  <sidebar-stub></sidebar-stub>
+  <router-view-stub></router-view-stub>
+  <div class="admin-buttons">
+    <secondary-button-stub size="small" class="sync-keys-button">
+      Sync API keys
+    </secondary-button-stub>
+  </div>
+</div>
+`;

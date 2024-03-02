@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="info">
+  <div class="info__items">
+    <div class="info__items__item">
+      5,001 Images
+    </div>
+  </div>
+  <div class="info__items">
+    <div class="info__items__item">
+      Object Detection Model
+    </div>
+    <div class="info__items__item">
+      2 Classes
+    </div>
+    <div class="info__items__item">
+      7,200 Instances
+    </div>
+  </div>
+</div>
+`;

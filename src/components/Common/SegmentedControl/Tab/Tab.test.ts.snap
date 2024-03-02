@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`no icon should match snapshot 1`] = `
+<button class="tab tab--small">
+  <div class="tab-content">
+    <!---->
+    <p class="tab-label">
+      Test
+    </p>
+  </div>
+</button>
+`;
+
+exports[`with icon should match snapshot 1`] = `
+<button class="tab tab--small">
+  <div class="tab-content">
+    <div class="tab-icon__wrapper">
+      <icon-mono-idle-stub></icon-mono-idle-stub>
+    </div>
+    <p class="tab-label">
+      Test
+    </p>
+  </div>
+</button>
+`;

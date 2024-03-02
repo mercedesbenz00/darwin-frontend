@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagApplierHeader should match snapshot 1`] = `
+<div class="tag-applier__header">
+  <div class="tag-applier__header__first">
+    <div class="tag-applier__header__title">
+      <icon-mono-tag-stub class="tag-applier__header__title__icon"></icon-mono-tag-stub> <span class="tag-applier__header__title__label">Tags</span>
+    </div>
+    <sort-button-stub direction="asc" class="tag-applier__header__sort"></sort-button-stub>
+  </div> <span class="tag-applier__header__subtitle">
+    Select a tag or type a new one below
+  </span>
+</div>
+`;

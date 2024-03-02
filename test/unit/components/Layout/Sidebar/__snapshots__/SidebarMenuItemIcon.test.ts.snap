@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when expanded matches snapshot for academy 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Academy','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <academy-icon-stub class="sidebar__menu__icon__normal"></academy-icon-stub>
+  <active-academy-icon-stub class="sidebar__menu__icon__active"></active-academy-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active academy 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Academy','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <academy-icon-stub class="sidebar__menu__icon__normal"></academy-icon-stub>
+  <active-academy-icon-stub class="sidebar__menu__icon__active"></active-academy-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active annotators 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Annotators','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <annotators-icon-stub class="sidebar__menu__icon__normal"></annotators-icon-stub>
+  <active-annotators-icon-stub class="sidebar__menu__icon__active"></active-annotators-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active classes 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Classes','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <classes-icon-stub class="sidebar__menu__icon__normal"></classes-icon-stub>
+  <active-classes-icon-stub class="sidebar__menu__icon__active"></active-classes-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active data-streams 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Data-streams','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <data-streams-icon-stub class="sidebar__menu__icon__normal"></data-streams-icon-stub>
+  <active-data-streams-icon-stub class="sidebar__menu__icon__active"></active-data-streams-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active datasets 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Datasets','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <datasets-icon-stub class="sidebar__menu__icon__normal"></datasets-icon-stub>
+  <active-datasets-icon-stub class="sidebar__menu__icon__active"></active-datasets-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active documentation 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Documentation','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <documentation-icon-stub class="sidebar__menu__icon__normal"></documentation-icon-stub>
+  <active-documentation-icon-stub class="sidebar__menu__icon__active"></active-documentation-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active feedback 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Feedback','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <feedback-icon-stub class="sidebar__menu__icon__normal"></feedback-icon-stub>
+  <active-feedback-icon-stub class="sidebar__menu__icon__active"></active-feedback-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active models 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Models','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <models-icon-stub class="sidebar__menu__icon__normal"></models-icon-stub>
+  <active-models-icon-stub class="sidebar__menu__icon__active"></active-models-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active open-datasets 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Open-datasets','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <open-datasets-icon-stub class="sidebar__menu__icon__normal"></open-datasets-icon-stub>
+  <active-open-datasets-icon-stub class="sidebar__menu__icon__active"></active-open-datasets-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active paper-plane 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Paper-plane','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <paper-plane-icon-stub class="sidebar__menu__icon__normal"></paper-plane-icon-stub>
+  <active-paper-plane-icon-stub class="sidebar__menu__icon__active"></active-paper-plane-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active plugins 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Plugins','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <plugins-icon-stub class="sidebar__menu__icon__normal"></plugins-icon-stub>
+  <active-plugins-icon-stub class="sidebar__menu__icon__active"></active-plugins-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for active settings 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Settings','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <settings-icon-stub class="sidebar__menu__icon__normal"></settings-icon-stub>
+  <active-settings-icon-stub class="sidebar__menu__icon__active"></active-settings-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for annotators 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Annotators','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <annotators-icon-stub class="sidebar__menu__icon__normal"></annotators-icon-stub>
+  <active-annotators-icon-stub class="sidebar__menu__icon__active"></active-annotators-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for classes 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Classes','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <classes-icon-stub class="sidebar__menu__icon__normal"></classes-icon-stub>
+  <active-classes-icon-stub class="sidebar__menu__icon__active"></active-classes-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for data-streams 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Data-streams','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <data-streams-icon-stub class="sidebar__menu__icon__normal"></data-streams-icon-stub>
+  <active-data-streams-icon-stub class="sidebar__menu__icon__active"></active-data-streams-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for datasets 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Datasets','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <datasets-icon-stub class="sidebar__menu__icon__normal"></datasets-icon-stub>
+  <active-datasets-icon-stub class="sidebar__menu__icon__active"></active-datasets-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for documentation 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Documentation','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <documentation-icon-stub class="sidebar__menu__icon__normal"></documentation-icon-stub>
+  <active-documentation-icon-stub class="sidebar__menu__icon__active"></active-documentation-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for feedback 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Feedback','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <feedback-icon-stub class="sidebar__menu__icon__normal"></feedback-icon-stub>
+  <active-feedback-icon-stub class="sidebar__menu__icon__active"></active-feedback-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for models 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Models','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <models-icon-stub class="sidebar__menu__icon__normal"></models-icon-stub>
+  <active-models-icon-stub class="sidebar__menu__icon__active"></active-models-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for open-datasets 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Open-datasets','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <open-datasets-icon-stub class="sidebar__menu__icon__normal"></open-datasets-icon-stub>
+  <active-open-datasets-icon-stub class="sidebar__menu__icon__active"></active-open-datasets-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for paper-plane 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Paper-plane','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <paper-plane-icon-stub class="sidebar__menu__icon__normal"></paper-plane-icon-stub>
+  <active-paper-plane-icon-stub class="sidebar__menu__icon__active"></active-paper-plane-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for plugins 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Plugins','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <plugins-icon-stub class="sidebar__menu__icon__normal"></plugins-icon-stub>
+  <active-plugins-icon-stub class="sidebar__menu__icon__active"></active-plugins-icon-stub>
+</div>
+`;
+
+exports[`when expanded matches snapshot for settings 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Settings','classes':['sidebar__menu__tooltip','sidebar__menu__tooltip--expanded'],'placement':'right','offset':5}">
+  <settings-icon-stub class="sidebar__menu__icon__normal"></settings-icon-stub>
+  <active-settings-icon-stub class="sidebar__menu__icon__active"></active-settings-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for academy 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Academy','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <academy-icon-stub class="sidebar__menu__icon__normal"></academy-icon-stub>
+  <active-academy-icon-stub class="sidebar__menu__icon__active"></active-academy-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active academy 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Academy','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <academy-icon-stub class="sidebar__menu__icon__normal"></academy-icon-stub>
+  <active-academy-icon-stub class="sidebar__menu__icon__active"></active-academy-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active annotators 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Annotators','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <annotators-icon-stub class="sidebar__menu__icon__normal"></annotators-icon-stub>
+  <active-annotators-icon-stub class="sidebar__menu__icon__active"></active-annotators-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active classes 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Classes','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <classes-icon-stub class="sidebar__menu__icon__normal"></classes-icon-stub>
+  <active-classes-icon-stub class="sidebar__menu__icon__active"></active-classes-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active data-streams 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Data-streams','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <data-streams-icon-stub class="sidebar__menu__icon__normal"></data-streams-icon-stub>
+  <active-data-streams-icon-stub class="sidebar__menu__icon__active"></active-data-streams-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active datasets 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Datasets','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <datasets-icon-stub class="sidebar__menu__icon__normal"></datasets-icon-stub>
+  <active-datasets-icon-stub class="sidebar__menu__icon__active"></active-datasets-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active documentation 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Documentation','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <documentation-icon-stub class="sidebar__menu__icon__normal"></documentation-icon-stub>
+  <active-documentation-icon-stub class="sidebar__menu__icon__active"></active-documentation-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active feedback 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Feedback','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <feedback-icon-stub class="sidebar__menu__icon__normal"></feedback-icon-stub>
+  <active-feedback-icon-stub class="sidebar__menu__icon__active"></active-feedback-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active models 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Models','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <models-icon-stub class="sidebar__menu__icon__normal"></models-icon-stub>
+  <active-models-icon-stub class="sidebar__menu__icon__active"></active-models-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active open-datasets 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Open-datasets','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <open-datasets-icon-stub class="sidebar__menu__icon__normal"></open-datasets-icon-stub>
+  <active-open-datasets-icon-stub class="sidebar__menu__icon__active"></active-open-datasets-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active paper-plane 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Paper-plane','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <paper-plane-icon-stub class="sidebar__menu__icon__normal"></paper-plane-icon-stub>
+  <active-paper-plane-icon-stub class="sidebar__menu__icon__active"></active-paper-plane-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active plugins 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Plugins','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <plugins-icon-stub class="sidebar__menu__icon__normal"></plugins-icon-stub>
+  <active-plugins-icon-stub class="sidebar__menu__icon__active"></active-plugins-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for active settings 1`] = `
+<div class="sidebar__menu__icon sidebar__menu__icon--active" tooltip="{'content':'Settings','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <settings-icon-stub class="sidebar__menu__icon__normal"></settings-icon-stub>
+  <active-settings-icon-stub class="sidebar__menu__icon__active"></active-settings-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for annotators 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Annotators','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <annotators-icon-stub class="sidebar__menu__icon__normal"></annotators-icon-stub>
+  <active-annotators-icon-stub class="sidebar__menu__icon__active"></active-annotators-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for classes 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Classes','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <classes-icon-stub class="sidebar__menu__icon__normal"></classes-icon-stub>
+  <active-classes-icon-stub class="sidebar__menu__icon__active"></active-classes-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for data-streams 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Data-streams','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <data-streams-icon-stub class="sidebar__menu__icon__normal"></data-streams-icon-stub>
+  <active-data-streams-icon-stub class="sidebar__menu__icon__active"></active-data-streams-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for datasets 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Datasets','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <datasets-icon-stub class="sidebar__menu__icon__normal"></datasets-icon-stub>
+  <active-datasets-icon-stub class="sidebar__menu__icon__active"></active-datasets-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for documentation 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Documentation','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <documentation-icon-stub class="sidebar__menu__icon__normal"></documentation-icon-stub>
+  <active-documentation-icon-stub class="sidebar__menu__icon__active"></active-documentation-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for feedback 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Feedback','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <feedback-icon-stub class="sidebar__menu__icon__normal"></feedback-icon-stub>
+  <active-feedback-icon-stub class="sidebar__menu__icon__active"></active-feedback-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for models 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Models','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <models-icon-stub class="sidebar__menu__icon__normal"></models-icon-stub>
+  <active-models-icon-stub class="sidebar__menu__icon__active"></active-models-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for open-datasets 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Open-datasets','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <open-datasets-icon-stub class="sidebar__menu__icon__normal"></open-datasets-icon-stub>
+  <active-open-datasets-icon-stub class="sidebar__menu__icon__active"></active-open-datasets-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for paper-plane 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Paper-plane','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <paper-plane-icon-stub class="sidebar__menu__icon__normal"></paper-plane-icon-stub>
+  <active-paper-plane-icon-stub class="sidebar__menu__icon__active"></active-paper-plane-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for plugins 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Plugins','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <plugins-icon-stub class="sidebar__menu__icon__normal"></plugins-icon-stub>
+  <active-plugins-icon-stub class="sidebar__menu__icon__active"></active-plugins-icon-stub>
+</div>
+`;
+
+exports[`when minimized matches snapshot for settings 1`] = `
+<div class="sidebar__menu__icon" tooltip="{'content':'Settings','classes':['sidebar__menu__tooltip'],'placement':'right','offset':5}">
+  <settings-icon-stub class="sidebar__menu__icon__normal"></settings-icon-stub>
+  <active-settings-icon-stub class="sidebar__menu__icon__active"></active-settings-icon-stub>
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assignee option when none matches snapshot 1`] = `
+<rounded-tri-toggle-button-stub status="none" class="generic-filter-option-content">
+  <assignee-option-stub option="[object Object]"></assignee-option-stub>
+</rounded-tri-toggle-button-stub>
+`;
+
+exports[`assignee option when positive matches snapshot 1`] = `
+<rounded-tri-toggle-button-stub status="positive" class="generic-filter-option-content">
+  <assignee-option-stub option="[object Object]"></assignee-option-stub>
+</rounded-tri-toggle-button-stub>
+`;
+
+exports[`filename option when none matches snapshot 1`] = `
+<rounded-tri-toggle-button-stub status="none" class="generic-filter-option-content">
+  <filename-option-stub option="[object Object]"></filename-option-stub>
+</rounded-tri-toggle-button-stub>
+`;
+
+exports[`filename option when positive matches snapshot 1`] = `
+<rounded-tri-toggle-button-stub status="positive" class="generic-filter-option-content">
+  <filename-option-stub option="[object Object]"></filename-option-stub>
+</rounded-tri-toggle-button-stub>
+`;
+
+exports[`folder option when none matches snapshot 1`] = `
+<rounded-tri-toggle-button-stub status="none" class="generic-filter-option-content">
+  <folder-option-stub option="[object Object]"></folder-option-stub>
+</rounded-tri-toggle-button-stub>
+`;
+
+exports[`folder option when positive matches snapshot 1`] = `
+<rounded-tri-toggle-button-stub status="positive" class="generic-filter-option-content">
+  <folder-option-stub option="[object Object]"></folder-option-stub>
+</rounded-tri-toggle-button-stub>
+`;

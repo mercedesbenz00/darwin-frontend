@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Element V2 UI should match snapshot 1`] = `
+<button tabindex="0" id="random-uuid" class="list-element">
+  <div class="list-element__content">
+    <div class="list-element__prefix-icon">
+      <div></div>
+    </div>
+    <h2 class="list-element__content__label">
+      List-Element
+    </h2>
+  </div>
+  <div class="list-element-icon__suffix-icon">
+    <div></div>
+  </div>
+</button>
+`;

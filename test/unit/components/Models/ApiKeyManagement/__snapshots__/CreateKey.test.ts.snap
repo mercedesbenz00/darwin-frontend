@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when running session matches snapshot 1`] = `
+<div class="create-key">
+  <h1 class="create-key__header">
+    Create new access key
+  </h1>
+  <div class="create-key__content">
+    <input-field-stub value="" placeholder="Key name" type="text" theme="dark"></input-field-stub>
+  </div>
+  <!---->
+  <div class="create-key__footer">
+    <secondary-button-stub>
+      Close
+    </secondary-button-stub>
+    <positive-button-stub>
+      Create
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when running session matches snapshot when key created 1`] = `
+<div class="create-key">
+  <h1 class="create-key__header">
+    Create new access key
+  </h1>
+  <div class="create-key__content">
+    <input-field-stub value="" placeholder="Key name" type="text" disabled="true" theme="dark"></input-field-stub>
+  </div>
+  <created-key-stub value="fake-created-key.random" class="created-key__info"></created-key-stub>
+  <div class="create-key__footer">
+    <secondary-button-stub>
+      Close
+    </secondary-button-stub>
+    <positive-button-stub disabled="">
+      Created
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when trained model matches snapshot 1`] = `
+<div class="create-key">
+  <h1 class="create-key__header">
+    Create new access key
+  </h1>
+  <div class="create-key__content">
+    <input-field-stub value="" placeholder="Key name" type="text" theme="dark"></input-field-stub>
+  </div>
+  <!---->
+  <div class="create-key__footer">
+    <secondary-button-stub>
+      Close
+    </secondary-button-stub>
+    <positive-button-stub>
+      Create
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when trained model matches snapshot when key created 1`] = `
+<div class="create-key">
+  <h1 class="create-key__header">
+    Create new access key
+  </h1>
+  <div class="create-key__content">
+    <input-field-stub value="" placeholder="Key name" type="text" disabled="true" theme="dark"></input-field-stub>
+  </div>
+  <created-key-stub value="fake-created-key.random" class="created-key__info"></created-key-stub>
+  <div class="create-key__footer">
+    <secondary-button-stub>
+      Close
+    </secondary-button-stub>
+    <positive-button-stub disabled="">
+      Created
+    </positive-button-stub>
+  </div>
+</div>
+`;

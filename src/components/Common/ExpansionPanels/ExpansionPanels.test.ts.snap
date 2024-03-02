@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<ul class="expansion-panels"></ul>`;
+
+exports[`matches snapshot with item 1`] = `
+<ul class="expansion-panels">
+  <li class="expansion-panel">
+    <!---->
+    <div class="expansion-panel__content" style="display: none;"></div>
+  </li>
+  <li class="expansion-panel">
+    <!---->
+    <div class="expansion-panel__content" style="display: none;"></div>
+  </li>
+</ul>
+`;

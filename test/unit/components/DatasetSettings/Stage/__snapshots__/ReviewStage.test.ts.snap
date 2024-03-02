@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<stage-template-stub class="review">
+  <review-round-icon-stub class="review__header__icon"></review-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <!---->
+  <div class="review__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <!---->
+    </div>
+    <div class="review__body__list scroll">
+      <div class="review__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <!---->
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <check-box-stub name="readonly" id="readonly" label="Read-only" type="rect" size="default"></check-box-stub>
+  <info-stub>
+    In Read Only reviewers can mark errors, but cannot correct annotations
+    or create new ones
+  </info-stub>
+</stage-template-stub>
+`;
+
+exports[`matches snapshot when one of the members is assigned 1`] = `
+<stage-template-stub class="review">
+  <review-round-icon-stub class="review__header__icon"></review-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <!---->
+  <div class="review__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <!---->
+    </div>
+    <div class="review__body__list scroll">
+      <div class="review__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <!---->
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" selected="true" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <check-box-stub name="readonly" id="readonly" label="Read-only" type="rect" size="default"></check-box-stub>
+  <info-stub>
+    In Read Only reviewers can mark errors, but cannot correct annotations
+    or create new ones
+  </info-stub>
+</stage-template-stub>
+`;
+
+exports[`show/hide trash icon matches snapshot when deletable 1`] = `
+<stage-template-stub class="review">
+  <review-round-icon-stub class="review__header__icon"></review-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <delete-button-stub></delete-button-stub>
+  <!---->
+  <div class="review__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <!---->
+    </div>
+    <div class="review__body__list scroll">
+      <div class="review__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <!---->
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <check-box-stub name="readonly" id="readonly" label="Read-only" type="rect" size="default"></check-box-stub>
+  <info-stub>
+    In Read Only reviewers can mark errors, but cannot correct annotations
+    or create new ones
+  </info-stub>
+</stage-template-stub>
+`;
+
+exports[`with sampling rates matches snapshot 1`] = `
+<stage-template-stub class="review review--rates">
+  <review-round-icon-stub class="review__header__icon"></review-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <sampling-rate-stub value="1" class="review__base-sampling rates-asside"></sampling-rate-stub>
+  <div class="review__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <sampling-info-stub class="review__search-row__info"></sampling-info-stub>
+    </div>
+    <div class="review__body__list scroll">
+      <div class="review__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <sampling-rate-stub value="1" class="review__user-sampling"></sampling-rate-stub>
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <sampling-rate-stub value="1" disabled="true" class="review__annotator-sampling"></sampling-rate-stub>
+      </div>
+      <div class="review__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="review__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <sampling-rate-stub value="1" disabled="true" class="review__annotator-sampling"></sampling-rate-stub>
+      </div>
+    </div>
+  </div>
+  <check-box-stub name="readonly" id="readonly" label="Read-only" type="rect" size="default"></check-box-stub>
+  <info-stub>
+    In Read Only reviewers can mark errors, but cannot correct annotations
+    or create new ones
+  </info-stub>
+</stage-template-stub>
+`;

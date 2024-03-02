@@ -1,0 +1,55 @@
+:root {
+  --workview-top: 78;
+  --workview-center-main: 1;
+  --workview-center-main-area: 2;
+  --workview-center-main-instructions: 6;
+  --workview-center-main-hotkey: 5;
+  --workview-center-main-image: 4;
+  --workview-center-main-bottom: 3;
+  --workview-center-main-active-indicator: 3;
+  --workview-center-right: 7;
+  --workview-center-left: 7;
+  --workview-bottom-images: 30;
+  --workview-bottom-bar-handler-toggle: 31;
+  --workview-video-controls-context-menu: 40;
+
+  --workview-overlay: 3;
+  --workview-comment-thread: 4;
+  --workview-tool-option-overlay: 2;
+  --workview-filter: 3;
+
+  --classes-view-menu: 999;
+  --classes-context-menu: 1000;
+
+  // The overlay behind the modal.
+  // The modal is rendered within it, so it should automatically inherit the
+  // z-index
+  --z-index-modal-overlay: 16777271;
+
+  --z-index-spinner: 16777270;
+
+  // we sometimes have to append v-select to the body
+  // it usually happens inside a modal, so z-index needs to be higher than modal
+  --z-index-v-select-body-appended-dropdown: 16777272;
+
+  // tooltip should usually be higher than everything else
+  --z-index-tooltip: 16777273;
+
+  --z-index-dataset-overlay: 801;
+
+  --z-index-stage-container: 1;
+  --z-index-stage-highlight: -1;
+
+  --z-workflow-container-data: 706;
+  --z-workflow-loading-overlay: 707;
+  --z-workflow-base: 703;
+  --z-workflow-sidebar: 706;
+  --z-workflow-zoom: 704;
+  --z-workflow-playground: 702;
+  --z-workflow-playground-frame: 702;
+  --z-workflow-playground-area: 702;
+
+  --z-workflow-leader-lines: -1;
+
+  --z-toast-container: 1007;
+}

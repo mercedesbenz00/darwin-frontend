@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="list-item-stub list-item" date="2000-01-01" name="" thumbnail="/thumbnails/foo" type="image">
+  <div class="overlay">
+    <list-item-button-stub to="[object Object]">
+      Open
+    </list-item-button-stub>
+  </div>
+  <div class="status">
+    <div class="status-icon-container">
+      <status-icon-stub item="[object Object]"></status-icon-stub>
+    </div>
+    <status-stub status="new" outline=""></status-stub>
+  </div>
+  <div class="list-item__modified_at">
+    01/01/00
+  </div>
+  <div class="list-item__labels">
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+  <div class="list-item__image_dimension">
+    100x100
+  </div>
+  <div class="list-item__file_size">
+    10 kB
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when archived 1`] = `
+<div class="list-item-stub list-item" date="2000-01-01" name="" thumbnail="/thumbnails/foo" type="image">
+  <div class="overlay">
+    <list-item-button-stub>
+      Restore
+    </list-item-button-stub>
+  </div>
+  <div class="status">
+    <div class="status-icon-container">
+      <status-icon-stub item="[object Object]"></status-icon-stub>
+    </div>
+    <status-stub status="archived" outline=""></status-stub>
+  </div>
+  <div class="list-item__modified_at">
+    01/01/00
+  </div>
+  <div class="list-item__labels">
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+  <div class="list-item__image_dimension">
+    100x100
+  </div>
+  <div class="list-item__file_size">
+    10 kB
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when error 1`] = `
+<div class="list-item-stub list-item" date="2000-01-01" name="" thumbnail="/thumbnails/foo" type="image">
+  <div class="overlay">
+    <list-item-button-stub>
+      Archive
+    </list-item-button-stub>
+  </div>
+  <div class="status">
+    <div class="status-icon-container">
+      <status-icon-stub item="[object Object]"></status-icon-stub>
+    </div>
+    <status-stub status="error" outline=""></status-stub>
+  </div>
+  <div class="list-item__modified_at">
+    01/01/00
+  </div>
+  <div class="list-item__labels">
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+  <div class="list-item__image_dimension">
+    100x100
+  </div>
+  <div class="list-item__file_size">
+    10 kB
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when the item is video frames item 1`] = `
+<div class="list-item-stub list-item" date="2000-01-01" name="" thumbnail="" type="video-frames">
+  <div class="overlay">
+    <list-item-button-stub to="[object Object]">
+      Open
+    </list-item-button-stub>
+  </div>
+  <div class="status">
+    <div class="status-icon-container">
+      <status-icon-stub item="[object Object]"></status-icon-stub>
+    </div>
+    <status-stub status="new" outline=""></status-stub>
+  </div>
+  <div class="list-item__modified_at">
+    01/01/00
+  </div>
+  <div class="list-item__labels">
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+  <div class="list-item__image_dimension">
+    100x100
+  </div>
+  <div class="list-item__file_size">
+    10 kB
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when the item is video item 1`] = `
+<div class="list-item-stub list-item" date="2000-01-01" name="" thumbnail="" type="video">
+  <div class="overlay">
+    <list-item-button-stub to="[object Object]">
+      Open
+    </list-item-button-stub>
+  </div>
+  <div class="status">
+    <div class="status-icon-container">
+      <status-icon-stub item="[object Object]"></status-icon-stub>
+    </div>
+    <status-stub status="new" outline=""></status-stub>
+  </div>
+  <div class="list-item__modified_at">
+    01/01/00
+  </div>
+  <div class="list-item__labels">
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+  <div class="list-item__image_dimension">
+    100x100
+  </div>
+  <div class="list-item__file_size">
+    10 kB
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when uploading 1`] = `
+<div class="list-item-stub list-item" date="2000-01-01" name="" thumbnail="/thumbnails/foo" type="image">
+  <!---->
+  <div class="status">
+    <div class="status-icon-container">
+      <status-icon-stub item="[object Object]"></status-icon-stub>
+    </div>
+    <status-stub status="uploading" outline=""></status-stub>
+  </div>
+  <div class="list-item__modified_at">
+    01/01/00
+  </div>
+  <div class="list-item__labels">
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+  <div class="list-item__image_dimension">
+    100x100
+  </div>
+  <div class="list-item__file_size">
+    10 kB
+  </div>
+</div>
+`;

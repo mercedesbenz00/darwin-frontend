@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when annotator matches snapshot 1`] = `
+<div class="annotators">
+  <div class="annotators__header">
+    <h1>Test Team Annotators</h1>
+    <!---->
+  </div>
+  <loading-wrapper-stub backgroundcolor="transparent" label="Loading datasets" size="medium" theme="grey" class="annotators__dataset-wrapper">
+    <annotator-no-datasets-stub></annotator-no-datasets-stub>
+  </loading-wrapper-stub>
+</div>
+`;
+
+exports[`when team member matches snapshot 1`] = `
+<div class="annotators">
+  <div class="annotators__header">
+    <h1>Test Team Annotators</h1>
+    <primary-button-stub size="medium" tag="a" href="https://www.v7labs.com/labeling-service" target="_blank" class="annotators__header__labeling-button">
+      + Request annotators
+    </primary-button-stub>
+  </div>
+  <loading-wrapper-stub backgroundcolor="transparent" label="Loading datasets" size="medium" theme="grey" class="annotators__dataset-wrapper">
+    <annotator-no-datasets-stub></annotator-no-datasets-stub>
+  </loading-wrapper-stub>
+</div>
+`;
+
+exports[`with loaded datasets matches snapshot 1`] = `
+<div class="annotators">
+  <div class="annotators__header">
+    <h1>Test Team Annotators</h1>
+    <primary-button-stub size="medium" tag="a" href="https://www.v7labs.com/labeling-service" target="_blank" class="annotators__header__labeling-button">
+      + Request annotators
+    </primary-button-stub>
+  </div>
+  <loading-wrapper-stub backgroundcolor="transparent" label="Loading datasets" size="medium" theme="grey" class="annotators__dataset-wrapper">
+    <div>
+      <annotation-metrics-stub dataset="[object Object]" class="annotators__dataset"></annotation-metrics-stub>
+      <annotation-metrics-stub dataset="[object Object]" class="annotators__dataset"></annotation-metrics-stub>
+    </div>
+  </loading-wrapper-stub>
+</div>
+`;

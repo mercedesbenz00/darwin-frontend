@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-connected__container">
+  <thumbnails-stub data="" max="4" variant="small"></thumbnails-stub>
+  <p class="dataset-connected__label">
+    Dataset
+  </p>
+  <div class="dataset-connected__attribute-wrapper">
+    <attribute-stack-stub></attribute-stack-stub>
+    <attribute-stack-stub></attribute-stack-stub>
+    <attribute-stack-stub></attribute-stack-stub>
+  </div>
+  <div class="dataset-connected__progress-wrapper">
+    <progress-bar-stub value="0" variant="inactive"></progress-bar-stub>
+    <p class="dataset-connected__progress-label">
+      0%
+    </p>
+  </div>
+</div>
+`;

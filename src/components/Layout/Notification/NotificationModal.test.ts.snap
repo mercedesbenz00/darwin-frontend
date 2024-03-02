@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="modal-notifications" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="600" width="320px" height="70%" pivotx="0.5" pivoty="0.5" class="modal__notifications">
+  <div class="modal__header modal__notifications__header">
+    <div class="modal__notifications__header__title">
+      Team Notifications
+    </div>
+    <div class="modal__notifications__header__settings">
+      <icon-duotone-settings-stub class="modal__notifications__header__settings-icon"></icon-duotone-settings-stub>
+    </div>
+  </div>
+  <div class="notifications-scroll-container">
+    <notification-item-stub notification="[object Object]"></notification-item-stub>
+    <notification-item-stub notification="[object Object]"></notification-item-stub>
+    <notification-item-stub notification="[object Object]" isoldest="true"></notification-item-stub>
+  </div>
+</modal-stub>
+`;
+
+exports[`matches snapshot when sidebar minimized 1`] = `
+<modal-stub name="modal-notifications" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="400" maxwidth="9007199254740991" maxheight="600" width="320px" height="70%" pivotx="0.5" pivoty="0.5" class="modal__notifications modal__notifications--minimized">
+  <div class="modal__header modal__notifications__header">
+    <div class="modal__notifications__header__title">
+      Team Notifications
+    </div>
+    <div class="modal__notifications__header__settings">
+      <icon-duotone-settings-stub class="modal__notifications__header__settings-icon"></icon-duotone-settings-stub>
+    </div>
+  </div>
+  <div class="notifications-scroll-container">
+    <notification-item-stub notification="[object Object]"></notification-item-stub>
+    <notification-item-stub notification="[object Object]"></notification-item-stub>
+    <notification-item-stub notification="[object Object]" isoldest="true"></notification-item-stub>
+  </div>
+</modal-stub>
+`;

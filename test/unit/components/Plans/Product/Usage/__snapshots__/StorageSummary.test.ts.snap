@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when no usage yet loaded matches snapshot 1`] = `
+<div class="storage-summary">
+  <header-3-stub class="storage-summary__title">
+    Dataset Management
+  </header-3-stub>
+  <storage-summary-item-stub team="[object Object]" billinginfo="[object Object]"></storage-summary-item-stub>
+  <storage-explanation-stub></storage-explanation-stub>
+</div>
+`;
+
+exports[`when team is client matches snapshot 1`] = `
+<div class="storage-summary">
+  <header-3-stub class="storage-summary__title">
+    Dataset Management
+  </header-3-stub>
+  <storage-summary-item-stub team="[object Object]" billinginfo="[object Object]"></storage-summary-item-stub>
+  <storage-explanation-stub></storage-explanation-stub>
+</div>
+`;
+
+exports[`when team is partner matches snapshot 1`] = `
+<div class="storage-summary">
+  <header-3-stub class="storage-summary__title">
+    Dataset Management
+  </header-3-stub>
+  <storage-summary-item-stub team="[object Object]" billinginfo="[object Object]"></storage-summary-item-stub>
+  <storage-summary-item-stub team="[object Object]" billinginfo="[object Object]" partnerbillinginfo="[object Object]"></storage-summary-item-stub>
+  <storage-summary-item-stub team="[object Object]" billinginfo="[object Object]" partnerbillinginfo="[object Object]"></storage-summary-item-stub>
+  <storage-explanation-stub></storage-explanation-stub>
+</div>
+`;
+
+exports[`when team is regular matches snapshot 1`] = `
+<div class="storage-summary">
+  <header-3-stub class="storage-summary__title">
+    Dataset Management
+  </header-3-stub>
+  <storage-summary-item-stub team="[object Object]" billinginfo="[object Object]"></storage-summary-item-stub>
+  <storage-explanation-stub></storage-explanation-stub>
+</div>
+`;

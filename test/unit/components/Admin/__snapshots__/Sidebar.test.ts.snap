@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="sidebar">
+  <router-link-stub exact-active-class="sidebar__link--active" to="[object Object]" class="sidebar__link">
+    Homepage
+  </router-link-stub>
+  <router-link-stub exact-active-class="sidebar__link--active" to="/admin/teams" class="sidebar__link">
+    Teams
+  </router-link-stub>
+  <router-link-stub exact-active-class="sidebar__link--active" to="/admin/invitations" class="sidebar__link">
+    Team Owner Invitations
+  </router-link-stub> <a href="/super_admin" class="sidebar__link">
+    Super admin
+  </a>
+</div>
+`;

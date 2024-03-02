@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="folder-structure">
+  <div class="folder-structure__breadcrumbs folder-structure__breadcrumbs">
+    <breadcrumbs-stub dataset="[object Object]" folders="[object Object]" currentpath="/test1/test2"></breadcrumbs-stub>
+  </div>
+  <div class="v-popover-stub" placement="right-start" popover-class="folder-structure__popover" trigger="click">
+    <div class="main">
+      <icon-button-stub variant="default" color="transparent" size="mini" flair="super-soft" tag="button" class="folder-structure__button">
+        <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+      </icon-button-stub>
+    </div>
+    <div class="popover">
+      <folder-tree-stub folders="[object Object]"></folder-tree-stub>
+    </div>
+  </div>
+</div>
+`;

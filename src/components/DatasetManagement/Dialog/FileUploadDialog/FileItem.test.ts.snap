@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with VOLUMES_V2 feature flag matches snapshot 1`] = `
+<div class="file-item">
+  <div>
+    <div class="file-item__title">
+      <p class="title">
+        test.txt
+      </p> <span class="file-item__file-type file-type">image</span>
+    </div>
+    <div class="file-item__metadata">
+      0.1 KB
+    </div>
+    <div class="feature-guard"></div>
+  </div>
+  <div class="file-item__footer">
+    <!----> <button class="icon-button file-item__delete-btn variant--default color--transparent size--mini flair--rounded tag--button" style="width: auto;"><span class="icon-button__slot"><!----></span></button>
+  </div>
+</div>
+`;
+
+exports[`without VOLUMES_V2 feature flag matches snapshot 1`] = `
+<div class="file-item">
+  <div>
+    <div class="file-item__title">
+      <p class="title">
+        test.txt
+      </p> <span class="file-item__file-type file-type">image</span>
+    </div>
+    <div class="file-item__metadata">
+      0.1 KB
+    </div>
+    <div class="feature-guard">
+      <!---->
+    </div>
+  </div>
+  <div class="file-item__footer">
+    <!----> <button class="icon-button file-item__delete-btn variant--default color--transparent size--mini flair--rounded tag--button" style="width: auto;"><span class="icon-button__slot"><!----></span></button>
+  </div>
+</div>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with everything above fold 1`] = `
+<div class="status-filter">
+  <div class="status-filter__wrapper">
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with some things selected 1`] = `
+<div class="status-filter">
+  <div class="status-filter__wrapper">
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="positive" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="negative" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="positive" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with things below fold 1`] = `
+<div class="status-filter">
+  <div class="status-filter__wrapper status-filter__wrapper--more">
+    <filter-list-element-stub status="none" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="positive" meta="[object Object]"></filter-list-element-stub>
+    <filter-list-element-stub status="negative" meta="[object Object]"></filter-list-element-stub>
+    <!---->
+    <custom-button-stub variant="default" color="secondary" size="small" flair="rounded" tag="button" fullwidth="true">
+      Show
+    </custom-button-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="template">
+  <div class="template__header">
+    <div class="template__header__main">
+      <div class="template__header__title">
+        Define an Annotation Flow
+      </div>
+      <div class="template__header__description">
+        The steps each image will go through when being annotated.
+        The same annotator or reviewer will not be assigned an image twice
+        unless no one else is available.
+      </div>
+    </div>
+  </div>
+  <div class="template__stage-templates">
+    <stages-stub dataset="[object Object]" template="[object Object]"></stages-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Delete this Stage?" detail="Workflows that are currently in progress will continue using this stage." buttontext="DELETE" name="stage-delete-confirmation"></delete-confirmation-dialog-stub>
+  <running-session-loader-stub></running-session-loader-stub>
+</div>
+`;

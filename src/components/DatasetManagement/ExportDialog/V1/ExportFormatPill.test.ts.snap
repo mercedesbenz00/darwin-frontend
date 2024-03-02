@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<feather-light-pill-stub class="export-format-pill">
+  Name
+</feather-light-pill-stub>
+`;
+
+exports[`matches snapshot 2`] = `
+<pink-pill-stub class="export-format-pill">
+  Name
+</pink-pill-stub>
+`;
+
+exports[`matches snapshot 3`] = `
+<yellow-pill-stub class="export-format-pill">
+  Name
+</yellow-pill-stub>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has value is active matches snapshot 1`] = `<div class="status has-tooltip" data-original-title="null"><span class="status__content"><div class="status__content__icon status__content__icon--active"></div></span></div>`;
+
+exports[`has value is inactive matches snapshot 1`] = `<div class="status has-tooltip" data-original-title="null"><span class="status__content"><div class="status__content__icon status__content__icon--inactive"></div></span></div>`;
+
+exports[`matches snapshot 1`] = `<div class="status has-tooltip" data-original-title="null"><span class="status__content"><div class="status__content__icon status__content__icon--active"></div></span></div>`;

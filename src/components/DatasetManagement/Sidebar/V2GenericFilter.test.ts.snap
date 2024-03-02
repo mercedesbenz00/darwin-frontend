@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<generic-filter-stub keyword="" dataset="[object Object]" members="[object Object],[object Object]" selectedpositivemembers="" selectednegativemembers="" folders="" selectedpositivefolders="" selectednegativefolders="" filenames="[object Object],[object Object]" selectedpositivefilenames="[object Object]" selectednegativefilenames="[object Object]" class="dataset-filter__generic"></generic-filter-stub>`;
+
+exports[`matches snapshot when loading 1`] = `<generic-filter-stub keyword="" dataset="[object Object]" members="[object Object],[object Object]" selectedpositivemembers="" selectednegativemembers="" folders="" selectedpositivefolders="" selectednegativefolders="" filenames="[object Object],[object Object]" selectedpositivefilenames="[object Object]" selectednegativefilenames="[object Object]" loading="true" class="dataset-filter__generic"></generic-filter-stub>`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="image-manipulation__item window-level">
+  <div class="image-manipulation__item__label"><span>Window Levels</span>
+    <info-stub class="image-manipulation__item__info">
+      Define the tonal or Hounsfield range of an image, and its midpoint.
+    </info-stub>
+  </div>
+  <!----> <canvas width="240" height="150" class="window-level__histogram-canvas"></canvas>
+  <div class="window-level__hotkey-info"><label>
+      W:
+      <strong>TAB</strong> <span>+</span> <strong>↔</strong></label> <label>
+      L:
+      <strong>TAB</strong> <span>+</span> <strong>↕</strong></label>
+    <info-stub class="window-level__hotkey__info">
+      Hold the TAB key and move your mouse UP or DOWN over the image to
+      adjust window level (center) or LEFT and RIGHT to adjust the width.
+    </info-stub>
+  </div>
+  <div class="image-manipulation__item__slider">
+    <manipulator-double-slider-stub value="1,255" min="1" max="255"></manipulator-double-slider-stub>
+  </div>
+</div>
+`;

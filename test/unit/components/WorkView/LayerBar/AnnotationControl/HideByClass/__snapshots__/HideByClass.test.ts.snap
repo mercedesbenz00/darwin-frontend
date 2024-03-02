@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with classes, with selected classes matches snapshot 1`] = `
+<div class="hide-by-class"><label class="hide-by-class__title">Hide all by class:</label>
+  <hide-by-class-item-stub annotationclass="[object Object]" count="1" selected="true" class="annotation-control__class"></hide-by-class-item-stub>
+  <hide-by-class-item-stub annotationclass="[object Object]" count="2" class="annotation-control__class"></hide-by-class-item-stub>
+</div>
+`;
+
+exports[`with no classes, matches snapshot 1`] = `<div class="hide-by-class"><label class="hide-by-class__title">Hide all by class:</label> <label class="hide-by-class__empty">No annotations present</label></div>`;

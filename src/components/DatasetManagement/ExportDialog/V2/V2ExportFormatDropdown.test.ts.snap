@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<dropdown-v2-stub appendtobody="true" dropdownclassname="export-format-dropdown" theme="light" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" value="[object Object]">
+  <export-format-option-stub option="[object Object]"></export-format-option-stub>
+  <export-format-option-stub option="[object Object]"></export-format-option-stub>
+</dropdown-v2-stub>
+`;

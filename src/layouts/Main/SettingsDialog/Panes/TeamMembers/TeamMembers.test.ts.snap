@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when current user can manage invitations: can manage invitations 1`] = `
+<div class="settings-pane" title="Team Members">
+  <div class="settings-pane__body">
+    <invite-form-stub></invite-form-stub>
+    <div class="members__body">
+      <div class="members__invitations members__list">
+        <header-3-stub>Pending Invitations</header-3-stub>
+        <div>
+          <invitation-stub invitation="[object Object]" class="members__member"></invitation-stub>
+          <invitation-stub invitation="[object Object]" class="members__member"></invitation-stub>
+        </div>
+      </div>
+      <div class="members__memberships members__list">
+        <header-3-stub>Team</header-3-stub>
+        <div>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+        </div>
+      </div>
+      <div class="members__annotators members__list">
+        <header-3-stub>Workers</header-3-stub>
+        <div>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to remove null from the team." detail="Removing a user from the team can only by undone by inviting them back." buttontext="REMOVE FROM TEAM" name="delete-membership-modal"></delete-confirmation-dialog-stub>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to cancel this invitation." detail="This will prevent the user from clicking the invitation link they got in the email and joining the team." buttontext="CANCEL INVITATION" name="delete-invitation-modal"></delete-confirmation-dialog-stub>
+  <confirmation-dialog-stub title="Transfer team ownership to undefined?" detail="This user will become responsible for the team's billing, and will be able to invite and remove admins. Be careful when transferring ownership!" name="transfer-ownership-modal" confirmtext="Confirm" canceltext="Cancel"></confirmation-dialog-stub>
+</div>
+`;
+
+exports[`matches snapshot when current user cannot manage invitations 1`] = `
+<div class="settings-pane" title="Team Members">
+  <div class="settings-pane__body">
+    <invite-form-stub></invite-form-stub>
+    <div class="members__body">
+      <div class="members__invitations members__list">
+        <header-3-stub>Pending Invitations</header-3-stub>
+        <div>
+          <invitation-stub invitation="[object Object]" class="members__member"></invitation-stub>
+          <invitation-stub invitation="[object Object]" class="members__member"></invitation-stub>
+        </div>
+      </div>
+      <div class="members__memberships members__list">
+        <header-3-stub>Team</header-3-stub>
+        <div>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+        </div>
+      </div>
+      <div class="members__annotators members__list">
+        <header-3-stub>Workers</header-3-stub>
+        <div>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to remove null from the team." detail="Removing a user from the team can only by undone by inviting them back." buttontext="REMOVE FROM TEAM" name="delete-membership-modal"></delete-confirmation-dialog-stub>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to cancel this invitation." detail="This will prevent the user from clicking the invitation link they got in the email and joining the team." buttontext="CANCEL INVITATION" name="delete-invitation-modal"></delete-confirmation-dialog-stub>
+  <confirmation-dialog-stub title="Transfer team ownership to undefined?" detail="This user will become responsible for the team's billing, and will be able to invite and remove admins. Be careful when transferring ownership!" name="transfer-ownership-modal" confirmtext="Confirm" canceltext="Cancel"></confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when client team matches snapshot 1`] = `
+<div class="settings-pane" title="Team Members">
+  <div class="settings-pane__body">
+    <invite-form-stub></invite-form-stub>
+    <div class="members__body">
+      <!---->
+      <div class="members__memberships members__list">
+        <header-3-stub>Team</header-3-stub>
+        <div></div>
+      </div>
+      <!---->
+      <partner-members-stub></partner-members-stub>
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to remove null from the team." detail="Removing a user from the team can only by undone by inviting them back." buttontext="REMOVE FROM TEAM" name="delete-membership-modal"></delete-confirmation-dialog-stub>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to cancel this invitation." detail="This will prevent the user from clicking the invitation link they got in the email and joining the team." buttontext="CANCEL INVITATION" name="delete-invitation-modal"></delete-confirmation-dialog-stub>
+  <confirmation-dialog-stub title="Transfer team ownership to undefined?" detail="This user will become responsible for the team's billing, and will be able to invite and remove admins. Be careful when transferring ownership!" name="transfer-ownership-modal" confirmtext="Confirm" canceltext="Cancel"></confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when regular team matches snapshot 1`] = `
+<div class="settings-pane" title="Team Members">
+  <div class="settings-pane__body">
+    <invite-form-stub></invite-form-stub>
+    <div class="members__body">
+      <div class="members__invitations members__list">
+        <header-3-stub>Pending Invitations</header-3-stub>
+        <div>
+          <invitation-stub invitation="[object Object]" class="members__member"></invitation-stub>
+          <invitation-stub invitation="[object Object]" class="members__member"></invitation-stub>
+        </div>
+      </div>
+      <div class="members__memberships members__list">
+        <header-3-stub>Team</header-3-stub>
+        <div>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+        </div>
+      </div>
+      <div class="members__annotators members__list">
+        <header-3-stub>Workers</header-3-stub>
+        <div>
+          <member-stub member="[object Object]" class="members__member"></member-stub>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to remove null from the team." detail="Removing a user from the team can only by undone by inviting them back." buttontext="REMOVE FROM TEAM" name="delete-membership-modal"></delete-confirmation-dialog-stub>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to cancel this invitation." detail="This will prevent the user from clicking the invitation link they got in the email and joining the team." buttontext="CANCEL INVITATION" name="delete-invitation-modal"></delete-confirmation-dialog-stub>
+  <confirmation-dialog-stub title="Transfer team ownership to undefined?" detail="This user will become responsible for the team's billing, and will be able to invite and remove admins. Be careful when transferring ownership!" name="transfer-ownership-modal" confirmtext="Confirm" canceltext="Cancel"></confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when regular team matches snapshot 2`] = `
+<div class="settings-pane" title="Team Members">
+  <div class="settings-pane__body">
+    <invite-form-stub></invite-form-stub>
+    <div class="members__body">
+      <!---->
+      <div class="members__memberships members__list">
+        <header-3-stub>Team</header-3-stub>
+        <div></div>
+      </div>
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to remove null from the team." detail="Removing a user from the team can only by undone by inviting them back." buttontext="REMOVE FROM TEAM" name="delete-membership-modal"></delete-confirmation-dialog-stub>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to cancel this invitation." detail="This will prevent the user from clicking the invitation link they got in the email and joining the team." buttontext="CANCEL INVITATION" name="delete-invitation-modal"></delete-confirmation-dialog-stub>
+  <confirmation-dialog-stub title="Transfer team ownership to undefined?" detail="This user will become responsible for the team's billing, and will be able to invite and remove admins. Be careful when transferring ownership!" name="transfer-ownership-modal" confirmtext="Confirm" canceltext="Cancel"></confirmation-dialog-stub>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with slots 1`] = `
+<div class="modal-header-v2">Title <div class="modal-header-v2-close-container"><button class="modal-header-v2-close">
+      ✕
+    </button></div>
+</div>
+`;
+
+exports[`matches snapshot without slots 1`] = `
+<div class="modal-header-v2">
+  <div class="modal-header-v2-close-container"><button class="modal-header-v2-close">
+      ✕
+    </button></div>
+</div>
+`;

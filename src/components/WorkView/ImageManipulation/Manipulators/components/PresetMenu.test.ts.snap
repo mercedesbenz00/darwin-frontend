@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with full slots 1`] = `
+<div class="v-popover-stub" placement="bottom-start" popover-class="preset-menu__popover" trigger="manual" offset="5">
+  <div class="main">
+    <div class="preset-menu__trigger">Default slot</div>
+  </div>
+  <div class="popover">
+    <popup-menu-stub class="preset-popup-menu">
+      <popup-menu-item-stub theme="standard">
+        Apply changes
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="standard">
+        Edit
+      </popup-menu-item-stub>
+      <popup-menu-item-stub theme="crimson">
+        Delete
+      </popup-menu-item-stub>
+    </popup-menu-stub>
+  </div>
+</div>
+`;

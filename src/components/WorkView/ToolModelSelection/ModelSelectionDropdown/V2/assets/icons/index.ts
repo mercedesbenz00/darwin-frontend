@@ -1,0 +1,6 @@
+export { default as AutoAnnotateIcon } from './auto_annotate.svg?inline'
+export { default as ClassificationIcon } from './classification.svg?inline'
+export { default as InstanceSegmentationIcon } from './instance_segmentation.svg?inline'
+export { default as ObjectDetectionIcon } from './object_detection.svg?inline'
+export { default as PoseIcon } from './pose.svg?inline'
+export { default as TextScannerIcon } from './text_scanner.svg?inline'

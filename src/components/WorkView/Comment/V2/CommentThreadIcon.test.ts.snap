@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="comment-thread-icon" style="width: 25px; height: 24px; transform: translateX(-50%) translateY(-50%); left: 1.5px; top: 1.5px;" tooltip="{'placement':'top','content':'Use the Comment tool to read this comment','trigger':'hover focus click'}">
+  <!----> <img src="/static/imgs/comment.svg"> <span>5</span>
+</div>
+`;

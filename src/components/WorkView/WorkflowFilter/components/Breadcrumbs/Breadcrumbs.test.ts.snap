@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when in root path 1`] = `
+<div class="breadcrumbs">
+  <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+    SFH
+  </router-link-stub>
+</div>
+`;
+
+exports[`matches snapshot when in subfolder 1`] = `
+<div class="breadcrumbs">
+  <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+    test2
+  </router-link-stub>
+  <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+    test1
+  </router-link-stub>
+  <router-link-stub to="[object Object]" exact-class="breadcrumbs__link--active" class="breadcrumbs__link">
+    SFH
+  </router-link-stub>
+</div>
+`;

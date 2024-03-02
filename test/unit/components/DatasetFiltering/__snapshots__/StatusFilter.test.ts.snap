@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="status-filter">
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when there are hidden options: hidden 1`] = `
+<div class="status-filter">
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <div class="status-filter-hide-button"><img src="../../assets/more.svg"></div>
+</div>
+`;
+
+exports[`matches snapshot when there are hidden options: revealed 1`] = `
+<div class="status-filter">
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <status-filter-item-stub data="[object Object]" status="none"></status-filter-item-stub>
+  <div class="status-filter-hide-button">
+    Hide Filters
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+@mixin edgeNode {
+  position: absolute;
+  top: 0;
+  left: -7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100%;
+  width: calc(100% + 14px);
+}

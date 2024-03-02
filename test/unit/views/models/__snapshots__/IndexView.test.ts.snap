@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="models">
+  <div class="models__header">
+    <div class="models__header__title">
+      <h1>Your Models</h1>
+    </div>
+    <div class="models__header__buttons">
+      <custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="a" href="https://docs.v7labs.com/docs/bring-your-own-model" target="_blank" rel="noreferrer noopener">
+        Register External Model
+      </custom-button-stub>
+      <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" to="/models/new" class="models__new-button">
+        Train a Model
+      </custom-button-stub>
+    </div>
+  </div>
+  <div class="models__data">
+    <model-management-stub></model-management-stub>
+  </div>
+</div>
+`;

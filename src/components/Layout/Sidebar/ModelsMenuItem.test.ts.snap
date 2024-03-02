@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on models disabled matches snapshot 1`] = `
+<div to="[object Object]">
+  <div to="[object Object]" class="sidebar__menu sidebar__menu--disabled">
+    <v2-sidebar-menu-item-icon-stub name="models" tooltip="Unavailable for this team"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Models
+    </label>
+    <div class="sidebar__menu__asside">
+      <lock-icon-stub></lock-icon-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`on models enabled on active route matches snapshot 1`] = `
+<div to="[object Object]">
+  <router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="models" tooltip="Models" active="true"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Models
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;
+
+exports[`on models enabled on inactive route matches snapshot 1`] = `
+<div to="[object Object]">
+  <router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="models" tooltip="Models"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Models
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;

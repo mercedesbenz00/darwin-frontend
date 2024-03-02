@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotator-overview">
+  <div class="annotator-overview__header">
+    <h1 class="annotator-overview__title">
+      Datasets
+    </h1>
+  </div>
+  <div class="annotator-overview__datasets">
+    <annotation-tutorial-box-stub class="annotator-overview__tutorial-box"></annotation-tutorial-box-stub>
+    <div class="annotator-overview__content-placeholder">
+      <div class="annotator-overview__content-placeholder__image"></div>
+      <div class="annotator-overview__content-placeholder__text">
+        <div>No images or videos assigned yet.</div>
+        <div>
+          Once you are invited to a dataset and asked to annotate images or videos,
+          you will see them here.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when datasets and stages exist 1`] = `
+<div class="annotator-overview">
+  <div class="annotator-overview__header">
+    <h1 class="annotator-overview__title">
+      Datasets
+    </h1>
+  </div>
+  <div class="annotator-overview__datasets">
+    <annotation-tutorial-box-stub class="annotator-overview__tutorial-box"></annotation-tutorial-box-stub>
+    <div class="annotator-overview__content">
+      <annotator-dataset-card-stub dataset="[object Object]" class="annotator-overview__card"></annotator-dataset-card-stub>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when mapped matches snapshot 1`] = `
+<div class="auto-annotate-class-mapper"><a class="primary-button auto-annotate-class-mapper__button" size="medium">
+    Map Classes
+  </a>
+  <modal-stub name="auto-annotate-mapping" delay="0" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="500" height="auto" pivotx="0.5" pivoty="0.5">
+    <class-mapping-stub annotationclasses="" runningsession="[object Object]"></class-mapping-stub>
+  </modal-stub>
+</div>
+`;

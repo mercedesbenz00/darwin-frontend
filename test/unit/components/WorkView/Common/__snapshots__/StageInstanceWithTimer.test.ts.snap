@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in annotate stage matches snapshot 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <!---->
+</div>
+`;
+
+exports[`in annotate stage with autocompletion matches snapshot when progressing 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <timer-stub completesat="1234567" size="14" class="instance-wrapper__timer instance-wrapper__timer--review"></timer-stub>
+</div>
+`;
+
+exports[`in annotate stage with autocompletion matches snapshot when skipping 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <timer-stub completesat="1234567" size="14" class="instance-wrapper__timer instance-wrapper__timer--review"></timer-stub>
+</div>
+`;
+
+exports[`in complete stage matches snapshot 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <!---->
+</div>
+`;
+
+exports[`in review stage matches snapshot 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <!---->
+</div>
+`;
+
+exports[`in review stage with autocompletion matches snapshot when approving 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <timer-stub completesat="1234567" size="14" class="instance-wrapper__timer instance-wrapper__timer--complete"></timer-stub>
+</div>
+`;
+
+exports[`in review stage with autocompletion matches snapshot when archiving 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <timer-stub completesat="1234567" size="14" class="instance-wrapper__timer instance-wrapper__timer--archived"></timer-stub>
+</div>
+`;
+
+exports[`in review stage with autocompletion matches snapshot when implicitly approving 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <timer-stub completesat="1234567" size="14" class="instance-wrapper__timer instance-wrapper__timer--complete"></timer-stub>
+</div>
+`;
+
+exports[`in review stage with autocompletion matches snapshot when rejecting 1`] = `
+<div class="instance-wrapper">
+  <stage-instance-stub instance="[object Object]" class="instance-wrapper__instance"></stage-instance-stub>
+  <timer-stub completesat="1234567" size="14" class="instance-wrapper__timer instance-wrapper__timer--rejected"></timer-stub>
+</div>
+`;

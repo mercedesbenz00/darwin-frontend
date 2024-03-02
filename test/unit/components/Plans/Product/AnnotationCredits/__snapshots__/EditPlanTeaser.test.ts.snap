@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when amount is 0 matches snaphsot 1`] = `
+<div class="edit-plan-teaser">
+  <div class="edit-plan-teaser__title">
+    Cancel Plan
+  </div>
+  <div class="edit-plan-teaser__icon-wrapper">
+    <lottie-animation-stub path="static/imgs/lotties/plans/cancel-plan.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon edit-plan-teaser__icon--active"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/freemium.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/team.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/business.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/enterprise.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+  </div>
+</div>
+`;
+
+exports[`when plan is business matches snaphsot 1`] = `
+<div class="edit-plan-teaser">
+  <div class="edit-plan-teaser__title">
+    business
+  </div>
+  <div class="edit-plan-teaser__icon-wrapper">
+    <lottie-animation-stub path="static/imgs/lotties/plans/cancel-plan.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/freemium.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/team.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/business.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon edit-plan-teaser__icon--active"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/enterprise.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+  </div>
+</div>
+`;
+
+exports[`when plan is enterprise matches snaphsot 1`] = `
+<div class="edit-plan-teaser">
+  <div class="edit-plan-teaser__title">
+    enterprise
+  </div>
+  <div class="edit-plan-teaser__icon-wrapper">
+    <lottie-animation-stub path="static/imgs/lotties/plans/cancel-plan.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/freemium.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/team.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/business.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/enterprise.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon edit-plan-teaser__icon--active"></lottie-animation-stub>
+  </div>
+</div>
+`;
+
+exports[`when plan is freemium matches snaphsot 1`] = `
+<div class="edit-plan-teaser">
+  <div class="edit-plan-teaser__title">
+    education
+  </div>
+  <div class="edit-plan-teaser__icon-wrapper">
+    <lottie-animation-stub path="static/imgs/lotties/plans/cancel-plan.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/freemium.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon edit-plan-teaser__icon--active"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/team.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/business.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/enterprise.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+  </div>
+</div>
+`;
+
+exports[`when plan is team matches snaphsot 1`] = `
+<div class="edit-plan-teaser">
+  <div class="edit-plan-teaser__title">
+    team
+  </div>
+  <div class="edit-plan-teaser__icon-wrapper">
+    <lottie-animation-stub path="static/imgs/lotties/plans/cancel-plan.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/freemium.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/team.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon edit-plan-teaser__icon--active"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/business.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+    <lottie-animation-stub path="static/imgs/lotties/plans/enterprise.json" speed="1" width="-1" height="-1" loop="true" autoplay="true" loopdelaymin="0" loopdelaymax="0" class="edit-plan-teaser__icon"></lottie-animation-stub>
+  </div>
+</div>
+`;

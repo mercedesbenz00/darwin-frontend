@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when status is 'balanced' 1`] = `
+<div class="class-distribution-status">
+  <balanced-icon-stub class="class-distribution-status__icon"></balanced-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--balanced">Balanced</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'low-data' 1`] = `
+<div class="class-distribution-status">
+  <low-data-icon-stub class="class-distribution-status__icon"></low-data-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--low-data">Low Data</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'medium-low-data' 1`] = `
+<div class="class-distribution-status">
+  <medium-low-data-icon-stub class="class-distribution-status__icon"></medium-low-data-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--medium-low-data">Medium Low Data</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'overrepresented' 1`] = `
+<div class="class-distribution-status">
+  <overrepresented-icon-stub class="class-distribution-status__icon"></overrepresented-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--overrepresented">Overrepresented</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'underrepresented' 1`] = `
+<div class="class-distribution-status">
+  <underrepresented-icon-stub class="class-distribution-status__icon"></underrepresented-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--underrepresented">Underrepresented</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'very-low-data' 1`] = `
+<div class="class-distribution-status">
+  <very-low-data-icon-stub class="class-distribution-status__icon"></very-low-data-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--very-low-data">Very Low Data</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'very-overrepresented' 1`] = `
+<div class="class-distribution-status">
+  <very-overrepresented-icon-stub class="class-distribution-status__icon"></very-overrepresented-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--very-overrepresented">Very Overrepresented</label>
+</div>
+`;
+
+exports[`matches snapshot when status is 'very-underrepresented' 1`] = `
+<div class="class-distribution-status">
+  <very-underrepresented-icon-stub class="class-distribution-status__icon"></very-underrepresented-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--very-underrepresented">Very Underrepresented</label>
+</div>
+`;

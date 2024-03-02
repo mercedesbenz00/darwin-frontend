@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when all items are selected matches snapshot 1`] = `<gallery-context-menu-check-item-stub label="DESELECT ALL" value="true" tooltip="<span>Deselect <span class=&quot;tooltip__hotkey&quot;>Esc</span></span>" class="select-all" dataset="[object Object]" filter="[object Object]" selecteditemcount="5"></gallery-context-menu-check-item-stub>`;

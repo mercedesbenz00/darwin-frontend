@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with default props 1`] = `<input type="number" class="small-numeric-input">`;
+
+exports[`matches snapshot with mix, max props 1`] = `<input type="number" min="10" max="50" class="small-numeric-input">`;

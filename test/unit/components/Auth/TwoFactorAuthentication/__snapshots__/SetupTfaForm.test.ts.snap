@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with slot matches snapshot 1`] = `
+<div class="setup-tfa-form">
+  <h1 class="setup-tfa-form__title">
+    Set up 2-Factor Authentication
+  </h1>
+  <div class="setup-tfa-form__instructions">
+    <div class="setup-tfa-form__li"><span class="setup-tfa-form__li-title">
+        1. Get an Authenticator app from the
+        <a href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank" class="setup-tfa-form__ga-link">App Store</a></span> <span class="setup-tfa-form__li-tip">
+        Don’t want to use Google Authenticator?
+        <a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458" target="_blank" class="setup-tfa-form__other-link">Browse other options.</a></span></div>
+    <div class="setup-tfa-form__li"><span class="setup-tfa-form__li-title">
+        2. Within the app, select <b>Set up account</b></span></div>
+    <div class="setup-tfa-form__li"><span class="setup-tfa-form__li-title">
+        3. Choose <b>Scan barcode</b></span></div>
+  </div>
+  <div class="setup-tfa-form__qr-code-section">
+    <div class="setup-tfa-form__qr-code">
+      <vue-qrcode-stub value="otpauth://totp/V7%20(test@v7labs.com)?secret=secret-key" options="[object Object]" tag="svg"></vue-qrcode-stub>
+    </div>
+  </div>
+  <div class="setup-tfa-form__qr-code__actions">Actions slot</div>
+</div>
+`;
+
+exports[`without slot matches snapshot 1`] = `
+<div class="setup-tfa-form">
+  <h1 class="setup-tfa-form__title">
+    Set up 2-Factor Authentication
+  </h1>
+  <div class="setup-tfa-form__instructions">
+    <div class="setup-tfa-form__li"><span class="setup-tfa-form__li-title">
+        1. Get an Authenticator app from the
+        <a href="https://apps.apple.com/us/app/google-authenticator/id388497605" target="_blank" class="setup-tfa-form__ga-link">App Store</a></span> <span class="setup-tfa-form__li-tip">
+        Don’t want to use Google Authenticator?
+        <a href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458" target="_blank" class="setup-tfa-form__other-link">Browse other options.</a></span></div>
+    <div class="setup-tfa-form__li"><span class="setup-tfa-form__li-title">
+        2. Within the app, select <b>Set up account</b></span></div>
+    <div class="setup-tfa-form__li"><span class="setup-tfa-form__li-title">
+        3. Choose <b>Scan barcode</b></span></div>
+  </div>
+  <div class="setup-tfa-form__qr-code-section">
+    <div class="setup-tfa-form__qr-code">
+      <vue-qrcode-stub value="otpauth://totp/V7%20(test@v7labs.com)?secret=secret-key" options="[object Object]" tag="svg"></vue-qrcode-stub>
+    </div>
+  </div>
+  <div class="setup-tfa-form__qr-code__actions"></div>
+</div>
+`;

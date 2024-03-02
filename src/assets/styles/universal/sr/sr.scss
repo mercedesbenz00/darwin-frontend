@@ -1,0 +1,9 @@
+@import "./sr.global";
+
+.sr {
+  @include sr;
+}
+
+.sr-focus {
+  @include sr-focus;
+}

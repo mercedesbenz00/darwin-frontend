@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div id="feedback-trigger" href="https://v7-community.circle.so/" target="_blank">
+  <div id="feedback-trigger" href="https://v7-community.circle.so/" target="_blank" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="feedback" tooltip="Support"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Support
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </div>
+</div>
+`;

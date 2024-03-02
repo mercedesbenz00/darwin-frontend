@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="hide-by-class-item">
+  <type-icon-with-label-stub label="Flask" type="polygon" color="rgba(4,4,4,0.5)" tag="div" class="hide-by-class-item__details"></type-icon-with-label-stub> <span class="hide-by-class-item__count">5</span>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="hide-by-class-item hide-by-class-item--selected">
+  <type-icon-with-label-stub label="Flask" type="polygon" color="rgba(4,4,4,0.5)" tag="div" class="hide-by-class-item__details"></type-icon-with-label-stub> <span class="hide-by-class-item__count">5</span>
+  <eye-closed-icon-stub class="hide-by-class-item__eye-icon"></eye-closed-icon-stub>
+</div>
+`;

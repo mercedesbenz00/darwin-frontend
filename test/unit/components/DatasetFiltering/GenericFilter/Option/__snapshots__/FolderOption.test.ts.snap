@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="folder-option">
+  <folder-icon-stub class="folder-option__icon"></folder-icon-stub> <span class="folder-option__name">/folder2</span> <span class="folder-option__count">0</span>
+</div>
+`;

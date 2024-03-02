@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with business credit matches snaphsot 1`] = `
+<modal-stub name="annotation_credits" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="720" height="480" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="edit-plan"><button type="button" class="edit-plan__downgrade">
+      <downgrade-icon-stub></downgrade-icon-stub>
+    </button>
+    <edit-plan-teaser-stub amount="700" plan="business"></edit-plan-teaser-stub>
+    <div class="edit-product-layout-stub edit-plan__main" confirm-disabled="true">
+      <!---->
+      <div class="current-slot-given">
+        <product-layout-section-stub text="700" subtext="Current Plan Credits" class="edit-plan__main__new"></product-layout-section-stub>
+      </div>
+      <div class="new-slot-given">
+        <new-amount-stub value="700" label="New Amount" step="100" min="0"></new-amount-stub>
+      </div>
+      <!---->
+      <div class="extra-slot-given">
+        <div class="edit-plan__extra">
+          <div class="edit-plan__cost-container"><span class="edit-plan__cost">$1,029.90</span> <span>per month billed annually</span></div>
+          <div class="edit-plan__discount">
+            (Quantity discount: $1.40/unit ($20.10 saved))
+          </div>
+          <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="edit-plan__feature-list"></feature-list-stub>
+        </div>
+      </div>
+    </div> <button type="button" class="edit-plan__upgrade">
+      <upgrade-icon-stub></upgrade-icon-stub>
+    </button>
+  </div>
+</modal-stub>
+`;
+
+exports[`with enterprise credit matches snaphsot 1`] = `
+<modal-stub name="annotation_credits" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="720" height="480" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="edit-plan"><button type="button" class="edit-plan__downgrade">
+      <downgrade-icon-stub></downgrade-icon-stub>
+    </button>
+    <edit-plan-teaser-stub amount="3500" plan="enterprise"></edit-plan-teaser-stub>
+    <div class="edit-product-layout-stub edit-plan__main" confirm-disabled="true">
+      <!---->
+      <div class="current-slot-given">
+        <product-layout-section-stub text="3500" subtext="Current Plan Credits" class="edit-plan__main__new"></product-layout-section-stub>
+      </div>
+      <div class="new-slot-given">
+        <new-amount-stub value="3500" label="New Amount" step="100" min="0"></new-amount-stub>
+      </div>
+      <!---->
+      <div class="extra-slot-given">
+        <div class="edit-plan__extra">
+          <div class="edit-plan__cost-container"><span class="edit-plan__cost">$4,549.70</span> <span>per month billed annually</span></div>
+          <div class="edit-plan__discount">
+            (Quantity discount: $1.20/unit ($700.30 saved))
+          </div>
+          <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="edit-plan__feature-list"></feature-list-stub>
+        </div>
+      </div>
+    </div> <button type="button" class="edit-plan__upgrade" disabled="disabled">
+      <upgrade-icon-stub></upgrade-icon-stub>
+    </button>
+  </div>
+</modal-stub>
+`;
+
+exports[`with freemium credit matches snaphsot 1`] = `
+<modal-stub name="annotation_credits" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="720" height="480" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="edit-plan"><button type="button" class="edit-plan__downgrade">
+      <downgrade-icon-stub></downgrade-icon-stub>
+    </button>
+    <edit-plan-teaser-stub amount="100" plan="freemium"></edit-plan-teaser-stub>
+    <div class="edit-product-layout-stub edit-plan__main" confirm-disabled="true">
+      <!---->
+      <div class="current-slot-given">
+        <product-layout-section-stub text="100" subtext="Current Plan Credits" class="edit-plan__main__new"></product-layout-section-stub>
+      </div>
+      <div class="new-slot-given">
+        <new-amount-stub value="100" label="New Amount" step="100" min="0"></new-amount-stub>
+      </div>
+      <div class="issues-slot-given">
+        <div>
+          Warning: This amount is too low for the current usage,
+          and will suspend the team's annotation capabilities.
+        </div>
+      </div>
+      <div class="extra-slot-given">
+        <div class="edit-plan__extra">
+          <div class="edit-plan__cost-container"><span class="edit-plan__cost">$0.00</span> <span>per month (minimum) billed annually</span></div>
+          <!---->
+          <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="edit-plan__feature-list"></feature-list-stub>
+        </div>
+      </div>
+    </div> <button type="button" class="edit-plan__upgrade">
+      <upgrade-icon-stub></upgrade-icon-stub>
+    </button>
+  </div>
+</modal-stub>
+`;
+
+exports[`with freemium credit with initial plan as enterprise matches snaphsot 1`] = `
+<modal-stub name="annotation_credits" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="720" height="480" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="edit-plan"><button type="button" class="edit-plan__downgrade">
+      <downgrade-icon-stub></downgrade-icon-stub>
+    </button>
+    <edit-plan-teaser-stub amount="3500" plan="enterprise"></edit-plan-teaser-stub>
+    <div class="edit-product-layout-stub edit-plan__main">
+      <!---->
+      <div class="current-slot-given">
+        <product-layout-section-stub text="100" subtext="Current Plan Credits" class="edit-plan__main__new"></product-layout-section-stub>
+      </div>
+      <div class="new-slot-given">
+        <new-amount-stub value="3500" label="New Amount" step="100" min="0"></new-amount-stub>
+      </div>
+      <!---->
+      <div class="extra-slot-given">
+        <div class="edit-plan__extra">
+          <div class="edit-plan__cost-container"><span class="edit-plan__cost">Talk to Sales</span></div>
+          <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="edit-plan__feature-list"></feature-list-stub>
+        </div>
+      </div>
+    </div> <button type="button" class="edit-plan__upgrade" disabled="disabled">
+      <upgrade-icon-stub></upgrade-icon-stub>
+    </button>
+  </div>
+</modal-stub>
+`;
+
+exports[`with team credit matches snaphsot 1`] = `
+<modal-stub name="annotation_credits" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="720" height="480" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="edit-plan"><button type="button" class="edit-plan__downgrade">
+      <downgrade-icon-stub></downgrade-icon-stub>
+    </button>
+    <edit-plan-teaser-stub amount="300" plan="team"></edit-plan-teaser-stub>
+    <div class="edit-product-layout-stub edit-plan__main" confirm-disabled="true">
+      <!---->
+      <div class="current-slot-given">
+        <product-layout-section-stub text="300" subtext="Current Plan Credits" class="edit-plan__main__new"></product-layout-section-stub>
+      </div>
+      <div class="new-slot-given">
+        <new-amount-stub value="300" label="New Amount" step="100" min="0"></new-amount-stub>
+      </div>
+      <!---->
+      <div class="extra-slot-given">
+        <div class="edit-plan__extra">
+          <div class="edit-plan__cost-container"><span class="edit-plan__cost">$450.00</span> <span>per month billed annually</span></div>
+          <!---->
+          <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="edit-plan__feature-list"></feature-list-stub>
+        </div>
+      </div>
+    </div> <button type="button" class="edit-plan__upgrade">
+      <upgrade-icon-stub></upgrade-icon-stub>
+    </button>
+  </div>
+</modal-stub>
+`;
+
+exports[`with zero credit matches snaphsot 1`] = `
+<modal-stub name="annotation_credits" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="720" height="480" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <div class="edit-plan"><button disabled="disabled" type="button" class="edit-plan__downgrade">
+      <downgrade-icon-stub></downgrade-icon-stub>
+    </button>
+    <edit-plan-teaser-stub amount="0" plan="freemium"></edit-plan-teaser-stub>
+    <div class="edit-product-layout-stub edit-plan__main" confirm-disabled="true">
+      <!---->
+      <div class="current-slot-given">
+        <product-layout-section-stub text="0" subtext="Current Plan Credits" class="edit-plan__main__new"></product-layout-section-stub>
+      </div>
+      <div class="new-slot-given">
+        <new-amount-stub value="0" label="New Amount" step="100" min="0"></new-amount-stub>
+      </div>
+      <div class="issues-slot-given">
+        <div>
+          Warning: This amount is too low for the current usage,
+          and will suspend the team's annotation capabilities.
+        </div>
+      </div>
+      <div class="extra-slot-given">
+        <div class="edit-plan__extra">
+          <div class="edit-plan__cost-container"><span class="edit-plan__cost">$0.00</span> <span>per month billed annually</span></div>
+          <!---->
+          <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="edit-plan__feature-list"></feature-list-stub>
+        </div>
+      </div>
+    </div> <button type="button" class="edit-plan__upgrade">
+      <upgrade-icon-stub></upgrade-icon-stub>
+    </button>
+  </div>
+</modal-stub>
+`;

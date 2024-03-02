@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stats__row" datarange="total">
+  <div class="stats">
+    <model-request-chart-stub runningsession="[object Object]"></model-request-chart-stub>
+  </div>
+  <div class="stats">
+    <instance-count-chart-stub runningsession="[object Object]"></instance-count-chart-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when no data 1`] = `
+<div class="stats__row" datarange="total">
+  <div class="stats">
+    <model-request-chart-stub runningsession="[object Object]"></model-request-chart-stub>
+  </div>
+  <div class="stats">
+    <instance-count-chart-stub runningsession="[object Object]"></instance-count-chart-stub>
+  </div>
+</div>
+`;

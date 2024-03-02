@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when distributions are empty matches snapshot 1`] = `
+<div>
+  <div class="by-class-map__title">
+    <h1>Precision/Recall Breakdown</h1>
+  </div>
+  <div class="by-class-map">
+    <div>
+      &nbsp;
+    </div>
+    <div class="by-class-map__precision-title">
+      Precision
+    </div>
+    <div class="by-class-map__recall-title">
+      Recall
+    </div>
+    <div class="by-class-map__class"><span>DNA Band</span> <span></span></div>
+    <div class="by-class-map__precision" style="background-color: rgba(98, 28, 210, 0.316);">
+      0.316
+    </div>
+    <div class="by-class-map__recall" style="background-color: rgba(98, 28, 210, 0.367);">
+      0.367
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when given proper data matches snapshot 1`] = `
+<div>
+  <div class="by-class-map__title">
+    <h1>Precision/Recall Breakdown</h1>
+  </div>
+  <div class="by-class-map">
+    <div>
+      &nbsp;
+    </div>
+    <div class="by-class-map__precision-title">
+      Precision
+    </div>
+    <div class="by-class-map__recall-title">
+      Recall
+    </div>
+    <div class="by-class-map__class"><span>DNA Band</span> <span>600</span></div>
+    <div class="by-class-map__precision" style="background-color: rgba(98, 28, 210, 0.316);">
+      0.316
+    </div>
+    <div class="by-class-map__recall" style="background-color: rgba(98, 28, 210, 0.367);">
+      0.367
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when maps is empty matches snapshot 1`] = ``;

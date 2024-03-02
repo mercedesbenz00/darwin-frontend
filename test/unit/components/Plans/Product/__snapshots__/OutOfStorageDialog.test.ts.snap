@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on Workflow matches snapshot 1`] = `
+<modal-stub name="out-of-storage-modal" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="plan-expired-modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="40%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="dialog-layout">
+    <div class="dialog-layout__title">
+      Upgrade your plan to manage more data
+    </div>
+    <div class="dialog-layout__description">
+      You are using the full capacity allowed by your plan. You won't be able
+      to start new file workflows until you upgrade your plan. This only takes
+      a few seconds.
+    </div>
+    <div class="dialog-layout__footer">
+      <secondary-button-stub>
+        Close
+      </secondary-button-stub>
+      <primary-button-stub tag="router-link" to="[object Object]">
+        UPGRADE
+      </primary-button-stub>
+    </div>
+  </div>
+</modal-stub>
+`;
+
+exports[`on datasets matches snapshot 1`] = `
+<modal-stub name="out-of-storage-modal" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="plan-expired-modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="40%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="dialog-layout">
+    <div class="dialog-layout__title">
+      Upgrade your plan to manage more data
+    </div>
+    <div class="dialog-layout__description">
+      You are using the full capacity allowed by your plan. You won't be able
+      to start new file workflows until you upgrade your plan. This only takes
+      a few seconds.
+    </div>
+    <div class="dialog-layout__footer">
+      <secondary-button-stub>
+        Close
+      </secondary-button-stub>
+      <primary-button-stub tag="router-link" to="[object Object]">
+        UPGRADE
+      </primary-button-stub>
+    </div>
+  </div>
+</modal-stub>
+`;

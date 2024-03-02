@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<annotation-class-section-stub title="Skeleton Editor">
+  <div class="skeleton-workview"><canvas id="skeletonCanvas" class="skeleton-workview__canvas" width="0" height="0"></canvas>
+    <div class="skeleton-workview__tips">
+      Click to enter the starting position of skeleton points.
+      <br>You won’t be able to add or remove points after creating the class.
+    </div>
+  </div>
+</annotation-class-section-stub>
+`;

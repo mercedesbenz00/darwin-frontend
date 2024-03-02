@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when not selected 1`] = `
+<div class="filter-item status-filter-item filter-item--none status-filter-item--none">
+  <div class="filter-item__icon"><img src="new.svg" class="status-filter-item__icon">
+    <!---->
+  </div>
+  <div class="filter-item__label">
+    New
+  </div>
+  <div class="filter-item__count">
+    5
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected negative 1`] = `
+<div class="filter-item status-filter-item filter-item--negative status-filter-item--negative">
+  <div class="filter-item__icon"><img src="new.svg" class="status-filter-item__icon">
+    <!---->
+  </div>
+  <div class="filter-item__label">
+    New
+  </div>
+  <div class="filter-item__count">
+    5
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected positive 1`] = `
+<div class="filter-item status-filter-item filter-item--positive status-filter-item--positive">
+  <div class="filter-item__icon"><img src="new.svg" class="status-filter-item__icon">
+    <!---->
+  </div>
+  <div class="filter-item__label">
+    New
+  </div>
+  <div class="filter-item__count">
+    5
+  </div>
+</div>
+`;

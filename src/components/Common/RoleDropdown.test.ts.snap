@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="role-dropdown">
+  <!---->
+  <div class="role-dropdown__select">
+    <select2-stub placeholder="" options="[object Object],[object Object],[object Object],[object Object],[object Object]" settings="[object Object]" value="annotator"></select2-stub>
+  </div>
+</div>
+`;
+
+exports[`when disabled matches snapshot 1`] = `
+<div class="role-dropdown">
+  <!---->
+  <div class="role-dropdown__select">
+    <select2-stub placeholder="" options="[object Object],[object Object],[object Object],[object Object],[object Object]" disabled="true" settings="[object Object]" value="annotator"></select2-stub>
+  </div>
+</div>
+`;

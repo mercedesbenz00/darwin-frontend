@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is danger type matches snapshot 1`] = `
+<button class="action-bar-el">
+  <!----> Label
+</button>
+`;
+
+exports[`is default type matches snapshot 1`] = `
+<button class="action-bar-el action-bar-el--default">
+  <!----> Label
+</button>
+`;
+
+exports[`is select type matches snapshot 1`] = `
+<button class="action-bar-el action-bar-el--select">
+  <!----> Label
+</button>
+`;

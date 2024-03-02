@@ -1,0 +1,21 @@
+@import "./grid/grid";
+@import "./lazy-image/lazy-image";
+@import "./mediaQuery/mediaQuery";
+@import "./normalize/normalize";
+@import "./noscroll/noscroll";
+@import "./sr/sr";
+@import "./zIndex/zIndex";
+
+html {
+  font-size: 0.7rem;
+
+  @include respondFrom(lg) {
+    font-size: 0.8rem;
+  }
+  @include respondFrom(xl) {
+    font-size: 0.9rem;
+  }
+  @include respondFrom(xxl) {
+    font-size: 1rem;
+  }
+}

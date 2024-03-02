@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <chevron-pagination-stub page="1" pagecount="2" prev="Previous frame <span class='tooltip__hotkey'>,</span>" next="Next frame <span class='tooltip__hotkey'>.</span>" arrow="true" class="video-annotations-pagination"></chevron-pagination-stub>
+</div>
+`;
+
+exports[`matches snapshot when feature enabled is true 1`] = `
+<div>
+  <chevron-pagination-stub page="1" pagecount="2" prev="Previous frame <span class='tooltip__hotkey'>,</span>" next="Next frame <span class='tooltip__hotkey'>.</span>" arrow="true" class="video-annotations-pagination"></chevron-pagination-stub>
+</div>
+`;

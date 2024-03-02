@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when Auto annotate matches snapshot 1`] = `
+<button class="types__type type">
+  <!---->
+  <auto-annotate-icon-stub class="type__icon"></auto-annotate-icon-stub>
+  <div class="type__name">
+    Auto annotate
+  </div>
+</button>
+`;
+
+exports[`when Classification matches snapshot 1`] = `
+<button class="types__type type">
+  <!---->
+  <classification-icon-stub class="type__icon"></classification-icon-stub>
+  <div class="type__name">
+    Classification
+  </div>
+</button>
+`;
+
+exports[`when Instance segmentation matches snapshot 1`] = `
+<button class="types__type type type--selected">
+  <!---->
+  <instance-segmentation-icon-stub class="type__icon"></instance-segmentation-icon-stub>
+  <div class="type__name">
+    Instance segmentation
+  </div>
+</button>
+`;
+
+exports[`when Object detection matches snapshot 1`] = `
+<button class="types__type type">
+  <!---->
+  <object-detection-icon-stub class="type__icon"></object-detection-icon-stub>
+  <div class="type__name">
+    Object detection
+  </div>
+</button>
+`;
+
+exports[`when Semantic segmentation matches snapshot 1`] = `
+<button class="types__type type">
+  <!---->
+  <semantic-segmentation-icon-stub class="type__icon"></semantic-segmentation-icon-stub>
+  <div class="type__name">
+    Semantic segmentation
+  </div>
+</button>
+`;
+
+exports[`when most accurate matches snapshot 1`] = `
+<button class="types__type type type--selected">
+  <purple-pill-stub class="type__modifier">
+    Most accurate
+  </purple-pill-stub>
+  <instance-segmentation-icon-stub class="type__icon"></instance-segmentation-icon-stub>
+  <div class="type__name">
+    Instance segmentation
+  </div>
+</button>
+`;
+
+exports[`when unavailable matches snapshot 1`] = `
+<button disabled="disabled" class="types__type type">
+  <blue-pill-stub class="type__modifier">
+    Coming soon
+  </blue-pill-stub>
+  <classification-icon-stub class="type__icon"></classification-icon-stub>
+  <div class="type__name">
+    Classification
+  </div>
+</button>
+`;

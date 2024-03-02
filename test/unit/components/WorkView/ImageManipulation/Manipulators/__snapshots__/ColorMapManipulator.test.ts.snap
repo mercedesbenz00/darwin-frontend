@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="image-manipulation__item" is-sync-mode="true">
+  <div class="image-manipulation__item__label">
+    Color Map
+  </div>
+  <!---->
+  <div class="image-manipulation__item__slider">
+    <color-map-dropdown-stub value="default"></color-map-dropdown-stub>
+  </div>
+</div>
+`;

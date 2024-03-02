@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when trainedModel is defined matches snapshot 1`] = `
+<div class="model-stats">
+  <h1 class="model-stats__title">
+    Model Stats
+  </h1>
+  <div class="model-stats__container">
+    <model-stats-sidebar-stub trainedmodel="[object Object]"></model-stats-sidebar-stub>
+    <div class="model-stats__container__content">
+      <map-model-stat-stub trainedmodel="[object Object]" iouvalue="50%"></map-model-stat-stub>
+      <precision-model-stat-stub></precision-model-stat-stub>
+      <recall-model-stat-stub></recall-model-stat-stub>
+      <iou-model-stat-stub></iou-model-stat-stub>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`when trainedModel is null matches snapshot 1`] = `
+<div class="model-stats">
+  <h1 class="model-stats__title">
+    Model Stats
+  </h1>
+  <div class="model-stats__container">
+    <model-stats-sidebar-stub></model-stats-sidebar-stub>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<div><span class="class-pill has-tooltip" style="background-color: rgba(10, 20, 30, 0.24); color: rgb(10, 20, 30);" data-original-title="null">My Class Name</span></div>`;

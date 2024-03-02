@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when you are a workforce manager of this team matches snapshot 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__version__status">
+    <div class="dataset-export__version__status-line"></div>
+    <div class="dataset-export__version__status-option">
+      <!---->
+    </div>
+  </div>
+  <div class="dataset-export__row">
+    <div class="dataset-export__row__title">
+      <h1>version1</h1>
+    </div>
+    <div class="dataset-export__body__date">
+      <icon-duotone-calendar-stub></icon-duotone-calendar-stub>
+      <p>01/01/2000</p>
+    </div>
+    <div class="dataset-export__body__image-count">
+      <icon-duotone-image-stub></icon-duotone-image-stub>
+      <p>10</p>
+    </div>
+    <div class="dataset-export__body__class-count">
+      <p>5 classes</p>
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+    <div class="dataset-export__row__actions">
+      <custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="div">
+        Generating
+      </custom-button-stub> <button class="dataset-export__row__action-button" tooltip="{'content':'Copy Darwin CLI command'}">
+        <icon-mono-copy-stub></icon-mono-copy-stub>
+      </button> <button class="dataset-export__row__action-button trash-icon-button dataset-export__row__action-button--disabled" tooltip="{'content':'You don't have the permissions to delete data'}">
+        <icon-duotone-trash-stub></icon-duotone-trash-stub>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when you are a workforce manager of this team matches snapshot with download url 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__version__status">
+    <div class="dataset-export__version__status-line"></div>
+    <div class="dataset-export__version__status-option">
+      <!---->
+    </div>
+  </div>
+  <div class="dataset-export__row">
+    <div class="dataset-export__row__title">
+      <h1></h1>
+    </div>
+    <div class="dataset-export__body__date">
+      <icon-duotone-calendar-stub></icon-duotone-calendar-stub>
+      <p>01/01/2000</p>
+    </div>
+    <div class="dataset-export__body__image-count">
+      <!---->
+      <p></p>
+    </div>
+    <div class="dataset-export__body__class-count">
+      <p></p>
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+    <div class="dataset-export__row__actions"><button disabled="disabled" class="dataset-export__row__action-button download-icon-button dataset-export__row__action-button--disabled" tooltip="{'content':'Download'}">
+        <icon-mono-download-stub></icon-mono-download-stub>
+      </button> <button class="dataset-export__row__action-button" tooltip="{'content':'Copy Darwin CLI command'}">
+        <icon-mono-copy-stub></icon-mono-copy-stub>
+      </button> <button class="dataset-export__row__action-button trash-icon-button dataset-export__row__action-button--disabled" tooltip="{'content':'You don't have the permissions to delete data'}">
+        <icon-duotone-trash-stub></icon-duotone-trash-stub>
+      </button></div>
+  </div>
+</div>
+`;
+
+exports[`when you are an admin of this team matches snapshot 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__version__status">
+    <div class="dataset-export__version__status-line"></div>
+    <div class="dataset-export__version__status-option">
+      <!---->
+    </div>
+  </div>
+  <div class="dataset-export__row">
+    <div class="dataset-export__row__title">
+      <h1>version1</h1>
+    </div>
+    <div class="dataset-export__body__date">
+      <icon-duotone-calendar-stub></icon-duotone-calendar-stub>
+      <p>01/01/2000</p>
+    </div>
+    <div class="dataset-export__body__image-count">
+      <icon-duotone-image-stub></icon-duotone-image-stub>
+      <p>10</p>
+    </div>
+    <div class="dataset-export__body__class-count">
+      <p>5 classes</p>
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+    <div class="dataset-export__row__actions">
+      <custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="div">
+        Generating
+      </custom-button-stub> <button class="dataset-export__row__action-button" tooltip="{'content':'Copy Darwin CLI command'}">
+        <icon-mono-copy-stub></icon-mono-copy-stub>
+      </button> <button class="dataset-export__row__action-button trash-icon-button" tooltip="{'content':'Delete'}">
+        <icon-duotone-trash-stub></icon-duotone-trash-stub>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when you are an admin of this team matches snapshot when metadata is empty 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__version__status">
+    <div class="dataset-export__version__status-line"></div>
+    <div class="dataset-export__version__status-option">
+      <!---->
+    </div>
+  </div>
+  <div class="dataset-export__row">
+    <div class="dataset-export__row__title">
+      <h1></h1>
+    </div>
+    <div class="dataset-export__body__date">
+      <icon-duotone-calendar-stub></icon-duotone-calendar-stub>
+      <p>01/01/2000</p>
+    </div>
+    <div class="dataset-export__body__image-count">
+      <!---->
+      <p></p>
+    </div>
+    <div class="dataset-export__body__class-count">
+      <p></p>
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+    <div class="dataset-export__row__actions">
+      <custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="div">
+        Generating
+      </custom-button-stub> <button class="dataset-export__row__action-button" tooltip="{'content':'Copy Darwin CLI command'}">
+        <icon-mono-copy-stub></icon-mono-copy-stub>
+      </button> <button class="dataset-export__row__action-button trash-icon-button" tooltip="{'content':'Delete'}">
+        <icon-duotone-trash-stub></icon-duotone-trash-stub>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when you are an admin of this team matches snapshot with download url 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__version__status">
+    <div class="dataset-export__version__status-line"></div>
+    <div class="dataset-export__version__status-option">
+      <!---->
+    </div>
+  </div>
+  <div class="dataset-export__row">
+    <div class="dataset-export__row__title">
+      <h1></h1>
+    </div>
+    <div class="dataset-export__body__date">
+      <icon-duotone-calendar-stub></icon-duotone-calendar-stub>
+      <p>01/01/2000</p>
+    </div>
+    <div class="dataset-export__body__image-count">
+      <!---->
+      <p></p>
+    </div>
+    <div class="dataset-export__body__class-count">
+      <p></p>
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+    <div class="dataset-export__row__actions"><button class="dataset-export__row__action-button download-icon-button" tooltip="{'content':'Download'}">
+        <icon-mono-download-stub></icon-mono-download-stub>
+      </button> <button class="dataset-export__row__action-button" tooltip="{'content':'Copy Darwin CLI command'}">
+        <icon-mono-copy-stub></icon-mono-copy-stub>
+      </button> <button class="dataset-export__row__action-button trash-icon-button" tooltip="{'content':'Delete'}">
+        <icon-duotone-trash-stub></icon-duotone-trash-stub>
+      </button></div>
+  </div>
+</div>
+`;

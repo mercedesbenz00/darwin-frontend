@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="workflow__status">
+  <badge-stub label="active" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor=""></badge-stub>
+</div>
+`;
+
+exports[`when size is small matches snapshot 1`] = `
+<div class="workflow__status">
+  <badge-stub label="active" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor=""></badge-stub>
+</div>
+`;
+
+exports[`when value is set matches snapshot 1`] = `
+<div class="workflow__status">
+  <badge-stub label="active" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor=""></badge-stub>
+</div>
+`;

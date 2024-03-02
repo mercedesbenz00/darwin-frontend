@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="gallery" loading-message="Fetching items" empty-message="No data has been added yet" fixed-column-count="5" calculate-card-proportion="function () { [native code] }" view-mode="0">
+  <dataset-item-card-stub data="[object Object]"></dataset-item-card-stub>
+  <!---->
+  <dataset-item-card-stub data="[object Object]"></dataset-item-card-stub>
+  <!---->
+  <dataset-item-list-item-stub data="[object Object]"></dataset-item-list-item-stub>
+  <!---->
+  <dataset-item-list-item-stub data="[object Object]"></dataset-item-list-item-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<div class="gallery" loading-message="Fetching items" empty-message="No data has been added yet" fixed-column-count="5" calculate-card-proportion="function () { [native code] }" view-mode="0">
+  <open-dataset-item-card-stub data="[object Object]" urlprefix="/v7/sfh"></open-dataset-item-card-stub>
+  <!---->
+  <open-dataset-item-card-stub data="[object Object]" urlprefix="/v7/sfh"></open-dataset-item-card-stub>
+  <!---->
+  <dataset-item-list-item-stub data="[object Object]"></dataset-item-list-item-stub>
+  <!---->
+  <dataset-item-list-item-stub data="[object Object]"></dataset-item-list-item-stub>
+  <!---->
+</div>
+`;

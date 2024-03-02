@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="skeleton-node" style="top: 0px; left: 0px;">
+  <skeleton-node-id-stub label="Label" class="skeleton-node__id"></skeleton-node-id-stub>
+  <div class="skeleton-node__actions">
+    <div class="skeleton-node__main" style="border-color: #0000ff;"></div>
+    <skeleton-node-overlay-stub engine="[object Object]" node="[object Object]" class="skeleton-node__overlay"></skeleton-node-overlay-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when drawing 1`] = `
+<div class="skeleton-node skeleton-node--no-action" style="top: 0px; left: 0px;">
+  <skeleton-node-id-stub label="Label" class="skeleton-node__id"></skeleton-node-id-stub>
+  <div class="skeleton-node__actions">
+    <div class="skeleton-node__main" style="border-color: #0000ff;"></div>
+    <skeleton-node-overlay-stub engine="[object Object]" node="[object Object]" class="skeleton-node__overlay"></skeleton-node-overlay-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when node is highlighted 1`] = `
+<div class="skeleton-node skeleton-node--highlighted" style="top: 0px; left: 0px;">
+  <skeleton-node-id-stub label="Label" class="skeleton-node__id"></skeleton-node-id-stub>
+  <div class="skeleton-node__actions">
+    <div class="skeleton-node__main" style="border-color: #0000ff;"></div>
+    <skeleton-node-overlay-stub engine="[object Object]" node="[object Object]" class="skeleton-node__overlay"></skeleton-node-overlay-stub>
+  </div>
+</div>
+`;

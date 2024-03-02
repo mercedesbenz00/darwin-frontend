@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <title>Darwin</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="compab-cover">
+      <img src="/static/logo.svg" class="compab-logo">
+      <div class="compab-card">
+        <div class="compab-card__title">This browser is not supported.</div>
+        <div class="compab-card__description">
+          Darwin is compatible with recent versions of Chrome, Firefox, and Safari. Please upgrade to a more recent version or download one of these browsers to use the platform.
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    .compab-cover {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .compab-shape {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .compab-logo {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      user-select: none;
+    }
+    .compab-card {
+      width: 500px;
+      padding: 50px;
+      border-radius: 10px;
+      background: white;
+      box-shadow: 10px 30px 80px rgba(0, 108, 84, 0.5), 0px 1px 2px rgba(20, 5, 60, 0.15);
+      z-index: 1;
+    }
+    .compab-card__title {
+      margin-bottom: 33px;
+      font-family: Rubik;
+      font-weight: 500;
+      font-size: 38px;
+      color: #0B2448;
+    }
+    .compab-card__description {
+      font-family: 'Open Sans';
+      font-size: 16px;
+      line-height: 26px;
+      color: #3A4E6C;
+    }
+  </style>
+</html>

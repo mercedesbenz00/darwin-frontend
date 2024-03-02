@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when tutorial was not seen yet matches snapshot 1`] = `
+<div class="tutorial-box">
+  <div class="tutorial-box__hide">
+    ✕
+  </div>
+  <div class="tutorial-box__info">
+    <div class="tutorial-box__title">
+      <annotate-icon-stub></annotate-icon-stub> <span>Start the Annotation Tutorial</span>
+    </div>
+    <div class="tutorial-box__content">
+      Learn the basics of image annotation, and how to use the various
+      functionalities within Darwin through this 10 minute tutorial.
+    </div>
+    <div class="tutorial-box__actions">
+      <secondary-button-stub tag="a" href="https://www.v7labs.com/academy" target="_blank">
+        Visit the Academy
+      </secondary-button-stub>
+      <primary-button-stub tag="router-link" to="/tutorial">
+        Start Tutorial
+      </primary-button-stub>
+    </div>
+  </div>
+  <confirmation-dialog-stub title="Hide the Annotation Tutorial box?" detail="You will still be able to access the tutorial at <a href='http://localhost/tutorial'>http://localhost/tutorial</a>" name="hide-annotation-tutorial-box" confirmtext="Hide" canceltext="Cancel"></confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when tutorial was seen already  matches snapshot 1`] = ``;

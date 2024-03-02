@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="model-card">
+  <div class="model-card__header">
+    <annotation-class-icon-stub type="" class="model-card__icon"></annotation-class-icon-stub>
+    <badge-stub label="Stopped" overridetooltip="" size="medium" tag="div" color="[object Object]" alpha="0.1" overridelabelcolor="" class="model-card__badge"></badge-stub>
+  </div>
+  <div class="model-card__title">
+    a model
+  </div>
+</div>
+`;

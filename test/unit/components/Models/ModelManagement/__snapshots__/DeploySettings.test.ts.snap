@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when deploying matches snapshot 1`] = `
+<div class="deploy-settings">
+  <h2 class="deploy-settings__header">
+    Start Object Detection Model
+  </h2>
+  <p class="deploy-settings__description">
+    Pick a number of servers to start your model.
+    Once started, you'll be able to use it in model stages or as an API.
+  </p>
+  <instance-count-stub autostart="true" autostop="true" minimum="1" maximum="1" class="deploy-settings__section"></instance-count-stub>
+  <deployment-cost-stub instancecount="1" device="gpu" class="deploy-settings__cost"></deployment-cost-stub>
+  <div class="deploy-settings__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <primary-button-stub>
+      START
+    </primary-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when not deploying matches snapshot 1`] = ``;

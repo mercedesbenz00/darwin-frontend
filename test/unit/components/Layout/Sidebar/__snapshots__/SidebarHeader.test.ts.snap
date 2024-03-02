@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authenticated matches the snapshot 1`] = `
+<div class="sidebar__header-container">
+  <div class="sidebar__header">
+    <div class="sidebar__profile">
+      <team-avatar-stub team="[object Object]" id="sidebar-team-avatar" class="sidebar__profile__avatar"></team-avatar-stub>
+      <div class="sidebar__profile__name"><label class="sidebar__profile__name__label">V7</label></div>
+    </div>
+    <notification-bell-stub></notification-bell-stub>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`authenticated matches the snapshot when sidebar minimized 1`] = `
+<div class="sidebar__header-container">
+  <div class="sidebar__header sidebar__header--minimized">
+    <div class="sidebar__profile">
+      <team-avatar-stub team="[object Object]" id="sidebar-team-avatar" class="sidebar__profile__avatar"></team-avatar-stub>
+      <div class="sidebar__profile__name"><label class="sidebar__profile__name__label">V7</label></div>
+    </div>
+    <!---->
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`authenticated matches the snapshot when the overlay is shown 1`] = `
+<div class="sidebar__header-container">
+  <div class="sidebar__header">
+    <div class="sidebar__profile">
+      <team-avatar-stub team="[object Object]" id="sidebar-team-avatar" class="sidebar__profile__avatar"></team-avatar-stub>
+      <div class="sidebar__profile__name"><label class="sidebar__profile__name__label">V7</label></div>
+    </div>
+    <notification-bell-stub></notification-bell-stub>
+  </div>
+  <sidebar-overlay-stub class="sidebar__overlay"></sidebar-overlay-stub>
+</div>
+`;
+
+exports[`authenticated matches the snapshot when the team has no image 1`] = `
+<div class="sidebar__header-container">
+  <div class="sidebar__header">
+    <div class="sidebar__profile">
+      <team-avatar-stub team="[object Object]" id="sidebar-team-avatar" class="sidebar__profile__avatar"></team-avatar-stub>
+      <div class="sidebar__profile__name"><label class="sidebar__profile__name__label">V7 No Image</label></div>
+    </div>
+    <notification-bell-stub></notification-bell-stub>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`non-authenticated matches the snapshot 1`] = `
+<div class="sidebar__header-container">
+  <div class="sidebar__header">
+    <div class="sidebar__profile">
+      <team-avatar-stub team="[object Object]" id="sidebar-team-avatar" class="sidebar__profile__avatar"></team-avatar-stub>
+      <div class="sidebar__profile__name"><label class="sidebar__profile__name__label">V7</label></div>
+    </div>
+    <!---->
+  </div>
+  <!---->
+</div>
+`;

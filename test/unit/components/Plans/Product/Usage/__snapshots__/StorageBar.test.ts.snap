@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="storage-bar">
+  <div class="storage-bar__bar" style="width: 2%;"></div>
+  <div class="storage-bar__used">
+    100 managed files
+  </div>
+  <!---->
+  <div class="storage-bar__total">
+    of 5,000
+  </div>
+</div>
+`;
+
+exports[`when storage fully used up matches snapshot 1`] = `
+<div class="storage-bar">
+  <div class="storage-bar__bar storage-bar__bar--low storage-bar__bar--critical" style="width: 100%;"></div>
+  <div class="storage-bar__used">
+    5,000 managed files
+  </div>
+  <!---->
+  <div class="storage-bar__total">
+    of 5,000
+  </div>
+</div>
+`;
+
+exports[`when storage low matches snapshot 1`] = `
+<div class="storage-bar">
+  <div class="storage-bar__bar storage-bar__bar--low" style="width: 80%;"></div>
+  <div class="storage-bar__used">
+    4,000 managed files
+  </div>
+  <!---->
+  <div class="storage-bar__total">
+    of 5,000
+  </div>
+</div>
+`;

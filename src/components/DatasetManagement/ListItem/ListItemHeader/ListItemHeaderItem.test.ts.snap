@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when active 1`] = `
+<div class="list-item-header-item">
+  <!----> <span class="list-item-header-item__title"></span>
+</div>
+`;
+
+exports[`matches snapshot when sortable 1`] = `
+<div class="list-item-header-item list-item-header-item__sortable">
+  <sort-arrow-icon-stub class="list-item-header-item__icon list-item-header-item__icon--inactive list-item-header-item__icon--reverse"></sort-arrow-icon-stub> <span class="list-item-header-item__title"></span>
+</div>
+`;
+
+exports[`matches snapshot with default props 1`] = `
+<div class="list-item-header-item">
+  <!----> <span class="list-item-header-item__title"></span>
+</div>
+`;
+
+exports[`matches snapshot with title 1`] = `
+<div class="list-item-header-item">
+  <!----> <span class="list-item-header-item__title">Column 1</span>
+</div>
+`;
+
+exports[`matches snapshot with title desc 1`] = `
+<div class="list-item-header-item">
+  <!----> <span class="list-item-header-item__title"></span>
+</div>
+`;

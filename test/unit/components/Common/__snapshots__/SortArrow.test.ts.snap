@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with default props 1`] = `
+<div class="sort-arrow" style="color: rgb(255, 255, 255);">
+  <up-icon-stub></up-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot with descending, non-selected 1`] = `
+<div class="sort-arrow" style="color: rgb(255, 255, 255);">
+  <down-icon-stub></down-icon-stub>
+</div>
+`;

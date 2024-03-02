@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`images tab matches snapshot 1`] = `
+<div class="class-distribution">
+  <div class="class-distribution__header">
+    <h3 class="class-distribution__title">
+      Class Distribution
+    </h3>
+    <gray-rounded-tabs-stub currenttab="images" tabs="instances,files" class="class-distribution__tabs"></gray-rounded-tabs-stub>
+  </div>
+  <div class="class-distribution__content">
+    <class-distribution-annotation-types-stub distribution="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="class-distribution__types"></class-distribution-annotation-types-stub>
+    <div class="class-distribution-table_container">
+      <class-distribution-table-stub distributions="[object Object],[object Object],[object Object]" dimension="countByImages" class="class-distribution-table"></class-distribution-table-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`instances tab matches snapshot 1`] = `
+<div class="class-distribution">
+  <div class="class-distribution__header">
+    <h3 class="class-distribution__title">
+      Class Distribution
+    </h3>
+    <gray-rounded-tabs-stub currenttab="instances" tabs="instances,files" class="class-distribution__tabs"></gray-rounded-tabs-stub>
+  </div>
+  <div class="class-distribution__content">
+    <class-distribution-annotation-types-stub distribution="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="class-distribution__types"></class-distribution-annotation-types-stub>
+    <div class="class-distribution-table_container">
+      <class-distribution-table-stub distributions="[object Object],[object Object],[object Object]" dimension="countByInstances" class="class-distribution-table"></class-distribution-table-stub>
+    </div>
+  </div>
+</div>
+`;

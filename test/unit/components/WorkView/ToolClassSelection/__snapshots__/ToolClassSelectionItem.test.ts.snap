@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<li class="tool-class-item" tooltip="{'content':'\\n        <span>\\n          <span class=\\'tooltip__hotkey\\'>↑</span>\\n           and <span class=\\'tooltip__hotkey\\'>↑</span> to navigate.\\n        </span><br>\\n        <span><span class=\\'tooltip__hotkey\\'>Enter</span> to select.</span>\\n      ','placement':'right','classes':'tooltip--hotkey-in-text'}">
+  <div class="tool-class-item__image-container">
+    <!---->
+    <div class="tool-class-item__initials" style="background: rgba(0, 0, 0, 0.1);">
+      F
+    </div>
+  </div>
+  <div class="tool-class-item__info">
+    <div class="tool-class-item__info__label"><span class="tool-class-item__color-indicator" style="background-color: rgba(0, 0, 0, 0.1);"></span> <span class="tool-class-item__label">Flask</span>
+      <hotkey-display-stub></hotkey-display-stub>
+    </div>
+    <div class="tool-class-item__description">
+      description
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when highlighted 1`] = `
+<li class="tool-class-item tool-class-item--highlighted" tooltip="{'content':'\\n        <span>\\n          <span class=\\'tooltip__hotkey\\'>↑</span>\\n           and <span class=\\'tooltip__hotkey\\'>↑</span> to navigate.\\n        </span><br>\\n        <span><span class=\\'tooltip__hotkey\\'>Enter</span> to select.</span>\\n      ','placement':'right','classes':'tooltip--hotkey-in-text'}">
+  <div class="tool-class-item__image-container">
+    <!---->
+    <div class="tool-class-item__initials" style="background: rgba(0, 0, 0, 0.1);">
+      F
+    </div>
+  </div>
+  <div class="tool-class-item__info">
+    <div class="tool-class-item__info__label"><span class="tool-class-item__color-indicator" style="background-color: rgba(0, 0, 0, 0.1);"></span> <span class="tool-class-item__label">Flask</span>
+      <hotkey-display-stub></hotkey-display-stub>
+    </div>
+    <div class="tool-class-item__description">
+      description
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<li class="tool-class-item tool-class-item--selected" tooltip="{'content':'\\n        <span>\\n          <span class=\\'tooltip__hotkey\\'>↑</span>\\n           and <span class=\\'tooltip__hotkey\\'>↑</span> to navigate.\\n        </span><br>\\n        <span><span class=\\'tooltip__hotkey\\'>Enter</span> to select.</span>\\n      ','placement':'right','classes':'tooltip--hotkey-in-text'}">
+  <div class="tool-class-item__image-container">
+    <!---->
+    <div class="tool-class-item__initials" style="background: rgba(0, 0, 0, 0.1);">
+      F
+    </div>
+  </div>
+  <div class="tool-class-item__info">
+    <div class="tool-class-item__info__label"><span class="tool-class-item__color-indicator" style="background-color: rgba(0, 0, 0, 0.1);"></span> <span class="tool-class-item__label">Flask</span>
+      <hotkey-display-stub></hotkey-display-stub>
+    </div>
+    <div class="tool-class-item__description">
+      description
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot with hotkey 1`] = `
+<li class="tool-class-item" tooltip="{'content':'\\n        <span>\\n          <span class=\\'tooltip__hotkey\\'>↑</span>\\n           and <span class=\\'tooltip__hotkey\\'>↑</span> to navigate.\\n        </span><br>\\n        <span><span class=\\'tooltip__hotkey\\'>Enter</span> to select.</span>\\n      ','placement':'right','classes':'tooltip--hotkey-in-text'}">
+  <div class="tool-class-item__image-container">
+    <!---->
+    <div class="tool-class-item__initials" style="background: rgba(0, 0, 0, 0.1);">
+      F
+    </div>
+  </div>
+  <div class="tool-class-item__info">
+    <div class="tool-class-item__info__label"><span class="tool-class-item__color-indicator" style="background-color: rgba(0, 0, 0, 0.1);"></span> <span class="tool-class-item__label">Flask</span>
+      <hotkey-display-stub hotkey="1"></hotkey-display-stub>
+    </div>
+    <div class="tool-class-item__description">
+      description
+    </div>
+  </div>
+</li>
+`;
+
+exports[`matches snapshot with image url 1`] = `
+<li class="tool-class-item" tooltip="{'content':'\\n        <span>\\n          <span class=\\'tooltip__hotkey\\'>↑</span>\\n           and <span class=\\'tooltip__hotkey\\'>↑</span> to navigate.\\n        </span><br>\\n        <span><span class=\\'tooltip__hotkey\\'>Enter</span> to select.</span>\\n      ','placement':'right','classes':'tooltip--hotkey-in-text'}">
+  <div class="tool-class-item__image-container"><img class="tool-class-item__image" lazy="1.jpg">
+    <!---->
+  </div>
+  <div class="tool-class-item__info">
+    <div class="tool-class-item__info__label"><span class="tool-class-item__color-indicator" style="background-color: rgba(0, 0, 0, 0.1);"></span> <span class="tool-class-item__label">Flask</span>
+      <hotkey-display-stub></hotkey-display-stub>
+    </div>
+    <div class="tool-class-item__description">
+      description
+    </div>
+  </div>
+</li>
+`;

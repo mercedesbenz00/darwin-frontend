@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<div class="comment-thread-icon" style="left: 1.5px; top: 1.5px;" tooltip="{'placement':'top','content':'Use the Comment tool to read this comment','trigger':'hover focus click'}"><img src="/static/imgs/comment.svg"> <span>0</span></div>`;
+
+exports[`when commentator tool is active matches snapshot 1`] = `<div class="comment-thread-icon comment-thread-icon--active" style="left: 1.5px; top: 1.5px;" tooltip="undefined"><img src="/static/imgs/comment.svg"> <span>0</span></div>`;
+
+exports[`when highlighted matches snapshot 1`] = `<div class="comment-thread-icon comment-thread-icon--highlighted" style="left: 1.5px; top: 1.5px;" tooltip="{'placement':'top','content':'Use the Comment tool to read this comment','trigger':'hover focus click'}"><img src="/static/imgs/comment.svg"> <span>0</span></div>`;
+
+exports[`when selected matches snapshot 1`] = `<div class="comment-thread-icon comment-thread-icon--selected" style="left: 1.5px; top: 1.5px;" tooltip="{'placement':'top','content':'Use the Comment tool to read this comment','trigger':'hover focus click'}"><img src="/static/imgs/comment.svg"> <span>0</span></div>`;
+
+exports[`with commentCount matches snapshot 1`] = `<div class="comment-thread-icon" style="left: 1.5px; top: 1.5px;" tooltip="{'placement':'top','content':'Use the Comment tool to read this comment','trigger':'hover focus click'}"><img src="/static/imgs/comment.svg"> <span>3</span></div>`;

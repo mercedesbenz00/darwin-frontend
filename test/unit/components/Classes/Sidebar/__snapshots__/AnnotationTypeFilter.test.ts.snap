@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotation-type-filter">
+  <annotation-type-filter-item-stub data="[object Object]"></annotation-type-filter-item-stub>
+  <annotation-type-filter-item-stub data="[object Object]"></annotation-type-filter-item-stub>
+  <annotation-type-filter-item-stub data="[object Object]"></annotation-type-filter-item-stub>
+</div>
+`;

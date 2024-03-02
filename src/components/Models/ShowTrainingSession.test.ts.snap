@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot (with eta) 1`] = `
+<div class="training-session">
+  <metric-loader-stub trainingsession="[object Object]"></metric-loader-stub>
+  <bread-crumbs-stub class="training-session__navigation"></bread-crumbs-stub>
+  <div class="training-session__header">
+    <h1>A training session with unset name</h1>
+    <training-button-stub trainingsession="[object Object]"></training-button-stub>
+  </div>
+  <div class="training-session__section">
+    <p>
+      This model hasn't finished training yet. Come back later to run it.
+      <span>ETA: 16 hours and 27 minutes</span>
+    </p>
+  </div>
+  <div class="training-session__charts">
+    <loss-chart-stub trainingsession="[object Object]"></loss-chart-stub>
+  </div>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div class="training-session">
+  <metric-loader-stub trainingsession="[object Object]"></metric-loader-stub>
+  <bread-crumbs-stub class="training-session__navigation"></bread-crumbs-stub>
+  <div class="training-session__header">
+    <h1>A training session with unset name</h1>
+    <training-button-stub trainingsession="[object Object]"></training-button-stub>
+  </div>
+  <div class="training-session__section">
+    <p>
+      This model hasn't finished training yet. Come back later to run it.
+      <!---->
+    </p>
+  </div>
+  <div class="training-session__charts">
+    <loss-chart-stub trainingsession="[object Object]"></loss-chart-stub>
+  </div>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;

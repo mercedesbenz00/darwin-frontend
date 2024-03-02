@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with slots 1`] = `<button class="file-set-action-button">Default slot</button>`;
+
+exports[`matches snapshot without slots 1`] = `<button class="file-set-action-button"></button>`;

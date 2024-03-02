@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when current frame is keyframe 1`] = `
+<button class="keyframe-button keyframe-button--selected" tooltip="{'content':'Remove current keyframe <span class=\\'tooltip__hotkey\\'>I</span>','placement':'top','delay':1000}">
+  <keyframe-icon-stub></keyframe-icon-stub>
+</button>
+`;
+
+exports[`matches snapshot when current frame is not keyframe 1`] = `
+<button class="keyframe-button" tooltip="{'content':'Create a new keyframe <span class=\\'tooltip__hotkey\\'>I</span>','placement':'top','delay':1000}">
+  <keyframe-icon-stub></keyframe-icon-stub>
+</button>
+`;
+
+exports[`matches snapshot when no loaded video 1`] = ``;

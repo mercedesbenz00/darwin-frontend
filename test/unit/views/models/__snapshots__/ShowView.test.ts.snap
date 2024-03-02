@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`on matched running session matches snapshot 1`] = `<show-running-session-stub runningsession="[object Object]"></show-running-session-stub>`;
+
+exports[`on matched trained model matches snapshot 1`] = `<show-trained-model-stub trainedmodel="[object Object]"></show-trained-model-stub>`;
+
+exports[`un unmatched record matches snapshot 1`] = ``;

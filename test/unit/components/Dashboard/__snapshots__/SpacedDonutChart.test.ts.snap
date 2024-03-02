@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="chart"><svg viewBox="-30 -30 360 360">
+    <filter id="chart-dropshadow" x="-30" y="-30" height="360" width="360">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5"></feOffset>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+    </filter>
+    <defs></defs>
+    <path fill="FFFFFF" stroke="FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 279.96802798008594 182.6237904445147 A 134 134 0 0 0 161.6788695281862 16.50991045570609 M 161.6788695281862 16.50991045570609 L 161.6788695281862 16.50991045570609 A 134 134 0 0 1 279.96802798008594 182.6237904445147 L 279.96802798008594 182.6237904445147" filter="url(#chart-dropshadow)"></path>
+    <path fill="000000" stroke="000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 56.76295471726729 246.24371868826375 A 134 134 0 0 0 272.3284598392184 204.6968729761102 M 272.3284598392184 204.6968729761102 L 272.3284598392184 204.6968729761102 A 134 134 0 0 1 56.76295471726729 246.24371868826375 L 56.76295471726729 246.24371868826375" filter="url(#chart-dropshadow)"></path>
+    <path fill="AAAAAA" stroke="AAAAAA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 138.3211304718138 16.50991045570609 A 134 134 0 0 0 41.466888575508804 228.59111733853246 M 41.466888575508804 228.59111733853246 L 41.466888575508804 228.59111733853246 A 134 134 0 0 1 138.3211304718138 16.50991045570609 L 138.3211304718138 16.50991045570609" filter="url(#chart-dropshadow)"></path>
+  </svg>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when all items are at 0 1`] = `
+<div class="chart"><svg viewBox="-30 -30 360 360">
+    <filter id="chart-dropshadow" x="-30" y="-30" height="360" width="360">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5"></feOffset>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+    </filter>
+    <defs></defs>
+    <!---->
+  </svg>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when an item is much smaller than others 1`] = `
+<div class="chart"><svg viewBox="-30 -30 360 360">
+    <filter id="chart-dropshadow" x="-30" y="-30" height="360" width="360">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5"></feOffset>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+    </filter>
+    <defs></defs>
+    <path fill="FFFFFF" stroke="FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 163.76378338389773 283.29125352760826 A 134 134 0 0 0 161.6788695281862 16.50991045570609 M 161.6788695281862 16.50991045570609 L 161.6788695281862 16.50991045570609 A 134 134 0 0 1 163.76378338389773 283.29125352760826 L 163.76378338389773 283.29125352760826" filter="url(#chart-dropshadow)"></path>
+    <path fill="000000" stroke="000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M 134.15466506161215 16.94014369205749 A 134 134 0 0 0 140.40889731323313 283.6563157851207 M 140.40889731323313 283.6563157851207 L 140.40889731323313 283.6563157851207 A 134 134 0 0 1 134.15466506161215 16.94014369205749 L 134.15466506161215 16.94014369205749" filter="url(#chart-dropshadow)"></path>
+  </svg>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when only one item is big enough to show 1`] = `
+<div class="chart"><svg viewBox="-30 -30 360 360">
+    <filter id="chart-dropshadow" x="-30" y="-30" height="360" width="360">
+      <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5"></feOffset>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="4"></feGaussianBlur>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+    </filter>
+    <defs></defs>
+    <circle cx="150" cy="150" r="134" fill="transparent" stroke="FFFFFF" stroke-width="8" filter="url(#chart-dropshadow)"></circle>
+  </svg>
+  <!---->
+</div>
+`;

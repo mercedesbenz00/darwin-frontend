@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="key-management">
+  <access-instructions-stub title="Using API keys" snippets="[object Object],[object Object]" class="key-management__instructions"></access-instructions-stub>
+  <loading-wrapper-stub backgroundcolor="rgba(0, 0, 0, 0.1)" label="Loading your keys" size="medium" theme="grey">
+    <div class="key-management__subheader"><span>Your Keys</span>
+      <info-stub title="Keys you've created">
+        These are for all of your teams, not just v7
+      </info-stub>
+    </div>
+    <div class="key-management__list">
+      <div>
+        You haven't created any keys yet.
+      </div>
+    </div>
+    <!---->
+  </loading-wrapper-stub>
+  <div class="key-management__actions">
+    <positive-button-stub>
+      NEW KEY
+    </positive-button-stub>
+  </div>
+  <modal-stub name="createApiKey" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="40%" height="auto" pivotx="0.5" pivoty="0.5">
+    <create-key-stub team="[object Object]"></create-key-stub>
+  </modal-stub>
+</div>
+`;
+
+exports[`matches snapshot with user and team keys present 1`] = `
+<div class="key-management">
+  <access-instructions-stub title="Using API keys" snippets="[object Object],[object Object]" class="key-management__instructions"></access-instructions-stub>
+  <loading-wrapper-stub backgroundcolor="rgba(0, 0, 0, 0.1)" label="Loading your keys" size="medium" theme="grey">
+    <div class="key-management__subheader"><span>Your Keys</span>
+      <info-stub title="Keys you've created">
+        These are for all of your teams, not just v7
+      </info-stub>
+    </div>
+    <div class="key-management__list">
+      <div class="key-list-item key-management__list__item" api-key="[object Object]">
+        <key-team-avatar-stub apikey="[object Object]"></key-team-avatar-stub>
+        <delete-key-button-stub apikey="[object Object]"></delete-key-button-stub>
+      </div>
+      <div class="key-list-item key-management__list__item" api-key="[object Object]">
+        <key-team-avatar-stub apikey="[object Object]"></key-team-avatar-stub>
+        <delete-key-button-stub apikey="[object Object]"></delete-key-button-stub>
+      </div>
+      <!---->
+    </div>
+    <div class="key-management__subheader"><span>v7 Keys</span>
+      <info-stub title="Keys by other v7 members">
+        You're seeing this because you're an administrator in v7
+      </info-stub>
+    </div>
+    <div class="key-management__list">
+      <div class="key-list-item key-management__list__item" api-key="[object Object]">
+        <key-owner-avatar-stub apikey="[object Object]"></key-owner-avatar-stub>
+        <delete-key-button-stub apikey="[object Object]"></delete-key-button-stub>
+      </div>
+    </div>
+  </loading-wrapper-stub>
+  <div class="key-management__actions">
+    <positive-button-stub>
+      NEW KEY
+    </positive-button-stub>
+  </div>
+  <modal-stub name="createApiKey" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="40%" height="auto" pivotx="0.5" pivoty="0.5">
+    <create-key-stub team="[object Object]"></create-key-stub>
+  </modal-stub>
+</div>
+`;

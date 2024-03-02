@@ -1,0 +1,11 @@
+// transition
+
+$lognTransition: 3000ms;
+$normalTransition: 1000ms;
+$mediumTransition: 500ms;
+$shortTransition: 255ms;
+$veryShortTransition: 125ms;
+
+$transitionBorder: border $shortTransition ease;
+$transitionBackground: background-color $shortTransition ease;
+$transitionDefault: $shortTransition ease;

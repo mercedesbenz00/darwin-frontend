@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="workview-stub dataset-image-view" no-class-dialog="" editor="[object Object]" hotkeys="[object Object],[object Object]" open-work-mode="">
+  <div class="top">
+    <div class="top-bar-stub">
+      <!---->
+      <div class="top-bar-stub__right-container">
+        <div class="center-slot-given">
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="dataset-image-view__center__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="dataset-image-view__center__right-container">
+      <read-only-layer-bar-stub editor="[object Object]" class="dataset-image-view__center__layerbar"></read-only-layer-bar-stub>
+      <tag-applier-stub editor="[object Object]" disabled="true" parentheight="0" class="dataset-image-view__center__tag-applier"></tag-applier-stub>
+    </div>
+  </div>
+  <div class="sticky-bars">
+    <workflow-filter-stub parentheight="48" dataset="[object Object]" class="dataset-image-view__filter"></workflow-filter-stub>
+    <!---->
+  </div>
+  <div class="main"></div>
+  <div class="default">
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub openworkmode="true"></item-count-loader-stub>
+    <items-loader-stub openworkmode="true"></items-loader-stub>
+    <stage-selector-stub></stage-selector-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+  </div>
+</div>
+`;
+
+exports[`never render video annotations control when dicom video has 1 frame 1`] = `
+<div class="workview-stub dataset-image-view" no-class-dialog="" editor="[object Object]" hotkeys="[object Object],[object Object]" open-work-mode="">
+  <div class="top">
+    <div class="top-bar-stub">
+      <!---->
+      <div class="top-bar-stub__right-container">
+        <div class="center-slot-given">
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="dataset-image-view__center__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="dataset-image-view__center__right-container">
+      <read-only-layer-bar-stub editor="[object Object]" class="dataset-image-view__center__layerbar"></read-only-layer-bar-stub>
+      <tag-applier-stub editor="[object Object]" disabled="true" parentheight="0" class="dataset-image-view__center__tag-applier"></tag-applier-stub>
+    </div>
+  </div>
+  <div class="sticky-bars">
+    <workflow-filter-stub parentheight="48" dataset="[object Object]" class="dataset-image-view__filter"></workflow-filter-stub>
+    <!---->
+  </div>
+  <div class="main"></div>
+  <div class="default">
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub openworkmode="true"></item-count-loader-stub>
+    <items-loader-stub openworkmode="true"></items-loader-stub>
+    <stage-selector-stub></stage-selector-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+  </div>
+</div>
+`;
+
+exports[`never render video annotations control when pdf video has 1 frame 1`] = `
+<div class="workview-stub dataset-image-view" no-class-dialog="" editor="[object Object]" hotkeys="[object Object],[object Object]" open-work-mode="">
+  <div class="top">
+    <div class="top-bar-stub">
+      <!---->
+      <div class="top-bar-stub__right-container">
+        <div class="center-slot-given">
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="dataset-image-view__center__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="dataset-image-view__center__right-container">
+      <read-only-layer-bar-stub editor="[object Object]" class="dataset-image-view__center__layerbar"></read-only-layer-bar-stub>
+      <tag-applier-stub editor="[object Object]" disabled="true" parentheight="0" class="dataset-image-view__center__tag-applier"></tag-applier-stub>
+    </div>
+  </div>
+  <div class="sticky-bars">
+    <workflow-filter-stub parentheight="48" dataset="[object Object]" class="dataset-image-view__filter"></workflow-filter-stub>
+    <!---->
+  </div>
+  <div class="main"></div>
+  <div class="default">
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub openworkmode="true"></item-count-loader-stub>
+    <items-loader-stub openworkmode="true"></items-loader-stub>
+    <stage-selector-stub></stage-selector-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+  </div>
+</div>
+`;
+
+exports[`renders video annotations control 1`] = `
+<div class="workview-stub dataset-image-view" no-class-dialog="" editor="[object Object]" hotkeys="[object Object],[object Object]" open-work-mode="">
+  <div class="top">
+    <div class="top-bar-stub">
+      <!---->
+      <div class="top-bar-stub__right-container">
+        <div class="center-slot-given">
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+          <!---->
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <workflow-bottom-bar-stub></workflow-bottom-bar-stub>
+  </div>
+  <div class="left">
+    <tool-bar-stub editor="[object Object]" class="dataset-image-view__center__toolbar"></tool-bar-stub>
+  </div>
+  <div class="right">
+    <div class="dataset-image-view__center__right-container">
+      <read-only-layer-bar-stub editor="[object Object]" class="dataset-image-view__center__layerbar"></read-only-layer-bar-stub>
+      <tag-applier-stub editor="[object Object]" disabled="true" parentheight="0" class="dataset-image-view__center__tag-applier"></tag-applier-stub>
+    </div>
+  </div>
+  <div class="sticky-bars">
+    <workflow-filter-stub parentheight="48" dataset="[object Object]" class="dataset-image-view__filter dataset-image-view__filter--with-video-tool"></workflow-filter-stub>
+    <video-annotations-stub editor="[object Object]"></video-annotations-stub>
+  </div>
+  <div class="main"></div>
+  <div class="default">
+    <workflow-plugin-manager-stub editor="[object Object]"></workflow-plugin-manager-stub>
+    <item-count-loader-stub openworkmode="true"></item-count-loader-stub>
+    <items-loader-stub openworkmode="true"></items-loader-stub>
+    <stage-selector-stub></stage-selector-stub>
+    <stage-annotation-loader-stub></stage-annotation-loader-stub>
+  </div>
+</div>
+`;

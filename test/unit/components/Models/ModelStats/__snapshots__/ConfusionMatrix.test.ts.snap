@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`otherwise matches snapshot 1`] = `
+<div>
+  <div class="session_stats_header">
+    <h1>Confusion Matrix</h1>
+  </div>
+  <div class="confusion-matrix-container">
+    <div class="confusion-matrix" style="gap: 7px; grid-template-columns: 3fr repeat(4, 1fr); height: 308px; width: 308px;">
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 40px; line-height: 40px; width: 120px;"><span>a</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.2); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>10.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.2); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>20.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.25); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>30.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.375); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>40.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 40px; line-height: 40px; width: 120px;"><span>b</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.5); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>50.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.625); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>60.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.75); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>70.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.875); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>80.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 40px; line-height: 40px; width: 120px;"><span>c</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(114, 0, 204); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>90.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.875); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>80.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.75); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>70.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.625); color: white; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>60.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 40px; line-height: 40px; width: 120px;"><span>d</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.5); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>50.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.375); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>40.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.25); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>30.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgba(114, 0, 204, 0.2); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 40px;"><span>20.0</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(114, 0, 204); color: black; font-size: 12px; font-weight: bold; height: 40px; line-height: 40px; width: 120px;"><span></span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 120px; line-height: 40px; width: 40px;"><span style="display: inline-block; height: 40px; margin-top: 40px; margin-left: -40px; overflow: hidden; transform: rotate(-90deg); width: 120px;">a</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 120px; line-height: 40px; width: 40px;"><span style="display: inline-block; height: 40px; margin-top: 40px; margin-left: -40px; overflow: hidden; transform: rotate(-90deg); width: 120px;">b</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 120px; line-height: 40px; width: 40px;"><span style="display: inline-block; height: 40px; margin-top: 40px; margin-left: -40px; overflow: hidden; transform: rotate(-90deg); width: 120px;">c</span></div>
+      <div class="confusion-matrix__cell" style="background-color: rgb(241, 245, 249); color: black; font-size: 12px; font-weight: regular; height: 120px; line-height: 40px; width: 40px;"><span style="display: inline-block; height: 40px; margin-top: 40px; margin-left: -40px; overflow: hidden; transform: rotate(-90deg); width: 120px;">d</span></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when classes is undefined matches snapshot 1`] = `
+<div>
+  <div class="session_stats_header">
+    <h1>Confusion Matrix</h1>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when norm field is undefined matches snapshot 1`] = `
+<div>
+  <div class="session_stats_header">
+    <h1>Confusion Matrix</h1>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when trainedModel is null matches snapshot 1`] = `
+<div>
+  <div class="session_stats_header">
+    <h1>Confusion Matrix</h1>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when training results are null matches snapshot 1`] = `
+<div>
+  <div class="session_stats_header">
+    <h1>Confusion Matrix</h1>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when training results test_metrics field in undefined matches snapshot 1`] = `
+<div>
+  <div class="session_stats_header">
+    <h1>Confusion Matrix</h1>
+  </div>
+  <!---->
+</div>
+`;

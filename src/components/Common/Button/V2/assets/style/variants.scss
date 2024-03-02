@@ -1,0 +1,208 @@
+$variants: "default", "outline";
+$primary: (
+  default: $colorInteractivePrimaryDefault,
+  border: $colorInteractivePrimaryDefault,
+  hover: $colorInteractivePrimaryHover,
+  pressed: $colorInteractivePrimaryPressed,
+  text: $colorContentInverted,
+  disabled: $colorInteractivePrimaryDisabled,
+);
+$secondary: (
+  default: $colorSurfaceDarken,
+  border: $colorStrokeStrong,
+  hover: $colorInteractiveSecondaryHover,
+  pressed: $colorInteractiveSecondaryPressed,
+  text: $colorContentDefault,
+  disabled: $colorInteractiveSecondaryDisabled,
+);
+$warning: (
+  default: $colorInteractiveWarningDefault,
+  border: $colorInteractiveWarningDefault,
+  hover: $colorInteractiveWarningHover,
+  pressed: $colorInteractiveWarningPressed,
+  text: $colorContentInverted,
+  disabled: $colorInteractiveWarningDisabled,
+);
+$positive: (
+  default: $colorInteractivePositiveDefault,
+  border: $colorInteractivePositiveDefault,
+  hover: $colorInteractivePositiveHover,
+  pressed: $colorInteractivePositivePressed,
+  text: $colorContentInverted,
+  disabled: $colorInteractivePositiveDisabled,
+);
+$negative: (
+  default: $colorInteractiveNegativeDefault,
+  border: $colorInteractiveNegativeDefault,
+  hover: $colorInteractiveNegativeHover,
+  pressed: $colorInteractiveNegativePressed,
+  text: $colorContentInverted,
+  disabled: $colorInteractiveNegativeDisabled,
+);
+$transparent: (
+  default: transparent,
+  border: $colorContentDefault,
+  hover: $colorOverlayHover,
+  pressed: $colorOverlayPressed,
+  text: $colorContentDefault,
+  disabled: transparent,
+);
+$stage: (
+  archive: (
+    default: $colorStagesArchiveDefault,
+    border: $colorStagesArchiveDefault,
+    hover: $colorStagesArchiveHover,
+    pressed: $colorStagesArchivePressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  annotate: (
+    default: $colorStagesAnnotateDefault,
+    border: $colorStagesAnnotateDefault,
+    hover: $colorStagesAnnotateHover,
+    pressed: $colorStagesAnnotatePressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  code: (
+    default: $colorStagesCodeDefault,
+    border: $colorStagesCodeDefault,
+    hover: $colorStagesCodeHover,
+    pressed: $colorStagesCodePressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  complete: (
+    default: $colorStagesCompleteDefault,
+    border: $colorStagesCompleteDefault,
+    hover: $colorStagesCompleteHover,
+    pressed: $colorStagesCompletePressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  dataset: (
+    default: $colorStagesDatasetDefault,
+    border: $colorStagesDatasetDefault,
+    hover: $colorStagesDatasetHover,
+    pressed: $colorStagesDatasetPressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  discard: (
+    default: $colorStagesDiscardDefault,
+    border: $colorStagesDiscardDefault,
+    hover: $colorStagesDiscardHover,
+    pressed: $colorStagesDiscardPressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  logic: (
+    default: $colorStagesLogicDefault,
+    border: $colorStagesLogicDefault,
+    hover: $colorStagesLogicHover,
+    pressed: $colorStagesLogicPressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  model: (
+    default: $colorStagesModelDefault,
+    border: $colorStagesModelDefault,
+    hover: $colorStagesModelHover,
+    pressed: $colorStagesModelPressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  new: (
+    default: $colorInteractivePrimaryDefault,
+    border: $colorInteractivePrimaryDefault,
+    hover: $colorInteractivePrimaryHover,
+    pressed: $colorInteractivePrimaryPressed,
+    text: $colorContentInverted,
+    disabled: $colorInteractivePrimaryDisabled,
+  ),
+  review: (
+    default: $colorStagesReviewDefault,
+    border: $colorStagesReviewDefault,
+    hover: $colorStagesReviewHover,
+    pressed: $colorStagesReviewPressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+  webhook: (
+    default: $colorStagesWebhookDefault,
+    border: $colorStagesWebhookDefault,
+    hover: $colorStagesWebhookHover,
+    pressed: $colorStagesWebhookPressed,
+    text: $colorContentInverted,
+    disabled: transparent,
+  ),
+);
+
+$colors: (
+  primary: $primary,
+  secondary: $secondary,
+  warning: $warning,
+  positive: $positive,
+  negative: $negative,
+  transparent: $transparent,
+  stage-annotate: map-get($stage, "annotate"),
+  stage-code: map-get($stage, "annotate"),
+  stage-complete: map-get($stage, "complete"),
+  stage-dataset: map-get($stage, "dataset"),
+  stage-discard: map-get($stage, "discard"),
+  stage-logic: map-get($stage, "logic"),
+  stage-model: map-get($stage, "model"),
+  stage-new: map-get($stage, "new"),
+  stage-review: map-get($stage, "review"),
+  stage-webhook: map-get($stage, "webhook"),
+);
+
+// variant and colors are managed in the same file
+// as we need to apply a bordered color for the outlined
+// variant instead of a bacckground-color
+.variant {
+  @each $variant in $variants {
+    &--#{$variant} {
+      @each $key in map-keys($colors) {
+        $color: map-get($colors, $key);
+
+        &.color--#{"" + $key} {
+          @if $variant == "outline" {
+            background-color: transparent;
+            border: 1px solid map-get($color, "border");
+            @if $key == "secondary" {
+              color: map-get($color, "text") !important;
+            } @else {
+              color: map-get($color, "default") !important;
+            }
+          } @else {
+            background-color: map-get($color, "default");
+            color: map-get($color, "text") !important;
+          }
+
+          &:hover {
+            background-color: map-get($color, "hover");
+            color: map-get($color, "text") !important;
+          }
+
+          &:focus,
+          &:active {
+            &:hover {
+              background-color: map-get($color, "pressed");
+            }
+          }
+
+          &[disabled] {
+            @if $variant == "outline" {
+              border: 1px solid map-get($color, "disabled");
+            } @else {
+              background-color: map-get($color, "disabled");
+            }
+            pointer-events: none;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+}

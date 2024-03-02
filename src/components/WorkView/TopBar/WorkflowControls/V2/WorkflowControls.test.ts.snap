@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in current annotate stage matches snapshot 1`] = ``;
+
+exports[`in current complete stage matches snapshot 1`] = ``;
+
+exports[`in current dataset stage matches snapshot 1`] = ``;
+
+exports[`in current discard stage matches snapshot 1`] = ``;
+
+exports[`in current review stage matches snapshot 1`] = ``;
+
+exports[`in current webhook stage matches snapshot 1`] = ``;
+
+exports[`in new item matches snapshot 1`] = `<noworkflowcontrols-stub></noworkflowcontrols-stub>`;
+
+exports[`in new item renders redirect button to workflows page 1`] = `<noworkflowcontrols-stub></noworkflowcontrols-stub>`;
+
+exports[`in time travel matches snapshot 1`] = `<backtothepresent-stub></backtothepresent-stub>`;

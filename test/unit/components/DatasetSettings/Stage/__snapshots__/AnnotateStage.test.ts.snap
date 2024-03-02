@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<stage-template-stub class="annotate">
+  <annotate-round-icon-stub class="annotate__header__icon"></annotate-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <!---->
+  <div class="annotate__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <!---->
+    </div>
+    <div class="annotate__body__list scroll">
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <!---->
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+</stage-template-stub>
+`;
+
+exports[`matches snapshot when one of the members is assigned 1`] = `
+<stage-template-stub class="annotate">
+  <annotate-round-icon-stub class="annotate__header__icon"></annotate-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <!---->
+  <div class="annotate__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <!---->
+    </div>
+    <div class="annotate__body__list scroll">
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <!---->
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" selected="true" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+</stage-template-stub>
+`;
+
+exports[`show/hide trash icon matches snapshot when deletable 1`] = `
+<stage-template-stub class="annotate">
+  <annotate-round-icon-stub class="annotate__header__icon"></annotate-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <delete-button-stub></delete-button-stub>
+  <!---->
+  <div class="annotate__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <!---->
+    </div>
+    <div class="annotate__body__list scroll">
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <!---->
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+</stage-template-stub>
+`;
+
+exports[`with sampling rates matches snapshot 1`] = `
+<stage-template-stub class="annotate annotate--rates">
+  <annotate-round-icon-stub class="annotate__header__icon"></annotate-round-icon-stub>
+  <stage-title-stub value="Annotate"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <sampling-rate-stub value="1" class="annotate__base-sampling rates-asside"></sampling-rate-stub>
+  <div class="annotate__body rates-container">
+    <div class="rates-row">
+      <input-field-stub value="" placeholder="Search users" type="text" theme="dark"></input-field-stub>
+      <sampling-info-stub class="annotate__search-row__info"></sampling-info-stub>
+    </div>
+    <div class="annotate__body__list scroll">
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <assignability-toggle-stub assignableto="anyone"></assignability-toggle-stub>
+        <sampling-rate-stub value="1" class="annotate__user-sampling"></sampling-rate-stub>
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <sampling-rate-stub value="1" disabled="true" class="annotate__annotator-sampling"></sampling-rate-stub>
+      </div>
+      <div class="annotate__body__list__item rates-row scroll__row">
+        <annotator-score-popover-stub actor="[object Object]">
+          <annotator-toggle-stub member="[object Object]" sampling-rate="1" class="annotate__body__list__item__toggle--fade"></annotator-toggle-stub>
+        </annotator-score-popover-stub>
+        <sampling-rate-stub value="1" disabled="true" class="annotate__annotator-sampling"></sampling-rate-stub>
+      </div>
+    </div>
+  </div>
+</stage-template-stub>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotation-control">
+  <div class="v-popover-stub" placement="left-start" popover-class="tooltip--annotation-control" trigger="manual">
+    <div class="main"><button class="annotation-control__trigger">
+        <dots-vertical-stub></dots-vertical-stub>
+      </button></div>
+    <div class="popover">
+      <annotation-control-menu-stub></annotation-control-menu-stub>
+    </div>
+  </div>
+  <delete-confirmation-dialog-stub title="Delete All Visible Annotations" detail="Are you sure? This will remove all visible annotations present on this image." buttontext="DELETE" name="confirm-delete-visible-annotations"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<div class="annotation-control">
+  <div class="v-popover-stub" placement="left-start" popover-class="tooltip--annotation-control" trigger="manual">
+    <div class="main"><button class="annotation-control__trigger">
+        <dots-vertical-stub></dots-vertical-stub>
+      </button></div>
+    <div class="popover">
+      <annotation-control-menu-stub readonly="true"></annotation-control-menu-stub>
+    </div>
+  </div>
+  <!---->
+</div>
+`;

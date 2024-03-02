@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<v2-dataset-detail-layout-stub dataset="[object Object]" parenttype="dataset" parentlocation="[object Object]">
+  <class-loader-stub></class-loader-stub>
+  <div class="dataset-classes">
+    <div class="dataset-classes__main">
+      <div class="dataset-classes__header">
+        <div class="dataset-classes__search">
+          <search-field-stub value="" placeholder="Search for classes..." class="dataset-classes__search-input"></search-field-stub>
+        </div>
+      </div>
+      <div loading-options="[object Object]" class="dataset-classes__gallery" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+        <classes-gallery-with-separator-stub classes="[object Object],[object Object],[object Object]" dataset="[object Object]" emptymessage="No classes have been added yet"></classes-gallery-with-separator-stub>
+        <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgb(255, 255, 255);">
+
+          <div class="mul5">
+            <div class="mul5circle1"></div>
+            <div class="mul5circle2"></div>
+            <div class="mul5circle3"></div>
+          </div>
+
+          <label>Fetching Classes</label>
+        </div>
+      </div>
+      <classes-context-menu-stub classes="[object Object]"></classes-context-menu-stub>
+    </div>
+    <annotation-class-dialog-stub annotationclasses="[object Object]" team="[object Object]" dataset="[object Object]"></annotation-class-dialog-stub>
+  </div>
+  <classes-sidebar-stub dataset="[object Object]"></classes-sidebar-stub>
+</v2-dataset-detail-layout-stub>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<v2-dataset-detail-layout-stub dataset="[object Object]" parenttype="dataset" parentlocation="[object Object]">
+  <class-loader-stub></class-loader-stub>
+  <div class="dataset-classes">
+    <div class="dataset-classes__main">
+      <div class="dataset-classes__header">
+        <div class="dataset-classes__search">
+          <search-field-stub value="" placeholder="Search for classes..." class="dataset-classes__search-input"></search-field-stub>
+        </div>
+      </div>
+      <div loading-options="[object Object]" class="dataset-classes__gallery" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+        <classes-gallery-with-separator-stub classes="[object Object],[object Object],[object Object]" dataset="[object Object]" emptymessage="No classes have been added yet"></classes-gallery-with-separator-stub>
+        <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label v-loading--active" style="background-color: rgb(255, 255, 255);">
+
+          <div class="mul5">
+            <div class="mul5circle1"></div>
+            <div class="mul5circle2"></div>
+            <div class="mul5circle3"></div>
+          </div>
+
+          <label>Fetching Classes</label>
+        </div>
+      </div>
+      <classes-context-menu-stub classes="[object Object]"></classes-context-menu-stub>
+    </div>
+    <annotation-class-dialog-stub annotationclasses="[object Object]" team="[object Object]" dataset="[object Object]"></annotation-class-dialog-stub>
+  </div>
+  <classes-sidebar-stub dataset="[object Object]"></classes-sidebar-stub>
+</v2-dataset-detail-layout-stub>
+`;

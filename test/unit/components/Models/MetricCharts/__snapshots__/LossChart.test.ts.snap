@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="loss-chart">
+  <div class="loss-chart__headers">
+    <h2 class="loss-chart__header">
+      Loss
+    </h2>
+    <h2 class="loss-chart__header">
+      0.25
+    </h2>
+    <tooltip-info-stub content="
+        <p>The loss function at the latest training epoch.</p>
+        <p>The lower the loss, the fewer mistakes the model is making.</p>
+        <p>A well-learning model follows a sloped L shape, approaching a flatter line.</p>
+        <p>
+          If your loss curve is spiky and not flattening, the data isn't being learnt from well.
+        </p>" html="true" offset="10" placement="right"></tooltip-info-stub>
+  </div>
+  <line-chart-stub chartdata="[object Object]" chartid="gradient-line" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="loss-chart__plot"></line-chart-stub>
+</div>
+`;

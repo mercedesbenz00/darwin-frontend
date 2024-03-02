@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div class="sul-scrollable__wrapper">
+    <div class="sul-content__wrapper">
+      <div>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are 2 or less than 2 annotators 1`] = `
+<div>
+  <div class="sul-scrollable__wrapper">
+    <div class="sul-content__wrapper">
+      <div>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are more than 2 annotators when 3 annotators, condense list and displays +1 more annotator 1`] = `
+<div>
+  <div class="sul-scrollable__wrapper">
+    <div class="sul-content__wrapper">
+      <div>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <div class="sul-content__more">
+          +1 more annotator
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are more than 2 annotators when more than 3 annotators, condense list and displays more annotators 1`] = `
+<div>
+  <div class="sul-scrollable__wrapper">
+    <div class="sul-content__wrapper">
+      <div>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <userlistelement-stub member="[object Object]"></userlistelement-stub>
+        <div class="sul-content__more">
+          +2 more annotators
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

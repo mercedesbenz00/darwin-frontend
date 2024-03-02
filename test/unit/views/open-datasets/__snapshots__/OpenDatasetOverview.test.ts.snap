@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <div class="open-dataset-overview__empty-actions"></div>
+  <open-dataset-overview-content-stub dataset="[object Object]"></open-dataset-overview-content-stub>
+</div>
+`;

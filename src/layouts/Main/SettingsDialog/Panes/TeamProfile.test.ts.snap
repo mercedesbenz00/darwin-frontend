@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<form class="settings-pane" title="Team Settings">
+  <div class="settings-pane__body">
+    <div class="team__body">
+      <div class="team__body__section">
+        <div class="team__body__section__content team__body__section__content--row">
+          <avatar-upload-stub src="" name="V7" companyurl="v7labs.com" canupload="true" showchange="true"></avatar-upload-stub>
+          <div class="team__info">
+            <!---->
+            <input-field-stub value="V7" name="teamName" placeholder="Team Name" type="text" theme="light"></input-field-stub>
+            <div class="team__pair">
+              <div class="team__key">
+                Team created
+              </div>
+              <div class="team__value">
+                2000-01-01
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general__setting">
+        <h4 class="setting__header">
+          General
+        </h4> <small class="setting__tips">General Settings regarding your team</small>
+        <div class="setting__body">
+          <div class="team__body__section">
+            <check-box-stub name="teamDisableDatasetSharing" label="Block the ability to share Open Datasets" type="rect" size="default"></check-box-stub>
+          </div>
+        </div>
+      </div>
+      <team-sso-stub error="[object Object]" businessdomain="" defaultrole="member" currentplan="freemium"></team-sso-stub>
+      <payment-issues-stub class="team__body__section"></payment-issues-stub>
+      <!---->
+      <div class="team__delete"><button type="button" class="team__delete__title">
+          Delete team V7
+        </button> <br> <span>This will delete all datasets and remove all members from the team.</span></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete this team" detail="Deleting a team can't be undone later on.
+         Please confirm conscientiously that you want to delete this team." buttontext="DELETE TEAM" name="delete-team-dialog"></delete-confirmation-dialog-stub>
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+  <sso-config-modal-stub></sso-config-modal-stub>
+</form>
+`;
+
+exports[`when 2fa enforcement is allowed matches snapshot 1`] = `
+<form class="settings-pane" title="Team Settings">
+  <div class="settings-pane__body">
+    <div class="team__body">
+      <div class="team__body__section">
+        <div class="team__body__section__content team__body__section__content--row">
+          <avatar-upload-stub src="" name="V7" companyurl="v7labs.com" canupload="true" showchange="true"></avatar-upload-stub>
+          <div class="team__info">
+            <!---->
+            <input-field-stub value="V7" name="teamName" placeholder="Team Name" type="text" theme="light"></input-field-stub>
+            <div class="team__pair">
+              <div class="team__key">
+                Team created
+              </div>
+              <div class="team__value">
+                2000-01-01
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general__setting">
+        <h4 class="setting__header">
+          General
+        </h4> <small class="setting__tips">General Settings regarding your team</small>
+        <div class="setting__body">
+          <div class="team__body__section">
+            <check-box-stub name="teamDisableDatasetSharing" label="Block the ability to share Open Datasets" type="rect" size="default"></check-box-stub>
+          </div>
+        </div>
+      </div>
+      <team-sso-stub error="[object Object]" businessdomain="" defaultrole="member" currentplan="enterprise"></team-sso-stub>
+      <payment-issues-stub class="team__body__section"></payment-issues-stub>
+      <!---->
+      <div class="team__delete"><button type="button" class="team__delete__title">
+          Delete team V7
+        </button> <br> <span>This will delete all datasets and remove all members from the team.</span></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete this team" detail="Deleting a team can't be undone later on.
+         Please confirm conscientiously that you want to delete this team." buttontext="DELETE TEAM" name="delete-team-dialog"></delete-confirmation-dialog-stub>
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+  <sso-config-modal-stub></sso-config-modal-stub>
+</form>
+`;
+
+exports[`when 2fa enforcement is not allowed disable avatar upload while uploading 1`] = `
+<form class="settings-pane" title="Team Settings">
+  <div class="settings-pane__body">
+    <div class="team__body">
+      <div class="team__body__section">
+        <div class="team__body__section__content team__body__section__content--row">
+          <avatar-upload-stub src="" name="V7" companyurl="v7labs.com" canupload="true" showchange="true" disabled="true" loading="true"></avatar-upload-stub>
+          <div class="team__info">
+            <!---->
+            <input-field-stub value="V7" name="teamName" placeholder="Team Name" type="text" theme="light"></input-field-stub>
+            <div class="team__pair">
+              <div class="team__key">
+                Team created
+              </div>
+              <div class="team__value">
+                2000-01-01
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general__setting">
+        <h4 class="setting__header">
+          General
+        </h4> <small class="setting__tips">General Settings regarding your team</small>
+        <div class="setting__body">
+          <div class="team__body__section">
+            <check-box-stub name="teamDisableDatasetSharing" label="Block the ability to share Open Datasets" type="rect" size="default"></check-box-stub>
+          </div>
+        </div>
+      </div>
+      <team-sso-stub error="[object Object]" businessdomain="" defaultrole="member" currentplan="freemium"></team-sso-stub>
+      <payment-issues-stub class="team__body__section"></payment-issues-stub>
+      <!---->
+      <div class="team__delete"><button type="button" class="team__delete__title">
+          Delete team V7
+        </button> <br> <span>This will delete all datasets and remove all members from the team.</span></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit" disabled="true">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete this team" detail="Deleting a team can't be undone later on.
+         Please confirm conscientiously that you want to delete this team." buttontext="DELETE TEAM" name="delete-team-dialog"></delete-confirmation-dialog-stub>
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+  <sso-config-modal-stub></sso-config-modal-stub>
+</form>
+`;
+
+exports[`when 2fa enforcement is not allowed matches snapshot 1`] = `
+<form class="settings-pane" title="Team Settings">
+  <div class="settings-pane__body">
+    <div class="team__body">
+      <div class="team__body__section">
+        <div class="team__body__section__content team__body__section__content--row">
+          <avatar-upload-stub src="" name="V7" companyurl="v7labs.com" canupload="true" showchange="true"></avatar-upload-stub>
+          <div class="team__info">
+            <!---->
+            <input-field-stub value="V7" name="teamName" placeholder="Team Name" type="text" theme="light"></input-field-stub>
+            <div class="team__pair">
+              <div class="team__key">
+                Team created
+              </div>
+              <div class="team__value">
+                2000-01-01
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general__setting">
+        <h4 class="setting__header">
+          General
+        </h4> <small class="setting__tips">General Settings regarding your team</small>
+        <div class="setting__body">
+          <div class="team__body__section">
+            <check-box-stub name="teamDisableDatasetSharing" label="Block the ability to share Open Datasets" type="rect" size="default"></check-box-stub>
+          </div>
+        </div>
+      </div>
+      <team-sso-stub error="[object Object]" businessdomain="" defaultrole="member" currentplan="freemium"></team-sso-stub>
+      <payment-issues-stub class="team__body__section"></payment-issues-stub>
+      <!---->
+      <div class="team__delete"><button type="button" class="team__delete__title">
+          Delete team V7
+        </button> <br> <span>This will delete all datasets and remove all members from the team.</span></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete this team" detail="Deleting a team can't be undone later on.
+         Please confirm conscientiously that you want to delete this team." buttontext="DELETE TEAM" name="delete-team-dialog"></delete-confirmation-dialog-stub>
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+  <sso-config-modal-stub></sso-config-modal-stub>
+</form>
+`;
+
+exports[`when cannot update team matches snapshot 1`] = `
+<form class="settings-pane" title="Team Settings">
+  <div class="settings-pane__body">
+    <div class="team__body">
+      <div class="team__body__section">
+        <div class="team__body__section__content team__body__section__content--row">
+          <avatar-upload-stub src="" name="V7" companyurl="v7labs.com" showchange="true"></avatar-upload-stub>
+          <div class="team__info">
+            <!---->
+            <div>
+              V7
+            </div>
+            <div class="team__pair">
+              <div class="team__key">
+                Team created
+              </div>
+              <div class="team__value">
+                2000-01-01
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general__setting">
+        <h4 class="setting__header">
+          General
+        </h4> <small class="setting__tips">General Settings regarding your team</small>
+        <div class="setting__body">
+          <!---->
+        </div>
+      </div>
+      <!---->
+      <payment-issues-stub class="team__body__section"></payment-issues-stub>
+      <!---->
+      <div class="team__delete"><button type="button" class="team__delete__title">
+          Leave V7
+        </button> <br> <span>
+          This will unassign any Tasks or Datasets associated to your account
+          and you will no longer have access to this team.
+        </span></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer"></div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to leave this team" detail="Leaving a team can't be undone later on.
+         Please confirm conscientiously that you want to leave this team." buttontext="LEAVE TEAM" name="delete-team-dialog"></delete-confirmation-dialog-stub>
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+  <sso-config-modal-stub></sso-config-modal-stub>
+</form>
+`;
+
+exports[`when partner matches snapshot 1`] = `
+<form class="settings-pane" title="Team Settings">
+  <div class="settings-pane__body">
+    <div class="team__body">
+      <div class="team__body__section">
+        <div class="team__body__section__content team__body__section__content--row">
+          <avatar-upload-stub src="" name="V7" companyurl="v7labs.com" canupload="true" showchange="true"></avatar-upload-stub>
+          <div class="team__info">
+            <partner-pill-stub class="team__info__pill"></partner-pill-stub>
+            <input-field-stub value="V7" name="teamName" placeholder="Team Name" type="text" theme="light"></input-field-stub>
+            <div class="team__pair">
+              <div class="team__key">
+                Team created
+              </div>
+              <div class="team__value">
+                2000-01-01
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="general__setting">
+        <h4 class="setting__header">
+          General
+        </h4> <small class="setting__tips">General Settings regarding your team</small>
+        <div class="setting__body">
+          <div class="team__body__section">
+            <check-box-stub name="teamDisableDatasetSharing" label="Block the ability to share Open Datasets" type="rect" size="default"></check-box-stub>
+          </div>
+        </div>
+      </div>
+      <team-sso-stub error="[object Object]" businessdomain="" defaultrole="member" currentplan="freemium"></team-sso-stub>
+      <payment-issues-stub class="team__body__section"></payment-issues-stub>
+      <client-invite-stub></client-invite-stub>
+      <div class="team__delete"><button type="button" class="team__delete__title">
+          Delete team V7
+        </button> <br> <span>This will delete all datasets and remove all members from the team.</span></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete this team" detail="Deleting a team can't be undone later on.
+         Please confirm conscientiously that you want to delete this team." buttontext="DELETE TEAM" name="delete-team-dialog"></delete-confirmation-dialog-stub>
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+  <sso-config-modal-stub></sso-config-modal-stub>
+</form>
+`;

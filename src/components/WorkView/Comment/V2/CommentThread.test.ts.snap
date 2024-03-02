@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when active thread with new comment matches snapshot 1`] = `
+<div class="comment-thread" style="width: 320px; max-height: calc(100vh - 200px); top: 0px; left: 5px;">
+  <comment-item-stub commentid="comment-1" teamid="1"></comment-item-stub>
+  <comment-item-stub commentid="comment-2" teamid="1"></comment-item-stub>
+  <!---->
+</div>
+`;
+
+exports[`when active thread with saved comments only matches snapshot 1`] = `
+<div class="comment-thread" style="width: 320px; max-height: calc(100vh - 200px); top: 0px; left: 5px;">
+  <comment-item-stub commentid="comment-1" teamid="1"></comment-item-stub>
+  <comment-item-stub commentid="comment-2" teamid="1"></comment-item-stub>
+  <div role="button" class="comment-thread__reply-box">
+    Reply
+  </div>
+</div>
+`;

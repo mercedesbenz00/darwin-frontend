@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading matches snapshot 1`] = `
+<modal-stub name="settings-save-confirm" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="settings-save-confirm" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div loading-options="[object Object]" class="modal__container" loading="true">
+    <div class="confirmation-dialog-layout-stub">
+      <div class="title-slot-given">
+        Save changes before leaving?
+      </div>
+      <!---->
+      <div class="footer-slot-given">
+        <secondary-button-stub disabled="true">
+          DISCARD
+        </secondary-button-stub>
+        <positive-button-stub disabled="true">
+          SAVE
+        </positive-button-stub>
+      </div>
+    </div>
+  </div>
+</modal-stub>
+`;
+
+exports[`with normal props matches snapshot 1`] = `
+<modal-stub name="settings-save-confirm" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="settings-save-confirm" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div loading-options="[object Object]" class="modal__container" loading="false">
+    <div class="confirmation-dialog-layout-stub">
+      <div class="title-slot-given">
+        Save changes before leaving?
+      </div>
+      <!---->
+      <div class="footer-slot-given">
+        <secondary-button-stub>
+          DISCARD
+        </secondary-button-stub>
+        <positive-button-stub>
+          SAVE
+        </positive-button-stub>
+      </div>
+    </div>
+  </div>
+</modal-stub>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<paragraph-10-stub class="client-invite-note"><strong>Note:</strong> You must use the end-client’s email address to start
+  the team so they may read V7's Terms of Service. This is a mandatory step
+  for us to comply with copyright laws. Hosting data without the end-client's
+  approval will lead to account termination.
+</paragraph-10-stub>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="color-picker">
+  <color-variants-stub color="rgba(255, 0, 0, 1.0)" class="color-picker__variants"></color-variants-stub>
+  <color-variants-stub color="rgba(0, 255, 0, 1.0)" class="color-picker__variants"></color-variants-stub>
+  <color-variants-stub color="rgba(0, 0, 255, 1.0)" class="color-picker__variants"></color-variants-stub>
+</div>
+`;

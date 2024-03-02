@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="read-only-dataset-card">
+  <div class="read-only-dataset-card__upside">
+    <div class="read-only-dataset-card__upside__row read-only-dataset-card__upside__row--top">
+      <div class="read-only-dataset-card__img"><img></div>
+      <div class="read-only-dataset-card__img"><img></div>
+      <div class="read-only-dataset-card__img"><img></div>
+    </div>
+    <div class="read-only-dataset-card__upside__row">
+      <div class="read-only-dataset-card__img"><img></div>
+      <div class="read-only-dataset-card__img"><img></div>
+      <div class="read-only-dataset-card__img"><img></div>
+    </div>
+    <!---->
+  </div>
+  <div class="read-only-dataset-card__downside">
+    <div class="read-only-dataset-card__name">
+      Smart Fume Hood Segmentation and Direction
+    </div>
+    <div class="read-only-dataset-card__stats">
+      <div><strong>17</strong> Files
+      </div>
+      <div><strong>6</strong> Classes
+      </div>
+      <div><strong>1000</strong> Annotations
+      </div>
+    </div>
+  </div>
+  <div class="read-only-dataset-card__progress__bar">
+    <div class="read-only-dataset-card__progress__bar__filled" style="width: 50%;"></div>
+  </div>
+</div>
+`;

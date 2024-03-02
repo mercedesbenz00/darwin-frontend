@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is active is disabled matches snapshot 1`] = `
+<action-bar-element-stub type="default" disabled="true" id="action-bar-el" class="action-bar-el-disabled">
+  <p class="action-bar-el__label">
+    Restore
+  </p>
+</action-bar-element-stub>
+`;
+
+exports[`is active matches snapshot 1`] = `
+<action-bar-element-stub type="default" disabled="true" id="action-bar-el" class="action-bar-el-disabled">
+  <p class="action-bar-el__label">
+    Restore
+  </p>
+</action-bar-element-stub>
+`;
+
+exports[`is inactive is disabled matches snapshot 1`] = `
+<action-bar-element-stub type="default" disabled="true" id="action-bar-el" class="action-bar-el-disabled">
+  <p class="action-bar-el__label">
+    Restore
+  </p>
+</action-bar-element-stub>
+`;
+
+exports[`is inactive matches snapshot 1`] = `
+<action-bar-element-stub type="default" id="action-bar-el" class="">
+  <p class="action-bar-el__label">
+    Restore
+  </p>
+</action-bar-element-stub>
+`;

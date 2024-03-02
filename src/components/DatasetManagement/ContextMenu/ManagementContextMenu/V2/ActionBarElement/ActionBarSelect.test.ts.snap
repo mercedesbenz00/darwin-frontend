@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is active matches snapshot 1`] = `
+<action-bar-element-stub type="select">
+  <p class="action-bar-el__label">
+    Select All
+  </p>
+</action-bar-element-stub>
+`;
+
+exports[`is inactive matches snapshot 1`] = `
+<action-bar-element-stub type="select" active="true">
+  <p class="action-bar-el__label action-bar-el__label--active">
+    Select All
+  </p>
+</action-bar-element-stub>
+`;

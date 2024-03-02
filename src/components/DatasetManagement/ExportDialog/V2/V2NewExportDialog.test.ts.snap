@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when "All Complete" option is selected matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="new-export" height="660px">
+  <modal-header-v2-stub hideclose="true"></modal-header-v2-stub>
+  <modal-content-v2-stub><span class="new-export__header secondary-color">
+      Save a new version
+    </span>
+    <paragraph-14-stub class="content-tip secondary-color">
+      Generate a version of this dataset for export or model training.
+      This version acts as a snapshot and cannot be edited later,
+      but you can create new versions of your dataset as you reach certain milestones.
+    </paragraph-14-stub>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Name of this version
+      </paragraph-14-stub>
+      <input-field-stub value="" tag="div" placeholder="version-name" required="true" type="text" items="" name="name" class="modal__content__new__input__field"></input-field-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Format
+      </paragraph-14-stub>
+      <v2-export-format-dropdown-stub value="json"></v2-export-format-dropdown-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Items to Export
+      </paragraph-14-stub>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="1" name="all_complete" id="1" label="All Complete (Recommended)" selected="true" class="modal__content__new__status__radio modal__content__new__status__radio__all_complete"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items marked as &quot;Complete&quot; (those that passed review)" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="2" name="current_filters" id="2" label="Current filters" class="modal__content__new__status__radio modal__content__new__status__radio__current_filters"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items that matches the filters" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="{'content':'Select one or more items before clicking on Export to enable this option'}">
+          <radio-v2-stub value="3" name="selected" id="3" label="Selected" disabled="true" class="modal__content__new__status__radio modal__content__new__status__radio__selected"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only selected items" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Optionally filter by class
+      </paragraph-14-stub>
+      <div class="modal__content__new__filter">
+        <vue-tags-input-stub value="" tags="" autocompleteitems="[object Object],[object Object],[object Object]" autocompletefilterduplicates="true" addonlyfromautocomplete="true" autocompleteminlength="1" placeholder="Type in an annotation class name" addonkey="13" saveonkey="13" validation="" separators=";" avoidaddingduplicates="true" addonblur="true" addfrompaste="true" deleteonbackspace="true"></vue-tags-input-stub>
+      </div>
+      <div class="modal__content__new__include-authorship">
+        <check-box-v2-stub name="includeAuthorshipToggle" label="Include annotator/reviewer metadata" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include annotation authorships" offset="10" placement="right" class="modal__content__new__include-authorship__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__include-export-token">
+        <check-box-v2-stub name="includeExportTokenToggle" label="Include export token" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include export token in URLs.
+                   WARNING: the token can be used to access all dataset items." offset="10" placement="right" class="modal__content__new__include-export-token__info"></tooltip-info-stub>
+      </div>
+    </div>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Close
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="button__export">
+      Export 1 Item
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;
+
+exports[`when "Current filters" is selected and counts not yet loaded matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="new-export" height="660px">
+  <modal-header-v2-stub hideclose="true"></modal-header-v2-stub>
+  <modal-content-v2-stub><span class="new-export__header secondary-color">
+      Save a new version
+    </span>
+    <paragraph-14-stub class="content-tip secondary-color">
+      Generate a version of this dataset for export or model training.
+      This version acts as a snapshot and cannot be edited later,
+      but you can create new versions of your dataset as you reach certain milestones.
+    </paragraph-14-stub>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Name of this version
+      </paragraph-14-stub>
+      <input-field-stub value="" tag="div" placeholder="version-name" required="true" type="text" items="" name="name" class="modal__content__new__input__field"></input-field-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Format
+      </paragraph-14-stub>
+      <v2-export-format-dropdown-stub value="json"></v2-export-format-dropdown-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Items to Export
+      </paragraph-14-stub>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="1" name="all_complete" id="1" label="All Complete (Recommended)" class="modal__content__new__status__radio modal__content__new__status__radio__all_complete"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items marked as &quot;Complete&quot; (those that passed review)" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="2" name="current_filters" id="2" label="Current filters" class="modal__content__new__status__radio modal__content__new__status__radio__current_filters" selected="true"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items that matches the filters" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="{'content':'Select one or more items before clicking on Export to enable this option'}">
+          <radio-v2-stub value="3" name="selected" id="3" label="Selected" disabled="true" class="modal__content__new__status__radio modal__content__new__status__radio__selected"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only selected items" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Optionally filter by class
+      </paragraph-14-stub>
+      <div class="modal__content__new__filter">
+        <vue-tags-input-stub value="" tags="" autocompleteitems="[object Object],[object Object],[object Object]" autocompletefilterduplicates="true" addonlyfromautocomplete="true" autocompleteminlength="1" placeholder="Type in an annotation class name" addonkey="13" saveonkey="13" validation="" separators=";" avoidaddingduplicates="true" addonblur="true" addfrompaste="true" deleteonbackspace="true"></vue-tags-input-stub>
+      </div>
+      <div class="modal__content__new__include-authorship">
+        <check-box-v2-stub name="includeAuthorshipToggle" label="Include annotator/reviewer metadata" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include annotation authorships" offset="10" placement="right" class="modal__content__new__include-authorship__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__include-export-token">
+        <check-box-v2-stub name="includeExportTokenToggle" label="Include export token" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include export token in URLs.
+                   WARNING: the token can be used to access all dataset items." offset="10" placement="right" class="modal__content__new__include-export-token__info"></tooltip-info-stub>
+      </div>
+    </div>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Close
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="button__export">
+      Export N/A Items
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;
+
+exports[`when "Current filters" option is selected matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="new-export" height="660px">
+  <modal-header-v2-stub hideclose="true"></modal-header-v2-stub>
+  <modal-content-v2-stub><span class="new-export__header secondary-color">
+      Save a new version
+    </span>
+    <paragraph-14-stub class="content-tip secondary-color">
+      Generate a version of this dataset for export or model training.
+      This version acts as a snapshot and cannot be edited later,
+      but you can create new versions of your dataset as you reach certain milestones.
+    </paragraph-14-stub>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Name of this version
+      </paragraph-14-stub>
+      <input-field-stub value="" tag="div" placeholder="version-name" required="true" type="text" items="" name="name" class="modal__content__new__input__field"></input-field-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Format
+      </paragraph-14-stub>
+      <v2-export-format-dropdown-stub value="json"></v2-export-format-dropdown-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Items to Export
+      </paragraph-14-stub>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="1" name="all_complete" id="1" label="All Complete (Recommended)" class="modal__content__new__status__radio modal__content__new__status__radio__all_complete"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items marked as &quot;Complete&quot; (those that passed review)" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="2" name="current_filters" id="2" label="Current filters" class="modal__content__new__status__radio modal__content__new__status__radio__current_filters" selected="true"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items that matches the filters" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="{'content':'Select one or more items before clicking on Export to enable this option'}">
+          <radio-v2-stub value="3" name="selected" id="3" label="Selected" disabled="true" class="modal__content__new__status__radio modal__content__new__status__radio__selected"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only selected items" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Optionally filter by class
+      </paragraph-14-stub>
+      <div class="modal__content__new__filter">
+        <vue-tags-input-stub value="" tags="" autocompleteitems="[object Object],[object Object],[object Object]" autocompletefilterduplicates="true" addonlyfromautocomplete="true" autocompleteminlength="1" placeholder="Type in an annotation class name" addonkey="13" saveonkey="13" validation="" separators=";" avoidaddingduplicates="true" addonblur="true" addfrompaste="true" deleteonbackspace="true"></vue-tags-input-stub>
+      </div>
+      <div class="modal__content__new__include-authorship">
+        <check-box-v2-stub name="includeAuthorshipToggle" label="Include annotator/reviewer metadata" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include annotation authorships" offset="10" placement="right" class="modal__content__new__include-authorship__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__include-export-token">
+        <check-box-v2-stub name="includeExportTokenToggle" label="Include export token" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include export token in URLs.
+                   WARNING: the token can be used to access all dataset items." offset="10" placement="right" class="modal__content__new__include-export-token__info"></tooltip-info-stub>
+      </div>
+    </div>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Close
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="button__export">
+      Export 9 Items
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;
+
+exports[`when "Selected" option is selected matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="new-export" height="660px">
+  <modal-header-v2-stub hideclose="true"></modal-header-v2-stub>
+  <modal-content-v2-stub><span class="new-export__header secondary-color">
+      Save a new version
+    </span>
+    <paragraph-14-stub class="content-tip secondary-color">
+      Generate a version of this dataset for export or model training.
+      This version acts as a snapshot and cannot be edited later,
+      but you can create new versions of your dataset as you reach certain milestones.
+    </paragraph-14-stub>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Name of this version
+      </paragraph-14-stub>
+      <input-field-stub value="" tag="div" placeholder="version-name" required="true" type="text" items="" name="name" class="modal__content__new__input__field"></input-field-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Format
+      </paragraph-14-stub>
+      <v2-export-format-dropdown-stub value="json"></v2-export-format-dropdown-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Items to Export
+      </paragraph-14-stub>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="1" name="all_complete" id="1" label="All Complete (Recommended)" class="modal__content__new__status__radio modal__content__new__status__radio__all_complete"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items marked as &quot;Complete&quot; (those that passed review)" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="2" name="current_filters" id="2" label="Current filters" class="modal__content__new__status__radio modal__content__new__status__radio__current_filters"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items that matches the filters" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="3" name="selected" id="3" label="Selected" class="modal__content__new__status__radio modal__content__new__status__radio__selected" selected="true"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only selected items" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Optionally filter by class
+      </paragraph-14-stub>
+      <div class="modal__content__new__filter">
+        <vue-tags-input-stub value="" tags="" autocompleteitems="[object Object],[object Object],[object Object]" autocompletefilterduplicates="true" addonlyfromautocomplete="true" autocompleteminlength="1" placeholder="Type in an annotation class name" addonkey="13" saveonkey="13" validation="" separators=";" avoidaddingduplicates="true" addonblur="true" addfrompaste="true" deleteonbackspace="true"></vue-tags-input-stub>
+      </div>
+      <div class="modal__content__new__include-authorship">
+        <check-box-v2-stub name="includeAuthorshipToggle" label="Include annotator/reviewer metadata" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include annotation authorships" offset="10" placement="right" class="modal__content__new__include-authorship__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__include-export-token">
+        <check-box-v2-stub name="includeExportTokenToggle" label="Include export token" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include export token in URLs.
+                   WARNING: the token can be used to access all dataset items." offset="10" placement="right" class="modal__content__new__include-export-token__info"></tooltip-info-stub>
+      </div>
+    </div>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Close
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" class="button__export">
+      Export 2 Items
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;
+
+exports[`when no images are completed matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="new-export" height="660px">
+  <modal-header-v2-stub hideclose="true"></modal-header-v2-stub>
+  <modal-content-v2-stub><span class="new-export__header secondary-color">
+      Save a new version
+    </span>
+    <paragraph-14-stub class="content-tip secondary-color">
+      Generate a version of this dataset for export or model training.
+      This version acts as a snapshot and cannot be edited later,
+      but you can create new versions of your dataset as you reach certain milestones.
+    </paragraph-14-stub>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Name of this version
+      </paragraph-14-stub>
+      <input-field-stub value="" tag="div" placeholder="version-name" required="true" type="text" items="" name="name" class="modal__content__new__input__field"></input-field-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Format
+      </paragraph-14-stub>
+      <v2-export-format-dropdown-stub value="json"></v2-export-format-dropdown-stub>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Items to Export
+      </paragraph-14-stub>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="1" name="all_complete" id="1" label="All Complete (Recommended)" selected="true" class="modal__content__new__status__radio modal__content__new__status__radio__all_complete"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items marked as &quot;Complete&quot; (those that passed review)" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="undefined">
+          <radio-v2-stub value="2" name="current_filters" id="2" label="Current filters" class="modal__content__new__status__radio modal__content__new__status__radio__current_filters"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only items that matches the filters" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__status">
+        <div tooltip="{'content':'Select one or more items before clicking on Export to enable this option'}">
+          <radio-v2-stub value="3" name="selected" id="3" label="Selected" disabled="true" class="modal__content__new__status__radio modal__content__new__status__radio__selected"></radio-v2-stub>
+        </div>
+        <tooltip-info-stub content="Include only selected items" offset="10" placement="right" class="modal__content__new__status__info"></tooltip-info-stub>
+      </div>
+    </div>
+    <div class="modal__form__group">
+      <paragraph-14-stub class="secondary-color">
+        Optionally filter by class
+      </paragraph-14-stub>
+      <div class="modal__content__new__filter">
+        <vue-tags-input-stub value="" tags="" autocompleteitems="[object Object],[object Object],[object Object]" autocompletefilterduplicates="true" addonlyfromautocomplete="true" autocompleteminlength="1" placeholder="Type in an annotation class name" addonkey="13" saveonkey="13" validation="" separators=";" avoidaddingduplicates="true" addonblur="true" addfrompaste="true" deleteonbackspace="true"></vue-tags-input-stub>
+      </div>
+      <div class="modal__content__new__include-authorship">
+        <check-box-v2-stub name="includeAuthorshipToggle" label="Include annotator/reviewer metadata" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include annotation authorships" offset="10" placement="right" class="modal__content__new__include-authorship__info"></tooltip-info-stub>
+      </div>
+      <div class="modal__content__new__include-export-token">
+        <check-box-v2-stub name="includeExportTokenToggle" label="Include export token" type="rect" size="large"></check-box-v2-stub>
+        <tooltip-info-stub content="Include export token in URLs.
+                   WARNING: the token can be used to access all dataset items." offset="10" placement="right" class="modal__content__new__include-export-token__info"></tooltip-info-stub>
+      </div>
+    </div>
+  </modal-content-v2-stub>
+  <modal-footer-v2-stub class="footer-container">
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Close
+    </custom-button-stub>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="button" disabled="true" class="button__export">
+      Export 0 Items
+    </custom-button-stub>
+  </modal-footer-v2-stub>
+</modal-v2-stub>
+`;

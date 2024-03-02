@@ -1,0 +1,30 @@
+.tooltip {
+  &.sidebar__menu__tooltip {
+    transition: opacity 1s;
+    text-align: center;
+
+    .tooltip-inner {
+      @include typography(sm, headlines, bold);
+      background: transparentize($colorSecondaryDark, .3);
+      color: $colorWhite;
+      border-radius: 5px;
+      padding: 8px 11px;
+    }
+
+    &.sidebar__menu__tooltip--expanded {
+      visibility: hidden !important;
+    }
+
+    &[aria-hidden='true'] {
+      display: block !important;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    &[aria-hidden='false'] {
+      display: block !important;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

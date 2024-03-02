@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for v1 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <div class="overview">
+    <overview-content-stub dataset="[object Object]" class="overview__content"></overview-content-stub>
+  </div>
+  <div class="overview__sidebar">
+    <export-button-stub buttontype="primary-button"></export-button-stub>
+    <download-full-item-report-button-stub></download-full-item-report-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for v2 1`] = `
+<v2-dataset-detail-layout-stub dataset="[object Object]" parenttype="dataset" parentlocation="[object Object]">
+  <div class="overview">
+    <overview-content-stub dataset="[object Object]" class="overview__content"></overview-content-stub>
+  </div>
+  <div class="overview__sidebar">
+    <custom-button-stub variant="default" color="secondary" size="small" flair="rounded" tag="button" class="reports-button">
+      Download CSV Report
+    </custom-button-stub>
+  </div>
+</v2-dataset-detail-layout-stub>
+`;

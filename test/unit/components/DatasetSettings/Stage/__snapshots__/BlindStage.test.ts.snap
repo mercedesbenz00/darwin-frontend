@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="blind">
+  <div class="blind__annotate">
+    <annotate-stage-stub deletable="true" movable="true" stage="[object Object]" actors="[object Object],[object Object]"></annotate-stage-stub>
+    <div class="blind__annotate__addon">
+      <annotate-round-icon-stub class="blind__annotate__addon__icon"></annotate-round-icon-stub>
+      <delete-button-stub></delete-button-stub>
+    </div>
+  </div>
+  <div class="blind__chevron-add">
+    <stage-spacer-stub>
+      <chevron-right-icon-stub></chevron-right-icon-stub>
+    </stage-spacer-stub>
+    <div class="blind__chevron-add__add-icon"><span>+</span>
+      <round-drop-shadow-button-stub tooltip="{'content':'Add a Parallel Stage'}">
+        <annotate-round-icon-stub></annotate-round-icon-stub>
+      </round-drop-shadow-button-stub>
+    </div>
+  </div>
+  <test-stage-stub stage="[object Object]" class="blind__test"></test-stage-stub>
+  <stage-spacer-stub class="blind__pass-line-container"></stage-spacer-stub>
+  <stage-spacer-stub class="blind__pass-container">
+    <feather-light-pill-stub class="blind__pass-container__pill">
+      Pass
+    </feather-light-pill-stub>
+  </stage-spacer-stub>
+  <stage-spacer-stub class="blind__fail-line-container"></stage-spacer-stub>
+  <stage-spacer-stub class="blind__fail-container">
+    <pink-pill-stub class="blind__fail-container__pill">
+      Fail
+    </pink-pill-stub>
+  </stage-spacer-stub>
+  <review-stage-stub stage="[object Object]" actors="[object Object],[object Object]" class="blind__review"></review-stage-stub>
+</div>
+`;

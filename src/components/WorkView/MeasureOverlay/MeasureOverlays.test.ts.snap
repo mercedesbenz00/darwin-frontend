@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <measure-overlay-stub data="[object Object]"></measure-overlay-stub>
+  <measure-overlay-stub data="[object Object]"></measure-overlay-stub>
+</div>
+`;

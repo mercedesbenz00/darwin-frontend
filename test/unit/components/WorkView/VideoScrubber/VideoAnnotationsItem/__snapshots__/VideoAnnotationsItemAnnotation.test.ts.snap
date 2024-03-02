@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="video-item-annotation" style="background: rgba(0, 0, 0, 0.1); border-color: rgba(0,0,0,0.1); color: rgba(0, 0, 0, 0.1);" position="0">
+  <hr class="video-item-annotation__keyframeline" style="top: 32%;"> <span class="video-item-annotation__name">flask</span>
+  <type-icon-stub type="polygon" color="rgba(0,0,0,0.1)" class="video-item-annotation__icon"></type-icon-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="0" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="5" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+</div>
+`;
+
+exports[`matches snapshot when annotation is active 1`] = `
+<div class="video-item-annotation video-item-annotation--active" style="background: rgba(0, 0, 0, 0.1); border-color: rgba(0,0,0,0.1); color: rgba(0, 0, 0, 0.1); box-shadow: 0 0 0 1px rgba(145, 169, 192, 0.3);" position="0">
+  <hr class="video-item-annotation__keyframeline" style="top: 32%;"> <span class="video-item-annotation__name">flask</span>
+  <type-icon-stub type="polygon" color="rgba(0,0,0,0.1)" class="video-item-annotation__icon"></type-icon-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="0" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="5" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+</div>
+`;
+
+exports[`matches snapshot when annotation is not visible 1`] = `
+<div class="video-item-annotation video-item-annotation--disabled" style="background: rgba(0, 0, 0, 0.1); border-color: rgba(0,0,0,0.1); color: rgba(0, 0, 0, 0.1);" position="0">
+  <hr class="video-item-annotation__keyframeline" style="top: 32%;"> <span class="video-item-annotation__name">flask</span>
+  <type-icon-stub type="polygon" color="rgba(0,0,0,0.1)" class="video-item-annotation__icon"></type-icon-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="0" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="5" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+</div>
+`;
+
+exports[`matches snapshot when annotation is selected 1`] = `
+<div class="video-item-annotation video-item-annotation--selected" style="background: rgba(0, 0, 0, 0.1); border-color: rgba(0,0,0,0.1); color: rgba(0, 0, 0, 0.1); box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);" position="0">
+  <hr class="video-item-annotation__keyframeline" style="top: 32%;"> <span class="video-item-annotation__name">flask</span>
+  <type-icon-stub type="polygon" color="rgba(0,0,0,0.1)" class="video-item-annotation__icon"></type-icon-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="0" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="1"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="1" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+  <video-annotations-item-keyframe-stub annotation="[object Object]" keyframeindex="5" position="-1" issubkey="true"></video-annotations-item-keyframe-stub>
+</div>
+`;

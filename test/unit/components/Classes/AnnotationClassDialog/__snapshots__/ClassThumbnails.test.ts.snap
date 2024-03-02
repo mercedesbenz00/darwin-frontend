@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<annotation-class-section-stub title="Thumbnail">
+  <div class="class-thumbnails">
+    <thumbnail-cropper-stub image="[object Object]"></thumbnail-cropper-stub>
+    <div class="class-thumbnails__list">
+      <class-thumbnail-stub image="[object Object]" team="[object Object]" selected="true"></class-thumbnail-stub>
+      <class-thumbnail-stub image="[object Object]" team="[object Object]"></class-thumbnail-stub>
+      <class-thumbnail-stub image="[object Object]" team="[object Object]"></class-thumbnail-stub>
+    </div>
+  </div>
+</annotation-class-section-stub>
+`;

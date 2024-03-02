@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="workflow-name"><span class="workflow-name__readonly"><span class="workflow-name__readonly__text">old name</span>
+  <icon-mono-edit-stub class="workflow-name__readonly__icon"></icon-mono-edit-stub>
+  </span>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot in edit mode: in edit mode 1`] = `
+<div class="workflow-name"><span class="workflow-name__readonly"><span class="workflow-name__readonly__text">old name</span>
+  <icon-mono-edit-stub class="workflow-name__readonly__icon"></icon-mono-edit-stub>
+  </span>
+  <input-field-stub value="old name" tag="div" required="true" type="text" autofocus="true" items="" class="workflow-name__editing"></input-field-stub>
+</div>
+`;

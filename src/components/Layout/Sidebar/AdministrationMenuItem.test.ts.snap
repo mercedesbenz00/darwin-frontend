@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div to="[object Object]">
+  <router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="admin" tooltip="Admin"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Admin
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;

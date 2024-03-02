@@ -1,0 +1,57 @@
+.member {
+  @include row--center;
+}
+
+.member__avatar {
+  margin-right: 20px;
+}
+
+.member__name-section {
+  flex: 1;
+  @include col;
+}
+
+.member__name {
+  @include typography(md-1, default);
+  color: $colorSecondaryDark1;
+  margin-bottom: 4px;
+}
+
+.member__email {
+  @include typography(md, default);
+  color: $colorSecondaryLight;
+}
+
+.member__role {
+  @include row--center;
+  width: 180px;
+  margin-right: 30px;
+  @include typography(md-1, default);
+  justify-content: left;
+
+  .dropdown {
+    height: 100%;
+  }
+
+  .member__role--fixed {
+    margin-left: 8px;
+  }
+}
+
+.member__trash {
+  @include row--center;
+  width: 35px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.member__trash_icon {
+  color: $colorCrimsonLight;
+}

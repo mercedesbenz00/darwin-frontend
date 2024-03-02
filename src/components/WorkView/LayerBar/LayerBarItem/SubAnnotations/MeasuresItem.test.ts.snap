@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when measures is on matches snapshot 1`] = `
+<div class="measures-item">
+  Measure label
+</div>
+`;
+
+exports[`when measures is on matches snapshot when readonly 1`] = `
+<div class="measures-item">
+  Measure label
+</div>
+`;

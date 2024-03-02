@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<draggable-resizable-stub initialheight="40%" minheight="130" maxheight="60%" vertical="true" parentheight="0">
+  <div class="tag-applier">
+    <tag-applier-header-stub direction="asc"></tag-applier-header-stub>
+    <div class="tag-applier__resizables">
+      <tag-applier-list-stub keyword="" items="[object Object]" direction="asc"></tag-applier-list-stub>
+      <tag-applier-input-stub keyword="" items=""></tag-applier-input-stub>
+    </div>
+    <!---->
+  </div>
+</draggable-resizable-stub>
+`;
+
+exports[`when annotator matches snapshot 1`] = `
+<draggable-resizable-stub initialheight="40%" minheight="130" maxheight="60%" vertical="true" parentheight="0">
+  <div class="tag-applier">
+    <tag-applier-header-stub direction="asc"></tag-applier-header-stub>
+    <div class="tag-applier__resizables">
+      <tag-applier-list-stub keyword="" items="[object Object]" direction="asc"></tag-applier-list-stub>
+      <tag-applier-input-stub keyword="" items=""></tag-applier-input-stub>
+    </div>
+    <!---->
+  </div>
+</draggable-resizable-stub>
+`;
+
+exports[`when disabled matches snapshot 1`] = `
+<draggable-resizable-stub initialheight="40%" minheight="130" maxheight="60%" vertical="true" parentheight="0">
+  <div class="tag-applier">
+    <tag-applier-header-stub direction="asc" disabled="true"></tag-applier-header-stub>
+    <div class="tag-applier__resizables">
+      <div></div>
+      <tag-applier-input-stub keyword="" items="" disabled="true"></tag-applier-input-stub>
+    </div>
+    <!---->
+  </div>
+</draggable-resizable-stub>
+`;

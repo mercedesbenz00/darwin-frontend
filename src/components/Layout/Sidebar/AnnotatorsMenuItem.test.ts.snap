@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div to="[object Object]" class="">
+  <router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="annotators" tooltip="Annotators"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Annotators
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;
+
+exports[`matches snapshot on active route 1`] = `
+<div to="[object Object]" class="">
+  <router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="annotators" tooltip="Annotators" active="true"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Annotators
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;
+
+exports[`matches snapshot when annotator 1`] = `
+<div to="[object Object]" class="">
+  <router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" class="sidebar__menu">
+    <v2-sidebar-menu-item-icon-stub enabled="true" name="annotators" tooltip="Statistics"></v2-sidebar-menu-item-icon-stub> <label class="sidebar__menu__label">
+      Statistics
+    </label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;

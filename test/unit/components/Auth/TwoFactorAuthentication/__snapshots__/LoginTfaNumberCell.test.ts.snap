@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when value is defined matches snapshot 1`] = `<input type="number" min="0" max="9" class="login-tfa-number-cell login-tfa-number-cell--active">`;
+
+exports[`when value is null and active matches snapshot 1`] = `<input type="number" min="0" max="9" class="login-tfa-number-cell">`;

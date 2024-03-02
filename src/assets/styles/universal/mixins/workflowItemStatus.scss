@@ -1,0 +1,106 @@
+@mixin workflow-status-icon {
+  &--new {
+    background-image: url("/static/imgs/image-status/new.svg");
+  }
+  &--annotate {
+    background-image: url("/static/imgs/image-status/annotate.svg");
+  }
+  &--review {
+    background-image: url("/static/imgs/image-status/review.svg");
+  }
+  &--model {
+    background-image: url("/static/imgs/image-status/model.svg");
+  }
+  &--complete {
+    background-image: url("/static/imgs/image-status/completed.svg");
+  }
+  &--test {
+    background-image: url("/static/imgs/image-status/test.svg");
+  }
+  &--uploading {
+    background-image: url("/static/imgs/image-status/uploading.svg");
+  }
+  &--processing {
+    background-image: url("/static/imgs/image-status/processing.svg");
+  }
+  &--error {
+    background-image: url("/static/imgs/image-status/error.svg");
+  }
+  &--discard {
+    background-image: url("/static/imgs/image-status/archived.svg");
+  }
+  &--archived {
+    background-image: url("/static/imgs/image-status/archived.svg");
+  }
+  &--rejected {
+    background-image: url("/static/imgs/image-status/reject.svg");
+  }
+  &--webhook {
+    background-image: url("/static/imgs/image-status/webhook.svg");
+  }
+}
+
+@mixin wrap($selector, $sufix) {
+  @if $selector {
+    &--#{$sufix} {
+      #{$selector} {
+        @content;
+      }
+    }
+  } @else {
+    &--#{$sufix} {
+      @content;
+    }
+  }
+}
+
+@mixin workflow-status($property, $opacity: 1, $selector: false) {
+  @include wrap($selector, "annotate") {
+    #{$property}: rgba($colorAssignedBlue, $opacity);
+  }
+  @include wrap($selector, "archived") {
+    #{$property}: rgba($colorCrimsonLight, $opacity);
+  }
+  @include wrap($selector, "dataset") {
+    #{$property}: rgba($colorStagesDatasetDefault, $opacity);
+  }
+  @include wrap($selector, "discard") {
+    #{$property}: rgba($colorCrimsonLight, $opacity);
+  }
+  @include wrap($selector, "code") {
+    #{$property}: rgba($colorCodeOrange, $opacity);
+  }
+  @include wrap($selector, "complete") {
+    #{$property}: rgba($colorFeatherLight, $opacity);
+  }
+  @include wrap($selector, "model") {
+    #{$property}: rgba($colorModelPurple, $opacity);
+  }
+  @include wrap($selector, "new") {
+    #{$property}: rgba($colorSecondaryLight, $opacity);
+  }
+  @include wrap($selector, "rejected") {
+    #{$property}: rgba($colorCrimsonLight, $opacity);
+  }
+  @include wrap($selector, "review") {
+    #{$property}: rgba($colorEgg, $opacity);
+  }
+  @include wrap($selector, "test") {
+    #{$property}: rgba($colorTestOrange, $opacity);
+  }
+  @include wrap($selector, "webhook") {
+    #{$property}: rgba($colorStagesWebhookDefault, $opacity);
+  }
+}
+
+@mixin workflow-status-color {
+  @include workflow-status(color);
+}
+
+@mixin workflow-status-border-color($opacity: 1) {
+  @include workflow-status(border-color, $opacity);
+}
+
+@mixin workflow-status-background-color($opacity: 1) {
+  @include workflow-status(background-color, $opacity);
+}

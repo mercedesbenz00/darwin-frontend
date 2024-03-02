@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="register">
+      <register-teaser-stub class="register__teaser"></register-teaser-stub>
+      <register-form-stub email="test@v7labs.com" token="token"></register-form-stub>
+    </div>
+  </div>
+</background-stub>
+`;

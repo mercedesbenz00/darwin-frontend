@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-create__box dataset-create__box--title">
+  <div class="dataset-create__box-left"><img src="/static/imgs/dataset-step1.png" class="dataset-create__box__step-image">
+    <div class="dataset-create__box__step-writings">
+      <div class="dataset-create__box__step-title">
+        Create a New Dataset
+      </div>
+      <div class="dataset-create__box__step-description">
+        Datasets represent your machine learning projects. You can add images and annotators to them, and define classes and labeling workflows. Datasets are independent of one-another, and accessible by any User or Admin in your team.
+      </div>
+    </div>
+  </div>
+  <div class="dataset-create__box-right">
+    <form class="dataset-title"><label class="dataset-title__title">Type in a name for this dataset</label>
+      <div class="dataset-title__inputs">
+        <input-field-stub value="" name="name" required="required" type="text" autofocus="true" theme="dark"></input-field-stub>
+      </div>
+      <div class="dataset-title__buttons">
+        <positive-button-stub disabled="true" class="dataset-title__continue">
+          Continue
+        </positive-button-stub>
+      </div>
+    </form>
+  </div>
+</div>
+`;

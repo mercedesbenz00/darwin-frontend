@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="grid">
+  <div class="grid__content grid__content--card-mode">
+    <div class="scroller-stub grid__content__scroll-container grid__content__scroll-container--card" key-field="id" buffer="2500" min-item-size="153.33333333333331">
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+    </div>
+  </div>
+  <resize-observer-stub></resize-observer-stub>
+</div>
+`;
+
+exports[`matches snapshot when no data 1`] = `
+<div class="grid">
+  <div class="grid__content grid__content--card-mode">
+    <div class="grid__content__no-data">
+      No data
+    </div>
+  </div>
+  <resize-observer-stub></resize-observer-stub>
+</div>
+`;
+
+exports[`matches snapshot with skeleton when loading status 1`] = `
+<div class="grid">
+  <div class="grid__content grid__content--card-mode">
+    <div class="scroller-stub grid__content__scroll-container grid__content__scroll-container--card" key-field="id" buffer="2500" min-item-size="153.33333333333331">
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+      <div>
+        <dynamic-scroller-item-stub item="[object Object]" active="true" sizedependencies="[object Object]" tag="div" class="grid__content__scroll-container__row">
+          <div class="grid-card grid-card--active" style="width: -16px; margin: 10px 8px;"></div>
+        </dynamic-scroller-item-stub>
+      </div>
+    </div>
+  </div>
+  <resize-observer-stub></resize-observer-stub>
+</div>
+`;

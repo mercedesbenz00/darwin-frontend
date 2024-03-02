@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when active matches snapshot 1`] = `
+<div active="true">
+  <div active="true" class="sidebar__menu"> <label class="sidebar__menu__label"></label>
+    <div class="sidebar__menu__asside"></div>
+  </div>
+</div>
+`;
+
+exports[`when all defaults matches snapshot 1`] = `
+<div>
+  <div class="sidebar__menu"> <label class="sidebar__menu__label"></label>
+    <div class="sidebar__menu__asside"></div>
+  </div>
+</div>
+`;
+
+exports[`when custom tag matches snapshot 1`] = `
+<div><a class="sidebar__menu"> <label class="sidebar__menu__label"></label>
+    <div class="sidebar__menu__asside"></div>
+  </a></div>
+`;
+
+exports[`when router link with "to" matches snapshot 1`] = `
+<div to="datasets">
+  <router-link-stub to="datasets" class="sidebar__menu"> <label class="sidebar__menu__label"></label>
+    <div class="sidebar__menu__asside"></div>
+  </router-link-stub>
+</div>
+`;
+
+exports[`when sidebar minimized matches snapshot 1`] = `
+<div>
+  <div class="sidebar__menu sidebar__menu--minimized"> <label class="sidebar__menu__label"></label>
+    <div class="sidebar__menu__asside"></div>
+  </div>
+</div>
+`;

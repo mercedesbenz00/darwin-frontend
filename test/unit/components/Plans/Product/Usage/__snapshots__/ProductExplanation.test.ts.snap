@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="product-explanation">
+  <div data-role="button" class="product-explanation__header">Title slot <chevron-right-icon-stub class="product-explanation__header__icon"></chevron-right-icon-stub>
+  </div>
+  <div class="product-explanation__body">Body slot</div>
+</div>
+`;
+
+exports[`matches snapshot: open 1`] = `
+<div class="product-explanation product-explanation--open">
+  <div data-role="button" class="product-explanation__header">Title slot <chevron-right-icon-stub class="product-explanation__header__icon"></chevron-right-icon-stub>
+  </div>
+  <div class="product-explanation__body">Body slot</div>
+</div>
+`;

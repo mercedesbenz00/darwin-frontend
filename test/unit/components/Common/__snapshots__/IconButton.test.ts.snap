@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<button class="icon__button"></button>`;
+
+exports[`matches snapshot when to is defined 1`] = `<router-link-stub to="/foo" class="icon__button"></router-link-stub>`;

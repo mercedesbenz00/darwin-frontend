@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when is loading workflows matches snapshot 1`] = `
+<div class="annotators-workflow-overview">
+  <div class="content-card">
+    <div class="content-card__title">
+      <div class="annotators-workflow-title annotators-workflow-overview__title">
+        <div class="annotators-workflow-title__header">
+          <h1 class="annotators-workflow-title__header__title">
+            Loading Workflows...
+          </h1>
+        </div>
+        <div class="annotators-workflow-title__filter">
+          <div class="annotators-workflow-title__search">
+            <div class="search-field annotators-workflow-overview__title__search">
+              <!----> <input type="text" autofocus="autofocus" placeholder="Search..." class="search-field__input search-field__input--disabled" disabled="disabled">
+            </div>
+          </div>
+          <div class="annotators-workflow-title__sort">
+            <div class="sort-dropdown workflow__sort annotators-workflow-overview__title__sort">
+              <div class="sort-dropdown__input sort-dropdown__input--disabled">
+                <div tabindex="0" class="select-field">
+                  <div class="select-field__input select-field__input--disabled"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Date modified</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button sort-button--reverse" style="width: auto;" tooltip="{'content':'Ascending'}"><span class="icon-button__slot"><!----></span></button></span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-card__body">
+      <div class="annotators-workflow-overview__section">
+        <div class="sk-fading-circle" style="width: 50px; height: 50px;">
+          <div class="sk-circle1 sk-circle"></div>
+          <div class="sk-circle2 sk-circle"></div>
+          <div class="sk-circle3 sk-circle"></div>
+          <div class="sk-circle4 sk-circle"></div>
+          <div class="sk-circle5 sk-circle"></div>
+          <div class="sk-circle6 sk-circle"></div>
+          <div class="sk-circle7 sk-circle"></div>
+          <div class="sk-circle8 sk-circle"></div>
+          <div class="sk-circle9 sk-circle"></div>
+          <div class="sk-circle10 sk-circle"></div>
+          <div class="sk-circle11 sk-circle"></div>
+          <div class="sk-circle12 sk-circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are no workflows assigned to the user matches snapshot 1`] = `
+<div class="annotators-workflow-overview">
+  <div class="content-card">
+    <div class="content-card__title">
+      <div class="annotators-workflow-title annotators-workflow-overview__title">
+        <div class="annotators-workflow-title__header">
+          <h1 class="annotators-workflow-title__header__title">
+            You have no assigned Workflows
+          </h1>
+        </div>
+        <div class="annotators-workflow-title__filter">
+          <div class="annotators-workflow-title__search">
+            <div class="search-field annotators-workflow-overview__title__search">
+              <!----> <input type="text" autofocus="autofocus" placeholder="Search..." class="search-field__input">
+            </div>
+          </div>
+          <div class="annotators-workflow-title__sort">
+            <div class="sort-dropdown workflow__sort annotators-workflow-overview__title__sort">
+              <div class="sort-dropdown__input">
+                <div tabindex="0" class="select-field">
+                  <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Date modified</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button sort-button--reverse" style="width: auto;" tooltip="{'content':'Ascending'}"><span class="icon-button__slot"><!----></span></button></span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-card__body">
+      <div class="annotators-workflow-overview__section">
+        <div class="annotators-workflow-overview__section__no-content"><span>There are no workflows assigned to you</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are workflows assigned and user search has matches matches snapshot 1`] = `
+<div class="annotators-workflow-overview">
+  <div class="content-card">
+    <div class="content-card__title">
+      <div class="annotators-workflow-title annotators-workflow-overview__title">
+        <div class="annotators-workflow-title__header">
+          <h1 class="annotators-workflow-title__header__title">
+            You have 2 assigned Workflows
+          </h1>
+        </div>
+        <div class="annotators-workflow-title__filter">
+          <div class="annotators-workflow-title__search">
+            <div class="search-field annotators-workflow-overview__title__search">
+              <!----> <input type="text" autofocus="autofocus" placeholder="Search..." class="search-field__input">
+            </div>
+          </div>
+          <div class="annotators-workflow-title__sort">
+            <div class="sort-dropdown workflow__sort annotators-workflow-overview__title__sort">
+              <div class="sort-dropdown__input">
+                <div tabindex="0" class="select-field">
+                  <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Date modified</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button sort-button--reverse" style="width: auto;" tooltip="{'content':'Ascending'}"><span class="icon-button__slot"><!----></span></button></span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-card__body">
+      <div class="annotators-workflow-overview__section">
+        <div class="annotators-workflow-overview__section__content">
+          <div class="annotators-workflow-card annotators-workflow-overview__section__content__card">
+            <div class="annotators-workflow-card__upside">
+              <div class="thumbnails__row thumbnails__row--small"> <span class="thumbnails__row--empty">
+    No data inside
+  </span></div>
+            </div>
+            <div class="annotators-workflow-card__details">
+              <div class="annotators-workflow-card__details__row">
+                <h3 class="annotators-workflow-card__details__name" tooltip="{'content':'foo','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+                  foo
+                </h3>
+              </div>
+            </div>
+            <div class="annotators-workflow-card__actions">
+              <!----> <button class="custom-button variant--outline color--secondary size--medium flair--soft tag--button custom-button--icon--none annotators-workflow-card__action" style="width: 100%;">
+                <!---->
+                <h2 class="custom-button__label custom-button__label--none"><span class="annotators-workflow-card__actions__content">&nbsp;+&nbsp; <span class="label">
+          Request More
+        </span></span></h2>
+                <!---->
+              </button>
+            </div>
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are workflows assigned and user search has no matches matches snapshot 1`] = `
+<div class="annotators-workflow-overview">
+  <div class="content-card">
+    <div class="content-card__title">
+      <div class="annotators-workflow-title annotators-workflow-overview__title">
+        <div class="annotators-workflow-title__header">
+          <h1 class="annotators-workflow-title__header__title">
+            You have 1 assigned Workflow
+          </h1>
+        </div>
+        <div class="annotators-workflow-title__filter">
+          <div class="annotators-workflow-title__search">
+            <div class="search-field annotators-workflow-overview__title__search">
+              <!----> <input type="text" autofocus="autofocus" placeholder="Search..." class="search-field__input">
+            </div>
+          </div>
+          <div class="annotators-workflow-title__sort">
+            <div class="sort-dropdown workflow__sort annotators-workflow-overview__title__sort">
+              <div class="sort-dropdown__input">
+                <div tabindex="0" class="select-field">
+                  <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Date modified</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button sort-button--reverse" style="width: auto;" tooltip="{'content':'Ascending'}"><span class="icon-button__slot"><!----></span></button></span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-card__body">
+      <div class="annotators-workflow-overview__section">
+        <div class="annotators-workflow-overview__section__no-content"><span>There are no workflows assigned to you with keyword "bar"</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when there are workflows assigned to the user matches snapshot 1`] = `
+<div class="annotators-workflow-overview">
+  <div class="content-card">
+    <div class="content-card__title">
+      <div class="annotators-workflow-title annotators-workflow-overview__title">
+        <div class="annotators-workflow-title__header">
+          <h1 class="annotators-workflow-title__header__title">
+            You have 1 assigned Workflow
+          </h1>
+        </div>
+        <div class="annotators-workflow-title__filter">
+          <div class="annotators-workflow-title__search">
+            <div class="search-field annotators-workflow-overview__title__search">
+              <!----> <input type="text" autofocus="autofocus" placeholder="Search..." class="search-field__input">
+            </div>
+          </div>
+          <div class="annotators-workflow-title__sort">
+            <div class="sort-dropdown workflow__sort annotators-workflow-overview__title__sort">
+              <div class="sort-dropdown__input">
+                <div tabindex="0" class="select-field">
+                  <div class="select-field__input"><span class="select-field__input__label">
+        Sort by&nbsp;<span style="text-transform: lowercase;">Date modified</span></span> <span class="select-field__input__icon"><button class="icon-button sort-button sort-dropdown__direction variant--default color--transparent size--mini flair--super-soft tag--button sort-button--reverse" style="width: auto;" tooltip="{'content':'Ascending'}"><span class="icon-button__slot"><!----></span></button></span></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-card__body">
+      <div class="annotators-workflow-overview__section">
+        <div class="annotators-workflow-overview__section__content">
+          <div class="annotators-workflow-card annotators-workflow-overview__section__content__card">
+            <div class="annotators-workflow-card__upside">
+              <div class="thumbnails__row thumbnails__row--small"> <span class="thumbnails__row--empty">
+    No data inside
+  </span></div>
+            </div>
+            <div class="annotators-workflow-card__details">
+              <div class="annotators-workflow-card__details__row">
+                <h3 class="annotators-workflow-card__details__name" tooltip="{'content':'foo','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+                  foo
+                </h3>
+              </div>
+            </div>
+            <div class="annotators-workflow-card__actions">
+              <!----> <button class="custom-button variant--outline color--secondary size--medium flair--soft tag--button custom-button--icon--none annotators-workflow-card__action" style="width: 100%;">
+                <!---->
+                <h2 class="custom-button__label custom-button__label--none"><span class="annotators-workflow-card__actions__content">&nbsp;+&nbsp; <span class="label">
+          Request More
+        </span></span></h2>
+                <!---->
+              </button>
+            </div>
+            <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

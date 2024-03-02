@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="annotation-type-item" tooltip="undefined">
+  <type-icon-stub type="polygon" color="#ffffff" class="annotation-type-item__icon"></type-icon-stub> <span class="annotation-type-item__label">Polygon</span>
+  <annotation-type-item-info-stub data="[object Object]" class="annotation-type-item__info"></annotation-type-item-info-stub>
+</div>
+`;
+
+exports[`matches snapshot when disabled 1`] = `
+<div class="annotation-type-item annotation-type-item--disabled" tooltip="{'content':null,'placement':'left','offset':10}">
+  <type-icon-stub type="polygon" color="#ffffff" class="annotation-type-item__icon"></type-icon-stub> <span class="annotation-type-item__label">Polygon</span>
+  <annotation-type-item-info-stub data="[object Object]" class="annotation-type-item__info"></annotation-type-item-info-stub>
+</div>
+`;
+
+exports[`matches snapshot when link tool 1`] = `
+<div class="annotation-type-item" tooltip="undefined">
+  <type-icon-stub type="link" color="#ffffff" class="annotation-type-item__icon"></type-icon-stub> <span class="annotation-type-item__label">Link</span>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when link tool and feature disabled 1`] = ``;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="annotation-type-item annotation-type-item--selected" tooltip="undefined">
+  <type-icon-stub type="polygon" color="#ffffff" class="annotation-type-item__icon"></type-icon-stub> <span class="annotation-type-item__label">Polygon</span>
+  <annotation-type-item-info-stub data="[object Object]" class="annotation-type-item__info"></annotation-type-item-info-stub>
+</div>
+`;

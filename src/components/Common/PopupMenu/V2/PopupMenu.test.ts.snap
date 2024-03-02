@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`close emit click:outside when clicked outside 1`] = `
+<div class="menu__container">
+  <div class="menu__wrapper"></div>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div class="menu__container">
+  <div class="menu__wrapper"></div>
+</div>
+`;

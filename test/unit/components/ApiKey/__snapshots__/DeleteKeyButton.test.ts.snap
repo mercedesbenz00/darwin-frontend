@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <negative-button-stub size="small">
+    Delete
+  </negative-button-stub>
+  <modal-stub name="confirm-delete-1" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirm-revoke" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="30%" height="275" pivotx="0.5" pivoty="0.5">
+    <div class="modal__header">
+      <p class="modal__header__title">
+        Are you sure you wish to delete this key?
+      </p>
+      <p class="modal__header__text">
+        This action cannot be undone.
+      </p>
+      <div class="modal__header__close">
+        ✕
+      </div>
+    </div>
+    <div class="modal__footer">
+      <secondary-button-stub class="modal__footer-left">
+        Cancel
+      </secondary-button-stub>
+      <negative-button-stub class="modal__footer-right">
+        Delete Key
+      </negative-button-stub>
+    </div>
+  </modal-stub>
+</div>
+`;

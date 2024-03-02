@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`data matches snapshot 1`] = `
+<div class="data">
+  <div class="data__header">
+    <h3>Server Usage</h3>
+    <tab-selector-stub value="day" options="[object Object],[object Object],[object Object],[object Object]"></tab-selector-stub>
+  </div>
+  <line-chart-stub chartdata="[object Object]" chartid="gradient-line" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></line-chart-stub>
+  <!---->
+</div>
+`;
+
+exports[`no data matches snapshot 1`] = `
+<div class="data">
+  <div class="data__header">
+    <h3>Server Usage</h3>
+    <tab-selector-stub value="day" options="[object Object],[object Object],[object Object],[object Object]"></tab-selector-stub>
+  </div>
+  <line-chart-stub chartdata="[object Object]" chartid="gradient-line" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></line-chart-stub>
+  <!---->
+</div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for 'evaluation' tier 1`] = `
+<div class="tier-selection">
+  <h3 class="tier-selection__header">
+    Tier
+  </h3>
+  <div class="tier-selection__content">
+    <div class="tier-selection__content__left">
+      <double-slider-stub value="evaluation" options="[object Object]"></double-slider-stub>
+    </div>
+    <div class="tier-selection__content__right tier-selection__description">
+      <h4 class="tier-selection__description__title">
+        Evaluation Models
+      </h4>
+      <p class="tier-selection__description__content">
+        A quick, small neural network that gives a glimpse of your dataset’s viability. These models train on a small number of images and have an unrefined performance for the purpose of feasibility testing.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for 'production' tier 1`] = `
+<div class="tier-selection">
+  <h3 class="tier-selection__header">
+    Tier
+  </h3>
+  <div class="tier-selection__content">
+    <div class="tier-selection__content__left">
+      <double-slider-stub value="production" options="[object Object]"></double-slider-stub>
+    </div>
+    <div class="tier-selection__content__right tier-selection__description">
+      <h4 class="tier-selection__description__title">
+        Production Models
+      </h4>
+      <p class="tier-selection__description__content">
+        One or more V7 deep learning engineers will be personally appointed to the training of this model. Select this option for high risk, custom, or unordinary applications where additional expertise is required.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for 'standard' tier 1`] = `
+<div class="tier-selection">
+  <h3 class="tier-selection__header">
+    Tier
+  </h3>
+  <div class="tier-selection__content">
+    <div class="tier-selection__content__left">
+      <double-slider-stub value="standard" options="[object Object]"></double-slider-stub>
+    </div>
+    <div class="tier-selection__content__right tier-selection__description">
+      <h4 class="tier-selection__description__title">
+        Standard Models
+      </h4>
+      <p class="tier-selection__description__content">
+        These train on your full dataset for a large number of epochs. Use these during product development or to deploy in low to medium risk applications.
+      </p>
+    </div>
+  </div>
+</div>
+`;

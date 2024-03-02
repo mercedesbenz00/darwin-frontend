@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when tags is defined 1`] = `
+<div class="file-set-current-tags">
+  <card-tags-stub tags="[object Object],[object Object]"></card-tags-stub>
+</div>
+`;
+
+exports[`matches snapshot when tags is not defined 1`] = ``;

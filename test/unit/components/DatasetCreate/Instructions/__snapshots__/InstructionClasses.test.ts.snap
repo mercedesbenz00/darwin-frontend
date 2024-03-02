@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div class="instruction-classes">
+  <div class="instruction-classes__header">
+    <div>Image</div>
+    <div>Name</div>
+    <div>Type</div>
+  </div>
+  <div class="instruction-classes__list">
+    <instruction-class-stub data="[object Object]" class="instruction-classes__list-item"></instruction-class-stub>
+    <instruction-class-stub data="[object Object]" class="instruction-classes__list-item"></instruction-class-stub>
+  </div>
+</div>
+`;

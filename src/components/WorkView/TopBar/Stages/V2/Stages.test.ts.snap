@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with active workflow and ARC workflow matches snapshot 1`] = `
+<div class="stages" style="max-width: 160px;">
+  <div class="stages__content">
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+  </div>
+</div>
+`;
+
+exports[`without active workflow matches snapshot 1`] = `
+<div class="stages" style="max-width: 160px;">
+  <div class="stages__content">
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+    <v2-stage-item-stub data="[object Object]" class="stage"></v2-stage-item-stub>
+  </div>
+</div>
+`;

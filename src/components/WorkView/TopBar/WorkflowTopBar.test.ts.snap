@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="top-bar-stub workflow-top-bar">
+  <div class="top-bar-stub__left-container">
+    <!---->
+    <!---->
+    <tool-class-selection-stub editor="[object Object]" class="workflow-top-bar__class-selection"></tool-class-selection-stub>
+    <!---->
+    <!---->
+    <tool-options-stub editor="[object Object]"></tool-options-stub>
+  </div>
+  <div class="top-bar-stub__right-container">
+    <div class="center-slot-given">
+      <div class="workflow-top-bar__center">
+        <div class="workflow-top-bar__pagination">
+          <div class="workflow-top-bar__tags">
+            <!---->
+            <!---->
+            <!---->
+          </div>
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected item is in dicom 1`] = `
+<div class="top-bar-stub workflow-top-bar">
+  <div class="top-bar-stub__left-container">
+    <!---->
+    <!---->
+    <tool-class-selection-stub editor="[object Object]" class="workflow-top-bar__class-selection"></tool-class-selection-stub>
+    <!---->
+    <!---->
+    <tool-options-stub editor="[object Object]"></tool-options-stub>
+  </div>
+  <div class="top-bar-stub__right-container">
+    <div class="center-slot-given">
+      <div class="workflow-top-bar__center">
+        <div class="workflow-top-bar__pagination">
+          <div class="workflow-top-bar__tags">
+            <!---->
+            <badge-stub label="DICOM" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" highcontrast="true" overridelabelcolor="" notooltip="true" tooltip="{'content':'This image is stored on a client server. It may have a different loading speed than normal depending on your location.'}"></badge-stub>
+            <!---->
+          </div>
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected item is in pdf 1`] = `
+<div class="top-bar-stub workflow-top-bar">
+  <div class="top-bar-stub__left-container">
+    <!---->
+    <!---->
+    <tool-class-selection-stub editor="[object Object]" class="workflow-top-bar__class-selection"></tool-class-selection-stub>
+    <!---->
+    <!---->
+    <tool-options-stub editor="[object Object]"></tool-options-stub>
+  </div>
+  <div class="top-bar-stub__right-container">
+    <div class="center-slot-given">
+      <div class="workflow-top-bar__center">
+        <div class="workflow-top-bar__pagination">
+          <div class="workflow-top-bar__tags">
+            <!---->
+            <!---->
+            <badge-stub label="PDF" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" highcontrast="true" overridelabelcolor="" notooltip="true" tooltip="{'content':'This image is stored on a client server. It may have a different loading speed than normal depending on your location.'}"></badge-stub>
+          </div>
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected item's image is in external storage 1`] = `
+<div class="top-bar-stub workflow-top-bar">
+  <div class="top-bar-stub__left-container">
+    <!---->
+    <!---->
+    <tool-class-selection-stub editor="[object Object]" class="workflow-top-bar__class-selection"></tool-class-selection-stub>
+    <!---->
+    <!---->
+    <tool-options-stub editor="[object Object]"></tool-options-stub>
+  </div>
+  <div class="top-bar-stub__right-container">
+    <div class="center-slot-given">
+      <div class="workflow-top-bar__center">
+        <div class="workflow-top-bar__pagination">
+          <div class="workflow-top-bar__tags">
+            <badge-stub label="EXTERNAL" overridetooltip="" size="small" tag="div" color="[object Object]" alpha="0.1" highcontrast="true" overridelabelcolor="" notooltip="true" tooltip="{'content':'This image is stored on a client server. It may have a different loading speed than normal depending on your location.'}"></badge-stub>
+            <!---->
+            <!---->
+          </div>
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+        </div>
+        <workflow-warning-stub></workflow-warning-stub>
+      </div>
+    </div>
+    <div class="right-slot-given">
+      <workflow-tracker-stub></workflow-tracker-stub>
+      <!---->
+      <stages-stub></stages-stub>
+      <div class="workflow-top-bar__controls">
+        <workflow-controls-stub class="workflow-top-bar__controls__buttons"></workflow-controls-stub>
+        <action-history-trigger-stub class="workflow-top-bar__controls__more"></action-history-trigger-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with available models 1`] = `
+<div class="top-bar-stub workflow-top-bar">
+  <div class="top-bar-stub__left-container">
+    <tool-model-selection-stub editor="[object Object]" models="[object Object]"></tool-model-selection-stub>
+    <auto-annotate-class-mapper-stub editor="[object Object]"></auto-annotate-class-mapper-stub>
+    <!---->
+    <!---->
+    <auto-annotate-slider-stub editor="[object Object]"></auto-annotate-slider-stub>
+    <tool-options-stub editor="[object Object]"></tool-options-stub>
+  </div>
+  <div class="top-bar-stub__right-container">
+    <div class="center-slot-given">
+      <div class="workflow-top-bar__center">
+        <div class="workflow-top-bar__pagination">
+          <div class="workflow-top-bar__tags">
+            <!---->
+            <!---->
+            <!---->
+          </div>
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+        </div>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`with selected item matches snapshot 1`] = `
+<div class="top-bar-stub workflow-top-bar">
+  <div class="top-bar-stub__left-container">
+    <!---->
+    <!---->
+    <tool-class-selection-stub editor="[object Object]" class="workflow-top-bar__class-selection"></tool-class-selection-stub>
+    <!---->
+    <!---->
+    <tool-options-stub editor="[object Object]"></tool-options-stub>
+  </div>
+  <div class="top-bar-stub__right-container">
+    <div class="center-slot-given">
+      <div class="workflow-top-bar__center">
+        <div class="workflow-top-bar__pagination">
+          <div class="workflow-top-bar__tags">
+            <!---->
+            <!---->
+            <!---->
+          </div>
+          <workflow-pagination-stub editor="[object Object]"></workflow-pagination-stub>
+        </div>
+        <workflow-warning-stub></workflow-warning-stub>
+      </div>
+    </div>
+    <div class="right-slot-given">
+      <workflow-tracker-stub></workflow-tracker-stub>
+      <!---->
+      <stages-stub></stages-stub>
+      <div class="workflow-top-bar__controls">
+        <workflow-controls-stub class="workflow-top-bar__controls__buttons"></workflow-controls-stub>
+        <action-history-trigger-stub class="workflow-top-bar__controls__more"></action-history-trigger-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

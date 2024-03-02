@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when full usage matches snapshot 1`] = `
+<div>
+  <div class="credit-usage-summary">
+    <div class="credit-usage__progress">
+      <credit-bar-tick-stub tick="[object Object]" tickcount="1"></credit-bar-tick-stub>
+    </div>
+  </div>
+  <div class="credit-usage__legend legend">
+    <div class="legend__item" style="color: rgb(244, 154, 71);"><span class="legend__item-color" style="background-color: rgb(244, 154, 71);"></span> API call
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when some usage matches snapshot 1`] = `
+<div>
+  <div class="credit-usage-summary">
+    <div class="credit-usage__progress">
+      <credit-bar-tick-stub tick="[object Object]" tickcount="1"></credit-bar-tick-stub>
+    </div>
+  </div>
+  <div class="credit-usage__legend legend">
+    <div class="legend__item" style="color: rgb(244, 154, 71);"><span class="legend__item-color" style="background-color: rgb(244, 154, 71);"></span> API call
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when zero usage matches snapshot 1`] = `
+<div>
+  <div class="credit-usage-summary">
+    <div class="credit-usage__progress"></div>
+  </div>
+  <div class="credit-usage__legend legend"></div>
+</div>
+`;

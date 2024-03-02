@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when a dataset is selected matches snapshot 1`] = `
+<div>
+  <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="button" fullwidth="true">
+    Confirm
+  </custom-button-stub>
+  <custom-button-stub variant="outline" color="secondary" size="medium" flair="soft" tag="button" fullwidth="true">
+    New Dataset
+  </custom-button-stub>
+</div>
+`;
+
+exports[`when no dataset is selected matches snapshot 1`] = `
+<div>
+  <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="button" disabled="true" fullwidth="true">
+    Confirm
+  </custom-button-stub>
+  <custom-button-stub variant="outline" color="secondary" size="medium" flair="soft" tag="button" fullwidth="true">
+    New Dataset
+  </custom-button-stub>
+</div>
+`;

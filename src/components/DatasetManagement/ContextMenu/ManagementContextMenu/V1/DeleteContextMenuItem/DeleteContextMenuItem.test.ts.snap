@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<gallery-context-menu-item-stub label="DELETE 5" color="pink" class="delete-context-menu-item">
+  <trash-icon-old-stub class="delete-context-menu-item__icon"></trash-icon-old-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you wish to delete these images?" detail="This will permanently delete the selected images. It cannot be undone." buttontext="DELETE" name="delete-items"></delete-confirmation-dialog-stub>
+</gallery-context-menu-item-stub>
+`;

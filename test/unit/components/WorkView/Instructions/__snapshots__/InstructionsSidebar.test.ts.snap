@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the sidebar 1`] = `
+<div class="instructions-sidebar">
+  <div class="instructions-sidebar__header"><button class="instructions-sidebar__button instructions-sidebar__button--open">
+      i
+    </button> <strong class="instructions-sidebar__title">Class Instructions</strong> <button class="instructions-sidebar__button instructions-sidebar__button--close"></button></div>
+  <div class="instructions-sidebar__content">Image Manipulation sidebar content slot</div>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" popover-class="tooltip--no-background" trigger="manual" offset="0">
+  <div class="main">
+    <div class="skeleton-node-overlay" style="border-color: #00ff00;">
+      <div class="skeleton-node-overlay__item">
+        <move-icon-stub></move-icon-stub>
+      </div>
+      <div class="skeleton-node-overlay__item">
+        <link-icon-stub></link-icon-stub>
+      </div>
+      <div class="skeleton-node-overlay__item">
+        <label-icon-stub></label-icon-stub>
+      </div>
+      <div class="skeleton-node-overlay__item">
+        <trash-icon-stub></trash-icon-stub>
+      </div>
+    </div>
+  </div>
+  <div class="popover">
+    <skeleton-node-id-input-stub engine="[object Object]" node="[object Object]"></skeleton-node-id-input-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when engine is editing 1`] = `
+<div class="v-popover-stub" popover-class="tooltip--no-background" trigger="manual" offset="0">
+  <div class="main">
+    <div class="skeleton-node-overlay" style="border-color: #00ff00;">
+      <div class="skeleton-node-overlay__item">
+        <move-icon-stub></move-icon-stub>
+      </div>
+      <div class="skeleton-node-overlay__item">
+        <link-icon-stub></link-icon-stub>
+      </div>
+      <div class="skeleton-node-overlay__item">
+        <label-icon-stub></label-icon-stub>
+      </div>
+      <!---->
+    </div>
+  </div>
+  <div class="popover">
+    <skeleton-node-id-input-stub engine="[object Object]" node="[object Object]"></skeleton-node-id-input-stub>
+  </div>
+</div>
+`;

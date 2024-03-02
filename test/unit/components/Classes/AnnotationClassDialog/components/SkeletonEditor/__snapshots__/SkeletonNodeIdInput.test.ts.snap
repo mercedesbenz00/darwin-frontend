@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<div class="skeleton-node-id-input"><input placeholder="Node ID" type="text"> <span class="skeleton-node-id-input__tip">Node ID. Press enter to save</span></div>`;

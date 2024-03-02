@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div class="readonly">
+    <check-box-stub name="read_only" label="Read-only" type="rect" size="large"></check-box-stub>
+    <div class="readonly__icon" tooltip="In Read Only reviewers can mark errors, but cannot correct annotations or create new ones">
+      <icon-mono-info-stub></icon-mono-info-stub>
+    </div>
+  </div>
+  <configurableuserlist-stub stage="[object Object]"></configurableuserlist-stub>
+</div>
+`;

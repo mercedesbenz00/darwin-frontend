@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when card mode 1`] = `
+<div class="switch-layout">
+  <icon-button-stub>
+    <card-mode-icon-stub class="switch-layout__mode switch-layout__mode--active"></card-mode-icon-stub>
+  </icon-button-stub>
+  <icon-button-stub>
+    <list-mode-icon-stub class="switch-layout__mode"></list-mode-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when list mode 1`] = `
+<div class="switch-layout">
+  <icon-button-stub>
+    <card-mode-icon-stub class="switch-layout__mode"></card-mode-icon-stub>
+  </icon-button-stub>
+  <icon-button-stub>
+    <list-mode-icon-stub class="switch-layout__mode switch-layout__mode--active"></list-mode-icon-stub>
+  </icon-button-stub>
+</div>
+`;

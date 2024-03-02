@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when asc 1`] = `
+<div class="sort-dropdown">
+  <div class="dropdown">
+    <select2-stub placeholder="" options="[object Object],[object Object]" settings="[object Object]" value="option1"></select2-stub>
+  </div> <button type="button" class="sort-dropdown__direction sort-dropdown__direction--reverse" tooltip="{'content':'Ascending'}">
+    <sort-arrow-icon-stub></sort-arrow-icon-stub>
+  </button>
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when team has image matches snapshot 1`] = `<responsive-avatar-stub id="7" name="My Team" url="thumb.png" class="team-item__avatar"></responsive-avatar-stub>`;
+
+exports[`when team has no image matches snapshot 1`] = `<responsive-avatar-stub id="7" name="My Team" class="team-item__avatar"></responsive-avatar-stub>`;

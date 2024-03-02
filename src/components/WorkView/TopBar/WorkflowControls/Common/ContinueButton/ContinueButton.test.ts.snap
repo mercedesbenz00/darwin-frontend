@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when completesAt is set matches snapshot 1`] = `
+<button class="custom-button continue__button variant--default color--negative size--small flair--rounded tag--button custom-button--icon--left continue__button--archived continue__button--in-progress continue__button--waiting" style="width: auto;"><span class="custom-button__slot"><div role="button" class="timer" style="height: 14px; width: 14px;"><svg width="16" height="16" viewBox="0 0 16 16" class="timer__pie"><circle r="7" cx="8" cy="8" fill="rgba(255, 255, 255, 0.24)" stroke="currentColor" stroke-width="2"></circle> <circle r="3.5" cx="12" cy="8" fill="transparent" stroke="currentColor" stroke-width="7" stroke-dasharray="calc(1px * 100 * 31.42 / 100) 31.42" stroke-dashoffset="calc(1px * 100 * 31.42 / 100) 31.42" transform="rotate(-90) translate(-20)"></circle></svg> <!----></div></span>
+  <h2 class="custom-button__label custom-button__label--left"> <span>
+    Cancel
+  </span></h2>
+  <!---->
+</button>
+`;
+
+exports[`when stage is completed matches snapshot 1`] = `
+<button class="custom-button continue__button variant--default color--stage-complete size--small flair--rounded tag--button custom-button--icon--none continue__button--complete continue__button--restartable" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"> <span class="continue__button__content__restart">
+    Restart Workflow
+  </span></h2>
+  <!---->
+</button>
+`;
+
+exports[`when type is Archive matches snapshot 1`] = `
+<button class="custom-button continue__button variant--default color--negative size--small flair--rounded tag--button custom-button--icon--none continue__button--archived" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"> <span>
+    Send to Archive
+  </span></h2>
+  <!---->
+</button>
+`;
+
+exports[`when waiting is true matches snapshot 1`] = `
+<button class="custom-button continue__button variant--default color--negative size--small flair--rounded tag--button custom-button--icon--none continue__button--archived continue__button--waiting" style="width: auto;">
+  <!---->
+  <h2 class="custom-button__label custom-button__label--none"> <span>
+    Waiting for others
+  </span></h2>
+  <!---->
+</button>
+`;

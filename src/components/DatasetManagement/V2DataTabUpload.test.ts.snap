@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="data-tab-upload">
+  <darwinbutton-stub kind="primary" size="sm">
+    + Add Data
+  </darwinbutton-stub>
+  <fileuploaddialog-stub></fileuploaddialog-stub>
+</div>
+`;
+
+exports[`matches snapshot when upload in progress 1`] = `
+<div class="data-tab-upload">
+  <uploadprogressbutton-stub dismissable="true" class="data-tab-upload__progress"></uploadprogressbutton-stub>
+  <fileuploaddialog-stub></fileuploaddialog-stub>
+</div>
+`;

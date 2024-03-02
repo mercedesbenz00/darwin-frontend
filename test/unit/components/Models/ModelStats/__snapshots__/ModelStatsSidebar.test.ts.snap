@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when trainedModel is defined, no associated training session matches snapshot 1`] = `
+<div class="model-stats-sidebar">
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Dataset Name
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Training Set Size
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Total Training Time
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Started Training On
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Author Team
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when trainedModel is defined, with associated training session in store matches snapshot 1`] = `
+<div class="model-stats-sidebar">
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Dataset Name
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      dataset-slug
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Training Set Size
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      123
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Total Training Time
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      2 days, 3 hours and 54 minutes
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Started Training On
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      01/05/2021 16:05
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Author Team
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      team-slug
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      IoU for metrics
+      <tooltip-info-stub content="<p>A higher IoU threshold generates harsher metrics.</p>
+        <p>Industry standards indicate a 50% threshold,</p>
+        <p>meaning that a “correct” answer means IoU is over 50%.</p>" html="true" offset="10" placement="bottom"></tooltip-info-stub>
+    </h2>
+    <tab-selector-stub value="50%" options="[object Object],[object Object],[object Object]" class="selector"></tab-selector-stub>
+  </div>
+</div>
+`;
+
+exports[`when trainedModel is null matches snapshot 1`] = `
+<div class="model-stats-sidebar">
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Dataset Name
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Training Set Size
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Total Training Time
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Started Training On
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <div class="model-stats-sidebar__item">
+    <h2 class="model-stats-sidebar__item__name">
+      Author Team
+    </h2>
+    <p class="model-stats-sidebar__item__data">
+      N/A
+    </p>
+  </div>
+  <!---->
+</div>
+`;

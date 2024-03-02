@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div style="display: block; width: 126px; height: 20px;">
+  <content-loader-stub width="126px" height="20px" speed="2" preserveaspectratio="xMidYMid meet" baseurl="" primarycolor="#f9f9f9" secondarycolor="#ecebeb" primaryopacity="1" secondaryopacity="1" animate="true" viewbox="0 0 126 20">
+    <rect width="126px" height="20px" rx="4"></rect>
+  </content-loader-stub>
+</div>
+`;

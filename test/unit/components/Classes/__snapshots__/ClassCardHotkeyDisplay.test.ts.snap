@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = ``;
+
+exports[`matches snapshot with dataset, with hotkey 1`] = `
+<div class="class-card-hotkey-display">
+  <div class="class-card-hotkey-display__inner">
+    3
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with dataset, without hotkey 1`] = ``;

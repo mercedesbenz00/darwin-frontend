@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="image-manipulation__item">
+  <div class="image-manipulation__item__label">
+    Annotation Fill Opacity
+  </div>
+  <div class="image-manipulation__item__value">
+    15%
+  </div>
+  <div class="image-manipulation__item__slider">
+    <manipulator-slider-stub value="15" min="0" max="100"></manipulator-slider-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<button class="file-set-delete-button">
+  <x-shadow-icon-stub class="file-set-close-icon"></x-shadow-icon-stub>
+</button>
+`;

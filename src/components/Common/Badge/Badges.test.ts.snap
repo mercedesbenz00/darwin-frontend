@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has correct values matches snapshot 1`] = `
+<div class="badges">
+  <badge-stub label="foo" overridetooltip="" size="small" tag="div" alpha="0.1" overridelabelcolor=""></badge-stub>
+  <badge-stub label="..." overridetooltip="bar, baz" size="small" tag="div" alpha="0.1" overridelabelcolor="" class="more-badge"></badge-stub>
+</div>
+`;
+
+exports[`has more badge that can be rendered matches snapshot 1`] = `
+<div class="badges">
+  <badge-stub label="foo" overridetooltip="" size="small" tag="div" alpha="0.1" overridelabelcolor=""></badge-stub>
+  <badge-stub label="..." overridetooltip="bar, baz" size="small" tag="div" alpha="0.1" overridelabelcolor="" class="more-badge"></badge-stub>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div class="badges">
+  <badge-stub label="foo" overridetooltip="" size="small" tag="div" alpha="0.1" overridelabelcolor=""></badge-stub>
+  <badge-stub label="..." overridetooltip="bar, baz" size="small" tag="div" alpha="0.1" overridelabelcolor="" class="more-badge"></badge-stub>
+</div>
+`;

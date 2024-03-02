@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "jebbs.plantuml",
+    "vue.volar"
+  ],
+  "unwantedRecommendations": [
+    "vue.vetur"
+  ]
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when no current team matches snapshot 1`] = ``;
+
+exports[`when no owner in the team matches snapshot 1`] = ``;
+
+exports[`when the team has owner matches snapshot 1`] = `
+<div class="no-access-to-customer">
+  <p>
+    Sorry, you are not authorized to manage this team's billing.
+    Please ask an Admin or the Team Owner.
+    Some Team's owner is <strong>Admin Owner</strong>.
+  </p>
+  <p>
+    Team Owners and Admins are notified of any billing changes or credit
+    expiries automatically by email.
+  </p>
+</div>
+`;

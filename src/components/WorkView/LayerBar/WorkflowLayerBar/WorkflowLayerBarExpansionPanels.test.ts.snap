@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<ul class="expansion-panels">
+  <expansionpanel-stub id="fake-id-5" activebydefault="true"></expansionpanel-stub>
+  <expansionpanel-stub id="fake-id-6" activebydefault="true"></expansionpanel-stub>
+</ul>
+`;

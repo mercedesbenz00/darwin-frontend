@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for Manage Comments 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header">
+    Manage Comments
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      Start new comment threads.
+    </li>
+    <li class="permission-group__abilities__ability">
+      Reply to comment threads
+    </li>
+    <li class="permission-group__abilities__ability">
+      Delete comment threads
+    </li>
+    <li class="permission-group__abilities__ability">
+      Delete comments
+    </li>
+    <li class="permission-group__abilities__ability">
+      Edit comment threads
+    </li>
+    <li class="permission-group__abilities__ability">
+      Edit comments
+    </li>
+    <li class="permission-group__abilities__ability">
+      View comment threads
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`matches snapshot for Manage Datasets 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header">
+    Manage Datasets
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      View datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Export datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Create datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Fork datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Update datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Archive datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Add data to datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      Archive and restore items
+    </li>
+    <li class="permission-group__abilities__ability">
+      Delete dataset items
+    </li>
+    <li class="permission-group__abilities__ability">
+      View annotations
+    </li>
+    <li class="permission-group__abilities__ability">
+      View annotation reports
+    </li>
+    <li class="permission-group__abilities__ability">
+      View dataset annotators
+    </li>
+    <li class="permission-group__abilities__ability">
+      View exported datasets
+    </li>
+    <li class="permission-group__abilities__ability">
+      View dataset performance reports
+    </li>
+    <li class="permission-group__abilities__ability">
+      View dataset reports
+    </li>
+    <li class="permission-group__abilities__ability">
+      View annotation classes
+    </li>
+    <li class="permission-group__abilities__ability">
+      Create annotation classes
+    </li>
+    <li class="permission-group__abilities__ability">
+      Update annotation classes
+    </li>
+    <li class="permission-group__abilities__ability">
+      Delete annotation classes
+    </li>
+    <li class="permission-group__abilities__ability">
+      Import annotations
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`matches snapshot for Manage Models 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header">
+    Manage Models
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      Deploy existing neural models
+    </li>
+    <li class="permission-group__abilities__ability">
+      Train new neural models
+    </li>
+    <li class="permission-group__abilities__ability">
+      View neural models
+    </li>
+    <li class="permission-group__abilities__ability">
+      Run model inference
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`matches snapshot for Manage Tasks 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header">
+    Manage Tasks
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      Assign items
+    </li>
+    <li class="permission-group__abilities__ability">
+      View workflow stages
+    </li>
+    <li class="permission-group__abilities__ability">
+      Update item workflow
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`matches snapshot for Manage Team 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header">
+    Manage Team
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      Archive team
+    </li>
+    <li class="permission-group__abilities__ability">
+      Create teams
+    </li>
+    <li class="permission-group__abilities__ability">
+      Transfer team ownership
+    </li>
+    <li class="permission-group__abilities__ability">
+      View and update billing information
+    </li>
+    <li class="permission-group__abilities__ability">
+      Update team
+    </li>
+    <li class="permission-group__abilities__ability">
+      View team
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`matches snapshot for Manage Team Members 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header">
+    Manage Team Members
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      Delete memberships
+    </li>
+    <li class="permission-group__abilities__ability">
+      Create admin invites
+    </li>
+    <li class="permission-group__abilities__ability">
+      Create invites
+    </li>
+    <li class="permission-group__abilities__ability">
+      Update team members
+    </li>
+    <li class="permission-group__abilities__ability">
+      View invitations
+    </li>
+    <li class="permission-group__abilities__ability">
+      View team members
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<annotation-class-section-stub title="Subtypes" optional="true">
+  <div class="annotation-types">
+    <annotation-type-item-stub typename="attributes" disabledtooltip="Cannot remove existing subtypes" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="text" disabledtooltip="Cannot remove existing subtypes" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="directional_vector" disabledtooltip="Cannot remove existing subtypes" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="instance_id" disabledtooltip="Cannot remove existing subtypes" class="annotation-type-item"></annotation-type-item-stub>
+  </div>
+</annotation-class-section-stub>
+`;
+
+exports[`matches snapshot when original and selected are different 1`] = `
+<annotation-class-section-stub title="Subtypes" optional="true">
+  <div class="annotation-types">
+    <annotation-type-item-stub typename="attributes" disabledtooltip="Cannot remove existing subtypes" selected="true" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="text" disabledtooltip="Cannot remove existing subtypes" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="directional_vector" disabled="true" disabledtooltip="Cannot remove existing subtypes" selected="true" class="annotation-type-item"></annotation-type-item-stub>
+    <annotation-type-item-stub typename="instance_id" disabledtooltip="Cannot remove existing subtypes" class="annotation-type-item"></annotation-type-item-stub>
+  </div>
+</annotation-class-section-stub>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with slot 1`] = `
+<div class="error-tip">
+  <warning-icon-stub class="error-tip__icon"></warning-icon-stub> <span class="error-tip__content">Default slot</span>
+</div>
+`;
+
+exports[`matches snapshot without slot 1`] = `
+<div class="error-tip">
+  <warning-icon-stub class="error-tip__icon"></warning-icon-stub> <span class="error-tip__content"></span>
+</div>
+`;

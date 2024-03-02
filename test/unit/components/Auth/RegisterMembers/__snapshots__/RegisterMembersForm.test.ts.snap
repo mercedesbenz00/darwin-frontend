@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add new member field after one is added 1`] = `
+<form class="register-members-form">
+  <div class="register-members__members">
+    <div class="register-members__member">
+      <div class="register-members__email">
+        <input-field-stub value="member1@v7labs.com" id="0" placeholder="+ Add email address" type="text" theme="light" required="required"></input-field-stub>
+      </div>
+      <div class="register-members__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+      </div>
+      <div class="register-members__trash">
+        <trash-icon-old-stub></trash-icon-old-stub>
+      </div>
+    </div>
+    <div class="register-members__member">
+      <div class="register-members__email">
+        <input-field-stub value="" id="1" placeholder="+ Add email address" type="text" theme="light"></input-field-stub>
+      </div>
+      <div class="register-members__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+      </div>
+      <div class="register-members__trash register-members__trash--hidden">
+        <trash-icon-old-stub></trash-icon-old-stub>
+      </div>
+    </div>
+  </div>
+  <div class="register-members__buttons">
+    <primary-button-stub size="medium" type="submit">
+      CONTINUE
+    </primary-button-stub>
+  </div>
+</form>
+`;
+
+exports[`matches snapshot 1`] = `
+<form class="register-members-form">
+  <div class="register-members__members">
+    <div class="register-members__member">
+      <div class="register-members__email">
+        <input-field-stub value="" id="0" placeholder="+ Add email address" type="text" theme="light"></input-field-stub>
+      </div>
+      <div class="register-members__role">
+        <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+      </div>
+      <div class="register-members__trash register-members__trash--hidden">
+        <trash-icon-old-stub></trash-icon-old-stub>
+      </div>
+    </div>
+  </div>
+  <div class="register-members__buttons">
+    <primary-button-stub size="medium" type="submit">
+      CONTINUE
+    </primary-button-stub>
+  </div>
+</form>
+`;

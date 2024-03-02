@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash"></div>
+</div>
+`;
+
+exports[`annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Worker
+    </div>
+  </div>
+  <div class="member__trash"></div>
+</div>
+`;
+
+exports[`member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      User
+    </div>
+  </div>
+  <div class="member__trash"></div>
+</div>
+`;
+
+exports[`owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Owner
+    </div>
+  </div>
+  <div class="member__trash"></div>
+</div>
+`;
+
+exports[`workforce_manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="" id="1" size="35" url="" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+
+    </div>
+    <!---->
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Workforce Manager
+    </div>
+  </div>
+  <div class="member__trash"></div>
+</div>
+`;

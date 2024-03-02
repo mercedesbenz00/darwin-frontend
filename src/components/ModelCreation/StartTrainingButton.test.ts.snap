@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when data missing matches snapshot 1`] = `
+<primary-button-stub disabled="true">
+  Start Training
+</primary-button-stub>
+`;
+
+exports[`when data valid and has credits matches snapshot 1`] = `
+<primary-button-stub>
+  Start Training
+</primary-button-stub>
+`;
+
+exports[`when data valid and has no available credits matches snapshot 1`] = `
+<primary-button-stub disabled="true">
+  Start Training
+</primary-button-stub>
+`;

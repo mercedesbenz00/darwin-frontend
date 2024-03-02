@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with blank data 1`] = `
+<div class="data">
+  <div class="data__header">
+    <div class="data__header__chart-toggles">
+      <all-toggle-stub selected="true" class="stats__chart-toggles__all"></all-toggle-stub>
+      <member-toggle-stub member="[object Object]" class="stats__chart-toggles__annotator"></member-toggle-stub>
+    </div>
+  </div>
+  <bar-chart-stub chartdata="[object Object]" chartid="bar-chart" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></bar-chart-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with data 1`] = `
+<div class="data" datagranularity="day">
+  <div class="data__header">
+    <div class="data__header__chart-toggles">
+      <all-toggle-stub selected="true" class="stats__chart-toggles__all"></all-toggle-stub>
+      <member-toggle-stub member="[object Object]" class="stats__chart-toggles__annotator"></member-toggle-stub>
+      <member-toggle-stub member="[object Object]" class="stats__chart-toggles__annotator"></member-toggle-stub>
+    </div>
+  </div>
+  <bar-chart-stub chartdata="[object Object]" chartid="bar-chart" width="400" height="400" cssclasses="" plugins="" options="[object Object]" class="data__chart"></bar-chart-stub>
+  <!---->
+</div>
+`;

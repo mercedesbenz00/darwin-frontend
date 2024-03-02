@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assignee option negative matches snapshot 1`] = `
+<div class="generic-filter-selected-option generic-filter-selected-option--negative">
+  <assignee-selected-option-stub option="[object Object]"></assignee-selected-option-stub>
+  <div class="generic-filter-selected-option__remove">
+    ✕
+  </div>
+</div>
+`;
+
+exports[`assignee option positive matches snapshot 1`] = `
+<div class="generic-filter-selected-option generic-filter-selected-option--positive">
+  <assignee-selected-option-stub option="[object Object]"></assignee-selected-option-stub>
+  <div class="generic-filter-selected-option__remove">
+    ✕
+  </div>
+</div>
+`;
+
+exports[`filename option negative matches snapshot 1`] = `
+<div class="generic-filter-selected-option generic-filter-selected-option--negative">
+  <filename-selected-option-stub option="[object Object]"></filename-selected-option-stub>
+  <div class="generic-filter-selected-option__remove">
+    ✕
+  </div>
+</div>
+`;
+
+exports[`filename option positive matches snapshot 1`] = `
+<div class="generic-filter-selected-option generic-filter-selected-option--positive">
+  <filename-selected-option-stub option="[object Object]"></filename-selected-option-stub>
+  <div class="generic-filter-selected-option__remove">
+    ✕
+  </div>
+</div>
+`;
+
+exports[`folder option negative matches snapshot 1`] = `
+<div class="generic-filter-selected-option generic-filter-selected-option--negative">
+  <folder-selected-option-stub option="[object Object]"></folder-selected-option-stub>
+  <div class="generic-filter-selected-option__remove">
+    ✕
+  </div>
+</div>
+`;
+
+exports[`folder option positive matches snapshot 1`] = `
+<div class="generic-filter-selected-option generic-filter-selected-option--positive">
+  <folder-selected-option-stub option="[object Object]"></folder-selected-option-stub>
+  <div class="generic-filter-selected-option__remove">
+    ✕
+  </div>
+</div>
+`;

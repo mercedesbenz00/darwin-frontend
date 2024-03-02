@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders checkbox 1`] = `
+<label title="Test Checkbox" class="check-box check-box--rect check-box--default"><input type="checkbox" name="test" class="check-box__input" value="">
+  <check-icon-stub class="check-box__control"></check-icon-stub>
+  <div class="check-box__label">Test Checkbox</div>
+</label>
+`;
+
+exports[`renders circle theme checkbox 1`] = `
+<label title="Test Checkbox" class="check-box check-box--circle check-box--default"><input type="checkbox" name="test" class="check-box__input" value="">
+  <check-icon-stub class="check-box__control"></check-icon-stub>
+  <div class="check-box__label">Test Checkbox</div>
+</label>
+`;

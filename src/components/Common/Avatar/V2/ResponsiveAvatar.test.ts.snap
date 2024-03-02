@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when badge slot is given matches snapshot 1`] = `
+<div class="avatar"><img class="avatar__icon">
+  <div class="avatar__badge">CustomBadge</div>
+</div>
+`;
+
+exports[`when url is given matches snapshot 1`] = `
+<div class="avatar"><img class="avatar__icon">
+  <!---->
+</div>
+`;
+
+exports[`when url is not given matches snapshot 1`] = `
+<div class="avatar">
+  <div class="avatar__icon avatar__initials" style="background: rgb(99, 172, 83);"><svg viewBox="0 0 100 100"><text x="50%" y="49%" fill="currentColor" font-size="50" text-anchor="middle" dominant-baseline="central">JD</text></svg></div>
+  <!---->
+</div>
+`;

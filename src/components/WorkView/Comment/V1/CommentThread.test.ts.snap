@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="comment-thread" style="width: 320px; max-height: calc(100vh - 200px); top: 0px; left: 5px;">
+  <reply-box-stub author="[object Object]" stickauthor="true"></reply-box-stub>
+</div>
+`;

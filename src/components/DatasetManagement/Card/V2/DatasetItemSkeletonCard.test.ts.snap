@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<card-stub disablehover="true" type="image" class="skeleton-card">
+  <div class="skeleton-card__thumbnail"></div>
+  <div class="skeleton-card__info">
+    <div class="skeleton-card__info--date"></div>
+    <div class="skeleton-card__info--seq"></div>
+  </div>
+  <div class="skeleton-card__title"></div>
+</card-stub>
+`;

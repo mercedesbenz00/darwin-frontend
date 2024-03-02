@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when feature is disabled and "else" slot given 1`] = `
+<div class="feature-guard">
+  <div class="else-slot">Else</div>
+</div>
+`;
+
+exports[`matches snapshot when feature is disabled and "else" slot not given 1`] = `
+<div class="feature-guard">
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when feature is enabled 1`] = `
+<div class="feature-guard">
+  <div class="default-slot">Default</div>
+</div>
+`;
+
+exports[`matches snapshot when features not loaded and else slot given 1`] = `
+<div class="feature-guard">
+  <!---->
+</div>
+`;

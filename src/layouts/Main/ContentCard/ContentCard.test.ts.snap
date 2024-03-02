@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCard matches snapshot 1`] = `
+<div class="content-card">
+  <div class="content-card__title"></div>
+  <div class="content-card__body"></div>
+</div>
+`;
+
+exports[`when used default slot matches snapshot 1`] = `
+<div class="content-card">
+  <div class="content-card__title"></div>
+  <div class="content-card__body"></div>
+</div>
+`;
+
+exports[`when used title slot matches snapshot 1`] = `
+<div class="content-card">
+  <div class="content-card__title"></div>
+  <div class="content-card__body"></div>
+</div>
+`;

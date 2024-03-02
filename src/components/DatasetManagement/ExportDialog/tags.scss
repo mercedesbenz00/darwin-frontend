@@ -1,0 +1,67 @@
+.modal__content__new__filter {
+  .vue-tags-input {
+    width: 100%;
+    max-width: none;
+    height: 36px;
+
+    border-radius: $border-radius-default;
+    @include typography(lg, default);
+    background: $colorSecondaryLight2 !important;
+    color: $colorSecondaryDark;
+
+    input::-webkit-input-placeholder {
+      color: $colorSecondaryLight;
+    }
+    input::-moz-placeholder {
+      color: $colorSecondaryLight;
+    }
+    input:-moz-placeholder {
+      color: $colorSecondaryLight;
+    }
+    input:-ms-input-placeholder {
+      color: $colorSecondaryLight;
+    }
+  }
+
+  .ti-input {
+    @include typography(lg, default);
+    height: 36px;
+    padding: 0px !important;
+    border: none !important;
+    background: $colorSecondaryLight2 !important;
+    box-shadow: inset 0px 2px 4px rgba(145, 169, 192, 0.3);
+    border-radius: 3px;
+  }
+
+  .ti-new-tag-input-wrapper {
+    padding: 6px 9px !important;
+    margin: 0px !important;
+  }
+
+  .ti-new-tag-input {
+    @include typography(lg, default);
+    background: $colorSecondaryLight2 !important;
+  }
+
+  .ti-tag {
+    @include typography(md, default);
+    color: $colorSecondaryDark1 !important;
+    border-radius: $border-radius-default !important;
+    padding: 4px 5px 4px 7px !important;
+    margin: 5px 0 5px 5px;
+  }
+
+  .ti-deletion-mark .ti-content {
+    text-decoration: line-through;
+  }
+
+  .ti-autocomplete {
+    @include typography(md, default);
+    color: $colorSecondaryDark !important;
+    border: none;
+  }
+
+  .ti-selected-item {
+    background-color: $colorPrimaryLight;
+  }
+}

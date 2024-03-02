@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when Workflows 2.0 matches snapshot 1`] = `
+<div class="credit">
+  <div class="credit__loading">
+    <div loading-options="[object Object]" loading="true"></div>
+  </div>
+  <header-3-stub class="credit__title">
+    Credits usage this billing period
+  </header-3-stub>
+  <v2-credit-summary-item-stub team="[object Object]" billinginfo="[object Object]" creditusage="[object Object]"></v2-credit-summary-item-stub>
+  <credit-explanation-stub class="credit__usage__description"></credit-explanation-stub>
+</div>
+`;
+
+exports[`when no usage yet loaded matches snapshot 1`] = `
+<div class="credit">
+  <div class="credit__loading">
+    <div loading-options="[object Object]" loading="true"></div>
+  </div>
+  <header-3-stub class="credit__title">
+    Credits usage this billing period
+  </header-3-stub>
+  <!---->
+  <credit-explanation-stub class="credit__usage__description"></credit-explanation-stub>
+</div>
+`;
+
+exports[`when team is client matches snapshot 1`] = `
+<div class="credit">
+  <div class="credit__loading">
+    <div loading-options="[object Object]" loading="true"></div>
+  </div>
+  <header-3-stub class="credit__title">
+    Credits usage this billing period
+  </header-3-stub>
+  <credit-summary-item-stub team="[object Object]" billinginfo="[object Object]" creditusage="[object Object]"></credit-summary-item-stub>
+  <credit-explanation-stub class="credit__usage__description"></credit-explanation-stub>
+</div>
+`;
+
+exports[`when team is partner matches snapshot 1`] = `
+<div class="credit">
+  <div class="credit__loading">
+    <div loading-options="[object Object]" loading="true"></div>
+  </div>
+  <header-3-stub class="credit__title">
+    Credits usage this billing period
+  </header-3-stub>
+  <credit-summary-item-stub team="[object Object]" billinginfo="[object Object]" creditusage="[object Object]"></credit-summary-item-stub>
+  <credit-summary-item-stub team="[object Object]" billinginfo="[object Object]" partnerbillinginfo="[object Object]" creditusage="[object Object]"></credit-summary-item-stub>
+  <credit-summary-item-stub team="[object Object]" billinginfo="[object Object]" partnerbillinginfo="[object Object]" creditusage="[object Object]"></credit-summary-item-stub>
+  <credit-explanation-stub class="credit__usage__description"></credit-explanation-stub>
+</div>
+`;
+
+exports[`when team is regular matches snapshot 1`] = `
+<div class="credit">
+  <div class="credit__loading">
+    <div loading-options="[object Object]" loading="true"></div>
+  </div>
+  <header-3-stub class="credit__title">
+    Credits usage this billing period
+  </header-3-stub>
+  <credit-summary-item-stub team="[object Object]" billinginfo="[object Object]" creditusage="[object Object]"></credit-summary-item-stub>
+  <credit-explanation-stub class="credit__usage__description"></credit-explanation-stub>
+</div>
+`;

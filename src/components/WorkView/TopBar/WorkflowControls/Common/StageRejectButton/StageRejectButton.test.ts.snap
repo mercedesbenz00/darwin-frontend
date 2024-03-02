@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <icon-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="reject-button">
+    <icon-colored-reject-stub></icon-colored-reject-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot whem not in icon mode 1`] = `
+<div>
+  <icon-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="reject-button">
+    <icon-colored-reject-stub></icon-colored-reject-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when in autocomplete skipped 1`] = `
+<div>
+  <icon-button-stub variant="default" color="negative" size="small" flair="rounded" tag="button" class="reject-button">
+    <icon-colored-reject-inverted-stub></icon-colored-reject-inverted-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when not in icon mode 1`] = `
+<div>
+  <custom-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="reject-button">
+    Reject
+  </custom-button-stub>
+</div>
+`;

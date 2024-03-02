@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<stage-template-stub class="stage-create" template="[object Object]"><label class="stage-create__label">+ ADD STAGE</label>
+  <div class="stage-create__types">
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--annotate" tooltip="{'content':'Add an Annotate stage'}">
+      <annotate-round-icon-stub></annotate-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--review" tooltip="{'content':'Add a Review stage'}">
+      <review-round-icon-stub></review-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <!---->
+    <!---->
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--test" tooltip="{'content':'Add a Consensus Stage'}">
+      <test-round-icon-stub></test-round-icon-stub>
+      <upgrade-tfa-icon-stub class="stage-create__type__upgrade"></upgrade-tfa-icon-stub>
+    </round-drop-shadow-button-stub>
+  </div>
+</stage-template-stub>
+`;
+
+exports[`matches snapshot when CODE_STAGE enabled 1`] = `
+<stage-template-stub class="stage-create" template="[object Object]"><label class="stage-create__label">+ ADD STAGE</label>
+  <div class="stage-create__types">
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--annotate" tooltip="{'content':'Add an Annotate stage'}">
+      <annotate-round-icon-stub></annotate-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--review" tooltip="{'content':'Add a Review stage'}">
+      <review-round-icon-stub></review-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <!---->
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--code" tooltip="{'content':'Add a Code Stage'}">
+      <code-round-icon-stub></code-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--test" tooltip="{'content':'Add a Consensus Stage'}">
+      <test-round-icon-stub></test-round-icon-stub>
+      <upgrade-tfa-icon-stub class="stage-create__type__upgrade"></upgrade-tfa-icon-stub>
+    </round-drop-shadow-button-stub>
+  </div>
+</stage-template-stub>
+`;
+
+exports[`matches snapshot when MODEL_STAGE enabled 1`] = `
+<stage-template-stub class="stage-create" template="[object Object]"><label class="stage-create__label">+ ADD STAGE</label>
+  <div class="stage-create__types">
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--annotate" tooltip="{'content':'Add an Annotate stage'}">
+      <annotate-round-icon-stub></annotate-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--review" tooltip="{'content':'Add a Review stage'}">
+      <review-round-icon-stub></review-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--model" tooltip="{'content':'Add a Model stage'}">
+      <model-round-icon-stub></model-round-icon-stub>
+    </round-drop-shadow-button-stub>
+    <!---->
+    <round-drop-shadow-button-stub class="stage-create__type stage-create__type--test" tooltip="{'content':'Add a Consensus Stage'}">
+      <test-round-icon-stub></test-round-icon-stub>
+      <upgrade-tfa-icon-stub class="stage-create__type__upgrade"></upgrade-tfa-icon-stub>
+    </round-drop-shadow-button-stub>
+  </div>
+</stage-template-stub>
+`;

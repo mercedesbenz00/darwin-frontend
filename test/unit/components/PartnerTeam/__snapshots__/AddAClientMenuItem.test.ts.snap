@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="add-a-client-wrapper">
+  <sidebar-menu-item-layout-stub enabled="true" tag="div" role="button" class="add-a-client"></sidebar-menu-item-layout-stub>
+  <div class="confirmation-dialog-stub add-a-client" name="client-invite" sidebar="">
+    <div class="title-slot-given">
+      <div class="add-a-client__modal__title">
+        <header-3-stub class="add-a-client__modal__title__content">
+          Start a new team
+        </header-3-stub>
+        <partner-pill-stub class="add-a-client__modal__title__pill"></partner-pill-stub>
+      </div>
+    </div>
+    <div class="detail-slot-given">
+      <form class="add-a-client__modal__detail">
+        <paragraph-14-stub>Type the email of the client who will own the team's data:</paragraph-14-stub>
+        <input-field-stub value="" placeholder="email address" type="text" theme="dark" class="add-a-client__modal__detail__email"></input-field-stub>
+        <div class="add-a-client__modal__detail__neural-networks">
+          <check-box-stub value="true" label="Cover this team's usage of neural networks" type="rect" size="default"></check-box-stub>
+          <client-invite-info-stub></client-invite-info-stub>
+        </div>
+        <client-invite-note-stub></client-invite-note-stub>
+      </form>
+    </div>
+    <div class="footer-slot-given">
+      <div class="add-a-client__modal__footer">
+        <secondary-button-stub>
+          Cancel
+        </secondary-button-stub>
+        <primary-button-stub>
+          Send
+        </primary-button-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

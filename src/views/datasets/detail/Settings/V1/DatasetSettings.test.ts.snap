@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when authorized to update 1`] = `
+<div class="dataset-details dataset-settings" title-editable="" dataset="[object Object]">
+  <secondary-button-stub disabled="true" class="dataset-settings__save">
+    Save changes
+  </secondary-button-stub>
+  <div class="dataset-settings__main--wrapper">
+    <div class="dataset-settings__main froala-sticky-container">
+      <div class="dataset-settings__panel">
+        <!---->
+        <div class="dataset-settings__instructions">
+          <p class="dataset-settings__panel-title">
+            Annotation Instructions
+          </p>
+          <p class="dataset-settings__panel-description">
+            These instructions will be visible during annotation, and displayed to any
+            newcomer to the dataset.
+          </p>
+          <!---->
+        </div>
+        <workforce-managers-stub dataset="[object Object]"></workforce-managers-stub>
+        <template-editor-stub dataset="[object Object]" class="dataset-settings__templates"></template-editor-stub>
+      </div>
+      <div class="dataset-settings__panel dataset-settings__task-settings">
+        <workflow-work-size-stub value="10" class="dataset-settings__batch-size"></workflow-work-size-stub>
+        <workflow-work-priority-stub value="inserted_at:asc"></workflow-work-priority-stub>
+      </div>
+      <div class="dataset-settings__panel dataset-settings__permissions">
+        <div class="dataset-settings__permission">
+          <check-box-stub name="annotatorTags" id="annotatorTags" label="Allow workers to create new tag classes and attributes" type="rect" size="small"></check-box-stub>
+          <info-stub>
+            Annotators can type in any new tag or attribute and press
+            'enter' to create it. Other users may re-use it.
+          </info-stub>
+        </div>
+        <div class="dataset-settings__permission">
+          <check-box-stub name="annotatorWorkflows" id="annotatorWorkflows" label="Allow workers to work indefinitely by self-assigning batches of New images" type="rect" size="small"></check-box-stub>
+        </div>
+        <div class="dataset-settings__permission">
+          <check-box-stub name="doubleAssignment" id="doubleAssignment" label="Allow the same worker to do multiple steps in one workflow" type="rect" size="small"></check-box-stub>
+          <info-stub>When disabled workers cannot both annotate and review the same image.</info-stub>
+        </div>
+        <div class="dataset-settings__permission">
+          <check-box-stub name="pdfFitPage" value="true" id="pdfFitPage" label="Force processed PDFs to fit standard page format" type="rect" size="small"></check-box-stub>
+          <info-stub>
+            When processing PDFs, this will auto-fit them to standard page format. Without this,
+            they remain unchanged.
+          </info-stub>
+        </div>
+      </div>
+      <div class="dataset-settings__panel dataset-settings__share"><label>Open dataset for public read access</label>
+        <dataset-sharer-stub dataset="[object Object]" team="[object Object]" class="dataset-settings__sharer"></dataset-sharer-stub>
+      </div>
+    </div>
+  </div>
+  <settings-save-confirm-dialog-stub></settings-save-confirm-dialog-stub>
+</div>
+`;

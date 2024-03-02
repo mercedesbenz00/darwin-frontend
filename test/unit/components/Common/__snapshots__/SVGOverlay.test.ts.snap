@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`if the storage contains loaded svg, use that. 1`] = `<div class="svg">Data is already loaded</div>`;
+
+exports[`matches the snapshot after replacing the colors properly 1`] = `<div class="svg">Primary Color: "rgba(122,122,122,1)", Secondary Color: "rgba(122,122,122,0.5)"</div>`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="auto-annotate-slider">
+  <slider-stub value="0.5" options="[object Object]"></slider-stub> <span class="percentage"><input class="percentage-input">
+    %
+  </span>
+  <tooltip-info-stub content="Auto-Annotate will only generate annotations with confidence greater than 50%" offset="10" placement="bottom" class="info"></tooltip-info-stub>
+</div>
+`;

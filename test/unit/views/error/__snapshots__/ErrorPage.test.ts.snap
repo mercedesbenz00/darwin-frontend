@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="error__modal">
+      <div class="error__modal__title">
+        Something went wrong
+      </div>
+      <div class="error__modal__text">
+        You weren't supposed to end up here. Something must have gone wrong.
+      </div>
+      <div class="error__modal__text">
+        You can contact support if you think it's a bug.
+      </div>
+      <div class="error__modal__button__center">
+        <positive-button-stub tag="a" href="mailto:support@v7labs.com" target="_blank">
+          Contact support
+        </positive-button-stub>
+      </div>
+    </div>
+  </div>
+</background-stub>
+`;

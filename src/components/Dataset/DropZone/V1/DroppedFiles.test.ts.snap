@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with 1 set of files 1`] = `
+<div class="dropzone__progress">
+  <div class="dropzone__progress__header">
+    <div class="dropzone__progress__header__name">
+      Total files
+    </div>
+    <div class="dropzone__progress__header__value">
+      2
+    </div>
+  </div>
+  <div class="dropzone__progress__sets">
+    <fileset-stub set="[object Object]" dataset="[object Object]" class="dropzone__progress__set"></fileset-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with multiple sets of files 1`] = `
+<div class="dropzone__progress">
+  <div class="dropzone__progress__header">
+    <div class="dropzone__progress__header__name">
+      Total files
+    </div>
+    <div class="dropzone__progress__header__value">
+      4
+    </div>
+  </div>
+  <div class="dropzone__progress__sets">
+    <fileset-stub set="[object Object]" dataset="[object Object]" class="dropzone__progress__set"></fileset-stub>
+    <fileset-stub set="[object Object]" dataset="[object Object]" class="dropzone__progress__set"></fileset-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with no files 1`] = ``;

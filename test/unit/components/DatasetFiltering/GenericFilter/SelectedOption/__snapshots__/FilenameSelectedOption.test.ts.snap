@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when image dicom option, matches snapshot 1`] = `
+<div class="filename-selected-option">
+  <dicom-icon-stub class="filename-selected-option__icon"></dicom-icon-stub> <span class="filename-selected-option__name">3.dcm</span>
+</div>
+`;
+
+exports[`when image filename option, matches snapshot 1`] = `
+<div class="filename-selected-option">
+  <image-icon-stub class="filename-selected-option__icon"></image-icon-stub> <span class="filename-selected-option__name">2.jpg</span>
+</div>
+`;
+
+exports[`when image pdf option, matches snapshot 1`] = `
+<div class="filename-selected-option">
+  <pdf-icon-stub class="filename-selected-option__icon"></pdf-icon-stub> <span class="filename-selected-option__name">3.pdf</span>
+</div>
+`;
+
+exports[`when image video option, matches snapshot 1`] = `
+<div class="filename-selected-option">
+  <video-icon-stub class="filename-selected-option__icon"></video-icon-stub> <span class="filename-selected-option__name">4.mpg</span>
+</div>
+`;

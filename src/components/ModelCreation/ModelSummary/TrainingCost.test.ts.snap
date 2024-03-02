@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="cost">
+  <div class="cost__label">
+    Training Cost
+  </div>
+  <div class="cost__value"><span class="cost__value__amount">0.33 credits</span>
+    /minute
+  </div>
+</div>
+`;

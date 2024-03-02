@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="text-area text-area--dark">
+  <!----> <textarea type="textarea" class="text-area__input"></textarea>
+</div>
+`;
+
+exports[`renders as disabled 1`] = `
+<div class="text-area text-area--dark">
+  <!----> <textarea type="textarea" disabled="disabled" class="text-area__input"></textarea>
+</div>
+`;

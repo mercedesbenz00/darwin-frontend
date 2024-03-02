@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when off 1`] = `
+<div class="switch-button">
+  <div class="switch-button__button"></div>
+</div>
+`;
+
+exports[`matches snapshot when on 1`] = `
+<div class="switch-button switch-button--enabled">
+  <div class="switch-button__button"></div>
+</div>
+`;

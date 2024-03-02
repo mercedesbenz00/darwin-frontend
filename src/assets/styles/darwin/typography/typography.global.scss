@@ -1,0 +1,94 @@
+/*
+  @Definition
+    @include typography($size, $type);
+
+    $size: font-size breakpoints - xs, sm, md, md-1, lg, lg-1, xl, xl-1, xl-2, xxl, xxl-1, xxl-2, xxl-3
+      This is scaled according the zoom values on each breakpoints
+    $type: There are 3 types of font-families used in the project - default, headlines, source
+
+  @Example
+    @include typography(md, default); // font-size: 12px, font-family: Muli
+    @include typography(lg, headlines); // font-size: 16px, font-family: Muli
+    @include typography(xl, source); // font-size: 20px, font-family: Muli
+*/
+
+@import "../../universal/mediaQuery/mediaQuery.global.scss";
+@import "../../universal/typography/typography.export.scss";
+
+$fontFamilyDefault: "Muli", sans-serif;
+$fontFamilyHeadlines: "Muli", sans-serif;
+$fontFamilyMulish: "Mulish", sans-serif;
+$fontFamilySource: "FiraMono", monospace;
+$fontFamilyInter: "Inter", sans-serif;
+
+$fontFamilies: (
+  default: $fontFamilyDefault,
+  headlines: $fontFamilyHeadlines,
+  mulish: $fontFamilyMulish,
+  source: $fontFamilySource,
+  inter: $fontFamilyInter,
+);
+
+@function get-fontsize($fontBreakpoint) {
+  @return map-get($typography-breakpoints, $fontBreakpoint);
+}
+
+@function get-lineheight($fontBreakpoint) {
+  @return map-get($lineheight-breakpoints, $fontBreakpoint);
+}
+
+@mixin typography($fontBreakpoint, $fontType: inherit, $fontWeight: normal) {
+  font-style: normal;
+
+  @if map-has-key($fontFamilies, $fontType) {
+    font-family: map-get($fontFamilies, #{$fontType});
+  }
+  font-size: map-get($typography-breakpoints, $fontBreakpoint);
+  line-height: map-get($lineheight-breakpoints, $fontBreakpoint);
+  font-weight: $fontWeight;
+}
+
+@mixin typographyRegularBody25 {
+  font-family: $fontFamilyInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+}
+
+@mixin typographyRegularBody50 {
+  font-family: $fontFamilyInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: -2%;
+  line-height: 16px;
+}
+
+@mixin typographyRegularBody100 {
+  font-family: $fontFamilyInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -2%;
+  line-height: 16px;
+}
+
+@mixin typographyRegularBody300 {
+  font-family: $fontFamilyInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -2%;
+  line-height: 20px;
+}
+
+@mixin typographyRegularBody600 {
+  font-family: $fontFamilyInter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -2%;
+  line-height: 24px;
+}

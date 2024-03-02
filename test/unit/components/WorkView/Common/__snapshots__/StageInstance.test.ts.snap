@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with annotate stage 1`] = `
+<status-button-stub type="annotate" variant="default" size="xs" inverted="" class="instance">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`matches snapshot with assignee 1`] = `
+<status-button-stub type="annotate" variant="default" size="xs" inverted="" class="instance">
+  <team-member-avatar-stub member="[object Object]" class="instance__avatar"></team-member-avatar-stub>
+</status-button-stub>
+`;
+
+exports[`matches snapshot with complete stage 1`] = `
+<status-button-stub type="complete" variant="default" size="xs" inverted="" class="instance">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`matches snapshot with review stage 1`] = `
+<status-button-stub type="review" variant="default" size="xs" inverted="" class="instance">
+  <!---->
+</status-button-stub>
+`;

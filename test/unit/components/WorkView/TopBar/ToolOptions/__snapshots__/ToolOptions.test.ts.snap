@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when brush_tool is selected matches snapshot 1`] = `
+<div class="tool-options">
+  <div id="tool-options__option__brush" class="tool-options__option tool-options__option--active">
+    <brush-stub editor="[object Object]" tooltip="{'content':'Brush <span class=\\'tooltip__hotkey\\'>F</span>'}"></brush-stub>
+  </div>
+  <div id="tool-options__option__eraser" class="tool-options__option">
+    <eraser-stub editor="[object Object]" tooltip="{'content':'Eraser <span class=\\'tooltip__hotkey\\'>E</span>'}"></eraser-stub>
+  </div>
+  <div id="tool-options__option__brush-separator-1" class="tool-options__option__separator tool-options__option">
+    <separator-stub editor="[object Object]" tooltip="{'content':''}"></separator-stub>
+  </div>
+  <div id="tool-options__option__brush-size" class="tool-options__option">
+    <brush-size-stub editor="[object Object]" value="10" commandname="brush_tool.set_brush_size" tooltip="{'content':'Brush tip size <span class=\\'tooltip__hotkey\\'>[ or ] to adjust</span>'}"></brush-size-stub>
+  </div>
+  <div id="tool-options__option__shrink" class="tool-options__option">
+    <shrink-stub editor="[object Object]" tooltip="{'content':''}"></shrink-stub>
+  </div>
+  <div id="tool-options__option__grow" class="tool-options__option">
+    <grow-stub editor="[object Object]" tooltip="{'content':''}"></grow-stub>
+  </div>
+  <div id="tool-options__option__brush-separator-2" class="tool-options__option__separator tool-options__option">
+    <separator-stub editor="[object Object]" tooltip="{'content':''}"></separator-stub>
+  </div>
+  <div id="tool-options__option__round" class="tool-options__option tool-options__option--active">
+    <round-stub editor="[object Object]" tooltip="{'content':'Round Tip'}"></round-stub>
+  </div>
+  <div id="tool-options__option__squared" class="tool-options__option">
+    <squared-stub editor="[object Object]" tooltip="{'content':'Squared Tip'}"></squared-stub>
+  </div>
+</div>
+`;
+
+exports[`when edit_tool is selected matches snapshot 1`] = `<div class="tool-options"></div>`;

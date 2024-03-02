@@ -1,0 +1,17 @@
+@mixin dropdown {
+  background: $colorLineGrey;
+}
+
+@mixin dropdownAbove {
+  @include dropdown();
+  box-shadow: 0px -10px 20px rgba(145, 169, 192, 0.3);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+@mixin dropdownBelow {
+  @include dropdown();
+  box-shadow: 0px 10px 20px rgba(145, 169, 192, 0.3);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

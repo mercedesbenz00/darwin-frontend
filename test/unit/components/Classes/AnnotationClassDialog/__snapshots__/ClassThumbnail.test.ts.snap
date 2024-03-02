@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="class-thumbnail">
+  <drop-area-stub acceptedfiletypes="image/*,.bmp,.jpg,.jpeg,.png" multiple="true" openfilepickeronclick="true" mode="single" class="class-thumbnail__droparea">
+    <plus-icon-stub></plus-icon-stub>
+  </drop-area-stub>
+  <header-4-stub class="class-thumbnail__index">
+    3
+  </header-4-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="class-thumbnail class-thumbnail--selected">
+  <drop-area-stub acceptedfiletypes="image/*,.bmp,.jpg,.jpeg,.png" multiple="true" openfilepickeronclick="true" mode="single" class="class-thumbnail__droparea">
+    <plus-icon-stub></plus-icon-stub>
+  </drop-area-stub>
+  <header-4-stub class="class-thumbnail__index">
+    3
+  </header-4-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with crop_url 1`] = `
+<div class="class-thumbnail"><img src="cropped.png" class="class-thumbnail__img">
+  <header-4-stub class="class-thumbnail__index">
+    3
+  </header-4-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot with original_image_url 1`] = `
+<div class="class-thumbnail"><img src="original.png" class="class-thumbnail__img">
+  <header-4-stub class="class-thumbnail__index">
+    3
+  </header-4-stub>
+  <div role="button" class="class-thumbnail__remove">
+    <x-icon-stub></x-icon-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for v1.0 dataset 1`] = `<dataset-settings-stub dataset="[object Object]"></dataset-settings-stub>`;
+
+exports[`matches snapshot for v2.0 dataset 1`] = `<dataset-settings-v2-stub dataset="[object Object]"></dataset-settings-v2-stub>`;

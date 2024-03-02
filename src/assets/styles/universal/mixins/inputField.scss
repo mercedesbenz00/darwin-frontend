@@ -1,0 +1,26 @@
+@mixin input-field-default($fontBreakpoint: "md") {
+  color: $colorBlack;
+  transition: background-color 0.2s ease;
+  transition: color 0.2s ease;
+  border: none;
+  border-radius: $border-radius-default;
+  @include typography($fontBreakpoint, default);
+  background: $colorAliceShade;
+  box-shadow: inset 0px 2px 4px rgba(145, 169, 192, 0.3);
+
+  &:focus,
+  &:active {
+    border: none;
+    outline: none !important;
+  }
+
+  &:disabled {
+    color: $colorAliceNight;
+    background: $colorAliceShade;
+  }
+
+  &::placeholder {
+    @include typography($fontBreakpoint, default);
+    color: $colorAliceNight;
+  }
+}

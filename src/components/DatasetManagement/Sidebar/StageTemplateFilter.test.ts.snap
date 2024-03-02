@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<stage-template-filter-stub positivestagetemplateids="" negativestagetemplateids="" workflowtemplate="[object Object]"></stage-template-filter-stub>`;

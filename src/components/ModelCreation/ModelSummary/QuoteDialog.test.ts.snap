@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="model-quote" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="quote" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="40%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="quote__info">
+    <training-info-stub></training-info-stub>
+    <training-time-stub></training-time-stub>
+  </div>
+  <div class="quote__payment payment">
+    <div class="payment__amount-label">
+      Estimated Cost
+    </div>
+    <div class="payment__amount">
+      120 credits
+    </div>
+  </div>
+  <div class="quote__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <start-training-button-stub></start-training-button-stub>
+  </div>
+</modal-stub>
+`;

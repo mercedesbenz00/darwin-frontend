@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Extended Toast UI should match snapshot 1`] = `
+<toast-template-stub extended="true" variant="success">
+  <div class="extended-toast__container" style="align-items: flex-start;">
+    <div class="extended-toast-icon__wrapper">
+      <success-toast-icon-stub variant="inverted"></success-toast-icon-stub>
+    </div>
+    <div class="extended-toast-content__wrapper">
+      <h3 class="extended-toast__label primary extended-toast__label--success">
+        Test Title
+      </h3>
+      <h3 class="extended-toast__label extended-toast__label--success" style="margin-top: 4px;">
+        Test description
+      </h3>
+    </div>
+  </div>
+</toast-template-stub>
+`;

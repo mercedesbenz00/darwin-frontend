@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with loaded datasets 1`] = `
+<div class="annotator-no-datasets"><img src="/static/imgs/no-dataset-background.svg"> <label>
+    No datasets have been created yet.<br>
+    Once you've created one, invite annotators to your team and select them
+    in your dataset settings to view their progress.
+  </label></div>
+`;

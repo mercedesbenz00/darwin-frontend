@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="time">
+  <div class="time__label">
+    Training Time
+  </div>
+  <div class="time__value">
+    Up to
+    <span class="time__value__amount">6 hours</span>
+  </div>
+</div>
+`;

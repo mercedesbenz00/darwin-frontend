@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="list-item-stub folder-list-item" type="folder" name=" (0 items)">
+  <div class="overlay">
+    <list-item-button-stub to="[object Object]">
+      Open
+    </list-item-button-stub>
+  </div>
+  <div class="status"></div>
+</div>
+`;
+
+exports[`matches snapshot 2`] = `
+<div class="list-item-stub folder-list-item" type="folder" name="folder (0 items)">
+  <div class="overlay">
+    <list-item-button-stub to="[object Object]">
+      Open
+    </list-item-button-stub>
+  </div>
+  <div class="status"></div>
+</div>
+`;
+
+exports[`matches snapshot in open dataset 1`] = `
+<div class="list-item-stub folder-list-item" type="folder" name="folder (0 items)">
+  <div class="overlay">
+    <list-item-button-stub to="[object Object]">
+      Open
+    </list-item-button-stub>
+  </div>
+  <div class="status"></div>
+</div>
+`;

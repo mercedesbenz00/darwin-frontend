@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="pick-dataset-modal" delay="0" overlaytransition="overlay-fade" classes="pick-dataset-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="585" height="80%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="modal__header">
+    <p class="modal__header__title"><span>Title</span></p>
+    <p class="modal__header__text"><span>Description</span></p>
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content">
+    <search-field-stub value="" placeholder="Search Dataset" class="pick-dataset__search"></search-field-stub>
+    <div class="pick-dataset__datasets">
+      <dataset-card-stub data="[object Object]" menualign="normal" disablemenu="true" selectable="true" id="dataset-10" class="pick-dataset__dataset-card"></dataset-card-stub>
+      <dataset-card-stub data="[object Object]" menualign="normal" disablemenu="true" selectable="true" id="dataset-20" class="pick-dataset__dataset-card"></dataset-card-stub>
+    </div>
+  </div>
+  <div class="modal__footer"></div>
+</modal-stub>
+`;
+
+exports[`matches snapshot on no matching dataset after search 1`] = `
+<modal-stub name="pick-dataset-modal" delay="0" overlaytransition="overlay-fade" classes="pick-dataset-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="585" height="80%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="modal__header">
+    <p class="modal__header__title"><span>Title</span></p>
+    <p class="modal__header__text"><span>Description</span></p>
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content">
+    <search-field-stub value="no-match" placeholder="Search Dataset" class="pick-dataset__search"></search-field-stub> <label class="pick-dataset__no-dataset">No datasets to show</label>
+  </div>
+  <div class="modal__footer"></div>
+</modal-stub>
+`;
+
+exports[`matches snapshot on search 1`] = `
+<modal-stub name="pick-dataset-modal" delay="0" overlaytransition="overlay-fade" classes="pick-dataset-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="585" height="80%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="modal__header">
+    <p class="modal__header__title"><span>Title</span></p>
+    <p class="modal__header__text"><span>Description</span></p>
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content">
+    <search-field-stub value="foo" placeholder="Search Dataset" class="pick-dataset__search"></search-field-stub>
+    <div class="pick-dataset__datasets">
+      <dataset-card-stub data="[object Object]" menualign="normal" disablemenu="true" selectable="true" id="dataset-10" class="pick-dataset__dataset-card"></dataset-card-stub>
+    </div>
+  </div>
+  <div class="modal__footer"></div>
+</modal-stub>
+`;
+
+exports[`matches snapshot when dataset is selected 1`] = `
+<modal-stub name="pick-dataset-modal" delay="0" overlaytransition="overlay-fade" classes="pick-dataset-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="585" height="80%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="modal__header">
+    <p class="modal__header__title"><span>Title</span></p>
+    <p class="modal__header__text"><span>Description</span></p>
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content">
+    <search-field-stub value="" placeholder="Search Dataset" class="pick-dataset__search"></search-field-stub>
+    <div class="pick-dataset__datasets">
+      <dataset-card-stub data="[object Object]" menualign="normal" disablemenu="true" selectable="true" id="dataset-10" class="pick-dataset__dataset-card"></dataset-card-stub>
+      <dataset-card-stub data="[object Object]" menualign="normal" disablemenu="true" selectable="true" id="dataset-20" class="pick-dataset__dataset-card"></dataset-card-stub>
+    </div>
+  </div>
+  <div class="modal__footer"></div>
+</modal-stub>
+`;

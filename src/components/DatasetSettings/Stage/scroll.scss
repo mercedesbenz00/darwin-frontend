@@ -1,0 +1,66 @@
+/**
+ * @begedin: This mixin is used by the annotate and review stage components to
+ * achieve a scrollabe area in the body of the card, while keeping the search
+ * box "sticky" in the top part of the body.
+ *
+ * I'm reasonably sure there are better ways to do this, but due to
+ * time constraints, this was the only one we have right now.
+ *
+ * Reason this is needed is in part because these two components also have a
+ * "skip rates" mode where an extra column with percentages is rendered and also
+ * needs to be scrollable, so when attempting to improve, keep that mode in mind.
+ */
+@mixin scroll($footer: false, $height: var(--stage-template-card-height)) {
+  position: relative;
+  align-content: start;
+
+  overflow: visible;
+
+  display: grid;
+
+  height: 100%;
+
+  $searchHeight: 38px;
+  $rowGap: 5px;
+
+  // values here aren't clear cut. stage footer height is and must be auto, due
+  // to expanding behavior of the name input
+  // because of that, we "estimate" that the header is as tall as the footer, so
+  // we subtract 1x or 2x footer depending on there being a footer
+  // the final 22px is to account for any padding the stage body might have
+  $scrollHeight:
+    calc(
+      #{$height} -
+      var(--stage-template-card-footer-height) -
+      #{$searchHeight} -
+      #{$rowGap} -
+      22px
+    );
+  @if ($footer) {
+    $scrollHeight:
+      calc(
+        #{$height} -
+        2 * var(--stage-template-card-footer-height) -
+        #{$searchHeight} -
+        #{$rowGap} -
+        22px
+      );
+  }
+
+  grid-template-rows: $searchHeight $scrollHeight;
+
+  row-gap: $rowGap;
+
+  .scroll {
+    height: 100%;
+    overflow-y: auto;
+
+    @include scrollbar;
+
+    direction: rtl;
+  }
+
+  .scroll__row {
+    direction: ltr;
+  }
+}

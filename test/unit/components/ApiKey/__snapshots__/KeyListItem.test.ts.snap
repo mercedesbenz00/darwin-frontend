@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="api-key">
+  <div class="api-key__header"> <img src="/static/imgs/chevron_bottom.svg" class="api-key__header__collapse-expand">
+    <div class="api-key__header__name">
+      Some Key
+    </div>
+    <div class="api-key__header__prefix">
+      Starts with
+      <span class="api-key__header__prefix__span">abcdefg</span>
+    </div>
+    <div class="api-key__header__actions"></div>
+  </div>
+  <transition-stub name="toggle">
+    <!---->
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot when expanded 1`] = `
+<div class="api-key api-key--expanded">
+  <div class="api-key__header"> <img src="/static/imgs/chevron_bottom.svg" class="api-key__header__collapse-expand">
+    <div class="api-key__header__name">
+      Some Key
+    </div>
+    <div class="api-key__header__prefix">
+      Starts with
+      <span class="api-key__header__prefix__span">abcdefg</span>
+    </div>
+    <div class="api-key__header__actions"></div>
+  </div>
+  <transition-stub name="toggle">
+    <div class="api-key__permissions">
+      <permission-group-stub group="[object Object]" class="api-key__permissions__group"></permission-group-stub>
+      <model-permission-list-stub permissions="run_inference,model:1" class="api-key__permissions__group"></model-permission-list-stub>
+    </div>
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot when given a default slot 1`] = `
+<div class="api-key">
+  <div class="api-key__header"> <img src="/static/imgs/chevron_bottom.svg" class="api-key__header__collapse-expand">
+    <div class="api-key__header__name">
+      Some Key
+    </div>
+    <div class="api-key__header__prefix">
+      Starts with
+      <span class="api-key__header__prefix__span">abcdefg</span>
+    </div>
+    <div class="api-key__header__actions">
+      <div class="default-content"></div>
+    </div>
+  </div>
+  <transition-stub name="toggle">
+    <!---->
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot when given all slots 1`] = `
+<div class="api-key">
+  <div class="api-key__header">
+    <div class="icon-content"></div> <img src="/static/imgs/chevron_bottom.svg" class="api-key__header__collapse-expand">
+    <div class="api-key__header__name">
+      Some Key
+    </div>
+    <div class="api-key__header__prefix">
+      Starts with
+      <span class="api-key__header__prefix__span">abcdefg</span>
+    </div>
+    <div class="api-key__header__actions">
+      <div class="default-content"></div>
+    </div>
+  </div>
+  <transition-stub name="toggle">
+    <!---->
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot when given an icon slot 1`] = `
+<div class="api-key">
+  <div class="api-key__header">
+    <div class="icon-content"></div> <img src="/static/imgs/chevron_bottom.svg" class="api-key__header__collapse-expand">
+    <div class="api-key__header__name">
+      Some Key
+    </div>
+    <div class="api-key__header__prefix">
+      Starts with
+      <span class="api-key__header__prefix__span">abcdefg</span>
+    </div>
+    <div class="api-key__header__actions"></div>
+  </div>
+  <transition-stub name="toggle">
+    <!---->
+  </transition-stub>
+</div>
+`;

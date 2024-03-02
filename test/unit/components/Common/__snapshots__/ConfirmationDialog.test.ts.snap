@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accepts slot for central area 1`] = `
+<modal-stub name="test-dialog" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirmation-dialog" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="modal__header">
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content">
+    <p class="confirm__title">
+      Test
+    </p>
+    <div class="confirm__text">Custom detail slot</div>
+  </div>
+  <div class="modal__footer">
+    <secondary-button-stub class="modal__footer-left">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub class="modal__footer-right">
+      Ok
+    </positive-button-stub>
+  </div>
+</modal-stub>
+`;
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="test-dialog" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="confirmation-dialog" minwidth="200" minheight="0" maxwidth="500" maxheight="9007199254740991" width="30%" height="auto" pivotx="0.5" pivoty="0.5">
+  <div class="modal__header">
+    <div class="modal__header__close">
+      ✕
+    </div>
+  </div>
+  <div class="modal__content">
+    <p class="confirm__title">
+      Test
+    </p>
+    <p class="confirm__text">Test content</p>
+  </div>
+  <div class="modal__footer">
+    <secondary-button-stub class="modal__footer-left">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub class="modal__footer-right">
+      Ok
+    </positive-button-stub>
+  </div>
+</modal-stub>
+`;

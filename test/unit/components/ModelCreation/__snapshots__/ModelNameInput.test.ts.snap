@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="name">
+  <input-field-stub value="" type="text" theme="dark" class="name__input"></input-field-stub> <button class="name__regenerate" tooltip="{'content':'Generate random model name'}">
+    <dice-icon-stub></dice-icon-stub>
+  </button>
+</div>
+`;

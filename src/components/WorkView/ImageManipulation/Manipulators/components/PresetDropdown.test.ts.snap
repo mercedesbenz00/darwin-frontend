@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="preset-dropdown">
+  <div class="dropdown" placeholder="Select a preset">
+    <div class="preset-dropdown__footer">
+      <secondary-button-stub size="medium" class="preset-dropdown__add">
+        + Add Preset
+      </secondary-button-stub>
+    </div>
+    <div class="preset-dropdown__no-options">
+      <div class="preset-dropdown__no-options__svg">
+        <no-presets-image-stub></no-presets-image-stub>
+      </div>
+      <div class="preset-dropdown__no-options__label">
+        Save your first preset and quickly save and apply your image manipulation settings
+      </div>
+    </div>
+    <ul class="vs__dropdown-menu">
+      <li>
+        <preset-option-stub option="[object Object]"></preset-option-stub>
+      </li>
+      <li>
+        <preset-option-stub option="[object Object]"></preset-option-stub>
+      </li>
+    </ul> <input class="vs__search">
+    <preset-option-stub option="[object Object]" isselected="true"></preset-option-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Delete Preset?" detail="You are about to delete a user preset.
+     Deleting it will remove it from your account's presets permanently." buttontext="Delete Preset" name="confirm-delete-preset"></delete-confirmation-dialog-stub>
+  <preset-dialog-stub editor="[object Object]"></preset-dialog-stub>
+</div>
+`;

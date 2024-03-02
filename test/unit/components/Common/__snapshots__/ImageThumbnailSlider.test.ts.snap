@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="thumb_slide"><button disabled="disabled" class="thumb_slide__navigation thumb_slide__navigation--prev">
+    ◀
+  </button>
+  <div class="thumb_slide__carousel">
+    <div class="vue-recycle-scroller thumb_slide__carousel-container" buffer="2000" item-size="50" direction="horizontal" key-field="id">
+      <div class="vue-recycle-scroller__item-wrapper">
+        <div class="vue-recycle-scroller__item-view">
+          <div class="item-stub">
+            <div>Index: 0</div>
+            <div>Item ID: 1</div>
+          </div>
+        </div>
+        <div class="vue-recycle-scroller__item-view">
+          <div class="item-stub">
+            <div>Index: 1</div>
+            <div>Item ID: 2</div>
+          </div>
+        </div>
+        <div class="vue-recycle-scroller__item-view">
+          <div class="item-stub">
+            <div>Index: 2</div>
+            <div>Item ID: 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <button class="thumb_slide__navigation thumb_slide__navigation--next">
+    ▶
+  </button>
+</div>
+`;
+
+exports[`when on left edge matches snapshot 1`] = `
+<div class="thumb_slide"><button disabled="disabled" class="thumb_slide__navigation thumb_slide__navigation--prev">
+    ◀
+  </button>
+  <div class="thumb_slide__carousel">
+    <div class="vue-recycle-scroller thumb_slide__carousel-container" buffer="2000" item-size="50" direction="horizontal" key-field="id">
+      <div class="vue-recycle-scroller__item-wrapper">
+        <div class="vue-recycle-scroller__item-view"></div>
+        <div class="vue-recycle-scroller__item-view"></div>
+        <div class="vue-recycle-scroller__item-view"></div>
+      </div>
+    </div>
+  </div> <button class="thumb_slide__navigation thumb_slide__navigation--next">
+    ▶
+  </button>
+</div>
+`;
+
+exports[`when on right edge matches snapshot 1`] = `
+<div class="thumb_slide"><button class="thumb_slide__navigation thumb_slide__navigation--prev">
+    ◀
+  </button>
+  <div class="thumb_slide__carousel">
+    <div class="vue-recycle-scroller thumb_slide__carousel-container" buffer="2000" item-size="50" direction="horizontal" key-field="id">
+      <div class="vue-recycle-scroller__item-wrapper">
+        <div class="vue-recycle-scroller__item-view"></div>
+        <div class="vue-recycle-scroller__item-view"></div>
+        <div class="vue-recycle-scroller__item-view"></div>
+      </div>
+    </div>
+  </div> <button disabled="disabled" class="thumb_slide__navigation thumb_slide__navigation--next">
+    ▶
+  </button>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<model-stat-stub name="Precision">
+  <precision-hero-stub></precision-hero-stub>
+  <p><strong class="bold">Precision</strong> is measured by dividing true
+    positive predictions (correct ones) by true positives + false positives.
+    Precision measures how often an object is correctly identified once it
+    is found, and is a good measure of false positive rate (an object is
+    predicted, but isn't really there) but does not take into account fales
+    negatives (an object is present, but is not predicted).
+    Model predictions falling below 50% IoU to the ground truth
+    are considered false positives, such as the over-predicted tree in the
+    diagram, which should take up a smaller area than the prediction.
+  </p>
+</model-stat-stub>
+`;

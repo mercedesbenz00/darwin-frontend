@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<custom-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="reject-button">
+  Back to the present
+</custom-button-stub>
+`;

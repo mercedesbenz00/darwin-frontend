@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot depending on state of rendering measures 1`] = `
+<div class="toggle-button-stub top-bar__toggle-measures"><button class="toggle-button">
+    <icon-mono-measurements-stub></icon-mono-measurements-stub>
+  </button>
+  <div class="popover"><b class="top-bar__toggle-measures__tooltip">
+      Toggle Measurements <span class="tooltip__hotkey">CTRL + M</span></b></div>
+</div>
+`;
+
+exports[`matches snapshot depending on state of rendering measures 2`] = `
+<div class="toggle-button-stub top-bar__toggle-measures top-bar__toggle-measures--on" on="true"><button class="toggle-button">
+    <icon-mono-measurements-stub></icon-mono-measurements-stub>
+  </button>
+  <div class="popover"><b class="top-bar__toggle-measures__tooltip">
+      Toggle Measurements <span class="tooltip__hotkey">CTRL + M</span></b></div>
+</div>
+`;

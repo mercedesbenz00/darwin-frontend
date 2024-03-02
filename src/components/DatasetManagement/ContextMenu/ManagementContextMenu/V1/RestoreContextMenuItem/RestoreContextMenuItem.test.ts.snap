@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<gallery-context-menu-item-stub label="RESTORE 5" color="pink" class="restore-context-menu-item">
+  <restore-icon-stub></restore-icon-stub>
+</gallery-context-menu-item-stub>
+`;

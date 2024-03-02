@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given scoped slots matches snapshot 1`] = `
+<div class="wizard">
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--current">
+    <div class="scoped-step"><button></button></div>
+    <!---->
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--unvisited">
+    <div class="scoped-step"><button></button></div>
+    <div class="wizard__step__overlay"></div>
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--unvisited">
+    <div class="scoped-step"><button></button></div>
+    <div class="wizard__step__overlay"></div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot: initial (step foo) 1`] = `
+<div class="wizard">
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--current">
+    <!---->
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--unvisited">
+    <div class="wizard__step__overlay"></div>
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--unvisited">
+    <div class="wizard__step__overlay"></div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot: step bar 1`] = `
+<div class="wizard">
+  <div role="button" tabindex="-1" class="wizard__step">
+    <div class="wizard__step__overlay"></div>
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--current">
+    <!---->
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--unvisited">
+    <div class="wizard__step__overlay"></div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot: step baz 1`] = `
+<div class="wizard">
+  <div role="button" tabindex="-1" class="wizard__step">
+    <div class="wizard__step__overlay"></div>
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step">
+    <div class="wizard__step__overlay"></div>
+  </div>
+  <div role="button" tabindex="-1" class="wizard__step wizard__step--current">
+    <!---->
+  </div>
+</div>
+`;

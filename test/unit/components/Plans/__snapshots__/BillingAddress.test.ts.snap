@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="billing-address">
+  <div class="billing-address__header">
+    Billing Details
+  </div>
+  <div class="billing-address__content">
+    <div class="billing-address__section">
+      <input-field-stub label="Business or person name" name="name" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="Billing email" name="email" autocomplete="email" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="Address Line 1" name="line1" autocomplete="address-line1" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="Address Line 2" name="line2" autocomplete="address-line2" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="Postcode / ZIP" name="postalCode" autocomplete="postal-code" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="City" name="city" autocomplete="address-level2" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="State (optional)" name="state" autocomplete="address-level1" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="billing-address__section">
+      <dropdown-stub options="" theme="light" label="Country" search="true" id="country" name="country"></dropdown-stub>
+    </div>
+    <div class="billing-address__section">
+      <input-field-stub label="Tax ID" name="taxId" type="text" theme="light"></input-field-stub>
+    </div>
+  </div>
+  <positive-button-stub size="medium">
+    Save
+  </positive-button-stub>
+</div>
+`;

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`active sub, out of credits, but not locked out yet matches snapshot 1`] = ``;
+
+exports[`locked out matches snapshot 1`] = `
+<panelfloatingwhite-stub class="billing-box">
+  <!---->
+  <div class="billing-box__right">
+    <h3 class="billing-box__title">
+      You reached your plan's usage limit - Upgrade Now
+    </h3>
+    <ul class="billing-box__description">
+      <li>There was a problem with your billing information. Try entering your billing and card details again, or contact <a href="mailto:support@v7labs.com">support@v7labs.com</a>.</li>
+      <li>You have used up all your annotation credits. Add more to your plan.</li>
+      <li>You have used up all your neurons credits. Add more to your plan.</li>
+      <li>You have exceeded the number of managed files supported by your plan. Upgrade to increase the amount.</li>
+    </ul>
+    <div class="billing-box__info">
+      <!---->
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Annotation Credits
+        </div>
+        <div class="info-item__value">
+          90
+        </div>
+      </div>
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Storage
+        </div>
+        <div class="info-item__value">
+          100
+        </div>
+        <div class="info-item__label">
+          managed files remaining
+        </div>
+      </div>
+    </div>
+    <div class="billing-box__action">
+      <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" to="?settings=plans">
+        View Plans
+      </custom-button-stub>
+    </div>
+  </div>
+</panelfloatingwhite-stub>
+`;
+
+exports[`out of trial credits matches snapshot 1`] = `
+<panelfloatingwhite-stub class="billing-box">
+  <div class="billing-box__left">
+    <h3 class="billing-box__icon">
+      🎉
+    </h3>
+  </div>
+  <div class="billing-box__right">
+    <h3 class="billing-box__title">
+      Your free trial has ended - Upgrade now
+    </h3>
+    <p class="billing-box__description">
+      You can start small and increase your monthly capacity as you datasets grow.
+    </p>
+    <div class="billing-box__info">
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Days Left
+        </div>
+        <div class="info-item__value">
+          11
+        </div>
+      </div>
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Annotation Credits
+        </div>
+        <div class="info-item__value">
+          0
+        </div>
+      </div>
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Storage
+        </div>
+        <div class="info-item__value">
+          100
+        </div>
+        <div class="info-item__label">
+          managed files remaining
+        </div>
+      </div>
+    </div>
+    <div class="billing-box__action">
+      <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" to="?settings=plans">
+        Upgrade
+      </custom-button-stub>
+    </div>
+  </div>
+</panelfloatingwhite-stub>
+`;
+
+exports[`trialing matches snapshot 1`] = `
+<panelfloatingwhite-stub class="billing-box">
+  <div class="billing-box__left">
+    <h3 class="billing-box__icon">
+      🎉
+    </h3>
+  </div>
+  <div class="billing-box__right">
+    <h3 class="billing-box__title">
+      Welcome to V7's Free Trial
+    </h3>
+    <p class="billing-box__description">
+      Invite as many users as you wish, upload data, label it,
+      run models, or any other functionality present.
+      You can upgrade any time, and carry over your trial credits.
+    </p>
+    <div class="billing-box__info">
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Days Left
+        </div>
+        <div class="info-item__value">
+          11
+        </div>
+      </div>
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Annotation Credits
+        </div>
+        <div class="info-item__value">
+          16
+        </div>
+      </div>
+      <div class="billing-box__info__item info-item">
+        <div class="info-item__label">
+          Storage
+        </div>
+        <div class="info-item__value">
+          100
+        </div>
+        <div class="info-item__label">
+          managed files remaining
+        </div>
+      </div>
+    </div>
+    <div class="billing-box__action">
+      <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" to="?settings=plans">
+        Upgrade
+      </custom-button-stub>
+    </div>
+  </div>
+</panelfloatingwhite-stub>
+`;
+
+exports[`when the user canot see customer data matches snapshot 1`] = ``;
+
+exports[`with active subscription matches snapshot 1`] = ``;
+
+exports[`with current subscription less than max in period matches snapshot 1`] = ``;

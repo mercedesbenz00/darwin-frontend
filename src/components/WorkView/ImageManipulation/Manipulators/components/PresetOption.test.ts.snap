@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="preset-option"><span>Preset 1</span>
+  <div class="preset-option__icons">
+    <!---->
+    <preset-menu-stub class="preset-overlay__more">
+      <more-vertical-icon-stub class="preset-overlay__icon"></more-vertical-icon-stub>
+    </preset-menu-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="preset-option"><span>Preset 1</span>
+  <!---->
+</div>
+`;

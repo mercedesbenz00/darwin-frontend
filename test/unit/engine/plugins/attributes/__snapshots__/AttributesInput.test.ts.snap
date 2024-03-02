@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<attributes-input-component-stub tags="" masterannotation="[object Object]" editor="[object Object]"></attributes-input-component-stub>`;

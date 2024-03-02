@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="teaser"><img src="/static/imgs/teasers/darwin/image.jpg" class="teaser__image">
+  <div class="teaser__label">
+    <div class="teaser__label__title" style="text-align: center;">
+      Title
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with descriptions 1`] = `
+<div class="teaser"><img src="/static/imgs/teasers/darwin/image.jpg" class="teaser__image">
+  <div class="teaser__label teaser__label--description">
+    <div class="teaser__label__title" style="text-align: center;">
+      Title
+    </div>
+    <div class="teaser__label__description" style="text-align: center;">Description</div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with textAlign 1`] = `
+<div class="teaser"><img src="/static/imgs/teasers/darwin/image.jpg" class="teaser__image">
+  <div class="teaser__label">
+    <div class="teaser__label__title" style="text-align: left;">
+      Title
+    </div>
+    <!---->
+  </div>
+</div>
+`;

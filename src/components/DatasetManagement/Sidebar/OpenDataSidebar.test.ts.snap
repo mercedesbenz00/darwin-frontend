@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<sidebar-stub>
+  <div class="data-sidebar__content">
+    <export-button-stub buttontype="secondary-light-button" isopenmode="true" class="data-sidebar__export"></export-button-stub>
+    <div class="data-sidebar__control">
+      <gallery-control-stub class="data-sidebar__gallery-control"></gallery-control-stub>
+      <switch-folder-mode-stub class="dataset-sidebar__switch-folder"></switch-folder-mode-stub>
+    </div>
+    <sort-control-stub sortby="priority" sortdirection="desc" class="data-sidebar__sort"></sort-control-stub>
+    <status-filter-stub positivestatuses="" negativestatuses="" isopenmode="true" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" listonly="true" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot when dataset item filter is set 1`] = `
+<sidebar-stub>
+  <div class="data-sidebar__content">
+    <export-button-stub buttontype="secondary-light-button" isopenmode="true" class="data-sidebar__export"></export-button-stub>
+    <div class="data-sidebar__control">
+      <gallery-control-stub class="data-sidebar__gallery-control"></gallery-control-stub>
+      <switch-folder-mode-stub class="dataset-sidebar__switch-folder"></switch-folder-mode-stub>
+    </div>
+    <sort-control-stub sortby="inserted_at" sortdirection="asc" class="data-sidebar__sort"></sort-control-stub>
+    <status-filter-stub positivestatuses="new" negativestatuses="annotate" isopenmode="true" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="1,2" negativeclassids="3" listonly="true" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;

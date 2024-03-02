@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when keyframeIndex is 0 1`] = ``;
+
+exports[`matches snapshot when keyframeIndex is 5 1`] = `
+<div class="video-annotations-item-keyframe" style="left: 19px; top: 32%; width: 3px;">
+  <sub-keyframe-icon-stub class="video-annotations-item-subkeyframe__icon" style="width: 5px; min-width: 5px; height: 5px; min-height: 5px;"></sub-keyframe-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot when keyframeIndex is 10 1`] = `
+<div class="video-annotations-item-keyframe" style="left: 39px; top: 50%; width: 3px;">
+  <keyframe-icon-stub class="video-annotations-item-keyframe__icon" style="width: 5px; min-width: 5px; height: 5px; min-height: 5px;"></keyframe-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="video-annotations-item-keyframe" style="left: 39px; top: 50%; width: 3px;">
+  <keyframe-icon-stub class="video-annotations-item-keyframe__icon video-annotations-item-keyframe__icon--selected" style="width: 5px; min-width: 5px; height: 5px; min-height: 5px;"></keyframe-icon-stub>
+</div>
+`;

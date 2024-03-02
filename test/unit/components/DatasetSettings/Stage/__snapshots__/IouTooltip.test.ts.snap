@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<info-stub popoverclass="iou-tooltip__popover">
+  <div class="iou-tooltip">
+    <div class="iou-tooltip__left">
+      <div class="iou-tooltip__left__row">
+        <area-of-overlap-icon-stub></area-of-overlap-icon-stub>
+        <paragraph-12-stub>Area of Overlap</paragraph-12-stub>
+      </div>
+      <div class="iou-tooltip__left__row">
+        <area-of-union-icon-stub></area-of-union-icon-stub>
+        <paragraph-12-stub>Area of Union</paragraph-12-stub>
+      </div>
+    </div>
+    <div class="iou-tooltip__right">
+      <header-4-stub>Intersection over Union (IoU) or “Overlap”</header-4-stub>
+      <paragraph-12-stub>
+        Measured as the area of overlap between your model’s prediction and the
+        ground truth, divided by their union. IoU gives an idea of how much of
+        the total area of an object do your predictions tend to cover.
+        Two perfectly overlapping annotations have an IoU of 100%.
+      </paragraph-12-stub>
+      <paragraph-12-stub>
+        More passes means generally a lower expected overlap. For classification
+        tags, an exact match across all stages is 100%. If 3 out of 4 agree, the
+        overlap is 75%.
+      </paragraph-12-stub>
+    </div>
+  </div>
+</info-stub>
+`;

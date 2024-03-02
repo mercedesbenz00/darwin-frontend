@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-create">
+  <div class="dataset-create__header">
+    <bread-crumbs-stub></bread-crumbs-stub>
+    <div class="dataset-create__buttons">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <div class="dataset-create__body">
+    <div class="dataset-create__title">
+      Create new dataset
+    </div>
+    <div class="dataset-create__content">
+      <dataset-create-step-items-stub></dataset-create-step-items-stub>
+      <div class="dataset-create__boxes">
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="instructions">
+  <!---->
+  <div class="instructions_header">
+    <div class="instructions__description-container">
+      <p class="instructions__description">foo</p> <button class="instructions__full-description-link">
+        Show full instruction
+      </button>
+    </div>
+    <div class="instructions__search"><input placeholder="Search classes…" type="search" class="instructions__search__input">
+      <!---->
+    </div>
+  </div>
+  <div class="instructions__list-container">
+    <!---->
+    <ul class="instructions__list">
+      <instructions-list-item-stub annotationclass="[object Object]" hotkey="1" isselectable="true" class="instructions__list-item"></instructions-list-item-stub>
+    </ul>
+  </div>
+  <div class="instructions__list-create">
+    <instructions-list-create-item-stub></instructions-list-create-item-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot in modal mode 1`] = `
+<div class="instructions">
+  <div class="instructions__html-container">
+    <div class="instructions__html">foo</div>
+  </div>
+  <!---->
+  <div class="instructions__list-container instructions__list-container--small-padding">
+    <div class="instructions__list-header">
+      1 Objects to be annotated in this task
+    </div>
+    <ul class="instructions__list">
+      <instructions-list-item-stub annotationclass="[object Object]" hotkey="1" class="instructions__list-item"></instructions-list-item-stub>
+    </ul>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when you are able to create a new class 1`] = `
+<div class="instructions">
+  <!---->
+  <div class="instructions_header">
+    <div class="instructions__description-container">
+      <p class="instructions__description">foo</p> <button class="instructions__full-description-link">
+        Show full instruction
+      </button>
+    </div>
+    <div class="instructions__search"><input placeholder="Search classes…" type="search" class="instructions__search__input">
+      <!---->
+    </div>
+  </div>
+  <div class="instructions__list-container instructions__list-container--small-padding">
+    <!---->
+    <ul class="instructions__list">
+      <instructions-list-item-stub annotationclass="[object Object]" hotkey="1" isselectable="true" class="instructions__list-item"></instructions-list-item-stub>
+    </ul>
+  </div>
+  <!---->
+</div>
+`;

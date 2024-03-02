@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card-stub item-card" thumbnail="/thumbnails/foo" type="image">
+  <!---->
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when the item is playback video 1`] = `
+<div class="card-stub item-card" thumbnail="" type="video">
+  <!---->
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when the item is split video 1`] = `
+<div class="card-stub item-card" thumbnail="" type="video">
+  <!---->
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when uploading 1`] = `
+<div class="card-stub item-card" thumbnail="/thumbnails/foo" type="image">
+  <!---->
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;

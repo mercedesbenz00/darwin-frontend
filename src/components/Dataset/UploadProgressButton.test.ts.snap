@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<primarybutton-stub size="medium" class="upload-progress">
+  <div class="upload-progress-status"><span>0%</span> of Data uploaded
+  </div>
+  <div class="upload-progress-progress">
+    <div class="upload-progress-progress__fill" style="width: 0%;"></div>
+  </div>
+</primarybutton-stub>
+`;

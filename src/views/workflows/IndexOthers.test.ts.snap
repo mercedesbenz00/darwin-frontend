@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when no url args exist matches snapshot 1`] = `
+<div class="workflow-overview">
+  <content-card-stub>
+    <div class="workflow-overview__section">
+      <div class="workflow-overview__section__no-content"><span>
+            There are no workflows
+          </span>
+        <workflow-create-card-stub class="workflow-overview__section__no-content__create"></workflow-create-card-stub>
+      </div>
+    </div>
+  </content-card-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this workflow?" detail="This will delete any classes and unpublished datasets associated
+            to this workflow, and all users in your Team will immediately lose access to it." buttontext="DELETE WORKFLOW" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when there are multiple workflows matches snapshot 1`] = `
+<div class="workflow-overview">
+  <content-card-stub>
+    <div class="workflow-overview__section">
+      <div class="workflow-overview__section__content">
+        <workflow-card-stub data="[object Object]" disablemenu="true" uselink="true" class="workflow-overview__section__content__card"></workflow-card-stub>
+        <workflow-card-stub data="[object Object]" disablemenu="true" uselink="true" class="workflow-overview__section__content__card"></workflow-card-stub>
+        <workflow-card-stub data="[object Object]" disablemenu="true" uselink="true" class="workflow-overview__section__content__card"></workflow-card-stub>
+      </div>
+    </div>
+  </content-card-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this workflow?" detail="This will delete any classes and unpublished datasets associated
+            to this workflow, and all users in your Team will immediately lose access to it." buttontext="DELETE WORKFLOW" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when there is 1 workflow BUT a search filter it out matches snapshot 1`] = `
+<div class="workflow-overview">
+  <content-card-stub>
+    <div class="workflow-overview__section">
+      <div class="workflow-overview__section__content">
+        <workflow-card-stub data="[object Object]" disablemenu="true" uselink="true" class="workflow-overview__section__content__card"></workflow-card-stub>
+      </div>
+    </div>
+  </content-card-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this workflow?" detail="This will delete any classes and unpublished datasets associated
+            to this workflow, and all users in your Team will immediately lose access to it." buttontext="DELETE WORKFLOW" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when there is 1 workflow matches snapshot 1`] = `
+<div class="workflow-overview">
+  <content-card-stub>
+    <div class="workflow-overview__section">
+      <div class="workflow-overview__section__content">
+        <workflow-card-stub data="[object Object]" disablemenu="true" uselink="true" class="workflow-overview__section__content__card"></workflow-card-stub>
+      </div>
+    </div>
+  </content-card-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this workflow?" detail="This will delete any classes and unpublished datasets associated
+            to this workflow, and all users in your Team will immediately lose access to it." buttontext="DELETE WORKFLOW" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when there is no workflow matches snapshot 1`] = `
+<div class="workflow-overview">
+  <content-card-stub>
+    <div class="workflow-overview__section">
+      <div class="workflow-overview__section__no-content"><span>
+            There are no workflows
+          </span>
+        <workflow-create-card-stub class="workflow-overview__section__no-content__create"></workflow-create-card-stub>
+      </div>
+    </div>
+  </content-card-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this workflow?" detail="This will delete any classes and unpublished datasets associated
+            to this workflow, and all users in your Team will immediately lose access to it." buttontext="DELETE WORKFLOW" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;
+
+exports[`when url args exist matches snapshot 1`] = `
+<div class="workflow-overview">
+  <content-card-stub>
+    <div class="workflow-overview__section">
+      <div class="workflow-overview__section__no-content"><span>
+            There are no workflows
+          </span>
+        <workflow-create-card-stub class="workflow-overview__section__no-content__create"></workflow-create-card-stub>
+      </div>
+    </div>
+  </content-card-stub>
+  <delete-confirmation-dialog-stub title="Are you sure you want to delete this workflow?" detail="This will delete any classes and unpublished datasets associated
+            to this workflow, and all users in your Team will immediately lose access to it." buttontext="DELETE WORKFLOW" name="confirm-delete"></delete-confirmation-dialog-stub>
+</div>
+`;

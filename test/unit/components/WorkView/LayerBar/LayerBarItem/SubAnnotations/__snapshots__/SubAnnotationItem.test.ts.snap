@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="sub-annotation-item">
+  <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)" class="sub-annotation-item__icon"></type-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<div class="sub-annotation-item">
+  <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)" class="sub-annotation-item__icon"></type-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot with slots 1`] = `
+<div class="sub-annotation-item">
+  <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)" class="sub-annotation-item__icon"></type-icon-stub> slot content
+</div>
+`;

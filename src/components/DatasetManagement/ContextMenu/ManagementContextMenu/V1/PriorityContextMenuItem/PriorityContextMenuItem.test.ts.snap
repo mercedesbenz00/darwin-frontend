@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" placement="top-start" popover-class="priority_popover" trigger="manual" offset="1">
+  <div class="main">
+    <gallery-context-menu-item-stub label="PRIORITY" class="priority-context-menu-item">
+      <priority-icon-stub class="priority_icon"></priority-icon-stub>
+    </gallery-context-menu-item-stub>
+  </div>
+  <div class="popover">
+    <div class="priority_popover_content">
+      <priority-form-stub priority="0"></priority-form-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when opened 1`] = `
+<div class="v-popover-stub" placement="top-start" popover-class="priority_popover" trigger="manual" offset="1" open="open">
+  <div class="main">
+    <gallery-context-menu-item-stub label="PRIORITY" class="priority-context-menu-item">
+      <priority-icon-stub class="priority_icon"></priority-icon-stub>
+    </gallery-context-menu-item-stub>
+  </div>
+  <div class="popover">
+    <div class="priority_popover_content">
+      <priority-form-stub priority="0"></priority-form-stub>
+    </div>
+  </div>
+</div>
+`;

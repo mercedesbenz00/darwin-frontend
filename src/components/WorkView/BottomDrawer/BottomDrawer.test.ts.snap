@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when not resizable 1`] = `
+<vue-draggable-resizable-stub classname="vdr" classnamedraggable="draggable" classnameresizable="resizable" classnamedragging="dragging" classnameresizing="resizing" classnameactive="active" classnamehandle="bottom-drawer__handler" disableuserselect="true" preventdeactivation="true" active="true" resizable="true" w="200" h="80" minwidth="0" minheight="56" maxheight="250" x="0" y="0" z="auto" handles="tm" axis="y" grid="1,1" scale="1" ondragstart="[Function]" ondrag="[Function]" onresizestart="[Function]" onresize="[Function]" class="bottom-drawer">
+  <bottom-drawer-toggle-button-stub name="bottom-bar"></bottom-drawer-toggle-button-stub>
+  <div class="bottom-drawer__wrapper"></div>
+</vue-draggable-resizable-stub>
+`;
+
+exports[`matches snapshot with default props 1`] = `
+<vue-draggable-resizable-stub classname="vdr" classnamedraggable="draggable" classnameresizable="resizable" classnamedragging="dragging" classnameresizing="resizing" classnameactive="active" classnamehandle="bottom-drawer__handler" disableuserselect="true" preventdeactivation="true" active="true" w="200" h="80" minwidth="0" minheight="56" maxheight="250" x="0" y="0" z="auto" handles="tm" axis="y" grid="1,1" scale="1" ondragstart="[Function]" ondrag="[Function]" onresizestart="[Function]" onresize="[Function]" class="bottom-drawer">
+  <bottom-drawer-toggle-button-stub name="bottom-bar"></bottom-drawer-toggle-button-stub>
+  <div class="bottom-drawer__wrapper"></div>
+</vue-draggable-resizable-stub>
+`;

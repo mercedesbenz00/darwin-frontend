@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is mode archive matches snapshot 1`] = `
+<action-bar-element-stub type="danger">
+  <p class="action-bar-el__label">
+    Archive
+  </p>
+</action-bar-element-stub>
+`;
+
+exports[`is mode delete matches snapshot 1`] = `
+<action-bar-element-stub type="danger">
+  <p class="action-bar-el__label">
+    Delete
+  </p>
+</action-bar-element-stub>
+`;

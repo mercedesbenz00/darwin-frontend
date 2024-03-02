@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stage-archive">
+  <icon-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="archive-button">
+    <icon-duotone-trash-stub></icon-duotone-trash-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot whem not in icon mode 1`] = `
+<div class="stage-archive">
+  <icon-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="archive-button">
+    <icon-duotone-trash-stub></icon-duotone-trash-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when in autocomplete 1`] = `
+<div class="stage-archive">
+  <icon-button-stub variant="default" color="negative" size="small" flair="rounded" tag="button" class="archive-button archive-button--active">
+    <icon-duotone-trash-inverted-stub></icon-duotone-trash-inverted-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when not in icon mode 1`] = `
+<div class="stage-archive">
+  <custom-button-stub variant="outline" color="secondary" size="small" flair="rounded" tag="button" class="archive-button">
+    Archive
+  </custom-button-stub>
+</div>
+`;

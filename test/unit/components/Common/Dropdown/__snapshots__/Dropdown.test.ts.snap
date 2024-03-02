@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-select dropdown dropdown--dark" label="label" calculate-position="function () { [native code] }" components="[object Object]" clearable="true"> <span class="dropdown__arrow"></span>
+  <ul class="vs__dropdown-menu">
+    <li></li>
+    <li></li>
+  </ul>
+  <div class="dropdown__value">
+    option 1
+  </div>
+</div>
+`;
+
+exports[`renders all the slots properly 1`] = `
+<div class="v-select dropdown dropdown--dark" label="label" calculate-position="function () { [native code] }" components="[object Object]" clearable="true">header slot footer slot list-header slot list-footer slot <div class="no-options-stub">{
+    "search": "search",
+    "searching": "searching",
+    "loading": false
+    }</div>
+  <div class="open-indicator-stub">{
+    "attributes": {
+    "ref": "ref"
+    }
+    }</div>
+  <ul class="vs__dropdown-menu">
+    <li>
+      <div class="option-stub">{
+        "id": 1,
+        "label": "option 1"
+        }</div>
+    </li>
+    <li>
+      <div class="option-stub">{
+        "id": 2,
+        "label": "option 2"
+        }</div>
+    </li>
+  </ul>
+  <div class="search-stub">{
+    "attributes": "attributes",
+    "events": "events"
+    }</div>
+  <div class="dropdown__value">
+    <div class="selected-option-stub">{
+      "id": 1,
+      "label": "option 1"
+      }</div>
+  </div>
+  <div class="spinner-stub">{
+    "loading": false
+    }</div>
+</div>
+`;

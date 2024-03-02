@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-create__box">
+  <div class="template dataset-create__annotators" dataset="[object Object]">
+    <div class="dataset-create__annotators__task-settings">
+      <workflow-work-size-stub value="10" class="dataset-create__annotators__work-size"></workflow-work-size-stub>
+      <workflow-work-priority-stub value="inserted_at:asc"></workflow-work-priority-stub>
+    </div>
+  </div>
+  <div class="dataset-create__actions">
+    <positive-button-stub>
+      Save &amp; Start Annotating
+    </positive-button-stub>
+  </div>
+</div>
+`;

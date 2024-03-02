@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="login">
+      <teaser-stub title="SSO" image="login.png" textalign="center"></teaser-stub>
+      <form class="login__form">
+        <div class="login__form__title">
+          Welcome back!
+        </div>
+        <div class="login__form__input">
+          <input-field-stub value="" label="Team" name="teamName" autocomplete="teamName" required="required" type="text" autofocus="true" theme="light"></input-field-stub>
+        </div>
+        <div class="login__form__buttons">
+          <secondary-button-stub size="medium" tag="router-link" to="[object Object]">
+            Cancel
+          </secondary-button-stub>
+          <primary-button-stub size="medium" type="submit">
+            Log In
+          </primary-button-stub>
+        </div>
+      </form>
+    </div>
+  </div>
+</background-stub>
+`;

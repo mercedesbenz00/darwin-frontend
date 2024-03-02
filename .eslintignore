@@ -1,0 +1,9 @@
+/build/
+/dist/
+/*.js
+/test/unit/coverage/
+/test/e2e/
+/src/shims-vue.d.ts
+/coverage
+/node_modules/
+/storybook-static/

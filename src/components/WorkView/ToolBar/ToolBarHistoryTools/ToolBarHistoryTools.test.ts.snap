@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when all props are false 1`] = `
+<div class="history-tools">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" disabled="true" class="history-tools__button history-tools__button__undo">
+    <undo-icon-stub></undo-icon-stub>
+  </icon-button-stub>
+  <icon-button-stub variant="default" color="transparent" size="small" flair="super-soft" tag="button" disabled="true" class="history-tools__button history-tools__button__redo">
+    <redo-icon-stub></redo-icon-stub>
+  </icon-button-stub>
+</div>
+`;
+
+exports[`matches snapshot when all props are true 1`] = `
+<div class="history-tools">
+  <icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" class="history-tools__button history-tools__button__undo clickable">
+    <undo-icon-stub></undo-icon-stub>
+  </icon-button-stub>
+  <icon-button-stub variant="default" color="transparent" size="small" flair="super-soft" tag="button" class="history-tools__button history-tools__button__redo clickable">
+    <redo-icon-stub></redo-icon-stub>
+  </icon-button-stub>
+</div>
+`;

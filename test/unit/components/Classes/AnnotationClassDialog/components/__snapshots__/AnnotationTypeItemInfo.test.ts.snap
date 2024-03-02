@@ -1,0 +1,1006 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Polygon Mask
+        </div>
+        <div class="annotation-type-info__description">
+          Used to train object detection, semantic segmentation, and instance segmentation. Masks in Darwin can be pixel-wise or coarse but remain vectorized, keeping annotation files light. Masks are the swiss army knife of vision AI, and can be converted into almost every other type of annotation.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Any visible object
+            </li>
+            <li class="annotation-type-info__item">
+              Semantic objects, like floor surfaces
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Non-visual objects, such as a midpoint or curvature
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Object Detection
+            </li>
+            <li class="annotation-type-info__item">
+              Semantic Segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Instance Segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Volumetric Segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Composite objects
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 2`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Raster Mask
+        </div>
+        <div class="annotation-type-info__description">
+          Used to train semantic and panoptic segmentation models.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Any visible object
+            </li>
+            <li class="annotation-type-info__item">
+              Semantic objects, like floor surfaces
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Non-visual objects, such as a midpoint or curvature
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Semantic Segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Panoptic Segmentation
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 3`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Bounding Box
+        </div>
+        <div class="annotation-type-info__description">
+          Used to train detectors. Bounding boxes are not as precise as polygon masks, but in some cases cheaper to compute. In Darwin, masks can be converted to bounding boxes but not the other way around.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Uniformly shaped objects
+            </li>
+            <li class="annotation-type-info__item">
+              Objects that don’t overlap
+            </li>
+            <li class="annotation-type-info__item">
+              Low-compute projects
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Elongated objects
+            </li>
+            <li class="annotation-type-info__item">
+              Textures and large background objects ("stuff")
+            </li>
+            <li class="annotation-type-info__item">
+              Composite objects, or frequently occluded objects
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Object Detection
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 4`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Keypoint
+        </div>
+        <div class="annotation-type-info__description">
+          Defines a point that may represent an object or marker. Keypoints can be used alone, or in combination to form a point map that defines the pose of an object.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Object markers, such as face points or corners
+            </li>
+            <li class="annotation-type-info__item">
+              Non-visual objects, such as the inner midpoint of an object
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Markers that vary greatly in scale
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Keypoint Detection
+            </li>
+            <li class="annotation-type-info__item">
+              Keypoint Mapping
+            </li>
+            <li class="annotation-type-info__item">
+              2D and 6DoF Object Pose
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 5`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Tag
+        </div>
+        <div class="annotation-type-info__description">
+          Tags describe a whole image for classification purposes. Unlike other annotations, they don’t apply to an area in particular, and should be used to describe features visible throughout an image, or define an image category.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Objects taking up 50% or more than an image
+            </li>
+            <li class="annotation-type-info__item">
+              Image categories, such as "indoor"
+            </li>
+            <li class="annotation-type-info__item">
+              Visual features that are present, but not positional, such as "over-exposed"
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Identifying small objects, or objects in scenes
+            </li>
+            <li class="annotation-type-info__item">
+              Identifying multiple objects, counting, or any positional logic
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Image Classifier
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 6`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Cuboid
+        </div>
+        <div class="annotation-type-info__description">
+          Used for 3D and 6 degree-of-freedom object detectors. Cuboids are 3-dimensional bounding boxes that can enclose an item, defining its dimension and pose in a captured scene.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Objects on flat planes that need to be navigated, such as cars
+            </li>
+            <li class="annotation-type-info__item">
+              Objects that require robotic grasping
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Elongated objects
+            </li>
+            <li class="annotation-type-info__item">
+              Textures and large background objects
+            </li>
+            <li class="annotation-type-info__item">
+              Composite and occluded objects
+            </li>
+            <li class="annotation-type-info__item">
+              Amorphous objects such as clothing
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Object Detection
+            </li>
+            <li class="annotation-type-info__item">
+              3D Cuboid Estimation
+            </li>
+            <li class="annotation-type-info__item">
+              6DoF Pose Estimation
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 7`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Keypoint Skeleton
+        </div>
+        <div class="annotation-type-info__description">
+          A network of keypoints connected by vectors. Used to define the 2D or 3D pose of a multi-limbed object. Keypoints skeletons have a defined set of points that can be moved to adapt to an object’s appearance.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Human, animal, or object pose
+            </li>
+            <li class="annotation-type-info__item">
+              Objects with a defined number of marker points
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Objects with an undefined number of joints, such as a tree
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Skeletal Keypoint Network
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 8`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Instance ID
+        </div>
+        <div class="annotation-type-info__description">
+          Instance IDs, also knowns as object or tracking IDs, allow you to re-identify a specific object throughout a dataset. Each annotation is given a numeric ID so that the object may be tracked, or simply distinguished among other objects of the same class in an image. Darwin isolates all annotations in instances by default, however adding an Instance ID allows you to preserve and re-use this ID between images.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Datasets where tracking is important
+            </li>
+            <li class="annotation-type-info__item">
+              Volumetric data
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Semantic segmentation
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Instance Segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Video Object Tracking
+            </li>
+            <li class="annotation-type-info__item">
+              3D Volumetric Segmentation
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 9`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Attributes
+        </div>
+        <div class="annotation-type-info__description">
+          A tag on an annotation. Attributes describe objects in greater detail than the class name itself. They can define discrete features like color, or continuous ones like age. Attributes help AI classify objects after detecting them.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Any object with relevant variable traits
+            </li>
+          </ul>
+        </div>
+        <!---->
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Any model that can support an attribute defining head.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 10`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Keypoint Skeleton
+        </div>
+        <div class="annotation-type-info__description">
+          A network of keypoints connected by vectors. Used to define the 2D or 3D pose of a multi-limbed object. Keypoints skeletons have a defined set of points that can be moved to adapt to an object’s appearance.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Human, animal, or object pose
+            </li>
+            <li class="annotation-type-info__item">
+              Objects with a defined number of marker points
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Objects with an undefined number of joints, such as a tree
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Object Detection
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 11`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Text
+        </div>
+        <div class="annotation-type-info__description">
+          Apply free text to an annotation. Text can be used to train OCR, or to include unique textual information about an annotation. Unlike attributes, text isn’t saved to be re-applied to other annotations.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Entering freeform text, such as in clinical notes or transcribed text
+            </li>
+          </ul>
+        </div>
+        <!---->
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Optical Character Recognition
+            </li>
+            <li class="annotation-type-info__item">
+              Natural Language Processing models
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 12`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Line
+        </div>
+        <div class="annotation-type-info__description">
+          A series of points forming a line. Line, or polyline annotations, may be used to define a slope, direction, or edge. They are often used to define lane markings or trajectories.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Linearly defined objects with no volume, such as edges
+            </li>
+            <li class="annotation-type-info__item">
+              Non-visual objects such as mid-points or trajectories
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Defining objects with volume
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Keypoint detection
+            </li>
+            <li class="annotation-type-info__item">
+              Regressor networks
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 13`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Directional Vector
+        </div>
+        <div class="annotation-type-info__description">
+          Defines a radian value of the vendor to indicate the 2D pose or direction of an object. These vectors can be used to predict movement, or define an object’s tilt.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Solid objects with a relevant direction or pose
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Amorphous objects such as clothing
+            </li>
+            <li class="annotation-type-info__item">
+              Objects with more than 4 degrees of freedom of movement
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Object Direction or 2D object pose
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 14`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Ellipse
+        </div>
+        <div class="annotation-type-info__description">
+          An oval that appears as a 2-diameter circle or multi-point polygon on export. Can be used as a round polygon, or as an ellipse to mark circular objects that may distort with perspective.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Circular or oval objects
+            </li>
+            <li class="annotation-type-info__item">
+              Items that can be regressed with 2-3 values (diameters, centroid)
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Polygonal objects that aren't round or oval.
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Allows you to train the following model types:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Instance segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Semantic segmentation
+            </li>
+            <li class="annotation-type-info__item">
+              Ellipsoid regression
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 15`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Link
+        </div>
+        <div class="annotation-type-info__description">
+          A link between two annotations of any type.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Items that share any kind of structured relationship
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Items that are not consistently related
+            </li>
+          </ul>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 16`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          String
+        </div>
+        <div class="annotation-type-info__description">
+          A string of raw text.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Pure Text
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Textual attributes of objects
+            </li>
+          </ul>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 17`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Graph
+        </div>
+        <div class="annotation-type-info__description">
+          A graph of annotations.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Hierarchies, structured data
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Generic clusters of annotations
+            </li>
+          </ul>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 18`] = `
+<div class="v-popover-stub" trigger="hover" offset="5" placement="right" popover-class="popover--annotation-type-info">
+  <div class="main">
+    <div class="info">
+      <info-icon-stub></info-icon-stub>
+    </div>
+  </div>
+  <div class="popover">
+    <div class="annotation-type-info">
+      <div class="annotation-type-info__image"><img src="[object Object]"></div>
+      <div class="annotation-type-info__details">
+        <div class="annotation-type-info__title">
+          Table
+        </div>
+        <div class="annotation-type-info__description">
+          A table of annotations.
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Good for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Relational data
+            </li>
+          </ul>
+        </div>
+        <div class="annotation-type-info__section">
+          <div class="annotation-type-info__sub-title">
+            Bad for:
+          </div>
+          <ul class="annotation-type-info__items">
+            <li class="annotation-type-info__item">
+              Generic clusters of annotations
+            </li>
+          </ul>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;

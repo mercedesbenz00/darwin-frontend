@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when iouValue encodes any other value, use AP matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="50%">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when iouValue is 50%, use AP50 matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="75%">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when iouValue is 75%, use AP75 matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="60%">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when iouValue is null, use AP matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="50%">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when trainedModel is null matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="N/A">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when training results are null matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="N/A">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when training results segm field in undefined matches snapshot 1`] = `
+<model-stat-stub name="mAP" score="N/A">
+  <map-hero-stub></map-hero-stub>
+  <p><strong class="bold">Mean Average Precision</strong>
+    is measured by taking the mean of all average precisions (the area under a Precision vs
+    Recall curve) across all IoU thresholds and for all classes. This metric provides an
+    overall model performance, irrespective of any manually set threshold. MaP is a harsh
+    measurement, so don’t be scared if its number is low.
+  </p>
+</model-stat-stub>
+`;

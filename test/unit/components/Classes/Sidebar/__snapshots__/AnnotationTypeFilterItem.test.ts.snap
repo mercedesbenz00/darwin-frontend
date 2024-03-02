@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when not selected 1`] = `
+<div class="filter-item annotation-type-filter-item filter-item--none">
+  <div class="filter-item__icon">
+    <!---->
+    <type-icon-stub type="bounding_box" color="rgba(0, 0, 0, 1)" class="annotation-type-filter-item__svg"></type-icon-stub>
+  </div>
+  <div class="filter-item__label">
+    Bounding Box
+  </div>
+  <div class="filter-item__count">
+    5
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="filter-item annotation-type-filter-item filter-item--positive annotation-type-filter-item--selected">
+  <div class="filter-item__icon">
+    <!---->
+    <type-icon-stub type="bounding_box" color="rgba(0, 0, 0, 1)" class="annotation-type-filter-item__svg"></type-icon-stub>
+  </div>
+  <div class="filter-item__label">
+    Bounding Box
+  </div>
+  <div class="filter-item__count">
+    5
+  </div>
+</div>
+`;

@@ -1,0 +1,5 @@
+export { default as BackIcon } from './back.svg?inline'
+export { default as LogoIcon } from './logo.svg?inline'
+export { default as RedoIcon } from './redo.svg?inline'
+export { default as UndoIcon } from './undo.svg?inline'
+export { default as WarningIcon } from './warning.svg?inline'

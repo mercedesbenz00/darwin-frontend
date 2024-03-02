@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<model-stat-stub name="Recall">
+  <recall-hero-stub></recall-hero-stub>
+  <p><strong class="bold">Recall</strong>
+    is measured by dividing true positive predictions (correct ones) by true positives +
+    false negatives. Recall measures how often an object is found, and is a good measure of
+    false negative rate (an objet is present, but isn’t found). Present objects falling
+    below 50% IoU to the ground truth are considered false negatives, such as the
+    half-predicted car in the diagram.
+  </p>
+</model-stat-stub>
+`;

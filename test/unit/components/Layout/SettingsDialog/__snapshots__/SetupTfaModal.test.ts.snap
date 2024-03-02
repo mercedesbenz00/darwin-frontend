@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when setup is not required matches snapshot 1`] = `
+<modal-stub name="setup-tfa-modal" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="450" height="auto" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <transition-stub name="fade">
+    <!---->
+  </transition-stub>
+  <transition-stub name="fade">
+    <div class="login-tfa-form confirm-tfa-form">
+      <secondary-button-stub type="button">
+        Close
+      </secondary-button-stub>
+      <primary-button-stub type="button">
+        CONFIRM
+      </primary-button-stub>
+    </div>
+  </transition-stub>
+</modal-stub>
+`;
+
+exports[`when setup is required after secret key is loaded matches snapshot 1`] = `
+<modal-stub name="setup-tfa-modal" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="450" height="auto" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <transition-stub name="fade">
+    <div class="setup-tfa-form setup-tfa-form" email="test@v7labs.com" loading="false" secret-key="secret_key">
+      <secondary-button-stub type="button">
+        Close
+      </secondary-button-stub>
+      <primary-button-stub type="button">
+        CONTINUE
+      </primary-button-stub>
+    </div>
+  </transition-stub>
+  <transition-stub name="fade">
+    <!---->
+  </transition-stub>
+</modal-stub>
+`;
+
+exports[`when setup is required after secret key is loaded renders 2fa confirmation form on continue 1`] = `
+<modal-stub name="setup-tfa-modal" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="450" height="auto" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <transition-stub name="fade">
+    <!---->
+  </transition-stub>
+  <transition-stub name="fade">
+    <div class="login-tfa-form confirm-tfa-form">
+      <secondary-button-stub type="button">
+        Back
+      </secondary-button-stub>
+      <primary-button-stub type="button">
+        CONFIRM
+      </primary-button-stub>
+    </div>
+  </transition-stub>
+</modal-stub>
+`;
+
+exports[`when setup is required matches snapshot 1`] = `
+<modal-stub name="setup-tfa-modal" delay="0" adaptive="true" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="450" height="auto" pivotx="0.5" pivoty="0.5" focus-trap="true">
+  <transition-stub name="fade">
+    <div class="setup-tfa-form setup-tfa-form" email="test@v7labs.com" loading="true">
+      <secondary-button-stub type="button">
+        Close
+      </secondary-button-stub>
+      <primary-button-stub type="button">
+        CONTINUE
+      </primary-button-stub>
+    </div>
+  </transition-stub>
+  <transition-stub name="fade">
+    <!---->
+  </transition-stub>
+</modal-stub>
+`;

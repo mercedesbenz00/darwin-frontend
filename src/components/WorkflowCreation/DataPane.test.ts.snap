@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when workflow has a dataset matches snapshot 1`] = `
+<div up="true">
+  <div class="panel data-pane">
+    <div class="panel__section panel__section--header">
+      <div class="data-pane__header">
+        <paragraph14-stub>
+          Showing: <strong>DataPane Dataset</strong></paragraph14-stub>
+        <div class="data-pane__header__actions">
+          <buttonborderless-stub>
+            Expand panel
+          </buttonborderless-stub>
+          <!---->
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="panel__section panel__section--content">
+      <div class="data-pane__content__gallery">
+        <v2datasetitemgallery-stub dataset="[object Object]" datasetitems=""></v2datasetitemgallery-stub>
+      </div>
+      <v2managementcontextmenu-stub dataset="[object Object]" datasetitems="" class="data-pane__menu"></v2managementcontextmenu-stub>
+    </div>
+  </div>
+  <fileuploaddialogwrapper-stub></fileuploaddialogwrapper-stub>
+</div>
+`;
+
+exports[`when workflow has a dataset matches snapshot when dataset page is selected 1`] = `
+<div up="true">
+  <div class="panel data-pane">
+    <div class="panel__section panel__section--header">
+      <div class="data-pane__header">
+        <paragraph14-stub>
+          Showing: <strong>DataPane Dataset</strong></paragraph14-stub>
+        <div class="data-pane__header__actions">
+          <buttonborderless-stub>
+            Expand panel
+          </buttonborderless-stub>
+          <togglebutton-stub size="sm" kind="primary">
+            Add Data
+          </togglebutton-stub>
+          <togglebutton-stub to="[object Object]">
+            Manage Dataset
+          </togglebutton-stub>
+        </div>
+      </div>
+    </div>
+    <div class="panel__section panel__section--content">
+      <droparea-stub acceptedfiletypes="application/pdf,image/*,video/*,.avi,.bmp,.dcm,.gz,.hevc,.jpeg,.jpg,.mkv,.mov,.mp4,.ndpi,.nii.gz,.nii,.pdf,.png,.rvg,.svs,.tif,.tiff,.webp" multiple="true" class="data-pane__content">
+        <div class="data-pane__content__gallery">
+          <v2datasetitemgallery-stub dataset="[object Object]" datasetitems=""></v2datasetitemgallery-stub>
+        </div>
+        <v2managementcontextmenu-stub dataset="[object Object]" datasetitems="" class="data-pane__menu"></v2managementcontextmenu-stub>
+      </droparea-stub>
+    </div>
+  </div>
+  <fileuploaddialogwrapper-stub></fileuploaddialogwrapper-stub>
+</div>
+`;
+
+exports[`when workflow has no dataset matches snapshot 1`] = `
+<div up="true">
+  <div class="panel data-pane">
+    <div class="panel__section panel__section--header">
+      <div class="data-pane__header">
+        <paragraph14-stub>
+          Connect a dataset to the workflow to show data
+        </paragraph14-stub>
+        <div class="data-pane__header__actions">
+          <buttonborderless-stub>
+            Expand panel
+          </buttonborderless-stub>
+          <!---->
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+  <fileuploaddialogwrapper-stub></fileuploaddialogwrapper-stub>
+</div>
+`;

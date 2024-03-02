@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when invisible 1`] = `
+<button class="visibility-icon">
+  <icon-12-hide-stub></icon-12-hide-stub>
+</button>
+`;
+
+exports[`matches snapshot when visible 1`] = `
+<button class="visibility-icon visibility-icon--visible">
+  <icon-12-hide-stub></icon-12-hide-stub>
+</button>
+`;

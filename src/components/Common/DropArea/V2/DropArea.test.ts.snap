@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when accepting all images 1`] = `
+<label class="droparea">
+  <div class="droparea__content">
+    <div class="droparea__upload">
+      <icon-duotone-upload-stub class="droparea__upload__icon"></icon-duotone-upload-stub>
+    </div>
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title"><span class="title__highlight">Click to browse</span> or drag &amp; drop
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div>
+  <div class="droparea__hover">
+    <iconfileplus-stub></iconfileplus-stub>
+    <div>Add files to dataset</div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;
+
+exports[`matches snapshot when accepting all videos 1`] = `
+<label class="droparea">
+  <div class="droparea__content">
+    <div class="droparea__upload">
+      <icon-duotone-upload-stub class="droparea__upload__icon"></icon-duotone-upload-stub>
+    </div>
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title"><span class="title__highlight">Click to browse</span> or drag &amp; drop
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div>
+  <div class="droparea__hover">
+    <iconfileplus-stub></iconfileplus-stub>
+    <div>Add files to dataset</div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;
+
+exports[`matches snapshot when accepting specific types 1`] = `
+<label class="droparea">
+  <div class="droparea__content">
+    <div class="droparea__upload">
+      <icon-duotone-upload-stub class="droparea__upload__icon"></icon-duotone-upload-stub>
+    </div>
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title"><span class="title__highlight">Click to browse</span> or drag &amp; drop
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div>
+  <div class="droparea__hover">
+    <iconfileplus-stub></iconfileplus-stub>
+    <div>Add files to dataset</div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;
+
+exports[`matches snapshot when clicks are prevented 1`] = `
+<div class="droparea">
+  <div class="droparea__content">
+    <div class="droparea__upload">
+      <icon-duotone-upload-stub class="droparea__upload__icon"></icon-duotone-upload-stub>
+    </div>
+    <div class="droparea__content__texts">
+      <div class="droparea__content__title"><span class="title__highlight">Click to browse</span> or drag &amp; drop
+      </div>
+      <div class="droparea__content__description">
+        Supported Filetypes:
+      </div>
+    </div>
+  </div>
+  <div class="droparea__hover">
+    <iconfileplus-stub></iconfileplus-stub>
+    <div>Add files to dataset</div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</div>
+`;
+
+exports[`matches snapshot when supplied a slot 1`] = `
+<label class="droparea">
+  <div class="droparea__content">
+    <div class="default-slot"></div>
+  </div>
+  <div class="droparea__hover">
+    <iconfileplus-stub></iconfileplus-stub>
+    <div>Add files to dataset</div>
+  </div> <input type="file" accept="" multiple="multiple" class="droparea__input">
+</label>
+`;

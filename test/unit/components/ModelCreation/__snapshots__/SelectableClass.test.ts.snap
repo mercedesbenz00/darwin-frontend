@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when eligible matches snapshot 1`] = `
+<button class="selectable-class">
+  <class-item-stub annotationclass="[object Object]"></class-item-stub>
+</button>
+`;
+
+exports[`when ineligible due to incompatible type matches snapshot 1`] = `
+<button disabled="disabled" class="selectable-class">
+  <class-item-stub annotationclass="[object Object]"></class-item-stub>
+</button>
+`;
+
+exports[`when ineligible due to low count matches snapshot 1`] = `
+<button disabled="disabled" class="selectable-class">
+  <class-item-stub annotationclass="[object Object]"></class-item-stub>
+</button>
+`;
+
+exports[`when ineligible due to no instances matches snapshot 1`] = `
+<button disabled="disabled" class="selectable-class">
+  <class-item-stub annotationclass="[object Object]"></class-item-stub>
+</button>
+`;
+
+exports[`when selected matches snapshot 1`] = `
+<button class="selectable-class selectable-class--selected">
+  <class-item-stub annotationclass="[object Object]"></class-item-stub>
+</button>
+`;

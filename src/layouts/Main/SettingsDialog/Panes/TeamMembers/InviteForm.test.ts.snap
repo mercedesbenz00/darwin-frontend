@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when client team viewed as partner team member matches snapshot 1`] = `
+<div class="members__new" tooltip="You are not allowed to add users directly to this team">
+  <div class="members__new__input">
+    <input-field-stub value="" id="new-invitation" placeholder="+ Enter email and press enter to invite" type="text" disabled="true" theme="light"></input-field-stub>
+  </div>
+  <div class="members__new__role">
+    <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object]" placeholder="Role" disabled="true"></role-dropdown-stub>
+  </div> <button disabled="disabled" class="members__new__send members__new__send--disabled"><img src="/static/imgs/send.svg"></button>
+</div>
+`;
+
+exports[`when regular team as full member matches snapshot 1`] = `
+<div class="members__new" tooltip="undefined">
+  <div class="members__new__input">
+    <input-field-stub value="" id="new-invitation" placeholder="+ Enter email and press enter to invite" type="text" theme="light"></input-field-stub>
+  </div>
+  <div class="members__new__role">
+    <role-dropdown-stub id="role" value="member" name="role" options="[object Object],[object Object],[object Object],[object Object]" placeholder="Role"></role-dropdown-stub>
+  </div> <button class="members__new__send members__new__send--disabled"><img src="/static/imgs/send.svg"></button>
+</div>
+`;
+
+exports[`when regular team as workforce manager matches snapshot 1`] = `
+<div class="members__new" tooltip="undefined">
+  <div class="members__new__input">
+    <input-field-stub value="" id="new-invitation" placeholder="+ Enter email and press enter to invite" type="text" theme="light"></input-field-stub>
+  </div>
+  <div class="members__new__role">
+    <role-dropdown-stub id="role" value="member" name="role" options="[object Object]" placeholder="Role"></role-dropdown-stub>
+  </div> <button class="members__new__send members__new__send--disabled"><img src="/static/imgs/send.svg"></button>
+</div>
+`;

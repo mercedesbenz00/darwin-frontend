@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when cannot create tag matches snapshot 1`] = `
+<div class="tag-applier-list">
+  <div class="tag-applier-list__tip"><span>Select a tag</span>
+    <sort-button-stub direction="0" class="tag-applier-list__sort"></sort-button-stub>
+  </div>
+  <ul class="tag-applier-list__tags">
+    <li class="tag-applier-list__tag">
+      <div class="tag-applier-list__tag-chip" style="background: rgba(179, 179, 179, 0.5);">
+        Tag
+      </div>
+    </li>
+  </ul>
+  <!---->
+</div>
+`;
+
+exports[`when disabled matches snapshot 1`] = `
+<div class="tag-applier-list">
+  <div class="tag-applier-list__tip"><span>Select a tag or create one</span>
+    <sort-button-stub direction="0" class="tag-applier-list__sort"></sort-button-stub>
+  </div>
+  <ul class="tag-applier-list__tags">
+    <li class="tag-applier-list__tag">
+      <div class="tag-applier-list__tag-chip" style="background: rgba(179, 179, 179, 0.5);">
+        Tag
+      </div>
+    </li>
+  </ul> <button disabled="disabled" class="tag-applier-list__create">
+    Create
+    <span>Tag</span></button>
+</div>
+`;
+
+exports[`with default props matches snapshot 1`] = `
+<div class="tag-applier-list">
+  <div class="tag-applier-list__tip"><span>Select a tag or create one</span>
+    <sort-button-stub direction="0" class="tag-applier-list__sort"></sort-button-stub>
+  </div>
+  <ul class="tag-applier-list__tags">
+    <li class="tag-applier-list__tag">
+      <div class="tag-applier-list__tag-chip" style="background: rgba(179, 179, 179, 0.5);">
+        Tag
+      </div>
+    </li>
+  </ul> <button disabled="disabled" class="tag-applier-list__create">
+    Create
+    <span>Tag</span></button>
+</div>
+`;
+
+exports[`with selected tags matches snapshot 1`] = `
+<div class="tag-applier-list">
+  <div class="tag-applier-list__tip"><span>Select a tag or create one</span>
+    <sort-button-stub direction="0" class="tag-applier-list__sort"></sort-button-stub>
+  </div>
+  <ul class="tag-applier-list__tags"></ul> <button disabled="disabled" class="tag-applier-list__create">
+    Create
+    <span>Tag</span></button>
+</div>
+`;
+
+exports[`with tag text matches snapshot 1`] = `
+<div class="tag-applier-list">
+  <div class="tag-applier-list__tip"><span>Select a tag or create one</span>
+    <sort-button-stub direction="0" class="tag-applier-list__sort"></sort-button-stub>
+  </div>
+  <ul class="tag-applier-list__tags"></ul> <button class="tag-applier-list__create">
+    Create
+    <span>new-tag</span></button>
+</div>
+`;

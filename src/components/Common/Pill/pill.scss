@@ -1,0 +1,6 @@
+@mixin pill ($background, $border, $shadow) {
+  background: $background;
+  border: 1px solid $border;
+  box-shadow: 0px 2px 5px $shadow;
+  @include typography(xs, default, bold);
+}

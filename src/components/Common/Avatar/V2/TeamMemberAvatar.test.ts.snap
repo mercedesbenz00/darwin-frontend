@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when member belongs to partner team matches snapshot 1`] = `
+<div class="avatar">
+  <div class="avatar__icon avatar__initials" style="background: rgb(99, 172, 83);"><svg viewBox="0 0 100 100"><text x="50%" y="50%" fill="currentColor" font-size="46" text-anchor="middle" dominant-baseline="central">JD</text></svg></div>
+  <div class="avatar__badge">
+    <team-avatar-stub team="[object Object]"></team-avatar-stub>
+  </div>
+</div>
+`;
+
+exports[`when member belongs to team matches snapshot 1`] = `
+<div class="avatar">
+  <div class="avatar__icon avatar__initials" style="background: rgb(99, 172, 83);"><svg viewBox="0 0 100 100"><text x="50%" y="50%" fill="currentColor" font-size="46" text-anchor="middle" dominant-baseline="central">JD</text></svg></div>
+  <!---->
+</div>
+`;

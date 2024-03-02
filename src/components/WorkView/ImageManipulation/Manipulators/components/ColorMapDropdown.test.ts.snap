@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="color-map-dropdown">
+  <div class="dropdown">
+    <select2-stub placeholder="" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" settings="[object Object]" value="default"></select2-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when team is client on own page matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <header-4-stub>
+      Client
+    </header-4-stub>
+  </div>
+  <v2-credit-bar-stub creditusage="[object Object]"></v2-credit-bar-stub>
+  <div class="summary-item-layout__footer">
+    <credit-bonus-hours-stub info="[object Object]"></credit-bonus-hours-stub>
+  </div>
+</div>
+`;
+
+exports[`when team is client on partner page, who is being limited matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <header-4-stub>
+      Client
+    </header-4-stub>
+    <usage-limiter-stub limit="100" parentlimit="150"></usage-limiter-stub>
+  </div>
+  <v2-credit-bar-stub creditusage="[object Object]"></v2-credit-bar-stub>
+  <div class="summary-item-layout__footer">
+    <credit-bonus-hours-stub info="[object Object]"></credit-bonus-hours-stub>
+  </div>
+</div>
+`;
+
+exports[`when team is partner with clients matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <header-4-stub>
+      A partner
+    </header-4-stub>
+  </div>
+  <v2-credit-bar-stub creditusage="[object Object]"></v2-credit-bar-stub>
+  <div class="summary-item-layout__footer">
+    <credit-bonus-hours-stub info="[object Object]"></credit-bonus-hours-stub>
+  </div>
+</div>
+`;
+
+exports[`when team is regular matches snapshot 1`] = `
+<div class="summary-item-layout">
+  <div class="summary-item-layout__header">
+    <header-4-stub>
+      V7
+    </header-4-stub>
+  </div>
+  <v2-credit-bar-stub creditusage="[object Object]"></v2-credit-bar-stub>
+  <div class="summary-item-layout__footer">
+    <credit-bonus-hours-stub info="[object Object]"></credit-bonus-hours-stub>
+  </div>
+</div>
+`;

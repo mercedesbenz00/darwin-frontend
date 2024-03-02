@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when deletable matches snapshot 1`] = `
+<stage-template-stub class="code">
+  <code-round-icon-stub class="code__header__icon"></code-round-icon-stub>
+  <stage-title-stub value="Transform"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <delete-button-stub></delete-button-stub>
+  <div class="code__body">
+    Runs custom logic on results from previous stage, and sends to next stage.
+  </div>
+</stage-template-stub>
+`;
+
+exports[`when not deletable matches snapshot 1`] = `
+<stage-template-stub class="code">
+  <code-round-icon-stub class="code__header__icon"></code-round-icon-stub>
+  <stage-title-stub value="Transform"></stage-title-stub>
+  <move-handler-stub></move-handler-stub>
+  <!---->
+  <div class="code__body">
+    Runs custom logic on results from previous stage, and sends to next stage.
+  </div>
+</stage-template-stub>
+`;

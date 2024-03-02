@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot in RESET mode 1`] = `
+<icon-button-stub variant="default" color="transparent" size="small" flair="soft" tag="button" class="toolbar__button toolbar__button--active" tooltip="{'content':'Bounding Box','placement':'right','delay':{'show':300,'hide':0}}" toolmanager="[object Object]">
+  <active-bbox-icon-stub class="toolbar-button-icon--active"></active-bbox-icon-stub>
+</icon-button-stub>
+`;

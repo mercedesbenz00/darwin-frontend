@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when the url is not set matches snapshots and shows a set url button 1`] = `
+<div class="webhook">
+  <webhook-node-stub scale="1" stage="[object Object]" variant="succeeded" class="webhook__node"></webhook-node-stub>
+  <webhook-node-stub scale="1" stage="[object Object]" variant="failed" class="webhook__node"></webhook-node-stub>
+  <div class="webhook__content">
+    <div class="webhook__content__no-url">
+      <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button" fullwidth="true" class="webhook__content__no-url__button">
+        Set URL
+        <icon-mono-chevron-right-stub class="webhook__content__no-url__button__icon"></icon-mono-chevron-right-stub>
+      </custom-button-stub>
+      <icon-mono-warn-inverted-stub class="webhook__content__no-url__warn has-tooltip" data-original-title="null"></icon-mono-warn-inverted-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when the url is set matches snapshots and shows the recap of the url 1`] = `
+<div class="webhook">
+  <webhook-node-stub scale="1" stage="[object Object]" variant="succeeded" class="webhook__node"></webhook-node-stub>
+  <webhook-node-stub scale="1" stage="[object Object]" variant="failed" class="webhook__node"></webhook-node-stub>
+  <div class="webhook__content">
+    <div class="webhook__content__url">
+      <icon-mono-link-stub class="webhook__content__url__icon"></icon-mono-link-stub> <span class="webhook__content__url__label">
+        https://domain.com
+      </span>
+    </div>
+  </div>
+</div>
+`;

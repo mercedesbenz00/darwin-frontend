@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when not trialing matches snapshot 1`] = ``;
+
+exports[`when trialing matches snapshot 1`] = `
+<div class="trialing">
+  <div class="trialing__title">
+    Free Trial
+  </div>
+  <div class="trialing__subtitle">
+    9 days left
+  </div>
+</div>
+`;

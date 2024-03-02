@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-item-name" tooltip="Copy Filename">
+  <p class="dataset-item-name__label">
+    1.jpg
+  </p>
+</div>
+`;

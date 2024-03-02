@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<popover-stub inputvalue="" placeholder="/enter folder or path">
+  <list-header-stub size="medium" variant="transparent " label="Move Files to ..." disabled=""></list-header-stub>
+  <div class="popover-tree__wrapper">
+    <folder-tree-stub subfolder="[object Object]" treelevel="0"></folder-tree-stub>
+  </div>
+</popover-stub>
+`;

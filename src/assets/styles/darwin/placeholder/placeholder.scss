@@ -1,0 +1,7 @@
+// Mixin to support style for content-editable element Placeholder
+@mixin contenteditable-placeholder {
+  &:empty:before {
+    content: attr(placeholder);
+    @content;
+  }
+}

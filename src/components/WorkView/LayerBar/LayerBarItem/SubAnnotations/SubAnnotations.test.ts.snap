@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="sub-annotations">
+  <attributes-item-stub annotation="[object Object]" annotationclass="[object Object]" data="[object Object]" editor="[object Object]" class="sub-annotations__item"></attributes-item-stub>
+  <directional-vector-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></directional-vector-item-stub>
+  <instance-id-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></instance-id-item-stub>
+  <text-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></text-item-stub>
+</div>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<div class="sub-annotations">
+  <attributes-item-stub annotation="[object Object]" annotationclass="[object Object]" data="[object Object]" editor="[object Object]" readonly="true" class="sub-annotations__item"></attributes-item-stub>
+  <directional-vector-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" readonly="true" class="sub-annotations__item"></directional-vector-item-stub>
+  <instance-id-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" readonly="true" class="sub-annotations__item"></instance-id-item-stub>
+  <text-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" readonly="true" class="sub-annotations__item"></text-item-stub>
+</div>
+`;
+
+exports[`matches snapshot with measures 1`] = `
+<div class="sub-annotations">
+  <attributes-item-stub annotation="[object Object]" annotationclass="[object Object]" data="[object Object]" editor="[object Object]" class="sub-annotations__item"></attributes-item-stub>
+  <directional-vector-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></directional-vector-item-stub>
+  <instance-id-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></instance-id-item-stub>
+  <text-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></text-item-stub>
+  <measures-item-stub annotation="[object Object]" editor="[object Object]" annotation-class="[object Object]" data="" class="sub-annotations__item"></measures-item-stub>
+</div>
+`;
+
+exports[`when not selected when subannotations off matches snapshot 1`] = ``;
+
+exports[`when not selected when subannotations on matches snapshot 1`] = `
+<div class="sub-annotations">
+  <attributes-item-stub annotation="[object Object]" annotationclass="[object Object]" data="[object Object]" editor="[object Object]" class="sub-annotations__item"></attributes-item-stub>
+  <directional-vector-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></directional-vector-item-stub>
+  <instance-id-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></instance-id-item-stub>
+  <text-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></text-item-stub>
+</div>
+`;
+
+exports[`when selected when subannotations off matches snapshot 1`] = `
+<div class="sub-annotations">
+  <attributes-item-stub annotation="[object Object]" annotationclass="[object Object]" data="[object Object]" editor="[object Object]" class="sub-annotations__item"></attributes-item-stub>
+  <directional-vector-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></directional-vector-item-stub>
+  <instance-id-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></instance-id-item-stub>
+  <text-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></text-item-stub>
+</div>
+`;
+
+exports[`when selected when subannotations on matches snapshot 1`] = `
+<div class="sub-annotations">
+  <attributes-item-stub annotation="[object Object]" annotationclass="[object Object]" data="[object Object]" editor="[object Object]" class="sub-annotations__item"></attributes-item-stub>
+  <directional-vector-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></directional-vector-item-stub>
+  <instance-id-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></instance-id-item-stub>
+  <text-item-stub annotation="[object Object]" annotationclass="[object Object]" editor="[object Object]" data="[object Object]" class="sub-annotations__item"></text-item-stub>
+</div>
+`;

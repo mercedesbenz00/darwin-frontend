@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="tracker-offline-modal" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="tracker-offline-modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="30%" height="275" pivotx="0.5" pivoty="0.5">
+  <div class="tracker-offline__content">
+    <div class="tracker-offline__content__icon">
+      <warning-icon-stub class="tracker-offline__content__icon__warning"></warning-icon-stub>
+    </div>
+    <div class="tracker-offline__content__title">
+      Your connection was interrupted
+    </div>
+    <div class="tracker-offline__content__subtitle">
+      We can't reach you. Please refresh to reconnect.
+    </div>
+    <custom-button-stub variant="default" color="primary" size="large" flair="rounded" tag="button" fullwidth="true" class="tracker-offline__content__button"><span class="tracker-offline__content__button__label">
+        Reconnect
+      </span></custom-button-stub>
+  </div>
+</modal-stub>
+`;

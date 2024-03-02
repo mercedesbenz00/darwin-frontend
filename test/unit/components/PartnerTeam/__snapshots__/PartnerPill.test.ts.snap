@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="pill">
+  <div class="pill__text">
+    Partner
+  </div>
+</div>
+`;

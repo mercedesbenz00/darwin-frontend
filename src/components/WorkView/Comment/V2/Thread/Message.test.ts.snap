@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message component should match snapshot 1`] = `
+<section class="message">
+  <!---->
+  <div class="message__content">
+    <h4 class="message__title">
+      <time class="mute">Just now</time>
+    </h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing
+      elit. Accusamus, quis facilis? Quia rem,
+      delectus vitae at molestias aut, deleniti laudantium illum aliquid harum inventore? Rem
+      accusantium nesciunt quam a similique!
+    </p>
+  </div>
+</section>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when usage is limited matches snapshot 1`] = `
+<div class="usage-limiter">
+  <check-box-stub value="true" label="Limit usage" type="rect" size="default" class="usage-limiter__checkbox"></check-box-stub>
+  <input-field-small-stub value="150" type="text" theme="light" class="usage-limiter__input"></input-field-small-stub> <span aria-hidden="true" class="usage-limiter__input-width">150</span>
+  <mini-secondary-light-button-stub>
+    Save
+  </mini-secondary-light-button-stub>
+</div>
+`;
+
+exports[`when usage is limited when disabled matches snapshot 1`] = `
+<div class="usage-limiter">
+  <check-box-stub value="true" disabled="true" label="Limit usage" type="rect" size="default" class="usage-limiter__checkbox"></check-box-stub>
+  <input-field-small-stub value="150" type="text" disabled="true" theme="light" class="usage-limiter__input"></input-field-small-stub> <span aria-hidden="true" class="usage-limiter__input-width">150</span>
+  <mini-secondary-light-button-stub disabled="true">
+    Save
+  </mini-secondary-light-button-stub>
+</div>
+`;
+
+exports[`when usage is not limited matches snapshot 1`] = `
+<div class="usage-limiter">
+  <check-box-stub label="Limit usage" type="rect" size="default" class="usage-limiter__checkbox"></check-box-stub>
+  <input-field-small-stub value="200" type="text" disabled="true" theme="light" class="usage-limiter__input"></input-field-small-stub> <span aria-hidden="true" class="usage-limiter__input-width">200</span>
+  <mini-secondary-light-button-stub disabled="true">
+    Save
+  </mini-secondary-light-button-stub>
+</div>
+`;
+
+exports[`when usage is not limited when disabled matches snapshot 1`] = `
+<div class="usage-limiter">
+  <check-box-stub disabled="true" label="Limit usage" type="rect" size="default" class="usage-limiter__checkbox"></check-box-stub>
+  <input-field-small-stub value="200" type="text" disabled="true" theme="light" class="usage-limiter__input"></input-field-small-stub> <span aria-hidden="true" class="usage-limiter__input-width">200</span>
+  <mini-secondary-light-button-stub disabled="true">
+    Save
+  </mini-secondary-light-button-stub>
+</div>
+`;

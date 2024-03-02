@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with dark, small 1`] = `<logo-small-icon-stub class="logo" style="color: rgb(255, 255, 255);"></logo-small-icon-stub>`;
+
+exports[`matches snapshot with default props 1`] = `<logo-icon-stub class="logo" style="color: rgb(255, 255, 255);"></logo-icon-stub>`;

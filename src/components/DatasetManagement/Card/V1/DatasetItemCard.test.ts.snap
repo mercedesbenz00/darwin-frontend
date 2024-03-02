@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card-stub item-card" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when archived 1`] = `
+<div class="card-stub item-card" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub>
+      Restore
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when error 1`] = `
+<div class="card-stub item-card" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub>
+      Archive
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when uploading 1`] = `
+<div class="card-stub item-card" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <!---->
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`when annotate as video item renders restore button 1`] = `
+<div class="card-stub item-card" priority="0" type="video" thumbnail="">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`when dicom file renders dicom tag 1`] = `
+<div class="card-stub item-card" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`when external image renders external tag 1`] = `
+<div class="card-stub item-card" is-external="true" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`when item has priority renders priority 1`] = `
+<div class="card-stub item-card" priority="1" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`when new video item matches snapshot 1`] = `
+<div class="card-stub item-card" priority="0" type="video-frames" thumbnail="">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;
+
+exports[`when pdf file renders pdf tag 1`] = `
+<div class="card-stub item-card" priority="0" type="image" thumbnail="/thumbnails/foo">
+  <div class="overlay-top-left">
+    <check-box-stub name="card-selected" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="overlay-top-right"><span>100x100</span> <span>10 kB</span></div>
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <dataset-item-name-stub name=""></dataset-item-name-stub>
+    <div><span>01/01/00</span> <span>00-1</span></div>
+    <card-tags-stub tags=""></card-tags-stub>
+  </div>
+</div>
+`;

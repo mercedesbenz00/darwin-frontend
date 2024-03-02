@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when selected more than one classes 1`] = `
+<safe-delete-confirmation-dialog-stub title="Permanently Delete Classes?" buttontext="DELETE CLASS" name="delete-class" showloading="true" targettext="DELETE">
+  <p>
+    <!---->
+    It is not recommended to delete classes which are still actively being used to create annotations. There are no annotations for these classes in any dataset in
+    <strong class="bold-text">Some Team</strong>.
+    To confirm you want to delete the classes, type 'DELETE' below:
+  </p>
+</safe-delete-confirmation-dialog-stub>
+`;
+
+exports[`matches snapshot when selected one class 1`] = `
+<safe-delete-confirmation-dialog-stub title="Permanently Delete Class?" buttontext="DELETE CLASS" name="delete-class" showloading="true" targettext="DELETE">
+  <p>
+    <!---->
+    It is not recommended to delete classes which are still actively being used to create annotations. There are no annotations for this class in any dataset in
+    <strong class="bold-text">Some Team</strong>.
+    To confirm you want to delete it, type 'DELETE' below:
+  </p>
+</safe-delete-confirmation-dialog-stub>
+`;

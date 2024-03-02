@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot unread notifications 1`] = `
+<div>
+  <div
+    class="sidebar__bell"
+  >
+    <icon-duotone-notification-unread-stub
+      class="sidebar__bell__image"
+    />
+  </div>
+   
+  <notification-modal-stub />
+</div>
+`;
+
+exports[`matches snapshot when no unread notifications 1`] = `
+<div>
+  <div
+    class="sidebar__bell"
+  >
+    <icon-duotone-notification-bell-stub
+      class="sidebar__bell__image"
+    />
+  </div>
+   
+  <notification-modal-stub />
+</div>
+`;

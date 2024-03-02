@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when team owner invitations loaded 1`] = `
+<div class="team-owner-invitation-list">
+  <input-field-stub value="" label="Team owner email" placeholder="Create a new invitation" type="text" theme="dark" class="team-owner-invitation-list__input"></input-field-stub>
+  <div class="team-owner-invitation-list__credit-group">
+    <input-field-stub value="20" label="Initial credit amount (hours)" type="text" theme="dark" class="team-owner-invitation-list__credit-amount"></input-field-stub>
+    <input-field-stub value="14" label="Days until credit expiration, counted from team creation date" min="1" max="730" type="number" theme="dark" class="team-owner-invitation-list__credit-expiration"></input-field-stub>
+    <positive-button-stub>
+      Create invitation
+    </positive-button-stub>
+  </div>
+  <v-table-stub columns="id,email,team_id,credit_amount,credit_expiration_in_days" data="[object Object],[object Object]" options="[object Object]" class="team-owner-invitation-list__table"></v-table-stub>
+</div>
+`;
+
+exports[`matches snapshot when user invitation list is empty 1`] = `
+<div class="team-owner-invitation-list">
+  <input-field-stub value="" label="Team owner email" placeholder="Create a new invitation" type="text" theme="dark" class="team-owner-invitation-list__input"></input-field-stub>
+  <div class="team-owner-invitation-list__credit-group">
+    <input-field-stub value="20" label="Initial credit amount (hours)" type="text" theme="dark" class="team-owner-invitation-list__credit-amount"></input-field-stub>
+    <input-field-stub value="14" label="Days until credit expiration, counted from team creation date" min="1" max="730" type="number" theme="dark" class="team-owner-invitation-list__credit-expiration"></input-field-stub>
+    <positive-button-stub>
+      Create invitation
+    </positive-button-stub>
+  </div>
+  <v-table-stub columns="id,email,team_id,credit_amount,credit_expiration_in_days" data="" options="[object Object]" class="team-owner-invitation-list__table"></v-table-stub>
+</div>
+`;

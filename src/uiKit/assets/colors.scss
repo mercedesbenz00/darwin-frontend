@@ -1,0 +1,193 @@
+// colors
+@import "./functions.scss";
+
+$colors: (
+  "rainbow": (
+    "1": (
+      "saturated": "rgba(238,240,241,1.0)",
+      "normal": "rgba(255,73,73,1.0)",
+      "desaturated": "rgba(255,229,229,1.0)",
+    ),
+    "2": (
+      "saturated": "rgba(255,46,0,1.0)",
+      "normal": "rgba(255,106,73,1.0)",
+      "desaturated": "rgba(255,234,229,1.0)",
+    ),
+    "3": (
+      "saturated": "rgba(255,92,0,1.0)",
+      "normal": "rgba(255,128,73,1.0)",
+      "desaturated": "rgba(255,237,229,1.0)",
+    ),
+    "4": (
+      "saturated": "rgba(255,153,0,1.0)",
+      "normal": "rgba(255,182,73,1.0)",
+      "desaturated": "rgba(255,245,229,1.0)",
+    ),
+    "5": (
+      "saturated": "rgba(255,199,0,1.0)",
+      "normal": "rgba(255,215,73,1.0)",
+      "desaturated": "rgba(255,249,229,1.0)",
+    ),
+    "6": (
+      "saturated": "rgba(255,245,0,1.0)",
+      "normal": "rgba(255,237,73,1.0)",
+      "desaturated": "rgba(255,252,229,1.0)",
+    ),
+    "7": (
+      "saturated": "rgba(219,255,0,1.0)",
+      "normal": "rgba(219,255,73,1.0)",
+      "desaturated": "rgba(250,255,229,1.0)",
+    ),
+    "8": (
+      "saturated": "rgba(173,255,0,1.0)",
+      "normal": "rgba(186,255,73,1.0)",
+      "desaturated": "rgba(245,255,229,1.0)",
+    ),
+    "9": (
+      "saturated": "rgba(143,255,0,1.0)",
+      "normal": "rgba(175,255,73,1.0)",
+      "desaturated": "rgba(244,255,229,1.0)",
+    ),
+    "10": (
+      "saturated": "rgba(82,255,0,1.0)",
+      "normal": "rgba(153,255,73,1.0)",
+      "desaturated": "rgba(241,255,229,1.0)",
+    ),
+    "11": (
+      "saturated": "rgba(0,236,123,1.0)",
+      "normal": "rgba(82,255,130,1.0)",
+      "desaturated": "rgba(229,255,237,1.0)",
+    ),
+    "12": (
+      "saturated": "rgba(0,239,196,1.0)",
+      "normal": "rgba(82,255,203,1.0)",
+      "desaturated": "rgba(229,255,247,1.0)",
+    ),
+    "13": (
+      "saturated": "rgba(0,225,239,1.0)",
+      "normal": "rgba(82,245,255,1.0)",
+      "desaturated": "rgba(229,254,255,1.0)",
+    ),
+    "14": (
+      "saturated": "rgba(0,194,255,1.0)",
+      "normal": "rgba(82,203,255,1.0)",
+      "desaturated": "rgba(229,247,255,1.0)",
+    ),
+    "15": (
+      "saturated": "rgba(0,133,255,1.0)",
+      "normal": "rgba(82,151,255,1.0)",
+      "desaturated": "rgba(229,240,255,1.0)",
+    ),
+    "16": (
+      "saturated": "rgba(0,102,255,1.0)",
+      "normal": "rgba(82,130,255,1.0)",
+      "desaturated": "rgba(229,237,255,1.0)",
+    ),
+    "17": (
+      "saturated": "rgba(5,0,255,1.0)",
+      "normal": "rgba(82,89,255,1.0)",
+      "desaturated": "rgba(229,231,255,1.0)",
+    ),
+    "18": (
+      "saturated": "rgba(97,0,255,1.0)",
+      "normal": "rgba(116,82,255,1.0)",
+      "desaturated": "rgba(235,229,255,1.0)",
+    ),
+    "19": (
+      "saturated": "rgba(143,0,255,1.0)",
+      "normal": "rgba(179,82,255,1.0)",
+      "desaturated": "rgba(244,229,255,1.0)",
+    ),
+    "20": (
+      "saturated": "rgba(219,0,255,1.0)",
+      "normal": "rgba(231,82,255,1.0)",
+      "desaturated": "rgba(251,229,255,1.0)",
+    ),
+    "21": (
+      "saturated": "rgba(255,0,214,1.0)",
+      "normal": "rgba(255,82,207,1.0)",
+      "desaturated": "rgba(255,229,248,1.0)",
+    ),
+    "22": (
+      "saturated": "rgba(255,0,122,1.0)",
+      "normal": "rgba(255,82,155,1.0)",
+      "desaturated": "rgba(255,229,240,1.0)",
+    ),
+  ),
+  "content": (
+    "default": #26292c,
+    "disabled": #dee0e3,
+  ),
+  "interactive": (
+    "negative": (
+      "default": #dc1818,
+      "disabled": #f6f7f8,
+      "hover": #b81414,
+      "pressed": #dc1818,
+    ),
+    "outline": (
+      "disabled": #f6f7f8,
+    ),
+    "primary": (
+      "default": #2359fb,
+      "disabled": #f6f7f8,
+      "hover": #0540f0,
+      "pressed": #2359fb,
+    ),
+    "secondary": (
+      "default": #eef0f1,
+      "disabled": #f6f7f8,
+      "hover": #dee0e3,
+      "pressed": #eef0f1,
+    ),
+  ),
+  "neutrals": (
+    "100": #f4f5f5,
+    "white": #ffffff,
+  ),
+  "overlay": (
+    "hover": rgba(28, 30, 33, 0.04),
+  ),
+  "stroke": (
+    "blue": #2359fb,
+    "default": #f4f5f6,
+    "elevate": #eef0f1,
+    "emphasis": #000000,
+    "halo": rgba(35, 89, 251, 0.2),
+    "negative": #dc1818,
+    "positive": #dc1818,
+    "raise": #e9ebec,
+    "strong": #dee0e3,
+    "warning": #f5b800,
+  ),
+  "surface": (
+    "darken": rgba(0, 0, 0, 0.08),
+    "default": #ffffff,
+    "elevate": #f4f5f6,
+  ),
+);
+
+/*
+  @Definition
+    @function get-color($group, $primaryKey, $secondaryKey: null, $tertiaryryKey: null);
+
+    $name: color name - rainbow, content, interactive, neutrals, overlay, stroke, surface
+    $keys: arglist used to traverse the map
+
+  @Example
+    get-color(content, default); // #26292c
+    get-color(interactive, primary, default); // #2359fb
+    get-color(rainbow, 01, "saturated"); // $ff0000
+*/
+@function get-color($name, $keys...) {
+  @if map-has-key($colors, $name) {
+    @return map-deep-get(map-get($colors, $name), $name, $keys...);
+  } @else {
+    $keys: map-keys($colors);
+    $available: null;
+    @each $key in $keys {
+      $available: "#{$available}|#{$key}";
+    }
+    @error ('color group '#{$name}' does not exist (use one from '#{$available}')');
+  }
+}

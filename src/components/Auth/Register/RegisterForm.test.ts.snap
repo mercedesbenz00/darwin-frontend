@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<form class="register-form">
+  <avatar-upload-stub name="" canupload="true" class="register-form__avatar"></avatar-upload-stub>
+  <div class="register-form__input-container">
+    <div class="register-form__first__name">
+      <input-field-stub value="" label="First Name" autocomplete="first_name" required="required" type="text" theme="light"></input-field-stub>
+    </div>
+    <div class="register-form__last__name">
+      <input-field-stub value="" label="Last Name" autocomplete="last_name" required="required" type="text" theme="light"></input-field-stub>
+    </div>
+  </div>
+  <div class="register-form__input-container">
+    <div class="register-form__email">
+      <input-field-stub value="test@v7labs.com" label="Email" autocomplete="email" required="required" type="email" disabled="true" theme="light"></input-field-stub>
+    </div>
+  </div>
+  <div class="register-form__input-container">
+    <div class="register-form__password">
+      <password-input-stub value="" autocomplete="new-password"></password-input-stub>
+    </div>
+  </div>
+  <div class="register-form__agreement">
+    <check-box-stub name="agreedToTos" id="agreedToTos" label="I accept the <a href=&quot;https://www.v7labs.com/terms&quot; class='terms-link' target='_blank'>Terms and Conditions</a>&amp;nbsp;and<a href='https://www.v7labs.com/terms/dps'class='terms-link' target='_blank'>Privacy Statement</a>" type="rect" size="small" disable-label-click=""></check-box-stub>
+  </div>
+  <div class="register-form__actions">
+    <google-auth-button-stub isregister="true" isdisabled="true" token="token"></google-auth-button-stub>
+    <primary-button-stub type="submit" disabled="true" class="register__form__submit">
+      Sign up
+    </primary-button-stub>
+  </div>
+</form>
+`;

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default props, other user's comment matches snapshot 1`] = `
+<div class="comment-item">
+  <div class="comment-item__header">
+    <comment-profile-stub author="[object Object]" comment="[object Object]" class="comment-item__profile"></comment-profile-stub>
+    <div class="comment-item__datetime">
+      Invalid date
+    </div>
+    <div class="v-popover-stub" trigger="manual" placement="right" popover-class="comment-item__overlay ">
+      <div class="main">
+        <div class="comment-item__more"></div>
+      </div>
+      <div class="popover"><button disabled="disabled" class="comment-item__overlay__item comment-item__overlay__item--edit-comment">
+          Edit Comment
+        </button> <button disabled="disabled" class="comment-item__overlay__item comment-item__overlay__item--delete-comment">
+          Delete Comment
+        </button>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+  <div class="comment-item__body">
+    <div class="comment-item__non-edit"></div>
+    <div class="comment-item__edit">
+      <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="comment-item__edit-textarea"></comment-edit-box-stub>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`default props, own comment matches snapshot 1`] = `
+<div class="comment-item">
+  <div class="comment-item__header">
+    <comment-profile-stub author="[object Object]" comment="[object Object]" class="comment-item__profile"></comment-profile-stub>
+    <div class="comment-item__datetime">
+      Invalid date
+    </div>
+    <div class="v-popover-stub" trigger="manual" placement="right" popover-class="comment-item__overlay ">
+      <div class="main">
+        <div class="comment-item__more"></div>
+      </div>
+      <div class="popover"><button class="comment-item__overlay__item comment-item__overlay__item--edit-comment">
+          Edit Comment
+        </button> <button class="comment-item__overlay__item comment-item__overlay__item--delete-comment">
+          Delete Comment
+        </button>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+  <div class="comment-item__body">
+    <div class="comment-item__non-edit"></div>
+    <div class="comment-item__edit">
+      <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="comment-item__edit-textarea"></comment-edit-box-stub>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`default props, own comment when new comment matches snapshot 1`] = `
+<div class="comment-item">
+  <div class="comment-item__header">
+    <comment-profile-stub author="[object Object]" comment="[object Object]" class="comment-item__profile"></comment-profile-stub>
+    <div class="comment-item__datetime">
+      Invalid date
+    </div>
+    <div class="v-popover-stub" trigger="manual" placement="right" popover-class="comment-item__overlay ">
+      <div class="main">
+        <div class="comment-item__more"></div>
+      </div>
+      <div class="popover"><button class="comment-item__overlay__item comment-item__overlay__item--edit-comment">
+          Edit Comment
+        </button> <button class="comment-item__overlay__item comment-item__overlay__item--delete-comment">
+          Delete Comment
+        </button>
+        <!---->
+      </div>
+    </div>
+    <!---->
+  </div>
+  <div class="comment-item__body comment-item__body--editing">
+    <div class="comment-item__non-edit"></div>
+    <div class="comment-item__edit">
+      <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" focus="true" class="comment-item__edit-textarea"></comment-edit-box-stub>
+      <div class="comment-item__edit__new-actions">
+        <secondary-button-stub size="small">
+          Cancel
+        </secondary-button-stub>
+        <positive-button-stub disabled="true" size="small">
+          Save
+        </positive-button-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when resolvable matches snapshot 1`] = `
+<div class="comment-item">
+  <div class="comment-item__header">
+    <comment-profile-stub author="[object Object]" comment="[object Object]" class="comment-item__profile"></comment-profile-stub>
+    <div class="comment-item__datetime">
+      Invalid date
+    </div>
+    <div class="v-popover-stub" trigger="manual" placement="right" popover-class="comment-item__overlay comment-item__overlay--resolve">
+      <div class="main">
+        <div class="comment-item__more"></div>
+      </div>
+      <div class="popover"><button disabled="disabled" class="comment-item__overlay__item comment-item__overlay__item--edit-comment">
+          Edit Comment
+        </button> <button disabled="disabled" class="comment-item__overlay__item comment-item__overlay__item--delete-comment">
+          Delete Comment
+        </button>
+        <!---->
+      </div>
+    </div>
+    <div class="comment-item__resolve" tooltip="{'placement':'top','content':'Resolve'}"><img src="/static/imgs/resolve-gray-icon.svg"></div>
+  </div>
+  <div class="comment-item__body">
+    <div class="comment-item__non-edit"></div>
+    <div class="comment-item__edit">
+      <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="comment-item__edit-textarea"></comment-edit-box-stub>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when thread deletable matches snapshot 1`] = `
+<div class="comment-item">
+  <div class="comment-item__header">
+    <comment-profile-stub author="[object Object]" comment="[object Object]" class="comment-item__profile"></comment-profile-stub>
+    <div class="comment-item__datetime">
+      Invalid date
+    </div>
+    <div class="v-popover-stub" trigger="manual" placement="right" popover-class="comment-item__overlay ">
+      <div class="main">
+        <div class="comment-item__more"></div>
+      </div>
+      <div class="popover"><button disabled="disabled" class="comment-item__overlay__item comment-item__overlay__item--edit-comment">
+          Edit Comment
+        </button> <button disabled="disabled" class="comment-item__overlay__item comment-item__overlay__item--delete-comment">
+          Delete Comment
+        </button> <button class="comment-item__overlay__item comment-item__overlay__item--delete-thread">
+          Delete Thread
+        </button></div>
+    </div>
+    <!---->
+  </div>
+  <div class="comment-item__body">
+    <div class="comment-item__non-edit"></div>
+    <div class="comment-item__edit">
+      <comment-edit-box-stub value="" placeholder="Reply" minheight="15" maxheight="350" class="comment-item__edit-textarea"></comment-edit-box-stub>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

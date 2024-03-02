@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<div class="item-count"><span tooltip="{'placement':'top','content':'The number of files currently in this stage','trigger':'hover','delay':{'show':300,'hide':300}}">0</span></div>`;

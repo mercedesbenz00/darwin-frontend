@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when given text and hover text matches snapshot 1`] = `
+<custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="button" class="model-button model-button--with-hover">
+  <div class="model-button__text">
+    some status
+  </div>
+  <div class="model-button__text model-button__text--hover">
+    do something
+  </div>
+</custom-button-stub>
+`;
+
+exports[`when given text and time matches snapshot 1`] = `
+<custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="button" class="model-button" time="43 minutes ago">
+  <div class="model-button__text">
+    some status
+  </div>
+  <!---->
+</custom-button-stub>
+`;
+
+exports[`when given text matches snapshot 1`] = `
+<custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="button" class="model-button">
+  <div class="model-button__text">
+    some status
+  </div>
+  <!---->
+</custom-button-stub>
+`;
+
+exports[`when given text, hover text and time matches snapshot 1`] = `
+<custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="button" class="model-button model-button--with-hover" time="2 days ago">
+  <div class="model-button__text">
+    some status
+  </div>
+  <div class="model-button__text model-button__text--hover">
+    do something
+  </div>
+</custom-button-stub>
+`;

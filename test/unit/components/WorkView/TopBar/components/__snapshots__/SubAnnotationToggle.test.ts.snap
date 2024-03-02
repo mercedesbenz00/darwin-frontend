@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot depending on state of rendering subannotations 1`] = `
+<div class="toggle-button-stub top-bar__toggle-sub-annotations top-bar__toggle-sub-annotations--on" on="true"><button class="toggle-button">
+    <icon-mono-centroid-stub></icon-mono-centroid-stub>
+  </button>
+  <div class="popover"><b class="top-bar__toggle-sub-annotations__tooltip">
+      Toggle Sub Annotations <span class="tooltip__hotkey">SHIFT+H</span></b></div>
+</div>
+`;
+
+exports[`matches snapshot depending on state of rendering subannotations 2`] = `
+<div class="toggle-button-stub top-bar__toggle-sub-annotations"><button class="toggle-button">
+    <icon-mono-centroid-stub></icon-mono-centroid-stub>
+  </button>
+  <div class="popover"><b class="top-bar__toggle-sub-annotations__tooltip">
+      Toggle Sub Annotations <span class="tooltip__hotkey">SHIFT+H</span></b></div>
+</div>
+`;

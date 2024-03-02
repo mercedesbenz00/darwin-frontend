@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Instance Segmentation",
+    "id": "instance_segmentation",
+    "description": "Detects and segments objects that are annotated with either polygons or masks. Like an object detector, it can find individual instances of an object, which is useful for counting. Like a segmentation network, it defines their contour.",
+    "characteristics": [
+      "Computationally Expensive",
+      "Good at counting",
+      "Good with many classes",
+      "Bad with continuous objects (sky, road, grass)",
+      "Good with discrete objects (person, cell, fracture)",
+      "Slower"
+    ],
+    "icon": "https://darwin-public.s3-eu-west-1.amazonaws.com/playground/class_icons/polygon_segmentation.svg",
+    "hero_video": "https://darwin-public.s3-eu-west-1.amazonaws.com/splash_page/instance_seg_hero_compressed_600kb.mp4",
+    "annotation_types": [
+      "polygon"
+    ]
+  },
+  {
+    "id": "object_detection",
+    "name": "Object Detection",
+    "description": "Detects objects that are annotated with either polygons, masks, or bounding boxes. This network will output a bounding box around each object it finds. It will not segment them, but is faster than an instance segmentation network.",
+    "characteristics": [
+      "Medium computational expense",
+      "Good at counting",
+      "Good with many classes",
+      "Bad with continuous objects (sky, road, grass)",
+      "Good with discrete objects (person, cell, fracture)",
+      "Fast"
+    ],
+    "icon": "https://darwin-public.s3-eu-west-1.amazonaws.com/playground/class_icons/bounding_boxes.svg",
+    "hero_video": "https://darwin-public.s3-eu-west-1.amazonaws.com/splash_page/actions_website_small.mp4",
+    "annotation_types": [
+      "polygon",
+      "bounding_box"
+    ]
+  },
+  {
+    "id": "classification",
+    "name": "Classification",
+    "description": "Predicts an image tag. Classification networks are slim, light, and quick to annotate for. Whilst they won't count objects or detect them in space, they become reliable with less training data and support many classes (tags).",
+    "characteristics": [
+      "Computationally inexpensive",
+      "Good with many classes",
+      "Good with generic or abstract image characteristics (daytime, x-ray, blurry, source 21)",
+      "Outputs one tag, not multiple object labels.",
+      "Does not detect objects in space, only that they are likely to be present.",
+      "Very fast"
+    ],
+    "icon": "https://darwin-public.s3-eu-west-1.amazonaws.com/playground/class_icons/tags.svg",
+    "hero_video": "https://darwin-public.s3-eu-west-1.amazonaws.com/splash_page/custom_website_small.mp4",
+    "annotation_types": [
+      "tag"
+    ]
+  }
+]

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fully started running session matches snapshot 1`] = `
+<div class="session">
+  <!---->
+  <bread-crumbs-stub class="session__navigation"></bread-crumbs-stub>
+  <div class="session__header">
+    <h1>a model</h1>
+    <update-button-stub runningsession="[object Object]"></update-button-stub>
+  </div>
+  <div class="session__inference">
+    <model-inference-stub runningsession="[object Object]"></model-inference-stub>
+  </div>
+  <model-stats-stub></model-stats-stub>
+  <!---->
+  <!---->
+  <div class="session__stats">
+    <div class="session__stats__header">
+      <h1>Usage Metrics</h1>
+    </div>
+    <deployment-stats-stub runningsession="[object Object]" data-range="total"></deployment-stats-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="session__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <update-settings-stub class="session__updater"></update-settings-stub>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`public running session matches snapshot 1`] = `
+<div class="session">
+  <!---->
+  <bread-crumbs-stub class="session__navigation"></bread-crumbs-stub>
+  <div class="session__header">
+    <h1>a model</h1>
+    <public-running-session-button-stub runningsession="[object Object]"></public-running-session-button-stub>
+  </div>
+  <div class="session__inference">
+    <model-inference-stub runningsession="[object Object]"></model-inference-stub>
+  </div>
+  <model-stats-stub></model-stats-stub>
+  <!---->
+  <!---->
+  <div class="session__stats">
+    <div class="session__stats__header">
+      <h1>Usage Metrics</h1>
+    </div>
+    <deployment-stats-stub runningsession="[object Object]" data-range="total"></deployment-stats-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="session__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <update-settings-stub class="session__updater"></update-settings-stub>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`running session in the process of starting matches snapshot 1`] = `
+<div class="session">
+  <!---->
+  <bread-crumbs-stub class="session__navigation"></bread-crumbs-stub>
+  <div class="session__header">
+    <h1>a model</h1>
+    <update-button-stub runningsession="[object Object]"></update-button-stub>
+  </div>
+  <div class="session__inference">
+    <p class="session__section">
+      This model has not been started
+    </p>
+  </div>
+  <model-stats-stub></model-stats-stub>
+  <!---->
+  <!---->
+  <div class="session__stats">
+    <div class="session__stats__header">
+      <h1>Usage Metrics</h1>
+    </div>
+    <deployment-stats-stub runningsession="[object Object]" data-range="total"></deployment-stats-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="session__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <update-settings-stub class="session__updater"></update-settings-stub>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`running session in the process of starting matches snapshot when trained model exists in the store 1`] = `
+<div class="session">
+  <!---->
+  <bread-crumbs-stub class="session__navigation"></bread-crumbs-stub>
+  <div class="session__header">
+    <h1>a model</h1>
+    <update-button-stub runningsession="[object Object]"></update-button-stub>
+  </div>
+  <div class="session__inference">
+    <p class="session__section">
+      This model has not been started
+    </p>
+  </div>
+  <model-stats-stub trainedmodel="[object Object]"></model-stats-stub>
+  <!---->
+  <!---->
+  <div class="session__stats">
+    <div class="session__stats__header">
+      <h1>Usage Metrics</h1>
+    </div>
+    <deployment-stats-stub runningsession="[object Object]" data-range="total"></deployment-stats-stub>
+    <!---->
+    <!---->
+  </div>
+  <div class="session__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <update-settings-stub class="session__updater"></update-settings-stub>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;
+
+exports[`with training session matches snapshot 1`] = `
+<div class="session">
+  <metric-loader-stub trainingsession="[object Object]"></metric-loader-stub>
+  <bread-crumbs-stub class="session__navigation"></bread-crumbs-stub>
+  <div class="session__header">
+    <h1>Object Detection Model</h1>
+    <update-button-stub runningsession="[object Object]"></update-button-stub>
+  </div>
+  <div class="session__inference">
+    <p class="session__section">
+      This model has not been started
+    </p>
+  </div>
+  <model-stats-stub></model-stats-stub>
+  <!---->
+  <!---->
+  <div class="session__stats">
+    <div class="session__stats__header">
+      <h1>Usage Metrics</h1>
+    </div>
+    <deployment-stats-stub runningsession="[object Object]" data-range="total"></deployment-stats-stub>
+    <div class="session__stats__header">
+      <h1>Training Metrics</h1>
+    </div>
+    <div class="session__charts">
+      <loss-chart-stub trainingsession="[object Object]"></loss-chart-stub>
+    </div>
+  </div>
+  <div class="session__api">
+    <api-key-management-stub model="[object Object]"></api-key-management-stub>
+  </div>
+  <update-settings-stub class="session__updater"></update-settings-stub>
+  <model-channel-subscriber-stub></model-channel-subscriber-stub>
+</div>
+`;

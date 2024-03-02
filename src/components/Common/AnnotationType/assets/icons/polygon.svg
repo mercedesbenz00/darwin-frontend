@@ -1,0 +1,22 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 6L6 8L4.5 9L5.5 12.5L7 13.5L8 15L12.5 15L13.5 13.5L15 13L16 10L15 8.5L15.5 7L12.5 4.5L10.5 5L9 4L6 6Z"
+    fill="var(--second-color)" />
+  <rect x="4" y="13" width="4" height="4" rx="2" fill="var(--second-color)" stroke="var(--first-color)"
+    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="13" y="13" width="4" height="4" rx="2" fill="var(--second-color)" stroke="var(--first-color)"
+    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="2" y="5" width="4" height="4" rx="2" fill="var(--second-color)" stroke="var(--first-color)"
+    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="9" y="1" width="4" height="4" rx="2" fill="var(--second-color)" stroke="var(--first-color)"
+    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="15" y="6" width="4" height="4" rx="2" fill="var(--second-color)" stroke="var(--first-color)"
+    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M12.5 15H8" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round" />
+  <path d="M16.5 10L15.5 13" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="square"
+    stroke-linejoin="round" />
+  <path d="M5.5 13L4.5 9" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="square"
+    stroke-linejoin="round" />
+  <path d="M6 5.5L9 4" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round" />
+  <path d="M12.5 4.5L15 6.5" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="square"
+    stroke-linejoin="round" />
+</svg>

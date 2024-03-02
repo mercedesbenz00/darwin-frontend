@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for item with workflow: selected 1`] = `
+<router-link-stub replace="" to="[object Object]" class="workflow-image">
+  <workview-image-stub filename="" thumbnail="/thumbnails/foo" previous-tooltip="Previous image (<)" next-tooltip="Next image (>)" selected="true">
+    <div class="workflow-image__status">
+      <stage-instance-with-timer-stub instance="[object Object]"></stage-instance-with-timer-stub>
+    </div>
+  </workview-image-stub>
+</router-link-stub>
+`;
+
+exports[`matches snapshot for item with workflow: unselected 1`] = `
+<router-link-stub replace="" to="[object Object]" class="workflow-image">
+  <workview-image-stub filename="" thumbnail="/thumbnails/foo" previous-tooltip="Previous image (<)" next-tooltip="Next image (>)">
+    <div class="workflow-image__status">
+      <stage-instance-with-timer-stub instance="[object Object]"></stage-instance-with-timer-stub>
+    </div>
+  </workview-image-stub>
+</router-link-stub>
+`;
+
+exports[`matches snapshot for item without workflow: selected 1`] = `
+<router-link-stub replace="" to="[object Object]" class="workflow-image">
+  <workview-image-stub filename="" thumbnail="/thumbnails/foo" previous-tooltip="Previous image (<)" next-tooltip="Next image (>)" selected="true">
+    <status-button-stub type="new" variant="inverted" size="xs" class="workflow-image__status"></status-button-stub>
+  </workview-image-stub>
+</router-link-stub>
+`;
+
+exports[`matches snapshot for item without workflow: unselected 1`] = `
+<router-link-stub replace="" to="[object Object]" class="workflow-image">
+  <workview-image-stub filename="" thumbnail="/thumbnails/foo" previous-tooltip="Previous image (<)" next-tooltip="Next image (>)">
+    <status-button-stub type="new" variant="inverted" size="xs" class="workflow-image__status"></status-button-stub>
+  </workview-image-stub>
+</router-link-stub>
+`;
+
+exports[`matches snapshot for video item: selected 1`] = `
+<router-link-stub replace="" to="[object Object]" class="workflow-image">
+  <workview-image-stub filename="" thumbnail="/thumbnails/foo" isvideo="true" previous-tooltip="Previous image (<)" next-tooltip="Next image (>)" selected="true">
+    <status-button-stub type="new" variant="inverted" size="xs" class="workflow-image__status"></status-button-stub>
+  </workview-image-stub>
+</router-link-stub>
+`;
+
+exports[`matches snapshot for video item: unselected 1`] = `
+<router-link-stub replace="" to="[object Object]" class="workflow-image">
+  <workview-image-stub filename="" thumbnail="/thumbnails/foo" isvideo="true" previous-tooltip="Previous image (<)" next-tooltip="Next image (>)">
+    <status-button-stub type="new" variant="inverted" size="xs" class="workflow-image__status"></status-button-stub>
+  </workview-image-stub>
+</router-link-stub>
+`;

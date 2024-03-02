@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<model-stat-stub name="IoU">
+  <io-u-hero-stub></io-u-hero-stub>
+  <p><strong class="bold">Intersection over Union</strong>
+    (IoU) is measured as the area of overlap between your model’s prediction and the ground
+    truth, divided by their union. IoU gives an idea of how much of the total area of an
+    object do your predictions tend to cover. Two perfectly overlapping annotations have an
+    IoU of 1.00.
+  </p>
+</model-stat-stub>
+`;

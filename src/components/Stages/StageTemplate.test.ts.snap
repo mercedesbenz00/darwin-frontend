@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StageCanvasTemplate should match snapshot 1`] = `
+<div class="stage" style="--highlightColor: hsla(225, 64%, 56%, 1);">
+  <div class="stage__head">
+    <stageedge-stub scale="1" stageid="fake-stage-id" name="default" edgetype="in" type="annotate" class="stage__head__edge"></stageedge-stub>
+    <div class="stage__head__content">
+      <div class="stage__head__content__icon"></div>
+      <h3 class="stage__head__content__title">
+        Annotate
+      </h3>
+      <itemcount-stub stageid="fake-stage-id"></itemcount-stub>
+    </div>
+    <stageedge-stub scale="1" stageid="fake-stage-id" name="default" edgetype="out" type="annotate" class="stage__head__edge"></stageedge-stub>
+  </div>
+  <!---->
+</div>
+`;

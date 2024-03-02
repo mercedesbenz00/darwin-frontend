@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card-status_labels">
+  <div class="card-status__cells">
+    <card-tag-item-stub data="[object Object]" class="card-status__item"></card-tag-item-stub>
+    <card-tag-item-stub data="[object Object]" class="card-status__item"></card-tag-item-stub>
+    <card-tag-item-stub data="[object Object]" class="card-status__item"></card-tag-item-stub>
+    <card-tag-item-stub data="[object Object]" class="card-status__item"></card-tag-item-stub>
+    <div class="card-status__overlay"><span class="card-status__overlay-text">test1</span><span class="card-status__overlay-text">test2</span><span class="card-status__overlay-text">longlonglonglonglongtest3</span><span class="card-status__overlay-text">longlonglonglonglongtest3</span></div>
+  </div>
+  <div class="v-popover-stub" popover-class="popover--card-tags" trigger="hover">
+    <div class="main">
+      <div class="card-status__label-more">
+        ...
+      </div>
+    </div>
+    <div class="popover">
+      <div class="card-tags-popover">
+        <card-tag-item-stub data="[object Object]"></card-tag-item-stub>
+        <card-tag-item-stub data="[object Object]"></card-tag-item-stub>
+        <card-tag-item-stub data="[object Object]"></card-tag-item-stub>
+        <card-tag-item-stub data="[object Object]"></card-tag-item-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with no tags 1`] = `
+<div class="card-status_labels">
+  <div class="card-status__cells">
+    <div class="card-status__overlay"></div>
+  </div>
+  <!---->
+</div>
+`;

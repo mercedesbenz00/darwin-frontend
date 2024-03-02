@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`0% confidence matches snapshot 1`] = `
+<div class="confidence-score has-tooltip" style="color: rgb(186, 59, 59);" data-original-title="null">
+  0%
+</div>
+`;
+
+exports[`50% confidence matches snapshot 1`] = `
+<div class="confidence-score has-tooltip" style="color: rgb(186, 59, 59);" data-original-title="null">
+  50%
+</div>
+`;
+
+exports[`50% confidence matches snapshot 2`] = `
+<div class="confidence-score has-tooltip" style="color: rgb(59, 59, 59);" data-original-title="null">
+  75%
+</div>
+`;
+
+exports[`100% confidence matches snapshot 1`] = `
+<div class="confidence-score has-tooltip" style="color: rgb(59, 59, 59);" data-original-title="null">
+  100%
+</div>
+`;

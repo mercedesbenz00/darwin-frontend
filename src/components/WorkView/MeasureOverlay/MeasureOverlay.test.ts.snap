@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot in HOR mode 1`] = `
+<div class="measures-overlay">
+  <div class="measures-overlay__data" style="color: rgba(0, 0, 0, 0.1); left: 10px; top: 10px; transform: translateX(-50%);">
+    100 cm
+  </div>
+</div>
+`;
+
+exports[`matches snapshot in VER mode 1`] = `
+<div class="measures-overlay">
+  <div class="measures-overlay__data" style="color: rgba(0, 0, 0, 0.1); left: 10px; top: 10px; transform: translateY(-50%);">
+    100 cm
+  </div>
+</div>
+`;

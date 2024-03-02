@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when admin matches snapshot 1`] = `
+<modal-stub name="settings" delay="0" overlaytransition="overlay-fade" classes="modal_class-settings" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="80%" height="90%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="settings__sidebar">
+    <div class="settings__sidebar__section-title">
+      You
+    </div>
+    <settings-tab-stub title="John Doe" active="true" class="settings__sidebar__item">
+      <avatar-stub name="John Doe" id="5" size="24"></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Notifications" class="settings__sidebar__item">
+      <lightbulb-icon-stub></lightbulb-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__divider"></div>
+    <div class="settings__sidebar__section-title">
+      Team
+    </div>
+    <settings-tab-stub title="Some Team" class="settings__sidebar__item">
+      <avatar-stub name="Some Team" size="24" url=""></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Members" class="settings__sidebar__item">
+      <peoples-icon-stub></peoples-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Plans" class="settings__sidebar__item">
+      <dollar-icon-stub></dollar-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Storage" class="settings__sidebar__item">
+      <storage-icon-stub class="settings__sidebar__item__img"></storage-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="API Keys" class="settings__sidebar__item">
+      <key-icon-stub></key-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Performance" class="settings__sidebar__item">
+      <gauge-icon-stub></gauge-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__spacer"></div>
+    <settings-tab-stub title="Log Out" class="settings__sidebar__item">
+      <logout-icon-stub></logout-icon-stub>
+    </settings-tab-stub>
+  </div>
+  <div class="settings__content">
+    <profile-stub></profile-stub>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+  </div>
+</modal-stub>
+`;
+
+exports[`when annotator matches snapshot 1`] = `
+<modal-stub name="settings" delay="0" overlaytransition="overlay-fade" classes="modal_class-settings" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="80%" height="90%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="settings__sidebar">
+    <div class="settings__sidebar__section-title">
+      You
+    </div>
+    <settings-tab-stub title="John Doe" active="true" class="settings__sidebar__item">
+      <avatar-stub name="John Doe" id="5" size="24"></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Notifications" class="settings__sidebar__item">
+      <lightbulb-icon-stub></lightbulb-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__divider"></div>
+    <div class="settings__sidebar__section-title">
+      Team
+    </div>
+    <settings-tab-stub title="Some Team" class="settings__sidebar__item">
+      <avatar-stub name="Some Team" size="24" url=""></avatar-stub>
+    </settings-tab-stub>
+    <!---->
+    <!---->
+    <settings-tab-stub title="Storage" class="settings__sidebar__item">
+      <storage-icon-stub class="settings__sidebar__item__img"></storage-icon-stub>
+    </settings-tab-stub>
+    <!---->
+    <settings-tab-stub title="Performance" class="settings__sidebar__item">
+      <gauge-icon-stub></gauge-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__spacer"></div>
+    <settings-tab-stub title="Log Out" class="settings__sidebar__item">
+      <logout-icon-stub></logout-icon-stub>
+    </settings-tab-stub>
+  </div>
+  <div class="settings__content">
+    <profile-stub></profile-stub>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+  </div>
+</modal-stub>
+`;
+
+exports[`when member matches snapshot 1`] = `
+<modal-stub name="settings" delay="0" overlaytransition="overlay-fade" classes="modal_class-settings" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="80%" height="90%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="settings__sidebar">
+    <div class="settings__sidebar__section-title">
+      You
+    </div>
+    <settings-tab-stub title="John Doe" active="true" class="settings__sidebar__item">
+      <avatar-stub name="John Doe" id="5" size="24"></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Notifications" class="settings__sidebar__item">
+      <lightbulb-icon-stub></lightbulb-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__divider"></div>
+    <div class="settings__sidebar__section-title">
+      Team
+    </div>
+    <settings-tab-stub title="Some Team" class="settings__sidebar__item">
+      <avatar-stub name="Some Team" size="24" url=""></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Members" class="settings__sidebar__item">
+      <peoples-icon-stub></peoples-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Plans" class="settings__sidebar__item">
+      <dollar-icon-stub></dollar-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Storage" class="settings__sidebar__item">
+      <storage-icon-stub class="settings__sidebar__item__img"></storage-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="API Keys" class="settings__sidebar__item">
+      <key-icon-stub></key-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Performance" class="settings__sidebar__item">
+      <gauge-icon-stub></gauge-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__spacer"></div>
+    <settings-tab-stub title="Log Out" class="settings__sidebar__item">
+      <logout-icon-stub></logout-icon-stub>
+    </settings-tab-stub>
+  </div>
+  <div class="settings__content">
+    <profile-stub></profile-stub>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+  </div>
+</modal-stub>
+`;
+
+exports[`when owner matches snapshot 1`] = `
+<modal-stub name="settings" delay="0" overlaytransition="overlay-fade" classes="modal_class-settings" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="80%" height="90%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="settings__sidebar">
+    <div class="settings__sidebar__section-title">
+      You
+    </div>
+    <settings-tab-stub title="John Doe" active="true" class="settings__sidebar__item">
+      <avatar-stub name="John Doe" id="5" size="24"></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Notifications" class="settings__sidebar__item">
+      <lightbulb-icon-stub></lightbulb-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__divider"></div>
+    <div class="settings__sidebar__section-title">
+      Team
+    </div>
+    <settings-tab-stub title="Some Team" class="settings__sidebar__item">
+      <avatar-stub name="Some Team" size="24" url=""></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Members" class="settings__sidebar__item">
+      <peoples-icon-stub></peoples-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Plans" class="settings__sidebar__item">
+      <dollar-icon-stub></dollar-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Storage" class="settings__sidebar__item">
+      <storage-icon-stub class="settings__sidebar__item__img"></storage-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="API Keys" class="settings__sidebar__item">
+      <key-icon-stub></key-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Performance" class="settings__sidebar__item">
+      <gauge-icon-stub></gauge-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__spacer"></div>
+    <settings-tab-stub title="Log Out" class="settings__sidebar__item">
+      <logout-icon-stub></logout-icon-stub>
+    </settings-tab-stub>
+  </div>
+  <div class="settings__content">
+    <profile-stub></profile-stub>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+  </div>
+</modal-stub>
+`;
+
+exports[`when workforce manager matches snapshot 1`] = `
+<modal-stub name="settings" delay="0" overlaytransition="overlay-fade" classes="modal_class-settings" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="80%" height="90%" pivotx="0.5" pivoty="0.5" translate="pop-out">
+  <div class="settings__sidebar">
+    <div class="settings__sidebar__section-title">
+      You
+    </div>
+    <settings-tab-stub title="John Doe" active="true" class="settings__sidebar__item">
+      <avatar-stub name="John Doe" id="5" size="24"></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Notifications" class="settings__sidebar__item">
+      <lightbulb-icon-stub></lightbulb-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__divider"></div>
+    <div class="settings__sidebar__section-title">
+      Team
+    </div>
+    <settings-tab-stub title="Some Team" class="settings__sidebar__item">
+      <avatar-stub name="Some Team" size="24" url=""></avatar-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Members" class="settings__sidebar__item">
+      <peoples-icon-stub></peoples-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Plans" class="settings__sidebar__item">
+      <dollar-icon-stub></dollar-icon-stub>
+    </settings-tab-stub>
+    <settings-tab-stub title="Storage" class="settings__sidebar__item">
+      <storage-icon-stub class="settings__sidebar__item__img"></storage-icon-stub>
+    </settings-tab-stub>
+    <!---->
+    <settings-tab-stub title="Performance" class="settings__sidebar__item">
+      <gauge-icon-stub></gauge-icon-stub>
+    </settings-tab-stub>
+    <div class="settings__sidebar__spacer"></div>
+    <settings-tab-stub title="Log Out" class="settings__sidebar__item">
+      <logout-icon-stub></logout-icon-stub>
+    </settings-tab-stub>
+  </div>
+  <div class="settings__content">
+    <profile-stub></profile-stub>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+  </div>
+</modal-stub>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="open-main__container">
+  <router-view-stub dataset="[object Object]"></router-view-stub>
+</div>
+`;
+
+exports[`when classes not loaded matches snapshot 1`] = `
+<div class="open-main__container">
+  <!---->
+</div>
+`;
+
+exports[`when dataset details not loaded matches snapshot 1`] = `
+<div class="open-main__container">
+  <!---->
+</div>
+`;
+
+exports[`when dataset not loaded matches snapshot 1`] = `
+<div class="open-main__container">
+  <!---->
+</div>
+`;
+
+exports[`when types not loaded matches snapshot 1`] = `
+<div class="open-main__container">
+  <!---->
+</div>
+`;

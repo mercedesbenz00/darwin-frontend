@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when a skipped reason is passed matches snapshot 1`] = `
+<div class="discard" tooltip="{'content':'Update discarding of image','delay':{'show':300,'hide':300}}"><button class="custom-button discard__button variant--outline color--secondary size--small flair--rounded tag--button custom-button--icon--right" style="width: auto;">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--right">
+      Motion Blur
+    </h2> <span class="custom-button__slot"><svg></svg></span>
+  </button>
+  <!---->
+</div>
+`;
+
+exports[`when a skipped reason is passed matches snapshot on open dropdown 1`] = `
+<div class="discard" tooltip="{'content':'Update discarding of image','delay':{'show':300,'hide':300}}"><button class="custom-button discard__button variant--outline color--secondary size--small flair--rounded tag--button custom-button--icon--right" style="width: auto;">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--right">
+      Motion Blur
+    </h2> <span class="custom-button__slot"><svg></svg></span>
+  </button>
+  <!---->
+</div>
+`;
+
+exports[`when no skipped reason is passed matches snapshot 1`] = `
+<div class="discard" tooltip="{'content':'Discard image','delay':{'show':300,'hide':300}}"><button class="custom-button discard__button variant--outline color--secondary size--small flair--rounded tag--button custom-button--icon--right" style="width: auto;">
+    <!---->
+    <h2 class="custom-button__label custom-button__label--right">
+      Discard
+    </h2> <span class="custom-button__slot"><svg></svg></span>
+  </button>
+  <!---->
+</div>
+`;

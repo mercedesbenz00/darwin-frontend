@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<router-link-stub to="[object Object]" tag="a" ariacurrentvalue="page" event="click" id="table-folder_123" class="table-folder">
+  <div class="table-folder__content">
+    <div class="table-folder__prefix">
+      <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+      <h1 class="table-folder__label">
+        Flowers
+      </h1>
+    </div>
+    <h1 class="table-folder__label table-folder__label--secondary">
+      0
+    </h1>
+  </div>
+</router-link-stub>
+`;

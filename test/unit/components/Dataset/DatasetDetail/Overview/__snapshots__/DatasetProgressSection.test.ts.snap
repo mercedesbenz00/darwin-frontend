@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="overview__progress-body">
+  <div class="overview__progress-chart">
+    <progress-chart-stub chartid="doughnut-chart" width="400" height="400" cssclasses="" plugins="" percentages="3,7,5"></progress-chart-stub>
+    <div class="overview__progress-chart__text"><span>
+        50
+        <span class="overview__progress-chart__text-unit">%</span></span> <span class="overview__progress-chart__text-description">Overall Progress</span></div>
+  </div>
+  <div class="overview__progress-board">
+    <div class="overview__card__stats">
+      <div class="overview__card__stats__value">
+        3
+      </div>
+      <div class="overview__card__stats__name">
+        Total Items
+      </div>
+    </div>
+    <div class="overview__card__stats">
+      <div class="overview__card__stats__value overview__progress--open">
+        3
+      </div>
+      <div class="overview__card__stats__name">
+        Open Items
+      </div>
+    </div>
+    <div class="overview__card__stats">
+      <div class="overview__card__stats__value overview__progress--in-progress">
+        7
+      </div>
+      <div class="overview__card__stats__name">
+        Items in Progress
+      </div>
+    </div>
+    <div class="overview__card__stats">
+      <div class="overview__card__stats__value">
+        4
+      </div>
+      <div class="overview__card__stats__name">
+        Active Annotators
+      </div>
+    </div>
+    <div class="overview__card__stats">
+      <div class="overview__card__stats__value overview__progress--completed">
+        5
+      </div>
+      <div class="overview__card__stats__name">
+        Completed Images
+      </div>
+    </div>
+  </div>
+</div>
+`;

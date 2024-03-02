@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="video-annotations-video-control">
+  <video-annotations-pagination-stub editor="[object Object]"></video-annotations-pagination-stub>
+  <video-annotations-play-button-stub editor="[object Object]"></video-annotations-play-button-stub>
+</div>
+`;

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with dataset matches snapshot 1`] = `
+<div class="class-card">
+  <div class="class-card__thumbnail"><img class="class-card__thumbnail__img" lazy="a">
+    <transition-stub name="fade">
+      <class-card-overlay-stub annotationclass="[object Object]" dataset="[object Object]" isnondataset="true" class="class-card__overlay"></class-card-overlay-stub>
+    </transition-stub>
+  </div>
+  <div class="class-card__details">
+    <div class="class-card__annotation__main_types">
+      <div class="class-card__annotation__types">
+        <type-icon-stub type="bounding_box" color="#000000" class="class-card__annotation__type__svg"></type-icon-stub>
+      </div>
+      <div class="class-card__details__name">
+        class
+      </div>
+      <!---->
+    </div>
+    <div class="class-card__annotation__types"></div>
+  </div>
+</div>
+`;
+
+exports[`with dataset matches snapshot when annotationClass is added to the dataset 1`] = `
+<div class="class-card">
+  <div class="class-card__thumbnail"><img class="class-card__thumbnail__img" lazy="a">
+    <transition-stub name="fade">
+      <class-card-overlay-stub annotationclass="[object Object]" dataset="[object Object]" class="class-card__overlay"></class-card-overlay-stub>
+    </transition-stub>
+  </div>
+  <div class="class-card__details">
+    <div class="class-card__annotation__main_types">
+      <div class="class-card__annotation__types">
+        <type-icon-stub type="bounding_box" color="#000000" class="class-card__annotation__type__svg"></type-icon-stub>
+      </div>
+      <div class="class-card__details__name">
+        class
+      </div>
+      <class-card-hotkey-display-stub annotationclass="[object Object]" dataset="[object Object]" class="class-card__details__hotkey"></class-card-hotkey-display-stub>
+    </div>
+    <div class="class-card__annotation__types"></div>
+  </div>
+</div>
+`;
+
+exports[`without dataset matches snapshot 1`] = `
+<div class="class-card">
+  <div class="class-card__thumbnail"><img class="class-card__thumbnail__img" lazy="a">
+    <transition-stub name="fade">
+      <class-card-overlay-stub annotationclass="[object Object]" class="class-card__overlay"></class-card-overlay-stub>
+    </transition-stub>
+  </div>
+  <div class="class-card__details">
+    <div class="class-card__annotation__main_types">
+      <div class="class-card__annotation__types">
+        <type-icon-stub type="bounding_box" color="#000000" class="class-card__annotation__type__svg"></type-icon-stub>
+      </div>
+      <div class="class-card__details__name">
+        class
+      </div>
+      <class-card-hotkey-display-stub annotationclass="[object Object]" class="class-card__details__hotkey"></class-card-hotkey-display-stub>
+    </div>
+    <div class="class-card__annotation__types"></div>
+  </div>
+</div>
+`;
+
+exports[`without dataset matches snapshot when selected 1`] = `
+<div class="class-card class-card--selected">
+  <div class="class-card__thumbnail"><img class="class-card__thumbnail__img" lazy="a">
+    <transition-stub name="fade">
+      <class-card-overlay-stub annotationclass="[object Object]" selected="true" class="class-card__overlay"></class-card-overlay-stub>
+    </transition-stub>
+  </div>
+  <div class="class-card__details">
+    <div class="class-card__annotation__main_types">
+      <div class="class-card__annotation__types">
+        <type-icon-stub type="bounding_box" color="#000000" class="class-card__annotation__type__svg"></type-icon-stub>
+      </div>
+      <div class="class-card__details__name">
+        class
+      </div>
+      <class-card-hotkey-display-stub annotationclass="[object Object]" class="class-card__details__hotkey"></class-card-hotkey-display-stub>
+    </div>
+    <div class="class-card__annotation__types"></div>
+  </div>
+</div>
+`;

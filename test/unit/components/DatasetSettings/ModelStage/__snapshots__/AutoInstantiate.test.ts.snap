@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when disabled matches snapshot 1`] = `
+<div class="auto-instantiate">
+  <check-box-stub label="Auto Start" type="rect" size="small"></check-box-stub>
+  <info-stub>
+    If enabled, new items will be sent to the model stage as soon as
+    they are done processing and reach "New" status.
+  </info-stub>
+</div>
+`;
+
+exports[`when enabled matches snapshot 1`] = `
+<div class="auto-instantiate">
+  <check-box-stub value="true" label="Auto Start" type="rect" size="small"></check-box-stub>
+  <info-stub>
+    If enabled, new items will be sent to the model stage as soon as
+    they are done processing and reach "New" status.
+  </info-stub>
+</div>
+`;

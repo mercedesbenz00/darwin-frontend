@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when current team matches snapshot 1`] = `
+<div role="button" class="team-item team-item--current">
+  <team-avatar-stub team="[object Object]" class="team-item__avatar"></team-avatar-stub>
+  <div class="team-item__team">
+    <div class="team-item__team__name">
+      V7
+    </div>
+    <!---->
+    <div class="team-item__team__members">
+      3 team members
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when current team when partner matches snapshot 1`] = `
+<div role="button" class="team-item team-item--current">
+  <team-avatar-stub team="[object Object]" class="team-item__avatar"></team-avatar-stub>
+  <div class="team-item__team">
+    <div class="team-item__team__name">
+      V7
+    </div>
+    <partner-pill-stub class="team-item__team__pill"></partner-pill-stub>
+    <div class="team-item__team__members">
+      3 team members
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when not current team matches snapshot 1`] = `
+<div role="button" class="team-item team-item--other">
+  <team-avatar-stub team="[object Object]" class="team-item__avatar"></team-avatar-stub>
+  <div class="team-item__team">
+    <div class="team-item__team__name">
+      V8
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`when not current team when partner matches snapshot 1`] = `
+<div role="button" class="team-item team-item--other">
+  <team-avatar-stub team="[object Object]" class="team-item__avatar"></team-avatar-stub>
+  <div class="team-item__team">
+    <div class="team-item__team__name">
+      V8
+    </div>
+    <partner-pill-stub class="team-item__team__pill"></partner-pill-stub>
+    <!---->
+  </div>
+</div>
+`;

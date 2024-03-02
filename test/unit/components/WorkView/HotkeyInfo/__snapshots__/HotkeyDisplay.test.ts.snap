@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with the right keys for MacOS: MacOS version 1`] = `
+<div class="hotkey-display">
+  <div class="hotkey-display__key">
+    <!----> <span class="hotkey-display__key_cell">⌘</span>
+  </div>
+  <div class="hotkey-display__key"><span class="hotkey-display__key_plus">+</span> <span class="hotkey-display__key_cell">C</span></div>
+</div>
+`;
+
+exports[`renders with the right keys for Windows: Windows version 1`] = `
+<div class="hotkey-display">
+  <div class="hotkey-display__key">
+    <!----> <span class="hotkey-display__key_cell">CTRL</span>
+  </div>
+  <div class="hotkey-display__key"><span class="hotkey-display__key_plus">+</span> <span class="hotkey-display__key_cell">C</span></div>
+</div>
+`;

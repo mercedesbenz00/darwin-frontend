@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dropdown generic-filter" multiple="multiple" placeholder="Search or filter" theme="dark" filterable="">
+  <div class="generic-filter__no-option">
+    Sorry, no matching options
+  </div>
+  <ul class="vs__dropdown-menu">
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="positive"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="negative"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="positive"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="negative"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="positive"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="negative"></generic-filter-option-stub>
+    </li>
+  </ul> <input class="vs__search">
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="positive"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="negative"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="positive"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="negative"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="positive"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="negative"></generic-filter-selected-option-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<div class="dropdown generic-filter generic-filter--loading" multiple="multiple" placeholder="Search or filter" theme="dark" filterable="">
+  <div class="generic-filter__no-option">
+    Sorry, no matching options
+  </div>
+  <ul class="vs__dropdown-menu">
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="positive"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="negative"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="positive"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="negative"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="positive"></generic-filter-option-stub>
+    </li>
+    <li>
+      <generic-filter-option-stub option="[object Object]" status="negative"></generic-filter-option-stub>
+    </li>
+  </ul> <input class="vs__search">
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="positive"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="negative"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="positive"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="negative"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="positive"></generic-filter-selected-option-stub>
+  </div>
+  <div class="selected-option-container">
+    <generic-filter-selected-option-stub option="[object Object]" status="negative"></generic-filter-selected-option-stub>
+  </div>
+</div>
+`;

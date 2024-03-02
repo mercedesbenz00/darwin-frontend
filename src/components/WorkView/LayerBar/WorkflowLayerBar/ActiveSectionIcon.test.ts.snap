@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with active state 1`] = `<div class="layout-icon layout-icon--active"><span class="layout-icon__section layout-icon__section--active"></span><span class="layout-icon__section"></span></div>`;
+
+exports[`matches snapshot with multiple views view 1`] = `<div class="layout-icon"><span class="layout-icon__section layout-icon__section--active"></span><span class="layout-icon__section"></span></div>`;
+
+exports[`matches snapshot with single view 1`] = ``;

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with dataset matches snapshot 1`] = `
+<div class="class-listitem">
+  <!---->
+  <div class="class-listitem__thumbnail"><img class="class-listitem__thumbnail__img"></div>
+  <div class="class-listitem__name">
+    class
+  </div>
+  <div class="class-listitem__types">
+    <type-icon-stub type="bounding_box" color="#000000" class="class-listitem__type-svg"></type-icon-stub>
+  </div>
+  <class-card-menu-stub isnondataset="true" class="class-listitem__more">
+    <more-horizontal-icon-stub></more-horizontal-icon-stub>
+  </class-card-menu-stub>
+</div>
+`;
+
+exports[`with dataset matches snapshot when annotationClass is added to the dataset 1`] = `
+<div class="class-listitem">
+  <div class="class-listitem__checkbox">
+    <check-box-stub name="class-listitem" id="class-listitem-1" chkvalue="1" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="class-listitem__thumbnail"><img class="class-listitem__thumbnail__img"></div>
+  <div class="class-listitem__name">
+    class
+  </div>
+  <div class="class-listitem__types">
+    <type-icon-stub type="bounding_box" color="#000000" class="class-listitem__type-svg"></type-icon-stub>
+  </div>
+  <class-card-menu-stub class="class-listitem__more">
+    <more-horizontal-icon-stub></more-horizontal-icon-stub>
+  </class-card-menu-stub>
+</div>
+`;
+
+exports[`without dataset matches snapshot 1`] = `
+<div class="class-listitem">
+  <div class="class-listitem__checkbox">
+    <check-box-stub name="class-listitem" id="class-listitem-1" chkvalue="1" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="class-listitem__thumbnail"><img class="class-listitem__thumbnail__img"></div>
+  <div class="class-listitem__name">
+    class
+  </div>
+  <div class="class-listitem__types">
+    <type-icon-stub type="bounding_box" color="#000000" class="class-listitem__type-svg"></type-icon-stub>
+  </div>
+  <class-card-menu-stub class="class-listitem__more">
+    <more-horizontal-icon-stub></more-horizontal-icon-stub>
+  </class-card-menu-stub>
+</div>
+`;
+
+exports[`without dataset matches snapshot when selected 1`] = `
+<div class="class-listitem class-listitem__selected">
+  <div class="class-listitem__checkbox">
+    <check-box-stub name="class-listitem" value="true" id="class-listitem-1" chkvalue="1" type="rect" size="default"></check-box-stub>
+  </div>
+  <div class="class-listitem__thumbnail"><img class="class-listitem__thumbnail__img"></div>
+  <div class="class-listitem__name">
+    class
+  </div>
+  <div class="class-listitem__types">
+    <type-icon-stub type="bounding_box" color="#000000" class="class-listitem__type-svg"></type-icon-stub>
+  </div>
+  <class-card-menu-stub class="class-listitem__more">
+    <more-horizontal-icon-stub></more-horizontal-icon-stub>
+  </class-card-menu-stub>
+</div>
+`;

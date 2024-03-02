@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic behavior matches snapshot 1`] = `
+<div class="inputfield inputfield--dark">
+  <!---->
+  <div class="inputfield__wrapper"><input type="text" class="inputfield__input inputfield__input--non-empty">
+    <!---->
+    <div class="inputfield__modifier"></div>
+    <div class="inputfield__advisor"></div>
+  </div>
+</div>
+`;
+
+exports[`prop-based validation error matches snapshot 1`] = `
+<div class="inputfield inputfield--dark">
+  <!---->
+  <div class="inputfield__wrapper"><input type="text" class="inputfield__input inputfield__input--error inputfield__input--non-empty">
+    <div class="inputfield__error">
+      Foo Error
+    </div>
+  </div>
+</div>
+`;
+
+exports[`setError-based validation error matches snapshot 1`] = `
+<div class="inputfield inputfield--dark">
+  <!---->
+  <div class="inputfield__wrapper"><input type="text" class="inputfield__input inputfield__input--error inputfield__input--non-empty">
+    <div class="inputfield__error">
+      Foo Error
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="class-filter">
+  <input-field-stub value="" placeholder="Type to filter by class" type="text" theme="dark" class="class-filter__input"></input-field-stub>
+  <div class="class-filter__header">
+    <div class="class-filter__header__class-name"><button class="class-filter__clear" tooltip="{'content':'Clear Filters','position':'top'}">
+        ✕
+      </button>
+      <sort-button-stub id="label" direction="0"></sort-button-stub>
+    </div>
+    <sort-button-stub id="count" direction="0"></sort-button-stub>
+  </div>
+  <div class="class-filter__list">
+    <div action-disabled="true" status="none">Polygon</div>
+    <div action-disabled="true" status="none">Tag</div>
+  </div>
+  <div class="class-filter__create-tag class-filter__create-tag--disabled">
+    Create
+    <span class="class-filter__tag">Tag</span>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot after sorted by count asc 1`] = `
+<div class="class-filter">
+  <input-field-stub value="" placeholder="Type to filter by class" type="text" theme="dark" class="class-filter__input"></input-field-stub>
+  <div class="class-filter__header">
+    <div class="class-filter__header__class-name"><button class="class-filter__clear" tooltip="{'content':'Clear Filters','position':'top'}">
+        ✕
+      </button>
+      <sort-button-stub id="label" direction="0"></sort-button-stub>
+    </div>
+    <sort-button-stub id="count" direction="0"></sort-button-stub>
+  </div>
+  <div class="class-filter__list">
+    <div action-disabled="true" status="none">Polygon</div>
+    <div action-disabled="true" status="none">Tag</div>
+  </div>
+  <div class="class-filter__create-tag class-filter__create-tag--disabled">
+    Create
+    <span class="class-filter__tag">Tag</span>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot after sorted by label desc 1`] = `
+<div class="class-filter">
+  <input-field-stub value="" placeholder="Type to filter by class" type="text" theme="dark" class="class-filter__input"></input-field-stub>
+  <div class="class-filter__header">
+    <div class="class-filter__header__class-name"><button class="class-filter__clear" tooltip="{'content':'Clear Filters','position':'top'}">
+        ✕
+      </button>
+      <sort-button-stub id="label" direction="2"></sort-button-stub>
+    </div>
+    <sort-button-stub id="count" direction="0"></sort-button-stub>
+  </div>
+  <div class="class-filter__list">
+    <div action-disabled="true" status="none">Tag</div>
+    <div action-disabled="true" status="none">Polygon</div>
+  </div>
+  <div class="class-filter__create-tag class-filter__create-tag--disabled">
+    Create
+    <span class="class-filter__tag">Tag</span>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when images are being selected 1`] = `
+<div class="class-filter">
+  <input-field-stub value="" placeholder="Type to filter by class" type="text" theme="dark" class="class-filter__input"></input-field-stub>
+  <div class="class-filter__header">
+    <div class="class-filter__header__class-name"><button class="class-filter__clear" tooltip="{'content':'Clear Filters','position':'top'}">
+        ✕
+      </button>
+      <sort-button-stub id="label" direction="0"></sort-button-stub>
+    </div>
+    <sort-button-stub id="count" direction="0"></sort-button-stub>
+  </div>
+  <div class="class-filter__list">
+    <div status="none">Polygon</div>
+    <div status="none">Tag</div>
+  </div>
+  <div class="class-filter__create-tag class-filter__create-tag--disabled">
+    Create
+    <span class="class-filter__tag">Tag</span>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when listing only 1`] = `
+<div class="class-filter">
+  <input-field-stub value="" placeholder="Type to filter by class" type="text" theme="dark" class="class-filter__input"></input-field-stub>
+  <div class="class-filter__header">
+    <div class="class-filter__header__class-name"><button class="class-filter__clear" tooltip="{'content':'Clear Filters','position':'top'}">
+        ✕
+      </button>
+      <sort-button-stub id="label" direction="0"></sort-button-stub>
+    </div>
+    <sort-button-stub id="count" direction="0"></sort-button-stub>
+  </div>
+  <div class="class-filter__list">
+    <div action-disabled="true" action-hide="true" status="none">Polygon</div>
+    <div action-disabled="true" action-hide="true" status="none">Tag</div>
+  </div>
+  <!---->
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="filter">
+  <h3 class="filter__title">
+    Active workflow
+  </h3>
+  <div class="filter__options">
+    <div class="filter__option" tooltip="Custom name">
+      <status-button-stub type="annotate" variant="default" size="xs" class="filter__option__icon"></status-button-stub>
+    </div>
+    <div class="filter__option" tooltip="Review">
+      <status-button-stub type="review" variant="default" size="xs" class="filter__option__icon"></status-button-stub>
+    </div>
+    <div class="filter__option" tooltip="Complete">
+      <status-button-stub type="complete" variant="default" size="xs" class="filter__option__icon"></status-button-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when positive selections 1`] = `
+<div class="filter">
+  <h3 class="filter__title">
+    Active workflow
+  </h3>
+  <div class="filter__options">
+    <div class="filter__option filter__option--positive" tooltip="Custom name">
+      <status-button-stub type="annotate" variant="default" size="xs" class="filter__option__icon"></status-button-stub>
+    </div>
+    <div class="filter__option filter__option--negative" tooltip="Review">
+      <status-button-stub type="review" variant="default" size="xs" class="filter__option__icon"></status-button-stub>
+    </div>
+    <div class="filter__option" tooltip="Complete">
+      <status-button-stub type="complete" variant="default" size="xs" class="filter__option__icon"></status-button-stub>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<alice-blue-panel-stub class="type">
+  <div class="type__selection">
+    <h2 class="type__selection__header">
+      Pick a Model Type
+    </h2>
+    <type-selection-stub class="type__selection__types"></type-selection-stub>
+    <template-selection-stub></template-selection-stub>
+    <div class="type__selection__name-continue"><label for="model-name" class="type__selection__name-continue__label">Name the Model</label>
+      <model-name-input-stub></model-name-input-stub>
+      <primary-button-stub>
+        Continue
+      </primary-button-stub>
+    </div>
+  </div>
+  <instance-segmentation-details-stub class="type__preview preview"></instance-segmentation-details-stub>
+</alice-blue-panel-stub>
+`;

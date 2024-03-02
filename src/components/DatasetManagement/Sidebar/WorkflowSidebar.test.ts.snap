@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in workflows 2.0 matches snapshot 1`] = `
+<sidebar-stub>
+  <div class="data-sidebar__content">
+    <data-tab-upload-stub class="data-sidebar__upload"></data-tab-upload-stub>
+    <export-button-stub buttontype="secondary-light-button" class="data-sidebar__export"></export-button-stub>
+    <div class="data-sidebar__control">
+      <gallery-control-stub class="data-sidebar__gallery-control"></gallery-control-stub>
+      <switch-folder-mode-stub class="dataset-sidebar__switch-folder"></switch-folder-mode-stub>
+    </div>
+    <sort-control-stub sortby="priority" sortdirection="desc" class="data-sidebar__sort"></sort-control-stub>
+    <generic-filter-stub dataset="[object Object]" positiveassignees="" negativeassignees="" positivefilenames="" negativefilenames="" positivepaths="" negativepaths="" class="data-sidebar__generic"></generic-filter-stub>
+    <stage-filter-stub includedids="" excludedids="" dataset="[object Object]" workflow="[object Object]"></stage-filter-stub>
+    <status-filter-stub positivestatuses="" negativestatuses="" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot 1`] = `
+<sidebar-stub>
+  <div class="data-sidebar__content">
+    <data-tab-upload-stub class="data-sidebar__upload"></data-tab-upload-stub>
+    <export-button-stub buttontype="secondary-light-button" class="data-sidebar__export"></export-button-stub>
+    <div class="data-sidebar__control">
+      <gallery-control-stub class="data-sidebar__gallery-control"></gallery-control-stub>
+      <switch-folder-mode-stub class="dataset-sidebar__switch-folder"></switch-folder-mode-stub>
+    </div>
+    <sort-control-stub sortby="priority" sortdirection="desc" class="data-sidebar__sort"></sort-control-stub>
+    <generic-filter-stub dataset="[object Object]" positiveassignees="" negativeassignees="" positivefilenames="" negativefilenames="" positivepaths="" negativepaths="" class="data-sidebar__generic"></generic-filter-stub>
+    <stage-template-filter-stub dataset="[object Object]" positivestagetemplateids="" negativestagetemplateids="" class="data-sidebar__stage-template"></stage-template-filter-stub>
+    <status-filter-stub positivestatuses="" negativestatuses="" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot when dataset item filter is set 1`] = `
+<sidebar-stub>
+  <div class="data-sidebar__content">
+    <data-tab-upload-stub class="data-sidebar__upload"></data-tab-upload-stub>
+    <export-button-stub buttontype="secondary-light-button" class="data-sidebar__export"></export-button-stub>
+    <div class="data-sidebar__control">
+      <gallery-control-stub class="data-sidebar__gallery-control"></gallery-control-stub>
+      <switch-folder-mode-stub class="dataset-sidebar__switch-folder"></switch-folder-mode-stub>
+    </div>
+    <sort-control-stub sortby="priority" sortdirection="desc" class="data-sidebar__sort"></sort-control-stub>
+    <generic-filter-stub dataset="[object Object]" positiveassignees="" negativeassignees="" positivefilenames="" negativefilenames="" positivepaths="" negativepaths="" class="data-sidebar__generic"></generic-filter-stub>
+    <stage-template-filter-stub dataset="[object Object]" positivestagetemplateids="" negativestagetemplateids="" class="data-sidebar__stage-template"></stage-template-filter-stub>
+    <status-filter-stub positivestatuses="" negativestatuses="" class="data-sidebar__status"></status-filter-stub>
+    <class-filter-stub dataset="[object Object]" positiveclassids="" negativeclassids="" class="data-sidebar__tags"></class-filter-stub>
+  </div>
+</sidebar-stub>
+`;

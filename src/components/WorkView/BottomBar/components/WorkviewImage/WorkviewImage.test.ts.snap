@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when not selected, not video 1`] = `<div class="workview-image" tooltip="{'content':'1.png','classes':'tooltip--workview-filename','delay':{'show':300,'hide':0}}"><img src="/static/imgs/thumbnail_placeholder.png" class="workview-image__image" lazy="1_thumbnail.png"> </div>`;
+
+exports[`matches snapshot when not selected, video 1`] = `<div class="workview-image workview-image--is-video" tooltip="{'content':'1.png','classes':'tooltip--workview-filename','delay':{'show':300,'hide':0}}"><img src="/static/imgs/thumbnail_placeholder.png" class="workview-image__image" lazy="1_thumbnail.png"> </div>`;
+
+exports[`matches snapshot when selected, not video 1`] = `<div class="workview-image workview-image--selected selected" tooltip="{'content':'1.png','classes':'tooltip--workview-filename','delay':{'show':300,'hide':0}}"><img src="/static/imgs/thumbnail_placeholder.png" class="workview-image__image" lazy="1_thumbnail.png"> </div>`;

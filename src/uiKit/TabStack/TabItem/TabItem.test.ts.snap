@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<button id="abc" class="tab tab--small">
+  <!---->
+  <div class="tab__content">
+    <p class="tab__label">
+      Overview
+    </p>
+  </div>
+  <!---->
+</button>
+`;

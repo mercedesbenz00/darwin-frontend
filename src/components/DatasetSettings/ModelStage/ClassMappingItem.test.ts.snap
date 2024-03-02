@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when darwin class has subs matches snapshot 1`] = `
+<div id="modelClass-OCR" class="mapping-item">
+  <div class="mapping-item__wind-class">
+    <type-icon-stub type="polygon"></type-icon-stub>
+    <div class="mappint-item__wind-class__label">
+      OCR
+    </div>
+    <!---->
+  </div>
+  <div class="mapping-item__next">
+    <next-icon-stub></next-icon-stub>
+  </div>
+  <div class="dropdown" dropdown-parent-selector="#modelClass-OCR" append-to-body="" theme="light">
+    <ul class="vs__dropdown-menu">
+      <li>
+        <div class="mapping-item__option" tooltip="Nothing">
+          <!---->
+          <div class="mapping-item__option__text">
+            Nothing
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Flask">
+          <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Flask
+          </div>
+          <div class="mapping-item__option__subs">
+            <type-icon-stub type="directional_vector" tooltip="directional_vector"></type-icon-stub>
+            <type-icon-stub type="text" tooltip="text"></type-icon-stub>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="mapping-item__option">
+      <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)"></type-icon-stub>
+      <div class="mapping-item__option__text">
+        Flask
+      </div>
+    </div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+  </div>
+</div>
+`;
+
+exports[`when mapped class has errors matches snapshot 1`] = `
+<div id="modelClass-OCR" class="mapping-item">
+  <div class="mapping-item__wind-class">
+    <type-icon-stub type="polygon"></type-icon-stub>
+    <div class="mappint-item__wind-class__label">
+      OCR
+    </div>
+    <div class="mapping-item__wind-class__subs">
+      <type-icon-stub type="text" tooltip="text"></type-icon-stub>
+    </div>
+  </div>
+  <div class="mapping-item__next">
+    <next-icon-stub></next-icon-stub>
+  </div>
+  <div class="dropdown" dropdown-parent-selector="#modelClass-OCR" append-to-body="" theme="light">
+    <ul class="vs__dropdown-menu">
+      <li>
+        <div class="mapping-item__option" tooltip="Nothing">
+          <!---->
+          <div class="mapping-item__option__text">
+            Nothing
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Flask">
+          <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Flask
+          </div>
+          <!---->
+        </div>
+      </li>
+    </ul>
+    <div class="mapping-item__option">
+      <type-icon-stub type="polygon" color="rgba(0, 0, 0, 0.1)"></type-icon-stub>
+      <div class="mapping-item__option__text">
+        Flask
+      </div>
+    </div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+  </div>
+  <div class="mapping-item__error">
+    Class is missing text support
+  </div>
+</div>
+`;
+
+exports[`when mapped matches snapshot 1`] = `
+<div id="modelClass-Flask" class="mapping-item">
+  <div class="mapping-item__wind-class">
+    <type-icon-stub type="polygon"></type-icon-stub>
+    <div class="mappint-item__wind-class__label">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="mapping-item__next">
+    <next-icon-stub></next-icon-stub>
+  </div>
+  <div class="dropdown" dropdown-parent-selector="#modelClass-Flask" append-to-body="" theme="light">
+    <ul class="vs__dropdown-menu">
+      <li>
+        <div class="mapping-item__option" tooltip="Nothing">
+          <!---->
+          <div class="mapping-item__option__text">
+            Nothing
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Bottle">
+          <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Bottle
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Flask">
+          <type-icon-stub type="polygon" color="rgba(4,4,4,0.5)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Flask
+          </div>
+          <!---->
+        </div>
+      </li>
+    </ul>
+    <div class="mapping-item__option">
+      <type-icon-stub type="polygon" color="rgba(4,4,4,0.5)"></type-icon-stub>
+      <div class="mapping-item__option__text">
+        Flask
+      </div>
+    </div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+  </div>
+</div>
+`;
+
+exports[`when model class has subs matches snapshot 1`] = `
+<div id="modelClass-OCR" class="mapping-item">
+  <div class="mapping-item__wind-class">
+    <type-icon-stub type="polygon"></type-icon-stub>
+    <div class="mappint-item__wind-class__label">
+      OCR
+    </div>
+    <div class="mapping-item__wind-class__subs">
+      <type-icon-stub type="text" tooltip="text"></type-icon-stub>
+      <type-icon-stub type="attributes" tooltip="attributes"></type-icon-stub>
+    </div>
+  </div>
+  <div class="mapping-item__next">
+    <next-icon-stub></next-icon-stub>
+  </div>
+  <div class="dropdown" dropdown-parent-selector="#modelClass-OCR" append-to-body="" theme="light">
+    <ul class="vs__dropdown-menu">
+      <li>
+        <div class="mapping-item__option" tooltip="Nothing">
+          <!---->
+          <div class="mapping-item__option__text">
+            Nothing
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Flask">
+          <type-icon-stub type="polygon" color="rgba(4,4,4,0.5)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Flask
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Scale">
+          <type-icon-stub type="bounding_box" color="rgba(6,6,6,0.5)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Scale
+          </div>
+          <!---->
+        </div>
+      </li>
+    </ul>
+    <div class="mapping-item__option">
+      <!---->
+      <div class="mapping-item__option__text">
+        Nothing
+      </div>
+    </div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+  </div>
+</div>
+`;
+
+exports[`when unmapped matches snapshot 1`] = `
+<div id="modelClass-Flask" class="mapping-item">
+  <div class="mapping-item__wind-class">
+    <type-icon-stub type="polygon"></type-icon-stub>
+    <div class="mappint-item__wind-class__label">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="mapping-item__next">
+    <next-icon-stub></next-icon-stub>
+  </div>
+  <div class="dropdown" dropdown-parent-selector="#modelClass-Flask" append-to-body="" theme="light">
+    <ul class="vs__dropdown-menu">
+      <li>
+        <div class="mapping-item__option" tooltip="Nothing">
+          <!---->
+          <div class="mapping-item__option__text">
+            Nothing
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Bottle">
+          <type-icon-stub type="polygon" color="rgba(5,5,5,0.5)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Bottle
+          </div>
+          <!---->
+        </div>
+      </li>
+      <li>
+        <div class="mapping-item__option" tooltip="Flask">
+          <type-icon-stub type="polygon" color="rgba(4,4,4,0.5)"></type-icon-stub>
+          <div class="mapping-item__option__text">
+            Flask
+          </div>
+          <!---->
+        </div>
+      </li>
+    </ul>
+    <div class="mapping-item__option">
+      <!---->
+      <div class="mapping-item__option__text">
+        Nothing
+      </div>
+    </div>
+    <div class="selected-option-container"></div>
+    <div class="selected-option-container"></div>
+  </div>
+</div>
+`;

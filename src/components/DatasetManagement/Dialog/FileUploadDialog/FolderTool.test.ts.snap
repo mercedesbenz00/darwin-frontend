@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FolderTool with V1 matches snapshot 1`] = `
+<folder-popover-stub dataset="[object Object]" folders="[object Object]" loading="true" class="tool has-tooltip" data-original-title="null">
+  <div class="tool__content">
+    <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub> <span class="tool__text">
+      /current/path
+    </span>
+  </div>
+</folder-popover-stub>
+`;
+
+exports[`FolderTool with V2 matches snapshot 1`] = `
+<folder-popover-stub dataset="[object Object]" folders="" loading="true" class="tool has-tooltip" data-original-title="null">
+  <div class="tool__content">
+    <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub> <span class="tool__text">
+      /current/path
+    </span>
+  </div>
+</folder-popover-stub>
+`;

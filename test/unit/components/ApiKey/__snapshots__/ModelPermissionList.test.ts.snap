@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="permission-group">
+  <div class="permission-group__header"><span>Model permissions</span>
+    <info-stub title="Permissions specific to a single model">
+      Go to your Neural Models page to manage these (or click here).
+    </info-stub>
+  </div>
+  <ul class="permission-group__abilities">
+    <li class="permission-group__abilities__ability">
+      Run model inference on model abcdef
+    </li>
+    <li class="permission-group__abilities__ability">
+      Run model inference on model fedcba
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<v-popover-stub disabled="true" popover-class="attributes-item__popover">
+  <sub-annotation-item-stub annotationclass="[object Object]" type="attributes" class="attributes-item">
+    <div class="attributes-item__attributes">
+      <div class="attributes-item__attribute" style="background: rgba(0, 0, 0, 0.1);">
+        attribute1
+      </div>
+      <div class="attributes-item__attribute" style="background: rgba(0, 0, 0, 0.1);">
+        attribute2
+      </div>
+    </div>
+  </sub-annotation-item-stub>
+</v-popover-stub>
+`;
+
+exports[`matches snapshot when empty 1`] = `
+<v-popover-stub disabled="true" popover-class="attributes-item__popover">
+  <sub-annotation-item-stub annotationclass="[object Object]" type="attributes" class="attributes-item">
+    <div class="attributes-item__placeholder">
+      Click to add Attributes
+    </div>
+  </sub-annotation-item-stub>
+</v-popover-stub>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<v-popover-stub disabled="true" popover-class="attributes-item__popover">
+  <sub-annotation-item-stub annotationclass="[object Object]" type="attributes" readonly="true" class="attributes-item">
+    <div class="attributes-item__attributes">
+      <div class="attributes-item__attribute" style="background: rgba(0, 0, 0, 0.1);">
+        attribute1
+      </div>
+      <div class="attributes-item__attribute" style="background: rgba(0, 0, 0, 0.1);">
+        attribute2
+      </div>
+    </div>
+  </sub-annotation-item-stub>
+</v-popover-stub>
+`;

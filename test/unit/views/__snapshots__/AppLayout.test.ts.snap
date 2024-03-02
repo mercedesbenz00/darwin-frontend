@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot on empty layout 1`] = `
+<empty-layout-stub>
+  <router-view-stub></router-view-stub>
+</empty-layout-stub>
+`;
+
+exports[`matches snapshot on main layout 1`] = `
+<main-layout-stub>
+  <router-view-stub></router-view-stub>
+</main-layout-stub>
+`;

@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<lazy-stub width="0" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: auto;">
+    <!---->
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 3px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 19px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;
+
+exports[`matches snapshot: hover 1`] = `
+<lazy-stub width="5" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: auto;">
+    <!---->
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 11px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 27px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;
+
+exports[`when consensus error matches snapshot 1`] = `
+<lazy-stub width="0" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--error pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: auto;">
+    <x-icon-stub></x-icon-stub>
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 3px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 19px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;
+
+exports[`when consensus error matches snapshot: hover 1`] = `
+<lazy-stub width="5" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--error pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: auto;">
+    <x-icon-stub></x-icon-stub>
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 11px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 27px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;
+
+exports[`when disabled matches snapshot 1`] = `
+<lazy-stub width="0" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: none;">
+    <!---->
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 3px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 19px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;
+
+exports[`when disabled matches snapshot: hover 1`] = `
+<lazy-stub width="5" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: none;">
+    <!---->
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 11px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 27px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;
+
+exports[`with confidence 1`] = `
+<lazy-stub width="0" height="8" x="0" y="0" padding="50" tag="div" class="annotation_overlay" style="top: -8px; left: -8px;" id="foo">
+  <div class="pill pill--with-content" style="width: 16px; height: 16px; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; pointer-events: auto;">
+    <!---->
+    <div class="sub-annotation-tool" style="width: 14px; height: 14px; border-radius: 8px;"><img src="" class="sub-annotation-tool-icon" style="width: 8px; height: 8px;"></div>
+  </div>
+  <div class="labels">
+    <div class="class-label" style="background: rgba(0, 0, 0, 0.1); height: 16px; margin-left: 3px;">
+      Flask
+    </div>
+    <!---->
+  </div>
+  <div class="overlays" style="margin-left: 19px;">
+    <div class="overlay-container">
+      <div class="overlay-border">
+        <div class="overlay-border-color overlay-border__color-1"></div>
+        <div class="overlay-border-color overlay-border__color-2"></div>
+        <div class="overlay-border-color overlay-border__color-3"></div>
+      </div>
+      <div class="overlay">
+        overlay
+      </div>
+    </div>
+  </div>
+</lazy-stub>
+`;

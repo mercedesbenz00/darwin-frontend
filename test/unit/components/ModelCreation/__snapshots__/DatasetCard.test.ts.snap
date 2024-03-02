@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when not selected matches snapshot 1`] = `
+<div role="button" class="dataset">
+  <h4 class="dataset__title">
+    Test name
+  </h4>
+  <div class="dataset__counts">
+    <div class="count">
+      <div class="count__value">
+        500
+      </div>
+      <div class="count__name">
+        Files
+      </div>
+    </div>
+    <div class="count">
+      <div class="count__value">
+        600
+      </div>
+      <div class="count__name">
+        Classes
+      </div>
+    </div>
+    <div class="count">
+      <div class="count__value">
+        700
+      </div>
+      <div class="count__name">
+        Anno
+      </div>
+    </div>
+  </div>
+  <div class="dataset__ratio"></div>
+</div>
+`;
+
+exports[`when selected matches snapshot 1`] = `
+<div role="button" class="dataset dataset--selected">
+  <h4 class="dataset__title">
+    Test name
+  </h4>
+  <div class="dataset__counts">
+    <div class="count">
+      <div class="count__value">
+        500
+      </div>
+      <div class="count__name">
+        Files
+      </div>
+    </div>
+    <div class="count">
+      <div class="count__value">
+        600
+      </div>
+      <div class="count__name">
+        Classes
+      </div>
+    </div>
+    <div class="count">
+      <div class="count__value">
+        700
+      </div>
+      <div class="count__name">
+        Anno
+      </div>
+    </div>
+  </div>
+  <div class="dataset__ratio"></div>
+</div>
+`;

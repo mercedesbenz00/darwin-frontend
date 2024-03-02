@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`darwin in /tutorial matches snapshot 1`] = `
+<div class="workview__toolbar">
+  <div class="workview__toolbar__top"></div>
+  <div class="workview__toolbar__bottom">
+    <tool-bar-feedback-button-stub></tool-bar-feedback-button-stub>
+    <tool-bar-zoom-controls-stub scale="1"></tool-bar-zoom-controls-stub>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`darwin matches snapshot 1`] = `
+<div class="workview__toolbar">
+  <div class="workview__toolbar__top"></div>
+  <div class="workview__toolbar__bottom">
+    <tool-bar-feedback-button-stub></tool-bar-feedback-button-stub>
+    <tool-bar-zoom-controls-stub scale="1"></tool-bar-zoom-controls-stub>
+    <!---->
+  </div>
+</div>
+`;

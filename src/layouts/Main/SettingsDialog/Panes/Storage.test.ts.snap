@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<settings-pane-stub title="Storage" tag="div" footer="true">
+  <header class="header">
+    <div>
+      <h3 class="title">
+        Integrated Storage
+      </h3>
+    </div>
+    <div class="header__button-container">
+      <secondary-button-stub>
+        Documentation
+      </secondary-button-stub>
+      <storage-creation-stub></storage-creation-stub>
+    </div>
+  </header>
+  <storages-list-stub data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label v-loading--active" style="background-color: rgba(0, 0, 0, 0.1);">
+
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+
+      <label>Loading...</label>
+    </div>
+  </storages-list-stub>
+</settings-pane-stub>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<settings-pane-stub title="Storage" tag="div" footer="true">
+  <header class="header">
+    <div>
+      <h3 class="title">
+        Integrated Storage
+      </h3>
+    </div>
+    <div class="header__button-container">
+      <secondary-button-stub>
+        Documentation
+      </secondary-button-stub>
+      <storage-creation-stub></storage-creation-stub>
+    </div>
+  </header>
+  <storages-list-stub data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label v-loading--active" style="background-color: rgba(0, 0, 0, 0.1);">
+
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+
+      <label>Loading...</label>
+    </div>
+  </storages-list-stub>
+</settings-pane-stub>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot in dataset folder route 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <dataset-item-gallery-stub dataset="[object Object]" readonly="true"></dataset-item-gallery-stub>
+  <read-only-context-menu-stub></read-only-context-menu-stub>
+  <open-data-sidebar-stub dataset="[object Object]"></open-data-sidebar-stub>
+</div>
+`;
+
+exports[`matches the snapshot in dataset route 1`] = `
+<div class="dataset-details" dataset="[object Object]">
+  <dataset-items-loader-stub dataset="[object Object]"></dataset-items-loader-stub>
+  <dataset-channel-subscriber-stub dataset="[object Object]"></dataset-channel-subscriber-stub>
+  <dataset-item-gallery-stub dataset="[object Object]" readonly="true"></dataset-item-gallery-stub>
+  <read-only-context-menu-stub></read-only-context-menu-stub>
+  <open-data-sidebar-stub dataset="[object Object]"></open-data-sidebar-stub>
+</div>
+`;

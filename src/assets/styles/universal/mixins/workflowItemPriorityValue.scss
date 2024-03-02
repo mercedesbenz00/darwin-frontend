@@ -1,0 +1,26 @@
+@mixin workflow-item-priority-value {
+  &-null {
+    background: $colorAliceShadow;
+  }
+
+  &-1 {
+    background: #FFE073;
+  }
+
+  &-2 {
+    background: #FFC773;
+  }
+
+  &-3 {
+    background: #FF9D73;
+  }
+
+  &-4 {
+    background: #FF8C73;
+  }
+
+  &-5,
+  &-over {
+    background: #FF7373;
+  }
+}

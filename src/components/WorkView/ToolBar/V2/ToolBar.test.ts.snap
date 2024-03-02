@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`darwin toolbar matches snapshot 1`] = `
+<div class="workview__toolbar">
+  <div class="workview__toolbar__top"></div>
+  <div class="workview__toolbar__bottom">
+    <tool-bar-feedback-button-stub></tool-bar-feedback-button-stub>
+    <tool-bar-zoom-controls-stub scale="4.6875"></tool-bar-zoom-controls-stub>
+    <!---->
+  </div>
+</div>
+`;

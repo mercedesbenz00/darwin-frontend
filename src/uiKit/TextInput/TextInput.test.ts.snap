@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic behavior matches snapshot 1`] = `
+<div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper">
+  <div id="InputFieldScrollable" class="inputfield__container">
+    <!----> <input type="text" tag="div" items="" class="inputfield">
+    <!---->
+    <!---->
+  </div>
+  <!---->
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`prop-based validation error matches snapshot 1`] = `
+<div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper">
+  <div id="InputFieldScrollable" class="inputfield__container error">
+    <!----> <input type="text" tag="div" items="" class="inputfield" error="Foo Error">
+    <!---->
+    <div class="error-icon__wrapper">
+      <icon-duotone-warn-stub variant="red"></icon-duotone-warn-stub>
+    </div>
+  </div>
+  <div class="inputfield__error">
+    Foo Error
+  </div>
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`when multiple and wrap it's active matches snapshot 1`] = `
+<div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper">
+  <div id="InputFieldScrollable" class="inputfield__container inputfield__container--wrap">
+    <!---->
+    <div class="inputfield-items__wrapper">
+      <badge-stub label="foo" overridetooltip="" size="medium" tag="div" alpha="0.1" overridelabelcolor="" deletable="true" nocapitalize="true" wrap=""></badge-stub>
+      <badge-stub label="bar" overridetooltip="" size="medium" tag="div" alpha="0.1" overridelabelcolor="" deletable="true" nocapitalize="true" wrap=""></badge-stub>
+      <badge-stub label="baz" overridetooltip="" size="medium" tag="div" alpha="0.1" overridelabelcolor="" deletable="true" nocapitalize="true" wrap=""></badge-stub> <input type="text" tag="div" items="[object Object],[object Object],[object Object]" multiple="multiple" wrap="true" class="inputfield inputfield--multiple inputfield--multiple--wrap">
+    </div>
+    <!---->
+    <!---->
+  </div>
+  <!---->
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`when multiple and wrap it's active should match classes 1`] = `
+<div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper">
+  <div id="InputFieldScrollable" class="inputfield__container inputfield__container--wrap">
+    <!---->
+    <div class="inputfield-items__wrapper">
+      <badge-stub label="foo" overridetooltip="" size="medium" tag="div" alpha="0.1" overridelabelcolor="" deletable="true" nocapitalize="true" wrap=""></badge-stub>
+      <badge-stub label="bar" overridetooltip="" size="medium" tag="div" alpha="0.1" overridelabelcolor="" deletable="true" nocapitalize="true" wrap=""></badge-stub>
+      <badge-stub label="baz" overridetooltip="" size="medium" tag="div" alpha="0.1" overridelabelcolor="" deletable="true" nocapitalize="true" wrap=""></badge-stub> <input type="text" tag="div" items="[object Object],[object Object],[object Object]" multiple="multiple" wrap="true" class="inputfield inputfield--multiple inputfield--multiple--wrap">
+    </div>
+    <!---->
+    <!---->
+  </div>
+  <!---->
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`when multiple it's active matches snapshot 1`] = `
+<div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper">
+  <div id="InputFieldScrollable" class="inputfield__container">
+    <!---->
+    <div class="inputfield-items__wrapper"> <input type="text" tag="div" items="" multiple="multiple" class="inputfield inputfield--multiple"></div>
+    <!---->
+    <!---->
+  </div>
+  <!---->
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`when multiple it's active should match classes 1`] = `
+<div tabindex="1" v-bind="[object Object]" v-on="[object Object]" class="inputfield_wrapper">
+  <div id="InputFieldScrollable" class="inputfield__container">
+    <!---->
+    <div class="inputfield-items__wrapper"> <input type="text" tag="div" items="" multiple="multiple" class="inputfield inputfield--multiple"></div>
+    <!---->
+    <!---->
+  </div>
+  <!---->
+  <!---->
+  <!---->
+</div>
+`;

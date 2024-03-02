@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="citation-info">
+  <div class="citation-info__header">
+    <div class="citation-quote-container">
+      <icon-quote-stub></icon-quote-stub>
+    </div>
+    <h4 class="citation-info__title">
+      Using V7 for academia? Cite us.
+    </h4>
+    <div class="citation-info__tips">
+      Please add the citations below in your site and paper.
+      Your dataset will also be public.
+    </div>
+    <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button">
+      Show Plans
+    </custom-button-stub>
+  </div>
+  <div class="citation-info__main">
+    <copy-block-stub content="V7:V7.https://www.v7labs.com." label="Cite-V7" class="citation-info__command"></copy-block-stub>
+    <copy-block-stub content="Some Team (2022).Dataset.
+      Smith Joe, V7 Open Datasets. https://darwin.v7labs.com/v7/dataset" label="Cite Dataset" class="citation-info__command"></copy-block-stub>
+    <copy-block-stub content="https://darwin.v7labs.com/v7/dataset" label="Public URL" class="citation-info__command"></copy-block-stub> <span class="citation-info__tips">
+      This public URL allows users to browse,
+      and pull versions of your dataset for peer review.
+    </span>
+    <twitter-button-stub url="https://darwin.v7labs.com/v7/dataset" description="Check out Dataset, a new Open Source computer vision dataset: " btntext="Share this dataset" modalwidth="500" modalheight="500" hasicon="true" customicon="" class="btn-social__twitter"></twitter-button-stub>
+  </div>
+</div>
+`;

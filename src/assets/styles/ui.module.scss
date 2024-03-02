@@ -1,0 +1,21 @@
+@import "./universal/typography/typography.export.scss";
+@import "./darwin/variables/sidebar.scss";
+
+$mq-scale: (normal: 0.7, lg: 0.8, xl: 0.9, xxl: 1, xxxl: 1, xivl: 1, xvl: 1);
+
+:export {
+  rootFont: 16;
+}
+
+:export {
+  @each $breakpointKey, $breakpointValue in $mq-scale {
+    scale_#{$breakpointKey}: $breakpointValue;
+  }
+
+  @each $breakpointKey, $breakpointValue in $typography-breakpoints {
+    font_#{$breakpointKey}: $breakpointValue;
+  }
+
+  sidebar_expanded_width: $sidebarExpandedWidth;
+  sidebar_collapsed_width: $sidebarCollapsedWidth;
+}

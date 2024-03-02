@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagApplierList should match snapshot 1`] = `
+<div class="tag-applier__list">
+  <div class="vue-recycle-scroller tag-applier__list__content ready direction-vertical">
+    <!---->
+    <div class="vue-recycle-scroller__item-wrapper" style="min-height: 84px;">
+      <div class="vue-recycle-scroller__item-view" style="transform: translateY(0px);"><button tabindex="1" class="list-element has-tooltip" data-original-title="null">
+          <div class="list-element__content">
+            <!---->
+            <div class="badge"><span class="badge__content badge__content--size--medium badge__content--bar" style="background-color: rgba(179, 82, 255, 0.1);"> <span class="badge__content__label badge__content__label--none" style="color: rgb(179, 82, 255);">
+      bar
+    </span>
+              <!----></span>
+            </div>
+            <!---->
+          </div>
+          <!---->
+        </button></div>
+      <div class="vue-recycle-scroller__item-view" style="transform: translateY(28px);"><button tabindex="1" class="list-element has-tooltip" data-original-title="null">
+          <div class="list-element__content">
+            <!---->
+            <div class="badge"><span class="badge__content badge__content--size--medium badge__content--baz" style="background-color: rgba(255, 215, 73, 0.1);"> <span class="badge__content__label badge__content__label--none" style="color: rgb(255, 215, 73);">
+      baz
+    </span>
+              <!----></span>
+            </div>
+            <!---->
+          </div>
+          <!---->
+        </button></div>
+    </div>
+    <!---->
+    <div data-v-b329ee4c="" tabindex="-1" class="resize-observer"><object aria-hidden="true" tabindex="-1" type="text/html" data="about:blank"></object></div>
+  </div>
+</div>
+`;
+
+exports[`TagApplierList should match snapshot with defined label 1`] = `
+<div class="tag-applier__list">
+  <div class="vue-recycle-scroller tag-applier__list__content ready direction-vertical">
+    <!---->
+    <div class="vue-recycle-scroller__item-wrapper" style="min-height: 84px;">
+      <div class="vue-recycle-scroller__item-view" style="transform: translateY(0px);"><button tabindex="1" class="list-element has-tooltip" data-original-title="null">
+          <div class="list-element__content">
+            <!---->
+            <div class="badge"><span class="badge__content badge__content--size--medium badge__content--bar" style="background-color: rgba(179, 82, 255, 0.1);"> <span class="badge__content__label badge__content__label--none" style="color: rgb(179, 82, 255);">
+      bar
+    </span>
+              <!----></span>
+            </div>
+            <!---->
+          </div>
+          <!---->
+        </button></div>
+      <div class="vue-recycle-scroller__item-view" style="transform: translateY(28px);"><button tabindex="1" class="list-element has-tooltip" data-original-title="null">
+          <div class="list-element__content">
+            <!---->
+            <div class="badge"><span class="badge__content badge__content--size--medium badge__content--baz" style="background-color: rgba(255, 215, 73, 0.1);"> <span class="badge__content__label badge__content__label--none" style="color: rgb(255, 215, 73);">
+      baz
+    </span>
+              <!----></span>
+            </div>
+            <!---->
+          </div>
+          <!---->
+        </button></div>
+    </div>
+    <!---->
+    <div data-v-b329ee4c="" tabindex="-1" class="resize-observer"><object aria-hidden="true" tabindex="-1" type="text/html" data="about:blank"></object></div>
+  </div>
+</div>
+`;

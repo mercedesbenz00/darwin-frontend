@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div data-movable="" class="move-handler">
+  <move-handler-icon-stub></move-handler-icon-stub>
+</div>
+`;

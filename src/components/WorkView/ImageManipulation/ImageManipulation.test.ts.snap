@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="image-manipulation">
+  <preset-manipulator-stub editor="[object Object]"></preset-manipulator-stub>
+  <expansion-panels-stub class="image-manipulation__expansion">
+    <expansion-panel-stub id="annotation" activebydefault="true"></expansion-panel-stub>
+  </expansion-panels-stub>
+  <expansion-panels-stub class="image-manipulation__expansion">
+    <expansion-panel-stub id="color" activebydefault="true"></expansion-panel-stub>
+  </expansion-panels-stub>
+  <!---->
+  <expansion-panels-stub class="image-manipulation__expansion">
+    <expansion-panel-stub id="filter" activebydefault="true"></expansion-panel-stub>
+  </expansion-panels-stub> <label class="image-manipulation__tip">Note: Image manipulation metrics don’t change the source image properties.</label>
+</div>
+`;
+
+exports[`matches snapshot when sidebar is closed 1`] = `
+<div class="image-manipulation">
+  <preset-manipulator-stub editor="[object Object]"></preset-manipulator-stub>
+  <expansion-panels-stub class="image-manipulation__expansion">
+    <expansion-panel-stub id="annotation" activebydefault="true"></expansion-panel-stub>
+  </expansion-panels-stub>
+  <expansion-panels-stub class="image-manipulation__expansion">
+    <expansion-panel-stub id="color" activebydefault="true"></expansion-panel-stub>
+  </expansion-panels-stub>
+  <!---->
+  <expansion-panels-stub class="image-manipulation__expansion">
+    <expansion-panel-stub id="filter" activebydefault="true"></expansion-panel-stub>
+  </expansion-panels-stub> <label class="image-manipulation__tip">Note: Image manipulation metrics don’t change the source image properties.</label>
+</div>
+`;

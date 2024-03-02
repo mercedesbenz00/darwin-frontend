@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div to="/workflows/DEVELOPMENT_WORKFLOW_XYZ" class="workflow-card">
+  <div class="workflow-card__upside">
+    <thumbnails-stub data="/static/test.png,/static/test.png,/static/test.png" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="workflow-card__details">
+    <div class="workflow-card__details__row workflow-card__details__row__first">
+      <div class="workflow-card__details__status">
+        <workflow-status-stub variant="running"></workflow-status-stub>
+      </div>
+      <div class="workflow-card__details__more">
+        <three-dot-button-stub size="small"></three-dot-button-stub>
+      </div>
+      <!---->
+    </div>
+    <div class="workflow-card__details__row workflow-card__details__row__second">
+      <div class="workflow-card__details__name" tooltip="{'content':'brain-scan-workflow','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        <header-3-stub>
+          brain-scan-workflow
+        </header-3-stub>
+      </div>
+    </div>
+  </div>
+  <div class="workflow-card__actions">
+    <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="router-link" fullwidth="true" to="/workflows/DEVELOPMENT_WORKFLOW_XYZ"><span class="workflow-card__actions__content"><span class="label"> Open Workflow </span></span></custom-button-stub>
+  </div>
+  <div class="workflow-card__downside">
+    <workflow-stats-stub value="[object Object]"></workflow-stats-stub>
+  </div>
+</div>
+`;
+
+exports[`when menu is disabled matches snapshot 1`] = `
+<div to="/workflows/DEVELOPMENT_WORKFLOW_XYZ" class="workflow-card">
+  <div class="workflow-card__upside">
+    <thumbnails-stub data="/static/test.png,/static/test.png,/static/test.png" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="workflow-card__details">
+    <div class="workflow-card__details__row workflow-card__details__row__first">
+      <div class="workflow-card__details__status">
+        <workflow-status-stub variant="running"></workflow-status-stub>
+      </div>
+      <!---->
+      <!---->
+    </div>
+    <div class="workflow-card__details__row workflow-card__details__row__second">
+      <div class="workflow-card__details__name" tooltip="{'content':'brain-scan-workflow','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        <header-3-stub>
+          brain-scan-workflow
+        </header-3-stub>
+      </div>
+    </div>
+  </div>
+  <div class="workflow-card__actions">
+    <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="router-link" fullwidth="true" to="/workflows/DEVELOPMENT_WORKFLOW_XYZ"><span class="workflow-card__actions__content"><span class="label"> Open Workflow </span></span></custom-button-stub>
+  </div>
+  <div class="workflow-card__downside">
+    <workflow-stats-stub value="[object Object]"></workflow-stats-stub>
+  </div>
+</div>
+`;
+
+exports[`when menu is not disabled matches snapshot 1`] = `
+<div to="/workflows/DEVELOPMENT_WORKFLOW_XYZ" class="workflow-card">
+  <div class="workflow-card__upside">
+    <thumbnails-stub data="/static/test.png,/static/test.png,/static/test.png" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="workflow-card__details">
+    <div class="workflow-card__details__row workflow-card__details__row__first">
+      <div class="workflow-card__details__status">
+        <workflow-status-stub variant="running"></workflow-status-stub>
+      </div>
+      <div class="workflow-card__details__more">
+        <three-dot-button-stub size="small"></three-dot-button-stub>
+      </div>
+      <!---->
+    </div>
+    <div class="workflow-card__details__row workflow-card__details__row__second">
+      <div class="workflow-card__details__name" tooltip="{'content':'brain-scan-workflow','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        <header-3-stub>
+          brain-scan-workflow
+        </header-3-stub>
+      </div>
+    </div>
+  </div>
+  <div class="workflow-card__actions">
+    <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="router-link" fullwidth="true" to="/workflows/DEVELOPMENT_WORKFLOW_XYZ"><span class="workflow-card__actions__content"><span class="label"> Open Workflow </span></span></custom-button-stub>
+  </div>
+  <div class="workflow-card__downside">
+    <workflow-stats-stub value="[object Object]"></workflow-stats-stub>
+  </div>
+</div>
+`;
+
+exports[`when name is long (above 64 characters) matches snapshot 1`] = `
+<div to="/workflows/DEVELOPMENT_WORKFLOW_XYZ" class="workflow-card">
+  <div class="workflow-card__upside">
+    <thumbnails-stub data="/static/test.png,/static/test.png,/static/test.png" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="workflow-card__details">
+    <div class="workflow-card__details__row workflow-card__details__row__first">
+      <div class="workflow-card__details__status">
+        <workflow-status-stub variant="running"></workflow-status-stub>
+      </div>
+      <div class="workflow-card__details__more">
+        <three-dot-button-stub size="small"></three-dot-button-stub>
+      </div>
+      <!---->
+    </div>
+    <div class="workflow-card__details__row workflow-card__details__row__second">
+      <div class="workflow-card__details__name" tooltip="{'content':'very-loooooooooooooooooooooooooooooooooooooooooooooooooooooong-name','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        <header-3-stub>
+          very-loooooooooooooooooooooooooooooooooooooooooooooooooooooon...
+        </header-3-stub>
+      </div>
+    </div>
+  </div>
+  <div class="workflow-card__actions">
+    <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="router-link" fullwidth="true" to="/workflows/DEVELOPMENT_WORKFLOW_XYZ"><span class="workflow-card__actions__content"><span class="label"> Open Workflow </span></span></custom-button-stub>
+  </div>
+  <div class="workflow-card__downside">
+    <workflow-stats-stub value="[object Object]"></workflow-stats-stub>
+  </div>
+</div>
+`;
+
+exports[`when name is short matches snapshot 1`] = `
+<div to="/workflows/DEVELOPMENT_WORKFLOW_XYZ" class="workflow-card">
+  <div class="workflow-card__upside">
+    <thumbnails-stub data="/static/test.png,/static/test.png,/static/test.png" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="workflow-card__details">
+    <div class="workflow-card__details__row workflow-card__details__row__first">
+      <div class="workflow-card__details__status">
+        <workflow-status-stub variant="running"></workflow-status-stub>
+      </div>
+      <div class="workflow-card__details__more">
+        <three-dot-button-stub size="small"></three-dot-button-stub>
+      </div>
+      <!---->
+    </div>
+    <div class="workflow-card__details__row workflow-card__details__row__second">
+      <div class="workflow-card__details__name" tooltip="{'content':'short-name','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        <header-3-stub>
+          short-name
+        </header-3-stub>
+      </div>
+    </div>
+  </div>
+  <div class="workflow-card__actions">
+    <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="router-link" fullwidth="true" to="/workflows/DEVELOPMENT_WORKFLOW_XYZ"><span class="workflow-card__actions__content"><span class="label"> Open Workflow </span></span></custom-button-stub>
+  </div>
+  <div class="workflow-card__downside">
+    <workflow-stats-stub value="[object Object]"></workflow-stats-stub>
+  </div>
+</div>
+`;
+
+exports[`when passed a list of thumbnails matches snapshot 1`] = `
+<div to="/workflows/DEVELOPMENT_WORKFLOW_XYZ" class="workflow-card">
+  <div class="workflow-card__upside">
+    <thumbnails-stub data="/static/test.png,/static/test.png,/static/test.png" max="3" variant="small"></thumbnails-stub>
+  </div>
+  <div class="workflow-card__details">
+    <div class="workflow-card__details__row workflow-card__details__row__first">
+      <div class="workflow-card__details__status">
+        <workflow-status-stub variant="running"></workflow-status-stub>
+      </div>
+      <div class="workflow-card__details__more">
+        <three-dot-button-stub size="small"></three-dot-button-stub>
+      </div>
+      <!---->
+    </div>
+    <div class="workflow-card__details__row workflow-card__details__row__second">
+      <div class="workflow-card__details__name" tooltip="{'content':'brain-scan-workflow','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+        <header-3-stub>
+          brain-scan-workflow
+        </header-3-stub>
+      </div>
+    </div>
+  </div>
+  <div class="workflow-card__actions">
+    <custom-button-stub variant="default" color="primary" size="medium" flair="soft" tag="router-link" fullwidth="true" to="/workflows/DEVELOPMENT_WORKFLOW_XYZ"><span class="workflow-card__actions__content"><span class="label"> Open Workflow </span></span></custom-button-stub>
+  </div>
+  <div class="workflow-card__downside">
+    <workflow-stats-stub value="[object Object]"></workflow-stats-stub>
+  </div>
+</div>
+`;

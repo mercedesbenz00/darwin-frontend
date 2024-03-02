@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when client matches snapshot 1`] = `
+<div class="section partner-status">
+  <div class="section__title">
+    Partner Status
+  </div>
+  <div class="section__body">
+    <div>
+      This team is managed by a partner
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when partner matches snapshot 1`] = `
+<div class="section partner-status">
+  <div class="section__title">
+    Partner Status
+  </div>
+  <div class="section__body">
+    <div>
+      This is a partner team
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when regular matches snapshot 1`] = `
+<div class="section partner-status">
+  <div class="section__title">
+    Partner Status
+  </div>
+  <div class="section__body">
+    <div>
+      <primary-button-stub>
+        Convert to partner
+      </primary-button-stub>
+      <confirmation-dialog-stub title="Are you sure?" detail="Are you sure?" name="convert-to-partner-confirmation" confirmtext="Ok" canceltext="Cancel"></confirmation-dialog-stub>
+    </div>
+  </div>
+</div>
+`;

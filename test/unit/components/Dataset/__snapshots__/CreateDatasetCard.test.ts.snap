@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="create__dataset">
+  <div class="create__dataset__back"><img src="/static/imgs/create-dataset.png" class="create__dataset__back__image"></div>
+  <div class="create__dataset__action">
+    <primary-button-stub tag="router-link" to="/datasets/create">
+      NEW DATASET
+    </primary-button-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="export-format-option"><span>COCO</span>
+  <div class="export-format-option__pills">
+    <export-format-pill-stub pill="[object Object]" class="export-format-option__pill"></export-format-pill-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div id="g_id_onload" data-client_id="sso-client-id" data-nonce="token" data-login_uri="https://darwin.v7labs.com/api/users/authenticate/sso/oauth/google/validate" data-auto_prompt="false"></div>
+  <secondary-button-stub type="button" disabled="" class="btn-google hide">
+    Sign in with Google
+  </secondary-button-stub>
+  <div data-type="standard" data-size="large" data-theme="outline" data-text="signin_with" data-shape="rectangular" data-logo_alignment="left" class="g_id_signin"></div>
+</div>
+`;

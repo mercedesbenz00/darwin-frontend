@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="review-controls">
+  <v2-stage-skip-button-stub></v2-stage-skip-button-stub>
+  <stage-reject-button-stub icon="true"></stage-reject-button-stub>
+  <continue-button-stub type="mark-as-complete"></continue-button-stub>
+</div>
+`;

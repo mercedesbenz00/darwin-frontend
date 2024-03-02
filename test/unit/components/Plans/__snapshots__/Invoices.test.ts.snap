@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="invoices">
+  <div class="invoices__header">
+    Payments
+  </div>
+  <div class="VueTables VueTables--client VuePagination--hide VueTables__table--striped" no-pagination="">
+    <div class="row">
+      <div class="col-md-12"></div>
+    </div>
+    <div class="table-responsive">
+      <table class="VueTables__table table table-striped table-bordered table-hover" style="overflow: hidden;">
+        <thead>
+          <tr>
+            <th title="" tabindex="0" class="VueTables__sortable invoices__table__row__amount" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+              <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+            </th>
+            <th title="" tabindex="0" class="VueTables__sortable invoices__table__row__date" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+              <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+            </th>
+            <th title="" tabindex="0" class="VueTables__sortable invoices__table__row__status" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+              <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+            </th>
+            <th title="" tabindex="0" class="VueTables__sortable invoices__table__row__receipt-link" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+              <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="VueTables__row ">
+            <td tabindex="0" class="invoices__table__row__amount">
+              $5.00
+            </td>
+            <td tabindex="0" class="invoices__table__row__date">
+              May 23rd, 1970
+            </td>
+            <td tabindex="0" class="invoices__table__row__status">
+              Paid
+            </td>
+            <td tabindex="0" class="invoices__table__row__receipt-link"><a href="foo" target="_blank">Receipt</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

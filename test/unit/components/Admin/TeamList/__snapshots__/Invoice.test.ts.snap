@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when draft invoice 1`] = `
+<div class="invoice">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main"><a target="_blank" class="invoice__link invoice__link--draft">$10.00</a> </div>
+    <div class="popover">
+      <div class="invoice__amount invoice__info-item">
+        <div class="invoice__amount__icon invoice__amount__icon--draft">
+          draft
+        </div>
+        <div class="invoice__amount__value">
+          $10.00
+        </div>
+      </div>
+      <div class="invoice__info-item"><strong>Created:</strong> <span>January 1st, 2000</span></div>
+      <div class="invoice__info-item"><strong>Due:</strong> <span>N/A</span></div>
+      <div class="invoice__info-item">
+        Click to download pdf
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when open invoice 1`] = `
+<div class="invoice">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main"><a href="https://fake.stripe.com/inv1234.pdf" target="_blank" class="invoice__link invoice__link--open">$10.00</a> </div>
+    <div class="popover">
+      <div class="invoice__amount invoice__info-item">
+        <div class="invoice__amount__icon invoice__amount__icon--open">
+          open
+        </div>
+        <div class="invoice__amount__value">
+          $10.00
+        </div>
+      </div>
+      <div class="invoice__info-item"><strong>Created:</strong> <span>January 1st, 2000</span></div>
+      <div class="invoice__info-item"><strong>Due:</strong> <span>January 1st, 2040</span></div>
+      <div class="invoice__info-item">
+        Click to download pdf
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when paid invoice 1`] = `
+<div class="invoice">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main"><a href="https://fake.stripe.com/inv1234.pdf" target="_blank" class="invoice__link invoice__link--paid">$10.00</a> </div>
+    <div class="popover">
+      <div class="invoice__amount invoice__info-item">
+        <div class="invoice__amount__icon invoice__amount__icon--paid">
+          paid
+        </div>
+        <div class="invoice__amount__value">
+          $10.00
+        </div>
+      </div>
+      <div class="invoice__info-item"><strong>Created:</strong> <span>January 1st, 2000</span></div>
+      <div class="invoice__info-item"><strong>Due:</strong> <span>December 31st, 2019</span></div>
+      <div class="invoice__info-item">
+        Click to download pdf
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when uncollectible invoice 1`] = `
+<div class="invoice">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main"><a href="https://fake.stripe.com/inv1234.pdf" target="_blank" class="invoice__link invoice__link--uncollectible">$10.00</a> </div>
+    <div class="popover">
+      <div class="invoice__amount invoice__info-item">
+        <div class="invoice__amount__icon invoice__amount__icon--uncollectible">
+          uncollectible
+        </div>
+        <div class="invoice__amount__value">
+          $10.00
+        </div>
+      </div>
+      <div class="invoice__info-item"><strong>Created:</strong> <span>January 1st, 2000</span></div>
+      <div class="invoice__info-item"><strong>Due:</strong> <span>December 31st, 2019</span></div>
+      <div class="invoice__info-item">
+        Click to download pdf
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when void invoice 1`] = `
+<div class="invoice">
+  <div class="v-popover-stub" trigger="hover">
+    <div class="main"><a href="https://fake.stripe.com/inv1234.pdf" target="_blank" class="invoice__link invoice__link--uncollectible">$10.00</a> </div>
+    <div class="popover">
+      <div class="invoice__amount invoice__info-item">
+        <div class="invoice__amount__icon invoice__amount__icon--uncollectible">
+          uncollectible
+        </div>
+        <div class="invoice__amount__value">
+          $10.00
+        </div>
+      </div>
+      <div class="invoice__info-item"><strong>Created:</strong> <span>January 1st, 2000</span></div>
+      <div class="invoice__info-item"><strong>Due:</strong> <span>December 31st, 2019</span></div>
+      <div class="invoice__info-item">
+        Click to download pdf
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with no invoice 1`] = ``;

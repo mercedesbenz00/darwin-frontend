@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stage-complete">
+  <chevron-right-icon-stub class="stage-complete__chevron"></chevron-right-icon-stub> <img src="/static/imgs/image-status/completed.svg" class="stage-complete-icon" tooltip="{'content':'Complete Stage'}">
+</div>
+`;

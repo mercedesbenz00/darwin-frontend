@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when you are a workforce manager of this team matches snapshot 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__header">
+    <div class="dataset-export__header__title">
+      <h1>v7/dataset:version1</h1>
+      <clipboard-icon-stub></clipboard-icon-stub>
+    </div>
+    <div class="dataset-export__header__actions"><button class="dataset-export__header__trash-button dataset-export__header__trash-button--disabled" tooltip="{'content':'You don't have the permissions to delete data'}">
+        <trash-icon-stub></trash-icon-stub>
+      </button>
+      <p>
+        Creating version...
+      </p>
+    </div>
+  </div>
+  <div class="dataset-export__body">
+    <div class="dataset-export__body__date">
+      01/01/2000
+    </div>
+    <div class="dataset-export__body__image-count">
+      10 images
+    </div>
+    <div class="dataset-export__body__class-count">
+      5 classes
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+  </div>
+</div>
+`;
+
+exports[`when you are a workforce manager of this team matches snapshot with download url 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__header">
+    <div class="dataset-export__header__title">
+      <h1>v7/dataset:</h1>
+      <clipboard-icon-stub></clipboard-icon-stub>
+    </div>
+    <div class="dataset-export__header__actions"><button class="dataset-export__header__trash-button dataset-export__header__trash-button--disabled" tooltip="{'content':'You don't have the permissions to delete data'}">
+        <trash-icon-stub></trash-icon-stub>
+      </button>
+      <download-button-stub disabled="true" class="dataset-export__header__download-button"></download-button-stub>
+    </div>
+  </div>
+  <div class="dataset-export__body">
+    <div class="dataset-export__body__date">
+      01/01/2000
+    </div>
+    <div class="dataset-export__body__image-count">
+
+    </div>
+    <div class="dataset-export__body__class-count">
+
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+  </div>
+</div>
+`;
+
+exports[`when you are an admin of this team matches snapshot 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__header">
+    <div class="dataset-export__header__title">
+      <h1>v7/dataset:version1</h1>
+      <clipboard-icon-stub></clipboard-icon-stub>
+    </div>
+    <div class="dataset-export__header__actions"><button class="dataset-export__header__trash-button" tooltip="{'content':'Delete'}">
+        <trash-icon-stub></trash-icon-stub>
+      </button>
+      <p>
+        Creating version...
+      </p>
+    </div>
+  </div>
+  <div class="dataset-export__body">
+    <div class="dataset-export__body__date">
+      01/01/2000
+    </div>
+    <div class="dataset-export__body__image-count">
+      10 images
+    </div>
+    <div class="dataset-export__body__class-count">
+      5 classes
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+  </div>
+</div>
+`;
+
+exports[`when you are an admin of this team matches snapshot when metadata is empty 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__header">
+    <div class="dataset-export__header__title">
+      <h1>v7/dataset:</h1>
+      <clipboard-icon-stub></clipboard-icon-stub>
+    </div>
+    <div class="dataset-export__header__actions"><button class="dataset-export__header__trash-button" tooltip="{'content':'Delete'}">
+        <trash-icon-stub></trash-icon-stub>
+      </button>
+      <p>
+        Creating version...
+      </p>
+    </div>
+  </div>
+  <div class="dataset-export__body">
+    <div class="dataset-export__body__date">
+      01/01/2000
+    </div>
+    <div class="dataset-export__body__image-count">
+
+    </div>
+    <div class="dataset-export__body__class-count">
+
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+  </div>
+</div>
+`;
+
+exports[`when you are an admin of this team matches snapshot with download url 1`] = `
+<div class="dataset-export">
+  <div class="dataset-export__header">
+    <div class="dataset-export__header__title">
+      <h1>v7/dataset:</h1>
+      <clipboard-icon-stub></clipboard-icon-stub>
+    </div>
+    <div class="dataset-export__header__actions"><button class="dataset-export__header__trash-button" tooltip="{'content':'Delete'}">
+        <trash-icon-stub></trash-icon-stub>
+      </button>
+      <download-button-stub class="dataset-export__header__download-button"></download-button-stub>
+    </div>
+  </div>
+  <div class="dataset-export__body">
+    <div class="dataset-export__body__date">
+      01/01/2000
+    </div>
+    <div class="dataset-export__body__image-count">
+
+    </div>
+    <div class="dataset-export__body__class-count">
+
+    </div>
+    <div class="dataset-export__body__type-counts"></div>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagApplierInput should match snapshot 1`] = `
+<div class="tag-applier__input">
+  <input-field-stub value="" tag="div" id="TagApplierInput" placeholder="Type to search or add a tag" type="text" items="" multiple="true" wrap="true" color="transparent" class="input-field"></input-field-stub>
+</div>
+`;

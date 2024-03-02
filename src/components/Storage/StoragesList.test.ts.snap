@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+  <v-table-stub columns="[object Object],[object Object],name,region,access,prefix,[object Object]" data="[object Object],[object Object]" options="[object Object]" pagination="true" striped="true" hover="true" cursorpointer="true"></v-table-stub>
+  <!---->
+  <delete-confirmation-dialog-stub title="" detail="" buttontext="REMOVE STORAGE" name="delete-storage-modal"></delete-confirmation-dialog-stub>
+  <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgba(0, 0, 0, 0.1);">
+
+    <div class="mul5">
+      <div class="mul5circle1"></div>
+      <div class="mul5circle2"></div>
+      <div class="mul5circle3"></div>
+    </div>
+
+    <label>Loading...</label>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when storage list is empty 1`] = `
+<div data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+  <v-table-stub columns="[object Object],[object Object],name,region,access,prefix,[object Object]" data="" options="[object Object]" pagination="true" striped="true" hover="true" cursorpointer="true"></v-table-stub>
+  <!---->
+  <delete-confirmation-dialog-stub title="" detail="" buttontext="REMOVE STORAGE" name="delete-storage-modal"></delete-confirmation-dialog-stub>
+  <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgba(0, 0, 0, 0.1);">
+
+    <div class="mul5">
+      <div class="mul5circle1"></div>
+      <div class="mul5circle2"></div>
+      <div class="mul5circle3"></div>
+    </div>
+
+    <label>Loading...</label>
+  </div>
+</div>
+`;

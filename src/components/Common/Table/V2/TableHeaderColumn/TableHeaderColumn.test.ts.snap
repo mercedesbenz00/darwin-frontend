@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div class="column-head__container" style="width: 100px;"><button class="column-head__wrapper">
+    <div class="column-head__content">
+      <h1 class="column-head__label">
+        Test Column
+      </h1>
+      <div class="sort-icon__wrapper">
+        <icon-mono-sort-stub style="transform: rotate(0deg);"></icon-mono-sort-stub>
+      </div>
+    </div>
+  </button>
+  <div class="column-resize-area">
+    <div class="column-resizer"></div>
+  </div>
+</div>
+`;

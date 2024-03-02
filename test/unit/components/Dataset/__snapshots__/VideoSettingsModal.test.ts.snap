@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<modal-stub name="video-modal" delay="0" overlaytransition="overlay-fade" transition="pop-out" classes="video-modal" minwidth="350" minheight="0" maxwidth="600" maxheight="9007199254740991" width="35%" height="550" pivotx="0.5" pivoty="0.5">
+  <div class="modal-header">
+    <p class="video-modal__title">
+      Settings for video file
+    </p>
+    <p class="video-modal__filename">
+      file.mp4
+    </p>
+    <p class="video-modal__description">
+      Pick a frequency to extract frames from this video.
+      A high FPS (right) will create more, similar images, while a low one
+      will create less but varied imagery.
+      <br> <br>For object detection, 2 FPS creates variety and low repetition.
+      <br>For video tracking datasets, consider choosing 15 FPS or higher.
+    </p>
+    <div class="video-modal__close">
+      ✕
+    </div>
+  </div>
+  <form class="modal-content">
+    <div class="video-control">
+      <div class="video-control__frames">
+        <div class="video-control__radio-container">
+          <check-box-stub name="native" label="Keep the native frame rate" type="rect" size="default"></check-box-stub>
+          <info-stub title="Native frame rate">
+            Label at the native frame rate of the video. Note: This may create
+            an unnecessary number of frames which take longer to annotate.
+          </info-stub>
+        </div>
+        <div class="video-control__radio-container"><label class="video-control__frames-summary">Extract 1 frames per second, for a total of 60 images.</label>
+          <info-stub title="Frames per Second">
+            How frequently do you want frames of your video to be extracted.
+            A high frequency (right) will create more, similar images, while a
+            low one will create less, but more varied imagery.
+          </info-stub>
+        </div>
+      </div>
+      <div class="video-control__slider-container">
+        <slider-stub value="1" options="[object Object]" class="video-control__slider"></slider-stub>
+        <!---->
+      </div>
+      <div class="video-control__radio-container">
+        <radio-stub value="annotation_as_video" name="annotate_as_video" label="Annotate as a video" selected="true" class="video-control__radio"></radio-stub>
+        <info-stub>
+          Scrub through the video and interpolate labels. 1 video is counted
+          as a single task. Annotation persist between frames unless deleted
+          or hidden.
+        </info-stub>
+      </div>
+      <div class="video-control__radio-container">
+        <radio-stub value="annotation_as_image" name="annotation_as_image" label="Annotate as individual images" class="video-control__radio"></radio-stub>
+        <info-stub>
+          Import frames as individual images. Each frame is counted as a
+          single task. Annotations do not carry over between images unless
+          copied.
+        </info-stub>
+      </div>
+    </div>
+  </form>
+  <div class="modal-footer">
+    <secondary-button-stub class="video-modal__cancel">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub class="video-modal__upload">
+      Upload
+    </positive-button-stub>
+  </div>
+</modal-stub>
+`;

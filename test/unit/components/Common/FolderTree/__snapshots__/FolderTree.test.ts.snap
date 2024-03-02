@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="folder-tree">
+  <folder-tree-item-stub folder="[object Object]" class="folder-tree__item"></folder-tree-item-stub>
+  <folder-tree-item-stub folder="[object Object]" class="folder-tree__item"></folder-tree-item-stub>
+</div>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="workflow-card__stats">
+  <div class="workflow-card__stats__row workflow-card__stats__row__first">
+    <div class="attribute-stack workflow-card__stats__attribute-stack workflow-card__stats__attribute-stack__items">
+      <h3 class="attribute-stack__label attribute-stack__label--primary">
+        10.0k
+      </h3>
+      <h3 class="attribute-stack__label attribute-stack__label--secondary">
+        Items
+      </h3>
+    </div>
+    <div class="attribute-stack workflow-card__stats__attribute-stack workflow-card__stats__attribute-stack__complete">
+      <h3 class="attribute-stack__label attribute-stack__label--primary">
+        1000
+      </h3>
+      <h3 class="attribute-stack__label attribute-stack__label--secondary">
+        Completed
+      </h3>
+    </div>
+    <div class="attribute-stack workflow-card__stats__attribute-stack workflow-card__stats__attribute-stack__in-progress">
+      <h3 class="attribute-stack__label attribute-stack__label--primary">
+        9000
+      </h3>
+      <h3 class="attribute-stack__label attribute-stack__label--secondary">
+        In progress
+      </h3>
+    </div>
+  </div>
+  <div class="workflow-card__stats__row workflow-card__stats__row__second">
+    <div class="workflow-card__stats__progress" tooltip="{'content':'10.0% Completed','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+      <div class="workflow-card__stats__progress__bar">
+        <div role="progressbar" tabindex="1" class="progress-indicator"><span class="progress-indicator-value progress-indicator-value--active" style="width: 10%;"></span></div>
+      </div>
+      <div class="workflow-card__stats__progress__label">
+        10.0%
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when correct props are used matches snapshot 1`] = `
+<div class="workflow-card__stats">
+  <div class="workflow-card__stats__row workflow-card__stats__row__first">
+    <div class="attribute-stack workflow-card__stats__attribute-stack workflow-card__stats__attribute-stack__items">
+      <h3 class="attribute-stack__label attribute-stack__label--primary">
+        10.0k
+      </h3>
+      <h3 class="attribute-stack__label attribute-stack__label--secondary">
+        Items
+      </h3>
+    </div>
+    <div class="attribute-stack workflow-card__stats__attribute-stack workflow-card__stats__attribute-stack__complete">
+      <h3 class="attribute-stack__label attribute-stack__label--primary">
+        1000
+      </h3>
+      <h3 class="attribute-stack__label attribute-stack__label--secondary">
+        Completed
+      </h3>
+    </div>
+    <div class="attribute-stack workflow-card__stats__attribute-stack workflow-card__stats__attribute-stack__in-progress">
+      <h3 class="attribute-stack__label attribute-stack__label--primary">
+        9000
+      </h3>
+      <h3 class="attribute-stack__label attribute-stack__label--secondary">
+        In progress
+      </h3>
+    </div>
+  </div>
+  <div class="workflow-card__stats__row workflow-card__stats__row__second">
+    <div class="workflow-card__stats__progress" tooltip="{'content':'10.0% Completed','placement':'top','delay':{'show':300},'classes':'tooltip--workflow-card'}">
+      <div class="workflow-card__stats__progress__bar">
+        <div role="progressbar" tabindex="1" class="progress-indicator"><span class="progress-indicator-value progress-indicator-value--active" style="width: 10%;"></span></div>
+      </div>
+      <div class="workflow-card__stats__progress__label">
+        10.0%
+      </div>
+    </div>
+  </div>
+</div>
+`;

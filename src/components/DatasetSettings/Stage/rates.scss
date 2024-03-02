@@ -1,0 +1,40 @@
+/**
+ * This mixin is used in conjunction with the scroll.scss mixin, to provide a
+ * scrollable list of annotators, with skip rates for each rendered in a
+ * separate column, placed outside the main container box.
+ *
+ * See documentation for scroll.scss for additional info.
+ */
+@mixin rates {
+  // Width of the rates column
+  $ratesWidth: 46px;
+  // Column gap between items in every row
+  $itemGap: 5px;
+  // Total horizontal margin around every item.
+  $itemMargin: 8px;
+
+  &--rates :deep(.stage__header) {
+    padding-right: 0;
+    grid-template-columns: auto 1fr auto auto 0;
+  }
+
+  &--rates {
+    margin-right: $ratesWidth;
+  }
+
+  &--rates .rates-container {
+    width: calc(100% + #{$itemMargin} + #{$itemGap} + #{$ratesWidth});
+  }
+
+
+  &--rates .rates-row {
+    display: grid;
+    grid-template-columns: 1fr $ratesWidth;
+    column-gap: $itemMargin + $itemGap;
+    align-items: center;
+  }
+
+  &--rates .rates-asside {
+    margin-left: $itemMargin;
+  }
+}

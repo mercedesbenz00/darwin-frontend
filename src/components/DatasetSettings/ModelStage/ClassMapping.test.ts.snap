@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when mapped pre-existing stage matches snapshot 1`] = `
+<div class="mapping">
+  <div class="mapping__header">
+    <h3 class="mapping__header__title">
+      Map Classes
+    </h3>
+    <h3 class="mapping__header__content">
+      This model outputs certain classes - What should they correspond to in this dataset?
+    </h3>
+  </div>
+  <div class="mapping__body">
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+  </div>
+  <div class="mapping__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub>
+      Confirm
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when new stage matches snapshot 1`] = `
+<div class="mapping">
+  <div class="mapping__header">
+    <h3 class="mapping__header__title">
+      Map Classes
+    </h3>
+    <h3 class="mapping__header__content">
+      This model outputs certain classes - What should they correspond to in this dataset?
+    </h3>
+  </div>
+  <div class="mapping__body">
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+  </div>
+  <div class="mapping__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub>
+      Confirm
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when no stage and no mapping matches snapshot 1`] = `
+<div class="mapping">
+  <div class="mapping__header">
+    <h3 class="mapping__header__title">
+      Map Classes
+    </h3>
+    <h3 class="mapping__header__content">
+      This model outputs certain classes - What should they correspond to in this dataset?
+    </h3>
+  </div>
+  <div class="mapping__body">
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+  </div>
+  <div class="mapping__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub>
+      Confirm
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when no stage, but pre-existing mapping matches snapshot 1`] = `
+<div class="mapping">
+  <div class="mapping__header">
+    <h3 class="mapping__header__title">
+      Map Classes
+    </h3>
+    <h3 class="mapping__header__content">
+      This model outputs certain classes - What should they correspond to in this dataset?
+    </h3>
+  </div>
+  <div class="mapping__body">
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+  </div>
+  <div class="mapping__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub>
+      Confirm
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when unmapped pre-existing stage matches snapshot 1`] = `
+<div class="mapping">
+  <div class="mapping__header">
+    <h3 class="mapping__header__title">
+      Map Classes
+    </h3>
+    <h3 class="mapping__header__content">
+      This model outputs certain classes - What should they correspond to in this dataset?
+    </h3>
+  </div>
+  <div class="mapping__body">
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+    <class-mapping-item-stub mappedclass="[object Object]" annotationclasses="[object Object],[object Object]"></class-mapping-item-stub>
+  </div>
+  <div class="mapping__footer">
+    <secondary-button-stub>
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub>
+      Confirm
+    </positive-button-stub>
+  </div>
+</div>
+`;

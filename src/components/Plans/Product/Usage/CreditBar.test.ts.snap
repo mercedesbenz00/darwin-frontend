@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when full usage matches snapshot 1`] = `
+<div class="credit-usage-summary">
+  <div class="credit-usage__progress">
+    <div class="credit-usage__human" style="width: 30%;"></div>
+    <div class="credit-usage__automation" style="width: 60%;"></div>
+    <div class="credit-usage__model" style="width: 10%;"></div>
+    <!---->
+  </div>
+  <div class="credit-usage__labels">
+    <div class="credit-usage__human" style="min-width: 30%;">
+      30 in Human Hours
+    </div>
+    <div class="credit-usage__automation" style="min-width: 60%;">
+      60 in Automation
+    </div>
+    <div class="credit-usage__model" style="min-width: 10%;">
+      10 in Model Uptime
+    </div>
+    <!---->
+    <div class="credit-usage__used">
+      100 Used
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when partner matches snapshot 1`] = `
+<div class="credit-usage-summary">
+  <div class="credit-usage__progress">
+    <div class="credit-usage__human" style="width: 20%;"></div>
+    <div class="credit-usage__automation" style="width: 10%;"></div>
+    <div class="credit-usage__model" style="width: 10%;"></div>
+    <div class="credit-usage__client" style="width: 40%;"></div>
+  </div>
+  <div class="credit-usage__labels">
+    <div class="credit-usage__human" style="min-width: 20%;">
+      20 in Human Hours
+    </div>
+    <div class="credit-usage__automation" style="min-width: 10%;">
+      10 in Automation
+    </div>
+    <div class="credit-usage__model" style="min-width: 10%;">
+      10 in Model Uptime
+    </div>
+    <div class="credit-usage__client" style="min-width: 40%;">
+      40 in Clients
+    </div>
+    <div class="credit-usage__used">
+      70 Used
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when some usage matches snapshot 1`] = `
+<div class="credit-usage-summary">
+  <div class="credit-usage__progress">
+    <div class="credit-usage__human" style="width: 20%;"></div>
+    <div class="credit-usage__automation" style="width: 30%;"></div>
+    <div class="credit-usage__model" style="width: 10%;"></div>
+    <!---->
+  </div>
+  <div class="credit-usage__labels">
+    <div class="credit-usage__human" style="min-width: 20%;">
+      20 in Human Hours
+    </div>
+    <div class="credit-usage__automation" style="min-width: 30%;">
+      30 in Automation
+    </div>
+    <div class="credit-usage__model" style="min-width: 10%;">
+      10 in Model Uptime
+    </div>
+    <!---->
+    <div class="credit-usage__used">
+      60 Used
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when zero usage matches snapshot 1`] = `
+<div class="credit-usage-summary">
+  <div class="credit-usage__progress">
+    <div class="credit-usage__human" style="width: 0%;"></div>
+    <div class="credit-usage__automation" style="width: 0%;"></div>
+    <div class="credit-usage__model" style="width: 0%;"></div>
+    <!---->
+  </div>
+  <div class="credit-usage__labels">
+    <div class="credit-usage__human" style="min-width: 0%;">
+      0 in Human Hours
+    </div>
+    <div class="credit-usage__automation" style="min-width: 0%;">
+      0 in Automation
+    </div>
+    <div class="credit-usage__model" style="min-width: 0%;">
+      0 in Model Uptime
+    </div>
+    <!---->
+    <div class="credit-usage__used">
+      0 Used
+    </div>
+  </div>
+</div>
+`;

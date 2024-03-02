@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`for archived item during time travel matches snapshot 1`] = `
+<div class="workflow-controls">
+  <back-to-the-present-stub class="workflow-controls__back"></back-to-the-present-stub>
+  <div data-original-title="null" class=" has-tooltip">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`for archived item matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div data-original-title="null" class=" has-tooltip">
+    <continue-button-stub type="archived" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for archived item no access rights matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div data-original-title="null" class=" has-tooltip">
+    <continue-button-stub type="archived" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AA T R C workflow annotate stage matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-skip-button-stub class="workflow-controls__skip"></stage-skip-button-stub>
+  <div>
+    <continue-button-stub type="send-to-test" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AA T R C workflow annotate stage, ready for completion matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-skip-button-stub class="workflow-controls__skip"></stage-skip-button-stub>
+  <div>
+    <continue-button-stub type="send-to-test" waiting="true" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AA T R C workflow review stage matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-archive-button-stub icon="true" class="workflow-controls__archive"></stage-archive-button-stub>
+  <!---->
+  <div>
+    <continue-button-stub type="mark-as-complete" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, annotate stage assigned matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-skip-button-stub class="workflow-controls__skip"></stage-skip-button-stub>
+  <div>
+    <continue-button-stub type="send-to-review" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, annotate stage during time travel matches snapshot 1`] = `
+<div class="workflow-controls">
+  <back-to-the-present-stub class="workflow-controls__back"></back-to-the-present-stub>
+  <div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, annotate stage unassigned, admin matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-skip-button-stub class="workflow-controls__skip"></stage-skip-button-stub>
+  <div>
+    <continue-button-stub type="send-to-review" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, annotate stage unassigned, not admin matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, complete stage during time travel matches snapshot 1`] = `
+<div class="workflow-controls">
+  <back-to-the-present-stub class="workflow-controls__back"></back-to-the-present-stub>
+  <div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, complete stage matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div>
+    <continue-button-stub type="completed" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, complete stage no access rights matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div>
+    <continue-button-stub type="completed" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, review stage assigned matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-archive-button-stub icon="true" class="workflow-controls__archive"></stage-archive-button-stub>
+  <stage-reject-button-stub icon="true" class="workflow-controls__reject"></stage-reject-button-stub>
+  <div>
+    <continue-button-stub type="mark-as-complete" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, review stage during time travel matches snapshot 1`] = `
+<div class="workflow-controls">
+  <back-to-the-present-stub class="workflow-controls__back"></back-to-the-present-stub>
+  <div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, review stage unassigned, admin matches snapshot 1`] = `
+<div class="workflow-controls">
+  <stage-archive-button-stub icon="true" class="workflow-controls__archive"></stage-archive-button-stub>
+  <stage-reject-button-stub icon="true" class="workflow-controls__reject"></stage-reject-button-stub>
+  <div>
+    <continue-button-stub type="mark-as-complete" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item in AR workflow, review stage unassigned, not admin matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`for item without workflow during time travel matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div data-original-title="null" class=" has-tooltip">
+    <continue-button-stub type="new" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item without workflow matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div data-original-title="null" class=" has-tooltip">
+    <continue-button-stub type="new" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;
+
+exports[`for item without workflow no access rights matches snapshot 1`] = `
+<div class="workflow-controls">
+  <!---->
+  <div data-original-title="null" class=" has-tooltip">
+    <continue-button-stub type="new" class="workflow-controls__continue"></continue-button-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentEditBox snapshot testing 1`] = `
+<div class="mentionable" insert-space="" offset="6" popover-class="popover-mention" keys="@">
+  <textarea-autosize-stub value="" autosize="true" minheight="15" maxheight="350" placeholder="Reply" class="textarea"></textarea-autosize-stub>
+  <div class="comment-edit-box__no-members">
+    No result
+  </div>
+</div>
+`;

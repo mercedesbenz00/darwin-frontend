@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when delete key frame is set 1`] = `
+<popup-menu-stub class="context-menu" style="left: 0px; top: 0px;">
+  <popup-menu-item-stub theme="standard">
+    Create Key Frame
+  </popup-menu-item-stub>
+  <popup-menu-item-stub theme="crimson">
+    Delete Key Frame
+  </popup-menu-item-stub>
+  <popup-menu-item-stub theme="standard">
+    Change Annotation Class
+  </popup-menu-item-stub>
+  <popup-menu-item-stub theme="crimson">
+    Delete Annotation
+  </popup-menu-item-stub>
+</popup-menu-stub>
+`;
+
+exports[`matches snapshot when invisible 1`] = ``;
+
+exports[`matches snapshot when visible 1`] = `
+<popup-menu-stub class="context-menu" style="left: 0px; top: 0px;">
+  <popup-menu-item-stub theme="standard">
+    Create Key Frame
+  </popup-menu-item-stub>
+  <!---->
+  <popup-menu-item-stub theme="standard">
+    Change Annotation Class
+  </popup-menu-item-stub>
+  <popup-menu-item-stub theme="crimson">
+    Delete Annotation
+  </popup-menu-item-stub>
+</popup-menu-stub>
+`;

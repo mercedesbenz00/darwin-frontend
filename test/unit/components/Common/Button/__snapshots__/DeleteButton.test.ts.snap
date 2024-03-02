@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<button type="button" class="trash">
+  <trash-icon-stub class="trash__icon"></trash-icon-stub>
+</button>
+`;

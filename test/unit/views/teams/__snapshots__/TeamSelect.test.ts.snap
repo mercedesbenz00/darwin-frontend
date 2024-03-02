@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<background-stub>
+  <div class="auth header">
+    <logo-stub theme="dark" size="normal"></logo-stub>
+  </div>
+  <div class="center__content">
+    <div class="select-team__header">
+      <p>
+        Team Team1 was disabled. Please
+        <a href="mailto:support@v7labs.com">contact support</a> to re-enable it.
+      </p>
+      <p>
+        You can alternatively keep using Darwin by selecting another team.
+      </p>
+    </div>
+    <div class="select-team__modal">
+      <div class="select-team__modal__item select-team__modal__user"><img src="" class="select-team__modal__avatar">
+        <div class="select-team__modal__team">
+          <div class="select-team__modal__team-name--other">
+            Team1
+          </div>
+        </div>
+      </div>
+      <div class="select-team__modal__item select-team__modal__user"><img src="" class="select-team__modal__avatar">
+        <div class="select-team__modal__team">
+          <div class="select-team__modal__team-name--other">
+            Team2
+          </div>
+        </div>
+      </div>
+      <div class="select-team__modal__item select-team__modal__logout">
+        <power-icon-stub class="select-team__modal__logout__icon"></power-icon-stub>
+        <div class="select-team__modal__logout__text">
+          Log Out
+        </div>
+      </div>
+    </div>
+  </div>
+</background-stub>
+`;

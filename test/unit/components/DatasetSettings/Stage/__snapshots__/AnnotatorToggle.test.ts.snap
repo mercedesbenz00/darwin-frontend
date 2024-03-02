@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<rounded-toggle-button-stub class="stage-annotator">
+  <team-member-avatar-stub member="[object Object]" class="stage-annotator__avatar"></team-member-avatar-stub> <span class="stage-annotator__name">John Smith</span>
+</rounded-toggle-button-stub>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<rounded-toggle-button-stub selected="true" class="stage-annotator">
+  <team-member-avatar-stub member="[object Object]" class="stage-annotator__avatar"></team-member-avatar-stub> <span class="stage-annotator__name">John Smith</span>
+</rounded-toggle-button-stub>
+`;

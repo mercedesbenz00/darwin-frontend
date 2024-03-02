@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card-thumbnail"><img class="card-thumbnail__img">
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when dicom 1`] = `
+<div class="card-thumbnail"><img class="card-thumbnail__img">
+  <!---->
+  <frames-overlay-icon-stub class="card-thumbnail__video_overlay"></frames-overlay-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot when dicom 2`] = `
+<div class="card-thumbnail"><img class="card-thumbnail__img">
+  <!---->
+  <frames-overlay-icon-stub class="card-thumbnail__video_overlay"></frames-overlay-icon-stub>
+</div>
+`;
+
+exports[`matches snapshot when folder 1`] = `
+<div class="card-thumbnail">
+  <div class="card-thumbnail__folder_placeholder"></div>
+</div>
+`;
+
+exports[`matches snapshot when folder and url is null 1`] = `<div class="card-thumbnail"><img class="card-thumbnail__img card-thumbnail__img--folder"></div>`;
+
+exports[`matches snapshot when video 1`] = `
+<div class="card-thumbnail"><img class="card-thumbnail__img">
+  <video-overlay-icon-stub class="card-thumbnail__video_overlay"></video-overlay-icon-stub>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when video-frames 1`] = `
+<div class="card-thumbnail"><img class="card-thumbnail__img">
+  <!---->
+  <frames-overlay-icon-stub class="card-thumbnail__video_overlay"></frames-overlay-icon-stub>
+</div>
+`;

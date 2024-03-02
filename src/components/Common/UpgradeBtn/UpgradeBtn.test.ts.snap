@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when team is not target plan matches snaphsot 1`] = `
+<span class="upgrade-button"><span><upgrade-tfa-icon-stub class="upgrade-button__icon" tooltip="{'content':'Upgrade to enterprise to unlock this feature'}"></upgrade-tfa-icon-stub></span>
+<portal-stub name="1" order="0" slotprops="[object Object]" tag="DIV" to="modal">
+  <edit-plan-modal-stub initialplan="enterprise"></edit-plan-modal-stub>
+</portal-stub>
+</span>
+`;
+
+exports[`when team is target plan matches snaphsot 1`] = ``;

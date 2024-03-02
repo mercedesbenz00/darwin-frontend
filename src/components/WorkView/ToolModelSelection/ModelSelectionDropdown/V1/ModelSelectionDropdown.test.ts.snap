@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correctly renders ModelSelectionDropdown 1`] = `
+<div
+  class="model__dropdown"
+>
+  <select2-stub
+    options="[object Object],[object Object],[object Object],[object Object]"
+    placeholder=""
+    settings="[object Object]"
+  />
+</div>
+`;

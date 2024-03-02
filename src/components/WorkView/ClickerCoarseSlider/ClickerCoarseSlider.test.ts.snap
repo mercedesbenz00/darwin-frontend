@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div class="clicker-coarse-selector">
+  <div class="clicker-coarse-selector__marks"><span>Fine</span> <span>Coarse</span></div>
+  <div class="clicker-coarse-selector__wrapper">
+    <div class="vue-slider clicker-coarse-selector__wrapper__slider" eventtype="auto" width="100%" height="5" min="0.5" max="4.5" step="1" absorb="true" dotsize="20" dotstyle="[object Object]" processstyle="[object Object]" railstyle="[object Object]" show="true" speed="1" tooltip="none" tooltipplacement="top" tooltipstyle="[object Object]" value="0.5">
+      <div class="clicker-coarse-selector__wrapper__slider__dot">
+        <knob-icon-stub class="clicker-coarse-selector__wrapper__slider__dot__knob"></knob-icon-stub> <span>0.5</span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

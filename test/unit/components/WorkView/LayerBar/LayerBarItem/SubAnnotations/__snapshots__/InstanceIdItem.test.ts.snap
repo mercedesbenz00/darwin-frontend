@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<sub-annotation-item-stub annotationclass="[object Object]" type="instance_id" class="instance-id-item">
+  <content-editable-stub value="100" placeholder="Click to add instance id" tag="div" disablemultiline="true" type="text" class="instance-id-item__input" input-auto-blur="true"></content-editable-stub>
+</sub-annotation-item-stub>
+`;
+
+exports[`matches snapshot when readonly 1`] = `
+<sub-annotation-item-stub annotationclass="[object Object]" type="instance_id" readonly="true" class="instance-id-item">
+  <content-editable-stub value="100" placeholder="Click to add instance id" tag="div" disablemultiline="true" disabled="true" type="text" class="instance-id-item__input" input-auto-blur="true"></content-editable-stub>
+</sub-annotation-item-stub>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the sidebar 1`] = `
+<div class="hotkeys-sidebar">
+  <div class="hotkeys-sidebar__header"><button class="hotkeys-sidebar__button hotkeys-sidebar__button--open">
+      ⌘
+    </button> <strong class="hotkeys-sidebar__title">Keyboard Shortcuts</strong> <button class="hotkeys-sidebar__button hotkeys-sidebar__button--close"></button></div>
+  <div class="hotkeys-sidebar__content">HotKey Info content slot</div>
+</div>
+`;

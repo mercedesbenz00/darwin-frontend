@@ -1,0 +1,34 @@
+@startuml commentator
+
+[*] -down-> Inactive
+hide empty description
+
+Inactive : other tool selected
+Initial : this tool selected
+
+Inactive -down[#green]-> Initial : select tool
+Initial -up[#red]-> Inactive : deselect tool
+
+Initial -left[#green]-> DownCreating : mousedown
+DownCreating -right[#yellow]-> Initial : mouseup
+DownCreating -[#green]-> Creating : mousemove > 3px
+Creating -[#purple]-> Initial : mouseup
+
+Initial -[#green]-> HoveringThread : mousemove
+HoveringThread -[#green]-> DownOverThread : mousedown
+DownOverThread -[#green]-> MovingThread : mousemove > 3px, isAuthor
+MovingThread -[#purple]-> Initial : mouseup
+
+HoveringThread -down[#blue]-> HoveringVertex : mousemove
+HoveringVertex -down[#blue]-> DownOverVertex : mousedown
+DownOverVertex -down[#blue]-> MovingVertex : mousemove > 3px, isAuthor
+MovingVertex -up[#purple]-> Initial : mouseup
+
+HoveringThread -up[#yellow]-> Initial : mousemove
+HoveringVertex -up[#yellow]-> Initial : mousemove
+HoveringVertex -up[#yellow]-> HoveringThread : mousemove
+
+DownOverThread -up[#yellow]-> Initial : mouseup
+DownOverVertex -up[#yellow]-> Initial : mouseup
+
+@enduml

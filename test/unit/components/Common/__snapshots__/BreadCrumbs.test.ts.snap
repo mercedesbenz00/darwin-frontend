@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders breadcrumbs 1`] = `
+<div class="breadcrumbs">
+  <div class="breadcrumbs__linkless">
+    Home (no link)
+  </div>
+  <router-link-stub to="level-1" exact-active-class="breadcrumbs__link--active" class="breadcrumbs__link">
+    Level 1
+  </router-link-stub>
+  <router-link-stub to="level-2" exact-active-class="breadcrumbs__link--active" class="breadcrumbs__link">
+    Level 2
+  </router-link-stub>
+  <div class="breadcrumbs__linkless">
+    Here (no link)
+  </div>
+</div>
+`;

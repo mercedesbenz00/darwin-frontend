@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stage-item-stub stage-instance" item="[object Object]">
+  <div class="main-slot-given">
+    <!---->
+    <stage-instance-stub instance="[object Object]" class="stage-instance__instance"></stage-instance-stub>
+  </div>
+  <div class="main-slot-given">
+    <time-summary-stub stage="[object Object]"></time-summary-stub>
+  </div>
+</div>
+`;
+
+exports[`when instance is future when assigned matches snapshot 1`] = `
+<div class="stage-item-stub stage-instance" item="[object Object]">
+  <div class="main-slot-given">
+    <!---->
+    <stage-instance-stub instance="[object Object]" class="stage-instance__instance"></stage-instance-stub>
+  </div>
+  <div class="main-slot-given">
+    <time-summary-stub stage="[object Object]"></time-summary-stub>
+  </div>
+</div>
+`;
+
+exports[`when instance is future when not assigned matches snapshot 1`] = `
+<div class="stage-item-stub stage-instance" item="[object Object]">
+  <div class="main-slot-given">
+    <!---->
+    <stage-instance-stub instance="[object Object]" class="stage-instance__instance"></stage-instance-stub>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when restartable matches snapshot 1`] = `
+<div class="stage-item-stub stage-instance stage-instance--restartable" item="[object Object]">
+  <div class="main-slot-given">
+    <refresh-icon-stub class="stage-instance__restart"></refresh-icon-stub>
+    <stage-instance-stub instance="[object Object]" class="stage-instance__instance"></stage-instance-stub>
+  </div>
+  <!---->
+</div>
+`;

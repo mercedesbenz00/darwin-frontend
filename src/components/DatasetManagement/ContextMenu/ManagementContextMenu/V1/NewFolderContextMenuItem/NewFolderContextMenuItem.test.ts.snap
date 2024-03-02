@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="folder-popover" dataset="[object Object]" folders="[object Object]" loading="true">
+  <gallery-context-menu-item-stub label="FOLDER" class="new-folder-context-menu-item">
+    <folder-icon-stub class="new-folder__icon"></folder-icon-stub>
+  </gallery-context-menu-item-stub>
+</div>
+`;
+
+exports[`matches snapshot when loading is true 1`] = `
+<div class="folder-popover" dataset="[object Object]" folders="[object Object]" loading="true">
+  <gallery-context-menu-item-stub label="FOLDER" class="new-folder-context-menu-item">
+    <folder-icon-stub class="new-folder__icon"></folder-icon-stub>
+  </gallery-context-menu-item-stub>
+</div>
+`;
+
+exports[`matches snapshot when video page 1`] = `
+<div class="folder-popover" dataset="[object Object]" folders="[object Object]" loading="true" disabled="disabled">
+  <gallery-context-menu-item-stub label="FOLDER" class="new-folder-context-menu-item">
+    <folder-icon-stub class="new-folder__icon"></folder-icon-stub>
+  </gallery-context-menu-item-stub>
+</div>
+`;

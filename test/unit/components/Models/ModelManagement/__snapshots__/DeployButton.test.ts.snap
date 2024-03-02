@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<model-button-stub color="secondary" text="Start" class="deploy-button"></model-button-stub>`;

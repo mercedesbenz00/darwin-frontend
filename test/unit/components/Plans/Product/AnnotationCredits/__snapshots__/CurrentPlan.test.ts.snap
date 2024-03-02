@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`in trial matches snaphsot 1`] = `<product-layout-section-stub text="Free Trial" subtext="30 days left"></product-layout-section-stub>`;
+
+exports[`with business credit matches snaphsot 1`] = `<product-layout-section-stub text="700" subtext="Credits monthly"></product-layout-section-stub>`;
+
+exports[`with enterprise credit matches snaphsot 1`] = `<product-layout-section-stub text="3500" subtext="Credits monthly"></product-layout-section-stub>`;
+
+exports[`with freemium credit matches snaphsot 1`] = `<product-layout-section-stub text="100" subtext="Credits monthly"></product-layout-section-stub>`;
+
+exports[`with team credit matches snaphsot 1`] = `<product-layout-section-stub text="300" subtext="Credits monthly"></product-layout-section-stub>`;
+
+exports[`with zero credit matches snaphsot 1`] = `<product-layout-section-stub text="0" subtext="Credits monthly"></product-layout-section-stub>`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="settings-pane" title="API Keys">
+  <div class="settings-pane__body">
+    <key-management-stub></key-management-stub>
+  </div>
+  <div class="settings-pane__footer"></div>
+</div>
+`;

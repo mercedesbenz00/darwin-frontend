@@ -1,0 +1,54 @@
+@mixin scrollbarV2($direction: 'both', $thumbWidth: 8px) {
+  $thumbColorDefault: $colorScrollbarDefault;
+  $thumbColorHover: $colorScrollbarHover;
+
+  // firefox
+  scrollbar-color: $thumbColorDefault transparent;
+  scrollbar-width: thin;
+
+  @if $direction == vertical {
+    overflow-y: auto;
+    overflow-y: overlay !important;
+    overflow-x: hidden;
+  } @else if $direction == horizontal {
+    overflow-x: auto;
+    overflow-x: overlay !important;
+    overflow-y: hidden;
+  } @else {
+    overflow-y: auto;
+    overflow-y: overlay !important;
+    overflow-x: auto;
+    overflow-x: overlay !important;
+  }
+
+  &:hover::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  // chrome, opera, safari
+  &::-webkit-scrollbar {
+    @include fullsize;
+    height: $thumbWidth;
+    width: $thumbWidth;
+    transition: all .255s ease-in-out;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: $thumbWidth;
+    background-color: $thumbColorDefault;
+    transition: all .255s ease-in-out;
+    opacity: 0.4;
+    cursor: grab;
+
+    &:hover {
+      background-color: $thumbColorHover;
+      cursor: move;
+      cursor: grabbing;
+    }
+
+    &:focus,
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}

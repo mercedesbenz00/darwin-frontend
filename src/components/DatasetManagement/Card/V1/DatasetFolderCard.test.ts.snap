@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="card-stub folder-card" type="folder">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <div></div>
+    <div>0 items</div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot in open dataset 1`] = `
+<div class="card-stub folder-card" type="folder">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <div>folder</div>
+    <div>0 items</div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when folder has children 1`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="foo.png">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <div>folder</div>
+    <div>2 items</div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when path is specified 1`] = `
+<div class="card-stub folder-card" type="folder">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <div>folder</div>
+    <div>0 items</div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when path is specified 2`] = `
+<div class="card-stub folder-card" type="folder" thumbnail="foo.png">
+  <!---->
+  <!---->
+  <div class="overlay-center">
+    <card-button-stub to="[object Object]">
+      Open
+    </card-button-stub>
+  </div>
+  <div class="details">
+    <div>folder</div>
+    <div>0 items</div>
+  </div>
+</div>
+`;

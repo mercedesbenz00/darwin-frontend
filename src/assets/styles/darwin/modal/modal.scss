@@ -1,0 +1,134 @@
+
+$modal_border-radius: 10px;
+
+.v--modal-overlay {
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(0, 8, 22, 0.6);
+  z-index: var(--z-index-modal-overlay);
+}
+
+.v--modal-box.v--modal {
+  border-radius: $modal_border-radius;
+
+  overflow: visible;
+}
+
+.v--modal.v--modal-box {
+  border-radius: $modal_border-radius;
+}
+
+.v--modal {
+  left: 50% !important; // allow some space between modal and outer window borders even on small screens
+  max-width: calc(100% - 60px);
+  min-width: 240px;
+  max-height: 90vh;
+  transform: translateX(-50%);
+  transition: top .2s ease;
+}
+
+.modal__header {
+  @include col--center;
+  background: $colorSecondaryLight1;
+  width: 100%;
+  position: relative;
+  border-radius: $modal_border-radius $modal_border-radius 0 0;
+  padding: 30px 60px 20px;
+  text-align: center;
+  color: $colorSecondaryDark1;
+
+  strong {
+    @include typography(xl, inherit, bold);
+    margin-bottom: 4px;
+    display: block;
+  }
+}
+
+.modal__close-button {
+  @include square(20px);
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 0;
+  background-color: transparent;
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    background-color: $colorSecondaryLight;
+    left: 0;
+    right: 0;
+    height: 3px;
+    top: 50%;
+    margin-top: -2px;
+    border-radius: 10px;
+  }
+
+  &:before {
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    transform: rotate(45deg);
+  }
+}
+
+.modal__header__text {
+  @include typography(md-1, default);
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $colorSecondaryDark1;
+  margin: 3px;
+}
+
+.modal__header__title {
+  @include typography(lg-1, headlines, bold);
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $colorSecondaryDark1;
+}
+
+.modal__header__search {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: -20px;
+  z-index: 999;
+}
+
+.modal__header__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: $colorSecondaryLight;
+  cursor: pointer;
+  @include noSelect;
+
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.modal__content {
+  padding: 45px 30px 30px 30px;
+  overflow-y: auto;
+  background: $colorGriteDark;
+  max-height: calc(100% - 192px);
+}
+
+.modal__footer {
+  @include row--distributed--center;
+  background: $colorWhite;
+  width: 100%;
+  position: relative;
+  border-radius: 0px 0px $modal_border-radius $modal_border-radius;
+  padding: 20px 30px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(20, 5, 60, 0.2);
+  overflow: hidden;
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with active content 1`] = `
+<li class="expansion-panel">
+  <!---->
+  <transition-stub name="expansion-panel">
+    <div class="expansion-panel__content">Test Content</div>
+  </transition-stub>
+</li>
+`;
+
+exports[`matches snapshot with content 1`] = `
+<li class="expansion-panel">
+  <!---->
+  <transition-stub name="expansion-panel">
+    <div class="expansion-panel__content" style="display: none;">Test Content</div>
+  </transition-stub>
+</li>
+`;

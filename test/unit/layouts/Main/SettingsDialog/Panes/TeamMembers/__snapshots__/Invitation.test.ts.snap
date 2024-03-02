@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`"annotator" invitation when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="annotator" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"annotator" invitation when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Worker
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`"annotator" invitation when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="annotator" name="invitation-role" options="[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"annotator" invitation when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="annotator" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"annotator" invitation when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="annotator" name="invitation-role" options="[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"member" invitation when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="member" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"member" invitation when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      User
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`"member" invitation when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="member" name="invitation-role" options="[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"member" invitation when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="member" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"member" invitation when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      User
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`"workforce_manager" invitation when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="workforce_manager" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"workforce_manager" invitation when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Workforce Manager
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`"workforce_manager" invitation when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="workforce_manager" name="invitation-role" options="[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"workforce_manager" invitation when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="workforce_manager" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`"workforce_manager" invitation when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Workforce Manager
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`admin invitation when user is admin matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="admin" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`admin invitation when user is annotator matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`admin invitation when user is member matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`admin invitation when user is owner matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <role-dropdown-stub id="invitation-role" value="admin" name="invitation-role" options="[object Object],[object Object],[object Object],[object Object]"></role-dropdown-stub>
+  </div>
+  <div class="member__trash">
+    <div>
+      <trash-icon-old-stub class="member__trash_icon"></trash-icon-old-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`admin invitation when user is workforce manager matches snapshot 1`] = `
+<div class="member">
+  <avatar-stub name="unset@mail.com" id="unset@mail.com" size="35" class="member__avatar"></avatar-stub>
+  <div class="member__name-section">
+    <div class="member__name">
+      Invitation Sent
+    </div>
+    <div class="member__email">
+      unset@mail.com
+    </div>
+  </div>
+  <div class="member__role">
+    <div class="member__role--fixed">
+      Admin
+    </div>
+  </div>
+  <div class="member__trash">
+    <!---->
+  </div>
+</div>
+`;

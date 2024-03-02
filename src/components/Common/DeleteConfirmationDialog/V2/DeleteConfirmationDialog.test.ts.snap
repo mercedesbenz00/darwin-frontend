@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="confirm-delete" width="388" transition="pop-out" height="auto" min-width="200" max-width="388" classes="confirm-delete">
+  <modal-content-v2-stub>
+    <div class="confirm-delete__icon">
+      <div class="confirm-delete__icon--wrapper">
+        <icon-mono-warn-stub></icon-mono-warn-stub>
+      </div>
+    </div>
+    <div class="confirm-delete__title">
+      Test
+    </div>
+    <div class="confirm-delete__description">
+      Test content
+    </div>
+    <div class="confirm-delete__footer">
+      <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button" class="btn-positive">
+        Cancel
+      </custom-button-stub>
+      <custom-button-stub variant="default" color="negative" size="medium" flair="rounded" tag="button" class="btn-negative">
+        DELETE
+      </custom-button-stub>
+    </div>
+  </modal-content-v2-stub>
+</modal-v2-stub>
+`;
+
+exports[`with normal props matches snapshot 1`] = `
+<modal-v2-stub size="medium" name="test-dialog" width="388" transition="pop-out" height="auto" min-width="200" max-width="388" classes="confirm-delete">
+  <modal-content-v2-stub>
+    <div class="confirm-delete__icon">
+      <div class="confirm-delete__icon--wrapper">
+        <icon-mono-warn-stub></icon-mono-warn-stub>
+      </div>
+    </div>
+    <div class="confirm-delete__title">
+      Test
+    </div>
+    <div class="confirm-delete__description">
+      Test content
+    </div>
+    <div class="confirm-delete__footer">
+      <custom-button-stub variant="outline" color="secondary" size="medium" flair="rounded" tag="button" class="btn-positive">
+        Cancel
+      </custom-button-stub>
+      <custom-button-stub variant="default" color="negative" size="medium" flair="rounded" tag="button" class="btn-negative">
+        DELETE
+      </custom-button-stub>
+    </div>
+  </modal-content-v2-stub>
+</modal-v2-stub>
+`;

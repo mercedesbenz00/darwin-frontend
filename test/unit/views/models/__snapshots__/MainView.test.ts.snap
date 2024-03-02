@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when loaded 1`] = `<router-view-stub></router-view-stub>`;
+
+exports[`matches snapshot when loading 1`] = ``;

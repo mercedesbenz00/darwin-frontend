@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when color is set 1`] = `
+<div class="annotation-input__color">
+  <div class="v-popover-stub" trigger="manual" popover-class="tooltip--white popover--colors" placement="right">
+    <div class="main">
+      <div class="color-picker" style="background: rgb(0, 0, 0);">
+        <!---->
+      </div>
+    </div>
+    <div class="popover">
+      <color-picker-stub colors="rgba(255,73,73,1.0),rgba(255,106,73,1.0),rgba(255,128,73,1.0),rgba(255,182,73,1.0),rgba(255,215,73,1.0),rgba(255,237,73,1.0),rgba(219,255,73,1.0),rgba(186,255,73,1.0),rgba(175,255,73,1.0),rgba(153,255,73,1.0),rgba(82,255,130,1.0),rgba(82,255,203,1.0),rgba(82,245,255,1.0),rgba(82,203,255,1.0),rgba(82,151,255,1.0),rgba(82,130,255,1.0),rgba(82,89,255,1.0),rgba(116,82,255,1.0),rgba(179,82,255,1.0),rgba(231,82,255,1.0),rgba(255,82,207,1.0),rgba(255,82,155,1.0)"></color-picker-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with default props 1`] = `
+<div class="annotation-input__color">
+  <div class="v-popover-stub" trigger="manual" popover-class="tooltip--white popover--colors" placement="right">
+    <div class="main">
+      <div class="color-picker color-picker--none">
+        <select-color-icon-stub class="color-picker__icon"></select-color-icon-stub>
+      </div>
+    </div>
+    <div class="popover">
+      <color-picker-stub colors="rgba(255,73,73,1.0),rgba(255,106,73,1.0),rgba(255,128,73,1.0),rgba(255,182,73,1.0),rgba(255,215,73,1.0),rgba(255,237,73,1.0),rgba(219,255,73,1.0),rgba(186,255,73,1.0),rgba(175,255,73,1.0),rgba(153,255,73,1.0),rgba(82,255,130,1.0),rgba(82,255,203,1.0),rgba(82,245,255,1.0),rgba(82,203,255,1.0),rgba(82,151,255,1.0),rgba(82,130,255,1.0),rgba(82,89,255,1.0),rgba(116,82,255,1.0),rgba(179,82,255,1.0),rgba(231,82,255,1.0),rgba(255,82,207,1.0),rgba(255,82,155,1.0)"></color-picker-stub>
+    </div>
+  </div>
+</div>
+`;

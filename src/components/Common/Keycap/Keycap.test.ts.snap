@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`by default matches snapshot 1`] = `<div class="keycap keycap--medium"><span class="keycap__label"></span></div>`;
+
+exports[`when size is large matches snapshot 1`] = `<div class="keycap keycap--large"><span class="keycap__label"></span></div>`;
+
+exports[`when size is medium matches snapshot 1`] = `<div class="keycap keycap--medium"><span class="keycap__label"></span></div>`;
+
+exports[`when size is small matches snapshot 1`] = `<div class="keycap keycap--small"><span class="keycap__label"></span></div>`;

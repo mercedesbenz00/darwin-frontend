@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="v-popover-stub class-item-wrapper" trigger="hover">
+  <div class="main">
+    <type-icon-with-label-stub label="Scale" type="bounding_box" color="rgba(6,6,6,0.5)" tag="div" class="class-item"></type-icon-with-label-stub>
+  </div>
+  <div class="popover">
+    Bounding Box
+  </div>
+</div>
+`;

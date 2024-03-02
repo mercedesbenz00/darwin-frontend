@@ -1,0 +1,78 @@
+// Canvas gets a cursor style class using editor.selectCursor
+.pointer-cur {
+  cursor: pointer;
+}
+.default-cur {
+  cursor: url(./assets/cursors/cursor_move.svg) 2 2, default;
+}
+.draw-cur {
+  cursor: url(./assets/cursors/cursor_draw.svg) 6 3, crosshair;
+}
+.add-point-cur {
+  cursor: url(./assets/cursors/cursor_add_point.svg) 6 3, crosshair;
+}
+.remove-point-cur {
+  cursor: url(./assets/cursors/cursor_remove_point.svg) 7 1, crosshair;
+}
+.edit-cur {
+  cursor: url(./assets/cursors/cursor_edit.svg) 2 2, auto;
+}
+.ellipse-cur {
+  cursor: url(./assets/cursors/cursor_ellipse.svg) 23 24, auto;
+}
+.default-move-cur {
+  cursor: move;
+}
+.move-cur {
+  cursor: url(./assets/cursors/cursor_move.svg) 2 2, move;
+}
+.moving-cur {
+  cursor: url(./assets/cursors/cursor_moving.svg) 2 2, move;
+}
+.magic-cur {
+  cursor: url(./assets/cursors/cursor_magic.svg) 10 9, crosshair;
+}
+.magic-add-point-cur {
+  cursor: url(./assets/cursors/cursor_magic_add.svg) 25.3 25.3, crosshair;
+}
+.magic-remove-point-cur {
+  cursor: url(./assets/cursors/cursor_magic_remove.svg) 25.3 25.3, crosshair;
+}
+.magic-delete-click-cur {
+  cursor: url(./assets/cursors/cursor_magic_delete_click_white.svg) 25.3 25.3,
+    crosshair;
+}
+.bbox-cur {
+  cursor: url(./assets/cursors/cursor_bbox.svg) 9 8, crosshair;
+}
+.commentator-cur {
+  cursor: url(./assets/cursors/cursor_comment.svg) 10 9, crosshair;
+}
+.zoom-in-cur {
+  cursor: url(./assets/cursors/cursor_zoom_in.svg) 9 8, zoom-in;
+}
+.zoom-out-cur {
+  cursor: url(./assets/cursors/cursor_zoom_out.svg) 9 8, zoom-out;
+}
+.hidden-cur {
+  cursor: none;
+
+  :deep(.layout__view:not(.layout__view--active)) {
+    cursor: default;
+  }
+  :deep(.layout__view.layout__view-single--active) {
+    cursor: none;
+  }
+}
+.nw-resize-cur {
+  cursor: nw-resize;
+}
+.ne-resize-cur {
+  cursor: ne-resize;
+}
+.se-resize-cur {
+  cursor: se-resize;
+}
+.sw-resize-cur {
+  cursor: sw-resize;
+}

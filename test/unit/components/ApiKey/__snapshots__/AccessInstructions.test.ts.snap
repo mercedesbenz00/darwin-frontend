@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches general snapshot for language: cli 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="cli" options="[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">$ pip install darwin-py
+$ darwin authenticate
+
+Enter your api key: ***********
+
+$ darwin datasets
+NAME        IMAGES
+dataset1       54
+</pre>
+</div>
+`;
+
+exports[`matches general snapshot for language: python 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="python" options="[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">import requests
+
+
+api_key = "your-api-key"
+
+json = {"name": "My Dataset"}
+headers = {"Authorization": f"ApiKey {api_key}"}
+url = "https://darwin.v7labs.com/api/datasets"
+
+result = requests.post(url, json=json, headers=headers)
+print(result.json())
+</pre>
+</div>
+`;
+
+exports[`matches model snapshot for language: cli 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="cli" options="[object Object],[object Object],[object Object],[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">$ pip install darwin-py
+$ darwin authenticate
+
+Enter your api key: ***********
+
+$ darwin datasets
+NAME        IMAGES
+dataset1       54
+</pre>
+</div>
+`;
+
+exports[`matches model snapshot for language: elixir 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="elixir" options="[object Object],[object Object],[object Object],[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">{:ok, content} = "/path/to/image" |&gt; File.read()
+base64 = Base.encode64(content)
+body = %{image: %{base64: base64}}
+
+token = "your-api-key"
+url = "https://darwin.v7labs.com/ai/models/{modelId}/infer"
+headers = [{"Authorization", "ApiKey #{token}"}]
+
+HTTPoison.start()
+HTTPoison.post(url, body, headers)
+</pre>
+</div>
+`;
+
+exports[`matches model snapshot for language: javascript 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="javascript" options="[object Object],[object Object],[object Object],[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">const url = 'https://darwin.v7labs.com/ai/models/{modelId}/infer'
+const base64 = '...'
+const body = { image: { base64: base64 } }
+const token = 'your-api-key'
+const headers = { Authorization: \`ApiKey \${token}\` }
+
+fetch(url, { method: 'POST', body, headers })
+</pre>
+</div>
+`;
+
+exports[`matches model snapshot for language: python 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="python" options="[object Object],[object Object],[object Object],[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">import base64
+import requests
+
+
+api_key = "your-api-key"
+
+image_path = "/path/to/image"
+with open(image_path, "rb") as f:
+    image_data = base64.b64encode(f.read())
+
+url = "https://darwin.v7labs.com/ai/models/{modelId}/infer"
+json = {"image": {"base64": image_data.decode("utf-8")}}
+headers = {"Authorization": f"ApiKey {api_key}"}
+
+result = requests.post(url, json=json, headers=headers)
+print(result.json())
+</pre>
+</div>
+`;
+
+exports[`matches model snapshot for language: shell 1`] = `
+<div class="instructions">
+  <div class="instructions__header">
+    <h3 class="instructions__header__title">
+      Using API keys
+    </h3>
+    <tab-selector-stub value="shell" options="[object Object],[object Object],[object Object],[object Object],[object Object]" class="instructions__header__tabs"></tab-selector-stub>
+  </div>
+  <h4 class="instructions__subheader">
+    API Access
+  </h4> <pre class="instructions__code">apiKey="your-api-key"
+image_data=$(base64 /path/to/image)
+
+curl \\
+  -X POST "https://darwin.v7labs.com/ai/models/{modelId}/infer" \\
+  -b "{image: { base64: '$image_data'} }" \\
+  -H "Authorization: ApiKey '$apiKey'"
+</pre>
+</div>
+`;

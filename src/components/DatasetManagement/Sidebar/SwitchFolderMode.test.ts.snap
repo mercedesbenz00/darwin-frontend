@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="switch-folder">
+  <icon-button-stub>
+    <folder-icon-stub class="switch-layout__mode"></folder-icon-stub>
+  </icon-button-stub>
+</div>
+`;

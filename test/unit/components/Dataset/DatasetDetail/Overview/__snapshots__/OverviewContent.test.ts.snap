@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list of class counts per loaded from store, per image and per instance 1`] = `
+<div class="overview__content">
+  <div class="overview__card">
+    <div class="overview__card__title">
+      Dataset Progress
+    </div>
+    <dataset-progress-section-stub report="[object Object]" class="overview__card__body"></dataset-progress-section-stub>
+  </div>
+  <div class="overview__card">
+    <class-distribution-stub annotationclasses="[object Object],[object Object],[object Object]" distributionbyimage="[object Object],[object Object],[object Object]" distributionbyannotationinstance="[object Object],[object Object],[object Object]" annotation-types="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></class-distribution-stub>
+  </div>
+</div>
+`;

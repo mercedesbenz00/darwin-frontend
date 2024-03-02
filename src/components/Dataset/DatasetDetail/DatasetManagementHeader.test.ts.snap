@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-management__header">
+  <div class="dataset-management__header__title">
+    Dataset
+  </div>
+  <div class="dataset-management__header__tools">
+    <v2-sort-control-stub sortby="priority" sortdirection="desc" class="data-management__sort"></v2-sort-control-stub>
+    <div class="dataset-management__right-wrapper">
+      <div class="data-management__slider-container">
+        <slider-stub variant="steps" value="2" min="1" max="8" step="1" class="data-management__slider"></slider-stub>
+      </div>
+      <icon-toggle-stub>
+        <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+      </icon-toggle-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when dataset item filter is set 1`] = `
+<div class="dataset-management__header">
+  <div class="dataset-management__header__title">
+    Dataset
+  </div>
+  <div class="dataset-management__header__tools">
+    <v2-sort-control-stub sortby="priority" sortdirection="desc" class="data-management__sort"></v2-sort-control-stub>
+    <div class="dataset-management__right-wrapper">
+      <div class="data-management__slider-container">
+        <slider-stub variant="steps" value="2" min="1" max="8" step="1" class="data-management__slider"></slider-stub>
+      </div>
+      <icon-toggle-stub>
+        <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+      </icon-toggle-stub>
+    </div>
+  </div>
+</div>
+`;

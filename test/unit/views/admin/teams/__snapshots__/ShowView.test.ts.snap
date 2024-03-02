@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot while loading team 1`] = ``;
+
+exports[`matches snapshot with team loaded 1`] = `<team-details-stub team="[object Object]"></team-details-stub>`;

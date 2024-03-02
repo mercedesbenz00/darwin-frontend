@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="hide-by-author-item">
+  <div class="hide-by-author-item__details">
+    <team-member-avatar-stub member="[object Object]" size="20" class="hide-by-author-item__avatar"></team-member-avatar-stub> <span class="hide-by-author-item__name">
+      Test User1
+    </span>
+  </div> <span class="hide-by-author-item__count">
+    2
+  </span>
+</div>
+`;
+
+exports[`matches snapshot when selected 1`] = `
+<div class="hide-by-author-item hide-by-author-item--selected">
+  <div class="hide-by-author-item__details">
+    <team-member-avatar-stub member="[object Object]" size="20" class="hide-by-author-item__avatar"></team-member-avatar-stub> <span class="hide-by-author-item__name">
+      Test User1
+    </span>
+  </div> <span class="hide-by-author-item__count">
+    2
+  </span>
+</div>
+`;

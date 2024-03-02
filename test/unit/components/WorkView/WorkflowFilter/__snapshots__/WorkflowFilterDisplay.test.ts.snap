@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div role="button" class="workflow-filter-display"><button class="workflow-filter-display__clear-selection">
+    <sigma-icon-stub></sigma-icon-stub>
+  </button> <span class="workflow-filter-display__label">all</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;
+
+exports[`member selection matches snapshot: no one selected 1`] = `
+<div role="button" class="workflow-filter-display"><button class="workflow-filter-display__clear-selection">
+    <sigma-icon-stub></sigma-icon-stub>
+  </button> <span class="workflow-filter-display__label">all</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;
+
+exports[`member selection matches snapshot: one member selected 1`] = `
+<div role="button" class="workflow-filter-display">
+  <div role="button" class="workflow-filter-display__clear-selection">
+    <funnel-icon-stub class="workflow-filter-display__clear-selection__default"></funnel-icon-stub>
+    <x-icon-stub class="workflow-filter-display__clear-selection__hover"></x-icon-stub>
+  </div> <span class="workflow-filter-display__label">Sam Annotator</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;
+
+exports[`status selection matches snapshot: new, annotate selected 1`] = `
+<div role="button" class="workflow-filter-display">
+  <div role="button" class="workflow-filter-display__clear-selection">
+    <funnel-icon-stub class="workflow-filter-display__clear-selection__default"></funnel-icon-stub>
+    <x-icon-stub class="workflow-filter-display__clear-selection__hover"></x-icon-stub>
+  </div> <span class="workflow-filter-display__label">filtered</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;
+
+exports[`status selection matches snapshot: no status selected 1`] = `
+<div role="button" class="workflow-filter-display"><button class="workflow-filter-display__clear-selection">
+    <sigma-icon-stub></sigma-icon-stub>
+  </button> <span class="workflow-filter-display__label">all</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;
+
+exports[`template selection matches snapshot: first template selected 1`] = `
+<div role="button" class="workflow-filter-display">
+  <div role="button" class="workflow-filter-display__clear-selection">
+    <funnel-icon-stub class="workflow-filter-display__clear-selection__default"></funnel-icon-stub>
+    <x-icon-stub class="workflow-filter-display__clear-selection__hover"></x-icon-stub>
+  </div> <span class="workflow-filter-display__label">filtered</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;
+
+exports[`template selection matches snapshot: no template selected 1`] = `
+<div role="button" class="workflow-filter-display"><button class="workflow-filter-display__clear-selection">
+    <sigma-icon-stub></sigma-icon-stub>
+  </button> <span class="workflow-filter-display__label">all</span>
+  <div class="workflow-filter-display__count">
+    10
+  </div>
+  <triangle-icon-stub class="workflow-filter-display__expand-toggle"></triangle-icon-stub>
+</div>
+`;

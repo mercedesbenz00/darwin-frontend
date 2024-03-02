@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div class="vue-slider" eventtype="auto" width="100%" height="5" dotsize="2" min="1" max="65535" duration="0" interval="1" show="true" speed="1" tooltipplacement="bottom" railstyle="[object Object]" dotstyle="[object Object]" processstyle="[object Object]" tooltipstyle="[object Object]" value="1,100">
+  <div class="slider__dot slider__dot--1">
+    <scrubber-icon-stub class="slider__dot__scrubber"></scrubber-icon-stub>
+  </div>
+  <div class="vue-slider-process slider__process"></div>
+  <div class="slider__tooltip">
+    tooltip value
+  </div>
+</div>
+`;

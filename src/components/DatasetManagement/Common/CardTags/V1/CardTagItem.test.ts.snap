@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<span class="card-tag-item" style="background: rgb(204, 204, 204);" tooltip="undefined">Flask</span>`;
+
+exports[`matches snapshot showing tooltip 1`] = `<span class="card-tag-item" style="background: rgb(204, 204, 204);" tooltip="{'content':'Flask','placement':'bottom','classes':'tooltip--card-tag'}">Flask</span>`;

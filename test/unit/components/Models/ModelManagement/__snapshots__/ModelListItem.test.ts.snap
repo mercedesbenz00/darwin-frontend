@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`for private running session matches snapshot 1`] = `
+<div class="model-listitem">
+  <div class="model-listitem__name">
+    <p>A running session</p>
+  </div>
+  <div class="model-listitem__type">
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <p>N/A</p>
+  </div>
+  <div class="model-listitem__dataset">
+    <div class="model-listitem__dataset__content">
+      N/A
+    </div>
+  </div>
+  <div class="model-listitem__date">
+    a few seconds ago
+  </div>
+  <div class="model-listitem__status">
+    <update-button-stub runningsession="[object Object]"></update-button-stub>
+  </div>
+  <div class="model-listitem__more">
+    <div class="v-popover-stub" placement="left-start" popover-class="model-listitem__more__popover" trigger="manual">
+      <div class="main"></div>
+      <div class="popover">
+        <div class="model-listitem__more__popover__list">
+          <div class="model-listitem__more__popover__list__item">
+            Delete
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`for private running session matches snapshot when associated trained model in store 1`] = `
+<div class="model-listitem">
+  <div class="model-listitem__name">
+    <p>A running session</p>
+  </div>
+  <div class="model-listitem__type">
+    <!---->
+    <!---->
+    <instance-segmentation-icon-stub></instance-segmentation-icon-stub>
+    <!---->
+    <!---->
+    <p>Instance Segmentation</p>
+  </div>
+  <div class="model-listitem__dataset">
+    <div class="model-listitem__dataset__content">
+      N/A
+    </div>
+  </div>
+  <div class="model-listitem__date">
+    a few seconds ago
+  </div>
+  <div class="model-listitem__status">
+    <update-button-stub runningsession="[object Object]"></update-button-stub>
+  </div>
+  <div class="model-listitem__more">
+    <div class="v-popover-stub" placement="left-start" popover-class="model-listitem__more__popover" trigger="manual">
+      <div class="main"></div>
+      <div class="popover">
+        <div class="model-listitem__more__popover__list">
+          <div class="model-listitem__more__popover__list__item">
+            Delete
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`for public running session matches snapshot 1`] = `
+<div class="model-listitem">
+  <div class="model-listitem__name">
+    <p>A running session</p>
+  </div>
+  <div class="model-listitem__type">
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <p>N/A</p>
+  </div>
+  <div class="model-listitem__dataset">
+    <div class="model-listitem__dataset__content">
+      N/A
+    </div>
+  </div>
+  <div class="model-listitem__date">
+    a few seconds ago
+  </div>
+  <div class="model-listitem__status">
+    <public-running-session-button-stub runningsession="[object Object]"></public-running-session-button-stub>
+  </div>
+  <div class="model-listitem__more">
+    <div class="v-popover-stub" placement="left-start" popover-class="model-listitem__more__popover" trigger="manual">
+      <div class="main"></div>
+      <div class="popover">
+        <div class="model-listitem__more__popover__list">
+          <div class="model-listitem__more__popover__list__item">
+            Delete
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`for public running session matches snapshot when associated trained model in store 1`] = `
+<div class="model-listitem">
+  <div class="model-listitem__name">
+    <p>A running session</p>
+  </div>
+  <div class="model-listitem__type">
+    <!---->
+    <!---->
+    <instance-segmentation-icon-stub></instance-segmentation-icon-stub>
+    <!---->
+    <!---->
+    <p>Instance Segmentation</p>
+  </div>
+  <div class="model-listitem__dataset">
+    <div class="model-listitem__dataset__content">
+      N/A
+    </div>
+  </div>
+  <div class="model-listitem__date">
+    a few seconds ago
+  </div>
+  <div class="model-listitem__status">
+    <public-running-session-button-stub runningsession="[object Object]"></public-running-session-button-stub>
+  </div>
+  <div class="model-listitem__more">
+    <div class="v-popover-stub" placement="left-start" popover-class="model-listitem__more__popover" trigger="manual">
+      <div class="main"></div>
+      <div class="popover">
+        <div class="model-listitem__more__popover__list">
+          <div class="model-listitem__more__popover__list__item">
+            Delete
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`for trained model matches snapshot 1`] = `
+<div class="model-listitem">
+  <div class="model-listitem__name">
+    <p>A trained model</p>
+  </div>
+  <div class="model-listitem__type">
+    <!---->
+    <!---->
+    <instance-segmentation-icon-stub></instance-segmentation-icon-stub>
+    <!---->
+    <!---->
+    <p>Instance Segmentation</p>
+  </div>
+  <div class="model-listitem__dataset">
+    <div class="model-listitem__dataset__content">
+      N/A
+    </div>
+  </div>
+  <div class="model-listitem__date">
+    a few seconds ago
+  </div>
+  <div class="model-listitem__status">
+    <deploy-button-stub trainedmodel="[object Object]"></deploy-button-stub>
+  </div>
+  <div class="model-listitem__more">
+    <div class="v-popover-stub" placement="left-start" popover-class="model-listitem__more__popover" trigger="manual">
+      <div class="main"></div>
+      <div class="popover">
+        <div class="model-listitem__more__popover__list">
+          <div class="model-listitem__more__popover__list__item">
+            Delete
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`for training session matches snapshot 1`] = `
+<div class="model-listitem">
+  <div class="model-listitem__name">
+    <p>A session</p>
+  </div>
+  <div class="model-listitem__type">
+    <!---->
+    <!---->
+    <instance-segmentation-icon-stub></instance-segmentation-icon-stub>
+    <!---->
+    <!---->
+    <p>Instance Segmentation</p>
+  </div>
+  <div class="model-listitem__dataset">
+    <div class="model-listitem__dataset__content">
+      N/A
+    </div>
+  </div>
+  <div class="model-listitem__date">
+    a few seconds ago
+  </div>
+  <div class="model-listitem__status">
+    <training-button-stub trainingsession="[object Object]"></training-button-stub>
+  </div>
+  <div class="model-listitem__more">
+    <div class="v-popover-stub" placement="left-start" popover-class="model-listitem__more__popover" trigger="manual">
+      <div class="main"><button class="model-listitem__more__popover__trigger">
+          <more-vertical-icon-stub></more-vertical-icon-stub>
+        </button></div>
+      <div class="popover">
+        <div class="model-listitem__more__popover__list">
+          <div class="model-listitem__more__popover__list__item">
+            Delete
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

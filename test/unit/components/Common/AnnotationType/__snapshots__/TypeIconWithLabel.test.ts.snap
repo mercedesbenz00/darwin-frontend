@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="type">
+  <type-icon-stub type="polygon" color="FF0000" class="type__icon"></type-icon-stub> <span class="type__label">A label</span>
+</div>
+`;

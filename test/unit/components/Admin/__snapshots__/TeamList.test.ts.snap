@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="team-list">
+  <div class="team-list__header">
+    <h1>Teams</h1>
+  </div>
+  <div class="rows team-list__table" filterable="true" pagination="true">
+    <div>
+      <div class="team">
+        <team-name-column-stub team="[object Object]"></team-name-column-stub>
+      </div>
+      <div class="creationDate">
+        30/12/2019
+      </div>
+      <div class="credits">
+        <credits-v3-stub team="[object Object]"></credits-v3-stub>
+      </div>
+      <div class="creditRunningOutAt">
+        30/09/2030
+      </div>
+      <div class="owner">
+        <div>User Name</div>
+        <div>user_name@v7labs.com</div>
+      </div>
+      <div class="creditNextExpiry">
+        30/06/2055
+      </div>
+      <div class="creditFurthestExpiry">
+        30/11/2030
+      </div>
+      <div class="storage">
+        <storage-v3-stub team="[object Object]"></storage-v3-stub>
+      </div>
+      <div class="stripe">
+        <stripe-stub team="[object Object]"></stripe-stub>
+      </div>
+      <div class="invoice">
+        <invoice-stub team="[object Object]"></invoice-stub>
+      </div>
+      <div class="expanded-area">
+        <text-area-stub placeholder="Create a note for team V7" theme="light"></text-area-stub>
+      </div>
+    </div>
+    <div>
+      <div class="team">
+        <team-name-column-stub team="[object Object]"></team-name-column-stub>
+      </div>
+      <div class="creationDate">
+        30/12/2019
+      </div>
+      <div class="credits">
+        <credits-v3-stub team="[object Object]"></credits-v3-stub>
+      </div>
+      <div class="creditRunningOutAt">
+
+      </div>
+      <div class="owner">
+        <div>User Name</div>
+        <div>user_name@v7labs.com</div>
+      </div>
+      <div class="creditNextExpiry">
+
+      </div>
+      <div class="creditFurthestExpiry">
+
+      </div>
+      <div class="storage">
+        <storage-v3-stub team="[object Object]"></storage-v3-stub>
+      </div>
+      <div class="stripe">
+        <stripe-stub team="[object Object]"></stripe-stub>
+      </div>
+      <div class="invoice">
+        <invoice-stub team="[object Object]"></invoice-stub>
+      </div>
+      <div class="expanded-area">
+        <text-area-stub value="Random V8 note" placeholder="Create a note for team V8" theme="light"></text-area-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when team list is empty 1`] = `
+<div class="team-list">
+  <div class="team-list__header">
+    <h1>Teams</h1>
+  </div>
+  <div class="rows team-list__table" filterable="true" pagination="true"></div>
+</div>
+`;

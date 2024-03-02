@@ -1,0 +1,157 @@
+@import "./colors.scss";
+@import "./colorsV2.scss";
+
+:export {
+  colorFeatherLight: #{$colorFeatherLight};
+  colorFeatherLightTransparent: #{$colorFeatherLightTransparent};
+  colorFeatherFade: #{$colorFeatherFade};
+  colorFeatherFadeLight: #{$colorFeatherFadeLight};
+  colorFeatherTeal: #{$colorFeatherTeal};
+
+  colorAliceNight: #{$colorAliceNight};
+  colorAliceShadow: #{$colorAliceShadow};
+  colorAliceShadowTransparent: #{$colorAliceShadowTransparent};
+  colorAliceShade: #{$colorAliceShade};
+  colorAliceBlue: #{$colorAliceBlue};
+  colorAliceBlueLight: #{$colorAliceBlueLight};
+  colorDarkNight: #{$colorDarkNight};
+
+  color90Black: #{$color90Black};
+  colorLineGrey: #{$colorLineGrey};
+  colorAssignedBlue: #{$colorAssignedBlue};
+
+  colorCrimsonFade: #{$colorCrimsonFade};
+  colorCrimsonLight: #{$colorCrimsonLight};
+
+  colorWhite: #{$colorWhite};
+  colorBlack: #{$colorBlack};
+  colorYellow: #{$colorYellow};
+  colorPink: #{$colorPink};
+  colorPink2: #{$colorPink2};
+  colorPinkLite: #{$colorPinkLite};
+  colorPinkLite2: #{$colorPinkLite2};
+
+  colorGrayMedium: #{$colorGrayMedium};
+  colorGrayLite: #{$colorGrayLite};
+  colorGrayLite2: #{$colorGrayLite2};
+  colorGrayLiter: #{$colorGrayLiter};
+  colorGrayLiter2: #{$colorGrayLiter2};
+
+  colorGriteDark: #{$colorGriteDark};
+  colorGriteDark2: #{$colorGriteDark2};
+  colorLineGrey: #{$colorLineGrey};
+
+  colorCodeOrange: #{$colorCodeOrange};
+  colorModelPurple: #{$colorModelPurple};
+
+  colorTestOrange: #{$colorTestOrange};
+
+  colorPrimaryLight: #{$colorPrimaryLight};
+  colorPrimaryLightTransparent: #{$colorPrimaryLightTransparent};
+  colorPrimaryLight1: #{$colorPrimaryLight1};
+  colorPrimaryLight2: #{$colorPrimaryLight2};
+  colorPrimaryLight3: #{$colorPrimaryLight3};
+  colorPrimaryLight4: #{$colorPrimaryLight4};
+  colorPrimaryLight5: #{$colorPrimaryLight5};
+
+  colorPrimaryDark: #{$colorPrimaryDark};
+  colorPrimaryDark1: #{$colorPrimaryDark1};
+  colorPrimaryDark2: #{$colorPrimaryDark2};
+  colorPrimaryDark3: #{$colorPrimaryDark3};
+  colorPrimaryDark4: #{$colorPrimaryDark4};
+
+  colorSecondaryLight: #{$colorSecondaryLight};
+  colorSecondaryLight1: #{$colorSecondaryLight1};
+  colorSecondaryLight1Transparent: #{$colorSecondaryLight1Transparent};
+  colorSecondaryLight2: #{$colorSecondaryLight2};
+  colorSecondaryLight3: #{$colorSecondaryLight3};
+  colorSecondaryLight4: #{$colorSecondaryLight4};
+
+  colorSecondaryDark: #{$colorSecondaryDark};
+  colorSecondaryDark1: #{$colorSecondaryDark1};
+  colorSecondaryDark2: #{$colorSecondaryDark2};
+  colorSecondaryDark3: #{$colorSecondaryDark3};
+  colorSecondaryDark4: #{$colorSecondaryDark4};
+
+  // V2
+  colorStagesArchiveDefault: #{$colorStagesArchiveDefault};
+  colorStagesAnnotateDefault: #{$colorStagesAnnotateDefault};
+  colorStagesCodeDefault: #{$colorStagesCodeDefault};
+  colorStagesCompleteDefault: #{$colorStagesCompleteDefault};
+  colorStagesConsensusDefault: #{$colorStagesConsensusDefault};
+  colorStagesDatasetDefault: #{$colorStagesDatasetDefault};
+  colorStagesDiscardDefault: #{$colorStagesDiscardDefault};
+  colorStagesLogicDefault: #{$colorStagesLogicDefault};
+  colorStagesModelDefault: #{$colorStagesModelDefault};
+  colorStagesReviewDefault: #{$colorStagesReviewDefault};
+  colorStagesWebhookDefault: #{$colorStagesWebhookDefault};
+
+  colorBadgeLime: #{$colorBadgeLime};
+  colorBadgeRedOrange: #{$colorBadgeRedOrange};
+  colorBadgeAqua: #{$colorBadgeAqua};
+  colorBadgeViolet: #{$colorBadgeViolet};
+  colorBadgeMagenta: #{$colorBadgeMagenta};
+
+  colorAnnotationsLineRedOrange: #{$colorAnnotationsLineRedOrange};
+  colorAnnotationsLineYellow: #{$colorAnnotationsLineYellow};
+  colorAnnotationsLineLime: #{$colorAnnotationsLineLime};
+  colorAnnotationsLineLimeGreen: #{$colorAnnotationsLineLimeGreen};
+  colorAnnotationsLineGreenMint: #{$colorAnnotationsLineGreenMint};
+  colorAnnotationsLineMint: #{$colorAnnotationsLineMint};
+  colorAnnotationsLineMintAqua: #{$colorAnnotationsLineMintAqua};
+  colorAnnotationsLineAqua: #{$colorAnnotationsLineAqua};
+  colorAnnotationsLineAquaBlue: #{$colorAnnotationsLineAquaBlue};
+  colorAnnotationsLineAquaViolet: #{$colorAnnotationsLineAquaViolet};
+  colorAnnotationsLineAquaVioletPurple: #{$colorAnnotationsLineAquaVioletPurple};
+  colorAnnotationsLineAquaPurplePink: #{$colorAnnotationsLineAquaPurplePink};
+  colorAnnotationsLineAquaPinkMagenta: #{$colorAnnotationsLineAquaPinkMagenta};
+  colorAnnotationsLineMagenta: #{$colorAnnotationsLineMagenta};
+
+  colorContentEmphasis: #{$colorContentEmphasis};
+  colorContentDefault: #{$colorContentDefault};
+  colorContentSecondary: #{$colorContentSecondary};
+  colorContentTertiary: #{$colorContentTertiary};
+  colorContentDisabled: #{$colorContentDisabled};
+  colorContentInverted: #{$colorContentInverted};
+  colorContentGood: #{$colorContentGood};
+  colorContentBad: #{$colorContentBad};
+
+  colorSurfaceBackground: #{$colorSurfaceBackground};
+  colorSurfaceDefault: #{$colorSurfaceDefault};
+  colorSurfaceElevate: #{$colorSurfaceElevate};
+  colorSurfaceRaise: #{$colorSurfaceRaise};
+  colorSurfaceScrim: #{$colorSurfaceScrim};
+  colorSurfaceTransparent: #{$colorSurfaceTransparent};
+  colorSurfaceInverted: #{$colorSurfaceInverted};
+  colorSurfaceDarken: #{$colorSurfaceDarken};
+
+  colorStatusInformative: #{$colorStatusInformative};
+  colorInteractivePrimaryDefault: #{$colorInteractivePrimaryDefault};
+  colorInteractiveSecondaryDefault: #{$colorInteractiveSecondaryDefault};
+  colorInteractiveNegativeDefault: #{$colorInteractiveNegativeDefault};
+  colorStatusWarning: #{$colorStatusWarning};
+  colorStatusNegative: #{$colorStatusNegative};
+
+  colorInteractivePrimaryHover: #{$colorInteractivePrimaryHover};
+  colorInteractiveSecondaryHover: #{$colorInteractiveSecondaryHover};
+  colorInteractiveNegativeHover: #{$colorInteractiveNegativeHover};
+
+  colorInteractiveSecondaryDisabled: #{$colorInteractiveSecondaryDisabled};
+
+  colorSolidNegative: #{$colorSolidNegative};
+  colorSolidWarning: #{$colorSolidWarning};
+  colorSolidPositive: #{$colorSolidPositive};
+
+  colorGray20: #{$colorGray20};
+  colorNeutrals600: #{$colorNeutrals600};
+
+  colorStrokeStrong: #{$colorStrokeStrong};
+  colorStrokeRaise: #{$colorStrokeRaise};
+
+  colorOverlayInteractive: #{$colorOverlayInteractive};
+
+  colorStatusNegativeSurface: #{$colorStatusNegativeSurface};
+
+  colorGhostPrimary: #{$colorGhostPrimary};
+  colorGhostSecondary: #{$colorGhostSecondary};
+}

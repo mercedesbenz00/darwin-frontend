@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for Manage Comments 1`] = `
+<div class="permission-group permission-group--expanded">
+  <div class="permission-group__header">
+    <check-box-stub name="manage_comments" id="manage_comments" label="Manage Comments" type="rect" size="default" class="permission-group__header__control"></check-box-stub> <button class="permission-group__header__collapse-expand">
+      <div class="permission-group__header__collapse-expand__text">
+        0 / 7 selected
+      </div> <img src="/static/imgs/chevron_bottom.svg" class="permission-group__header__collapse-expand__icon">
+    </button>
+  </div>
+  <transition-stub name="toggle">
+    <ul class="permission-group__abilities">
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="create_comment_thread" id="create_comment_thread" label="Start new comment threads." type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="create_comment" id="create_comment" label="Reply to comment threads" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="delete_comment_thread" id="delete_comment_thread" label="Delete comment threads" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="delete_comment" id="delete_comment" label="Delete comments" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_comment_thread" id="update_comment_thread" label="Edit comment threads" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_comment" id="update_comment" label="Edit comments" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_comment_threads" id="view_comment_threads" label="View comment threads" type="rect" size="default"></check-box-stub>
+      </li>
+    </ul>
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot for Manage Datasets 1`] = `
+<div class="permission-group permission-group--expanded">
+  <div class="permission-group__header">
+    <check-box-stub name="manage_datasets" id="manage_datasets" label="Manage Datasets" type="rect" size="default" class="permission-group__header__control"></check-box-stub> <button class="permission-group__header__collapse-expand">
+      <div class="permission-group__header__collapse-expand__text">
+        0 / 20 selected
+      </div> <img src="/static/imgs/chevron_bottom.svg" class="permission-group__header__collapse-expand__icon">
+    </button>
+  </div>
+  <transition-stub name="toggle">
+    <ul class="permission-group__abilities">
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_datasets" id="view_datasets" label="View datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="export_dataset" id="export_dataset" label="Export datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="create_dataset" id="create_dataset" label="Create datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="fork_dataset" id="fork_dataset" label="Fork datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_dataset" id="update_dataset" label="Update datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="archive_dataset" id="archive_dataset" label="Archive datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_dataset_data" id="update_dataset_data" label="Add data to datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="archive_dataset_items" id="archive_dataset_items" label="Archive and restore items" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="delete_dataset_items" id="delete_dataset_items" label="Delete dataset items" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_annotations" id="view_annotations" label="View annotations" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_annotation_report" id="view_annotation_report" label="View annotation reports" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_dataset_annotators" id="view_dataset_annotators" label="View dataset annotators" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_dataset_exports" id="view_dataset_exports" label="View exported datasets" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_dataset_performance_report" id="view_dataset_performance_report" label="View dataset performance reports" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_dataset_report" id="view_dataset_report" label="View dataset reports" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_annotation_classes" id="view_annotation_classes" label="View annotation classes" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="create_annotation_class" id="create_annotation_class" label="Create annotation classes" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_annotation_class" id="update_annotation_class" label="Update annotation classes" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="delete_annotation_class" id="delete_annotation_class" label="Delete annotation classes" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="import_annotations" id="import_annotations" label="Import annotations" type="rect" size="default"></check-box-stub>
+      </li>
+    </ul>
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot for Manage Models 1`] = `
+<div class="permission-group permission-group--expanded">
+  <div class="permission-group__header">
+    <check-box-stub name="manage_models" id="manage_models" label="Manage Models" type="rect" size="default" class="permission-group__header__control"></check-box-stub> <button class="permission-group__header__collapse-expand">
+      <div class="permission-group__header__collapse-expand__text">
+        0 / 4 selected
+      </div> <img src="/static/imgs/chevron_bottom.svg" class="permission-group__header__collapse-expand__icon">
+    </button>
+  </div>
+  <transition-stub name="toggle">
+    <ul class="permission-group__abilities">
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="deploy_model" id="deploy_model" label="Deploy existing neural models" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="train_models" id="train_models" label="Train new neural models" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_models" id="view_models" label="View neural models" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="run_inference" id="run_inference" label="Run model inference" type="rect" size="default"></check-box-stub>
+      </li>
+    </ul>
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot for Manage Tasks 1`] = `
+<div class="permission-group permission-group--expanded">
+  <div class="permission-group__header">
+    <check-box-stub name="manage_tasks" id="manage_tasks" label="Manage Tasks" type="rect" size="default" class="permission-group__header__control"></check-box-stub> <button class="permission-group__header__collapse-expand">
+      <div class="permission-group__header__collapse-expand__text">
+        0 / 3 selected
+      </div> <img src="/static/imgs/chevron_bottom.svg" class="permission-group__header__collapse-expand__icon">
+    </button>
+  </div>
+  <transition-stub name="toggle">
+    <ul class="permission-group__abilities">
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="assign_items" id="assign_items" label="Assign items" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_stage" id="view_stage" label="View workflow stages" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_stage" id="update_stage" label="Update item workflow" type="rect" size="default"></check-box-stub>
+      </li>
+    </ul>
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot for Manage Team 1`] = `
+<div class="permission-group permission-group--expanded">
+  <div class="permission-group__header">
+    <check-box-stub name="manage_team" id="manage_team" label="Manage Team" type="rect" size="default" class="permission-group__header__control"></check-box-stub> <button class="permission-group__header__collapse-expand">
+      <div class="permission-group__header__collapse-expand__text">
+        0 / 6 selected
+      </div> <img src="/static/imgs/chevron_bottom.svg" class="permission-group__header__collapse-expand__icon">
+    </button>
+  </div>
+  <transition-stub name="toggle">
+    <ul class="permission-group__abilities">
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="archive_team" id="archive_team" label="Archive team" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="create_team" id="create_team" label="Create teams" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="transfer_team_ownership" id="transfer_team_ownership" label="Transfer team ownership" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="manage_customer" id="manage_customer" label="View and update billing information" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_team" id="update_team" label="Update team" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_team" id="view_team" label="View team" type="rect" size="default"></check-box-stub>
+      </li>
+    </ul>
+  </transition-stub>
+</div>
+`;
+
+exports[`matches snapshot for Manage Team Members 1`] = `
+<div class="permission-group permission-group--expanded">
+  <div class="permission-group__header">
+    <check-box-stub name="manage_team_members" id="manage_team_members" label="Manage Team Members" type="rect" size="default" class="permission-group__header__control"></check-box-stub> <button class="permission-group__header__collapse-expand">
+      <div class="permission-group__header__collapse-expand__text">
+        0 / 6 selected
+      </div> <img src="/static/imgs/chevron_bottom.svg" class="permission-group__header__collapse-expand__icon">
+    </button>
+  </div>
+  <transition-stub name="toggle">
+    <ul class="permission-group__abilities">
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="delete_membership" id="delete_membership" label="Delete memberships" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="manage_admin_invitations" id="manage_admin_invitations" label="Create admin invites" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="manage_invitations" id="manage_invitations" label="Create invites" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="update_membership" id="update_membership" label="Update team members" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_invitations" id="view_invitations" label="View invitations" type="rect" size="default"></check-box-stub>
+      </li>
+      <li class="permission-group__abilities__ability">
+        <check-box-stub name="view_team_members" id="view_team_members" label="View team members" type="rect" size="default"></check-box-stub>
+      </li>
+    </ul>
+  </transition-stub>
+</div>
+`;

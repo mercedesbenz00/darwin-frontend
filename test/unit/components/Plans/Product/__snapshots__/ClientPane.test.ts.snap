@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="client-pane">
+  <header-3-stub>Your Annotation plan is managed by Some partner</header-3-stub>
+  <paragraph-14-stub>
+    You can take over billing for this plan anytime.
+    This will allow you to view your usage, storage, and select a different plan.
+    Some automation features may be locked by Some partner.
+  </paragraph-14-stub>
+</div>
+`;

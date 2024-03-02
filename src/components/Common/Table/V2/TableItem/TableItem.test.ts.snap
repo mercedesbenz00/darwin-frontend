@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div id="table-item_123_2" class="table-item__container" style="z-index: 998; width: 100px;">
+  <div class="table-item__wrapper">
+    <div class="table-item__content"></div>
+  </div>
+  <div class="column-resize-area">
+    <div class="column-resizer"></div>
+  </div>
+</div>
+`;

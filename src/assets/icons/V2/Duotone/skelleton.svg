@@ -1,0 +1,6 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="--first-color: #000; --fill-opacity: 0.08; --stroke-opacity: 0.5">
+<path d="M4 16V7M4 16H14M4 16L11.5 9.5" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2" y="3" width="4" height="4" rx="2" fill="var(--first-color)" fill-opacity="var(--fill-opacity)" stroke-opacity="var(--stroke-opacity)" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="14" y="14" width="4" height="4" rx="2" fill="var(--first-color)" fill-opacity="var(--fill-opacity)" stroke-opacity="var(--stroke-opacity)" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="11" y="6" width="4" height="4" rx="2" fill="var(--first-color)" fill-opacity="var(--fill-opacity)" stroke-opacity="var(--stroke-opacity)" stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

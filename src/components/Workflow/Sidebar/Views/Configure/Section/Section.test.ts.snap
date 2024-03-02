@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Configure Section UI should match snapshot 1`] = `
+<div class="configure-section__container">
+  <div class="configure-section__head">
+    <div class="configure-section__wrapper">
+      <h3 class="configure-section__label">
+        Configure View
+      </h3>
+    </div>
+  </div>
+  <div class="configure-section__content" style="--bg-color: #EEEEEE;">
+    <h1 id="slot">I am a child component</h1>
+  </div>
+</div>
+`;

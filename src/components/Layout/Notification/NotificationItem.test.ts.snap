@@ -1,0 +1,494 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`account_limit_reached matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--account-limit-reached"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <account-limit-reached-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      Account Limit Reached
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    Free tier limit reached on 
+    <a
+      class="notification-item__text_link"
+      href="/datasets?settings=plans"
+    >
+      V7
+    </a>
+    . Upgrade to keep using Darwin.
+  </div>
+</div>
+`;
+
+exports[`new_dataset_version matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--new-dataset-version"
+>
+  <div
+    class="notification-item__header"
+  >
+    <!---->
+     
+    <span
+      class="notification-item__title"
+    >
+      New Dataset Version
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    A version of 
+    <a
+      class="notification-item__text_link"
+      href="/datasets/5?export"
+    >
+      SFH
+    </a>
+     is ready to download.
+  </div>
+</div>
+`;
+
+exports[`payment_failed matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--payment-failed"
+>
+  <div
+    class="notification-item__header"
+  >
+    <!---->
+     
+    <span
+      class="notification-item__title"
+    >
+      Payment Failed
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    There was a problem with the monthly payment on 
+    <a
+      class="notification-item__text_link"
+      href="/datasets?settings=plans"
+    >
+      V8
+    </a>
+    . Please check your billing information.
+  </div>
+</div>
+`;
+
+exports[`task_approved matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--task-approved"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <task-approved-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      Task Complete
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    Reviewer reviewed Task 1 in My Dataset.
+  </div>
+</div>
+`;
+
+exports[`task_assigned matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--task-assigned"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <task-assigned-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      New Task Assigned
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    Task 1 in My Dataset assigned.
+  </div>
+</div>
+`;
+
+exports[`task_image_comment matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--task-image-comment"
+>
+  <div
+    class="notification-item__header"
+  >
+    <!---->
+     
+    <span
+      class="notification-item__title"
+    >
+      New Comment Added
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    User 1 commented in the Task: 1 DatasetImage: 1 Dataset: SFH: "Foo comment"
+  </div>
+</div>
+`;
+
+exports[`task_ready_for_review matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--task-ready-for-review"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <task-ready-for-review-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      Ready for Review
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    User 1 finished annotating Task 1 in My Dataset.
+  </div>
+</div>
+`;
+
+exports[`task_rejected matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--task-rejected"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <task-rejected-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      Task Requires Corrections
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    Reviewer reviewed Task 1 in My Dataset and some images require corrections.
+  </div>
+</div>
+`;
+
+exports[`work_assigned, multiple items matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--work-assigned"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <work-assigned-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      New Task Assigned
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    <strong
+      class="notification-item__bold"
+    >
+      John Doe
+    </strong>
+     assigned you 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=3"
+    >
+      2 tasks
+    </a>
+     in 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=3"
+    >
+      SFH
+    </a>
+    .
+  </div>
+</div>
+`;
+
+exports[`work_assigned, single item matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--work-assigned"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <work-assigned-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      New Task Assigned
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    <strong
+      class="notification-item__bold"
+    >
+      John Doe
+    </strong>
+     assigned you 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=2"
+    >
+      a task
+    </a>
+     in 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=2"
+    >
+      SFH
+    </a>
+    .
+  </div>
+</div>
+`;
+
+exports[`work_rejected, single item matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--work-rejected"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <work-rejected-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      Task Requires Corrections
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    <strong
+      class="notification-item__bold"
+    >
+       John Doe
+    </strong>
+     reviewed 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=4"
+    >
+      a task
+    </a>
+     in 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=4"
+    >
+      SFH
+    </a>
+     and it requires corrections
+  </div>
+</div>
+`;
+
+exports[`workflow_image_comment matches snapshot 1`] = `
+<div
+  class="notification-item notification-item--workflow-image-comment"
+>
+  <div
+    class="notification-item__header"
+  >
+    <div
+      class="notification-item__icon"
+    >
+      <workflow-image-comment-stub />
+    </div>
+     
+    <span
+      class="notification-item__title"
+    >
+      New comment added
+    </span>
+     
+    <span
+      class="notification-item__ago"
+    >
+      20 years ago
+    </span>
+  </div>
+   
+  <div
+    class="notification-item__text"
+  >
+    <strong
+      class="notification-item__bold"
+    >
+      John Doe
+    </strong>
+     commented on 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=7"
+    >
+      Item 7
+    </a>
+     in 
+    <a
+      class="notification-item__text_link"
+      href="/workview?dataset=5&image=7"
+    >
+      SFH
+    </a>
+    : “Very long comment way more than 140 chars which is what the upper limit for comments in notifications is. Let us add a few more words ju...”
+  </div>
+</div>
+`;

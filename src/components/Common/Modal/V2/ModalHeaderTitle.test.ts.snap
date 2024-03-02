@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with slots 1`] = `<p class="modal-header-title-v2">Default slot</p>`;
+
+exports[`matches snapshot without slots 1`] = `<p class="modal-header-title-v2"></p>`;

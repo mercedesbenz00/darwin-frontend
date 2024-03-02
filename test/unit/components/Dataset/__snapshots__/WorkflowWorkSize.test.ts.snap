@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="workflow__work-size">
+  <div class="workflow__work-size__label"><label>Task batch size</label>
+    <info-stub>
+      When a worker requests a batch of sequential images to work on,
+      how many do they get?
+    </info-stub>
+  </div>
+  <div class="workflow__work-size__input">
+    <input-field-stub value="20" name="workSize" min="1" max="100" required="required" type="number" theme="dark" tooltip="{'content':'The maximum number of images annotators can request','placement':'bottom'}"></input-field-stub>
+  </div>
+</div>
+`;

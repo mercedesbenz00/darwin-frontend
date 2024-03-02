@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when status is annotate matches snapshot 1`] = `
+<button class="status-button status-button--annotate">
+  <annotate-icon-stub></annotate-icon-stub>
+</button>
+`;
+
+exports[`when status is archived matches snapshot 1`] = `
+<button class="status-button status-button--archived">
+  <archived-icon-stub></archived-icon-stub>
+</button>
+`;
+
+exports[`when status is complete matches snapshot 1`] = `
+<button class="status-button status-button--complete">
+  <completed-icon-stub></completed-icon-stub>
+</button>
+`;
+
+exports[`when status is error matches snapshot 1`] = `
+<button class="status-button status-button--error">
+  <error-icon-stub></error-icon-stub>
+</button>
+`;
+
+exports[`when status is new matches snapshot 1`] = `
+<button class="status-button status-button--new">
+  <!---->
+</button>
+`;
+
+exports[`when status is processing matches snapshot 1`] = `
+<button class="status-button status-button--processing">
+  <processing-icon-stub></processing-icon-stub>
+</button>
+`;
+
+exports[`when status is review matches snapshot 1`] = `
+<button class="status-button status-button--review">
+  <review-icon-stub></review-icon-stub>
+</button>
+`;
+
+exports[`when status is uploading matches snapshot 1`] = `
+<button class="status-button status-button--uploading">
+  <uploading-icon-stub></uploading-icon-stub>
+</button>
+`;

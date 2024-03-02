@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<polygon-icon-stub class="annotation-type-icon" style="--first-color: hsla(0,0%,0%,1); --second-color: hsla(0,0%,0%,1);"></polygon-icon-stub>`;

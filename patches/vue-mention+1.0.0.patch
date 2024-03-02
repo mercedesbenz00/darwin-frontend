@@ -1,0 +1,630 @@
+diff --git a/node_modules/vue-mention/dist/vue-mention.esm.js b/node_modules/vue-mention/dist/vue-mention.esm.js
+index e7fb4f0..9aeec14 100644
+--- a/node_modules/vue-mention/dist/vue-mention.esm.js
++++ b/node_modules/vue-mention/dist/vue-mention.esm.js
+@@ -1,3 +1,4 @@
++import Vue from 'vue';
+ import { VPopover } from 'v-tooltip';
+ 
+ function _slicedToArray(arr, i) {
+@@ -158,7 +159,7 @@ var textareaCaret = createCommonjsModule(function (module) {
+ 
+ var userAgent = typeof window !== 'undefined' ? window.navigator.userAgent : '';
+ var isIe = userAgent.indexOf('MSIE ') !== -1 || userAgent.indexOf('Trident/') !== -1;
+-var script = {
++var script = Vue.extend({
+   components: {
+     VPopover: VPopover
+   },
+@@ -473,15 +474,28 @@ var script = {
+         }
+       }
+     },
++    onItemSelected: function onItemSelected(itemIndex, e) {
++      e.preventDefault();
++      e.stopPropagation();
++      this.applyMention(itemIndex);
++    },
+     applyMention: function applyMention(itemIndex) {
+       var item = this.displayedItems[itemIndex];
+-      var value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value) + (this.insertSpace ? ' ' : '');
++      var value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value);
+ 
+       if (this.input.isContentEditable) {
+         var range = window.getSelection().getRangeAt(0);
+         range.setStart(range.startContainer, range.startOffset - this.key.length - (this.lastSearchText ? this.lastSearchText.length : 0));
+-        range.deleteContents();
+-        range.insertNode(document.createTextNode(value));
++        range.deleteContents(); // Start of difference between original vue-mention component
++        // Add space after member-mentioned span
++
++        range.insertNode(document.createTextNode("\xA0"));
++        var spanElement = document.createElement('span');
++        spanElement.id = item.user_id;
++        spanElement.className = 'member-mentioned';
++        spanElement.innerText = value;
++        range.insertNode(spanElement); // End of difference between original vue-mention component
++
+         range.setStart(range.endContainer, range.endOffset);
+         this.emitInputEvent('input');
+       } else {
+@@ -496,7 +510,7 @@ var script = {
+       return text.slice(0, index) + newText + text.slice(index + searchText.length + 1, text.length);
+     }
+   }
+-};
++});
+ 
+ function normalizeComponent(template, style, script, scopeId, isFunctionalTemplate, moduleIdentifier
+ /* server only */
+@@ -645,7 +659,7 @@ var __vue_render__ = function() {
+                                     _vm.selectedIndex = index;
+                                   },
+                                   mousedown: function($event) {
+-                                    return _vm.applyMention(index)
++                                    return _vm.onItemSelected(index, $event)
+                                   }
+                                 }
+                               },
+diff --git a/node_modules/vue-mention/dist/vue-mention.min.js b/node_modules/vue-mention/dist/vue-mention.min.js
+index de6feaa..91603ef 100644
+--- a/node_modules/vue-mention/dist/vue-mention.min.js
++++ b/node_modules/vue-mention/dist/vue-mention.min.js
+@@ -1,2 +1,2 @@
+-var VueMention=function(e,t){"use strict";function n(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){if("undefined"==typeof Symbol||!(Symbol.iterator in Object(e)))return;var n=[],i=!0,o=!1,r=void 0;try{for(var s,a=e[Symbol.iterator]();!(i=(s=a.next()).done)&&(n.push(s.value),!t||n.length!==t);i=!0);}catch(e){o=!0,r=e}finally{try{i||null==a.return||a.return()}finally{if(o)throw r}}return n}(e,t)||function(e,t){if(!e)return;if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);"Object"===n&&e.constructor&&(n=e.constructor.name);if("Map"===n||"Set"===n)return Array.from(e);if("Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n))return i(e,t)}(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,i=new Array(t);n<t;n++)i[n]=e[n];return i}var o=function(e,t){return e(t={exports:{}},t.exports),t.exports}((function(e){var t,n,i;t=["direction","boxSizing","width","height","overflowX","overflowY","borderTopWidth","borderRightWidth","borderBottomWidth","borderLeftWidth","borderStyle","paddingTop","paddingRight","paddingBottom","paddingLeft","fontStyle","fontVariant","fontWeight","fontStretch","fontSize","fontSizeAdjust","lineHeight","fontFamily","textAlign","textTransform","textIndent","textDecoration","letterSpacing","wordSpacing","tabSize","MozTabSize"],n="undefined"!=typeof window,i=n&&null!=window.mozInnerScreenX,e.exports=function(e,o,r){if(!n)throw new Error("textarea-caret-position#getCaretCoordinates should only be called in a browser");var s=r&&r.debug||!1;if(s){var a=document.querySelector("#input-textarea-caret-position-mirror-div");a&&a.parentNode.removeChild(a)}var l=document.createElement("div");l.id="input-textarea-caret-position-mirror-div",document.body.appendChild(l);var u=l.style,c=window.getComputedStyle?window.getComputedStyle(e):e.currentStyle,d="INPUT"===e.nodeName;u.whiteSpace="pre-wrap",d||(u.wordWrap="break-word"),u.position="absolute",s||(u.visibility="hidden"),t.forEach((function(e){d&&"lineHeight"===e?u.lineHeight=c.height:u[e]=c[e]})),i?e.scrollHeight>parseInt(c.height)&&(u.overflowY="scroll"):u.overflow="hidden",l.textContent=e.value.substring(0,o),d&&(l.textContent=l.textContent.replace(/\s/g," "));var h=document.createElement("span");h.textContent=e.value.substring(o)||".",l.appendChild(h);var p={top:h.offsetTop+parseInt(c.borderTopWidth),left:h.offsetLeft+parseInt(c.borderLeftWidth),height:parseInt(c.lineHeight)};return s?h.style.backgroundColor="#aaa":document.body.removeChild(l),p}})),r="undefined"!=typeof window?window.navigator.userAgent:"",s=-1!==r.indexOf("MSIE ")||-1!==r.indexOf("Trident/");function a(e,t,n,i,o,r,s,a,l,u){"boolean"!=typeof s&&(l=a,a=s,s=!1);var c,d="function"==typeof n?n.options:n;if(e&&e.render&&(d.render=e.render,d.staticRenderFns=e.staticRenderFns,d._compiled=!0,o&&(d.functional=!0)),i&&(d._scopeId=i),r?(c=function(e){(e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext)||"undefined"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),t&&t.call(this,l(e)),e&&e._registeredComponents&&e._registeredComponents.add(r)},d._ssrRegister=c):t&&(c=s?function(e){t.call(this,u(e,this.$root.$options.shadowRoot))}:function(e){t.call(this,a(e))}),c)if(d.functional){var h=d.render;d.render=function(e,t){return c.call(t),h(e,t)}}else{var p=d.beforeCreate;d.beforeCreate=p?[].concat(p,c):[c]}return n}const l=a({render:function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"mentionable",staticStyle:{position:"relative"}},[e._t("default"),e._v(" "),n("VPopover",e._b({ref:"popper",staticClass:"popper",staticStyle:{position:"absolute"},style:e.caretPosition?{top:e.caretPosition.top+"px",left:e.caretPosition.left+"px"}:{},attrs:{placement:e.placement,open:!!e.key,trigger:"manual","auto-hide":!1},scopedSlots:e._u([{key:"popover",fn:function(){return[e.displayedItems.length?e._l(e.displayedItems,(function(t,i){return n("div",{key:i,staticClass:"mention-item",class:{"mention-selected":e.selectedIndex===i},on:{mouseover:function(t){e.selectedIndex=i},mousedown:function(t){return e.applyMention(i)}}},[e._t("item-"+(e.key||e.oldKey),[e._t("item",[e._v("\n              "+e._s(t.label||t.value)+"\n            ")],{item:t,index:i})],{item:t,index:i})],2)})):n("div",[e._t("no-result",[e._v("\n          No result\n        ")])],2)]},proxy:!0}],null,!0)},"VPopover",e.$attrs,!1),[n("div",{style:e.caretPosition?{height:e.caretPosition.height+"px"}:{}})])],2)},staticRenderFns:[]},void 0,{components:{VPopover:t.VPopover},inheritAttrs:!1,props:{keys:{type:Array,required:!0},placement:{type:String,default:"top-start"},items:{type:Array,default:function(){return[]}},omitKey:{type:Boolean,default:!1},filteringDisabled:{type:Boolean,default:!1},insertSpace:{type:Boolean,default:!1},mapInsert:{type:Function,default:null},limit:{type:Number,default:8}},data:function(){return{key:null,oldKey:null,searchText:null,caretPosition:null,selectedIndex:0}},computed:{filteredItems:function(){if(!this.searchText||this.filteringDisabled)return this.items;var e=this.searchText.toLowerCase();return this.items.filter((function(t){var n;if(t.searchText)n=t.searchText;else if(t.label)n=t.label;else for(var i in n="",t)n+=t[i];return n.toLowerCase().includes(e)}))},displayedItems:function(){return this.filteredItems.slice(0,this.limit)}},watch:{displayedItems:function(){this.selectedIndex=0},searchText:function(e,t){e&&this.$emit("search",e,t)}},mounted:function(){this.input=this.getInput(),this.attach()},updated:function(){var e=this.getInput();e!==this.input&&(this.detach(),this.input=e,this.attach())},beforeDestroy:function(){this.detach()},methods:{getInput:function(){var e=n(this.$scopedSlots.default(),1)[0];return e?"INPUT"===e.elm.tagName||"TEXTAREA"===e.elm.tagName||e.elm.isContentEditable?e.elm:e.elm.querySelector("input")||e.elm.querySelector("textarea")||e.elm.querySelector('[contenteditable="true"]'):null},attach:function(){this.input&&(this.input.addEventListener("input",this.onInput),this.input.addEventListener("keydown",this.onKeyDown),this.input.addEventListener("keyup",this.onKeyUp),this.input.addEventListener("scroll",this.onScroll),this.input.addEventListener("blur",this.onBlur))},detach:function(){this.input&&(this.input.removeEventListener("input",this.onInput),this.input.removeEventListener("keydown",this.onKeyDown),this.input.removeEventListener("keyup",this.onKeyUp),this.input.removeEventListener("scroll",this.onScroll),this.input.removeEventListener("blur",this.onBlur))},onInput:function(){this.checkKey()},onBlur:function(){this.closeMenu()},onKeyDown:function(e){this.key&&("ArrowDown"!==e.key&&40!==e.keyCode||(this.selectedIndex++,this.selectedIndex>=this.displayedItems.length&&(this.selectedIndex=0),this.cancelEvent(e)),"ArrowUp"!==e.key&&38!==e.keyCode||(this.selectedIndex--,this.selectedIndex<0&&(this.selectedIndex=this.displayedItems.length-1),this.cancelEvent(e)),("Enter"===e.key||"Tab"===e.key||13===e.keyCode||9===e.keyCode)&&this.displayedItems.length>0&&(this.applyMention(this.selectedIndex),this.cancelEvent(e)),"Escape"!==e.key&&27!==e.keyCode||(this.closeMenu(),this.cancelEvent(e)))},onKeyUp:function(e){!this.cancelKeyUp||e.key!==this.cancelKeyUp&&e.keyCode!==this.cancelKeyCode||this.cancelEvent(e),this.cancelKeyUp=null,this.cancelKeyCode=null},cancelEvent:function(e){e.preventDefault(),e.stopPropagation(),this.cancelKeyUp=e.key,this.cancelKeyCode=e.keyCode},onScroll:function(){this.updateCaretPosition()},getSelectionStart:function(){return this.input.isContentEditable?window.getSelection().anchorOffset:this.input.selectionStart},setCaretPosition:function(e){var t=this;this.$nextTick((function(){t.input.selectionEnd=e}))},getValue:function(){return this.input.isContentEditable?window.getSelection().anchorNode.textContent:this.input.value},setValue:function(e){this.input.value=e,this.emitInputEvent("input")},emitInputEvent:function(e){var t;s?(t=document.createEvent("Event")).initEvent(e,!0,!0):t=new Event(e),this.input.dispatchEvent(t)},checkKey:function(){var e=this.getSelectionStart();if(e>=0){var t=this.getLastKeyBeforeCaret(e),n=t.key,i=t.keyIndex,o=this.lastSearchText=this.getLastSearchText(e,i);if(!(i<1||/\s/.test(this.getValue()[i-1])))return!1;if(null!=o)return this.openMenu(n,i),this.searchText=o,!0}return this.closeMenu(),!1},getLastKeyBeforeCaret:function(e){var t=this;return n(this.keys.map((function(n){return{key:n,keyIndex:t.getValue().lastIndexOf(n,e-1)}})).sort((function(e,t){return t.keyIndex-e.keyIndex})),1)[0]},getLastSearchText:function(e,t){if(-1!==t){var n=this.getValue().substring(t+1,e);if(!/\s/.test(n))return n}return null},openMenu:function(e,t){this.key!==e&&(this.key=e,this.keyIndex=t,this.updateCaretPosition(),this.selectedIndex=0,this.$emit("open",e))},closeMenu:function(){null!=this.key&&(this.oldKey=this.key,this.key=null,this.$emit("close",this.oldKey))},updateCaretPosition:function(){if(this.key){if(this.input.isContentEditable){var e=window.getSelection().getRangeAt(0).getBoundingClientRect(),t=this.input.getBoundingClientRect();this.caretPosition={left:e.left-t.left,top:e.top-t.top,height:e.height}}else this.caretPosition=o(this.input,this.keyIndex);this.caretPosition.top-=this.input.scrollTop,this.$refs.popper&&this.$refs.popper.popperInstance&&this.$refs.popper.popperInstance.scheduleUpdate()}},applyMention:function(e){var t=this.displayedItems[e],n=(this.omitKey?"":this.key)+String(this.mapInsert?this.mapInsert(t,this.key):t.value)+(this.insertSpace?" ":"");if(this.input.isContentEditable){var i=window.getSelection().getRangeAt(0);i.setStart(i.startContainer,i.startOffset-this.key.length-(this.lastSearchText?this.lastSearchText.length:0)),i.deleteContents(),i.insertNode(document.createTextNode(n)),i.setStart(i.endContainer,i.endOffset),this.emitInputEvent("input")}else this.setValue(this.replaceText(this.getValue(),this.searchText,n,this.keyIndex)),this.setCaretPosition(this.keyIndex+n.length);this.$emit("apply",t,this.key),this.closeMenu()},replaceText:function(e,t,n,i){return e.slice(0,i)+n+e.slice(i+t.length+1,e.length)}}},void 0,!1,void 0,!1,void 0,void 0,void 0);var u={version:"1.0.0",install:function(e,t){var n=Object.assign({},{installComponents:!0,componentsPrefix:""},t);n.installComponents&&function(e,t){e.component("".concat(t,"mentionable"),l),e.component("".concat(t,"Mentionable"),l)}(e,n.componentsPrefix)}},c=null;return"undefined"!=typeof window?c=window.Vue:"undefined"!=typeof global&&(c=global.Vue),c&&c.use(u),e.Mentionable=l,e.default=u,Object.defineProperty(e,"__esModule",{value:!0}),e}({},vTooltip);
++var VueMention=function(e,t,n){"use strict";function i(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var o=i(t);function r(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){if("undefined"==typeof Symbol||!(Symbol.iterator in Object(e)))return;var n=[],i=!0,o=!1,r=void 0;try{for(var s,a=e[Symbol.iterator]();!(i=(s=a.next()).done)&&(n.push(s.value),!t||n.length!==t);i=!0);}catch(e){o=!0,r=e}finally{try{i||null==a.return||a.return()}finally{if(o)throw r}}return n}(e,t)||function(e,t){if(!e)return;if("string"==typeof e)return s(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);"Object"===n&&e.constructor&&(n=e.constructor.name);if("Map"===n||"Set"===n)return Array.from(e);if("Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n))return s(e,t)}(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function s(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,i=new Array(t);n<t;n++)i[n]=e[n];return i}var a=function(e,t){return e(t={exports:{}},t.exports),t.exports}((function(e){var t,n,i;t=["direction","boxSizing","width","height","overflowX","overflowY","borderTopWidth","borderRightWidth","borderBottomWidth","borderLeftWidth","borderStyle","paddingTop","paddingRight","paddingBottom","paddingLeft","fontStyle","fontVariant","fontWeight","fontStretch","fontSize","fontSizeAdjust","lineHeight","fontFamily","textAlign","textTransform","textIndent","textDecoration","letterSpacing","wordSpacing","tabSize","MozTabSize"],n="undefined"!=typeof window,i=n&&null!=window.mozInnerScreenX,e.exports=function(e,o,r){if(!n)throw new Error("textarea-caret-position#getCaretCoordinates should only be called in a browser");var s=r&&r.debug||!1;if(s){var a=document.querySelector("#input-textarea-caret-position-mirror-div");a&&a.parentNode.removeChild(a)}var l=document.createElement("div");l.id="input-textarea-caret-position-mirror-div",document.body.appendChild(l);var u=l.style,c=window.getComputedStyle?window.getComputedStyle(e):e.currentStyle,d="INPUT"===e.nodeName;u.whiteSpace="pre-wrap",d||(u.wordWrap="break-word"),u.position="absolute",s||(u.visibility="hidden"),t.forEach((function(e){d&&"lineHeight"===e?u.lineHeight=c.height:u[e]=c[e]})),i?e.scrollHeight>parseInt(c.height)&&(u.overflowY="scroll"):u.overflow="hidden",l.textContent=e.value.substring(0,o),d&&(l.textContent=l.textContent.replace(/\s/g," "));var h=document.createElement("span");h.textContent=e.value.substring(o)||".",l.appendChild(h);var p={top:h.offsetTop+parseInt(c.borderTopWidth),left:h.offsetLeft+parseInt(c.borderLeftWidth),height:parseInt(c.lineHeight)};return s?h.style.backgroundColor="#aaa":document.body.removeChild(l),p}})),l="undefined"!=typeof window?window.navigator.userAgent:"",u=-1!==l.indexOf("MSIE ")||-1!==l.indexOf("Trident/");function c(e,t,n,i,o,r,s,a,l,u){"boolean"!=typeof s&&(l=a,a=s,s=!1);var c,d="function"==typeof n?n.options:n;if(e&&e.render&&(d.render=e.render,d.staticRenderFns=e.staticRenderFns,d._compiled=!0,o&&(d.functional=!0)),i&&(d._scopeId=i),r?(c=function(e){(e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext)||"undefined"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),t&&t.call(this,l(e)),e&&e._registeredComponents&&e._registeredComponents.add(r)},d._ssrRegister=c):t&&(c=s?function(e){t.call(this,u(e,this.$root.$options.shadowRoot))}:function(e){t.call(this,a(e))}),c)if(d.functional){var h=d.render;d.render=function(e,t){return c.call(t),h(e,t)}}else{var p=d.beforeCreate;d.beforeCreate=p?[].concat(p,c):[c]}return n}const d=c({render:function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",{staticClass:"mentionable",staticStyle:{position:"relative"}},[e._t("default"),e._v(" "),n("VPopover",e._b({ref:"popper",staticClass:"popper",staticStyle:{position:"absolute"},style:e.caretPosition?{top:e.caretPosition.top+"px",left:e.caretPosition.left+"px"}:{},attrs:{placement:e.placement,open:!!e.key,trigger:"manual","auto-hide":!1},scopedSlots:e._u([{key:"popover",fn:function(){return[e.displayedItems.length?e._l(e.displayedItems,(function(t,i){return n("div",{key:i,staticClass:"mention-item",class:{"mention-selected":e.selectedIndex===i},on:{mouseover:function(t){e.selectedIndex=i},mousedown:function(t){return e.onItemSelected(i,t)}}},[e._t("item-"+(e.key||e.oldKey),[e._t("item",[e._v("\n              "+e._s(t.label||t.value)+"\n            ")],{item:t,index:i})],{item:t,index:i})],2)})):n("div",[e._t("no-result",[e._v("\n          No result\n        ")])],2)]},proxy:!0}],null,!0)},"VPopover",e.$attrs,!1),[n("div",{style:e.caretPosition?{height:e.caretPosition.height+"px"}:{}})])],2)},staticRenderFns:[]},void 0,o.default.extend({components:{VPopover:n.VPopover},inheritAttrs:!1,props:{keys:{type:Array,required:!0},placement:{type:String,default:"top-start"},items:{type:Array,default:function(){return[]}},omitKey:{type:Boolean,default:!1},filteringDisabled:{type:Boolean,default:!1},insertSpace:{type:Boolean,default:!1},mapInsert:{type:Function,default:null},limit:{type:Number,default:8}},data:function(){return{key:null,oldKey:null,searchText:null,caretPosition:null,selectedIndex:0}},computed:{filteredItems:function(){if(!this.searchText||this.filteringDisabled)return this.items;var e=this.searchText.toLowerCase();return this.items.filter((function(t){var n;if(t.searchText)n=t.searchText;else if(t.label)n=t.label;else for(var i in n="",t)n+=t[i];return n.toLowerCase().includes(e)}))},displayedItems:function(){return this.filteredItems.slice(0,this.limit)}},watch:{displayedItems:function(){this.selectedIndex=0},searchText:function(e,t){e&&this.$emit("search",e,t)}},mounted:function(){this.input=this.getInput(),this.attach()},updated:function(){var e=this.getInput();e!==this.input&&(this.detach(),this.input=e,this.attach())},beforeDestroy:function(){this.detach()},methods:{getInput:function(){var e=r(this.$scopedSlots.default(),1)[0];return e?"INPUT"===e.elm.tagName||"TEXTAREA"===e.elm.tagName||e.elm.isContentEditable?e.elm:e.elm.querySelector("input")||e.elm.querySelector("textarea")||e.elm.querySelector('[contenteditable="true"]'):null},attach:function(){this.input&&(this.input.addEventListener("input",this.onInput),this.input.addEventListener("keydown",this.onKeyDown),this.input.addEventListener("keyup",this.onKeyUp),this.input.addEventListener("scroll",this.onScroll),this.input.addEventListener("blur",this.onBlur))},detach:function(){this.input&&(this.input.removeEventListener("input",this.onInput),this.input.removeEventListener("keydown",this.onKeyDown),this.input.removeEventListener("keyup",this.onKeyUp),this.input.removeEventListener("scroll",this.onScroll),this.input.removeEventListener("blur",this.onBlur))},onInput:function(){this.checkKey()},onBlur:function(){this.closeMenu()},onKeyDown:function(e){this.key&&("ArrowDown"!==e.key&&40!==e.keyCode||(this.selectedIndex++,this.selectedIndex>=this.displayedItems.length&&(this.selectedIndex=0),this.cancelEvent(e)),"ArrowUp"!==e.key&&38!==e.keyCode||(this.selectedIndex--,this.selectedIndex<0&&(this.selectedIndex=this.displayedItems.length-1),this.cancelEvent(e)),("Enter"===e.key||"Tab"===e.key||13===e.keyCode||9===e.keyCode)&&this.displayedItems.length>0&&(this.applyMention(this.selectedIndex),this.cancelEvent(e)),"Escape"!==e.key&&27!==e.keyCode||(this.closeMenu(),this.cancelEvent(e)))},onKeyUp:function(e){!this.cancelKeyUp||e.key!==this.cancelKeyUp&&e.keyCode!==this.cancelKeyCode||this.cancelEvent(e),this.cancelKeyUp=null,this.cancelKeyCode=null},cancelEvent:function(e){e.preventDefault(),e.stopPropagation(),this.cancelKeyUp=e.key,this.cancelKeyCode=e.keyCode},onScroll:function(){this.updateCaretPosition()},getSelectionStart:function(){return this.input.isContentEditable?window.getSelection().anchorOffset:this.input.selectionStart},setCaretPosition:function(e){var t=this;this.$nextTick((function(){t.input.selectionEnd=e}))},getValue:function(){return this.input.isContentEditable?window.getSelection().anchorNode.textContent:this.input.value},setValue:function(e){this.input.value=e,this.emitInputEvent("input")},emitInputEvent:function(e){var t;u?(t=document.createEvent("Event")).initEvent(e,!0,!0):t=new Event(e),this.input.dispatchEvent(t)},checkKey:function(){var e=this.getSelectionStart();if(e>=0){var t=this.getLastKeyBeforeCaret(e),n=t.key,i=t.keyIndex,o=this.lastSearchText=this.getLastSearchText(e,i);if(!(i<1||/\s/.test(this.getValue()[i-1])))return!1;if(null!=o)return this.openMenu(n,i),this.searchText=o,!0}return this.closeMenu(),!1},getLastKeyBeforeCaret:function(e){var t=this;return r(this.keys.map((function(n){return{key:n,keyIndex:t.getValue().lastIndexOf(n,e-1)}})).sort((function(e,t){return t.keyIndex-e.keyIndex})),1)[0]},getLastSearchText:function(e,t){if(-1!==t){var n=this.getValue().substring(t+1,e);if(!/\s/.test(n))return n}return null},openMenu:function(e,t){this.key!==e&&(this.key=e,this.keyIndex=t,this.updateCaretPosition(),this.selectedIndex=0,this.$emit("open",e))},closeMenu:function(){null!=this.key&&(this.oldKey=this.key,this.key=null,this.$emit("close",this.oldKey))},updateCaretPosition:function(){if(this.key){if(this.input.isContentEditable){var e=window.getSelection().getRangeAt(0).getBoundingClientRect(),t=this.input.getBoundingClientRect();this.caretPosition={left:e.left-t.left,top:e.top-t.top,height:e.height}}else this.caretPosition=a(this.input,this.keyIndex);this.caretPosition.top-=this.input.scrollTop,this.$refs.popper&&this.$refs.popper.popperInstance&&this.$refs.popper.popperInstance.scheduleUpdate()}},onItemSelected:function(e,t){t.preventDefault(),t.stopPropagation(),this.applyMention(e)},applyMention:function(e){var t=this.displayedItems[e],n=(this.omitKey?"":this.key)+String(this.mapInsert?this.mapInsert(t,this.key):t.value);if(this.input.isContentEditable){var i=window.getSelection().getRangeAt(0);i.setStart(i.startContainer,i.startOffset-this.key.length-(this.lastSearchText?this.lastSearchText.length:0)),i.deleteContents(),i.insertNode(document.createTextNode(" "));var o=document.createElement("span");o.id=t.user_id,o.className="member-mentioned",o.innerText=n,i.insertNode(o),i.setStart(i.endContainer,i.endOffset),this.emitInputEvent("input")}else this.setValue(this.replaceText(this.getValue(),this.searchText,n,this.keyIndex)),this.setCaretPosition(this.keyIndex+n.length);this.$emit("apply",t,this.key),this.closeMenu()},replaceText:function(e,t,n,i){return e.slice(0,i)+n+e.slice(i+t.length+1,e.length)}}}),void 0,!1,void 0,!1,void 0,void 0,void 0);var h={version:"1.0.0",install:function(e,t){var n=Object.assign({},{installComponents:!0,componentsPrefix:""},t);n.installComponents&&function(e,t){e.component("".concat(t,"mentionable"),d),e.component("".concat(t,"Mentionable"),d)}(e,n.componentsPrefix)}},p=null;return"undefined"!=typeof window?p=window.Vue:"undefined"!=typeof global&&(p=global.Vue),p&&p.use(h),e.Mentionable=d,e.default=h,Object.defineProperty(e,"__esModule",{value:!0}),e}({},Vue,vTooltip);
+ //# sourceMappingURL=vue-mention.min.js.map
+diff --git a/node_modules/vue-mention/dist/vue-mention.min.js.map b/node_modules/vue-mention/dist/vue-mention.min.js.map
+index 783f427..f4eabe8 100644
+--- a/node_modules/vue-mention/dist/vue-mention.min.js.map
++++ b/node_modules/vue-mention/dist/vue-mention.min.js.map
+@@ -1 +1 @@
+-{"version":3,"file":"vue-mention.min.js","sources":["../../../node_modules/textarea-caret/index.js","../src/index.js"],"sourcesContent":["/* jshint browser: true */\n\n(function () {\n\n// We'll copy the properties below into the mirror div.\n// Note that some browsers, such as Firefox, do not concatenate properties\n// into their shorthand (e.g. padding-top, padding-bottom etc. -> padding),\n// so we have to list every single property explicitly.\nvar properties = [\n  'direction',  // RTL support\n  'boxSizing',\n  'width',  // on Chrome and IE, exclude the scrollbar, so the mirror div wraps exactly as the textarea does\n  'height',\n  'overflowX',\n  'overflowY',  // copy the scrollbar for IE\n\n  'borderTopWidth',\n  'borderRightWidth',\n  'borderBottomWidth',\n  'borderLeftWidth',\n  'borderStyle',\n\n  'paddingTop',\n  'paddingRight',\n  'paddingBottom',\n  'paddingLeft',\n\n  // https://developer.mozilla.org/en-US/docs/Web/CSS/font\n  'fontStyle',\n  'fontVariant',\n  'fontWeight',\n  'fontStretch',\n  'fontSize',\n  'fontSizeAdjust',\n  'lineHeight',\n  'fontFamily',\n\n  'textAlign',\n  'textTransform',\n  'textIndent',\n  'textDecoration',  // might not make a difference, but better be safe\n\n  'letterSpacing',\n  'wordSpacing',\n\n  'tabSize',\n  'MozTabSize'\n\n];\n\nvar isBrowser = (typeof window !== 'undefined');\nvar isFirefox = (isBrowser && window.mozInnerScreenX != null);\n\nfunction getCaretCoordinates(element, position, options) {\n  if (!isBrowser) {\n    throw new Error('textarea-caret-position#getCaretCoordinates should only be called in a browser');\n  }\n\n  var debug = options && options.debug || false;\n  if (debug) {\n    var el = document.querySelector('#input-textarea-caret-position-mirror-div');\n    if (el) el.parentNode.removeChild(el);\n  }\n\n  // The mirror div will replicate the textarea's style\n  var div = document.createElement('div');\n  div.id = 'input-textarea-caret-position-mirror-div';\n  document.body.appendChild(div);\n\n  var style = div.style;\n  var computed = window.getComputedStyle ? window.getComputedStyle(element) : element.currentStyle;  // currentStyle for IE < 9\n  var isInput = element.nodeName === 'INPUT';\n\n  // Default textarea styles\n  style.whiteSpace = 'pre-wrap';\n  if (!isInput)\n    style.wordWrap = 'break-word';  // only for textarea-s\n\n  // Position off-screen\n  style.position = 'absolute';  // required to return coordinates properly\n  if (!debug)\n    style.visibility = 'hidden';  // not 'display: none' because we want rendering\n\n  // Transfer the element's properties to the div\n  properties.forEach(function (prop) {\n    if (isInput && prop === 'lineHeight') {\n      // Special case for <input>s because text is rendered centered and line height may be != height\n      style.lineHeight = computed.height;\n    } else {\n      style[prop] = computed[prop];\n    }\n  });\n\n  if (isFirefox) {\n    // Firefox lies about the overflow property for textareas: https://bugzilla.mozilla.org/show_bug.cgi?id=984275\n    if (element.scrollHeight > parseInt(computed.height))\n      style.overflowY = 'scroll';\n  } else {\n    style.overflow = 'hidden';  // for Chrome to not render a scrollbar; IE keeps overflowY = 'scroll'\n  }\n\n  div.textContent = element.value.substring(0, position);\n  // The second special handling for input type=\"text\" vs textarea:\n  // spaces need to be replaced with non-breaking spaces - http://stackoverflow.com/a/13402035/1269037\n  if (isInput)\n    div.textContent = div.textContent.replace(/\\s/g, '\\u00a0');\n\n  var span = document.createElement('span');\n  // Wrapping must be replicated *exactly*, including when a long word gets\n  // onto the next line, with whitespace at the end of the line before (#7).\n  // The  *only* reliable way to do that is to copy the *entire* rest of the\n  // textarea's content into the <span> created at the caret position.\n  // For inputs, just '.' would be enough, but no need to bother.\n  span.textContent = element.value.substring(position) || '.';  // || because a completely empty faux span doesn't render at all\n  div.appendChild(span);\n\n  var coordinates = {\n    top: span.offsetTop + parseInt(computed['borderTopWidth']),\n    left: span.offsetLeft + parseInt(computed['borderLeftWidth']),\n    height: parseInt(computed['lineHeight'])\n  };\n\n  if (debug) {\n    span.style.backgroundColor = '#aaa';\n  } else {\n    document.body.removeChild(div);\n  }\n\n  return coordinates;\n}\n\nif (typeof module != 'undefined' && typeof module.exports != 'undefined') {\n  module.exports = getCaretCoordinates;\n} else if(isBrowser) {\n  window.getCaretCoordinates = getCaretCoordinates;\n}\n\n}());\n","import Mentionable from './Mentionable.vue'\n\nexport {\n  Mentionable,\n}\n\nfunction registerComponents (Vue, prefix) {\n  Vue.component(`${prefix}mentionable`, Mentionable)\n  Vue.component(`${prefix}Mentionable`, Mentionable)\n}\n\nconst plugin = {\n  // eslint-disable-next-line no-undef\n  version: VERSION,\n  install (Vue, options) {\n    const finalOptions = Object.assign({}, {\n      installComponents: true,\n      componentsPrefix: '',\n    }, options)\n\n    if (finalOptions.installComponents) {\n      registerComponents(Vue, finalOptions.componentsPrefix)\n    }\n  },\n}\n\nexport default plugin\n\n// Auto-install\nlet GlobalVue = null\nif (typeof window !== 'undefined') {\n  GlobalVue = window.Vue\n} else if (typeof global !== 'undefined') {\n  GlobalVue = global.Vue\n}\nif (GlobalVue) {\n  GlobalVue.use(plugin)\n}\n"],"names":["properties","isBrowser","isFirefox","window","mozInnerScreenX","module","element","position","options","Error","debug","el","document","querySelector","parentNode","removeChild","div","createElement","id","body","appendChild","style","computed","getComputedStyle","currentStyle","isInput","nodeName","whiteSpace","wordWrap","visibility","forEach","prop","lineHeight","height","scrollHeight","parseInt","overflowY","overflow","textContent","value","substring","replace","span","coordinates","top","offsetTop","left","offsetLeft","backgroundColor","plugin","version","VERSION","install","Vue","finalOptions","Object","assign","installComponents","componentsPrefix","prefix","component","Mentionable","registerComponents","GlobalVue","global","use"],"mappings":"gkCAEC,IAMGA,EA0CAC,EACAC,EA3CAF,EAAa,CACf,wBAEA,iBAEA,YACA,6BAGA,mBACA,oBACA,kBACA,cAEA,aACA,eACA,gBACA,0BAIA,cACA,aACA,cACA,WACA,iBACA,aACA,aAEA,YACA,gBACA,aACA,iCAGA,cAEA,UACA,cAIEC,EAA+B,oBAAXE,OACpBD,EAAaD,GAAuC,MAA1BE,OAAOC,gBAiFnCC,mBA/E2BC,EAASC,EAAUC,OACzCP,QACG,IAAIQ,MAAM,sFAGdC,EAAQF,GAAWA,EAAQE,QAAS,KACpCA,EAAO,KACLC,EAAKC,SAASC,cAAc,6CAC5BF,GAAIA,EAAGG,WAAWC,YAAYJ,OAIhCK,EAAMJ,SAASK,cAAc,OACjCD,EAAIE,GAAK,2CACTN,SAASO,KAAKC,YAAYJ,OAEtBK,EAAQL,EAAIK,MACZC,EAAWnB,OAAOoB,iBAAmBpB,OAAOoB,iBAAiBjB,GAAWA,EAAQkB,aAChFC,EAA+B,UAArBnB,EAAQoB,SAGtBL,EAAMM,WAAa,WACdF,IACHJ,EAAMO,SAAW,cAGnBP,EAAMd,SAAW,WACZG,IACHW,EAAMQ,WAAa,UAGrB7B,EAAW8B,SAAQ,SAAUC,GACvBN,GAAoB,eAATM,EAEbV,EAAMW,WAAaV,EAASW,OAE5BZ,EAAMU,GAAQT,EAASS,MAIvB7B,EAEEI,EAAQ4B,aAAeC,SAASb,EAASW,UAC3CZ,EAAMe,UAAY,UAEpBf,EAAMgB,SAAW,SAGnBrB,EAAIsB,YAAchC,EAAQiC,MAAMC,UAAU,EAAGjC,GAGzCkB,IACFT,EAAIsB,YAActB,EAAIsB,YAAYG,QAAQ,MAAO,UAE/CC,EAAO9B,SAASK,cAAc,QAMlCyB,EAAKJ,YAAchC,EAAQiC,MAAMC,UAAUjC,IAAa,IACxDS,EAAII,YAAYsB,OAEZC,EAAc,CAChBC,IAAKF,EAAKG,UAAYV,SAASb,EAAQ,gBACvCwB,KAAMJ,EAAKK,WAAaZ,SAASb,EAAQ,iBACzCW,OAAQE,SAASb,EAAQ,oBAGvBZ,EACFgC,EAAKrB,MAAM2B,gBAAkB,OAE7BpC,SAASO,KAAKJ,YAAYC,GAGrB2B,2+OCrHHM,EAAS,CAEbC,QAASC,QACTC,iBAASC,EAAK7C,OACN8C,EAAeC,OAAOC,OAAO,GAAI,CACrCC,mBAAmB,EACnBC,iBAAkB,IACjBlD,GAEC8C,EAAaG,mBAdrB,SAA6BJ,EAAKM,GAChCN,EAAIO,oBAAaD,iBAAqBE,GACtCR,EAAIO,oBAAaD,iBAAqBE,GAalCC,CAAmBT,EAAKC,EAAaI,oBAQvCK,EAAY,WACM,oBAAX5D,OACT4D,EAAY5D,OAAOkD,IACQ,oBAAXW,SAChBD,EAAYC,OAAOX,KAEjBU,GACFA,EAAUE,IAAIhB"}
+\ No newline at end of file
++{"version":3,"file":"vue-mention.min.js","sources":["../../../node_modules/textarea-caret/index.js","../src/index.js"],"sourcesContent":["/* jshint browser: true */\n\n(function () {\n\n// We'll copy the properties below into the mirror div.\n// Note that some browsers, such as Firefox, do not concatenate properties\n// into their shorthand (e.g. padding-top, padding-bottom etc. -> padding),\n// so we have to list every single property explicitly.\nvar properties = [\n  'direction',  // RTL support\n  'boxSizing',\n  'width',  // on Chrome and IE, exclude the scrollbar, so the mirror div wraps exactly as the textarea does\n  'height',\n  'overflowX',\n  'overflowY',  // copy the scrollbar for IE\n\n  'borderTopWidth',\n  'borderRightWidth',\n  'borderBottomWidth',\n  'borderLeftWidth',\n  'borderStyle',\n\n  'paddingTop',\n  'paddingRight',\n  'paddingBottom',\n  'paddingLeft',\n\n  // https://developer.mozilla.org/en-US/docs/Web/CSS/font\n  'fontStyle',\n  'fontVariant',\n  'fontWeight',\n  'fontStretch',\n  'fontSize',\n  'fontSizeAdjust',\n  'lineHeight',\n  'fontFamily',\n\n  'textAlign',\n  'textTransform',\n  'textIndent',\n  'textDecoration',  // might not make a difference, but better be safe\n\n  'letterSpacing',\n  'wordSpacing',\n\n  'tabSize',\n  'MozTabSize'\n\n];\n\nvar isBrowser = (typeof window !== 'undefined');\nvar isFirefox = (isBrowser && window.mozInnerScreenX != null);\n\nfunction getCaretCoordinates(element, position, options) {\n  if (!isBrowser) {\n    throw new Error('textarea-caret-position#getCaretCoordinates should only be called in a browser');\n  }\n\n  var debug = options && options.debug || false;\n  if (debug) {\n    var el = document.querySelector('#input-textarea-caret-position-mirror-div');\n    if (el) el.parentNode.removeChild(el);\n  }\n\n  // The mirror div will replicate the textarea's style\n  var div = document.createElement('div');\n  div.id = 'input-textarea-caret-position-mirror-div';\n  document.body.appendChild(div);\n\n  var style = div.style;\n  var computed = window.getComputedStyle ? window.getComputedStyle(element) : element.currentStyle;  // currentStyle for IE < 9\n  var isInput = element.nodeName === 'INPUT';\n\n  // Default textarea styles\n  style.whiteSpace = 'pre-wrap';\n  if (!isInput)\n    style.wordWrap = 'break-word';  // only for textarea-s\n\n  // Position off-screen\n  style.position = 'absolute';  // required to return coordinates properly\n  if (!debug)\n    style.visibility = 'hidden';  // not 'display: none' because we want rendering\n\n  // Transfer the element's properties to the div\n  properties.forEach(function (prop) {\n    if (isInput && prop === 'lineHeight') {\n      // Special case for <input>s because text is rendered centered and line height may be != height\n      style.lineHeight = computed.height;\n    } else {\n      style[prop] = computed[prop];\n    }\n  });\n\n  if (isFirefox) {\n    // Firefox lies about the overflow property for textareas: https://bugzilla.mozilla.org/show_bug.cgi?id=984275\n    if (element.scrollHeight > parseInt(computed.height))\n      style.overflowY = 'scroll';\n  } else {\n    style.overflow = 'hidden';  // for Chrome to not render a scrollbar; IE keeps overflowY = 'scroll'\n  }\n\n  div.textContent = element.value.substring(0, position);\n  // The second special handling for input type=\"text\" vs textarea:\n  // spaces need to be replaced with non-breaking spaces - http://stackoverflow.com/a/13402035/1269037\n  if (isInput)\n    div.textContent = div.textContent.replace(/\\s/g, '\\u00a0');\n\n  var span = document.createElement('span');\n  // Wrapping must be replicated *exactly*, including when a long word gets\n  // onto the next line, with whitespace at the end of the line before (#7).\n  // The  *only* reliable way to do that is to copy the *entire* rest of the\n  // textarea's content into the <span> created at the caret position.\n  // For inputs, just '.' would be enough, but no need to bother.\n  span.textContent = element.value.substring(position) || '.';  // || because a completely empty faux span doesn't render at all\n  div.appendChild(span);\n\n  var coordinates = {\n    top: span.offsetTop + parseInt(computed['borderTopWidth']),\n    left: span.offsetLeft + parseInt(computed['borderLeftWidth']),\n    height: parseInt(computed['lineHeight'])\n  };\n\n  if (debug) {\n    span.style.backgroundColor = '#aaa';\n  } else {\n    document.body.removeChild(div);\n  }\n\n  return coordinates;\n}\n\nif (typeof module != 'undefined' && typeof module.exports != 'undefined') {\n  module.exports = getCaretCoordinates;\n} else if(isBrowser) {\n  window.getCaretCoordinates = getCaretCoordinates;\n}\n\n}());\n","import Mentionable from './Mentionable.vue'\n\nexport {\n  Mentionable,\n}\n\nfunction registerComponents (Vue, prefix) {\n  Vue.component(`${prefix}mentionable`, Mentionable)\n  Vue.component(`${prefix}Mentionable`, Mentionable)\n}\n\nconst plugin = {\n  // eslint-disable-next-line no-undef\n  version: VERSION,\n  install (Vue, options) {\n    const finalOptions = Object.assign({}, {\n      installComponents: true,\n      componentsPrefix: '',\n    }, options)\n\n    if (finalOptions.installComponents) {\n      registerComponents(Vue, finalOptions.componentsPrefix)\n    }\n  },\n}\n\nexport default plugin\n\n// Auto-install\nlet GlobalVue = null\nif (typeof window !== 'undefined') {\n  GlobalVue = window.Vue\n} else if (typeof global !== 'undefined') {\n  GlobalVue = global.Vue\n}\nif (GlobalVue) {\n  GlobalVue.use(plugin)\n}\n"],"names":["properties","isBrowser","isFirefox","window","mozInnerScreenX","module","element","position","options","Error","debug","el","document","querySelector","parentNode","removeChild","div","createElement","id","body","appendChild","style","computed","getComputedStyle","currentStyle","isInput","nodeName","whiteSpace","wordWrap","visibility","forEach","prop","lineHeight","height","scrollHeight","parseInt","overflowY","overflow","textContent","value","substring","replace","span","coordinates","top","offsetTop","left","offsetLeft","backgroundColor","plugin","version","VERSION","install","Vue","finalOptions","Object","assign","installComponents","componentsPrefix","prefix","component","Mentionable","registerComponents","GlobalVue","global","use"],"mappings":"qpCAEC,IAMGA,EA0CAC,EACAC,EA3CAF,EAAa,CACf,wBAEA,iBAEA,YACA,6BAGA,mBACA,oBACA,kBACA,cAEA,aACA,eACA,gBACA,0BAIA,cACA,aACA,cACA,WACA,iBACA,aACA,aAEA,YACA,gBACA,aACA,iCAGA,cAEA,UACA,cAIEC,EAA+B,oBAAXE,OACpBD,EAAaD,GAAuC,MAA1BE,OAAOC,gBAiFnCC,mBA/E2BC,EAASC,EAAUC,OACzCP,QACG,IAAIQ,MAAM,sFAGdC,EAAQF,GAAWA,EAAQE,QAAS,KACpCA,EAAO,KACLC,EAAKC,SAASC,cAAc,6CAC5BF,GAAIA,EAAGG,WAAWC,YAAYJ,OAIhCK,EAAMJ,SAASK,cAAc,OACjCD,EAAIE,GAAK,2CACTN,SAASO,KAAKC,YAAYJ,OAEtBK,EAAQL,EAAIK,MACZC,EAAWnB,OAAOoB,iBAAmBpB,OAAOoB,iBAAiBjB,GAAWA,EAAQkB,aAChFC,EAA+B,UAArBnB,EAAQoB,SAGtBL,EAAMM,WAAa,WACdF,IACHJ,EAAMO,SAAW,cAGnBP,EAAMd,SAAW,WACZG,IACHW,EAAMQ,WAAa,UAGrB7B,EAAW8B,SAAQ,SAAUC,GACvBN,GAAoB,eAATM,EAEbV,EAAMW,WAAaV,EAASW,OAE5BZ,EAAMU,GAAQT,EAASS,MAIvB7B,EAEEI,EAAQ4B,aAAeC,SAASb,EAASW,UAC3CZ,EAAMe,UAAY,UAEpBf,EAAMgB,SAAW,SAGnBrB,EAAIsB,YAAchC,EAAQiC,MAAMC,UAAU,EAAGjC,GAGzCkB,IACFT,EAAIsB,YAActB,EAAIsB,YAAYG,QAAQ,MAAO,UAE/CC,EAAO9B,SAASK,cAAc,QAMlCyB,EAAKJ,YAAchC,EAAQiC,MAAMC,UAAUjC,IAAa,IACxDS,EAAII,YAAYsB,OAEZC,EAAc,CAChBC,IAAKF,EAAKG,UAAYV,SAASb,EAAQ,gBACvCwB,KAAMJ,EAAKK,WAAaZ,SAASb,EAAQ,iBACzCW,OAAQE,SAASb,EAAQ,oBAGvBZ,EACFgC,EAAKrB,MAAM2B,gBAAkB,OAE7BpC,SAASO,KAAKJ,YAAYC,GAGrB2B,orPCrHHM,EAAS,CAEbC,QAASC,QACTC,iBAASC,EAAK7C,OACN8C,EAAeC,OAAOC,OAAO,GAAI,CACrCC,mBAAmB,EACnBC,iBAAkB,IACjBlD,GAEC8C,EAAaG,mBAdrB,SAA6BJ,EAAKM,GAChCN,EAAIO,oBAAaD,iBAAqBE,GACtCR,EAAIO,oBAAaD,iBAAqBE,GAalCC,CAAmBT,EAAKC,EAAaI,oBAQvCK,EAAY,WACM,oBAAX5D,OACT4D,EAAY5D,OAAOkD,IACQ,oBAAXW,SAChBD,EAAYC,OAAOX,KAEjBU,GACFA,EAAUE,IAAIhB"}
+\ No newline at end of file
+diff --git a/node_modules/vue-mention/dist/vue-mention.umd.js b/node_modules/vue-mention/dist/vue-mention.umd.js
+index a6c43b9..57f6f20 100644
+--- a/node_modules/vue-mention/dist/vue-mention.umd.js
++++ b/node_modules/vue-mention/dist/vue-mention.umd.js
+@@ -1,8 +1,12 @@
+ (function (global, factory) {
+-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('v-tooltip')) :
+-  typeof define === 'function' && define.amd ? define(['exports', 'v-tooltip'], factory) :
+-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['vue-mention'] = {}, global.vTooltip));
+-}(this, (function (exports, vTooltip) { 'use strict';
++  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('vue'), require('v-tooltip')) :
++  typeof define === 'function' && define.amd ? define(['exports', 'vue', 'v-tooltip'], factory) :
++  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['vue-mention'] = {}, global.Vue, global.vTooltip));
++}(this, (function (exports, Vue, vTooltip) { 'use strict';
++
++  function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
++
++  var Vue__default = /*#__PURE__*/_interopDefaultLegacy(Vue);
+ 
+   function _slicedToArray(arr, i) {
+     return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+@@ -162,7 +166,7 @@
+ 
+   var userAgent = typeof window !== 'undefined' ? window.navigator.userAgent : '';
+   var isIe = userAgent.indexOf('MSIE ') !== -1 || userAgent.indexOf('Trident/') !== -1;
+-  var script = {
++  var script = Vue__default['default'].extend({
+     components: {
+       VPopover: vTooltip.VPopover
+     },
+@@ -477,15 +481,28 @@
+           }
+         }
+       },
++      onItemSelected: function onItemSelected(itemIndex, e) {
++        e.preventDefault();
++        e.stopPropagation();
++        this.applyMention(itemIndex);
++      },
+       applyMention: function applyMention(itemIndex) {
+         var item = this.displayedItems[itemIndex];
+-        var value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value) + (this.insertSpace ? ' ' : '');
++        var value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value);
+ 
+         if (this.input.isContentEditable) {
+           var range = window.getSelection().getRangeAt(0);
+           range.setStart(range.startContainer, range.startOffset - this.key.length - (this.lastSearchText ? this.lastSearchText.length : 0));
+-          range.deleteContents();
+-          range.insertNode(document.createTextNode(value));
++          range.deleteContents(); // Start of difference between original vue-mention component
++          // Add space after member-mentioned span
++
++          range.insertNode(document.createTextNode("\xA0"));
++          var spanElement = document.createElement('span');
++          spanElement.id = item.user_id;
++          spanElement.className = 'member-mentioned';
++          spanElement.innerText = value;
++          range.insertNode(spanElement); // End of difference between original vue-mention component
++
+           range.setStart(range.endContainer, range.endOffset);
+           this.emitInputEvent('input');
+         } else {
+@@ -500,7 +517,7 @@
+         return text.slice(0, index) + newText + text.slice(index + searchText.length + 1, text.length);
+       }
+     }
+-  };
++  });
+ 
+   function normalizeComponent(template, style, script, scopeId, isFunctionalTemplate, moduleIdentifier
+   /* server only */
+@@ -649,7 +666,7 @@
+                                       _vm.selectedIndex = index;
+                                     },
+                                     mousedown: function($event) {
+-                                      return _vm.applyMention(index)
++                                      return _vm.onItemSelected(index, $event)
+                                     }
+                                   }
+                                 },
+diff --git a/node_modules/vue-mention/dist/vue-mention.umd.js.map b/node_modules/vue-mention/dist/vue-mention.umd.js.map
+index 7b0ce86..c386a7c 100644
+--- a/node_modules/vue-mention/dist/vue-mention.umd.js.map
++++ b/node_modules/vue-mention/dist/vue-mention.umd.js.map
+@@ -1 +1 @@
+-{"version":3,"file":"vue-mention.umd.js","sources":["../../../node_modules/textarea-caret/index.js","../src/Mentionable.vue","../src/index.js"],"sourcesContent":["/* jshint browser: true */\n\n(function () {\n\n// We'll copy the properties below into the mirror div.\n// Note that some browsers, such as Firefox, do not concatenate properties\n// into their shorthand (e.g. padding-top, padding-bottom etc. -> padding),\n// so we have to list every single property explicitly.\nvar properties = [\n  'direction',  // RTL support\n  'boxSizing',\n  'width',  // on Chrome and IE, exclude the scrollbar, so the mirror div wraps exactly as the textarea does\n  'height',\n  'overflowX',\n  'overflowY',  // copy the scrollbar for IE\n\n  'borderTopWidth',\n  'borderRightWidth',\n  'borderBottomWidth',\n  'borderLeftWidth',\n  'borderStyle',\n\n  'paddingTop',\n  'paddingRight',\n  'paddingBottom',\n  'paddingLeft',\n\n  // https://developer.mozilla.org/en-US/docs/Web/CSS/font\n  'fontStyle',\n  'fontVariant',\n  'fontWeight',\n  'fontStretch',\n  'fontSize',\n  'fontSizeAdjust',\n  'lineHeight',\n  'fontFamily',\n\n  'textAlign',\n  'textTransform',\n  'textIndent',\n  'textDecoration',  // might not make a difference, but better be safe\n\n  'letterSpacing',\n  'wordSpacing',\n\n  'tabSize',\n  'MozTabSize'\n\n];\n\nvar isBrowser = (typeof window !== 'undefined');\nvar isFirefox = (isBrowser && window.mozInnerScreenX != null);\n\nfunction getCaretCoordinates(element, position, options) {\n  if (!isBrowser) {\n    throw new Error('textarea-caret-position#getCaretCoordinates should only be called in a browser');\n  }\n\n  var debug = options && options.debug || false;\n  if (debug) {\n    var el = document.querySelector('#input-textarea-caret-position-mirror-div');\n    if (el) el.parentNode.removeChild(el);\n  }\n\n  // The mirror div will replicate the textarea's style\n  var div = document.createElement('div');\n  div.id = 'input-textarea-caret-position-mirror-div';\n  document.body.appendChild(div);\n\n  var style = div.style;\n  var computed = window.getComputedStyle ? window.getComputedStyle(element) : element.currentStyle;  // currentStyle for IE < 9\n  var isInput = element.nodeName === 'INPUT';\n\n  // Default textarea styles\n  style.whiteSpace = 'pre-wrap';\n  if (!isInput)\n    style.wordWrap = 'break-word';  // only for textarea-s\n\n  // Position off-screen\n  style.position = 'absolute';  // required to return coordinates properly\n  if (!debug)\n    style.visibility = 'hidden';  // not 'display: none' because we want rendering\n\n  // Transfer the element's properties to the div\n  properties.forEach(function (prop) {\n    if (isInput && prop === 'lineHeight') {\n      // Special case for <input>s because text is rendered centered and line height may be != height\n      style.lineHeight = computed.height;\n    } else {\n      style[prop] = computed[prop];\n    }\n  });\n\n  if (isFirefox) {\n    // Firefox lies about the overflow property for textareas: https://bugzilla.mozilla.org/show_bug.cgi?id=984275\n    if (element.scrollHeight > parseInt(computed.height))\n      style.overflowY = 'scroll';\n  } else {\n    style.overflow = 'hidden';  // for Chrome to not render a scrollbar; IE keeps overflowY = 'scroll'\n  }\n\n  div.textContent = element.value.substring(0, position);\n  // The second special handling for input type=\"text\" vs textarea:\n  // spaces need to be replaced with non-breaking spaces - http://stackoverflow.com/a/13402035/1269037\n  if (isInput)\n    div.textContent = div.textContent.replace(/\\s/g, '\\u00a0');\n\n  var span = document.createElement('span');\n  // Wrapping must be replicated *exactly*, including when a long word gets\n  // onto the next line, with whitespace at the end of the line before (#7).\n  // The  *only* reliable way to do that is to copy the *entire* rest of the\n  // textarea's content into the <span> created at the caret position.\n  // For inputs, just '.' would be enough, but no need to bother.\n  span.textContent = element.value.substring(position) || '.';  // || because a completely empty faux span doesn't render at all\n  div.appendChild(span);\n\n  var coordinates = {\n    top: span.offsetTop + parseInt(computed['borderTopWidth']),\n    left: span.offsetLeft + parseInt(computed['borderLeftWidth']),\n    height: parseInt(computed['lineHeight'])\n  };\n\n  if (debug) {\n    span.style.backgroundColor = '#aaa';\n  } else {\n    document.body.removeChild(div);\n  }\n\n  return coordinates;\n}\n\nif (typeof module != 'undefined' && typeof module.exports != 'undefined') {\n  module.exports = getCaretCoordinates;\n} else if(isBrowser) {\n  window.getCaretCoordinates = getCaretCoordinates;\n}\n\n}());\n","<script>\nimport getCaretPosition from 'textarea-caret'\nimport { VPopover } from 'v-tooltip'\n\nconst userAgent = typeof window !== 'undefined' ? window.navigator.userAgent : ''\nconst isIe = userAgent.indexOf('MSIE ') !== -1 || userAgent.indexOf('Trident/') !== -1\n\nexport default {\n  components: {\n    VPopover,\n  },\n\n  inheritAttrs: false,\n\n  props: {\n    keys: {\n      type: Array,\n      required: true,\n    },\n\n    placement: {\n      type: String,\n      default: 'top-start',\n    },\n\n    items: {\n      type: Array,\n      default: () => [],\n    },\n\n    omitKey: {\n      type: Boolean,\n      default: false,\n    },\n\n    filteringDisabled: {\n      type: Boolean,\n      default: false,\n    },\n\n    insertSpace: {\n      type: Boolean,\n      default: false,\n    },\n\n    mapInsert: {\n      type: Function,\n      default: null,\n    },\n\n    limit: {\n      type: Number,\n      default: 8,\n    },\n  },\n\n  data () {\n    return {\n      key: null,\n      oldKey: null,\n      searchText: null,\n      caretPosition: null,\n      selectedIndex: 0,\n    }\n  },\n\n  computed: {\n    filteredItems () {\n      if (!this.searchText || this.filteringDisabled) {\n        return this.items\n      }\n\n      const searchText = this.searchText.toLowerCase()\n\n      return this.items.filter(item => {\n        /** @type {string} */\n        let text\n        if (item.searchText) {\n          text = item.searchText\n        } else if (item.label) {\n          text = item.label\n        } else {\n          text = ''\n          for (const key in item) {\n            text += item[key]\n          }\n        }\n        return text.toLowerCase().includes(searchText)\n      })\n    },\n\n    displayedItems () {\n      return this.filteredItems.slice(0, this.limit)\n    },\n  },\n\n  watch: {\n    displayedItems () {\n      this.selectedIndex = 0\n    },\n\n    searchText (value, oldValue) {\n      if (value) {\n        this.$emit('search', value, oldValue)\n      }\n    },\n  },\n\n  mounted () {\n    this.input = this.getInput()\n    this.attach()\n  },\n\n  updated () {\n    const input = this.getInput()\n    if (input !== this.input) {\n      this.detach()\n      this.input = input\n      this.attach()\n    }\n  },\n\n  beforeDestroy () {\n    this.detach()\n  },\n\n  methods: {\n    getInput () {\n      const [vnode] = this.$scopedSlots.default()\n      if (vnode) {\n        if (vnode.elm.tagName === 'INPUT' || vnode.elm.tagName === 'TEXTAREA' || vnode.elm.isContentEditable) {\n          return vnode.elm\n        } else {\n          return vnode.elm.querySelector('input') || vnode.elm.querySelector('textarea') || vnode.elm.querySelector('[contenteditable=\"true\"]')\n        }\n      }\n      return null\n    },\n\n    attach () {\n      if (this.input) {\n        this.input.addEventListener('input', this.onInput)\n        this.input.addEventListener('keydown', this.onKeyDown)\n        this.input.addEventListener('keyup', this.onKeyUp)\n        this.input.addEventListener('scroll', this.onScroll)\n        this.input.addEventListener('blur', this.onBlur)\n      }\n    },\n\n    detach () {\n      if (this.input) {\n        this.input.removeEventListener('input', this.onInput)\n        this.input.removeEventListener('keydown', this.onKeyDown)\n        this.input.removeEventListener('keyup', this.onKeyUp)\n        this.input.removeEventListener('scroll', this.onScroll)\n        this.input.removeEventListener('blur', this.onBlur)\n      }\n    },\n\n    onInput () {\n      this.checkKey()\n    },\n\n    onBlur () {\n      this.closeMenu()\n    },\n\n    onKeyDown (e) {\n      if (this.key) {\n        if (e.key === 'ArrowDown' || e.keyCode === 40) {\n          this.selectedIndex++\n          if (this.selectedIndex >= this.displayedItems.length) {\n            this.selectedIndex = 0\n          }\n          this.cancelEvent(e)\n        }\n        if (e.key === 'ArrowUp' || e.keyCode === 38) {\n          this.selectedIndex--\n          if (this.selectedIndex < 0) {\n            this.selectedIndex = this.displayedItems.length - 1\n          }\n          this.cancelEvent(e)\n        }\n        if ((e.key === 'Enter' || e.key === 'Tab' || e.keyCode === 13 || e.keyCode === 9) &&\n          this.displayedItems.length > 0) {\n          this.applyMention(this.selectedIndex)\n          this.cancelEvent(e)\n        }\n        if (e.key === 'Escape' || e.keyCode === 27) {\n          this.closeMenu()\n          this.cancelEvent(e)\n        }\n      }\n    },\n\n    onKeyUp (e) {\n      if (this.cancelKeyUp && (e.key === this.cancelKeyUp || e.keyCode === this.cancelKeyCode)) {\n        this.cancelEvent(e)\n      }\n      this.cancelKeyUp = null\n      // IE\n      this.cancelKeyCode = null\n    },\n\n    cancelEvent (e) {\n      e.preventDefault()\n      e.stopPropagation()\n      this.cancelKeyUp = e.key\n      // IE\n      this.cancelKeyCode = e.keyCode\n    },\n\n    onScroll () {\n      this.updateCaretPosition()\n    },\n\n    getSelectionStart () {\n      return this.input.isContentEditable ? window.getSelection().anchorOffset : this.input.selectionStart\n    },\n\n    setCaretPosition (index) {\n      this.$nextTick(() => {\n        this.input.selectionEnd = index\n      })\n    },\n\n    getValue () {\n      return this.input.isContentEditable ? window.getSelection().anchorNode.textContent : this.input.value\n    },\n\n    setValue (value) {\n      this.input.value = value\n      this.emitInputEvent('input')\n    },\n\n    emitInputEvent (type) {\n      let event\n      if (isIe) {\n        event = document.createEvent('Event')\n        event.initEvent(type, true, true)\n      } else {\n        event = new Event(type)\n      }\n      this.input.dispatchEvent(event)\n    },\n\n    checkKey () {\n      const index = this.getSelectionStart()\n      if (index >= 0) {\n        const { key, keyIndex } = this.getLastKeyBeforeCaret(index)\n        const searchText = this.lastSearchText = this.getLastSearchText(index, keyIndex)\n        if (!(keyIndex < 1 || /\\s/.test(this.getValue()[keyIndex - 1]))) {\n          return false\n        }\n        if (searchText != null) {\n          this.openMenu(key, keyIndex)\n          this.searchText = searchText\n          return true\n        }\n      }\n      this.closeMenu()\n      return false\n    },\n\n    getLastKeyBeforeCaret (caretIndex) {\n      const [keyData] = this.keys.map(key => ({\n        key,\n        keyIndex: this.getValue().lastIndexOf(key, caretIndex - 1),\n      })).sort((a, b) => b.keyIndex - a.keyIndex)\n      return keyData\n    },\n\n    getLastSearchText (caretIndex, keyIndex) {\n      if (keyIndex !== -1) {\n        const searchText = this.getValue().substring(keyIndex + 1, caretIndex)\n        // If there is a space we close the menu\n        if (!/\\s/.test(searchText)) {\n          return searchText\n        }\n      }\n      return null\n    },\n\n    openMenu (key, keyIndex) {\n      if (this.key !== key) {\n        this.key = key\n        this.keyIndex = keyIndex\n        this.updateCaretPosition()\n        this.selectedIndex = 0\n        this.$emit('open', key)\n      }\n    },\n\n    closeMenu () {\n      if (this.key != null) {\n        this.oldKey = this.key\n        this.key = null\n        this.$emit('close', this.oldKey)\n      }\n    },\n\n    updateCaretPosition () {\n      if (this.key) {\n        if (this.input.isContentEditable) {\n          const rect = window.getSelection().getRangeAt(0).getBoundingClientRect()\n          const inputRect = this.input.getBoundingClientRect()\n          this.caretPosition = {\n            left: rect.left - inputRect.left,\n            top: rect.top - inputRect.top,\n            height: rect.height,\n          }\n        } else {\n          this.caretPosition = getCaretPosition(this.input, this.keyIndex)\n        }\n        this.caretPosition.top -= this.input.scrollTop\n        if (this.$refs.popper && this.$refs.popper.popperInstance) {\n          this.$refs.popper.popperInstance.scheduleUpdate()\n        }\n      }\n    },\n\n    applyMention (itemIndex) {\n      const item = this.displayedItems[itemIndex]\n      const value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value) + (this.insertSpace ? ' ' : '')\n      if (this.input.isContentEditable) {\n        const range = window.getSelection().getRangeAt(0)\n        range.setStart(range.startContainer, range.startOffset - this.key.length - (this.lastSearchText ? this.lastSearchText.length : 0))\n        range.deleteContents()\n        range.insertNode(document.createTextNode(value))\n        range.setStart(range.endContainer, range.endOffset)\n        this.emitInputEvent('input')\n      } else {\n        this.setValue(this.replaceText(this.getValue(), this.searchText, value, this.keyIndex))\n        this.setCaretPosition(this.keyIndex + value.length)\n      }\n      this.$emit('apply', item, this.key)\n      this.closeMenu()\n    },\n\n    replaceText (text, searchText, newText, index) {\n      return text.slice(0, index) + newText + text.slice(index + searchText.length + 1, text.length)\n    },\n  },\n}\n</script>\n\n<template>\n  <div\n    class=\"mentionable\"\n    style=\"position:relative;\"\n  >\n    <slot />\n\n    <VPopover\n      ref=\"popper\"\n      v-bind=\"$attrs\"\n      :placement=\"placement\"\n      :open=\"!!key\"\n      trigger=\"manual\"\n      :auto-hide=\"false\"\n      class=\"popper\"\n      style=\"position:absolute;\"\n      :style=\"caretPosition ? {\n        top: `${caretPosition.top}px`,\n        left: `${caretPosition.left}px`,\n      } : {}\"\n    >\n      <div\n        :style=\"caretPosition ? {\n          height: `${caretPosition.height}px`,\n        } : {}\"\n      />\n\n      <template #popover>\n        <div v-if=\"!displayedItems.length\">\n          <slot name=\"no-result\">\n            No result\n          </slot>\n        </div>\n\n        <template v-else>\n          <div\n            v-for=\"(item, index) of displayedItems\"\n            :key=\"index\"\n            class=\"mention-item\"\n            :class=\"{\n              'mention-selected': selectedIndex === index,\n            }\"\n            @mouseover=\"selectedIndex = index\"\n            @mousedown=\"applyMention(index)\"\n          >\n            <slot\n              :name=\"`item-${key || oldKey}`\"\n              :item=\"item\"\n              :index=\"index\"\n            >\n              <slot\n                name=\"item\"\n                :item=\"item\"\n                :index=\"index\"\n              >\n                {{ item.label || item.value }}\n              </slot>\n            </slot>\n          </div>\n        </template>\n      </template>\n    </VPopover>\n  </div>\n</template>\n","import Mentionable from './Mentionable.vue'\n\nexport {\n  Mentionable,\n}\n\nfunction registerComponents (Vue, prefix) {\n  Vue.component(`${prefix}mentionable`, Mentionable)\n  Vue.component(`${prefix}Mentionable`, Mentionable)\n}\n\nconst plugin = {\n  // eslint-disable-next-line no-undef\n  version: VERSION,\n  install (Vue, options) {\n    const finalOptions = Object.assign({}, {\n      installComponents: true,\n      componentsPrefix: '',\n    }, options)\n\n    if (finalOptions.installComponents) {\n      registerComponents(Vue, finalOptions.componentsPrefix)\n    }\n  },\n}\n\nexport default plugin\n\n// Auto-install\nlet GlobalVue = null\nif (typeof window !== 'undefined') {\n  GlobalVue = window.Vue\n} else if (typeof global !== 'undefined') {\n  GlobalVue = global.Vue\n}\nif (GlobalVue) {\n  GlobalVue.use(plugin)\n}\n"],"names":["properties","isBrowser","window","isFirefox","mozInnerScreenX","getCaretCoordinates","element","position","options","Error","debug","el","document","querySelector","parentNode","removeChild","div","createElement","id","body","appendChild","style","computed","getComputedStyle","currentStyle","isInput","nodeName","whiteSpace","wordWrap","visibility","forEach","prop","lineHeight","height","scrollHeight","parseInt","overflowY","overflow","textContent","value","substring","replace","span","coordinates","top","offsetTop","left","offsetLeft","backgroundColor","module","registerComponents","Vue","prefix","component","Mentionable","plugin","version","VERSION","install","finalOptions","Object","assign","installComponents","componentsPrefix","GlobalVue","global","use"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAA;EAEC,aAAY;EAEb;EACA;EACA;EACA;EACA,MAAIA,UAAU,GAAG,CACf,WADe;EAEf,aAFe,EAGf,OAHe;EAIf,UAJe,EAKf,WALe,EAMf,WANe;EAQf,kBARe,EASf,kBATe,EAUf,mBAVe,EAWf,iBAXe,EAYf,aAZe,EAcf,YAde,EAef,cAfe,EAgBf,eAhBe,EAiBf,aAjBe;EAoBf,aApBe,EAqBf,aArBe,EAsBf,YAtBe,EAuBf,aAvBe,EAwBf,UAxBe,EAyBf,gBAzBe,EA0Bf,YA1Be,EA2Bf,YA3Be,EA6Bf,WA7Be,EA8Bf,eA9Be,EA+Bf,YA/Be,EAgCf,gBAhCe;EAkCf,iBAlCe,EAmCf,aAnCe,EAqCf,SArCe,EAsCf,YAtCe,CAAjB;EA0CA,MAAIC,SAAS,GAAI,OAAOC,MAAP,KAAkB,WAAnC;EACA,MAAIC,SAAS,GAAIF,SAAS,IAAIC,MAAM,CAACE,eAAP,IAA0B,IAAxD;;EAEA,WAASC,mBAAT,CAA6BC,OAA7B,EAAsCC,QAAtC,EAAgDC,OAAhD,EAAyD;EACvD,QAAI,CAACP,SAAL,EAAgB;EACd,YAAM,IAAIQ,KAAJ,CAAU,gFAAV,CAAN;EACD;;EAED,QAAIC,KAAK,GAAGF,OAAO,IAAIA,OAAO,CAACE,KAAnB,IAA4B,KAAxC;;EACA,QAAIA,KAAJ,EAAW;EACT,UAAIC,EAAE,GAAGC,QAAQ,CAACC,aAAT,CAAuB,2CAAvB,CAAT;EACA,UAAIF,EAAJ,EAAQA,EAAE,CAACG,UAAH,CAAcC,WAAd,CAA0BJ,EAA1B;EACT,KATsD;;;EAYvD,QAAIK,GAAG,GAAGJ,QAAQ,CAACK,aAAT,CAAuB,KAAvB,CAAV;EACAD,IAAAA,GAAG,CAACE,EAAJ,GAAS,0CAAT;EACAN,IAAAA,QAAQ,CAACO,IAAT,CAAcC,WAAd,CAA0BJ,GAA1B;EAEA,QAAIK,KAAK,GAAGL,GAAG,CAACK,KAAhB;EACA,QAAIC,QAAQ,GAAGpB,MAAM,CAACqB,gBAAP,GAA0BrB,MAAM,CAACqB,gBAAP,CAAwBjB,OAAxB,CAA1B,GAA6DA,OAAO,CAACkB,YAApF,CAjBuD;;EAkBvD,QAAIC,OAAO,GAAGnB,OAAO,CAACoB,QAAR,KAAqB,OAAnC,CAlBuD;;EAqBvDL,IAAAA,KAAK,CAACM,UAAN,GAAmB,UAAnB;EACA,QAAI,CAACF,OAAL,EACEJ,KAAK,CAACO,QAAN,GAAiB,YAAjB,CAvBqD;EAyBvD;;EACAP,IAAAA,KAAK,CAACd,QAAN,GAAiB,UAAjB,CA1BuD;;EA2BvD,QAAI,CAACG,KAAL,EACEW,KAAK,CAACQ,UAAN,GAAmB,QAAnB,CA5BqD;EA8BvD;;EACA7B,IAAAA,UAAU,CAAC8B,OAAX,CAAmB,UAAUC,IAAV,EAAgB;EACjC,UAAIN,OAAO,IAAIM,IAAI,KAAK,YAAxB,EAAsC;EACpC;EACAV,QAAAA,KAAK,CAACW,UAAN,GAAmBV,QAAQ,CAACW,MAA5B;EACD,OAHD,MAGO;EACLZ,QAAAA,KAAK,CAACU,IAAD,CAAL,GAAcT,QAAQ,CAACS,IAAD,CAAtB;EACD;EACF,KAPD;;EASA,QAAI5B,SAAJ,EAAe;EACb;EACA,UAAIG,OAAO,CAAC4B,YAAR,GAAuBC,QAAQ,CAACb,QAAQ,CAACW,MAAV,CAAnC,EACEZ,KAAK,CAACe,SAAN,GAAkB,QAAlB;EACH,KAJD,MAIO;EACLf,MAAAA,KAAK,CAACgB,QAAN,GAAiB,QAAjB,CADK;EAEN;;EAEDrB,IAAAA,GAAG,CAACsB,WAAJ,GAAkBhC,OAAO,CAACiC,KAAR,CAAcC,SAAd,CAAwB,CAAxB,EAA2BjC,QAA3B,CAAlB,CAhDuD;EAkDvD;;EACA,QAAIkB,OAAJ,EACET,GAAG,CAACsB,WAAJ,GAAkBtB,GAAG,CAACsB,WAAJ,CAAgBG,OAAhB,CAAwB,KAAxB,EAA+B,MAA/B,CAAlB;EAEF,QAAIC,IAAI,GAAG9B,QAAQ,CAACK,aAAT,CAAuB,MAAvB,CAAX,CAtDuD;EAwDvD;EACA;EACA;EACA;;EACAyB,IAAAA,IAAI,CAACJ,WAAL,GAAmBhC,OAAO,CAACiC,KAAR,CAAcC,SAAd,CAAwBjC,QAAxB,KAAqC,GAAxD,CA5DuD;;EA6DvDS,IAAAA,GAAG,CAACI,WAAJ,CAAgBsB,IAAhB;EAEA,QAAIC,WAAW,GAAG;EAChBC,MAAAA,GAAG,EAAEF,IAAI,CAACG,SAAL,GAAiBV,QAAQ,CAACb,QAAQ,CAAC,gBAAD,CAAT,CADd;EAEhBwB,MAAAA,IAAI,EAAEJ,IAAI,CAACK,UAAL,GAAkBZ,QAAQ,CAACb,QAAQ,CAAC,iBAAD,CAAT,CAFhB;EAGhBW,MAAAA,MAAM,EAAEE,QAAQ,CAACb,QAAQ,CAAC,YAAD,CAAT;EAHA,KAAlB;;EAMA,QAAIZ,KAAJ,EAAW;EACTgC,MAAAA,IAAI,CAACrB,KAAL,CAAW2B,eAAX,GAA6B,MAA7B;EACD,KAFD,MAEO;EACLpC,MAAAA,QAAQ,CAACO,IAAT,CAAcJ,WAAd,CAA0BC,GAA1B;EACD;;EAED,WAAO2B,WAAP;EACD;;EAED,EAA0E;EACxEM,IAAAA,cAAA,GAAiB5C,mBAAjB;EACD;EAIA,CAvIA,GAAD;;;ECEA,+EAAA;EACA,oFAAA;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EALA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ECIA,SAAS6C,kBAAT,CAA6BC,GAA7B,EAAkCC,MAAlC,EAA0C;EACxCD,EAAAA,GAAG,CAACE,SAAJ,WAAiBD,MAAjB,kBAAsCE,iBAAtC;EACAH,EAAAA,GAAG,CAACE,SAAJ,WAAiBD,MAAjB,kBAAsCE,iBAAtC;EACD;;MAEKC,MAAM,GAAG;EACb;EACAC,EAAAA,OAAO,EAAEC,OAFI;EAGbC,EAAAA,OAHa,mBAGJP,GAHI,EAGC3C,OAHD,EAGU;EACrB,QAAMmD,YAAY,GAAGC,MAAM,CAACC,MAAP,CAAc,EAAd,EAAkB;EACrCC,MAAAA,iBAAiB,EAAE,IADkB;EAErCC,MAAAA,gBAAgB,EAAE;EAFmB,KAAlB,EAGlBvD,OAHkB,CAArB;;EAKA,QAAImD,YAAY,CAACG,iBAAjB,EAAoC;EAClCZ,MAAAA,kBAAkB,CAACC,GAAD,EAAMQ,YAAY,CAACI,gBAAnB,CAAlB;EACD;EACF;EAZY;;EAkBf,IAAIC,SAAS,GAAG,IAAhB;;EACA,IAAI,OAAO9D,MAAP,KAAkB,WAAtB,EAAmC;EACjC8D,EAAAA,SAAS,GAAG9D,MAAM,CAACiD,GAAnB;EACD,CAFD,MAEO,IAAI,OAAOc,MAAP,KAAkB,WAAtB,EAAmC;EACxCD,EAAAA,SAAS,GAAGC,MAAM,CAACd,GAAnB;EACD;;EACD,IAAIa,SAAJ,EAAe;EACbA,EAAAA,SAAS,CAACE,GAAV,CAAcX,MAAd;EACD;;;;;;;;;;;"}
+\ No newline at end of file
++{"version":3,"file":"vue-mention.umd.js","sources":["../../../node_modules/textarea-caret/index.js","../src/Mentionable.vue","../src/index.js"],"sourcesContent":["/* jshint browser: true */\n\n(function () {\n\n// We'll copy the properties below into the mirror div.\n// Note that some browsers, such as Firefox, do not concatenate properties\n// into their shorthand (e.g. padding-top, padding-bottom etc. -> padding),\n// so we have to list every single property explicitly.\nvar properties = [\n  'direction',  // RTL support\n  'boxSizing',\n  'width',  // on Chrome and IE, exclude the scrollbar, so the mirror div wraps exactly as the textarea does\n  'height',\n  'overflowX',\n  'overflowY',  // copy the scrollbar for IE\n\n  'borderTopWidth',\n  'borderRightWidth',\n  'borderBottomWidth',\n  'borderLeftWidth',\n  'borderStyle',\n\n  'paddingTop',\n  'paddingRight',\n  'paddingBottom',\n  'paddingLeft',\n\n  // https://developer.mozilla.org/en-US/docs/Web/CSS/font\n  'fontStyle',\n  'fontVariant',\n  'fontWeight',\n  'fontStretch',\n  'fontSize',\n  'fontSizeAdjust',\n  'lineHeight',\n  'fontFamily',\n\n  'textAlign',\n  'textTransform',\n  'textIndent',\n  'textDecoration',  // might not make a difference, but better be safe\n\n  'letterSpacing',\n  'wordSpacing',\n\n  'tabSize',\n  'MozTabSize'\n\n];\n\nvar isBrowser = (typeof window !== 'undefined');\nvar isFirefox = (isBrowser && window.mozInnerScreenX != null);\n\nfunction getCaretCoordinates(element, position, options) {\n  if (!isBrowser) {\n    throw new Error('textarea-caret-position#getCaretCoordinates should only be called in a browser');\n  }\n\n  var debug = options && options.debug || false;\n  if (debug) {\n    var el = document.querySelector('#input-textarea-caret-position-mirror-div');\n    if (el) el.parentNode.removeChild(el);\n  }\n\n  // The mirror div will replicate the textarea's style\n  var div = document.createElement('div');\n  div.id = 'input-textarea-caret-position-mirror-div';\n  document.body.appendChild(div);\n\n  var style = div.style;\n  var computed = window.getComputedStyle ? window.getComputedStyle(element) : element.currentStyle;  // currentStyle for IE < 9\n  var isInput = element.nodeName === 'INPUT';\n\n  // Default textarea styles\n  style.whiteSpace = 'pre-wrap';\n  if (!isInput)\n    style.wordWrap = 'break-word';  // only for textarea-s\n\n  // Position off-screen\n  style.position = 'absolute';  // required to return coordinates properly\n  if (!debug)\n    style.visibility = 'hidden';  // not 'display: none' because we want rendering\n\n  // Transfer the element's properties to the div\n  properties.forEach(function (prop) {\n    if (isInput && prop === 'lineHeight') {\n      // Special case for <input>s because text is rendered centered and line height may be != height\n      style.lineHeight = computed.height;\n    } else {\n      style[prop] = computed[prop];\n    }\n  });\n\n  if (isFirefox) {\n    // Firefox lies about the overflow property for textareas: https://bugzilla.mozilla.org/show_bug.cgi?id=984275\n    if (element.scrollHeight > parseInt(computed.height))\n      style.overflowY = 'scroll';\n  } else {\n    style.overflow = 'hidden';  // for Chrome to not render a scrollbar; IE keeps overflowY = 'scroll'\n  }\n\n  div.textContent = element.value.substring(0, position);\n  // The second special handling for input type=\"text\" vs textarea:\n  // spaces need to be replaced with non-breaking spaces - http://stackoverflow.com/a/13402035/1269037\n  if (isInput)\n    div.textContent = div.textContent.replace(/\\s/g, '\\u00a0');\n\n  var span = document.createElement('span');\n  // Wrapping must be replicated *exactly*, including when a long word gets\n  // onto the next line, with whitespace at the end of the line before (#7).\n  // The  *only* reliable way to do that is to copy the *entire* rest of the\n  // textarea's content into the <span> created at the caret position.\n  // For inputs, just '.' would be enough, but no need to bother.\n  span.textContent = element.value.substring(position) || '.';  // || because a completely empty faux span doesn't render at all\n  div.appendChild(span);\n\n  var coordinates = {\n    top: span.offsetTop + parseInt(computed['borderTopWidth']),\n    left: span.offsetLeft + parseInt(computed['borderLeftWidth']),\n    height: parseInt(computed['lineHeight'])\n  };\n\n  if (debug) {\n    span.style.backgroundColor = '#aaa';\n  } else {\n    document.body.removeChild(div);\n  }\n\n  return coordinates;\n}\n\nif (typeof module != 'undefined' && typeof module.exports != 'undefined') {\n  module.exports = getCaretCoordinates;\n} else if(isBrowser) {\n  window.getCaretCoordinates = getCaretCoordinates;\n}\n\n}());\n","// Component copied from vue-mention\n// https://github.com/Akryum/vue-mention\n<template>\n  <div\n    class=\"mentionable\"\n    style=\"position:relative;\"\n  >\n    <slot />\n\n    <VPopover\n      ref=\"popper\"\n      v-bind=\"$attrs\"\n      :placement=\"placement\"\n      :open=\"!!key\"\n      trigger=\"manual\"\n      :auto-hide=\"false\"\n      class=\"popper\"\n      style=\"position:absolute;\"\n      :style=\"caretPosition ? {\n        top: `${caretPosition.top}px`,\n        left: `${caretPosition.left}px`,\n      } : {}\"\n    >\n      <div\n        :style=\"caretPosition ? {\n          height: `${caretPosition.height}px`,\n        } : {}\"\n      />\n\n      <template #popover>\n        <div v-if=\"!displayedItems.length\">\n          <slot name=\"no-result\">\n            No result\n          </slot>\n        </div>\n\n        <template v-else>\n          <div\n            v-for=\"(item, index) of displayedItems\"\n            :key=\"index\"\n            class=\"mention-item\"\n            :class=\"{\n              'mention-selected': selectedIndex === index,\n            }\"\n            @mouseover=\"selectedIndex = index\"\n            @mousedown=\"$event => onItemSelected(index, $event)\"\n          >\n            <slot\n              :name=\"`item-${key || oldKey}`\"\n              :item=\"item\"\n              :index=\"index\"\n            >\n              <slot\n                name=\"item\"\n                :item=\"item\"\n                :index=\"index\"\n              >\n                {{ item.label || item.value }}\n              </slot>\n            </slot>\n          </div>\n        </template>\n      </template>\n    </VPopover>\n  </div>\n</template>\n\n<script>\nimport Vue from 'vue'\nimport getCaretPosition from 'textarea-caret'\nimport { VPopover } from 'v-tooltip'\n\nconst userAgent = typeof window !== 'undefined' ? window.navigator.userAgent : ''\nconst isIe = userAgent.indexOf('MSIE ') !== -1 || userAgent.indexOf('Trident/') !== -1\n\nexport default Vue.extend({\n  components: {\n    VPopover\n  },\n  inheritAttrs: false,\n  props: {\n    keys: {\n      type: Array,\n      required: true\n    },\n    placement: {\n      type: String,\n      default: 'top-start'\n    },\n    items: {\n      type: Array,\n      default: () => []\n    },\n    omitKey: {\n      type: Boolean,\n      default: false\n    },\n    filteringDisabled: {\n      type: Boolean,\n      default: false\n    },\n    insertSpace: {\n      type: Boolean,\n      default: false\n    },\n    mapInsert: {\n      type: Function,\n      default: null\n    },\n    limit: {\n      type: Number,\n      default: 8\n    }\n  },\n  data () {\n    return {\n      key: null,\n      oldKey: null,\n      searchText: null,\n      caretPosition: null,\n      selectedIndex: 0\n    }\n  },\n  computed: {\n    filteredItems () {\n      if (!this.searchText || this.filteringDisabled) {\n        return this.items\n      }\n      const searchText = this.searchText.toLowerCase()\n      return this.items.filter(item => {\n        /** @type {string} */\n        let text\n        if (item.searchText) {\n          text = item.searchText\n        } else if (item.label) {\n          text = item.label\n        } else {\n          text = ''\n          for (const key in item) {\n            text += item[key]\n          }\n        }\n        return text.toLowerCase().includes(searchText)\n      })\n    },\n    displayedItems () {\n      return this.filteredItems.slice(0, this.limit)\n    }\n  },\n  watch: {\n    displayedItems () {\n      this.selectedIndex = 0\n    },\n    searchText (value, oldValue) {\n      if (value) {\n        this.$emit('search', value, oldValue)\n      }\n    }\n  },\n  mounted () {\n    this.input = this.getInput()\n    this.attach()\n  },\n  updated () {\n    const input = this.getInput()\n    if (input !== this.input) {\n      this.detach()\n      this.input = input\n      this.attach()\n    }\n  },\n  beforeDestroy () {\n    this.detach()\n  },\n  methods: {\n    getInput () {\n      const [vnode] = this.$scopedSlots.default()\n      if (vnode) {\n        if (vnode.elm.tagName === 'INPUT' || vnode.elm.tagName === 'TEXTAREA' || vnode.elm.isContentEditable) {\n          return vnode.elm\n        } else {\n          return vnode.elm.querySelector('input') || vnode.elm.querySelector('textarea') || vnode.elm.querySelector('[contenteditable=\"true\"]')\n        }\n      }\n      return null\n    },\n    attach () {\n      if (this.input) {\n        this.input.addEventListener('input', this.onInput)\n        this.input.addEventListener('keydown', this.onKeyDown)\n        this.input.addEventListener('keyup', this.onKeyUp)\n        this.input.addEventListener('scroll', this.onScroll)\n        this.input.addEventListener('blur', this.onBlur)\n      }\n    },\n    detach () {\n      if (this.input) {\n        this.input.removeEventListener('input', this.onInput)\n        this.input.removeEventListener('keydown', this.onKeyDown)\n        this.input.removeEventListener('keyup', this.onKeyUp)\n        this.input.removeEventListener('scroll', this.onScroll)\n        this.input.removeEventListener('blur', this.onBlur)\n      }\n    },\n    onInput () {\n      this.checkKey()\n    },\n    onBlur () {\n      this.closeMenu()\n    },\n    onKeyDown (e) {\n      if (this.key) {\n        if (e.key === 'ArrowDown' || e.keyCode === 40) {\n          this.selectedIndex++\n          if (this.selectedIndex >= this.displayedItems.length) {\n            this.selectedIndex = 0\n          }\n          this.cancelEvent(e)\n        }\n        if (e.key === 'ArrowUp' || e.keyCode === 38) {\n          this.selectedIndex--\n          if (this.selectedIndex < 0) {\n            this.selectedIndex = this.displayedItems.length - 1\n          }\n          this.cancelEvent(e)\n        }\n        if ((e.key === 'Enter' || e.key === 'Tab' || e.keyCode === 13 || e.keyCode === 9) &&\n          this.displayedItems.length > 0) {\n          this.applyMention(this.selectedIndex)\n          this.cancelEvent(e)\n        }\n        if (e.key === 'Escape' || e.keyCode === 27) {\n          this.closeMenu()\n          this.cancelEvent(e)\n        }\n      }\n    },\n    onKeyUp (e) {\n      if (this.cancelKeyUp && (e.key === this.cancelKeyUp || e.keyCode === this.cancelKeyCode)) {\n        this.cancelEvent(e)\n      }\n      this.cancelKeyUp = null\n      // IE\n      this.cancelKeyCode = null\n    },\n    cancelEvent (e) {\n      e.preventDefault()\n      e.stopPropagation()\n      this.cancelKeyUp = e.key\n      // IE\n      this.cancelKeyCode = e.keyCode\n    },\n    onScroll () {\n      this.updateCaretPosition()\n    },\n    getSelectionStart () {\n      return this.input.isContentEditable ? window.getSelection().anchorOffset : this.input.selectionStart\n    },\n    setCaretPosition (index) {\n      this.$nextTick(() => {\n        this.input.selectionEnd = index\n      })\n    },\n    getValue () {\n      return this.input.isContentEditable ? window.getSelection().anchorNode.textContent : this.input.value\n    },\n    setValue (value) {\n      this.input.value = value\n      this.emitInputEvent('input')\n    },\n    emitInputEvent (type) {\n      let event\n      if (isIe) {\n        event = document.createEvent('Event')\n        event.initEvent(type, true, true)\n      } else {\n        event = new Event(type)\n      }\n      this.input.dispatchEvent(event)\n    },\n    checkKey () {\n      const index = this.getSelectionStart()\n      if (index >= 0) {\n        const { key, keyIndex } = this.getLastKeyBeforeCaret(index)\n        const searchText = this.lastSearchText = this.getLastSearchText(index, keyIndex)\n        if (!(keyIndex < 1 || /\\s/.test(this.getValue()[keyIndex - 1]))) {\n          return false\n        }\n        if (searchText != null) {\n          this.openMenu(key, keyIndex)\n          this.searchText = searchText\n          return true\n        }\n      }\n      this.closeMenu()\n      return false\n    },\n    getLastKeyBeforeCaret (caretIndex) {\n      const [keyData] = this.keys.map(key => ({\n        key,\n        keyIndex: this.getValue().lastIndexOf(key, caretIndex - 1)\n      })).sort((a, b) => b.keyIndex - a.keyIndex)\n      return keyData\n    },\n    getLastSearchText (caretIndex, keyIndex) {\n      if (keyIndex !== -1) {\n        const searchText = this.getValue().substring(keyIndex + 1, caretIndex)\n        // If there is a space we close the menu\n        if (!/\\s/.test(searchText)) {\n          return searchText\n        }\n      }\n      return null\n    },\n    openMenu (key, keyIndex) {\n      if (this.key !== key) {\n        this.key = key\n        this.keyIndex = keyIndex\n        this.updateCaretPosition()\n        this.selectedIndex = 0\n        this.$emit('open', key)\n      }\n    },\n    closeMenu () {\n      if (this.key != null) {\n        this.oldKey = this.key\n        this.key = null\n        this.$emit('close', this.oldKey)\n      }\n    },\n    updateCaretPosition () {\n      if (this.key) {\n        if (this.input.isContentEditable) {\n          const rect = window.getSelection().getRangeAt(0).getBoundingClientRect()\n          const inputRect = this.input.getBoundingClientRect()\n          this.caretPosition = {\n            left: rect.left - inputRect.left,\n            top: rect.top - inputRect.top,\n            height: rect.height\n          }\n        } else {\n          this.caretPosition = getCaretPosition(this.input, this.keyIndex)\n        }\n        this.caretPosition.top -= this.input.scrollTop\n        if (this.$refs.popper && this.$refs.popper.popperInstance) {\n          this.$refs.popper.popperInstance.scheduleUpdate()\n        }\n      }\n    },\n    onItemSelected (itemIndex, e) {\n      e.preventDefault()\n      e.stopPropagation()\n      this.applyMention(itemIndex)\n    },\n    applyMention (itemIndex) {\n      const item = this.displayedItems[itemIndex]\n      const value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value)\n      if (this.input.isContentEditable) {\n        const range = window.getSelection().getRangeAt(0)\n        range.setStart(range.startContainer, range.startOffset - this.key.length - (this.lastSearchText ? this.lastSearchText.length : 0))\n        range.deleteContents()\n\n        // Start of difference between original vue-mention component\n        // Add space after member-mentioned span\n        range.insertNode(document.createTextNode('\\u00A0'))\n\n        const spanElement = document.createElement('span')\n        spanElement.id = item.user_id\n        spanElement.className = 'member-mentioned'\n        spanElement.innerText = value\n        range.insertNode(spanElement)\n        // End of difference between original vue-mention component\n\n        range.setStart(range.endContainer, range.endOffset)\n        this.emitInputEvent('input')\n      } else {\n        this.setValue(this.replaceText(this.getValue(), this.searchText, value, this.keyIndex))\n        this.setCaretPosition(this.keyIndex + value.length)\n      }\n      this.$emit('apply', item, this.key)\n      this.closeMenu()\n    },\n    replaceText (text, searchText, newText, index) {\n      return text.slice(0, index) + newText + text.slice(index + searchText.length + 1, text.length)\n    }\n  }\n})\n</script>\n","import Mentionable from './Mentionable.vue'\n\nexport {\n  Mentionable,\n}\n\nfunction registerComponents (Vue, prefix) {\n  Vue.component(`${prefix}mentionable`, Mentionable)\n  Vue.component(`${prefix}Mentionable`, Mentionable)\n}\n\nconst plugin = {\n  // eslint-disable-next-line no-undef\n  version: VERSION,\n  install (Vue, options) {\n    const finalOptions = Object.assign({}, {\n      installComponents: true,\n      componentsPrefix: '',\n    }, options)\n\n    if (finalOptions.installComponents) {\n      registerComponents(Vue, finalOptions.componentsPrefix)\n    }\n  },\n}\n\nexport default plugin\n\n// Auto-install\nlet GlobalVue = null\nif (typeof window !== 'undefined') {\n  GlobalVue = window.Vue\n} else if (typeof global !== 'undefined') {\n  GlobalVue = global.Vue\n}\nif (GlobalVue) {\n  GlobalVue.use(plugin)\n}\n"],"names":["properties","isBrowser","window","isFirefox","mozInnerScreenX","getCaretCoordinates","element","position","options","Error","debug","el","document","querySelector","parentNode","removeChild","div","createElement","id","body","appendChild","style","computed","getComputedStyle","currentStyle","isInput","nodeName","whiteSpace","wordWrap","visibility","forEach","prop","lineHeight","height","scrollHeight","parseInt","overflowY","overflow","textContent","value","substring","replace","span","coordinates","top","offsetTop","left","offsetLeft","backgroundColor","module","registerComponents","Vue","prefix","component","Mentionable","plugin","version","VERSION","install","finalOptions","Object","assign","installComponents","componentsPrefix","GlobalVue","global","use"],"mappings":"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"}
+\ No newline at end of file
+diff --git a/node_modules/vue-mention/src/Mentionable.vue b/node_modules/vue-mention/src/Mentionable.vue
+index 0596ad1..17b111b 100644
+--- a/node_modules/vue-mention/src/Mentionable.vue
++++ b/node_modules/vue-mention/src/Mentionable.vue
+@@ -1,77 +1,132 @@
++// Component copied from vue-mention
++// https://github.com/Akryum/vue-mention
++<template>
++  <div
++    class="mentionable"
++    style="position:relative;"
++  >
++    <slot />
++
++    <VPopover
++      ref="popper"
++      v-bind="$attrs"
++      :placement="placement"
++      :open="!!key"
++      trigger="manual"
++      :auto-hide="false"
++      class="popper"
++      style="position:absolute;"
++      :style="caretPosition ? {
++        top: `${caretPosition.top}px`,
++        left: `${caretPosition.left}px`,
++      } : {}"
++    >
++      <div
++        :style="caretPosition ? {
++          height: `${caretPosition.height}px`,
++        } : {}"
++      />
++
++      <template #popover>
++        <div v-if="!displayedItems.length">
++          <slot name="no-result">
++            No result
++          </slot>
++        </div>
++
++        <template v-else>
++          <div
++            v-for="(item, index) of displayedItems"
++            :key="index"
++            class="mention-item"
++            :class="{
++              'mention-selected': selectedIndex === index,
++            }"
++            @mouseover="selectedIndex = index"
++            @mousedown="$event => onItemSelected(index, $event)"
++          >
++            <slot
++              :name="`item-${key || oldKey}`"
++              :item="item"
++              :index="index"
++            >
++              <slot
++                name="item"
++                :item="item"
++                :index="index"
++              >
++                {{ item.label || item.value }}
++              </slot>
++            </slot>
++          </div>
++        </template>
++      </template>
++    </VPopover>
++  </div>
++</template>
++
+ <script>
++import Vue from 'vue'
+ import getCaretPosition from 'textarea-caret'
+ import { VPopover } from 'v-tooltip'
+ 
+ const userAgent = typeof window !== 'undefined' ? window.navigator.userAgent : ''
+ const isIe = userAgent.indexOf('MSIE ') !== -1 || userAgent.indexOf('Trident/') !== -1
+ 
+-export default {
++export default Vue.extend({
+   components: {
+-    VPopover,
++    VPopover
+   },
+-
+   inheritAttrs: false,
+-
+   props: {
+     keys: {
+       type: Array,
+-      required: true,
++      required: true
+     },
+-
+     placement: {
+       type: String,
+-      default: 'top-start',
++      default: 'top-start'
+     },
+-
+     items: {
+       type: Array,
+-      default: () => [],
++      default: () => []
+     },
+-
+     omitKey: {
+       type: Boolean,
+-      default: false,
++      default: false
+     },
+-
+     filteringDisabled: {
+       type: Boolean,
+-      default: false,
++      default: false
+     },
+-
+     insertSpace: {
+       type: Boolean,
+-      default: false,
++      default: false
+     },
+-
+     mapInsert: {
+       type: Function,
+-      default: null,
++      default: null
+     },
+-
+     limit: {
+       type: Number,
+-      default: 8,
+-    },
++      default: 8
++    }
+   },
+-
+   data () {
+     return {
+       key: null,
+       oldKey: null,
+       searchText: null,
+       caretPosition: null,
+-      selectedIndex: 0,
++      selectedIndex: 0
+     }
+   },
+-
+   computed: {
+     filteredItems () {
+       if (!this.searchText || this.filteringDisabled) {
+         return this.items
+       }
+-
+       const searchText = this.searchText.toLowerCase()
+-
+       return this.items.filter(item => {
+         /** @type {string} */
+         let text
+@@ -88,29 +143,24 @@ export default {
+         return text.toLowerCase().includes(searchText)
+       })
+     },
+-
+     displayedItems () {
+       return this.filteredItems.slice(0, this.limit)
+-    },
++    }
+   },
+-
+   watch: {
+     displayedItems () {
+       this.selectedIndex = 0
+     },
+-
+     searchText (value, oldValue) {
+       if (value) {
+         this.$emit('search', value, oldValue)
+       }
+-    },
++    }
+   },
+-
+   mounted () {
+     this.input = this.getInput()
+     this.attach()
+   },
+-
+   updated () {
+     const input = this.getInput()
+     if (input !== this.input) {
+@@ -119,11 +169,9 @@ export default {
+       this.attach()
+     }
+   },
+-
+   beforeDestroy () {
+     this.detach()
+   },
+-
+   methods: {
+     getInput () {
+       const [vnode] = this.$scopedSlots.default()
+@@ -136,7 +184,6 @@ export default {
+       }
+       return null
+     },
+-
+     attach () {
+       if (this.input) {
+         this.input.addEventListener('input', this.onInput)
+@@ -146,7 +193,6 @@ export default {
+         this.input.addEventListener('blur', this.onBlur)
+       }
+     },
+-
+     detach () {
+       if (this.input) {
+         this.input.removeEventListener('input', this.onInput)
+@@ -156,15 +202,12 @@ export default {
+         this.input.removeEventListener('blur', this.onBlur)
+       }
+     },
+-
+     onInput () {
+       this.checkKey()
+     },
+-
+     onBlur () {
+       this.closeMenu()
+     },
+-
+     onKeyDown (e) {
+       if (this.key) {
+         if (e.key === 'ArrowDown' || e.keyCode === 40) {
+@@ -192,7 +235,6 @@ export default {
+         }
+       }
+     },
+-
+     onKeyUp (e) {
+       if (this.cancelKeyUp && (e.key === this.cancelKeyUp || e.keyCode === this.cancelKeyCode)) {
+         this.cancelEvent(e)
+@@ -201,7 +243,6 @@ export default {
+       // IE
+       this.cancelKeyCode = null
+     },
+-
+     cancelEvent (e) {
+       e.preventDefault()
+       e.stopPropagation()
+@@ -209,30 +250,24 @@ export default {
+       // IE
+       this.cancelKeyCode = e.keyCode
+     },
+-
+     onScroll () {
+       this.updateCaretPosition()
+     },
+-
+     getSelectionStart () {
+       return this.input.isContentEditable ? window.getSelection().anchorOffset : this.input.selectionStart
+     },
+-
+     setCaretPosition (index) {
+       this.$nextTick(() => {
+         this.input.selectionEnd = index
+       })
+     },
+-
+     getValue () {
+       return this.input.isContentEditable ? window.getSelection().anchorNode.textContent : this.input.value
+     },
+-
+     setValue (value) {
+       this.input.value = value
+       this.emitInputEvent('input')
+     },
+-
+     emitInputEvent (type) {
+       let event
+       if (isIe) {
+@@ -243,7 +278,6 @@ export default {
+       }
+       this.input.dispatchEvent(event)
+     },
+-
+     checkKey () {
+       const index = this.getSelectionStart()
+       if (index >= 0) {
+@@ -261,15 +295,13 @@ export default {
+       this.closeMenu()
+       return false
+     },
+-
+     getLastKeyBeforeCaret (caretIndex) {
+       const [keyData] = this.keys.map(key => ({
+         key,
+-        keyIndex: this.getValue().lastIndexOf(key, caretIndex - 1),
++        keyIndex: this.getValue().lastIndexOf(key, caretIndex - 1)
+       })).sort((a, b) => b.keyIndex - a.keyIndex)
+       return keyData
+     },
+-
+     getLastSearchText (caretIndex, keyIndex) {
+       if (keyIndex !== -1) {
+         const searchText = this.getValue().substring(keyIndex + 1, caretIndex)
+@@ -280,7 +312,6 @@ export default {
+       }
+       return null
+     },
+-
+     openMenu (key, keyIndex) {
+       if (this.key !== key) {
+         this.key = key
+@@ -290,7 +321,6 @@ export default {
+         this.$emit('open', key)
+       }
+     },
+-
+     closeMenu () {
+       if (this.key != null) {
+         this.oldKey = this.key
+@@ -298,7 +328,6 @@ export default {
+         this.$emit('close', this.oldKey)
+       }
+     },
+-
+     updateCaretPosition () {
+       if (this.key) {
+         if (this.input.isContentEditable) {
+@@ -307,7 +336,7 @@ export default {
+           this.caretPosition = {
+             left: rect.left - inputRect.left,
+             top: rect.top - inputRect.top,
+-            height: rect.height,
++            height: rect.height
+           }
+         } else {
+           this.caretPosition = getCaretPosition(this.input, this.keyIndex)
+@@ -318,15 +347,30 @@ export default {
+         }
+       }
+     },
+-
++    onItemSelected (itemIndex, e) {
++      e.preventDefault()
++      e.stopPropagation()
++      this.applyMention(itemIndex)
++    },
+     applyMention (itemIndex) {
+       const item = this.displayedItems[itemIndex]
+-      const value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value) + (this.insertSpace ? ' ' : '')
++      const value = (this.omitKey ? '' : this.key) + String(this.mapInsert ? this.mapInsert(item, this.key) : item.value)
+       if (this.input.isContentEditable) {
+         const range = window.getSelection().getRangeAt(0)
+         range.setStart(range.startContainer, range.startOffset - this.key.length - (this.lastSearchText ? this.lastSearchText.length : 0))
+         range.deleteContents()
+-        range.insertNode(document.createTextNode(value))
++
++        // Start of difference between original vue-mention component
++        // Add space after member-mentioned span
++        range.insertNode(document.createTextNode('\u00A0'))
++
++        const spanElement = document.createElement('span')
++        spanElement.id = item.user_id
++        spanElement.className = 'member-mentioned'
++        spanElement.innerText = value
++        range.insertNode(spanElement)
++        // End of difference between original vue-mention component
++
+         range.setStart(range.endContainer, range.endOffset)
+         this.emitInputEvent('input')
+       } else {
+@@ -336,75 +380,9 @@ export default {
+       this.$emit('apply', item, this.key)
+       this.closeMenu()
+     },
+-
+     replaceText (text, searchText, newText, index) {
+       return text.slice(0, index) + newText + text.slice(index + searchText.length + 1, text.length)
+-    },
+-  },
+-}
++    }
++  }
++})
+ </script>
+-
+-<template>
+-  <div
+-    class="mentionable"
+-    style="position:relative;"
+-  >
+-    <slot />
+-
+-    <VPopover
+-      ref="popper"
+-      v-bind="$attrs"
+-      :placement="placement"
+-      :open="!!key"
+-      trigger="manual"
+-      :auto-hide="false"
+-      class="popper"
+-      style="position:absolute;"
+-      :style="caretPosition ? {
+-        top: `${caretPosition.top}px`,
+-        left: `${caretPosition.left}px`,
+-      } : {}"
+-    >
+-      <div
+-        :style="caretPosition ? {
+-          height: `${caretPosition.height}px`,
+-        } : {}"
+-      />
+-
+-      <template #popover>
+-        <div v-if="!displayedItems.length">
+-          <slot name="no-result">
+-            No result
+-          </slot>
+-        </div>
+-
+-        <template v-else>
+-          <div
+-            v-for="(item, index) of displayedItems"
+-            :key="index"
+-            class="mention-item"
+-            :class="{
+-              'mention-selected': selectedIndex === index,
+-            }"
+-            @mouseover="selectedIndex = index"
+-            @mousedown="applyMention(index)"
+-          >
+-            <slot
+-              :name="`item-${key || oldKey}`"
+-              :item="item"
+-              :index="index"
+-            >
+-              <slot
+-                name="item"
+-                :item="item"
+-                :index="index"
+-              >
+-                {{ item.label || item.value }}
+-              </slot>
+-            </slot>
+-          </div>
+-        </template>
+-      </template>
+-    </VPopover>
+-  </div>
+-</template>

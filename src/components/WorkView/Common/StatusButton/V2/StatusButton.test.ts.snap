@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<button class="status-button status-button--size--sm status-button--variant--default status-button--annotate">
+  <div class="status-button__icon__wrapper">
+    <annotate-icon-stub></annotate-icon-stub>
+  </div>
+</button>
+`;
+
+exports[`should match snapshot when type review 1`] = `
+<button class="status-button status-button--size--sm status-button--variant--default status-button--review">
+  <div class="status-button__icon__wrapper">
+    <review-icon-stub></review-icon-stub>
+  </div>
+</button>
+`;

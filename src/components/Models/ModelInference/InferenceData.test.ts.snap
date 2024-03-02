@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="inference">
+  <div class="inference__view">
+    <layout-component-stub editor="[object Object]"></layout-component-stub>
+  </div>
+  <div class="inference__sidebar">
+    <div class="inference__sidebar__section">
+      <h4 class="inference__sidebar__section__header">
+        Labels
+      </h4>
+      <div class="inference__labels"></div>
+    </div>
+    <div class="inference__sidebar__section">
+      <div class="inference__sidebar__section__header">
+        <h4>Model output</h4>
+        <copy-to-clipboard-stub title="Copy to clipboard" value="[]" class="inference__sidebar__section__header__copy-button"></copy-to-clipboard-stub>
+      </div> <pre class="inference__sidebar__section__content inference__json">[]</pre>
+    </div>
+    <div class="inference__sidebar__section">
+      <positive-button-stub class="inference__sidebar__button">
+        Use another image
+      </positive-button-stub>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with annotations 1`] = `
+<div class="inference">
+  <div class="inference__view">
+    <layout-component-stub editor="[object Object]"></layout-component-stub>
+  </div>
+  <div class="inference__sidebar">
+    <div class="inference__sidebar__section">
+      <h4 class="inference__sidebar__section__header">
+        Labels
+      </h4>
+      <div class="inference__labels">
+        <div class="inference__label">
+          <div class="inference__label__text" style="background: rgb(147, 210, 45);">
+            Foo
+          </div>
+          <div class="inference__label__count">
+            2
+          </div>
+        </div>
+        <div class="inference__label">
+          <div class="inference__label__text" style="background: rgb(108, 224, 112);">
+            Bar
+          </div>
+          <div class="inference__label__count">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="inference__sidebar__section">
+      <div class="inference__sidebar__section__header">
+        <h4>Model output</h4>
+        <copy-to-clipboard-stub title="Copy to clipboard" value="[
+  {
+    &quot;label&quot;: &quot;Foo&quot;,
+    &quot;path&quot;: []
+  },
+  {
+    &quot;label&quot;: &quot;Foo&quot;,
+    &quot;path&quot;: []
+  },
+  {
+    &quot;label&quot;: &quot;Bar&quot;,
+    &quot;path&quot;: []
+  }
+]" class="inference__sidebar__section__header__copy-button"></copy-to-clipboard-stub>
+      </div> <pre class="inference__sidebar__section__content inference__json">[
+  {
+    "label": "Foo",
+    "path": []
+  },
+  {
+    "label": "Foo",
+    "path": []
+  },
+  {
+    "label": "Bar",
+    "path": []
+  }
+]</pre>
+    </div>
+    <div class="inference__sidebar__section">
+      <positive-button-stub class="inference__sidebar__button">
+        Use another image
+      </positive-button-stub>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selected annotation type is All matches snapshot 1`] = `
+<div class="types-distribution">
+  <div>
+    <type-toggle-with-label-stub label="30" type="bounding_box"></type-toggle-with-label-stub>
+  </div>
+  <div>
+    <type-toggle-with-label-stub label="20" type="tag"></type-toggle-with-label-stub>
+  </div>
+  <div>
+    <type-toggle-with-label-stub label="10" type="polygon"></type-toggle-with-label-stub>
+  </div>
+  <type-toggle-with-label-stub label="All" type="polygon" selected="true"></type-toggle-with-label-stub>
+</div>
+`;
+
+exports[`selected annotation type is not All matches snapshot 1`] = `
+<div class="types-distribution">
+  <div>
+    <type-toggle-with-label-stub label="30" type="bounding_box"></type-toggle-with-label-stub>
+  </div>
+  <div>
+    <type-toggle-with-label-stub label="20" type="tag"></type-toggle-with-label-stub>
+  </div>
+  <div>
+    <type-toggle-with-label-stub label="10" type="polygon" selected="true"></type-toggle-with-label-stub>
+  </div>
+  <type-toggle-with-label-stub label="All" type="polygon"></type-toggle-with-label-stub>
+</div>
+`;
+
+exports[`when given custom scoped slot for items matches snapshot 1`] = `
+<div class="types-distribution">
+  <div>
+    <div class="item-stub">
+      <div>Type: bounding_box</div>
+      <div>Label: 30</div>
+      <div>Selected: false</div>
+    </div>
+  </div>
+  <div>
+    <div class="item-stub">
+      <div>Type: tag</div>
+      <div>Label: 20</div>
+      <div>Selected: false</div>
+    </div>
+  </div>
+  <div>
+    <div class="item-stub">
+      <div>Type: polygon</div>
+      <div>Label: 10</div>
+      <div>Selected: false</div>
+    </div>
+  </div>
+  <type-toggle-with-label-stub label="All" type="polygon" selected="true"></type-toggle-with-label-stub>
+</div>
+`;

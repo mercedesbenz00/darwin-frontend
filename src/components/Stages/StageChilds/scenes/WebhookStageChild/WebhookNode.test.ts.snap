@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshots when variant is failed 1`] = `
+<div class="node">
+  <div class="node__wrapper">
+    <div class="node__wrapper__icon node__wrapper__icon--failed">
+      <h3 class="node__wrapper__icon__label">
+        if
+      </h3>
+    </div>
+    <h3 class="node__wrapper__label node__wrapper__label--failed">
+      failed
+    </h3>
+  </div>
+  <div class="node__wrapper--edge__wrapper">
+    <stage-edge-stub scale="1" stageid="fake-stage-id" name="failed" edgetype="out" type="webhook"></stage-edge-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshots when variant is succeeded 1`] = `
+<div class="node">
+  <div class="node__wrapper">
+    <div class="node__wrapper__icon node__wrapper__icon--succeeded">
+      <h3 class="node__wrapper__icon__label">
+        if
+      </h3>
+    </div>
+    <h3 class="node__wrapper__label node__wrapper__label--succeeded">
+      succeeded
+    </h3>
+  </div>
+  <div class="node__wrapper--edge__wrapper">
+    <stage-edge-stub scale="1" stageid="fake-stage-id" name="succeeded" edgetype="out" type="webhook"></stage-edge-stub>
+  </div>
+</div>
+`;

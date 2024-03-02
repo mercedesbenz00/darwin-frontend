@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when nothing selected 1`] = ``;
+
+exports[`matches snapshot with selection and user allowed action 1`] = `
+<gallery-context-menu-stub>
+  <gallery-context-menu-check-item-stub label="SELECT ALL" class="classes-context-menu__select"></gallery-context-menu-check-item-stub>
+  <gallery-context-menu-item-stub label="DELETE 1 SELECTED" color="pink">
+    <trash-icon-old-stub class="classes-context-menu__delete"></trash-icon-old-stub>
+  </gallery-context-menu-item-stub>
+  <delete-classes-confirmation-dialog-stub selectedclasses="[object Object]"></delete-classes-confirmation-dialog-stub>
+</gallery-context-menu-stub>
+`;

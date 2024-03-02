@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="popup-menu-item popup-menu-item--standard">
+  <!---->
+  <div class="popup-menu-item__label">default</div>
+</div>
+`;
+
+exports[`matches snapshot when disabled 1`] = `
+<div class="popup-menu-item popup-menu-item--standard popup-menu-item--disabled">
+  <!---->
+  <div class="popup-menu-item__label">default</div>
+</div>
+`;
+
+exports[`matches snapshot when theme is crimson 1`] = `
+<div class="popup-menu-item popup-menu-item--crimson">
+  <!---->
+  <div class="popup-menu-item__label">default</div>
+</div>
+`;
+
+exports[`matches snapshot with icon 1`] = `
+<div class="popup-menu-item popup-menu-item--standard">
+  <div class="popup-menu-item__icon">icon</div>
+  <div class="popup-menu-item__label">default</div>
+</div>
+`;

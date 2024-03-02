@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`by default matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub size="medium">
+      M
+    </keycap-stub>
+  </li>
+</ul>
+`;
+
+exports[`inverted matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub inverted="true" size="medium">
+      M
+    </keycap-stub>
+  </li>
+</ul>
+`;
+
+exports[`when size is large matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub size="large">
+      M
+    </keycap-stub>
+  </li>
+</ul>
+`;
+
+exports[`when size is medium matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub size="medium">
+      M
+    </keycap-stub>
+  </li>
+</ul>
+`;
+
+exports[`when size is small matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub size="small">
+      M
+    </keycap-stub>
+  </li>
+</ul>
+`;
+
+exports[`with multiple keys matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub size="medium">
+      F
+    </keycap-stub>
+  </li>
+  <li>
+    <keycap-stub size="medium">
+      B
+    </keycap-stub>
+  </li>
+</ul>
+`;
+
+exports[`with one key matches snapshot 1`] = `
+<ul class="shortcut">
+  <li>
+    <keycap-stub size="medium">
+      F
+    </keycap-stub>
+  </li>
+</ul>
+`;

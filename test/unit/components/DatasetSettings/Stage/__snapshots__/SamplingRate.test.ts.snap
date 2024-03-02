@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="sampling-rate"><label>
+    <input-field-stub value="50" min="0" max="100" type="number" theme="dark"></input-field-stub> <span>%</span>
+  </label></div>
+`;

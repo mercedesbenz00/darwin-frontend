@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has correct values matches snapshot 1`] = `
+<div tabindex="1" autofocus="autofocus" class="model__dropdown__item">
+  <div class="model__dropdown__item__col">
+    <v2-model-icon-stub modeltype="auto_annotate" class="model__dropdown__item__icon"></v2-model-icon-stub>
+  </div>
+  <div class="model__dropdown__item__col"><span class="model__dropdown__item__label has-tooltip" data-original-title="null">
+      foo
+    </span> <span class="model__dropdown__item__classes"><badges-stub items="[object Object],[object Object]"></badges-stub></span></div>
+  <div class="model__dropdown__item__col">
+    <status-stub value="active" class="model__dropdown__item__status"></status-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div tabindex="1" autofocus="autofocus" class="model__dropdown__item">
+  <div class="model__dropdown__item__col">
+    <v2-model-icon-stub modeltype="auto_annotate" class="model__dropdown__item__icon"></v2-model-icon-stub>
+  </div>
+  <div class="model__dropdown__item__col"><span class="model__dropdown__item__label has-tooltip" data-original-title="null">
+      foo
+    </span> <span class="model__dropdown__item__classes"><badges-stub items="[object Object],[object Object]"></badges-stub></span></div>
+  <div class="model__dropdown__item__col">
+    <status-stub value="active" class="model__dropdown__item__status"></status-stub>
+  </div>
+</div>
+`;

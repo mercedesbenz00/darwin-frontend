@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when no summary 1`] = `
+<div class="summary">
+  <popup-menu-stub seperatorindex="-1" class="popup-menu popup-menu-time-summary popup-menu--open" style="transform: translateX(-200px);">
+    <!----> <span class="no-time-track">No time tracked yet.</span>
+  </popup-menu-stub>
+</div>
+`;
+
+exports[`matches snapshot when no time tracked on current stage 1`] = `
+<div class="summary">
+  <popup-menu-stub seperatorindex="-1" class="popup-menu popup-menu-time-summary popup-menu--open" style="transform: translateX(-200px);">
+    <!----> <span class="no-time-track">No time tracked yet.</span>
+  </popup-menu-stub>
+</div>
+`;
+
+exports[`matches snapshot when summary available 1`] = `
+<div class="summary">
+  <popup-menu-stub seperatorindex="-1" class="popup-menu popup-menu-time-summary popup-menu--open" style="transform: translateX(-200px);">
+    <div class="stage_name">
+      Review
+    </div>
+    <div class="summary__item">
+      <status-button-stub type="annotate" variant="default" size="xs" class="summary__item__avatar">
+        <team-member-avatar-stub member="[object Object]"></team-member-avatar-stub>
+      </status-button-stub>
+      <div class="summary__item__name">
+        John Smith
+      </div>
+      <annotation-time-stub timeinseconds="5" class="summary__item__time"></annotation-time-stub>
+    </div>
+  </popup-menu-stub>
+</div>
+`;

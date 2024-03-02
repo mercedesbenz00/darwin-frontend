@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/ux behavior matches snapshot when collapsed 1`] = `
+<button class="stats stats--collapsed">
+  <div class="stats__annotators">
+    <team-member-avatar-stub member="[object Object]" class="stats__annotators__annotator"></team-member-avatar-stub>
+    <team-member-avatar-stub member="[object Object]" class="stats__annotators__annotator"></team-member-avatar-stub>
+  </div>
+  <div class="stats__expand-text">
+    Click to expand...
+  </div>
+</button>
+`;
+
+exports[`ui/ux behavior matches snapshot when expanded 1`] = `
+<div class="stats stats--expanded"><button class="stats__collapse-button"><img src="/static/imgs/chevron_top.svg"> <span>Collapse</span></button>
+  <annotation-chart-stub annotationdata="[object Object],[object Object],[object Object]" dimension="annotationTime" datagranularity="hour" data-range="total" min-date="">
+    <all-toggle-stub selected="true" multiselect="true" class="stats__chart-toggles__all"></all-toggle-stub>
+    <member-toggle-stub member="[object Object]" multiselect="true" class="stats__chart-toggles__annotator"></member-toggle-stub>
+    <member-toggle-stub member="[object Object]" multiselect="true" class="stats__chart-toggles__annotator"></member-toggle-stub>
+  </annotation-chart-stub>
+  <dimension-selector-stub chartdata="[object Object]" dimension="annotationTime" class="stats__annotator">
+    <all-toggle-stub label="true" selected="true" class="stats__chart-toggles__all"></all-toggle-stub>
+  </dimension-selector-stub>
+  <dimension-selector-stub chartdata="[object Object]" dimension="annotationTime" class="stats__annotator">
+    <member-toggle-stub member="[object Object]" label="true"></member-toggle-stub>
+  </dimension-selector-stub>
+  <dimension-selector-stub chartdata="[object Object]" dimension="annotationTime" class="stats__annotator">
+    <member-toggle-stub member="[object Object]" label="true"></member-toggle-stub>
+  </dimension-selector-stub>
+</div>
+`;
+
+exports[`ui/ux behavior matches snapshot when no annotators 1`] = `
+<button class="stats stats--collapsed">
+  <div class="stats__annotators"></div>
+  <div class="stats__expand-text">
+    Click to expand...
+  </div>
+</button>
+`;

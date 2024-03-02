@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with company url matches snapshot 1`] = `<div class="clearbit-logo"><img src="//logo.clearbit.com/v7labs.com" class="clearbit-logo__img"></div>`;
+
+exports[`without company url matches snapshot without company url 1`] = `
+<div class="clearbit-logo">
+  <div>Slots</div>
+</div>
+`;

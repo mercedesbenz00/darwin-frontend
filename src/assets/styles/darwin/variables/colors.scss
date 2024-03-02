@@ -1,0 +1,150 @@
+@import "./colorsV2.scss";
+
+/**
+ * Color Definitions
+ **/
+$colorFeatherLight: #00d9c9; // Feather Light
+$colorFeatherLightTransparent: rgba(0, 217, 201, 0.5);
+$colorFeatherFade: #5eebdc; // Feather Fade
+$colorFeatherFadeLight: #ccf7f3; // Feather Fade Light
+$colorFeatherTeal: #24c7bb; // Feather Teal
+
+$colorAliceNight: #91a9c0; // Alice Night
+$colorAliceShadow: #dae4ed; // Alice Shadow
+$colorAliceShadowTransparent: rgba(
+  218,
+  228,
+  237,
+  0.5
+); // Alice Shadow Transparent
+$colorAliceShade: #e3eaf2; // Alice Shade
+$colorAliceBlue: #f1f5f9; // Alice Blue
+$colorAliceBlueLight: #f6faff; // Alice Blue Light
+$colorAliceFade: #ebf0f5;
+$colorAliceLight: #f7f9fc;
+$colorDarkNight: #526677;
+
+$color90Black: #1f1f1f;
+$colorLineGrey: #fafcfe;
+$colorAssignedBlue: #57a8f1;
+$colorLightBlue: #99bbff;
+$colorBlue: #4785ff;
+$colorDarkBlue: #003db8;
+$colorVividBlue: #2359fb;
+
+$colorCrimson: #de3e3e;
+$colorCrimsonDawn: #f4e8e8;
+$colorCrimsonFade: #ffe3e3;
+$colorCrimsonLight: #eb5353;
+
+/**
+* Normalized Color Definitions
+**/
+$colorWhite: #fff;
+$colorBlack: #000;
+$colorPink: #de3e3e;
+$colorPink2: #f294e9;
+
+$colorPinkLite: #ffb6c1;
+$colorPinkLite2: #de7a7a;
+$colorYellow: #fabb1b;
+$colorDarkYellow: #f0a04d;
+$colorEgg: #ffd747;
+$colorLightEgg: #fff9e5;
+$colorBrown: #ecd0a5;
+$colorYolk: #d0a91e;
+$colorNeutral: $colorAliceLight;
+
+// Gray Theme
+$colorGrayMedium: #4a4e51;
+$colorGrayLite: #a4afc5;
+$colorGrayLite2: #d0cdd8;
+$colorGrayLiter: #ececf4;
+$colorGrayLiter2: #e5e5e5;
+
+$colorGriteDark: #fafaff;
+$colorGriteDark2: #f3f3fc;
+$colorLineGrey: #fafcfe;
+
+// Primary Color Light Set
+$colorPrimaryLight: $colorFeatherLight;
+$colorPrimaryLightTransparent: $colorFeatherLightTransparent;
+$colorPrimaryLight1: $colorFeatherFade;
+$colorPrimaryLight2: $colorFeatherFadeLight;
+$colorPrimaryLight3: $colorFeatherFadeLight;
+$colorPrimaryLight4: $colorFeatherFadeLight;
+$colorPrimaryLight5: $colorFeatherFadeLight;
+
+// Primary Color Dark Set
+$colorPrimaryDark: $colorFeatherTeal;
+$colorPrimaryDark1: $colorFeatherTeal;
+$colorPrimaryDark2: $colorFeatherTeal;
+$colorPrimaryDark3: $colorFeatherTeal;
+$colorPrimaryDark4: $colorFeatherTeal;
+
+$gradientPrimary: linear-gradient(
+  109deg,
+  $colorPrimaryLight,
+  $colorPrimaryDark
+);
+
+// Secondary Color Light Set
+$colorSecondaryLight: $colorAliceNight;
+$colorSecondaryLight1: $colorAliceShadow;
+$colorSecondaryLight1Transparent: $colorAliceShadowTransparent;
+$colorSecondaryLight2: $colorAliceShade;
+$colorSecondaryLight3: $colorAliceBlue;
+$colorSecondaryLight4: $colorAliceBlueLight;
+
+// Secondary Color Dark Set
+$colorSecondaryDark: $colorBlack;
+$colorSecondaryDark1: $color90Black;
+$colorSecondaryDark2: $color90Black;
+$colorSecondaryDark3: $color90Black;
+$colorSecondaryDark4: $color90Black;
+
+$gradientSecondary: linear-gradient(
+  109deg,
+  $colorSecondaryLight,
+  $colorSecondaryDark
+);
+
+$colorCodeOrange: #f2994a;
+$colorTestOrange: #eb8069;
+$colorModelPurple: #9a69eb;
+
+$colorCodeOrange: #f2994a;
+$colorModelPurple: #9a69eb;
+
+/* Semantic */
+/* Light */
+
+/* Positive */
+$colorSemanticPositive400: #25a759;
+$colorSemanticPositive500: #178c46;
+
+/* Action */
+$colorSemanticLightAction100: #e0ebff;
+$colorSemanticLightAction200: #99bbff;
+$colorSemanticLightAction500: #003db8;
+
+/* Negative */
+$colorSemanticLightNegative400: #dd4141;
+
+/* Other */
+
+/* Teal */
+$colorTeal40: #50a6bb;
+
+/* Blue */
+$colorBlue40: #547bc9;
+$colorBlue50: #3d588f;
+
+/* Yellow */
+$colorYellow40: #ffbe0a;
+$colorYellow50: #b88700;
+
+$dottedCanvasGradient: radial-gradient(
+  $colorNeutralsLight400 1px,
+  transparent 0
+);

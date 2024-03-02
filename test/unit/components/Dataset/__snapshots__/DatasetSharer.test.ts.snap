@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-sharer">
+  <div class="v-popover-stub" placement="bottom-left" trigger="manual" popover-class="tooltip--white popover--sharer">
+    <div class="main">
+      <div title="Share this dataset">
+        <positive-button-stub class="dataset-sharer__share-button">
+          Share Dataset
+        </positive-button-stub>
+      </div>
+    </div>
+    <div class="popover">
+      <div class="dataset-sharer__modal">
+        <h2 class="dataset-sharer__modal__title">
+          Share Dataset
+        </h2> <button class="dataset-sharer__modal__share-toggle">
+          <div class="dataset-sharer__modal__share-toggle__label">
+            Open Dataset
+          </div>
+          <div class="dataset-sharer__modal__share-toggle__control dataset-sharer__modal__share-toggle__control--active"></div>
+        </button>
+        <div class="dataset-sharer__modal__text">
+          Open datasets can be accessed, exported, or forked by anyone on the
+          internet, but cannot be edited. They also do not incur storage fees.
+        </div>
+        <div class="dataset-sharer__modal__share-url"><a href="http://localhost/foo/bar" target="_blank">http://localhost/foo/bar</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

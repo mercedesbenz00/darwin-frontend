@@ -1,0 +1,5 @@
+export const ANNOTATION_ITEM_HEIGHT = 20
+export const ANNOTATION_ITEM_HEIGHT_WITH_BORDER = 21
+
+export const MIN_FRAME_LINE_WIDTH = 4
+export const MAX_FRAME_LINE_WIDTH = 20

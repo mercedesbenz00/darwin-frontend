@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" class="test__header__icon" viewBox="0 0 20 20">
+  <path fill="#EB8069" d="M0 10C0 4.47715 4.47715 0 10 0V0C15.5228 0 20 4.47715 20 10V10C20 15.5228 15.5228 20 10 20V20C4.47715 20 0 15.5228 0 10V10Z"/>
+  <rect width="7.16667" height="7.16667" x="5.13806" y="4.75" stroke="#F1F5F9" stroke-width="1.5" rx="1.25"/>
+  <rect width="7.16667" height="7.16667" x="8.47144" y="8.08301" stroke="#F1F5F9" stroke-width="1.5" rx="1.25"/>
+  <rect width="4" height="4" x="8.38806" y="8" fill="#F1F5F9"/>
+</svg>

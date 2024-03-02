@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given full options matches snapshot 1`] = `
+<div class="tab-select"><button class="tab-select__button tab-select__button--active" tooltip="Foo description">
+    Foo
+  </button><button class="tab-select__button" tooltip="Bar description">
+    Bar
+  </button></div>
+`;
+
+exports[`given just value options matches snapshot 1`] = `
+<div class="tab-select"><button class="tab-select__button tab-select__button--active" tooltip="undefined">
+    foo
+  </button><button class="tab-select__button" tooltip="undefined">
+    bar
+  </button></div>
+`;
+
+exports[`given options with value and description matches snapshot 1`] = `
+<div class="tab-select"><button class="tab-select__button tab-select__button--active" tooltip="Foo description">
+    foo
+  </button><button class="tab-select__button" tooltip="Bar description">
+    bar
+  </button></div>
+`;
+
+exports[`given options with value and label matches snapshot 1`] = `
+<div class="tab-select"><button class="tab-select__button tab-select__button--active" tooltip="undefined">
+    Foo
+  </button><button class="tab-select__button" tooltip="undefined">
+    Bar
+  </button></div>
+`;

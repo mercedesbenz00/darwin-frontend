@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when loaded 1`] = `
+<div class="classes">
+  <class-loader-stub></class-loader-stub>
+  <div class="classes__main">
+    <div class="classes__header">
+      <h1 class="classes__title">
+        Classes
+      </h1>
+      <div class="classes__header__search">
+        <search-field-stub value="" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+      </div>
+    </div>
+    <div loading-options="[object Object]" class="classes__tab__content" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+      <classes-gallery-stub classes="[object Object],[object Object],[object Object],[object Object]" emptymessage="No classes have been added yet"></classes-gallery-stub>
+      <classes-context-menu-stub classes="[object Object],[object Object],[object Object],[object Object]"></classes-context-menu-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label" style="background-color: rgb(255, 255, 255);">
+
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+
+        <label>Fetching Classes</label>
+      </div>
+    </div>
+  </div>
+  <annotation-class-dialog-stub annotationclasses="[object Object],[object Object],[object Object],[object Object]" team="[object Object]"></annotation-class-dialog-stub>
+  <div class="classes__sidebar-container">
+    <classes-sidebar-stub></classes-sidebar-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<div class="classes">
+  <class-loader-stub></class-loader-stub>
+  <div class="classes__main">
+    <div class="classes__header">
+      <h1 class="classes__title">
+        Classes
+      </h1>
+      <div class="classes__header__search">
+        <search-field-stub value="" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+      </div>
+    </div>
+    <div loading-options="[object Object]" class="classes__tab__content" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+      <classes-gallery-stub classes="[object Object],[object Object],[object Object],[object Object]" loading="true" emptymessage="No classes have been added yet"></classes-gallery-stub>
+      <classes-context-menu-stub classes="[object Object],[object Object],[object Object],[object Object]"></classes-context-menu-stub>
+      <div class="v-loading v-loading--medium v-loading--grey v-loading--with-label v-loading--active" style="background-color: rgb(255, 255, 255);">
+
+        <div class="mul5">
+          <div class="mul5circle1"></div>
+          <div class="mul5circle2"></div>
+          <div class="mul5circle3"></div>
+        </div>
+
+        <label>Fetching Classes</label>
+      </div>
+    </div>
+  </div>
+  <annotation-class-dialog-stub annotationclasses="[object Object],[object Object],[object Object],[object Object]" team="[object Object]"></annotation-class-dialog-stub>
+  <div class="classes__sidebar-container">
+    <classes-sidebar-stub loading="true"></classes-sidebar-stub>
+  </div>
+</div>
+`;

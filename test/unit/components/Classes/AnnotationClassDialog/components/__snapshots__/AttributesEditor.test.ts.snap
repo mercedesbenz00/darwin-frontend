@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when creating 1`] = `
+<annotation-class-section-stub title="Attributes">
+  <div class="attributes-container">
+    <div class="vue-tags-input-stub" avoid-adding-duplicates="" allow-edit-tags="" disabled="disabled" placeholder="Save the annotation class to edit attributes" tags="" value=""><input class="ti-new-tag-input">
+      <div class="vue-tags-input-stub__tag-actions">
+        <div>
+          <div class="v-popover-stub" trigger="manual" placement="right" popover-class="attributes-menu">
+            <div class="main">
+              <div class="ti-icon-more"></div>
+            </div>
+            <div class="popover">
+              <div class="attributes-menu__item">
+                Recolor
+              </div>
+              <div class="attributes-menu__item">
+                Rename
+              </div>
+              <div class="attributes-menu__item">
+                Delete
+              </div>
+            </div>
+          </div>
+          <div class="v-popover-stub" trigger="manual" placement="right" popover-class="tooltip--white popover--colors popover--attribute-colors">
+            <div class="main">
+              <div class="ti-icon-color"></div>
+            </div>
+            <div class="popover">
+              <color-picker-stub colors="rgba(255,73,73,1.0),rgba(255,106,73,1.0),rgba(255,128,73,1.0),rgba(255,182,73,1.0),rgba(255,215,73,1.0),rgba(255,237,73,1.0),rgba(219,255,73,1.0),rgba(186,255,73,1.0),rgba(175,255,73,1.0),rgba(153,255,73,1.0),rgba(82,255,130,1.0),rgba(82,255,203,1.0),rgba(82,245,255,1.0),rgba(82,203,255,1.0),rgba(82,151,255,1.0),rgba(82,130,255,1.0),rgba(82,89,255,1.0),rgba(116,82,255,1.0),rgba(179,82,255,1.0),rgba(231,82,255,1.0),rgba(255,82,207,1.0),rgba(255,82,155,1.0)"></color-picker-stub>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <delete-confirmation-dialog-stub title="" detail="" buttontext="REMOVE ATTRIBUTE" name="delete-attribute-modal"></delete-confirmation-dialog-stub>
+</annotation-class-section-stub>
+`;
+
+exports[`matches snapshot when editing 1`] = `
+<annotation-class-section-stub title="Attributes">
+  <div class="attributes-container">
+    <div class="vue-tags-input-stub" avoid-adding-duplicates="" allow-edit-tags="" placeholder="Type in an attribute" tags="" value=""><input class="ti-new-tag-input">
+      <div class="vue-tags-input-stub__tag-actions">
+        <div>
+          <div class="v-popover-stub" trigger="manual" placement="right" popover-class="attributes-menu">
+            <div class="main">
+              <div class="ti-icon-more"></div>
+            </div>
+            <div class="popover">
+              <div class="attributes-menu__item">
+                Recolor
+              </div>
+              <div class="attributes-menu__item">
+                Rename
+              </div>
+              <div class="attributes-menu__item">
+                Delete
+              </div>
+            </div>
+          </div>
+          <div class="v-popover-stub" trigger="manual" placement="right" popover-class="tooltip--white popover--colors popover--attribute-colors">
+            <div class="main">
+              <div class="ti-icon-color"></div>
+            </div>
+            <div class="popover">
+              <color-picker-stub colors="rgba(255,73,73,1.0),rgba(255,106,73,1.0),rgba(255,128,73,1.0),rgba(255,182,73,1.0),rgba(255,215,73,1.0),rgba(255,237,73,1.0),rgba(219,255,73,1.0),rgba(186,255,73,1.0),rgba(175,255,73,1.0),rgba(153,255,73,1.0),rgba(82,255,130,1.0),rgba(82,255,203,1.0),rgba(82,245,255,1.0),rgba(82,203,255,1.0),rgba(82,151,255,1.0),rgba(82,130,255,1.0),rgba(82,89,255,1.0),rgba(116,82,255,1.0),rgba(179,82,255,1.0),rgba(231,82,255,1.0),rgba(255,82,207,1.0),rgba(255,82,155,1.0)"></color-picker-stub>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <delete-confirmation-dialog-stub title="" detail="" buttontext="REMOVE ATTRIBUTE" name="delete-attribute-modal"></delete-confirmation-dialog-stub>
+</annotation-class-section-stub>
+`;

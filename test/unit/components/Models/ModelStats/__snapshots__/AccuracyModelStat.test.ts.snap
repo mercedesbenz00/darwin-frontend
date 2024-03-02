@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`otherwise matches snapshot 1`] = `
+<model-stat-stub name="Accuracy" score="97%">
+  <accuracy-hero-stub></accuracy-hero-stub>
+  <p><strong class="bold">Accuracy</strong>
+    is the percentage of predictions our model got right in the test set. It's
+    computed by dividing the number of correct predictions by the total number of test examples.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when accuracy field is undefined matches snapshot 1`] = `
+<model-stat-stub name="Accuracy" score="N/A">
+  <accuracy-hero-stub></accuracy-hero-stub>
+  <p><strong class="bold">Accuracy</strong>
+    is the percentage of predictions our model got right in the test set. It's
+    computed by dividing the number of correct predictions by the total number of test examples.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when trainedModel is null matches snapshot 1`] = `
+<model-stat-stub name="Accuracy" score="N/A">
+  <accuracy-hero-stub></accuracy-hero-stub>
+  <p><strong class="bold">Accuracy</strong>
+    is the percentage of predictions our model got right in the test set. It's
+    computed by dividing the number of correct predictions by the total number of test examples.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when training results are null matches snapshot 1`] = `
+<model-stat-stub name="Accuracy" score="N/A">
+  <accuracy-hero-stub></accuracy-hero-stub>
+  <p><strong class="bold">Accuracy</strong>
+    is the percentage of predictions our model got right in the test set. It's
+    computed by dividing the number of correct predictions by the total number of test examples.
+  </p>
+</model-stat-stub>
+`;
+
+exports[`when training results test_metrics field in undefined matches snapshot 1`] = `
+<model-stat-stub name="Accuracy" score="N/A">
+  <accuracy-hero-stub></accuracy-hero-stub>
+  <p><strong class="bold">Accuracy</strong>
+    is the percentage of predictions our model got right in the test set. It's
+    computed by dividing the number of correct predictions by the total number of test examples.
+  </p>
+</model-stat-stub>
+`;

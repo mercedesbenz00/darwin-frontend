@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div class="cost__note">
+    Estimated Cost
+  </div>
+  <div class="cost__amount">
+    0.17 credits
+    <span class="cost__amount__span">/minute</span>
+  </div>
+  <div class="cost__note">
+    Rounded up to the nearest minute
+  </div>
+</div>
+`;

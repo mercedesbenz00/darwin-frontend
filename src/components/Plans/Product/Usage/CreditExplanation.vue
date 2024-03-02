@@ -1,0 +1,55 @@
+<template>
+  <product-explanation>
+    <template #title>
+      <header-4>How are credits calculated?</header-4>
+    </template>
+    <template #body>
+      <paragraph-12>
+        <strong>Human Hours</strong> count the total active annotation time in a
+        team. 1 human hour = 1 credit.
+        <br>When users are actively clicking to create or edit annotations,
+        the time is logged. If users are only browsing images, or if the browser
+        window is not focused, that time is free. If an image is browsed for a
+        long time, after which an annotation is placed, only the last 60 seconds
+        or fewer are logged, and any time beyond 60 seconds is free.
+      </paragraph-12>
+      <paragraph-12>
+        <strong>Automated Actions</strong> are the total uses of an automation
+        system, like running a neural network, or creating an annotation with
+        Auto-Annotate. 100 automated actions = 1 credit.
+        <br>When using Auto-Annotate, only the creation of an annotation counts
+        as an Automated Action. Editing or re-running the annotation within the
+        same image or frame is free.
+        <br>Running a neural network on an image, regardless of how many
+        annotations the output contains, counts as 1 automation action.
+        <br>Importing annotation files from an external model also counts as 1
+        automated action.
+      </paragraph-12>
+      <paragraph-12>
+        <strong>Model Uptime</strong> is a sum of model training and uptime costs.
+        Model training is charged at 0.33 credits / minute.
+        Model uptime is charged at 2 credits / hour per instance.
+      </paragraph-12>
+      <paragraph-12>
+        <strong>1 credit</strong> costs between $1.50 and $0.60 depending on your
+        monthly usage volume. Therefore, generating 100 automated polygons, or
+        labelling manually and continuously for 1 hour, incurs a $1.50-0.60
+        platform cost.
+      </paragraph-12>
+    </template>
+  </product-explanation>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+import Header4 from '@/components/Common/Header4.vue'
+import Paragraph12 from '@/components/Common/Paragraph12.vue'
+
+import ProductExplanation from './ProductExplanation.vue'
+
+export default defineComponent({
+  name: 'CreditExplanation',
+  components: { Header4, Paragraph12, ProductExplanation }
+})
+</script>

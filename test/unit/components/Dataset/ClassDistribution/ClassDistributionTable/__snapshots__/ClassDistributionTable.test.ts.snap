@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when viewing image counts matches snapshot 1`] = `
+<div class="VueTables VueTables--client VueTables__table--hide-headers VuePagination--hide" no-pagination="">
+  <div class="row">
+    <div class="col-md-12"></div>
+  </div>
+  <div class="table-responsive">
+    <table class="VueTables__table table table-striped table-bordered table-hover" style="overflow: hidden;">
+      <thead>
+        <tr>
+          <th title="" tabindex="0" class="VueTables__sortable class-distribution-table__class__name" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+            <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+          </th>
+          <th title="" tabindex="0" class="VueTables__sortable class-distribution-table__class__status" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+            <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+          </th>
+          <th title="" tabindex="0" class="VueTables__sortable class-distribution-table__class__count" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+            <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="VueTables__row ">
+          <td tabindex="0" class="class-distribution-table__class__name">
+            <div tooltip="{'content':'Over 50% above the mean. Try increasing the frequency of other classes.'}">
+              <class-item-stub annotationclass="[object Object]"></class-item-stub>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__status">
+            <div class="class-distribution-status" tooltip="{'content':'Over 50% above the mean. Try increasing the frequency of other classes.'}">
+              <very-overrepresented-icon-stub class="class-distribution-status__icon"></very-overrepresented-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--very-overrepresented">Very Overrepresented</label>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__count">
+            <class-distribution-progress-stub color="rgba(6,6,6,0.5)" count="19" maxcount="20" tooltip="{'content':'Over 50% above the mean. Try increasing the frequency of other classes.'}"></class-distribution-progress-stub>
+          </td>
+        </tr>
+        <tr class="VueTables__row ">
+          <td tabindex="0" class="class-distribution-table__class__name">
+            <div tooltip="{'content':'This class is balanced'}">
+              <class-item-stub annotationclass="[object Object]"></class-item-stub>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__status">
+            <div class="class-distribution-status" tooltip="{'content':'This class is balanced'}">
+              <balanced-icon-stub class="class-distribution-status__icon"></balanced-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--balanced">Balanced</label>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__count">
+            <class-distribution-progress-stub color="rgba(5,5,5,0.5)" count="20" maxcount="20" tooltip="{'content':'This class is balanced'}"></class-distribution-progress-stub>
+          </td>
+        </tr>
+        <tr class="VueTables__row ">
+          <td tabindex="0" class="class-distribution-table__class__name">
+            <div tooltip="undefined">
+              <class-item-stub annotationclass="[object Object]"></class-item-stub>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__status"></td>
+          <td tabindex="0" class="class-distribution-table__class__count">
+            <class-distribution-progress-stub color="rgba(7,7,7,0.5)" count="0" maxcount="20" tooltip="undefined"></class-distribution-progress-stub>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`when viewing instance counts matches snapshot 1`] = `
+<div class="VueTables VueTables--client VueTables__table--hide-headers VuePagination--hide" no-pagination="">
+  <div class="row">
+    <div class="col-md-12"></div>
+  </div>
+  <div class="table-responsive">
+    <table class="VueTables__table table table-striped table-bordered table-hover" style="overflow: hidden;">
+      <thead>
+        <tr>
+          <th title="" tabindex="0" class="VueTables__sortable class-distribution-table__class__name" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+            <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+          </th>
+          <th title="" tabindex="0" class="VueTables__sortable class-distribution-table__class__status" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+            <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+          </th>
+          <th title="" tabindex="0" class="VueTables__sortable class-distribution-table__class__count" style="position: relative;"><span class="VueTables__heading">
+
+  </span><span class="VueTables__sort-icon pull-right glyphicon glyphicon-sort "></span>
+            <div style="top: 0px; right: 0px; width: 5px; position: absolute; cursor: col-resize; user-select: none; height: 0px;" class="resize-handle"></div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="VueTables__row ">
+          <td tabindex="0" class="class-distribution-table__class__name">
+            <div tooltip="{'content':'Over 50% above the mean. Try increasing the frequency of other classes.'}">
+              <class-item-stub annotationclass="[object Object]"></class-item-stub>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__status">
+            <div class="class-distribution-status" tooltip="{'content':'Over 50% above the mean. Try increasing the frequency of other classes.'}">
+              <very-overrepresented-icon-stub class="class-distribution-status__icon"></very-overrepresented-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--very-overrepresented">Very Overrepresented</label>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__count">
+            <class-distribution-progress-stub color="rgba(6,6,6,0.5)" count="39" maxcount="39" tooltip="{'content':'Over 50% above the mean. Try increasing the frequency of other classes.'}"></class-distribution-progress-stub>
+          </td>
+        </tr>
+        <tr class="VueTables__row ">
+          <td tabindex="0" class="class-distribution-table__class__name">
+            <div tooltip="{'content':'This class is balanced'}">
+              <class-item-stub annotationclass="[object Object]"></class-item-stub>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__status">
+            <div class="class-distribution-status" tooltip="{'content':'This class is balanced'}">
+              <balanced-icon-stub class="class-distribution-status__icon"></balanced-icon-stub> <label class="class-distribution-status__description class-distribution-status__description--balanced">Balanced</label>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__count">
+            <class-distribution-progress-stub color="rgba(5,5,5,0.5)" count="29" maxcount="39" tooltip="{'content':'This class is balanced'}"></class-distribution-progress-stub>
+          </td>
+        </tr>
+        <tr class="VueTables__row ">
+          <td tabindex="0" class="class-distribution-table__class__name">
+            <div tooltip="undefined">
+              <class-item-stub annotationclass="[object Object]"></class-item-stub>
+            </div>
+          </td>
+          <td tabindex="0" class="class-distribution-table__class__status"></td>
+          <td tabindex="0" class="class-distribution-table__class__count">
+            <class-distribution-progress-stub color="rgba(7,7,7,0.5)" count="0" maxcount="39" tooltip="undefined"></class-distribution-progress-stub>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

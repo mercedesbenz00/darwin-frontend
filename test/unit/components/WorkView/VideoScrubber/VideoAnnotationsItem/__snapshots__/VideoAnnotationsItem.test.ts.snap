@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="vue-draggable-resizable-stub video-annotations-item__draggable" parent="" axis="x" grid="4,21" handles="mr,ml" min-width="3" y="21" h="20">
+  <div class="video-annotations-item__ml" tooltip="{'content':'Frame 0','delay':{'show':0,'hide':0},'trigger':'manual','show':false}">
+    <extender-icon-stub class="video-annotations-item__ml__icon"></extender-icon-stub>
+  </div>
+  <div class="video-annotations-item__mr" tooltip="{'content':'Frame 30','delay':{'show':0,'hide':0},'trigger':'manual','show':false}">
+    <extender-icon-stub class="video-annotations-item__mr__icon"></extender-icon-stub>
+  </div>
+  <video-annotations-item-annotation-stub annotation="[object Object]"></video-annotations-item-annotation-stub>
+</div>
+`;

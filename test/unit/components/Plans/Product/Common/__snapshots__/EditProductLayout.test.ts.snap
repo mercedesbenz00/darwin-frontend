@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="edit-product">
+  <h2 class="edit-product__title">Title
+    <!---->
+  </h2>
+  <div class="edit-product__body">Current New
+    <!----> Extra
+  </div>
+  <div class="edit-product__footer">
+    <secondary-button-stub type="button" class="edit-product__footer__button edit-product__footer__button--cancel">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub type="button" class="edit-product__footer__button edit-product__footer__button--confirm">
+      Confirm
+      <!---->
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when confirm disabled 1`] = `
+<div class="edit-product">
+  <h2 class="edit-product__title">Title
+    <!---->
+  </h2>
+  <div class="edit-product__body">Current New
+    <!----> Extra
+  </div>
+  <div class="edit-product__footer">
+    <secondary-button-stub type="button" class="edit-product__footer__button edit-product__footer__button--cancel">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true" type="button" class="edit-product__footer__button edit-product__footer__button--confirm">
+      Confirm
+      <!---->
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with issues given 1`] = `
+"Title  Current New Issues Extra 
+      Cancel
+     
+        Confirm"
+`;
+
+exports[`when disabled matches snapshot 1`] = `
+<div class="edit-product">
+  <h2 class="edit-product__title">Title <circle-spinner-stub dark="true" width="16" height="16" aria-label="Loading…" class="class-selection__loading-indicator"></circle-spinner-stub>
+  </h2>
+  <div class="edit-product__body">Current New
+    <!----> Extra
+  </div>
+  <div class="edit-product__footer">
+    <secondary-button-stub disabled="true" type="button" class="edit-product__footer__button edit-product__footer__button--cancel">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true" type="button" class="edit-product__footer__button edit-product__footer__button--confirm">
+      Confirm
+      <!---->
+    </positive-button-stub>
+  </div>
+</div>
+`;
+
+exports[`when disabled matches snapshot when title slot is missing 1`] = `
+<div class="edit-product edit-product--no-title">
+  <!---->
+  <div class="edit-product__body">Current New
+    <!----> Extra
+  </div>
+  <div class="edit-product__footer">
+    <secondary-button-stub disabled="true" type="button" class="edit-product__footer__button edit-product__footer__button--cancel">
+      Cancel
+    </secondary-button-stub>
+    <positive-button-stub disabled="true" type="button" class="edit-product__footer__button edit-product__footer__button--confirm">
+      Confirm
+      <circle-spinner-stub dark="true" width="16" height="16" aria-label="Loading…" class="class-selection__loading-indicator"></circle-spinner-stub>
+    </positive-button-stub>
+  </div>
+</div>
+`;

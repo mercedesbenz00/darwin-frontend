@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<sidebar-stub loadinglabel="Fetching Classes">
+  <primary-button-stub size="medium" class="classes-sidebar__create">
+    + CREATE NEW CLASS
+  </primary-button-stub>
+  <div class="classes-sidebar__control">
+    <switch-gallery-layout-stub value="0"></switch-gallery-layout-stub>
+  </div>
+  <div class="classes-sidebar__sort">
+    <sort-dropdown-stub value="id" options="[object Object],[object Object]" size="normal" direction="asc"></sort-dropdown-stub>
+  </div>
+  <div class="classes-sidebar__status">
+    <annotation-type-filter-stub options="[object Object],[object Object]" value="" showall="true" allcount="2"></annotation-type-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<sidebar-stub loading="true" loadinglabel="Fetching Classes">
+  <primary-button-stub size="medium" class="classes-sidebar__create">
+    + CREATE NEW CLASS
+  </primary-button-stub>
+  <div class="classes-sidebar__control">
+    <switch-gallery-layout-stub value="0"></switch-gallery-layout-stub>
+  </div>
+  <div class="classes-sidebar__sort">
+    <sort-dropdown-stub value="id" options="[object Object],[object Object]" size="normal" direction="asc"></sort-dropdown-stub>
+  </div>
+  <div class="classes-sidebar__status">
+    <annotation-type-filter-stub options="[object Object],[object Object]" value="" showall="true" allcount="2"></annotation-type-filter-stub>
+  </div>
+</sidebar-stub>
+`;
+
+exports[`matches snapshot with dataset 1`] = `
+<sidebar-stub loadinglabel="Fetching Classes">
+  <primary-button-stub size="medium" class="classes-sidebar__create">
+    + CREATE NEW CLASS
+  </primary-button-stub>
+  <div class="classes-sidebar__control">
+    <switch-gallery-layout-stub value="0"></switch-gallery-layout-stub>
+  </div>
+  <div class="classes-sidebar__sort">
+    <sort-dropdown-stub value="id" options="[object Object],[object Object]" size="normal" direction="asc"></sort-dropdown-stub>
+  </div>
+  <div class="classes-sidebar__status">
+    <annotation-type-filter-stub options="[object Object],[object Object]" value="" showall="true" allcount="2"></annotation-type-filter-stub>
+  </div>
+</sidebar-stub>
+`;

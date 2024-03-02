@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="stage-item-stub" item="[object Object]">
+  <div class="main-slot-given">
+    <status-button-stub type="annotate" variant="default" size="xs" class="template"></status-button-stub>
+  </div>
+  <!---->
+</div>
+`;

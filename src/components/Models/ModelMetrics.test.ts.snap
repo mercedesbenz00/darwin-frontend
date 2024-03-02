@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when trained model encodes training result matches snapshot 1`] = `
+<div class="metrics">
+  <div class="metrics__metric">
+    <div class="metrics__metric__value">
+      12
+      <span class="metrics__metric__value__perc">%</span>
+    </div>
+    <div class="metrics__metric__label">
+      mAP
+    </div>
+  </div>
+  <div class="metrics__metric">
+    <div class="metrics__metric__value">
+      Full
+    </div>
+    <div class="metrics__metric__label">
+      Model Tier
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when trained model has no training result matches snapshot 1`] = `
+<div class="metrics">
+  <div class="metrics__metric">
+    <div class="metrics__metric__value">
+      N/A
+      <!---->
+    </div>
+    <div class="metrics__metric__label">
+      mAP
+    </div>
+  </div>
+  <div class="metrics__metric">
+    <div class="metrics__metric__value">
+      Full
+    </div>
+    <div class="metrics__metric__label">
+      Model Tier
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when trained model is null matches snapshot 1`] = `
+<div class="metrics">
+  <div class="metrics__metric">
+    <div class="metrics__metric__value">
+      N/A
+      <!---->
+    </div>
+    <div class="metrics__metric__label">
+      mAP
+    </div>
+  </div>
+  <div class="metrics__metric">
+    <div class="metrics__metric__value">
+      Full
+    </div>
+    <div class="metrics__metric__label">
+      Model Tier
+    </div>
+  </div>
+</div>
+`;

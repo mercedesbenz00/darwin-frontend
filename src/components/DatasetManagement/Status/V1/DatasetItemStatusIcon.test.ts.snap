@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dataset item of status 'annotate' matches snapshot 1`] = `
+<status-button-stub type="annotate" class="status-icon status-icon--annotate" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'archived' matches snapshot 1`] = `
+<status-button-stub type="archived" class="status-icon status-icon--archived" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'complete' matches snapshot 1`] = `
+<status-button-stub type="complete" class="status-icon status-icon--complete" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'error' matches snapshot 1`] = `
+<status-button-stub type="error" class="status-icon status-icon--error" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'new' matches snapshot 1`] = `
+<status-button-stub type="new" class="status-icon status-icon--new" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'processing' matches snapshot 1`] = `
+<status-button-stub type="processing" class="status-icon status-icon--processing" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'review' matches snapshot 1`] = `
+<status-button-stub type="review" class="status-icon status-icon--review" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`dataset item of status 'uploading' matches snapshot 1`] = `
+<status-button-stub type="uploading" class="status-icon status-icon--uploading" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`matches snapshot when status is annotate with assignee 1`] = `
+<status-button-stub type="annotate" class="status-icon status-icon--annotate" tooltip="Being annotated by Sam Annotator">
+  <team-member-avatar-stub member="[object Object]" class="instance__avatar"></team-member-avatar-stub>
+</status-button-stub>
+`;
+
+exports[`matches snapshot when status is archived after completed 1`] = `
+<status-button-stub type="archived" class="status-icon status-icon--archived" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`matches snapshot when status is processing with tags during upload 1`] = `
+<status-button-stub type="processing" class="status-icon status-icon--processing" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`when assigned to 1.0 workflow matches snapshot for item of status 'annotate' 1`] = `
+<status-button-stub type="annotate" class="status-icon status-icon--annotate" tooltip="Being annotated by Sam Annotator">
+  <team-member-avatar-stub member="[object Object]" class="instance__avatar"></team-member-avatar-stub>
+</status-button-stub>
+`;
+
+exports[`when assigned to 1.0 workflow matches snapshot for item of status 'review' 1`] = `
+<status-button-stub type="annotate" class="status-icon status-icon--annotate" tooltip="Being annotated by Sam Annotator">
+  <team-member-avatar-stub member="[object Object]" class="instance__avatar"></team-member-avatar-stub>
+</status-button-stub>
+`;
+
+exports[`when assigned to 2.0 workflow matches snapshot for item of status 'annotate' 1`] = `
+<status-button-stub type="annotate" class="status-icon status-icon--annotate" tooltip="Being annotated by Sam Annotator">
+  <team-member-avatar-stub member="[object Object]" class="instance__avatar"></team-member-avatar-stub>
+</status-button-stub>
+`;
+
+exports[`when assigned to 2.0 workflow matches snapshot for item of status 'review' 1`] = `
+<status-button-stub type="review" class="status-icon status-icon--review" tooltip="Being reviewed by Sam Annotator">
+  <team-member-avatar-stub member="[object Object]" class="instance__avatar"></team-member-avatar-stub>
+</status-button-stub>
+`;
+
+exports[`when in auto-complete stage of 1.0 workflow matches snapshot 1`] = `
+<status-button-stub type="new" class="status-icon status-icon--new" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`when in code stage of 1.0 workflow matches snapshot 1`] = `
+<status-button-stub type="code" class="status-icon status-icon--code" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`when in dataset stage of 2.0 workflow matches snapshot 1`] = `
+<status-button-stub type="new" class="status-icon status-icon--new" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`when in discard stage of 2.0 workflow matches snapshot 1`] = `
+<status-button-stub type="archived" class="status-icon status-icon--archived" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`when in model stage of 1.0 workflow matches snapshot 1`] = `
+<status-button-stub type="model" class="status-icon status-icon--model" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;
+
+exports[`when in test stage of 1.0 workflow matches snapshot 1`] = `
+<status-button-stub type="test" class="status-icon status-icon--test" tooltip="undefined">
+  <!---->
+</status-button-stub>
+`;

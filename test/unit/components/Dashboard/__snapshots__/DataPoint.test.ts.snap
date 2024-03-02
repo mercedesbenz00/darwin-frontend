@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for Duration, duration  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    01:00:01
+  </div>
+  <div class="data-point__label">
+    Duration
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Numeric 10 with color, numeric  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <div class="data-point__value__dot" style="background-color: rgb(255, 255, 255);"></div>
+    10
+  </div>
+  <div class="data-point__label">
+    Numeric 10 with color
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Numeric 10, numeric  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    10
+  </div>
+  <div class="data-point__label">
+    Numeric 10
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Numeric 100, numeric  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    100
+  </div>
+  <div class="data-point__label">
+    Numeric 100
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Numeric 1000, numeric  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    1000
+  </div>
+  <div class="data-point__label">
+    Numeric 1000
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Numeric 10000, numeric  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    10.0k
+  </div>
+  <div class="data-point__label">
+    Numeric 10000
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Numeric 100000, numeric  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    100k
+  </div>
+  <div class="data-point__label">
+    Numeric 100000
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for Percentage, percentage  1`] = `
+<div class="data-point">
+  <div class="data-point__value">
+    <!---->
+    85.2%
+  </div>
+  <div class="data-point__label">
+    Percentage
+  </div>
+</div>
+`;

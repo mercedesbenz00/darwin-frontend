@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when annotator matches snapshot: all loaded 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+    <more-work-stub></more-work-stub>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when annotator matches snapshot: loading queued up 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+    <more-work-stub></more-work-stub>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when full team member matches snapshot: all loaded 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when full team member matches snapshot: loading queued up 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when unauthenticated matches snapshot: all loaded 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when unauthenticated matches snapshot: loading queued up 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when workforce manager matches snapshot: all loaded 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;
+
+exports[`when workforce manager matches snapshot: loading queued up 1`] = `
+<div class="workflow-bottom-bar">
+  <div class="bottom-bar">
+    <div class="loading-placeholder"></div>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <workflow-image-stub datasetitem="[object Object]"></workflow-image-stub>
+    <div class="loading-placeholder"></div>
+  </div>
+  <preload-image-stub images=""></preload-image-stub>
+</div>
+`;

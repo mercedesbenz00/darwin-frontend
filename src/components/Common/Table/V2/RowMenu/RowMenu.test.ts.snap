@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is header row menu should match snapshot 1`] = `
+<button id="row-menu-1--1" class="row-menu row-menu--header">
+  <icon-mono-plus-stub></icon-mono-plus-stub>
+</button>
+`;
+
+exports[`is item row menu should match snapshot 1`] = `
+<button id="row-menu-1--1" class="row-menu row-menu--item">
+  <icon-mono-dots-vertical-stub></icon-mono-dots-vertical-stub>
+</button>
+`;

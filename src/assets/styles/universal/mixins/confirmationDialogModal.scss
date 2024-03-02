@@ -1,0 +1,6 @@
+@mixin confirmation-dialog-modal {
+  &.v--modal-box {
+    box-shadow: 0px 15px 30px rgba(33, 64, 92, .3);
+    border-radius: 5px;
+  }
+}

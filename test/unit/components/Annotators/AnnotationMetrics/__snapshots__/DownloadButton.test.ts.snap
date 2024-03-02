@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when disabled matches snapshot 1`] = `
+<button type="button" disabled="disabled" class="download">
+  <download-icon-stub></download-icon-stub>
+</button>
+`;
+
+exports[`when enabled matches snapshot 1`] = `
+<button type="button" class="download">
+  <download-icon-stub></download-icon-stub>
+</button>
+`;

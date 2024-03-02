@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when disabled matches snapshot 1`] = `
+<div class="tag-applier-input">
+  <div class="vue-tags-input-stub" tags="[object Object]" placeholder="Type in a tag" avoid-adding-duplicates="" disabled="disabled" value=""><input class="ti-new-tag-input">
+    <div class="vue-tags-input-stub__tag-actions">
+      <div>
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when not disabled matches snapshot 1`] = `
+<div class="tag-applier-input">
+  <div class="vue-tags-input-stub" tags="[object Object]" placeholder="Type in a tag" avoid-adding-duplicates="" value=""><input class="ti-new-tag-input">
+    <div class="vue-tags-input-stub__tag-actions">
+      <div><i class="ti-icon-close"></i></div>
+    </div>
+  </div>
+</div>
+`;

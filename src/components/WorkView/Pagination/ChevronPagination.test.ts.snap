@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="pagination" style="min-width: 96px;">
+  <icon-button-stub variant="default" color="transparent" size="mini" flair="super-soft" tag="button" disabled="true" aria-label="previous" class="pagination__button pagination__button pagination__button pagination__button__prev" tooltip="{'content':'Prev (<)','placement':'bottom','classes':'tooltip--chervron-pagination','delay':{'show':300,'hide':300}}">
+    <icon-mono-chevron-stub class="pagination__button__icon"></icon-mono-chevron-stub>
+  </icon-button-stub>
+  <div class="pagination__content"><input type="number" min="1" max="10" step="1" class="pagination__content__input" style="width: 32px;" input-auto-blur="true"> <span class="pagination__content__page-separator">/</span> <span class="pagination__content__page-count">10</span></div>
+  <icon-button-stub variant="default" color="transparent" size="mini" flair="super-soft" tag="button" aria-label="next" class="pagination__button pagination__button pagination__button pagination__button__next" tooltip="{'content':'Next (>)','placement':'bottom','classes':'tooltip--chervron-pagination','delay':{'show':300,'hide':300}}">
+    <icon-mono-chevron-stub class="pagination__button__icon"></icon-mono-chevron-stub>
+  </icon-button-stub>
+</div>
+`;

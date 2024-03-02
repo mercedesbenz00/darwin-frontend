@@ -1,0 +1,223 @@
+/**
+ * Color Definitions
+ **/
+
+// Stages
+$colorStagesArchiveDefault: hsla(0, 80%, 48%, 1);
+$colorStagesArchiveHover: hsla(0, 80%, 40%, 1);
+$colorStagesArchivePressed: hsla(0, 80%, 48%, 1);
+$colorStagesArchivedDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesAnnotateDefault: hsla(225, 64%, 56%, 1);
+$colorStagesAnnotateHover: hsla(225, 64%, 48%, 1);
+$colorStagesAnnotatePressed: hsla(225, 64%, 56%, 1);
+$colorStagesAnnotatedDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesCodeDefault: hsla(30, 100%, 48%, 1);
+$colorStagesCodeHover: hsla(30, 100%, 40%, 1);
+$colorStagesCodePressed: hsla(30, 100%, 48%, 1);
+$colorStagesCodeDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesDatasetDefault: hsla(180, 48%, 48%, 1);
+$colorStagesDatasetHover: hsla(180, 48%, 40%, 1);
+$colorStagesDatasetPressed: hsla(180, 48%, 48%, 1);
+$colorStagesDatasetDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesLogicDefault: hsla(300, 56%, 48%, 1);
+$colorStagesLogicHover: hsla(300, 56%, 40%, 1);
+$colorStagesLogicPressed: hsla(300, 56%, 48%, 1);
+$colorStagesLogicDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesReviewDefault: hsla(45, 100%, 48%, 1);
+$colorStagesReviewHover: hsla(45, 100%, 40%, 1);
+$colorStagesReviewPressed: hsla(45, 100%, 48%, 1);
+$colorStagesReviewDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesModelDefault: hsla(270, 80%, 48%, 1);
+$colorStagesModelHover: hsla(270, 80%, 40%, 1);
+$colorStagesModelPressed: hsla(270, 80%, 48%, 1);
+$colorStagesModelDidabled: hsla(240, 7%, 97%, 1);
+$colorStagesConsensusDefault: hsla(45, 100%, 48%, 1);
+$colorStagesConsensusHover: hsla(45, 100%, 40%, 1);
+$colorStagesConsensusPressed: hsla(45, 100%, 48%, 1);
+$colorStagesConsensusDisabled: hsla(45, 100%, 97%, 1);
+$colorStagesCompleteDefault: hsla(120, 52%, 48%, 1);
+$colorStagesCompleteHover: hsla(120, 52%, 40%, 1);
+$colorStagesCompletePressed: hsla(120, 52%, 48%, 1);
+$colorStagesCompleteDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesDiscardDefault: hsla(0, 80%, 48%, 1);
+$colorStagesDiscardHover: hsla(0, 80%, 40%, 1);
+$colorStagesDiscardPressed: hsla(0, 80%, 48%, 1);
+$colorStagesDiscardDisabled: hsla(240, 7%, 97%, 1);
+$colorStagesWebhookDefault: hsla(210, 8%, 40%, 1);
+$colorStagesWebhookHover: hsla(210, 8%, 32%, 1);
+$colorStagesWebhookPressed: hsla(210, 8%, 40%, 1);
+$colorStagesWebhookDisabled: hsla(240, 7%, 97%, 1);
+
+// Badges
+$colorBadgeLime: hsla(90, 80%, 48%, 1);
+$colorBadgeRedOrange: hsla(15, 100%, 48%, 1);
+$colorBadgeAqua: hsla(180, 48%, 48%, 1);
+$colorBadgeViolet: hsla(240, 64%, 56%, 1);
+$colorBadgeMagenta: hsla(330, 64%, 48%, 1);
+
+// Annotations
+$colorAnnotationsLineRedOrange: hsla(15, 100%, 48%, 1);
+$colorAnnotationsLineYellow: hsla(60, 96%, 48%, 1);
+$colorAnnotationsLineLime: hsla(90, 80%, 48%, 1);
+$colorAnnotationsLineLimeGreen: hsla(105, 64%, 48%, 1);
+$colorAnnotationsLineGreenMint: hsla(135, 56%, 48%, 1);
+$colorAnnotationsLineMint: hsla(150, 48%, 48%, 1);
+$colorAnnotationsLineMintAqua: hsla(180, 48%, 48%, 1);
+$colorAnnotationsLineAqua: hsla(180, 48%, 48%, 1);
+$colorAnnotationsLineAquaBlue: hsla(195, 80%, 48%, 1);
+$colorAnnotationsLineAquaViolet: hsla(240, 64%, 56%, 1);
+$colorAnnotationsLineAquaVioletPurple: hsla(255, 64%, 52%, 1);
+$colorAnnotationsLineAquaPurplePink: hsla(285, 64%, 48%, 1);
+$colorAnnotationsLineAquaPinkMagenta: hsla(315, 64%, 48%, 1);
+$colorAnnotationsLineMagenta: hsla(330, 64%, 48%, 1);
+
+// Content
+$colorContentEmphasis: #131416;
+$colorContentDefault: hsla(212, 8%, 32%, 1);
+$colorContentSecondary: hsla(0, 0%, 48%, 1);
+$colorContentSecondarySurface: hsla(0, 0%, 48%, 0.24);
+$colorContentTertiary: hsla(212, 8%, 76%, 1);
+$colorContentDisabled: hsla(212, 8%, 88%, 1);
+$colorContentInverted: hsla(0, 0%, 100%, 1);
+$colorContentGood: hsla(120, 52%, 48%, 1);
+$colorContentBad: hsla(0, 80%, 48%, 1);
+
+// Surface
+$colorSurfaceBackground: hsla(210, 8%, 94%, 1);
+$colorSurfaceDefault: hsla(0, 0%, 100%, 1);
+$colorSurfaceElevate: hsla(210, 10%, 96%, 1);
+$colorSurfaceRaise: hsla(210, 10%, 92%, 1);
+$colorSurfaceScrim: hsla(0, 0%, 0%, 0.48);
+$colorSurfaceTransparent: rgba(0, 0, 0, 0);
+$colorSurfaceInverted: hsla(210, 10%, 4%, 1);
+$colorSurfaceDarken: hsla(0, 0%, 0%, 0.08);
+$colorSurfaceBackgroundSecondary: hsla(200, 9.7%, 93.9%, 1);
+
+// Status
+$colorStatusPositive: hsla(120, 52%, 48%, 1);
+$colorStatusPositiveHover: hsla(120, 52%, 40%, 1);
+$colorStatusPositiveSurface: hsla(120, 52%, 48%, 0.24);
+$colorStatusWarning: hsla(30, 96%, 48%, 1);
+$colorStatusWarningHover: hsla(30, 96%, 40%, 1);
+$colorStatusWarningSurface: hsla(30, 96%, 48%, 0.24);
+$colorStatusNegative: hsla(0, 80%, 48%, 1);
+$colorStatusNegativeHover: hsla(0, 80%, 40%, 1);
+$colorStatusNegativeSurface: hsla(0, 80%, 48%, 0.24);
+$colorStatusNegativeContent: hsla(0, 80%, 48%, 1);
+$colorStatusInformative: hsla(210, 80%, 48%, 1);
+$colorStatusInformativeHover: hsla(210, 80%, 4%, 1);
+$colorStatusInformativeSurface: hsla(210, 80%, 48%, 0.24);
+
+// Interactive
+$colorInteractivePrimaryDefault: hsla(225, 96%, 56%, 1);
+$colorInteractivePrimaryHover: hsla(225, 96%, 48%, 1);
+$colorInteractivePrimaryPressed: hsla(210, 96%, 56%, 1);
+$colorInteractivePrimaryDisabled: hsla(225, 96%, 48%, 1);
+$colorInteractiveSecondaryDefault: hsla(200, 10%, 94%, 1);
+$colorInteractiveSecondaryHover: hsla(216, 8%, 88%, 1);
+$colorInteractiveSecondaryPressed: hsla(200, 10%, 94%, 1);
+$colorInteractiveSecondaryDisabled: hsla(200, 10%, 88%, 1);
+$colorInteractiveWarningDefault: hsla(30, 96%, 48%, 1);
+$colorInteractiveWarningHover: hsla(30, 96%, 40%, 1);
+$colorInteractiveWarningPressed: hsla(30, 96%, 48%, 1);
+$colorInteractiveWarningDisabled: hsla(30, 96%, 40%, 1);
+$colorInteractiveNegativeDefault: hsla(0, 80%, 48%, 1);
+$colorInteractiveNegativeHover: hsla(0, 80%, 40%, 1);
+$colorInteractiveNegativePressed: hsla(0, 80%, 48%, 1);
+$colorInteractiveNegativeDisabled: hsla(0, 80%, 40%, 1);
+$colorInteractivePositiveDefault: hsla(120, 52%, 48%, 1);
+$colorInteractivePositiveHover: hsla(120, 52%, 40%, 1);
+$colorInteractivePositivePressed: hsla(120, 52%, 48%, 1);
+$colorInteractivePositiveDisabled: hsla(120, 52%, 40%, 1);
+
+// Scrollbar
+$colorScrollbarDefault: hsla(212, 8%, 40%, 0.4);
+$colorScrollbarHover: hsla(212, 8%, 40%, 1);
+
+// Overlay
+$colorOverlayHover: hsla(212, 8%, 12%, 0.04);
+$colorOverlayPressed: hsla(212, 8%, 48%, 0.16);
+$colorOverlayInteractive: hsla(225, 96%, 56%, 0.16);
+
+// Gray
+$colorGray20: hsla(220, 17%, 91%, 1);
+$colorGrayShadow: hsla(200, 7.3%, 92%, 1);
+
+// Neutrals
+$colorNeutrals100: hsla(204, 4%, 96%, 1);
+$colorNeutrals200: hsla(180, 3.2%, 93.9%, 1);
+$colorNeutrals300: hsla(212, 8%, 76%, 1);
+$colorNeutrals500: hsla(206, 3.8%, 64.1%, 1);
+$colorNeutrals600: hsla(204, 4%, 52%, 1);
+$colorNeutrals700: hsla(204, 4%, 40%, 1);
+$colorNeutrals900: hsla(210, 3.9%, 20%, 1);
+$colorNeutralsWhite: hsla(0, 0%, 100%, 1);
+$colorNeutralsLightWhite: #ffffff;
+$colorNeutralsLightBlack: #000000;
+$colorNeutralsLight50: #fafafa;
+$colorNeutralsLight100: #f4f5f5;
+$colorNeutralsLight200: #eff0f0;
+$colorNeutralsLight300: #dfe1e2;
+$colorNeutralsLight400: #caccce;
+$colorNeutralsLight500: #a0a4a7;
+$colorNeutralsLight600: #808689;
+$colorNeutralsLight700: #62676a;
+$colorNeutralsLight800: #45484a;
+$colorNeutralsLight900: #313335;
+
+// Solid
+$colorSolidNegative: hsla(0, 75%, 87%, 1);
+$colorSolidWarning: hsla(30, 88%, 87%, 1);
+$colorSolidPositive: hsla(120, 47%, 87%, 1);
+
+// Dialogs
+$colorBlack8: rgba(0, 0, 0, 0.08);
+$colorBlue50: hsla(220, 40.2%, 40%, 1);
+$colorBlue20: hsla(220, 51.2%, 83.9%, 1);
+$colorTitle: hsla(212, 8%, 32%, 1);
+$colorBorder: hsla(200, 4.9%, 88%, 1);
+$colorFrame: hsla(210, 10%, 96.1%, 1);
+$iconColor: hsla(212, 7.8%, 48%, 1);
+$colorQuote: rgba(240, 122, 5, 0.24);
+
+// Checkbox
+$colorCheckBoxDefault: hsla(220, 100%, 52%, 1);
+$colorCheckBoxHover: hsla(210, 10%, 96.1%, 1);
+$colorCheckBoxActive: hsla(219, 100%, 93.9%, 1);
+$colorCheckBoxFocus: hsla(225, 80.3%, 64.1%, 1);
+
+// Radio
+$colorRadioDefault: hsla(222, 81.1%, 54.3%, 1);
+$colorRadioHover: hsla(220, 100%, 36.1%, 1);
+$colorRadioActive: hsla(219, 100%, 93.9%, 1);
+$colorRadioUncheckedActive: hsla(0, 0%, 98%, 1);
+$colorRadioDisabled: hsla(180, 4.8%, 95.9%, 1);
+$colorRadioFocus: hsla(220, 100%, 63.9%, 1);
+
+// Border
+$colorBorderLight: hsla(200, 5%, 88%, 1);
+$colorBorderLayout: rgba(49, 51, 53, 0.06);
+
+// Stroke
+$colorStrokeStrong: hsla(216, 8%, 88%, 1);
+$colorStrokeRaise: hsla(200, 7%, 92%, 1);
+$colorStrokeElevate: hsla(200, 10%, 94%, 1);
+
+//Icon Button
+$colorIconButtonDefault: rgba(189, 193, 199, 1);
+$colorIconButtonHover: rgba(28, 30, 33, 0.04);
+$colorIconButtonPressed: rgba(113, 122, 132, 0.16);
+
+$colorSemanticAction: hsla(220, 100%, 52%, 1);
+
+// Ghost
+$colorGhostPrimary: hsla(210, 10%, 98%, 1);
+$colorGhostSecondary: hsla(216, 8%, 94%, 1);
+
+//Dataset Card
+$colorCardHover: rgba(28, 30, 33, 0.04);
+$colorCardPressed: rgba(35, 89, 251, 0.16);
+$colorCardTagHover: rgba(83, 86, 88, 0.6);
+
+//Danger icon wrapper
+$colorWarnIconWrapper: rgba(220, 24, 24, 0.16);

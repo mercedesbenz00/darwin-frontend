@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snaphsot 1`] = `
+<div class="annotation-credits">
+  <product-header-stub billinginfo="[object Object]"></product-header-stub>
+  <div class="annotation-credits__body">
+    <div class="annotation-credits__body__current">
+      <current-plan-stub billinginfo="[object Object]"></current-plan-stub>
+      <primary-button-stub class="annotation-credits__body__current__change">
+        Change
+      </primary-button-stub>
+      <div class="annotation-credits__body__current__bonus">
+        Bonus credits: 10
+      </div>
+    </div>
+    <div class="annotation-credits__body__features">
+      <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></feature-list-stub>
+    </div>
+  </div>
+  <edit-plan-modal-stub></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+</div>
+`;
+
+exports[`with bonus credits matches snaphsot 1`] = `
+<div class="annotation-credits">
+  <product-header-stub billinginfo="[object Object]"></product-header-stub>
+  <div class="annotation-credits__body">
+    <div class="annotation-credits__body__current">
+      <current-plan-stub billinginfo="[object Object]"></current-plan-stub>
+      <primary-button-stub class="annotation-credits__body__current__change">
+        Change
+      </primary-button-stub>
+      <div class="annotation-credits__body__current__bonus">
+        Bonus credits: 50
+      </div>
+    </div>
+    <div class="annotation-credits__body__features">
+      <feature-list-stub features="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"></feature-list-stub>
+    </div>
+  </div>
+  <edit-plan-modal-stub></edit-plan-modal-stub>
+  <typeform-modal-stub></typeform-modal-stub>
+  <cancel-plan-confirm-modal-stub></cancel-plan-confirm-modal-stub>
+  <switch-open-datasets-dialog-stub></switch-open-datasets-dialog-stub>
+</div>
+`;

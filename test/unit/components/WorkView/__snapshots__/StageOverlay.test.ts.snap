@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when in "default_auto_complete" worfklow matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--none">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is annotate matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--none">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is annotate when assigned to someone else matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--annotate">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Assigned to Sam
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is annotate when skipped matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--archived">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Discarded
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    Motion Blur
+  </div>
+</div>
+`;
+
+exports[`when in current stage when stage is code matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--code">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Code
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    Custom code is running
+  </div>
+</div>
+`;
+
+exports[`when in current stage when stage is complete matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--complete">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Complete
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is model matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--model">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      AI Model
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    AI Model is running
+  </div>
+</div>
+`;
+
+exports[`when in current stage when stage is review when archived matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--archived">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Reviewing
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    Archived
+  </div>
+</div>
+`;
+
+exports[`when in current stage when stage is review when assigned to someone else matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--review">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Assigned to Sam
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is review when multiple previous stage assignees matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--review">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Reviewing Sam, Jim
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is review when no previous stage assignee matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--review">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Reviewing
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is review when rejected matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--archived">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Reviewing
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    Rejected
+  </div>
+</div>
+`;
+
+exports[`when in current stage when stage is review when single previous stage assignee matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--review">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Reviewing Sam
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in current stage when stage is review when skipped and approved matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--archived">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Reviewing
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    Archived: Motion Blur
+  </div>
+</div>
+`;
+
+exports[`when in future stage matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--time-travel">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Time Travel
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when in past stage matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--time-travel">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Time Travel
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when item archived matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--archived">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+      Archived
+    </div>
+  </div>
+  <div class="stage-overlay__center-label">
+    Motion Blur
+  </div>
+</div>
+`;
+
+exports[`when not in worfklow when in first stage matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--none">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`when not in worfklow when in future stage matches snapshot 1`] = `
+<div class="stage-overlay stage-overlay--none">
+  <div class="stage-overlay__top-label">
+    <overlay-tab-icon-stub class="stage-overlay__top-label__icon"></overlay-tab-icon-stub>
+    <div class="stage-overlay__top-label__text">
+
+    </div>
+  </div>
+  <!---->
+</div>
+`;

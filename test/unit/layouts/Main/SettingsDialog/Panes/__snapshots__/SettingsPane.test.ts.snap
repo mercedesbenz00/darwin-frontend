@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    Random Settings Pane
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body"></div>
+  <div class="settings-pane__footer">
+    <secondary-button-stub type="button" class="settings-pane__cancel">
+      Close
+    </secondary-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when all slots given 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    All Slot Pane
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body">
+    <div class="body-content"></div>
+  </div>
+  <div class="settings-pane__footer">
+    <secondary-button-stub type="button" class="settings-pane__cancel">
+      Close
+    </secondary-button-stub>
+    <div class="footer-content"></div>
+  </div>
+  <div class="default-content"></div>
+</div>
+`;
+
+exports[`matches snapshot when body slot given 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    Body Slot Pane
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body">
+    <div class="body-content"></div>
+  </div>
+  <div class="settings-pane__footer">
+    <secondary-button-stub type="button" class="settings-pane__cancel">
+      Close
+    </secondary-button-stub>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when default slot given 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    Default Slot Pane
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body"></div>
+  <div class="settings-pane__footer">
+    <secondary-button-stub type="button" class="settings-pane__cancel">
+      Close
+    </secondary-button-stub>
+  </div>
+  <div class="default-content"></div>
+</div>
+`;
+
+exports[`matches snapshot when footer disabled 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    Footer Disabled Pane
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body"></div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when footer slot given 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+    Footer Slot Pane
+    <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body"></div>
+  <div class="settings-pane__footer">
+    <secondary-button-stub type="button" class="settings-pane__cancel">
+      Close
+    </secondary-button-stub>
+    <div class="footer-content"></div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when loading 1`] = `
+<div class="settings-pane-wrapper">
+  <div loading-options="[object Object]" class="settings-pane__title" data-min-timeout="200" data-remove="false" data-timeout="false" data-static="true" style="position: relative;">
+    Loading Pane
+    <div class="v-loading v-loading--medium v-loading--grey v-loading--active" style="background-color: rgba(0, 0, 0, 0);">
+      <div class="mul5">
+        <div class="mul5circle1"></div>
+        <div class="mul5circle2"></div>
+        <div class="mul5circle3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="settings-pane__body"></div>
+  <div class="settings-pane__footer">
+    <secondary-button-stub type="button" class="settings-pane__cancel">
+      Close
+    </secondary-button-stub>
+  </div>
+</div>
+`;

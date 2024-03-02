@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreeDotButton UI should match snapshot 1`] = `
+<icon-button-stub variant="big" color="transparent" size="small" flair="super-soft" tag="button" class="three-dot-button">
+  <icon-mono-dots-vertical-stub></icon-mono-dots-vertical-stub>
+</icon-button-stub>
+`;

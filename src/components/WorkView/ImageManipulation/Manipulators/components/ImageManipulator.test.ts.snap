@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with full slots 1`] = `
+<div class="image-manipulation__item">
+  <div class="image-manipulation__item__header"><label class="image-manipulation__item__label">Label slot</label>
+    <!---->
+    <!----> <label class="image-manipulation__item__value">Value slot</label>
+  </div> Others slot <div class="image-manipulation__item__slider">Slider slot</div>
+</div>
+`;
+
+exports[`matches snapshot with refresh listener 1`] = `
+<div class="image-manipulation__item">
+  <div class="image-manipulation__item__header"><label class="image-manipulation__item__label">Label slot</label>
+    <!----> <button class="image-manipulation__item__button--reset">
+      <refresh-icon-stub></refresh-icon-stub>
+    </button>
+    <!---->
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot without slider slot 1`] = `
+<div class="image-manipulation__item">
+  <div class="image-manipulation__item__header"><label class="image-manipulation__item__label">Label slot</label>
+    <!---->
+    <!----> <label class="image-manipulation__item__value">Value slot</label>
+  </div> Others slot
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot without value slot 1`] = `
+<div class="image-manipulation__item">
+  <div class="image-manipulation__item__header"><label class="image-manipulation__item__label">Label slot</label>
+    <!---->
+    <!---->
+    <!---->
+  </div> Others slot <div class="image-manipulation__item__slider">Slider slot</div>
+</div>
+`;

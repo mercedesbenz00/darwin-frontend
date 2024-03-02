@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when action hidden 1`] = `
+<div class="class-filter-item class-filter-item--none class-filter-item--taggable class-filter-item--no-action">
+  <div class="class-filter-item__details">
+    <type-icon-stub type="tag" color="rgba(7,7,7,0.5)" class="class-filter-item__icon"></type-icon-stub> <span class="class-filter-item__label">Tag</span>
+  </div>
+  <!----> <span class="class-filter-item__count">5</span>
+</div>
+`;
+
+exports[`matches snapshot when negative 1`] = `
+<div class="class-filter-item class-filter-item--negative class-filter-item--taggable">
+  <div class="class-filter-item__details">
+    <type-icon-stub type="tag" color="rgba(7,7,7,0.5)" class="class-filter-item__icon"></type-icon-stub> <span class="class-filter-item__label">Tag</span>
+  </div>
+  <div class="class-filter-item__actions">
+    <div class="class-filter-item__action" tooltip="undefined">
+      <positive-button-stub class="class-filter-item__tag">
+        Apply Tag
+      </positive-button-stub>
+    </div>
+    <div class="class-filter-item__action" tooltip="{'content':'Untag','placement':'top'}">
+      <secondary-button-stub class="class-filter-item__untag">
+        ✕
+      </secondary-button-stub>
+    </div>
+  </div> <span class="class-filter-item__count">5</span>
+</div>
+`;
+
+exports[`matches snapshot when none 1`] = `
+<div class="class-filter-item class-filter-item--none class-filter-item--taggable">
+  <div class="class-filter-item__details">
+    <type-icon-stub type="tag" color="rgba(7,7,7,0.5)" class="class-filter-item__icon"></type-icon-stub> <span class="class-filter-item__label">Tag</span>
+  </div>
+  <div class="class-filter-item__actions">
+    <div class="class-filter-item__action" tooltip="undefined">
+      <positive-button-stub class="class-filter-item__tag">
+        Apply Tag
+      </positive-button-stub>
+    </div>
+    <div class="class-filter-item__action" tooltip="{'content':'Untag','placement':'top'}">
+      <secondary-button-stub class="class-filter-item__untag">
+        ✕
+      </secondary-button-stub>
+    </div>
+  </div> <span class="class-filter-item__count">5</span>
+</div>
+`;
+
+exports[`matches snapshot when not taggable 1`] = `
+<div class="class-filter-item class-filter-item--none">
+  <div class="class-filter-item__details">
+    <type-icon-stub type="polygon" color="rgba(4,4,4,0.5)" class="class-filter-item__icon"></type-icon-stub> <span class="class-filter-item__label">Polygon</span>
+  </div>
+  <!----> <span class="class-filter-item__count">1</span>
+</div>
+`;
+
+exports[`matches snapshot when positive 1`] = `
+<div class="class-filter-item class-filter-item--positive class-filter-item--taggable">
+  <div class="class-filter-item__details">
+    <type-icon-stub type="tag" color="rgba(7,7,7,0.5)" class="class-filter-item__icon"></type-icon-stub> <span class="class-filter-item__label">Tag</span>
+  </div>
+  <div class="class-filter-item__actions">
+    <div class="class-filter-item__action" tooltip="undefined">
+      <positive-button-stub class="class-filter-item__tag">
+        Apply Tag
+      </positive-button-stub>
+    </div>
+    <div class="class-filter-item__action" tooltip="{'content':'Untag','placement':'top'}">
+      <secondary-button-stub class="class-filter-item__untag">
+        ✕
+      </secondary-button-stub>
+    </div>
+  </div> <span class="class-filter-item__count">5</span>
+</div>
+`;

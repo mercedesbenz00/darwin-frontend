@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="partner-members">
+  <header-3-stub>
+    Members of Foo
+  </header-3-stub>
+  <read-only-member-stub member="[object Object]"></read-only-member-stub>
+  <read-only-member-stub member="[object Object]"></read-only-member-stub>
+  <read-only-member-stub member="[object Object]"></read-only-member-stub>
+</div>
+`;

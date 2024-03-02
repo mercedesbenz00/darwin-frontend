@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="mobile-buttons" style="left: -199px; top: -49px;">
+  <positive-button-stub size="small">
+    Confirm
+  </positive-button-stub>
+  <secondary-button-stub size="small">
+    Cancel
+  </secondary-button-stub>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="export-button">
+  <secondary-light-button-stub size="medium" class="export-button__button">
+    Export
+  </secondary-light-button-stub>
+  <export-dialog-stub></export-dialog-stub>
+  <post-export-dialog-stub></post-export-dialog-stub>
+  <new-export-dialog-stub></new-export-dialog-stub>
+</div>
+`;
+
+exports[`matches snapshot when primary button 1`] = `
+<div class="export-button">
+  <primary-button-stub size="medium" class="export-button__button">
+    Export
+  </primary-button-stub>
+  <export-dialog-stub></export-dialog-stub>
+  <post-export-dialog-stub></post-export-dialog-stub>
+  <new-export-dialog-stub></new-export-dialog-stub>
+</div>
+`;

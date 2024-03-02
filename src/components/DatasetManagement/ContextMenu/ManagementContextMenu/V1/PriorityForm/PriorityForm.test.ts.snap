@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="priority-form">
+  <div class="priority-form__value priority-form__value-null">
+    -
+  </div>
+  <div class="priority-form__custom"><label class="priority-form__label">Custom</label> <input type="text" class="priority-form__custom-input"></div>
+  <div class="priority-form__range">
+    <div class="priority-form__range__labels"><label class="priority-form__label">Low</label> <label class="priority-form__label">High</label></div>
+    <div class="priority-form__values">
+      <div class="priority-form__value priority-form__value-1">
+        1
+      </div>
+      <div class="priority-form__value priority-form__value-2">
+        2
+      </div>
+      <div class="priority-form__value priority-form__value-3">
+        3
+      </div>
+      <div class="priority-form__value priority-form__value-4">
+        4
+      </div>
+      <div class="priority-form__value priority-form__value-5">
+        5
+      </div>
+    </div>
+  </div>
+</div>
+`;

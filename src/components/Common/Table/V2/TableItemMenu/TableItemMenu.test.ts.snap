@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div class="v-popover-stub" placement="bottom" trigger="click" popover-class="table-item-popover">
+    <div class="main"> </div>
+    <div class="popover">
+      <list-element-v2-stub text="Open"></list-element-v2-stub>
+      <list-element-v2-stub text="Select"></list-element-v2-stub>
+      <div class="list--seperator"></div>
+      <list-element-v2-stub text="Move"></list-element-v2-stub>
+      <list-element-v2-stub text="Assign"></list-element-v2-stub>
+      <list-element-v2-stub text="Set priority"></list-element-v2-stub>
+      <list-element-v2-stub text="Archive"></list-element-v2-stub>
+    </div>
+  </div>
+</div>
+`;

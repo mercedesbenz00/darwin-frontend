@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<table-row-stub tableid="123" row="1" class="table-item__clickable">
+  <table-item-stub tableid="123" col="0" role="button">
+    <div class="checkbox__wrapper">
+      <check-box-v2-stub name="rowSelected" type="rect" size="default"></check-box-v2-stub>
+    </div>
+    <div class="thumbnail__wrapper">
+      <thumbnails-stub data="" max="1" variant="mini"></thumbnails-stub>
+    </div>
+    <p class="data__label">
+      logo-123.png
+    </p>
+  </table-item-stub>
+  <table-item-stub tableid="123" col="1">
+    <status-cell-stub status="new" name="">
+      New
+    </status-cell-stub>
+  </table-item-stub>
+  <table-item-stub tableid="123" col="2">
+    <div class="badge__wrapper"></div>
+  </table-item-stub>
+  <table-item-stub tableid="123" col="3">
+    <p class="row__label">
+      08 / 05 / 22
+    </p>
+  </table-item-stub>
+  <table-item-stub tableid="123" col="4">
+    <p class="row__label">
+      08 / 05 / 22
+    </p>
+  </table-item-stub>
+  <table-item-stub tableid="123" col="5">
+    <p class="row__label">
+      0 B
+    </p>
+  </table-item-stub>
+  <table-item-menu-stub data="[object Object]" class="item-menu"></table-item-menu-stub>
+</table-row-stub>
+`;

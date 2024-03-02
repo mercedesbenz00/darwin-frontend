@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when minimized 1`] = `
+<div loading-options="[object Object]" class="dataset-management__sidebar dataset-management__sidebar--minimized" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+  <div class="dataset-management__sidebar__content">
+    <div>Sidebar Content</div>
+  </div>
+  <div class="dataset-management__sidebar__notch"><img src="/static/imgs/notch.svg" class="dataset-management__sidebar__notch__icon"></div>
+  <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgb(255, 255, 255);">
+    <div class="mul5">
+      <div class="mul5circle1"></div>
+      <div class="mul5circle2"></div>
+      <div class="mul5circle3"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot when sidebar is in the back 1`] = `
+<div loading-options="[object Object]" class="dataset-management__sidebar dataset-management__sidebar--minimized dataset-management__sidebar--back" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+  <div class="dataset-management__sidebar__content">
+    <div>Sidebar Content</div>
+  </div>
+  <div class="dataset-management__sidebar__notch"><img src="/static/imgs/notch.svg" class="dataset-management__sidebar__notch__icon"></div>
+  <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgb(255, 255, 255);">
+    <div class="mul5">
+      <div class="mul5circle1"></div>
+      <div class="mul5circle2"></div>
+      <div class="mul5circle3"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot with default content 1`] = `
+<div loading-options="[object Object]" class="dataset-management__sidebar" data-min-timeout="200" data-remove="true" data-timeout="false" data-static="true" style="position: relative;">
+  <div class="dataset-management__sidebar__content">
+    <div>Sidebar Content</div>
+  </div>
+  <div class="dataset-management__sidebar__notch"><img src="/static/imgs/notch.svg" class="dataset-management__sidebar__notch__icon"></div>
+  <div class="v-loading v-loading--medium v-loading--grey" style="background-color: rgb(255, 255, 255);">
+    <div class="mul5">
+      <div class="mul5circle1"></div>
+      <div class="mul5circle2"></div>
+      <div class="mul5circle3"></div>
+    </div>
+  </div>
+</div>
+`;

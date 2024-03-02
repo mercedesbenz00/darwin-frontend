@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `<teaser-stub title="Create your Account" image="register.png" description="This will be your unique account across any team within V7. <br/>If you are creating a team for work or academia, make sure you use your company or academic email." textalign="left" class="register-teaser"></teaser-stub>`;

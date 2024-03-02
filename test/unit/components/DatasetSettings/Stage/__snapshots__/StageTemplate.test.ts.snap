@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with footer matches snapshot 1`] = `
+<div class="stage stage--headerless">
+  <!---->
+  <div class="stage__body">Body</div>
+  <div class="stage__footer">Footer</div>
+</div>
+`;
+
+exports[`with header and footer matches snapshot 1`] = `
+<div class="stage">
+  <div class="stage__header">Header</div>
+  <div class="stage__body">Body</div>
+  <div class="stage__footer">Footer</div>
+</div>
+`;
+
+exports[`with header matches snapshot 1`] = `
+<div class="stage stage--footerless">
+  <div class="stage__header">Header</div>
+  <div class="stage__body">Body</div>
+  <!---->
+</div>
+`;
+
+exports[`without header and footer matches snapshot 1`] = `
+<div class="stage stage--headerless stage--footerless">
+  <!---->
+  <div class="stage__body">Body</div>
+  <!---->
+</div>
+`;

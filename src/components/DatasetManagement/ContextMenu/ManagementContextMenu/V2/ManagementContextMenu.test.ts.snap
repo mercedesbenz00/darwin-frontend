@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when items individualy selected and user allowed to perform actions matches snapshot 1`] = `
+<fade-transition-stub>
+  <div class="action-bar">
+    <p class="action-bar__label">
+      3 Selected
+    </p>
+    <div class="action-bar__wrapper">
+      <action-bar-select-stub></action-bar-select-stub>
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-assign">
+        <div data-slot="default">
+          Assign
+        </div>
+        <div data-slot="icon">
+          <icon-mono-person-stub variant="default"></icon-mono-person-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-assign-stub></context-menu-popover-assign-stub>
+        </div>
+      </div>
+      <!---->
+      <div data-stub="ActionBarDefault">
+        <div data-slot="default">
+          Stage
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-idle-stub variant="default"></icon-duotone-idle-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-stage-stub></context-menu-popover-stage-stub>
+        </div>
+      </div>
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-folder" context-type="folder">
+        <div data-slot="default">
+          Folder
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-folder-stub></context-menu-popover-folder-stub>
+        </div>
+      </div>
+      <div data-stub="ActionBarDefault" id="action-priority" context-type="priority">
+        <div data-slot="default">
+          Priority
+        </div>
+        <div data-slot="icon">
+          <icon-mono-priority-stub variant="default"></icon-mono-priority-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-priority-stub priority="-1"></context-menu-popover-priority-stub>
+        </div>
+      </div>
+      <action-bar-danger-stub mode="archive" id="action-danger"></action-bar-danger-stub>
+    </div>
+    <delete-confirmation-dialog-stub title="Delete Items?" detail="Are you sure you want to delete 3 items?" buttontext="Delete Items" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+    <delete-confirmation-dialog-stub title="Delete Items?" detail="Are you sure you want to delete 3 items?" buttontext="Delete Items" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+  </div>
+</fade-transition-stub>
+`;
+
+exports[`when nothing is selected matches snapshot 1`] = `
+<fade-transition-stub>
+  <!---->
+</fade-transition-stub>
+`;
+
+exports[`when you have selected archived & non-archived items matches snapshot 1`] = `
+<fade-transition-stub>
+  <div class="action-bar">
+    <p class="action-bar__label">
+      3 Selected
+    </p>
+    <div class="action-bar__wrapper">
+      <action-bar-select-stub></action-bar-select-stub>
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-assign">
+        <div data-slot="default">
+          Assign
+        </div>
+        <div data-slot="icon">
+          <icon-mono-person-stub variant="default"></icon-mono-person-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-assign-stub></context-menu-popover-assign-stub>
+        </div>
+      </div>
+      <!---->
+      <div data-stub="ActionBarDefault">
+        <div data-slot="default">
+          Stage
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-idle-stub variant="default"></icon-duotone-idle-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-stage-stub></context-menu-popover-stage-stub>
+        </div>
+      </div>
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-folder" context-type="folder">
+        <div data-slot="default">
+          Folder
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-folder-stub></context-menu-popover-folder-stub>
+        </div>
+      </div>
+      <div data-stub="ActionBarDefault" id="action-priority" context-type="priority">
+        <div data-slot="default">
+          Priority
+        </div>
+        <div data-slot="icon">
+          <icon-mono-priority-stub variant="default"></icon-mono-priority-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-priority-stub priority="-1"></context-menu-popover-priority-stub>
+        </div>
+      </div>
+      <action-bar-danger-stub mode="archive" id="action-danger"></action-bar-danger-stub>
+    </div>
+    <delete-confirmation-dialog-stub title="Delete Items?" detail="Are you sure you want to delete 3 items?" buttontext="Delete Items" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+    <delete-confirmation-dialog-stub title="Delete Items?" detail="Are you sure you want to delete 3 items?" buttontext="Delete Items" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+  </div>
+</fade-transition-stub>
+`;
+
+exports[`when you have selected archived items matches snapshot 1`] = `
+<fade-transition-stub>
+  <div class="action-bar">
+    <p class="action-bar__label">
+      1 Selected
+    </p>
+    <div class="action-bar__wrapper">
+      <action-bar-select-stub></action-bar-select-stub>
+      <action-bar-restore-stub>
+        <icon-mono-step-stub></icon-mono-step-stub>
+      </action-bar-restore-stub>
+      <!---->
+      <!---->
+      <!---->
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-folder" context-type="folder">
+        <div data-slot="default">
+          Folder
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-folder-stub></context-menu-popover-folder-stub>
+        </div>
+      </div>
+      <div data-stub="ActionBarDefault" id="action-priority" context-type="priority">
+        <div data-slot="default">
+          Priority
+        </div>
+        <div data-slot="icon">
+          <icon-mono-priority-stub variant="default"></icon-mono-priority-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-priority-stub priority="-1"></context-menu-popover-priority-stub>
+        </div>
+      </div>
+      <action-bar-danger-stub mode="delete" id="action-danger"></action-bar-danger-stub>
+    </div>
+    <delete-confirmation-dialog-stub title="Delete Item?" detail="Are you sure you want to delete 1 item?" buttontext="Delete Item" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+    <delete-confirmation-dialog-stub title="Delete Item?" detail="Are you sure you want to delete 1 item?" buttontext="Delete Item" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+  </div>
+</fade-transition-stub>
+`;
+
+exports[`when you have selected processing items matches snapshot 1`] = `
+<fade-transition-stub>
+  <div class="action-bar">
+    <p class="action-bar__label">
+      2 Selected
+    </p>
+    <div class="action-bar__wrapper">
+      <action-bar-select-stub></action-bar-select-stub>
+      <!---->
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-assign-disabled" disabled="disabled" tooltip="{'content':'Cannot assign. Some of the selected items are uploading or processing.'}">
+        <div data-slot="default">
+          Assign
+        </div>
+        <div data-slot="icon">
+          <icon-mono-person-stub variant="default"></icon-mono-person-stub>
+        </div>
+        <div data-slot="popover"></div>
+      </div>
+      <div data-stub="ActionBarDefault">
+        <div data-slot="default">
+          Stage
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-idle-stub variant="default"></icon-duotone-idle-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-stage-stub></context-menu-popover-stage-stub>
+        </div>
+      </div>
+      <!---->
+      <div data-stub="ActionBarDefault" id="action-folder" context-type="folder">
+        <div data-slot="default">
+          Folder
+        </div>
+        <div data-slot="icon">
+          <icon-duotone-view-folder-stub variant="default"></icon-duotone-view-folder-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-folder-stub></context-menu-popover-folder-stub>
+        </div>
+      </div>
+      <div data-stub="ActionBarDefault" id="action-priority" context-type="priority">
+        <div data-slot="default">
+          Priority
+        </div>
+        <div data-slot="icon">
+          <icon-mono-priority-stub variant="default"></icon-mono-priority-stub>
+        </div>
+        <div data-slot="popover">
+          <context-menu-popover-priority-stub priority="-1"></context-menu-popover-priority-stub>
+        </div>
+      </div>
+      <action-bar-danger-stub mode="archive" id="action-danger"></action-bar-danger-stub>
+    </div>
+    <delete-confirmation-dialog-stub title="Delete Items?" detail="Are you sure you want to delete 2 items?" buttontext="Delete Items" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+    <delete-confirmation-dialog-stub title="Delete Items?" detail="Are you sure you want to delete 2 items?" buttontext="Delete Items" cancelbuttontext="No, don't delete" name="delete-items"></delete-confirmation-dialog-stub>
+  </div>
+</fade-transition-stub>
+`;

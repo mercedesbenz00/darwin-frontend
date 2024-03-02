@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading matches snapshot 1`] = `
+<div class="workflow-title">
+  <div class="workflow-title__header">
+    <h1 class="workflow-title__header__title">
+      Workflows
+    </h1>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" disabled="true" to="[object Object]">
+      Create Workflow
+    </custom-button-stub>
+  </div>
+  <div class="workflow-title__filter">
+    <div class="workflow-title__search"></div>
+    <div class="workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when loading should match snapshot 1`] = `
+<div class="workflow-title">
+  <div class="workflow-title__header">
+    <h1 class="workflow-title__header__title">
+      Workflows
+    </h1>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" disabled="true" to="[object Object]">
+      Create Workflow
+    </custom-button-stub>
+  </div>
+  <div class="workflow-title__filter">
+    <div class="workflow-title__search"></div>
+    <div class="workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when not loading matches snapshot 1`] = `
+<div class="workflow-title">
+  <div class="workflow-title__header">
+    <h1 class="workflow-title__header__title">
+      Workflows
+    </h1>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" to="[object Object]">
+      Create Workflow
+    </custom-button-stub>
+  </div>
+  <div class="workflow-title__filter">
+    <div class="workflow-title__search"></div>
+    <div class="workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when not loading should match snapshot 1`] = `
+<div class="workflow-title">
+  <div class="workflow-title__header">
+    <h1 class="workflow-title__header__title">
+      Workflows
+    </h1>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" to="[object Object]">
+      Create Workflow
+    </custom-button-stub>
+  </div>
+  <div class="workflow-title__filter">
+    <div class="workflow-title__search"></div>
+    <div class="workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when used search slot matches snapshot 1`] = `
+<div class="workflow-title">
+  <div class="workflow-title__header">
+    <h1 class="workflow-title__header__title">
+      Workflows
+    </h1>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" disabled="true" to="[object Object]">
+      Create Workflow
+    </custom-button-stub>
+  </div>
+  <div class="workflow-title__filter">
+    <div class="workflow-title__search"></div>
+    <div class="workflow-title__sort"></div>
+  </div>
+</div>
+`;
+
+exports[`when used sort slot matches snapshot 1`] = `
+<div class="workflow-title">
+  <div class="workflow-title__header">
+    <h1 class="workflow-title__header__title">
+      Workflows
+    </h1>
+    <custom-button-stub variant="default" color="primary" size="medium" flair="rounded" tag="router-link" disabled="true" to="[object Object]">
+      Create Workflow
+    </custom-button-stub>
+  </div>
+  <div class="workflow-title__filter">
+    <div class="workflow-title__search"></div>
+    <div class="workflow-title__sort"></div>
+  </div>
+</div>
+`;

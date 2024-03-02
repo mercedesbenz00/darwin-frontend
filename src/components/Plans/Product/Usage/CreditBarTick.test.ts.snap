@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="credit-usage__tick" style="width: 10%; background-color: rgb(244, 154, 71);" tooltip="{'content':'10 Credits used on API call','delay':0,'show':false}">
+  10
+</div>
+`;
+
+exports[`matches snapshot with tooltipe 1`] = `
+<div class="credit-usage__tick credit-usage__tick--hover" style="width: 10%; background-color: rgb(244, 154, 71);" tooltip="{'content':'10 Credits used on API call','delay':0,'show':true}">
+  10
+</div>
+`;

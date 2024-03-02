@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders avatar 1`] = `
+<div class="avatar"><img class="avatar__icon" style="width: 35px; height: 35px; font-size: 14px;">
+  <!---->
+</div>
+`;
+
+exports[`renders initials 1`] = `
+<div class="avatar avatar--initials">
+  <div class="avatar__icon avatar__initials" style="background: rgb(188, 135, 197); width: 35px; height: 35px; font-size: 14px;">
+    A
+  </div>
+  <!---->
+</div>
+`;

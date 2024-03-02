@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when items individualy selected and user allowed to perform actions matches snapshot 1`] = `
+<gallery-context-menu-stub class="management-context-menu">
+  <select-all-context-menu-item-stub></select-all-context-menu-item-stub>
+  <!---->
+  <!---->
+  <archive-context-menu-item-stub dataset="[object Object]" filter="[object Object]" selecteditemcount="2"></archive-context-menu-item-stub>
+  <assign-items-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></assign-items-context-menu-item-stub>
+  <status-context-menu-item-stub></status-context-menu-item-stub>
+  <new-folder-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></new-folder-context-menu-item-stub>
+  <priority-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></priority-context-menu-item-stub>
+</gallery-context-menu-stub>
+`;
+
+exports[`when nothing is selected matches snapshot 1`] = ``;
+
+exports[`when you have selected archived & non-archived items matches snapshot 1`] = `
+<gallery-context-menu-stub class="management-context-menu">
+  <select-all-context-menu-item-stub></select-all-context-menu-item-stub>
+  <!---->
+  <!---->
+  <archive-context-menu-item-stub dataset="[object Object]" filter="[object Object]" selecteditemcount="2"></archive-context-menu-item-stub>
+  <assign-items-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></assign-items-context-menu-item-stub>
+  <status-context-menu-item-stub></status-context-menu-item-stub>
+  <new-folder-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></new-folder-context-menu-item-stub>
+  <priority-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></priority-context-menu-item-stub>
+</gallery-context-menu-stub>
+`;
+
+exports[`when you have selected archived items matches snapshot 1`] = `
+<gallery-context-menu-stub class="management-context-menu">
+  <select-all-context-menu-item-stub></select-all-context-menu-item-stub>
+  <restore-context-menu-item-stub dataset="[object Object]" filter="[object Object]" selecteditemcount="1"></restore-context-menu-item-stub>
+  <delete-context-menu-item-stub dataset="[object Object]" filter="[object Object]" selecteditemcount="1"></delete-context-menu-item-stub>
+  <!---->
+  <!---->
+  <status-context-menu-item-stub></status-context-menu-item-stub>
+  <new-folder-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></new-folder-context-menu-item-stub>
+  <priority-context-menu-item-stub dataset="[object Object]" filter="[object Object]"></priority-context-menu-item-stub>
+</gallery-context-menu-stub>
+`;

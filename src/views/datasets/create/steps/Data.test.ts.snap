@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-create__box dataset-create__box--data">
+  <div class="dataset-create__box-left"><img src="/static/imgs/dataset-step2.png" class="dataset-create__box__step-image">
+    <div class="dataset-create__box__step-writings">
+      <div class="dataset-create__box__step-title">
+        Add Images or Video
+      </div>
+      <div class="dataset-create__box__step-description">
+        Drag and drop images or video on the right, or use a CLI to upload large amounts of data at once. You may skip this step if you wish to set up this dataset prior to loading any image data.
+      </div>
+    </div>
+  </div>
+  <div class="dataset-create__box-right">
+    <div class="dataset-data">
+      <div class="dataset-data__title">
+        Add data to SFH
+      </div>
+      <dropzone-stub dataset="[object Object]" hidetags="true" hidefolder="true" class="dataset-data__drop-zone"></dropzone-stub>
+      <div class="dataset-data__column">
+        <uploadcommands-stub dataset="[object Object]" class="dataset-data__commands"></uploadcommands-stub>
+        <secondarybutton-stub class="dataset-data__pick">
+          Pick existing Dataset
+        </secondarybutton-stub>
+      </div>
+    </div>
+  </div>
+  <videosettingsmodal-stub></videosettingsmodal-stub>
+  <pickdatasetmodal-stub destinationdataset="[object Object]"></pickdatasetmodal-stub>
+</div>
+`;

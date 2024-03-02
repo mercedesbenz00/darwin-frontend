@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when 2fa is enforced matches snapshot with profile unloaded 1`] = `
+<form class="settings-pane" title="Profile">
+  <div class="settings-pane__body">
+    <div class="profile__body">
+      <div class="profile__display">
+        <avatar-upload-stub name="Joe Smith" canupload="true" showchange="true"></avatar-upload-stub>
+        <div class="profile__info">
+          <div class="profile__name">
+            Joe Smith
+          </div> <small class="profile__tips">This profile is your global profile, that is used in any team you are part of.</small>
+          <div class="row">
+            <div class="profile__pair">
+              <div class="profile__key">
+                Account created
+              </div>
+              <div class="profile__value">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__edit">
+        <div class="profile__edit__title">
+          Personal Details
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Joe" label="First Name" name="firstName" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Smith" label="Last Name" name="lastName" autocomplete="family-name" type="text" theme="light"></input-field-stub>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              E-Mail Address
+            </div>
+            <div class="settings_pane__form-input"><span></span></div>
+          </div>
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              Password
+            </div>
+            <div class="settings_pane__form-input">
+              <secondary-button-stub size="small" type="button" class="change__button">
+                CHANGE PASSWORD
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <check-box-stub name="enableTwoFactorAuthentication" value="true" disabled="true" label="Enable two factor authentication" type="rect" size="default"></check-box-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <secondary-button-stub size="small" type="button" class="configure_tfa">
+              CONFIGURE 2FA
+            </secondary-button-stub>
+          </div>
+        </div>
+      </div>
+      <div class="profile__delete"><button type="button" class="profile__delete__title">
+          Delete My Account
+        </button> <br> <small>
+          This will delete all personal datasets, leave all shared datasets,
+          and delete your user account.
+        </small></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete your account" detail="Deleting your account can't be undone later on.
+            Please confirm conscientiously that you want to delete this account." buttontext="DELETE ACCOUNT" name="confirm-delete"></delete-confirmation-dialog-stub>
+  <setup-tfa-modal-stub setuprequired="true"></setup-tfa-modal-stub>
+</form>
+`;
+
+exports[`when 2fa is not enforced disable avatar upload while uploading 1`] = `
+<form class="settings-pane" title="Profile">
+  <div class="settings-pane__body">
+    <div class="profile__body">
+      <div class="profile__display">
+        <avatar-upload-stub src="/thumbnails/foo" name="Joe Smith" canupload="true" showchange="true" disabled="true" loading="true"></avatar-upload-stub>
+        <div class="profile__info">
+          <div class="profile__name">
+            Joe Smith
+          </div> <small class="profile__tips">This profile is your global profile, that is used in any team you are part of.</small>
+          <div class="row">
+            <div class="profile__pair">
+              <div class="profile__key">
+                Account created
+              </div>
+              <div class="profile__value">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__edit">
+        <div class="profile__edit__title">
+          Personal Details
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Joe" label="First Name" name="firstName" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Smith" label="Last Name" name="lastName" autocomplete="family-name" type="text" theme="light"></input-field-stub>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              E-Mail Address
+            </div>
+            <div class="settings_pane__form-input"><span></span></div>
+          </div>
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              Password
+            </div>
+            <div class="settings_pane__form-input">
+              <secondary-button-stub size="small" type="button" class="change__button">
+                CHANGE PASSWORD
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <check-box-stub name="enableTwoFactorAuthentication" label="Enable two factor authentication" type="rect" size="default"></check-box-stub>
+          </div>
+          <!---->
+        </div>
+      </div>
+      <div class="profile__delete"><button type="button" class="profile__delete__title">
+          Delete My Account
+        </button> <br> <small>
+          This will delete all personal datasets, leave all shared datasets,
+          and delete your user account.
+        </small></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit" disabled="true">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete your account" detail="Deleting your account can't be undone later on.
+            Please confirm conscientiously that you want to delete this account." buttontext="DELETE ACCOUNT" name="confirm-delete"></delete-confirmation-dialog-stub>
+  <setup-tfa-modal-stub setuprequired="true"></setup-tfa-modal-stub>
+</form>
+`;
+
+exports[`when 2fa is not enforced matches snapshot with imageless profile 1`] = `
+<form class="settings-pane" title="Profile">
+  <div class="settings-pane__body">
+    <div class="profile__body">
+      <div class="profile__display">
+        <avatar-upload-stub name="Joe Smith" canupload="true" showchange="true"></avatar-upload-stub>
+        <div class="profile__info">
+          <div class="profile__name">
+            Joe Smith
+          </div> <small class="profile__tips">This profile is your global profile, that is used in any team you are part of.</small>
+          <div class="row">
+            <div class="profile__pair">
+              <div class="profile__key">
+                Account created
+              </div>
+              <div class="profile__value">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__edit">
+        <div class="profile__edit__title">
+          Personal Details
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Joe" label="First Name" name="firstName" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Smith" label="Last Name" name="lastName" autocomplete="family-name" type="text" theme="light"></input-field-stub>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              E-Mail Address
+            </div>
+            <div class="settings_pane__form-input"><span></span></div>
+          </div>
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              Password
+            </div>
+            <div class="settings_pane__form-input">
+              <secondary-button-stub size="small" type="button" class="change__button">
+                CHANGE PASSWORD
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <check-box-stub name="enableTwoFactorAuthentication" label="Enable two factor authentication" type="rect" size="default"></check-box-stub>
+          </div>
+          <!---->
+        </div>
+      </div>
+      <div class="profile__delete"><button type="button" class="profile__delete__title">
+          Delete My Account
+        </button> <br> <small>
+          This will delete all personal datasets, leave all shared datasets,
+          and delete your user account.
+        </small></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete your account" detail="Deleting your account can't be undone later on.
+            Please confirm conscientiously that you want to delete this account." buttontext="DELETE ACCOUNT" name="confirm-delete"></delete-confirmation-dialog-stub>
+  <setup-tfa-modal-stub setuprequired="true"></setup-tfa-modal-stub>
+</form>
+`;
+
+exports[`when 2fa is not enforced matches snapshot with profile unloaded 1`] = `
+<form class="settings-pane" title="Profile">
+  <div class="settings-pane__body">
+    <div class="profile__body">
+      <div class="profile__display">
+        <avatar-upload-stub name="Joe Smith" canupload="true" showchange="true"></avatar-upload-stub>
+        <div class="profile__info">
+          <div class="profile__name">
+            Joe Smith
+          </div> <small class="profile__tips">This profile is your global profile, that is used in any team you are part of.</small>
+          <div class="row">
+            <div class="profile__pair">
+              <div class="profile__key">
+                Account created
+              </div>
+              <div class="profile__value">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__edit">
+        <div class="profile__edit__title">
+          Personal Details
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Joe" label="First Name" name="firstName" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Smith" label="Last Name" name="lastName" autocomplete="family-name" type="text" theme="light"></input-field-stub>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              E-Mail Address
+            </div>
+            <div class="settings_pane__form-input"><span></span></div>
+          </div>
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              Password
+            </div>
+            <div class="settings_pane__form-input">
+              <secondary-button-stub size="small" type="button" class="change__button">
+                CHANGE PASSWORD
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <check-box-stub name="enableTwoFactorAuthentication" label="Enable two factor authentication" type="rect" size="default"></check-box-stub>
+          </div>
+          <!---->
+        </div>
+      </div>
+      <div class="profile__delete"><button type="button" class="profile__delete__title">
+          Delete My Account
+        </button> <br> <small>
+          This will delete all personal datasets, leave all shared datasets,
+          and delete your user account.
+        </small></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete your account" detail="Deleting your account can't be undone later on.
+            Please confirm conscientiously that you want to delete this account." buttontext="DELETE ACCOUNT" name="confirm-delete"></delete-confirmation-dialog-stub>
+  <setup-tfa-modal-stub setuprequired="true"></setup-tfa-modal-stub>
+</form>
+`;
+
+exports[`when 2fa is not enforced matches snapshot with profile with image 1`] = `
+<form class="settings-pane" title="Profile">
+  <div class="settings-pane__body">
+    <div class="profile__body">
+      <div class="profile__display">
+        <avatar-upload-stub src="/thumbnails/foo" name="Joe Smith" canupload="true" showchange="true"></avatar-upload-stub>
+        <div class="profile__info">
+          <div class="profile__name">
+            Joe Smith
+          </div> <small class="profile__tips">This profile is your global profile, that is used in any team you are part of.</small>
+          <div class="row">
+            <div class="profile__pair">
+              <div class="profile__key">
+                Account created
+              </div>
+              <div class="profile__value">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__edit">
+        <div class="profile__edit__title">
+          Personal Details
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Joe" label="First Name" name="firstName" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Smith" label="Last Name" name="lastName" autocomplete="family-name" type="text" theme="light"></input-field-stub>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              E-Mail Address
+            </div>
+            <div class="settings_pane__form-input"><span></span></div>
+          </div>
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              Password
+            </div>
+            <div class="settings_pane__form-input">
+              <secondary-button-stub size="small" type="button" class="change__button">
+                CHANGE PASSWORD
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <check-box-stub name="enableTwoFactorAuthentication" label="Enable two factor authentication" type="rect" size="default"></check-box-stub>
+          </div>
+          <!---->
+        </div>
+      </div>
+      <div class="profile__delete"><button type="button" class="profile__delete__title">
+          Delete My Account
+        </button> <br> <small>
+          This will delete all personal datasets, leave all shared datasets,
+          and delete your user account.
+        </small></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete your account" detail="Deleting your account can't be undone later on.
+            Please confirm conscientiously that you want to delete this account." buttontext="DELETE ACCOUNT" name="confirm-delete"></delete-confirmation-dialog-stub>
+  <setup-tfa-modal-stub setuprequired="true"></setup-tfa-modal-stub>
+</form>
+`;
+
+exports[`when 2fa is not enforced when 2fa is enabled matches snapshot 1`] = `
+<form class="settings-pane" title="Profile">
+  <div class="settings-pane__body">
+    <div class="profile__body">
+      <div class="profile__display">
+        <avatar-upload-stub name="Joe Smith" canupload="true" showchange="true"></avatar-upload-stub>
+        <div class="profile__info">
+          <div class="profile__name">
+            Joe Smith
+          </div> <small class="profile__tips">This profile is your global profile, that is used in any team you are part of.</small>
+          <div class="row">
+            <div class="profile__pair">
+              <div class="profile__key">
+                Account created
+              </div>
+              <div class="profile__value">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile__edit">
+        <div class="profile__edit__title">
+          Personal Details
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Joe" label="First Name" name="firstName" autocomplete="given-name" type="text" theme="light"></input-field-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <input-field-stub value="Smith" label="Last Name" name="lastName" autocomplete="family-name" type="text" theme="light"></input-field-stub>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              E-Mail Address
+            </div>
+            <div class="settings_pane__form-input"><span></span></div>
+          </div>
+          <div class="settings_pane__form-group">
+            <div class="settings_pane__form-label">
+              Password
+            </div>
+            <div class="settings_pane__form-input">
+              <secondary-button-stub size="small" type="button" class="change__button">
+                CHANGE PASSWORD
+              </secondary-button-stub>
+            </div>
+          </div>
+        </div>
+        <div class="row--distributed">
+          <div class="settings_pane__form-group">
+            <check-box-stub name="enableTwoFactorAuthentication" label="Enable two factor authentication" type="rect" size="default" value="true"></check-box-stub>
+          </div>
+          <div class="settings_pane__form-group">
+            <secondary-button-stub size="small" type="button" class="configure_tfa">
+              CONFIGURE 2FA
+            </secondary-button-stub>
+          </div>
+        </div>
+      </div>
+      <div class="profile__delete"><button type="button" class="profile__delete__title">
+          Delete My Account
+        </button> <br> <small>
+          This will delete all personal datasets, leave all shared datasets,
+          and delete your user account.
+        </small></div>
+    </div>
+  </div>
+  <div class="settings-pane__footer">
+    <positive-button-stub type="submit">
+      Save
+    </positive-button-stub>
+  </div>
+  <delete-confirmation-dialog-stub title="Please confirm you wish to delete your account" detail="Deleting your account can't be undone later on.
+            Please confirm conscientiously that you want to delete this account." buttontext="DELETE ACCOUNT" name="confirm-delete"></delete-confirmation-dialog-stub>
+  <setup-tfa-modal-stub setuprequired="true"></setup-tfa-modal-stub>
+</form>
+`;

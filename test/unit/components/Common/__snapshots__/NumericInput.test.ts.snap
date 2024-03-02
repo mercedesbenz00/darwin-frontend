@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="numeric-input"><label class="numeric-input__label">Number</label>
+  <div class="numeric-input__controls"><input type="text" class="numeric-input__controls__field">
+    <div class="numeric-input__controls__buttons"><button class="numeric-input__controls__buttons__up">
+        <increment-icon-stub></increment-icon-stub>
+      </button> <button class="numeric-input__controls__buttons__down">
+        <decrement-icon-stub></decrement-icon-stub>
+      </button></div>
+  </div>
+</div>
+`;

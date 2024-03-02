@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="credit"><button class="credit__button">
+    <circle-plus-icon-stub></circle-plus-icon-stub>
+  </button>
+  <modal-stub name="credit--1" delay="0" overlaytransition="overlay-fade" clicktoclose="true" classes="v--modal" minwidth="0" minheight="0" maxwidth="9007199254740991" maxheight="9007199254740991" width="500px" height="auto" pivotx="0.5" pivoty="0.5">
+    <div class="modal__header">
+      <h2 class="modal__header__title">
+        Create annotation credits
+      </h2>
+    </div>
+    <div class="modal__content">
+      <h3 class="credit__title">
+        Select amount of annotation hours to give to V7
+      </h3>
+      <div class="credit__amounts credit__presets">
+        <positive-button-stub>
+          1,000 hours
+        </positive-button-stub>
+        <secondary-button-stub>
+          10,000 hours
+        </secondary-button-stub>
+      </div>
+      <input-field-stub value="1000" label="Custom amount" required="" type="number" theme="dark" class="credit__custom-amount"></input-field-stub>
+      <div class="credit__dates credit__presets">
+        <positive-button-stub tooltip="Expires in a year">
+          Standard
+        </positive-button-stub>
+        <secondary-button-stub tooltip="Expires in two weeks">
+          Trial
+        </secondary-button-stub>
+      </div>
+      <input-field-stub value="2031-01-01" label="Custom date" required="" type="date" theme="dark" class="credit__custom-date"></input-field-stub>
+      <div class="credit__note">
+        <text-area-stub label="Note" theme="dark"></text-area-stub>
+      </div>
+    </div>
+    <div class="modal__footer">
+      <secondary-button-stub>
+        Cancel
+      </secondary-button-stub>
+      <positive-button-stub>
+        Create
+      </positive-button-stub>
+    </div>
+  </modal-stub>
+</div>
+`;

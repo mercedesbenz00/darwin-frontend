@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="member-selection">
+  <div class="member-selection__list">
+    <div class="member-selection__list__content">
+      <div class="member-selection-item">
+        <responsive-team-member-avatar-stub member="[object Object]" class="member-selection-item__avatar"></responsive-team-member-avatar-stub> <span class="member-selection-item__name">Sam Annotator</span>
+      </div>
+      <div class="member-selection-item">
+        <responsive-team-member-avatar-stub member="[object Object]" class="member-selection-item__avatar"></responsive-team-member-avatar-stub> <span class="member-selection-item__name">Jim Annotator</span>
+      </div>
+    </div>
+  </div>
+  <input-field-stub value="" placeholder="Search Annotators" type="text" theme="dark" class="member-selection__search"></input-field-stub>
+</div>
+`;
+
+exports[`matches snapshot when search with keyword 1`] = `
+<div class="member-selection">
+  <div class="member-selection__list">
+    <div class="member-selection__list__content">
+      <div class="member-selection-item">
+        <responsive-team-member-avatar-stub member="[object Object]" class="member-selection-item__avatar"></responsive-team-member-avatar-stub> <span class="member-selection-item__name">Jim Annotator</span>
+      </div>
+    </div>
+  </div>
+  <input-field-stub value="jim" placeholder="Search Annotators" type="text" theme="dark" class="member-selection__search"></input-field-stub>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when ascending 1`] = `
+<button class="sort-button">
+  <sort-arrow-icon-stub class="sort-button__arrow"></sort-arrow-icon-stub>
+</button>
+`;
+
+exports[`matches snapshot when descending 1`] = `
+<button class="sort-button sort-button--reverse">
+  <sort-arrow-icon-stub class="sort-button__arrow"></sort-arrow-icon-stub>
+</button>
+`;
+
+exports[`matches snapshot when inactive 1`] = `
+<button class="sort-button sort-button--inactive">
+  <sort-arrow-icon-stub class="sort-button__arrow"></sort-arrow-icon-stub>
+</button>
+`;

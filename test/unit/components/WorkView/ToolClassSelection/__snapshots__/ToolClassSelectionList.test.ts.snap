@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="tool-class-selection-list">
+  <div class="tool-class-selection-list__search">
+    <search-field-stub value="" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+  </div>
+  <ul class="tool-class-selection-list__items">
+    <tool-class-selection-item-stub annotationclass="[object Object]" highlighted="true" selected="true" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <tool-class-selection-item-stub annotationclass="[object Object]" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <!---->
+  </ul>
+  <tool-class-selection-create-item-stub class="tool-class-selection-list__create"></tool-class-selection-create-item-stub>
+</div>
+`;
+
+exports[`matches snapshot when cannot create class 1`] = `
+<div class="tool-class-selection-list">
+  <div class="tool-class-selection-list__search">
+    <search-field-stub value="" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+  </div>
+  <ul class="tool-class-selection-list__items">
+    <tool-class-selection-item-stub annotationclass="[object Object]" highlighted="true" selected="true" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <tool-class-selection-item-stub annotationclass="[object Object]" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <!---->
+  </ul>
+  <!---->
+</div>
+`;
+
+exports[`matches snapshot when dataset hotkey is set 1`] = `
+<div class="tool-class-selection-list">
+  <div class="tool-class-selection-list__search">
+    <search-field-stub value="" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+  </div>
+  <ul class="tool-class-selection-list__items">
+    <tool-class-selection-item-stub annotationclass="[object Object]" highlighted="true" selected="true" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <tool-class-selection-item-stub annotationclass="[object Object]" hotkey="1" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <!---->
+  </ul>
+  <tool-class-selection-create-item-stub class="tool-class-selection-list__create"></tool-class-selection-create-item-stub>
+</div>
+`;
+
+exports[`rendered nothing when no matching class 1`] = `
+<div class="tool-class-selection-list">
+  <div class="tool-class-selection-list__search">
+    <search-field-stub value="Class test" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+  </div>
+  <ul class="tool-class-selection-list__items">
+    <div class="tool-class-selection-list__no-item">
+      No matched classes
+    </div>
+  </ul>
+  <tool-class-selection-create-item-stub class="tool-class-selection-list__create"></tool-class-selection-create-item-stub>
+</div>
+`;
+
+exports[`rendered searched items 1`] = `
+<div class="tool-class-selection-list">
+  <div class="tool-class-selection-list__search">
+    <search-field-stub value="Class 1" placeholder="Search for classes..." class="classes__header__search__field"></search-field-stub>
+  </div>
+  <ul class="tool-class-selection-list__items">
+    <tool-class-selection-item-stub annotationclass="[object Object]" highlighted="true" selected="true" class="tool-class-selection-list__item"></tool-class-selection-item-stub>
+    <!---->
+  </ul>
+  <tool-class-selection-create-item-stub class="tool-class-selection-list__create"></tool-class-selection-create-item-stub>
+</div>
+`;

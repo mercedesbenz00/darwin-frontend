@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="dataset-export__list dataset-export__single">
+  <v2-dataset-export-version-stub datasetexport="[object Object]" datasetslug="dataset" teamslug="team"></v2-dataset-export-version-stub>
+  <!---->
+</div>
+`;

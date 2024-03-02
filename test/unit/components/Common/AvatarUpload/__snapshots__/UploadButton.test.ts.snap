@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="upload-button">
+  <upload-icon-stub class="upload-button__icon"></upload-icon-stub> <label class="upload-button__label">Upload<br>Avatar</label>
+</div>
+`;

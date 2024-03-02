@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <!---->
+    <!---->
+    <datasets-menu-item-stub></datasets-menu-item-stub>
+    <classes-menu-item-stub></classes-menu-item-stub>
+    <models-menu-item-stub></models-menu-item-stub>
+    <annotators-menu-item-stub></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <feedback-menu-item-stub class="sidebar__menu--pos-bottom"></feedback-menu-item-stub>
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <settings-menu-item-stub class="sidebar__menu--pos-bottom"></settings-menu-item-stub>
+      <!---->
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when annotator in v1 + v2 team matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <!---->
+    <workflows-menu-item-stub></workflows-menu-item-stub>
+    <datasets-menu-item-stub></datasets-menu-item-stub>
+    <classes-menu-item-stub></classes-menu-item-stub>
+    <models-menu-item-stub></models-menu-item-stub>
+    <annotators-menu-item-stub></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <feedback-menu-item-stub class="sidebar__menu--pos-bottom"></feedback-menu-item-stub>
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <settings-menu-item-stub class="sidebar__menu--pos-bottom"></settings-menu-item-stub>
+      <!---->
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when annotator in v1 only team matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <!---->
+    <!---->
+    <datasets-menu-item-stub></datasets-menu-item-stub>
+    <classes-menu-item-stub></classes-menu-item-stub>
+    <models-menu-item-stub></models-menu-item-stub>
+    <annotators-menu-item-stub></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <feedback-menu-item-stub class="sidebar__menu--pos-bottom"></feedback-menu-item-stub>
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <settings-menu-item-stub class="sidebar__menu--pos-bottom"></settings-menu-item-stub>
+      <!---->
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when annotator in v2 only team matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <!---->
+    <workflows-menu-item-stub></workflows-menu-item-stub>
+    <!---->
+    <classes-menu-item-stub></classes-menu-item-stub>
+    <models-menu-item-stub></models-menu-item-stub>
+    <annotators-menu-item-stub></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <feedback-menu-item-stub class="sidebar__menu--pos-bottom"></feedback-menu-item-stub>
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <settings-menu-item-stub class="sidebar__menu--pos-bottom"></settings-menu-item-stub>
+      <!---->
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when regular team member matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <!---->
+    <!---->
+    <datasets-menu-item-stub></datasets-menu-item-stub>
+    <classes-menu-item-stub></classes-menu-item-stub>
+    <models-menu-item-stub></models-menu-item-stub>
+    <annotators-menu-item-stub></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <feedback-menu-item-stub class="sidebar__menu--pos-bottom"></feedback-menu-item-stub>
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <settings-menu-item-stub class="sidebar__menu--pos-bottom"></settings-menu-item-stub>
+      <!---->
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when superuser matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <!---->
+    <!---->
+    <datasets-menu-item-stub></datasets-menu-item-stub>
+    <classes-menu-item-stub></classes-menu-item-stub>
+    <models-menu-item-stub></models-menu-item-stub>
+    <annotators-menu-item-stub></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <feedback-menu-item-stub class="sidebar__menu--pos-bottom"></feedback-menu-item-stub>
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <settings-menu-item-stub class="sidebar__menu--pos-bottom"></settings-menu-item-stub>
+      <administration-menu-item-stub class="sidebar__menu--pos-bottom"></administration-menu-item-stub>
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`when unauthorized user for open dataset mode matches snapshot 1`] = `
+<div class="sidebar" style="z-index: 999;">
+  <sidebar-header-stub></sidebar-header-stub>
+  <div class="sidebar__menus">
+    <custom-button-stub variant="default" color="secondary" size="medium" flair="rounded" tag="button" class="sidebar__redirect-btn">
+      Sign up to import
+    </custom-button-stub>
+    <!---->
+    <datasets-menu-item-stub disabled="true"></datasets-menu-item-stub>
+    <classes-menu-item-stub disabled="true"></classes-menu-item-stub>
+    <!---->
+    <annotators-menu-item-stub disabled="true"></annotators-menu-item-stub>
+  </div>
+  <div class="sidebar__bottom">
+    <div class="sidebar__menus">
+      <!---->
+      <academy-menu-item-stub class="sidebar__menu--pos-bottom"></academy-menu-item-stub>
+      <documentation-menu-item-stub class="sidebar__menu--pos-bottom"></documentation-menu-item-stub>
+      <add-a-client-menu-item-stub class="sidebar__menu--pos-bottom"></add-a-client-menu-item-stub>
+      <!---->
+      <!---->
+    </div>
+    <div class="sidebar__bottom__footer"><a href="https://v7labs.com/" rel="noreferrer noopener" target="_blank">
+        <icon-v7-logo-stub class="sidebar__bottom__footer__logo"></icon-v7-logo-stub>
+      </a>
+      <div class="sidebar__bottom__footer__collapse">
+        <icon-mono-collapse-left-stub></icon-mono-collapse-left-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

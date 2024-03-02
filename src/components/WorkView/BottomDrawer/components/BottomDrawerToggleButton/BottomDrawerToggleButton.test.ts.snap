@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with default props 1`] = `
+<div class="bottom-drawer__toggle"><button class="bottom-drawer__toggle__button has-tooltip" data-original-title="null">
+    <toggle-chevron-icon-stub class="bottom-drawer__toggle__button__icon"></toggle-chevron-icon-stub>
+  </button></div>
+`;

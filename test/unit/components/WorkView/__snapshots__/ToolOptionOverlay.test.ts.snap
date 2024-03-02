@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with no text renders nothing 1`] = ``;
+
+exports[`with overlay text matches snapshot 1`] = `<div class="tool-option-overlay"><span>Workview Overlay Text</span></div>`;

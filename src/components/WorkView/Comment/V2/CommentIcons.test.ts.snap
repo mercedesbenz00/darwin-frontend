@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when no threads matches snapshot 1`] = `<div class="comment-icons"></div>`;
+
+exports[`when some threads matches snapshot 1`] = `
+<div class="comment-icons">
+  <comment-thread-icon-stub threadid="thread-1-id" viewid="fake-view-uuid"></comment-thread-icon-stub>
+  <comment-thread-icon-stub threadid="thread-2-id" viewid="fake-view-uuid"></comment-thread-icon-stub>
+</div>
+`;

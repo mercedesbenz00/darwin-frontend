@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot on blank stats 1`] = `<spaced-donut-chart-stub data="[object Object],[object Object],[object Object]" text="N/A" subtext="Overall Progress"></spaced-donut-chart-stub>`;
+
+exports[`matches snapshot on loaded stats 1`] = `<spaced-donut-chart-stub data="[object Object],[object Object],[object Object]" text="30.6%" subtext="Overall Progress"></spaced-donut-chart-stub>`;

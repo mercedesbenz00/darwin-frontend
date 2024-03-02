@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when active matches snapshot 1`] = `
+<div class="action-bar-el__wrapper">
+  <div data-stub="action-bar-element" type="default" disabled="disabled" id="action-bar-el" class="action-bar-el-disabled">
+    <div data-slot="prefix">icon-slot</div>
+    <div data-slot="default">default-slot</div>
+  </div> popover-slot
+</div>
+`;
+
+exports[`when active when disabled matches snapshot 1`] = `
+<div class="action-bar-el__wrapper">
+  <div data-stub="action-bar-element" type="default" disabled="disabled" id="action-bar-el" class="action-bar-el-disabled">
+    <div data-slot="prefix">icon-slot</div>
+    <div data-slot="default">default-slot</div>
+  </div> popover-slot
+</div>
+`;
+
+exports[`when inactive matches snapshot 1`] = `
+<div class="action-bar-el__wrapper">
+  <div data-stub="action-bar-element" type="default" id="action-bar-el" class="">
+    <div data-slot="prefix">icon-slot</div>
+    <div data-slot="default">default-slot</div>
+  </div> popover-slot
+</div>
+`;
+
+exports[`when inactive when disabled matches snapshot 1`] = `
+<div class="action-bar-el__wrapper">
+  <div data-stub="action-bar-element" type="default" disabled="disabled" id="action-bar-el" class="action-bar-el-disabled">
+    <div data-slot="prefix">icon-slot</div>
+    <div data-slot="default">default-slot</div>
+  </div> popover-slot
+</div>
+`;
